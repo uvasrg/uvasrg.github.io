@@ -1,0 +1,635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Mirrored from www.jeffersonswheel.org/category/secure-computation/page/3 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Dec 2018 01:29:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Jefferson&#039;s Wheel   &raquo; Secure Computation</title>
+
+	<link rel="stylesheet" href="../../../wp-content/themes/whiteasmilk/style1.css" type="text/css" media="screen" />
+<link rel="icon" type="image/ico" href="http://www.cs.virginia.edu/evans/blog/favicon.ico"/>	
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="../../../feed" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="../../../feed" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="../../../feed/atom" />
+	<link rel="pingback" href="../../../xmlrpc.php" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600' rel='stylesheet' type='text/css'>
+		<link rel='archives' title='October 2018' href='../../../2018/10.html' />
+	<link rel='archives' title='September 2018' href='../../../2018/09.html' />
+	<link rel='archives' title='August 2018' href='../../../2018/08.html' />
+	<link rel='archives' title='July 2018' href='../../../2018/07.html' />
+	<link rel='archives' title='May 2018' href='../../../2018/05.html' />
+	<link rel='archives' title='February 2018' href='../../../2018/02.html' />
+	<link rel='archives' title='December 2017' href='../../../2017/12.html' />
+	<link rel='archives' title='November 2017' href='../../../2017/11.html' />
+	<link rel='archives' title='September 2017' href='../../../2017/09.html' />
+	<link rel='archives' title='August 2017' href='../../../2017/08.html' />
+	<link rel='archives' title='July 2017' href='../../../2017/07.html' />
+	<link rel='archives' title='June 2017' href='../../../2017/06.html' />
+	<link rel='archives' title='April 2017' href='../../../2017/04.html' />
+	<link rel='archives' title='March 2017' href='../../../2017/03.html' />
+	<link rel='archives' title='January 2017' href='../../../2017/01.html' />
+	<link rel='archives' title='December 2016' href='../../../2016/12.html' />
+	<link rel='archives' title='November 2016' href='../../../2016/11.html' />
+	<link rel='archives' title='October 2016' href='../../../2016/10.html' />
+	<link rel='archives' title='August 2016' href='../../../2016/08.html' />
+	<link rel='archives' title='July 2016' href='../../../2016/07.html' />
+	<link rel='archives' title='June 2016' href='../../../2016/06.html' />
+	<link rel='archives' title='May 2016' href='../../../2016/05.html' />
+	<link rel='archives' title='April 2016' href='../../../2016/04.html' />
+	<link rel='archives' title='March 2016' href='../../../2016/03.html' />
+	<link rel='archives' title='February 2016' href='../../../2016/02.html' />
+	<link rel='archives' title='December 2015' href='../../../2015/12.html' />
+	<link rel='archives' title='November 2015' href='../../../2015/11.html' />
+	<link rel='archives' title='August 2015' href='../../../2015/08.html' />
+	<link rel='archives' title='June 2015' href='../../../2015/06.html' />
+	<link rel='archives' title='May 2015' href='../../../2015/05.html' />
+	<link rel='archives' title='April 2015' href='../../../2015/04.html' />
+	<link rel='archives' title='March 2015' href='../../../2015/03.html' />
+	<link rel='archives' title='February 2015' href='../../../2015/02.html' />
+	<link rel='archives' title='January 2015' href='../../../2015/01.html' />
+	<link rel='archives' title='November 2014' href='../../../2014/11.html' />
+	<link rel='archives' title='October 2014' href='../../../2014/10.html' />
+	<link rel='archives' title='September 2014' href='../../../2014/09.html' />
+	<link rel='archives' title='May 2014' href='../../../2014/05.html' />
+	<link rel='archives' title='April 2014' href='../../../2014/04.html' />
+	<link rel='archives' title='February 2014' href='../../../2014/02.html' />
+	<link rel='archives' title='January 2014' href='../../../2014/01.html' />
+	<link rel='archives' title='November 2013' href='../../../2013/11.html' />
+	<link rel='archives' title='October 2013' href='../../../2013/10.html' />
+	<link rel='archives' title='June 2013' href='../../../2013/06.html' />
+	<link rel='archives' title='May 2013' href='../../../2013/05.html' />
+	<link rel='archives' title='April 2013' href='../../../2013/04.html' />
+	<link rel='archives' title='March 2013' href='../../../2013/03.html' />
+	<link rel='archives' title='February 2013' href='../../../2013/02.html' />
+	<link rel='archives' title='August 2012' href='../../../2012/08.html' />
+	<link rel='archives' title='July 2012' href='../../../2012/07.html' />
+	<link rel='archives' title='March 2012' href='../../../2012/03.html' />
+	<link rel='archives' title='February 2012' href='../../../2012/02.html' />
+	<link rel='archives' title='January 2012' href='../../../2012/01.html' />
+	<link rel='archives' title='December 2011' href='../../../2011/12.html' />
+	<link rel='archives' title='November 2011' href='../../../2011/11.html' />
+	<link rel='archives' title='October 2011' href='../../../2011/10.html' />
+	<link rel='archives' title='September 2011' href='../../../2011/09.html' />
+	<link rel='archives' title='August 2011' href='../../../2011/08.html' />
+	<link rel='archives' title='July 2011' href='../../../2011/07.html' />
+	<link rel='archives' title='June 2011' href='../../../2011/06.html' />
+	<link rel='archives' title='May 2011' href='../../../2011/05.html' />
+	<link rel='archives' title='April 2011' href='../../../2011/04.html' />
+	<link rel='archives' title='March 2011' href='../../../2011/03.html' />
+	<link rel='archives' title='February 2011' href='../../../2011/02.html' />
+	<link rel='archives' title='December 2010' href='../../../2010/12.html' />
+	<link rel='archives' title='November 2010' href='../../../2010/11.html' />
+	<link rel='archives' title='September 2010' href='../../../2010/09.html' />
+	<link rel='archives' title='May 2010' href='../../../2010/05.html' />
+	<link rel='archives' title='April 2010' href='../../../2010/04.html' />
+	<link rel='archives' title='February 2010' href='../../../2010/02.html' />
+	<link rel='archives' title='December 2009' href='../../../2009/12.html' />
+	<link rel='archives' title='September 2009' href='../../../2009/09.html' />
+	<link rel='archives' title='July 2009' href='../../../2009/07.html' />
+	<link rel='archives' title='May 2009' href='../../../2009/05.html' />
+	<link rel='archives' title='April 2009' href='../../../2009/04.html' />
+	<link rel='archives' title='March 2009' href='../../../2009/03.html' />
+	<link rel='archives' title='February 2009' href='../../../2009/02.html' />
+	<link rel='archives' title='January 2009' href='../../../2009/01.html' />
+	<link rel='archives' title='December 2008' href='../../../2008/12.html' />
+	<link rel='archives' title='November 2008' href='../../../2008/11.html' />
+	<link rel='archives' title='October 2008' href='../../../2008/10.html' />
+	<link rel='archives' title='September 2008' href='../../../2008/09.html' />
+	<link rel='archives' title='July 2008' href='../../../2008/07.html' />
+	<link rel='archives' title='June 2008' href='../../../2008/06.html' />
+	<link rel='archives' title='May 2008' href='../../../2008/05.html' />
+	<link rel='archives' title='April 2008' href='../../../2008/04.html' />
+	<link rel='archives' title='March 2008' href='../../../2008/03.html' />
+	<link rel='archives' title='February 2008' href='../../../2008/02.html' />
+	<link rel='archives' title='January 2008' href='../../../2008/01.html' />
+	<link rel="alternate" type="application/rss+xml" title="Jefferson&#039;s Wheel &raquo; Secure Computation Category Feed" href="../feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+</head>
+<body>
+
+<div id="page">
+<div id="header">
+<table>
+<tr>
+<td valign="middle">
+<a href="../../../images/jwlogo.jpg"><img align="left" width="320" height="193"
+     src="../../../images/jwlogo-small.jpg" alt="SRG Logo"></a>
+</td>
+<td valign="middle">
+	<h1><a href="../../../index.html">Jefferson&#039;s Wheel</a></h1>
+	<p id="blog_description">Security Research at the University of Virginia</p>
+</td>
+</tr>
+</table>
+	
+</div>
+<hr class="hrhide" />
+
+	<div id="content" class="narrowcolumn">
+
+		
+		 				
+		<h2 class="pagetitle">Archive for the 'Secure Computation' Category</h2>
+		
+ 	  
+
+		<div class="navigation">
+			<div class="alignleft"><a href="2.html" >&laquo; Previous Page</a> &#8212; <a href="4.html" >&laquo; Previous Entries</a></div>
+			<div class="alignright"><a href="2.html" >Next Entries &raquo;</a> &#8212; <a href="4.html" >Next Page &raquo;</a></div>
+		</div>
+
+				<div class="post">
+				<h3 id="post-416"><a href="../../../2012/university-of-richmond-talk.html" rel="bookmark" title="Permanent Link to University of Richmond Talk">University of Richmond Talk</a></h3>
+				<small>Monday, January 30th, 2012</small>
+				
+				<div class="entry">
+					<p>
+I gave a talk today at the University of Richmond on secure computation, targeted to a general audience. [<a href="http://calendar.richmond.edu/EventList.aspx?fromdate=1/30/2012&amp;todate=2/12/2012&amp;display=Month&amp;type=public&amp;eventidn=1830&amp;view=EventDetails&amp;information_id=6511">Richmond Abstract Page</a>]
+</p>
+<p><center><br />
+<b>Abstract</b><br />
+</center></p>
+<p>
+Two-party secure computation allows two parties to compute a function that depends on inputs from both parties, but reveals nothing except the output of the function. A general solution to this problem have been known since Andrew Yao&#8217;s pioneering work on garbled circuits in the 1980s, but only recently has it become conceivable to use this approach in real systems. This talk will provide an introduction to secure computation, and describe the work we are doing at UVa to make secure computation efficient and scalable enough to build real applications. The talk assumes no prior background in cryptography, and should be understandable all computing students.
+</p>
+<p>
+Slides: [<a href="http://www.cs.virginia.edu/evans/talks/richmond2012/richmond.pdf">PDF</a>] [<a href="http://www.cs.virginia.edu/evans/talks/richmond2012/richmond.pptx">PPTX</a>]<br />
+<center></p>
+<div style="width:425px" id="__ss_11343743"><center> <strong<br />
+style="display:block;margin:12px 0 4px"><a<br />
+href="http://www.slideshare.net/DavidEvansUVa/computing-cooperatively-with-people-you-dont-trust"<br />
+title="Computing Cooperatively with People You Don&#39;t Trust"<br />
+target="_blank">Computing Cooperatively with People You Don&#39;t<br />
+Trust</a></strong> <iframe<br />
+src="http://www.slideshare.net/slideshow/embed_code/11343743"<br />
+width="425" height="355" frameborder="0" marginwidth="0"<br />
+marginheight="0" scrolling="no"></iframe> </center> </div>
+<p></center>
+</p>
+<p>
+For more, see: <a href="http://www.mightbeevil.com/"><em>MightBeEvil.com</em></a></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a>, <a href="../../talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2012/university-of-richmond-talk"
+    dc:identifier="https://www.jeffersonswheel.org/2012/university-of-richmond-talk"
+    dc:title="University of Richmond Talk"
+    trackback:ping="https://www.jeffersonswheel.org/2012/university-of-richmond-talk/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-407"><a href="../../../2011/iciss-keynote.html" rel="bookmark" title="Permanent Link to ICISS Keynote">ICISS Keynote</a></h3>
+				<small>Saturday, December 31st, 2011</small>
+				
+				<div class="entry">
+					<p>I gave a keynote talk on our <a href="http://www.mightbeevil.com/">secure computation work</a> at the <a href="http://www.iciss.org.in/"><em>Seventh International Conference on Information Systems Security</em></a> (ICISS) in Jadavpur University, Kolkata, India.  17 December 2011.
+</p>
+<p><center><br />
+<img src="https://lh5.googleusercontent.com/-Oj6bCQIF4LE/TvPcJWXAUsI/AAAAAAAAANo/4Z0YOANkzTM/s640/IMG_1610.jpg" width=450><br />
+<a href="https://picasaweb.google.com/114975801512009922265/ICISS?authkey=Gv1sRgCLSdxYCCu_XtsgE"><b>More Photos</b></a><br />
+</center>
+</p>
+<p>
+Talk Slides:&nbsp;[<a href="http://www.cs.virginia.edu/evans/talks/iciss2011/iciss.pptx">PPTX</a>]&nbsp;[<a href="http://www.cs.virginia.edu/evans/talks/iciss2011/iciss.pdf">PDF</a>]</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="../../secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a>, <a href="../../talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2011/iciss-keynote"
+    dc:identifier="https://www.jeffersonswheel.org/2011/iciss-keynote"
+    dc:title="ICISS Keynote"
+    trackback:ping="https://www.jeffersonswheel.org/2011/iciss-keynote/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-379"><a href="../../../2011/private-set-intersection.html" rel="bookmark" title="Permanent Link to Private Set Intersection">Private Set Intersection</a></h3>
+				<small>Tuesday, November 29th, 2011</small>
+				
+				<div class="entry">
+					<p>Our paper on using generic garbled circuits to perform <em>private set intersection</em> is now available: </p>
+<div class="indented">
+Yan Huang, David Evans, and Jonathan Katz.  <em><a href="http://www.cs.virginia.edu/evans/pubs/ndss2012/">Private Set Intersection: Are Garbled Circuits Better than Custom Protocols?</a></em>.  In<br />
+<a href="http://www.isoc.org/isoc/conferences/ndss/12/"><em>19<sup>th</sup> Network and Distributed Security Symposium</em></a> (NDSS 2012), San Diego, CA.  5-8 February 2012. [<a href="http://www.cs.virginia.edu/evans/pubs/ndss2012/ndss2012/psi.pdf">PDF</a>, 15 pages]
+</div>
+</p>
+<p>
+The paper develops three circuit designs for securely computing the intersection of two sets, where each set is the private input from one protocol participant.  We show that for many scenarios, protocols built using only generic garbled circuit secure computation techniques can be competitive with the best custom-designed protocols for private set intersection.
+</p>
+<p><center><br />
+<a href="http://www.cs.virginia.edu/~evans/pictures/sandiego04/"><img src="http://www.cs.virginia.edu/~evans/pictures/sandiego04/thumb-P1010104.JPG" width=350 border=0></a><br />
+</center></p>
+<p>
+Yan Huang will present the paper at NDSS in San Diego, in February 2012.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2011/private-set-intersection"
+    dc:identifier="https://www.jeffersonswheel.org/2011/private-set-intersection"
+    dc:title="Private Set Intersection"
+    trackback:ping="https://www.jeffersonswheel.org/2011/private-set-intersection/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-374"><a href="../../../2011/efficient-secure-computation-with-garbled-circuits.html" rel="bookmark" title="Permanent Link to Efficient Secure Computation with Garbled Circuits">Efficient Secure Computation with Garbled Circuits</a></h3>
+				<small>Saturday, November 19th, 2011</small>
+				
+				<div class="entry">
+					<p>Our paper on <a href="http://www.cs.virginia.edu/~evans/pubs/iciss2011/"><em>Efficient Secure Computation with Garbled Circuits</em></a> (by Yan Huang, Chih-hao Shen, David Evans, Jonathan Katz, and abhi shelat) is now available (<a href="http://www.cs.virginia.edu/~evans/pubs/iciss2011/">Abstract</a>, Paper [<a href="http://www.cs.virginia.edu/evans/pubs/iciss2011/iciss2011.pdf">PDF</a>, 21 pages]).
+</p>
+<p>
+The paper is connected with a keynote talk I will give at the <a href="http://www.iciss.org.in/default.htm"><em>Seventh International Conference on Information Systems Security</em></a> (ICISS 2011) in Kolkata (previously known as Calcutta), India on 17 December 2011.
+</p>
+<p>
+<b>Abstract.</b>  Secure two-party computation enables applications in which participants compute the output of a function that depends on their private inputs, without revealing those inputs or relying on any trusted third party.  In this paper, we show the potential of building privacy-preserving applications using garbled circuits, a generic technique that until recently was believed to be too inefficient to scale to realistic problems. We present a Java-based framework that uses pipelining and circuit-level optimizations to build efficient and scalable privacy-preserving applications.  Although the standard garbled circuit protocol assumes a very week, honest-but-curious adversary, techniques are available for converting such protocols to resist stronger adversaries, including fully malicious adversaries.  We summarize approaches to producing malicious-resistant secure computations that reduce the costs of transforming a protocol to be secure against stronger adversaries.  In addition, we summarize results on ensuring <em>fairness</em>, the property that either both parties receive the result or neither party does.  Several open problems remain, but as theory and pragmatism advance, secure computation is approaching the point where it offers practical solutions for a wide variety of important problems.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2011/efficient-secure-computation-with-garbled-circuits"
+    dc:identifier="https://www.jeffersonswheel.org/2011/efficient-secure-computation-with-garbled-circuits"
+    dc:title="Efficient Secure Computation with Garbled Circuits"
+    trackback:ping="https://www.jeffersonswheel.org/2011/efficient-secure-computation-with-garbled-circuits/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-360"><a href="../../../2011/nyu-poly-att-applied-security-paper-finalist.html" rel="bookmark" title="Permanent Link to NYU-Poly AT&#038;T Applied Security Paper Finalist">NYU-Poly AT&#038;T Applied Security Paper Finalist</a></h3>
+				<small>Thursday, October 27th, 2011</small>
+				
+				<div class="entry">
+					<p>Yan Huang has been selected as a finalist for the <a href="http://www.poly.edu/csaw2011/csaw-research"><em>NYU-Poly AT&#038;T Best Applied Security Paper Award</em></a> for the paper, <a href="http://www.cs.virginia.edu/~evans/pubs/usenix2011/"><em>Faster Secure Two-Party Computation Using Garbled Circuits</em></a> (USENIX Security 2011, co-authored with David Evans, Jonathan Katz, and Lior Malka).  The award recognizes the best paper on applied security in any venue between September 1, 2010 and August 31, 2011.
+</p>
+<p>
+The award will be announced at a ceremony as part of the <a href="http://www.poly.edu/events/2011/11/10/csaw-finals-and-awards-ceremony">CSAW Cybersecurity Competition</a> in New York on 11 November.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../awards.html" title="View all posts in Awards" rel="category tag">Awards</a>, <a href="../../conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2011/nyu-poly-att-applied-security-paper-finalist"
+    dc:identifier="https://www.jeffersonswheel.org/2011/nyu-poly-att-applied-security-paper-finalist"
+    dc:title="NYU-Poly AT&#038;T Applied Security Paper Finalist"
+    trackback:ping="https://www.jeffersonswheel.org/2011/nyu-poly-att-applied-security-paper-finalist/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-344"><a href="../../../2011/uva-today-story-on-secure-computation.html" rel="bookmark" title="Permanent Link to UVa Today Story on Secure Computation">UVa Today Story on Secure Computation</a></h3>
+				<small>Friday, October 14th, 2011</small>
+				
+				<div class="entry">
+					<p><em>UVa Today</em> has a story about our <a href="http://www.securecomputation.org/">secure computation</a> project: <a href="http://www.virginia.edu/uvatoday/newsRelease.php?id=16340#"><em>U.Va. Team Awarded $3 Million NSF Secure Computation Grant</em></a>, Fariss Samarrai, UVa Today, 14 October 2011.
+</p>
+<p><center><br />
+<a href="../../../images/yanabhidave.png"><img src="../../../images/yanabhidave-small.png" width=525 height=350></a></p>
+<p align="right"><font color="gray">Photo: Cole Geddy</font></p>
+<p></center></p>
+<blockquote><p>
+<em><br />
+&#8220;Secure computation is the idea that you can have two people compute a function that depends on things that each one knows individually and wants to keep private without exposing their private data to the other person, or to anyone else,&#8221; Evans said.
+</p>
+<p>
+The research has applications in everyday life, from private medical information, such as personal genomics, to privacy-preserving face recognition and electronic commerce.
+</p>
+<p>
+As a simple example of how it works, consider two people who each have smartphones with personal address books. They would like to know if they know any of the same people by comparing their address books. But, they may not want to share their address books, which include potentially sensitive private information. So how can they find the common entries, without revealing anything about their other contacts?<br />
+</em></p>
+<p>
+<a href="http://www.virginia.edu/uvatoday/newsRelease.php?id=16340#">Read More &#8230;</a>
+</p></blockquote>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../news.html" title="View all posts in News" rel="category tag">News</a>, <a href="../../privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a>, <a href="../../smartphones.html" title="View all posts in Smartphones" rel="category tag">Smartphones</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2011/uva-today-story-on-secure-computation"
+    dc:identifier="https://www.jeffersonswheel.org/2011/uva-today-story-on-secure-computation"
+    dc:title="UVa Today Story on Secure Computation"
+    trackback:ping="https://www.jeffersonswheel.org/2011/uva-today-story-on-secure-computation/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-341"><a href="../../../2011/auditing-information-leakage-talk.html" rel="bookmark" title="Permanent Link to Auditing Information Leakage Talk">Auditing Information Leakage Talk</a></h3>
+				<small>Tuesday, October 11th, 2011</small>
+				
+				<div class="entry">
+					<p>Yikan Chen presented his work on <a href="http://www.cs.virginia.edu/~evans/pubs/passat2011/"><em>Auditing Information Leakage for Distance Metrics</em></a> at the <a href="http://www.iisocialcom.org/conference/passat2011/index.html"><em>Third IEEE Conference on Privacy, Security, Risk and Trust</em></a> today.
+</p>
+<p>
+The slides are here: [<a href="http://www.cs.virginia.edu/~evans/pubs/passat2011/PASSAT2011_final.pptx">PPTX</a>] [<a href="http://www.cs.virginia.edu/~evans/pubs/passat2011/PASSAT2011_final.pdf">PDF</a>]
+</p>
+<p><center><br />
+<img src="http://www.cs.virginia.edu/~evans/pubs/passat2011/motivatingscenario.png" width=500><br />
+</center></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a>, <a href="../../talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2011/auditing-information-leakage-talk"
+    dc:identifier="https://www.jeffersonswheel.org/2011/auditing-information-leakage-talk"
+    dc:title="Auditing Information Leakage Talk"
+    trackback:ping="https://www.jeffersonswheel.org/2011/auditing-information-leakage-talk/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-339"><a href="../../../2011/talk-to-new-graduate-students.html" rel="bookmark" title="Permanent Link to Talk to New Graduate Students">Talk to New Graduate Students</a></h3>
+				<small>Wednesday, September 21st, 2011</small>
+				
+				<div class="entry">
+					<p>Here are the slides from my talk in cs6190, our seminar for new graduate students: [<a href="http://www.cs.virginia.edu/evans/talks/cs6190-2011/cs6190.pptx">PPTX</a>] [<a href="http://www.cs.virginia.edu/evans/talks/cs6190-2011/cs6190.pdf">PDF</a>]</p>
+<p>
+Links from the talk:</p>
+<ul>
+<li> <a href="http://www.mightbeevil.com/"><em>http://www.mightbeevil.com</em></a> &mdash; secure computation with garbled circuits
+<li> <a href="https://market.android.com/details?id=edu.virginia.cs.secgrp.seccomp.contacts2">CommonContacts</a> Android Secure Computation Demo
+<li> <a href="http://www.cs.virginia.edu/evans/srg/">Research group mailing list</a>
+<li> <a href="http://www.cs.virginia.edu/evans/pubs/">Publications</a>
+</ul>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a>, <a href="../../talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2011/talk-to-new-graduate-students"
+    dc:identifier="https://www.jeffersonswheel.org/2011/talk-to-new-graduate-students"
+    dc:title="Talk to New Graduate Students"
+    trackback:ping="https://www.jeffersonswheel.org/2011/talk-to-new-graduate-students/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-324"><a href="../../../2011/secure-computation-kickoff.html" rel="bookmark" title="Permanent Link to Secure Computation Kickoff">Secure Computation Kickoff</a></h3>
+				<small>Tuesday, August 30th, 2011</small>
+				
+				<div class="entry">
+					<p><a href="http://www.securecomputation.org/"><img width=300 hspace=12 vspace=12 src="http://www.securecomputation.org/wp-content/uploads/2011/08/logo-fit-medium.png" align="right"></a><br />
+Today (August 30th) we are hosting the <a href="http://www.securecomputation.org/kickoff/">Kickoff Meeting</a> for our new NSF-funded 5-year project, <em>Practical Secure Two-Party Computation: Techniques, Tools, and Applications</em>.  This is a collaborative research project with abhi shelat and Aaron Mackey at UVa, Michael Hicks and Jonathan Katz at the University of Maryland, and Steven Myers at Indiana University.  The goal of the project is to make privacy-preserving computation practical and accessible enough to be used routinely in applications such as personalized genetics, medical research, and privacy-preserving biometrics.  For more, see <a href="http://www.securecomputation.org/"><em>http://securecomputation.org</em></a>.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2011/secure-computation-kickoff"
+    dc:identifier="https://www.jeffersonswheel.org/2011/secure-computation-kickoff"
+    dc:title="Secure Computation Kickoff"
+    trackback:ping="https://www.jeffersonswheel.org/2011/secure-computation-kickoff/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-320"><a href="../../../2011/auditing-information-leakage-for-distance-metrics.html" rel="bookmark" title="Permanent Link to Auditing Information Leakage for Distance Metrics">Auditing Information Leakage for Distance Metrics</a></h3>
+				<small>Tuesday, August 30th, 2011</small>
+				
+				<div class="entry">
+					<p>Yikan Chen and I are releasing a paper today on <em>Auditing Information Leakage for Distance Metrics</em>.  The paper is a first step towards the goal of developing self-auditing secure computations that can determine when the output of a secure computation would leak too much information to be safe to release.  Yikan will present the paper at the <a href="http://www.iisocialcom.org/conference/passat2011/index.html"><em>Third IEEE Conference on Privacy, Security, Risk and Trust</em></a> in Boston, 9-11 October 2011.</p>
+<p>
+<b>Abstract.</b> Many useful scenarios involve allowing untrusted users to run queries against secret data, so long as the results do not leak too much information. This problem has been studied widely for statistical queries, but not for queries with more direct semantics. In this paper, we consider the problem of auditing queries where the result is a distance metric between the query input and some secret data. We develop an efficient technique for estimating a lower bound on the entropy remaining after a series of query-responses that applies to a class of distance functions including Hamming distance. We also present a technique for ensuring that no individual bits of the secret sequence is leaked. In this paper, we formalize the information leakage problem, describe our design for a query auditor, and report on experiments showing the feasibility and effectiveness of our approach for sensitive sequences up to thousands of bits.
+</p>
+<p>
+<b>Full paper:</b> [<a href="http://www.cs.virginia.edu/~evans/pubs/passat2011/queryauditing-packaged.pdf">PDF</a>, 10 pages]</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2011/auditing-information-leakage-for-distance-metrics"
+    dc:identifier="https://www.jeffersonswheel.org/2011/auditing-information-leakage-for-distance-metrics"
+    dc:title="Auditing Information Leakage for Distance Metrics"
+    trackback:ping="https://www.jeffersonswheel.org/2011/auditing-information-leakage-for-distance-metrics/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+		
+		<div class="navigation">
+			<div class="alignleft"><a href="2.html" >&laquo; Previous Page</a> &#8212; <a href="4.html" >&laquo; Previous Entries</a></div>
+			<div class="alignright"><a href="2.html" >Next Entries &raquo;</a> &#8212; <a href="4.html" >Next Page &raquo;</a></div>
+		</div>
+	
+			
+	</div>
+
+	<div id="sidebar">
+
+<p></p>
+		<ul>
+
+<li><h2>
+<a href="http://www.cs.virginia.edu/evans/pubs/">Publications</a><br>
+<a href="https://uvasrg.slack.com/signup">Join Slack
+Group</a></h2>
+
+<li><h2>
+<a href="http://www.cs.virginia.edu/evans/students.html">Team</a></h2>
+<a href="http://www.cs.virginia.edu/evans/">David Evans</a><br>
+</li>
+<li><h2>
+<a href="../../../awards.html">Awards</a></h2>
+</li>
+
+<li><h2>
+<a href="https://uvasrg.slack.com/">Slack Group</a></h2>
+</li>
+
+			
+			<!--
+			<li class="pagenav"><h2>Pages</h2><ul><li class="page_item page-item-2"><a href="https://www.jeffersonswheel.org/about">About</a></li>
+<li class="page_item page-item-394"><a href="https://www.jeffersonswheel.org/awards">Awards</a></li>
+</ul></li>			-->
+
+			<li><h2>Archives</h2>
+				<ul>
+					<li><a href='../../../2018.html' title='2018'>2018</a></li>
+	<li><a href='../../../2017.html' title='2017'>2017</a></li>
+	<li><a href='../../../2016.html' title='2016'>2016</a></li>
+	<li><a href='../../../2015.html' title='2015'>2015</a></li>
+	<li><a href='../../../2014.html' title='2014'>2014</a></li>
+	<li><a href='../../../2013.html' title='2013'>2013</a></li>
+	<li><a href='../../../2012.html' title='2012'>2012</a></li>
+	<li><a href='../../../2011.html' title='2011'>2011</a></li>
+	<li><a href='../../../2010.html' title='2010'>2010</a></li>
+	<li><a href='../../../2009.html' title='2009'>2009</a></li>
+	<li><a href='../../../2008.html' title='2008'>2008</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Categories</h2>
+				<ul>
+					<li class="cat-item cat-item-41"><a href="../../adversarial-machine-learning.html" title="View all posts filed under Adversarial Machine Learning">Adversarial Machine Learning</a> (16)
+</li>
+	<li class="cat-item cat-item-38"><a href="../../alumni.html" title="View all posts filed under Alumni">Alumni</a> (19)
+</li>
+	<li class="cat-item cat-item-12"><a href="../../awards.html" title="View all posts filed under Awards">Awards</a> (13)
+</li>
+	<li class="cat-item cat-item-37"><a href="../../childrens-books.html" title="View all posts filed under Children&#039;s Books">Children&#039;s Books</a> (2)
+</li>
+	<li class="cat-item cat-item-18"><a href="../../conferences.html" title="View all posts filed under Conferences">Conferences</a> (56)
+</li>
+	<li class="cat-item cat-item-24"><a href="../../contests.html" title="View all posts filed under Contests">Contests</a> (2)
+</li>
+	<li class="cat-item cat-item-40"><a href="../../cryptocurrency.html" title="View all posts filed under Cryptocurrency">Cryptocurrency</a> (4)
+</li>
+	<li class="cat-item cat-item-6"><a href="../../cryptography.html" title="View all posts filed under Cryptography">Cryptography</a> (52)
+</li>
+	<li class="cat-item cat-item-11"><a href="../../disk-processing.html" title="View all posts filed under Disk Processing">Disk Processing</a> (3)
+</li>
+	<li class="cat-item cat-item-25"><a href="../../guardrails.html" title="View all posts filed under GuardRails">GuardRails</a> (4)
+</li>
+	<li class="cat-item cat-item-21"><a href="../../history.html" title="View all posts filed under History">History</a> (7)
+</li>
+	<li class="cat-item cat-item-44"><a href="../../machine-learning.html" title="View all posts filed under Machine Learning">Machine Learning</a> (6)
+</li>
+	<li class="cat-item cat-item-23"><a href="../../medical-devices.html" title="View all posts filed under Medical Devices">Medical Devices</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="../../movies.html" title="View all posts filed under Movies">Movies</a> (2)
+</li>
+	<li class="cat-item cat-item-28"><a href="../../news.html" title="View all posts filed under News">News</a> (19)
+</li>
+	<li class="cat-item cat-item-13"><a href="../../papers.html" title="View all posts filed under Papers">Papers</a> (34)
+</li>
+	<li class="cat-item cat-item-42"><a href="../../passwords.html" title="View all posts filed under Passwords">Passwords</a> (2)
+</li>
+	<li class="cat-item cat-item-43"><a href="../../personal-assistant.html" title="View all posts filed under Personal Assistant">Personal Assistant</a> (1)
+</li>
+	<li class="cat-item cat-item-35"><a href="../../pictures.html" title="View all posts filed under Pictures">Pictures</a> (7)
+</li>
+	<li class="cat-item cat-item-20"><a href="../../politics.html" title="View all posts filed under Politics">Politics</a> (8)
+</li>
+	<li class="cat-item cat-item-4"><a href="../../privacy.html" title="View all posts filed under Privacy">Privacy</a> (82)
+</li>
+	<li class="cat-item cat-item-16"><a href="../../program-analysis.html" title="View all posts filed under Program Analysis">Program Analysis</a> (10)
+</li>
+	<li class="cat-item cat-item-3"><a href="../../research.html" title="View all posts filed under Research">Research</a> (144)
+</li>
+	<li class="cat-item cat-item-5"><a href="../../rfid.html" title="View all posts filed under RFID">RFID</a> (40)
+</li>
+	<li class="cat-item cat-item-27 current-cat"><a href="../../secure-computation.html" title="View all posts filed under Secure Computation">Secure Computation</a> (38)
+</li>
+	<li class="cat-item cat-item-8"><a href="../../security.html" title="View all posts filed under Security">Security</a> (116)
+</li>
+	<li class="cat-item cat-item-32"><a href="../../side-channel-analysis.html" title="View all posts filed under Side-Channel Analysis">Side-Channel Analysis</a> (2)
+</li>
+	<li class="cat-item cat-item-30"><a href="../../smartphones.html" title="View all posts filed under Smartphones">Smartphones</a> (8)
+</li>
+	<li class="cat-item cat-item-7"><a href="../../social-networks.html" title="View all posts filed under Social Networks">Social Networks</a> (28)
+</li>
+	<li class="cat-item cat-item-15"><a href="../../software-engineering.html" title="View all posts filed under Software Engineering">Software Engineering</a> (3)
+</li>
+	<li class="cat-item cat-item-45"><a href="../../startups.html" title="View all posts filed under Startups">Startups</a> (1)
+</li>
+	<li class="cat-item cat-item-26"><a href="../../talks.html" title="View all posts filed under Talks">Talks</a> (41)
+</li>
+	<li class="cat-item cat-item-17"><a href="../../teaching.html" title="View all posts filed under Teaching">Teaching</a> (19)
+</li>
+	<li class="cat-item cat-item-1"><a href="../../uncategorized.html" title="View all posts filed under Uncategorized">Uncategorized</a> (1)
+</li>
+	<li class="cat-item cat-item-39"><a href="../../usb.html" title="View all posts filed under USB">USB</a> (2)
+</li>
+	<li class="cat-item cat-item-10"><a href="../../voting.html" title="View all posts filed under Voting">Voting</a> (2)
+</li>
+	<li class="cat-item cat-item-29"><a href="../../web-security.html" title="View all posts filed under Web Security">Web Security</a> (21)
+</li>
+				</ul>
+
+
+			</li>
+
+<!--				  <li id="linkcat-2" class="linkcat"><h2>Blogroll</h2>
+	<ul>
+
+	</ul>
+</li>
+ -->
+
+
+					
+			
+
+
+		</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+
+<!-- 19 queries. 0.178 seconds. -->
+</div>
+</div>
+
+<!--		 -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+  Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-3775212-2', 'auto');
+	  ga('send', 'pageview');
+
+	  </script>
+
+</body>
+
+<!-- Mirrored from www.jeffersonswheel.org/category/secure-computation/page/3 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Dec 2018 01:29:11 GMT -->
+</html>

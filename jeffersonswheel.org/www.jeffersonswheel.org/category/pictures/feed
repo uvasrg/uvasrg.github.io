@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; Pictures</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/pictures/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>SRG at IEEE S&amp;P 2018</title>
+		<link>https://www.jeffersonswheel.org/2018/srg-at-ieee-sp-2018</link>
+		<comments>https://www.jeffersonswheel.org/2018/srg-at-ieee-sp-2018#comments</comments>
+		<pubDate>Wed, 30 May 2018 01:47:52 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Pictures]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=849</guid>
+		<description><![CDATA[Group Dinner Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018! Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&#160;Chen,&#160;Weilin&#160;Xu Poster Session Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF] Mainuddin Jonas (with David Evans), Enhancing Adversarial [...]]]></description>
+				<content:encoded><![CDATA[<p><b>Group Dinner</b></p>
+<p>
+<center><br />
+Including our newest faculty member, <a href="https://www.cs.purdue.edu/homes/kwon58/#summary">Yongwhi Kwon</a>, joining UVA in Fall 2018!<br />
+<a href="/images/srg2018/ORG_DSC07202.jpg"><img src="/images/srg2018/ORG_DSC07202.jpg" width="680"></a><br />
+<small>Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&nbsp;Chen,&nbsp;Weilin&nbsp;Xu</small><br />
+</center>
+</p>
+<p>
+<b>Poster Session</b></p>
+<table width="100%">
+<tr valign="top">
+<td width="50%" align="center">
+<a href="/images/srg2018/IMG_20180521_193906.jpg"><img src="/images/srg2018/IMG_20180521_193906-3.jpg" height="360"></a><br />
+Fnu Suya (with Yuan Tian and David Evans), <em>Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers</em> <a href="https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper37-poster-abstract.pdf">[PDF]</a>
+</td>
+<td width="50%" align="center">
+<a href="/images/srg2018/IMG_20180521_193914.jpg"><img src="/images/srg2018/IMG_20180521_193914-2.jpg" height="360"></a><br />
+Mainuddin Jonas (with David Evans), <em>Enhancing Adversarial Example Defenses Using Internal Layers</em> <a href="https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper29-poster-abstract.pdf">[PDF]</a>
+</td>
+</tr>
+<tr valign="top">
+<td width="50%" align="center">
+<a href="/images/srg2018/IMG_20180522_153017.jpg"><img src="/images/srg2018/IMG_20180522_153017-2.jpg" height="300"></a>
+</td>
+<td width="50%" align="center">
+<a href="/images/srg2018/IMG_20180522_153109.jpg"><img src="/images/srg2018/IMG_20180522_153109-2.jpg" height="300"></a>
+</td>
+</tr>
+</table>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2018/srg-at-ieee-sp-2018/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SRG at USENIX Security 2017</title>
+		<link>https://www.jeffersonswheel.org/2017/srg-at-usenix-security-2017</link>
+		<comments>https://www.jeffersonswheel.org/2017/srg-at-usenix-security-2017#comments</comments>
+		<pubDate>Sun, 13 Aug 2017 02:42:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Pictures]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Secure Computation]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=803</guid>
+		<description><![CDATA[Several SRG students presented posters at USENIX Security Symposium in Vancouver, BC. Approaches to Evading Windows PE Malware Classifiers Anant Kharkar, Helen Simecek, Weilin Xu, David Evans, and Hyrum S. Anderson (Endgame) JSPolicy: Policied Sandboxes for Untrusted Third-Party JavaScript Ethan Lowman and David Evans EvadeML-Zoo: A Benchmarking and Visualization Tool for Adversarial Machine Learning Weilin [...]]]></description>
+				<content:encoded><![CDATA[<p>Several SRG students presented posters at <a href="https://www.usenix.org/conference/usenixsecurity17/poster-session">USENIX Security Symposium</a> in Vancouver, BC.</p>
+<table>
+<tr>
+<td valign="top">
+<a href="/images/usenix2017/helen-anant-poster.jpg"><img src="/images/usenix2017/helen-anant-poster.jpg" height="250"></a><br />
+<em>Approaches to Evading Windows PE Malware Classifiers</em><br />
+Anant Kharkar, Helen Simecek, Weilin Xu, David Evans, and Hyrum S. Anderson (Endgame)
+</td>
+<td valign="top">
+<a href="/images/usenix2017/ethan-poster.jpg"><img src="/images/usenix2017/ethan-poster.jpg" height="250"></a><br />
+<em>JSPolicy: Policied Sandboxes for Untrusted Third-Party JavaScript</em><br />
+Ethan Lowman and David Evans
+</td>
+</tr>
+<tr>
+<td valign="top">
+<a href="/images/usenix2017/weilin-poster.jpg"><img src="/images/usenix2017/weilin-poster.jpg" height="250"></a>
+</td>
+<td valign="top">
+<a href="/images/usenix2017/noah-poster.jpg"><img src="/images/usenix2017/noah-poster.jpg" height="250"></a>
+</td>
+</tr>
+<tr>
+<td colspan=2 align="center">
+<a href="https://evademl.org/zoo"><em>EvadeML-Zoo: A Benchmarking and Visualization Tool for Adversarial Machine Learning</em></a><br />
+Weilin Xu, Andrew Norton, Noah Kim, Yanjun Qi, and David Evans
+</td>
+</tr>
+<tr>
+<td colspan=2 align="center">
+<a href="https://oblivc.org/dca"><em>Decentralized Certificate Authorities</em></a><br />
+Hannah Li, Bargav Jayaraman, and David Evans
+</td>
+</tr>
+</table>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/srg-at-usenix-security-2017/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Graduates Lunch</title>
+		<link>https://www.jeffersonswheel.org/2015/graduates-lunch</link>
+		<comments>https://www.jeffersonswheel.org/2015/graduates-lunch#comments</comments>
+		<pubDate>Wed, 06 May 2015 05:28:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[Pictures]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=590</guid>
+		<description><![CDATA[SRG Graduates Lunch, 6 May 2015]]></description>
+				<content:encoded><![CDATA[<p><a href="/images/srg2015/edited/srglunch.jpg"><img src="/images/srg2015/edited/srglunch-small.png" alt="srg lunch" width=680 height=310></a></p>
+<p>SRG Graduates Lunch, 6 May 2015 </p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/graduates-lunch/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>New Year&#8217;s Lunch</title>
+		<link>https://www.jeffersonswheel.org/2014/new-years-lunch</link>
+		<comments>https://www.jeffersonswheel.org/2014/new-years-lunch#comments</comments>
+		<pubDate>Sat, 04 Jan 2014 23:09:26 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Pictures]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=492</guid>
+		<description><![CDATA[Here&#8217;s a picture from our research group lunch to congratulate Ivan Alagenchev on his MCS graduation and wish him well at Amazon.]]></description>
+				<content:encoded><![CDATA[<p>Here&#8217;s a picture from our research group lunch to congratulate Ivan Alagenchev on his MCS graduation and wish him well at Amazon.</p>
+<p><a href="http://www.cs.virginia.edu/evans/pictures/2014-01-02-srg/secgrp.png"><br />
+<img src="http://www.cs.virginia.edu/evans/pictures/2014-01-02-srg/secgrp-small.png"> </a></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2014/new-years-lunch/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Congratulations SRG Graduates</title>
+		<link>https://www.jeffersonswheel.org/2013/congratulations-srg-graduates</link>
+		<comments>https://www.jeffersonswheel.org/2013/congratulations-srg-graduates#comments</comments>
+		<pubDate>Mon, 27 May 2013 22:28:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Awards]]></category>
+		<category><![CDATA[Pictures]]></category>
+		<category><![CDATA[Teaching]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=467</guid>
+		<description><![CDATA[Congratulations to the 2013 SRG Graduates! Tianhao Tong (MCS), Dr. Yan Huang (PhD) Jonathan Burket (BACS with Highest Distinction), William Melicher (BSCS, not pictured)]]></description>
+				<content:encoded><![CDATA[<p>Congratulations to the 2013 SRG Graduates!</p>
+<p><p align="center">
+<a href="http://www.cs.virginia.edu/evans/pictures/graduation2013/1-DSC_7450.JPG"><img width=645 height=700 src="http://www.cs.virginia.edu/evans/pictures/graduation2013/tong-huang.jpg"></a><br />
+Tianhao Tong (MCS), Dr. Yan Huang (PhD)
+</p>
+<p align="center">
+<a href="http://www.cs.virginia.edu/evans/pictures/graduation2013/3-IMG_3846.JPG"><img width=659  src="http://www.cs.virginia.edu/evans/pictures/graduation2013/jwb.jpg"></a><br />
+Jonathan Burket (BACS with Highest Distinction), William Melicher (BSCS, not pictured)</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2013/congratulations-srg-graduates/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Steve Huffman Visit</title>
+		<link>https://www.jeffersonswheel.org/2011/steve-huffman-visit</link>
+		<comments>https://www.jeffersonswheel.org/2011/steve-huffman-visit#comments</comments>
+		<pubDate>Sat, 19 Nov 2011 15:34:06 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Pictures]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=366</guid>
+		<description><![CDATA[Steve Huffman (BSCS 2005), co-founder of Reddit and Hipmunk, visited our lab yesterday. He was here for the Rice Hall Dedication.]]></description>
+				<content:encoded><![CDATA[<p>Steve Huffman (BSCS 2005), co-founder of <a href="http://www.reddit.com">Reddit</a> and <a href="http://www.hipmunk.com">Hipmunk</a>, visited our lab yesterday.  He was here for the <a href=" http://www.cs.virginia.edu/ba/2011/rice-hall-dedication-2">Rice Hall Dedication</a>.
+</p>
+<p><center><br />
+<a href="http://www.jeffersonswheel.org/wp-content/uploads/2011/11/IMG_7093.jpg"><img src="http://www.jeffersonswheel.org/wp-content/uploads/2011/11/IMG_7093-1024x672.jpg" alt="" title="IMG_7093" width="512" height="336" class="alignnone size-large wp-image-367" /></a><br />
+</center><center><br />
+<div id="attachment_368" class="wp-caption alignnone" style="width: 522px"><a href="http://www.jeffersonswheel.org/wp-content/uploads/2011/11/IMG_7094.jpg"><img src="http://www.jeffersonswheel.org/wp-content/uploads/2011/11/IMG_7094-1024x847.jpg" alt="" title="srg_with_steve_huffman" width="512" height="423" class="size-large wp-image-368" /></a><p class="wp-caption-text"><b>SRG with Steve Huffman</b></p></div><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2011/steve-huffman-visit/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Rice Hall</title>
+		<link>https://www.jeffersonswheel.org/2011/rice-hall</link>
+		<comments>https://www.jeffersonswheel.org/2011/rice-hall#comments</comments>
+		<pubDate>Tue, 30 Aug 2011 10:02:40 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Pictures]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=322</guid>
+		<description><![CDATA[The Computer Science department has moved into Rice Hall, our beautiful new building next to our former home in Olsson Hall. Here are some pictures of the lab space for the Secure Research Group in Rice 442: Meeting space in lab room (yes, the big curved white wall in the back is a whiteboard!) Samee [...]]]></description>
+				<content:encoded><![CDATA[<p>The Computer Science department has moved into <a href="http://www.seas.virginia.edu/admin/ricehall/">Rice Hall</a>, our beautiful new building next to our former home in Olsson Hall.  </p>
+<p>
+Here are some pictures of the lab space for the Secure Research Group in Rice 442:<br />
+<center></p>
+<p>
+<a href="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/selected/IMG_1521.jpg"><img src="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/smaller/IMG_1521.jpg"></a><br />
+Meeting space in lab room (yes, the big curved white wall in the back is a whiteboard!)
+</p>
+<p>
+<a href="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/selected/IMG_7058.jpg"><img src="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/smaller/IMG_7058.jpg"></a>
+</p>
+<p>
+<a href="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/selected/IMG_7062.jpg"><img src="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/smaller/IMG_7062.jpg"></a></p>
+<p>
+<a href="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/selected/IMG_1520.jpg"><img src="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/smaller/IMG_1520.jpg"></a><br />
+Samee Zahur checking the lights
+</p>
+<p>
+<a href="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/selected/IMG_1515.jpg"><img width=300 src="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/smaller/IMG_1515.jpg"></a><br />
+Plenty of room to grow!
+</p>
+<p>
+<a href="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/selected/IMG_1505.jpg"><img src="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/smaller/IMG_1505.jpg"></a><br />
+But, it may be a bit of a wait for that bagel!
+</p>
+<p>
+<a href="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/selected/IMG_1499.jpg"><img src="http://www.cs.virginia.edu/~evans/pictures/2011_08_30-rice/smaller/IMG_1499.jpg"></a><br />
+View from my office</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2011/rice-hall/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

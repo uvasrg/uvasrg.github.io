@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; News</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/news/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Violations of Children&#8217;s Privacy Laws</title>
+		<link>https://www.jeffersonswheel.org/2018/violations-of-childrens-privacy-laws</link>
+		<comments>https://www.jeffersonswheel.org/2018/violations-of-childrens-privacy-laws#comments</comments>
+		<pubDate>Sun, 16 Sep 2018 17:43:48 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=889</guid>
+		<description><![CDATA[The New York Times has an article, How Game Apps That Captivate Kids Have Been Collecting Their Data about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. [...]]]></description>
+				<content:encoded><![CDATA[<p>The New York Times has an article, <a href="https://www.nytimes.com/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html"><em>How Game Apps That Captivate Kids Have Been Collecting Their Data</em></a> about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps. Serge was an undergraduate student here (back in the early 2000s) &#8211; one of the things he did as a undergraduate was successfully sue a spammer.</p>
+<p>The original paper about the study: <a href="https://blues.cs.berkeley.edu/wp-content/uploads/2018/04/popets-2018-0021.pdf">“Won’t Somebody Think of the Children?” Examining COPPA Compliance at Scale</a>, Irwin Reyes, Primal Wijesekera, Joel Reardon, Amit Elazari Bar On, Abbas Razaghpanah, Narseo Vallina-Rodriguez, and Serge Egelman. Proceedings on Privacy Enhancing Technologies (PETS) 2018.</p>
+<p><center><br />
+<img src="https://static01.nyt.com/images/2018/09/13/autossell/13Kidapps2/13Kidapps2-superJumbo.jpg" width=600><br />
+Serge Egelman, a researcher with the International Computer Science Institute and the University of California, Berkeley, helped lead the study of nearly 6,000 children’s Android apps<br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2018/violations-of-childrens-privacy-laws/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>In the Red Corner&#8230;</title>
+		<link>https://www.jeffersonswheel.org/2017/in-the-red-corner</link>
+		<comments>https://www.jeffersonswheel.org/2017/in-the-red-corner#comments</comments>
+		<pubDate>Mon, 07 Aug 2017 12:49:06 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=794</guid>
+		<description><![CDATA[The Register has a story on the work Anant Kharkar and collaborators at Endgame, Inc. are doing on using reinforcement learning to find evasive malware: In the red corner: Malware-breeding AI. And in the blue corner: The AI trying to stop it, by Katyanna Quach, The Register, 2 August 2017. Antivirus makers want you to [...]]]></description>
+				<content:encoded><![CDATA[<p>The Register has a story on the work Anant Kharkar and collaborators at Endgame, Inc. are doing on using reinforcement learning to find evasive malware: <a href="http://www.theregister.co.uk/2017/08/02/ai_for_better_malware/"><em>In the red corner: Malware-breeding AI. And in the blue corner: The AI trying to stop it</em></a>, by Katyanna Quach, The Register, 2 August 2017.</p>
+<p><center><br />
+<img src="https://regmedia.co.uk/2017/07/31/shutterstock_robot_computer.jpg?x=442&#038;y=293&#038;crop=1" width="442" height="293"><br />
+</center></p>
+<blockquote><p>
+Antivirus makers want you to believe they are adding artificial intelligence to their products: software that has learned how to catch malware on a device. There are two potential problems with that. Either it&#8217;s marketing hype and not really AI – or it&#8217;s true, in which case don&#8217;t forget that such systems can still be hoodwinked.</p>
+<p>It&#8217;s relatively easy to trick machine-learning models – especially in image recognition. Change a few pixels here and there, and an image of a bus can be warped so that the machine thinks it’s an ostrich. Now take that thought and extend it to so-called next-gen antivirus.<br />
+&#8230;</p>
+<p>The researchers from Endgame and the University of Virginia are hoping that by integrating the <a target="_blank" rel="nofollow" href="https://github.com/endgameinc/gym-malware">malware-generating system</a> into OpenAI’s <a target="_blank" rel="nofollow" href="https://www.theregister.co.uk/2016/12/05/openai_universe_reinforcement_learning/">Gym</a> platform, more developers will help sniff out more adversarial examples to improve machine-learning virus classifiers.</p>
+<p>Although Evans believes that Endgame&#8217;s research is important, using such a method to beef up security “reflects the immaturity” of AI and infosec. “It’s mostly experimental and the effectiveness of defenses is mostly judged against particular known attacks, but doesn’t say much about whether it can work against newly discovered attacks,&#8221; he said.</p>
+<p>“Moving forward, we need more work on testing machine learning systems, reasoning about their robustness, and developing general methods for hardening classifiers that are not limited to defending against particular attacks. More broadly, we need ways to measure and build trustworthiness in AI systems.”</p>
+<p>The research has been summarized as a <a target="_blank" rel="nofollow" href="https://www.blackhat.com/docs/us-17/thursday/us-17-Anderson-Bot-Vs-Bot-Evading-Machine-Learning-Malware-Detection-wp.pdf">paper, here</a> if you want to check it out in more detail, or see the upstart&#8217;s <a target="_blank" rel="nofollow" href="https://github.com/endgameinc">code on Github</a>.</p>
+</blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/in-the-red-corner/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Horcrux Is a Password Manager Designed for Security and Paranoid Users</title>
+		<link>https://www.jeffersonswheel.org/2017/horcrux-is-a-password-manager-designed-for-security-and-paranoid-users</link>
+		<comments>https://www.jeffersonswheel.org/2017/horcrux-is-a-password-manager-designed-for-security-and-paranoid-users#comments</comments>
+		<pubDate>Fri, 07 Jul 2017 17:48:45 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Passwords]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=789</guid>
+		<description><![CDATA[Bleeping Computer has an article about our work on a more secure password manager: Horcrux Is a Password Manager Designed for Security and Paranoid Users, 4 July 2017. Two researchers from the University of Virginia have developed a new password manager prototype that works quite differently from existing password manager clients. The research team describes [...]]]></description>
+				<content:encoded><![CDATA[<p>Bleeping Computer has an article about our work on a more secure password manager: <a href="https://www.bleepingcomputer.com/news/security/horcrux-is-a-password-manager-designed-for-security-and-paranoid-users/"><em>Horcrux Is a Password Manager Designed for Security and Paranoid Users</em></a>, 4 July 2017.</p>
+<blockquote><p>
+<em><br />
+Two researchers from the University of Virginia have developed a new password manager prototype that works quite differently from existing password manager clients.</p>
+<p>The research team describes their password manager — which they named Horcrux — as &#8220;a password manager for paranoids,&#8221; due to its security and privacy-focused features and a unique design used for handling user passwords, both while in transit and at rest.</p>
+<p>There are two main differences between Horcrux and currently available password manager clients.</p>
+<p>The first is how Horcrux inserts user credentials inside web pages. Regular password managers do this by filling in the login form with the user&#8217;s data.<br />
+&#8230;<br />
+The second feature that makes Horcrux stand out compared to other password manager clients is how it stores user credentials.</p>
+<p>Compared to classic solutions, Horcrux doesn&#8217;t trust one single password store but spreads user credentials across multiple servers. This means that if an attacker manages to gain access to one of the servers, he won&#8217;t gain access to all of the user&#8217;s passwords, limiting the damage of any security incident.<br />
+&#8230;<br />
+More details about the Horcrux design and implementation are available in the research team&#8217;s paper, entitled <a href="https://arxiv.org/pdf/1706.05085.pdf">&#8220;Horcrux: A Password Manager for Paranoids&#8221;</a>.<br />
+</em>
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/horcrux-is-a-password-manager-designed-for-security-and-paranoid-users/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>An exercise in password security went terribly wrong, security experts say</title>
+		<link>https://www.jeffersonswheel.org/2016/an-exercise-in-password-security-went-terribly-wrong-security-experts-say</link>
+		<comments>https://www.jeffersonswheel.org/2016/an-exercise-in-password-security-went-terribly-wrong-security-experts-say#comments</comments>
+		<pubDate>Fri, 01 Apr 2016 11:09:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Passwords]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=668</guid>
+		<description><![CDATA[PCWord has a story about CNBC&#8217;s attempt to &#8220;help&#8221; people measure their password security: CNBC just collected your password and shared it with marketers: An exercise in password security went terribly wrong, security experts say, 29 March 2016. Adrienne Porter Felt, a software engineer with Google&#8217;s Chrome security team, spotted that the article wasn&#8217;t delivered [...]]]></description>
+				<content:encoded><![CDATA[<p>PCWord has a story about CNBC&#8217;s attempt to &#8220;help&#8221; people measure their password security: <a href="http://www.pcworld.com/article/3049552/security/cnbc-just-collected-your-password-and-shared-it-with-marketers.html"><em>CNBC just collected your password and shared it with marketers: An exercise in password security went terribly wrong, security experts say</em></a>, 29 March 2016.</p>
+<blockquote><p>
+Adrienne Porter Felt, a software engineer with Google&#8217;s Chrome security team, spotted that the article wasn&#8217;t delivered using SSL/TLS (Secure Socket Layer/Transport Layer Security) encryption.</p>
+<p>SSL/TLS encrypts the connection between a user and a website, scrambling the data that is sent back and forth. Without SSL/TLS, someone one the same network can see data in clear text and, in this case, any password sent to CNBC.</p>
+<p>&#8220;Worried about security? Enter your password into this @CNBC website (over HTTP, natch). What could go wrong,&#8221; Felt wrote on Twitter. &#8220;Alternately, feel free to tweet your password @ me and have the whole security community inspect it for you.&#8221;</p>
+<p>The form also sent passwords to advertising networks and other parties with trackers on CNBC&#8217;s page, according to Ashkan Soltani, a privacy and security researcher, who posted a screenshot.</p>
+<p>&#8230;</p>
+<p>Despite saying the tool would not store passwords, traffic analysis showed it was actually storing them in a Google Docs spreadsheet, according to Kane York, who works on the Let&#8217;s Encrypt project.
+</p></blockquote>
+<p>(Posted on April 1, but this is actually a real story, as hard as that might be to believe.)</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/an-exercise-in-password-security-went-terribly-wrong-security-experts-say/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Spectra Articles: Privacy-Preserving Regression and Ombuds</title>
+		<link>https://www.jeffersonswheel.org/2016/spectra-articles-privacy-preserving-regression-and-ombuds</link>
+		<comments>https://www.jeffersonswheel.org/2016/spectra-articles-privacy-preserving-regression-and-ombuds#comments</comments>
+		<pubDate>Mon, 21 Mar 2016 18:35:10 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=653</guid>
+		<description><![CDATA[The latest edition of Spectra: The Virginia Engineering and Science Research Journal includes two articles about SRGers! The first is an article about Sam Havron&#8217;s research on using MPC to perform linear regression for social science applications: [PDF] alt : Ombuds.pdf The second is by Alex Kuck and Nick Skelsey on their work on using [...]]]></description>
+				<content:encoded><![CDATA[<p>The latest edition of <em>Spectra: The Virginia Engineering and Science Research Journal</em> includes two articles about SRGers!</p>
+<p><center><br />
+<img src="//www.cs.virginia.edu/evans/blog/images/Spectra_2016_Cover-small.png" width=600><br />
+</center></p>
+<p>The first is an article about Sam Havron&#8217;s research on using MPC to perform linear regression for social science applications: [<a href="//www.cs.virginia.edu/evans/docs/Spectra_2016_Havron.pdf">PDF</a>]</p>
+<p><object data="//www.cs.virginia.edu/evans/docs/Spectra_2016_Havron.pdf" type="application/pdf" width="650" height="200"><br />
+  alt : <a href="//www.cs.virginia.edu/evans/docs/Spectra_2016_Havron.pdf">Ombuds.pdf</a><br />
+</object></p>
+<p>The second is by Alex Kuck and Nick Skelsey on their work on using a blockchain to provide censorship-resistant messaging: <em>Ombuds: A Public Space with a Single Shared History</em>: [<a href="//www.cs.virginia.edu/evans/docs/Spectra_2016_Ombuds.pdf">PDF</a>]</p>
+<p><object data="//www.cs.virginia.edu/evans/docs/Spectra_2016_Ombuds.pdf" type="application/pdf" width="650" height="200"><br />
+  alt : <a href="//www.cs.virginia.edu/evans/docs/Spectra_2016_Ombuds.pdf">Ombuds.pdf</a><br />
+</object></p>
+<p>The full issue is available at <a href="http://www.flipsnack.com/UVAengineering/the-spectra.html">the Spectra site</a> (thanks to Garrett Beeghly for granting permission to post these excerpts here).</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/spectra-articles-privacy-preserving-regression-and-ombuds/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Apple and the FBI</title>
+		<link>https://www.jeffersonswheel.org/2016/apple-and-the-fbi</link>
+		<comments>https://www.jeffersonswheel.org/2016/apple-and-the-fbi#comments</comments>
+		<pubDate>Thu, 25 Feb 2016 10:48:00 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[History]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=642</guid>
+		<description><![CDATA[I&#8217;m quoted in this article on the controversy over the FBI&#8217;s requests to Apple for assistance in unlocking an iPhone used by one of the San Bernardino terrorists: Unlocking Terrorist&#8217;s iPhone Won&#8217;t Risk Your Security, Discovery News, 24 February 2016. &#8220;Backdoors are complicated and impossible technical challenges and would risk everyone’s privacy,&#8221; Evans said. &#8220;But [...]]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m quoted in this article on the controversy over the FBI&#8217;s requests to Apple for assistance in unlocking an iPhone used by one of the San Bernardino terrorists: <a href="http://news.discovery.com/tech/gear-and-gadgets/unlocking-terrorists-iphone-wont-risk-your-security-160224.htm"><em>Unlocking Terrorist&#8217;s iPhone Won&#8217;t Risk Your Security</em></a>, Discovery News, 24 February 2016.</p>
+<p><center><br />
+<img src="//static.ddmcdn.com/gif/unlocking-terrorists-iphone-doesnt-risk-apple-security-670.jpg" width=600><br />
+</center></p>
+<blockquote><p>
+&#8220;Backdoors are complicated and impossible technical challenges and would risk everyone’s privacy,&#8221; Evans said. &#8220;But what the FBI is asking for is different from what Apple says the FBI is asking for.&#8221;
+</p></blockquote>
+<p>For the most part, I think the article gets things right.  It is very misleading to conflate what the FBI has asked for here with a cryptographic backdoor that would indeed dangerously risk everyone&#8217;s privacy and security.  I covered some of the technical aspects of this in <a href="http://xplorecs.org/class12">my introductory computing course</a> last week.</p>
+<p><script async class="speakerdeck-embed" data-id="7e19b5a62ca34b08a731dd654c30a8e2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/apple-and-the-fbi/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Computer Science Grad Stands Watch for Users of Google’s Popular Browser</title>
+		<link>https://www.jeffersonswheel.org/2015/computer-science-grad-stands-watch-for-users-of-googles-popular-browser</link>
+		<comments>https://www.jeffersonswheel.org/2015/computer-science-grad-stands-watch-for-users-of-googles-popular-browser#comments</comments>
+		<pubDate>Tue, 08 Dec 2015 16:02:40 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=607</guid>
+		<description><![CDATA[Adrienne Porter Felt (BSCS 2008) returned to UVa last Friday as a Distinguished Alumni Speaker. UVa Today published this article: Computer Science Grad Stands Watch for Users of Google’s Popular Browser, UVa Today, 7 December 2015. Adrienne Porter Felt’s job is to keep you secure on Chrome. Felt, 29, who earned a computer science degree [...]]]></description>
+				<content:encoded><![CDATA[<p>Adrienne Porter Felt (BSCS 2008) returned to UVa last Friday as a Distinguished Alumni Speaker.  UVa Today published this article:<br />
+<a href="https://news.virginia.edu/content/computer-science-grad-stands-watch-users-googles-popular-browser"><br />
+<em>Computer Science Grad Stands Watch for Users of Google’s Popular Browser</em></a></a>, UVa Today, 7 December 2015.</p>
+<blockquote><p>
+Adrienne Porter Felt’s job is to keep you secure on Chrome.
+</p>
+<p>
+Felt, 29, who earned a computer science degree from the University of Virginia in 2008, leads the usable security team at Google working on the popular Internet browser.
+</p>
+<p>&#8230;</p>
+<p>
+Taking Evans’ offer for a research project was a turning point in Felt’s life, showing her something she liked that she could do well.
+</p>
+<p>
+&#8220;It turned out that I really loved it,&#8221; she said. &#8220;I like working in privacy and security because I enjoy helping people control their digital experiences. I think of it as, &#8216;I&#8217;m professionally paranoid so that other people don’t need to be.&#8217;&#8221;
+</p>
+<p>&#8230;
+</p></blockquote>
+<p><img src="https://news.virginia.edu/sites/default/files/styles/uva_basic_article/public/article_image/adrienne_porter_felt_10_da.jpg?itok=o8xIvfL4" width=600></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/computer-science-grad-stands-watch-for-users-of-googles-popular-browser/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Karsten Nohl Interview</title>
+		<link>https://www.jeffersonswheel.org/2015/karsten-nohl-interview</link>
+		<comments>https://www.jeffersonswheel.org/2015/karsten-nohl-interview#comments</comments>
+		<pubDate>Tue, 01 Sep 2015 00:54:01 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[USB]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=604</guid>
+		<description><![CDATA[Atlas Obscura has an article about Karsten Nohl (PhD 2009): Exit Interview: I&#8217;m A Crypto-Specialist Working To Secure the Internet For A Billion People, Jeremy Berke, 28 July 2015. One of the things we’re building is a PayPal competitor–with a modest target of having a few hundred million customers. Everything in India is always on [...]]]></description>
+				<content:encoded><![CDATA[<p>Atlas Obscura has an article about Karsten Nohl (PhD 2009):<br />
+<a href="http://www.atlasobscura.com/articles/exit-interview-im-a-cryptospecialist-working-to-secure-the-internet-for-a-billion-people"><em>Exit Interview: I&#8217;m A Crypto-Specialist Working To Secure the Internet For A Billion People</em></a>, Jeremy Berke, 28 July 2015.</p>
+<blockquote><p>
+One of the things we’re building is a PayPal competitor–with a modest target of having a few hundred million customers. Everything in India is always on a massive scale. If you could get rid of PayPal passwords, and instead just have a fingerprint–if you could pay for goods at a store with just your fingerprint, that would simplify people’s lives a lot. It would also have the secondary effect of saving some of the security problems, like phishing, that we currently encounter. And this government database is a huge enabler.</p>
+<p>If we already have a mandate to collect everybody’s fingerprints, why not use it in the customer’s benefit? The privacy risk is always there. That’s the law and I can’t argue with that. But if the law is already creating this risk, why not create opportunity in the same step?
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/karsten-nohl-interview/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Karsten Nohl visits UVa</title>
+		<link>https://www.jeffersonswheel.org/2013/karsten-nohl-visits-uva</link>
+		<comments>https://www.jeffersonswheel.org/2013/karsten-nohl-visits-uva#comments</comments>
+		<pubDate>Fri, 01 Nov 2013 10:23:25 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=487</guid>
+		<description><![CDATA[Karsten Nohl, who complete a PhD in our group in 2009, is visiting UVa this week. UVa Today has an article: Renowned ‘White Hat Hacker’ to Speak on Real-World Security Holes: University of Virginia graduate Karsten Nohl, one of the world’s most famous “white hat computer hackers,” will speak Friday at 3:30 p.m. in Rice [...]]]></description>
+				<content:encoded><![CDATA[<p>Karsten Nohl, who complete a PhD in our group in 2009, is visiting UVa this week.  UVa Today has an article: <a href="http://news.virginia.edu/content/renowned-white-hat-hacker-speak-real-world-security-holes"><em>Renowned ‘White Hat Hacker’ to Speak on Real-World Security Holes</em></a>:</p>
+<blockquote><p>
+University of Virginia graduate Karsten Nohl, one of the world’s most famous “white hat computer hackers,” will speak Friday at 3:30 p.m. in Rice Hall, room 130, about lessons learned from the security holes that he and fellow researchers have uncovered in mobile phones, wireless car keys and other technology used by billions of people everyday.
+</p>
+<p>
+Nohl first made international headlines in 2008, while still a computer engineering doctoral student at U.Va., for research that exposed vulnerabilities in the world’s most popular smartcard, used by millions of people to pay fares on several major mass-transit systems around the world, including the London Underground and the Boston subway.
+</p>
+<p>
+<img src="http://news.virginia.edu/sites/default/files/styles/380px_wide/public/Karsten_Nohl_02HR_DA.jpg?itok=EXdFgK5B" align="right"><br />
+Such cards utilize miniscule wireless computer chips, about the size of a grain of rice, called RFIDs, short for “radio-frequency identification.” They send and receive information over short distances (generally 10 feet or less) via very low-power radio waves.
+</p>
+<p>
+As an ethical security researcher, often called a “white hat hacker,” Nohl exposes vulnerabilities to spur improvements in the systems that he researches. He now does such work around the world as the founder and director of research at Security Research Labs in Berlin.
+</p>
+<p>
+To prevent those with nefarious purposes from exploiting security holes he uncovers, Nohl typically withholds key details of the exploit and discloses his findings only months after sharing his research with the relevant manufacturers or trade organizations to allow them to roll out upgrades or countermeasures to mitigate the security risk.
+</p>
+<p>
+Since graduating from U.Va. in August 2008, Nohl has gone on to discover and demonstrate two key security vulnerabilities in mobile phones – encryption flaws in both the GSM protocol that most cell phones use to communicate with cell towers, and in SIM cards, the tiny “subscriber identity module” chip in every phone that identifies and authenticates the phone.
+</p>
+<p>
+Both discoveries generated worldwide media coverage.
+</p>
+<p>
+As just one example of possible ramifications, the latter security hole could allow a malicious hacker to send a virus through a text message, which could then allow the hacker to eavesdrop on calls or make purchases through mobile payment systems.
+</p>
+<p>
+“Karsten has had an outstanding impact in analyzing how cryptography gets used in the real world and demonstrating what goes wrong when important engineering principles are not followed carefully,” said computer science professor David Evans, Nohl’s former doctoral adviser and a co-organizer of Friday’s talk. “The vulnerabilities he has identified in RFID algorithms, GSM encryption and SIM cards impact billions of devices most of us use every day, and it’s really important that people understand the security weaknesses in these systems and that vendors work to improve them. Karsten’s work is a fundamental step toward those goals.”
+</p>
+<p>
+Nohl’s talk will discuss how security exploits with real-world implications are usually enabled by not just one design flaw, but by deviations from best practices on multiple design layers. Protection designs that focus on a single security function and neglect complementary layers are more prone to compromise, Nohl will argue, with examples from his own research on three widely deployed technologies – cell phones, car keys and smartcards.
+</p>
+<p>
+“Real-world cryptographic systems rarely meet academic expectations, with most systems being shown ‘insecure’ at some point,” Nohl said in an email description of his talk. “At the same time, our IT-driven world has not yet fallen apart, suggesting that many protection mechanisms are ‘secure enough’ for how they are employed.”
+</p>
+<p>
+The talk will be followed by a reception in the fourth-floor atrium of Rice Hall.
+</p>
+<p>
+The event is co-sponsored by the departments of Computer Science and Electrical and Computer Engineering, which jointly administer U.Va.’s computer engineering Program in the School of Engineering and Applied Science.
+</p>
+</blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2013/karsten-nohl-visits-uva/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MOOCs, KOOCS, and SMOOCHs</title>
+		<link>https://www.jeffersonswheel.org/2013/moocs-koocs-and-smoochs</link>
+		<comments>https://www.jeffersonswheel.org/2013/moocs-koocs-and-smoochs#comments</comments>
+		<pubDate>Thu, 02 May 2013 19:17:11 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Talks]]></category>
+		<category><![CDATA[Teaching]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=450</guid>
+		<description><![CDATA[UVa Today has an article about my talk yesterday on open education: Evans: U.Va. Should Be a Global Leader in MOOCS, Online Learning, UVaToday, 1&#160;May&#160;2013. The article focuses just on the last slide, which is my proposal for what UVa should do. The full talk is available at http://www.cs.virginia.edu/evans/talks/smoochs/ and below:]]></description>
+				<content:encoded><![CDATA[<p>UVa Today has an article about my talk yesterday on open education: <a href="https://news.virginia.edu/content/evans-uva-should-be-global-leader-moocs-online-learning"><em>Evans: U.Va. Should Be a Global Leader in MOOCS, Online Learning</em></a>, UVaToday, 1&nbsp;May&nbsp;2013.  The article focuses just on the last slide, which is my proposal for what UVa should do.  </p>
+<p>The full talk is available at <a href="http://www.cs.virginia.edu/evans/talks/smoochs/">http://www.cs.virginia.edu/evans/talks/smoochs/</a> and below:<br />
+<center><br />
+<iframe src="http://www.slideshare.net/slideshow/embed_code/20421654" width="427" height="356" frameborder="0" marginwidth="0" \<br />
+marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkital\<br />
+lowfullscreen mozallowfullscreen> </iframe>
+<div style="margin-bottom:5px"> </div>
+<p></center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2013/moocs-koocs-and-smoochs/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

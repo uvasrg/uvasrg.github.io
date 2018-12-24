@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; Contests</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/contests/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>iDash Competition Winner</title>
+		<link>https://www.jeffersonswheel.org/2015/idash-competition-winner</link>
+		<comments>https://www.jeffersonswheel.org/2015/idash-competition-winner#comments</comments>
+		<pubDate>Tue, 17 Mar 2015 18:59:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Awards]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Contests]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=570</guid>
+		<description><![CDATA[Congratulations to Samee Zahur for winning the iDash Secure Genomics competition (Hamming Distance challenge task), sponsored by Human Longevity, Inc. A video of the event is available at http://www.humangenomeprivacy.org/. Samee&#8217;s solution was built using Obliv-C, and the code will be posted soon.]]></description>
+				<content:encoded><![CDATA[<p>Congratulations to Samee Zahur for winning the iDash Secure Genomics competition (Hamming Distance challenge task), sponsored by Human Longevity, Inc.  A video of the event is available at <a href="http://www.humangenomeprivacy.org/2015/AGENDA.html"><em>http://www.humangenomeprivacy.org/</em></a>.</p>
+<p>Samee&#8217;s solution was built using <a href="https://github.com/samee/obliv-c">Obliv-C</a>, and the code will be posted soon.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/idash-competition-winner/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Deutsche Post &#8220;Security Cup&#8221;</title>
+		<link>https://www.jeffersonswheel.org/2010/deutsche-post-security-cup</link>
+		<comments>https://www.jeffersonswheel.org/2010/deutsche-post-security-cup#comments</comments>
+		<pubDate>Tue, 07 Sep 2010 23:44:59 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Contests]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=151</guid>
+		<description><![CDATA[I&#8217;m a judge for the Deutsche Post &#8220;Security Cup&#8221; contest being organized by our former student, Karsten Nohl. The goal of the contest is to incentivize enterprising students and practitioners to bash on the Deutsche Post&#8217;s E-Postbrief web application. They are offering some fairly significant prizes (up to 5,000 Euro per bug) to teams that [...]]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m a judge for the Deutsche Post &#8220;Security Cup&#8221; contest being organized by our former student, Karsten Nohl.  The goal of the contest is to incentivize enterprising students and practitioners to bash on the Deutsche Post&#8217;s E-Postbrief web application.  They are offering some fairly significant prizes (up to 5,000 Euro per bug) to teams that identify vulnerabilities in their application, as well as providing up-front funding to qualified teams that enter the contest.</p>
+<p>
+<a href="http://www.deutschepost.de/dpag?tab=1&#038;skin=hi&#038;check=yes&#038;lang=de_EN&#038;xmlFile=link1022792_1022790">Deutsche Post Page</a><br />
+<a href="http://epostalnews.com/2010/09/06/deutsche-post-fronts-bug-hunt-stunt/">EPostal News</a></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2010/deutsche-post-security-cup/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

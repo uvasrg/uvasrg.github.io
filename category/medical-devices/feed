@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; Medical Devices</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/medical-devices/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Who Does the Autopsy?</title>
+		<link>https://www.jeffersonswheel.org/2015/who-does-the-autopsy</link>
+		<comments>https://www.jeffersonswheel.org/2015/who-does-the-autopsy#comments</comments>
+		<pubDate>Wed, 25 Mar 2015 06:49:40 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Medical Devices]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=573</guid>
+		<description><![CDATA[This (perhaps somewhat oversensationalized) article in Slate draws from Nate Paul&#8217;s research on medical device security: If you Die after Someone Hacks Your Glucose Monitor Who Does the Autopsy? (Slate, 13 March 2015). According to researchers at the Oak Ridge National Laboratory, in 2003 and 2009 respectively, the “Slammer” and “Conficker” worms had each successfully [...]]]></description>
+				<content:encoded><![CDATA[<p>This (perhaps somewhat oversensationalized) article in Slate draws from Nate Paul&#8217;s research on medical device security: <a href="http://www.slate.com/articles/technology/future_tense/2015/03/implantable_medical_devices_hacking_who_does_the_autopsy.html"><em>If you Die after Someone Hacks Your Glucose Monitor Who Does the Autopsy?</em></a> (Slate, 13 March 2015).</p>
+<blockquote><p>According to researchers at the Oak Ridge National Laboratory, in 2003 and 2009 respectively, the “Slammer” and “Conficker” worms had each successfully infected networked hospital systems responsible for monitoring heart patients. Since the days of Slammer and Conficker, malware has since become even more sophisticated, and a Trojan with a specifically engineered piece of malicious code, could cause harm to numerous patients around the world simultaneously.</p>
+<p>While a small community of researchers, and even some government regulators, such as the FDA and FTC, have begun to pose important questions about the privacy and security implications of incorporating computer technology into biological systems, so far law enforcement and criminal justice authorities have been mostly absent from any substantive conversations.
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/who-does-the-autopsy/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Scientists work to keep hackers out of implanted medical devices</title>
+		<link>https://www.jeffersonswheel.org/2010/scientists-work-to-keep-hackers-out-of-implanted-medical-devices</link>
+		<comments>https://www.jeffersonswheel.org/2010/scientists-work-to-keep-hackers-out-of-implanted-medical-devices#comments</comments>
+		<pubDate>Mon, 19 Apr 2010 22:58:05 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Medical Devices]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=146</guid>
+		<description><![CDATA[Nate Paul, who finished a PhD in our group a few years ago and is now a research scientist at Oak Ridge National Labs, is the focus of this CNN story: Scientists work to keep hackers out of implanted medical devices, CNN, 16 April 2010. Nathanael Paul likes the convenience of the insulin pump that [...]]]></description>
+				<content:encoded><![CDATA[<p>Nate Paul, who finished a PhD in our group a few years ago and is now a research scientist at Oak Ridge National Labs, is the focus of this CNN story: <a href="http://www.cnn.com/2010/TECH/04/16/medical.device.security/"><em>Scientists work to keep hackers out of implanted medical devices</em></a>, CNN, 16 April 2010.</p>
+<blockquote><p>
+Nathanael Paul likes the convenience of the insulin pump that regulates his diabetes. It communicates with other gadgets wirelessly and adjusts his blood sugar levels automatically.</p>
+<p>
+But, a few years ago, the computer scientist started to worry about the security of this setup.</p>
+<p>
+What if someone hacked into that system and sent his blood sugar levels plummeting? Or skyrocketing? Those scenarios could be fatal.</p>
+<p>
+&#8220;If your computer fails, no one dies,&#8221; he said in a phone interview. &#8220;If your insulin pump fails, you have problems.&#8221;</p>
+<p>
+As sci-fi as it sounds, Paul&#8217;s fears are founded in reality.<br />
+&#8230;
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2010/scientists-work-to-keep-hackers-out-of-implanted-medical-devices/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

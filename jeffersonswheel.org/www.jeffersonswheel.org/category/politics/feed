@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; Politics</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/politics/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Letter to DHS</title>
+		<link>https://www.jeffersonswheel.org/2017/letter-to-dhs</link>
+		<comments>https://www.jeffersonswheel.org/2017/letter-to-dhs#comments</comments>
+		<pubDate>Sat, 18 Nov 2017 23:58:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Privacy]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=833</guid>
+		<description><![CDATA[I was one of 54 signatories on a letter organized by Alvaro Bedoya (from Georgetown University Law Center) from technology experts to DHS (Acting) Secretary Elaine Duke in opposition to the proposed plans to use algorithms to identify undesirable individuals as part of the Extreme Vetting Initiative: [PDF]. The Brennan Center&#8217;s Web page provides a [...]]]></description>
+				<content:encoded><![CDATA[<p>I was one of 54 signatories on a letter organized by Alvaro Bedoya (from Georgetown University Law Center) from technology experts to DHS (Acting) Secretary Elaine Duke in opposition to the proposed plans to use algorithms to identify undesirable individuals as part of the Extreme Vetting Initiative: [<a href="https://www.brennancenter.org/sites/default/files/Technology%20Experts%20Letter%20to%20DHS%20Opposing%20the%20Extreme%20Vetting%20Initiative%20-%2011.15.17.pdf">PDF</a>]. The <a href="https://www.brennancenter.org/analysis/ice-extreme-vetting-initiative-resource-page">Brennan Center&#8217;s Web page</a> provides a lot of resources supporting the letter.</p>
+<p>
+Some media coverage:</p>
+<ul>
+<li> <a href="http://www.ibtimes.co.uk/using-artificial-intelligence-extreme-vetting-not-our-watch-50-scientists-say-1647777"><em>Using artificial intelligence for &#39;extreme vetting&#39;? Not on our watch, 50 scientists say</em></a>&nbsp; (Matt O&#39;Brien (AP), <em>International Business Times</em>, November 17, 2017).
+</li>
+<li> <a href="https://www.nytimes.com/aponline/2017/11/16/us/ap-us-extreme-vetting-artificial-intelligence.html"><em>Federal &#39;Extreme Vetting&#39; Plan Castigated by Tech Experts</em></a>&nbsp;(Matt O&#39;Brien (AP), <em>The New York Times</em>, November 16, 2017).
+</li>
+<li><a href="http://thehill.com/policy/cybersecurity/360664-tech-experts-blast-trumps-extreme-vetting-plan"><em>Tech experts blast Trump&#39;s extreme vetting plan</em></a>&nbsp;(Morgan Chalfant, <em>The Hill</em>, November 16, 2017).
+</li>
+<li><a href="https://www.axios.com/critics-call-for-trump-to-abandon-plan-for-extreme-vetting-software-2510098223.html?utm_source=sidebar"><em>Critics call for Trump to abandon plan for &quot;Extreme Vetting&quot; software</em></a>&nbsp;(Ina Fried, <em>Axios</em>, November 16, 2017).</p>
+</li>
+<li><a href="https://qz.com/1131472/more-than-50-experts-just-told-dhs-that-using-ai-for-extreme-vetting-is-dangerously-misguided/"><em>More than 50 experts just told DHS that using AI for &quot;extreme vetting&quot; is dangerously misguided</em></a>&nbsp;(Dave Gershgorn, <em>Quartz</em>, November 16, 2017).</p>
+</li>
+<li><a href="https://gizmodo.com/ai-experts-say-ices-predictive-extreme-vetting-plan-is-1820505745"><em>AI Experts Say ICE&#39;s Predictive &#39;Extreme Vetting&#39; Plan Is &#39;Tailor-Made for Discrimination&#39;</em></a>&nbsp;(Sidney Fussell, <em>Gizmodo</em>, November 16, 2017).
+</li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/letter-to-dhs/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Apple and the FBI</title>
+		<link>https://www.jeffersonswheel.org/2016/apple-and-the-fbi</link>
+		<comments>https://www.jeffersonswheel.org/2016/apple-and-the-fbi#comments</comments>
+		<pubDate>Thu, 25 Feb 2016 10:48:00 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[History]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Smartphones]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=642</guid>
+		<description><![CDATA[I&#8217;m quoted in this article on the controversy over the FBI&#8217;s requests to Apple for assistance in unlocking an iPhone used by one of the San Bernardino terrorists: Unlocking Terrorist&#8217;s iPhone Won&#8217;t Risk Your Security, Discovery News, 24 February 2016. &#8220;Backdoors are complicated and impossible technical challenges and would risk everyone’s privacy,&#8221; Evans said. &#8220;But [...]]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m quoted in this article on the controversy over the FBI&#8217;s requests to Apple for assistance in unlocking an iPhone used by one of the San Bernardino terrorists: <a href="http://news.discovery.com/tech/gear-and-gadgets/unlocking-terrorists-iphone-wont-risk-your-security-160224.htm"><em>Unlocking Terrorist&#8217;s iPhone Won&#8217;t Risk Your Security</em></a>, Discovery News, 24 February 2016.</p>
+<p><center><br />
+<img src="//static.ddmcdn.com/gif/unlocking-terrorists-iphone-doesnt-risk-apple-security-670.jpg" width=600><br />
+</center></p>
+<blockquote><p>
+&#8220;Backdoors are complicated and impossible technical challenges and would risk everyone’s privacy,&#8221; Evans said. &#8220;But what the FBI is asking for is different from what Apple says the FBI is asking for.&#8221;
+</p></blockquote>
+<p>For the most part, I think the article gets things right.  It is very misleading to conflate what the FBI has asked for here with a cryptographic backdoor that would indeed dangerously risk everyone&#8217;s privacy and security.  I covered some of the technical aspects of this in <a href="http://xplorecs.org/class12">my introductory computing course</a> last week.</p>
+<p><script async class="speakerdeck-embed" data-id="7e19b5a62ca34b08a731dd654c30a8e2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/apple-and-the-fbi/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MOOCs, KOOCS, and SMOOCHs</title>
+		<link>https://www.jeffersonswheel.org/2013/moocs-koocs-and-smoochs</link>
+		<comments>https://www.jeffersonswheel.org/2013/moocs-koocs-and-smoochs#comments</comments>
+		<pubDate>Thu, 02 May 2013 19:17:11 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Talks]]></category>
+		<category><![CDATA[Teaching]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=450</guid>
+		<description><![CDATA[UVa Today has an article about my talk yesterday on open education: Evans: U.Va. Should Be a Global Leader in MOOCS, Online Learning, UVaToday, 1&#160;May&#160;2013. The article focuses just on the last slide, which is my proposal for what UVa should do. The full talk is available at http://www.cs.virginia.edu/evans/talks/smoochs/ and below:]]></description>
+				<content:encoded><![CDATA[<p>UVa Today has an article about my talk yesterday on open education: <a href="https://news.virginia.edu/content/evans-uva-should-be-global-leader-moocs-online-learning"><em>Evans: U.Va. Should Be a Global Leader in MOOCS, Online Learning</em></a>, UVaToday, 1&nbsp;May&nbsp;2013.  The article focuses just on the last slide, which is my proposal for what UVa should do.  </p>
+<p>The full talk is available at <a href="http://www.cs.virginia.edu/evans/talks/smoochs/">http://www.cs.virginia.edu/evans/talks/smoochs/</a> and below:<br />
+<center><br />
+<iframe src="http://www.slideshare.net/slideshow/embed_code/20421654" width="427" height="356" frameborder="0" marginwidth="0" \<br />
+marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkital\<br />
+lowfullscreen mozallowfullscreen> </iframe>
+<div style="margin-bottom:5px"> </div>
+<p></center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2013/moocs-koocs-and-smoochs/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Privacy-Preserving Applications on Smartphones</title>
+		<link>https://www.jeffersonswheel.org/2011/privacy-preserving-applications-on-smartphones</link>
+		<comments>https://www.jeffersonswheel.org/2011/privacy-preserving-applications-on-smartphones#comments</comments>
+		<pubDate>Wed, 06 Jul 2011 14:02:50 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Secure Computation]]></category>
+		<category><![CDATA[Smartphones]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=246</guid>
+		<description><![CDATA[Our paper on Privacy-Preserving Applications on Smartphones is now available: Yan Huang, Peter Chapman, and David Evans. Privacy-Preserving Applications on Smartphones. 6th USENIX Workshop on Hot Topics in Security (HotSec 2011), San Francisco. 9 August 2011. [PDF, 6 pages] Abstract: Smartphones are increasingly becoming the most trusted computing device typical people own. They are often [...]]]></description>
+				<content:encoded><![CDATA[<p>Our paper on <em>Privacy-Preserving Applications on Smartphones</em> is now available:</p>
+<blockquote><p>
+Yan Huang, Peter Chapman, and David Evans. <em><a href="http://www.cs.virginia.edu/evans/pubs/hotsec2011/">Privacy-Preserving Applications on Smartphones</a></em>. <a href="http://www.usenix.org/events/hotsec11/"><em>6th USENIX Workshop on Hot Topics in Security</em></a> (HotSec 2011), San Francisco.  9 August 2011. [<a href="http://www.mightbeevil.com/hotsec11.pdf">PDF</a>, 6 pages]
+</p></blockquote>
+<p>
+<a href="http://www.mightbeevil.com/contacts/" border=0><img src="http://www.mightbeevil.com/mobile/CommonContacts.png" width=150 align=left hspace=12></a><br />
+<b>Abstract:</b> Smartphones are increasingly becoming the most trusted computing device typical people own. They are often used to store highly sensitive information including email, financial accounts, and medical records. These properties make smartphones an ideal platform for privacy-preserving applications. To date, this area remains largely unexplored mainly because theoretical solutions to privacy-preserving computation were thought to be too heavyweight, even for standard PCs. We propose using smartphones to perform secure two (or more)-party computation. The limitations of smartphones provide a number of challenges for building such applications, but the novel trust model they provide, in particular the interactions between the phones and carriers, provides unique opportunities for useful secure computations against realistic adversaries. In this paper, we introduce the issues that make smartphones a unique platform for secure computation, identify some interesting potential applications, and describe our initial experiences creating privacy-preserving applications on Android devices.
+</p>
+<p>You can also <a href="http://www.mightbeevil.org/mobile">try our out demo applications</a> and <a href="http://www.mightbeevil.org/framework/">download the secure computation framework</a> used to build them.
+</p>
+<p>
+Peter Chapman will present the paper at <a href="http://www.usenix.org/events/hotsec11/">HotSec</a> on August 9 in San Francisco.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2011/privacy-preserving-applications-on-smartphones/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Open-Source GSM Hacking</title>
+		<link>https://www.jeffersonswheel.org/2009/open-source-gsm-hacking</link>
+		<comments>https://www.jeffersonswheel.org/2009/open-source-gsm-hacking#comments</comments>
+		<pubDate>Wed, 02 Dec 2009 16:41:07 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=133</guid>
+		<description><![CDATA[IEEE Spectrum has an article on Karsten Nohl&#8217;s efforts to lead an open-source GSM hacking project: Open-Source Effort to Hack GSM, IEEE Spectrum, 30 November 2009. If you&#8217;re still using a cellphone based on early digital standards, you better be careful what you say. The encryption technology used to prevent eavesdropping in GSM (Global System [...]]]></description>
+				<content:encoded><![CDATA[<p>IEEE Spectrum has an article on Karsten Nohl&#8217;s efforts to lead an open-source GSM hacking project: <a href="http://spectrum.ieee.org/telecom/wireless/open-source-effort-to-hack-gsm"><em>Open-Source Effort to Hack GSM</em></a>, IEEE Spectrum, 30 November 2009.</p>
+<blockquote><p>
+If you&#8217;re still using a cellphone based on early digital standards, you better be careful what you say. The encryption technology used to prevent eavesdropping in GSM (Global System for Mobile communications), the world&#8217;s most widely used cellphone system, has more security holes than Swiss cheese, according to an expert who plans to poke a big hole of his own.</p>
+<p>
+Karsten Nohl, chief research scientist with H4RDW4RE, a Sunnyvale, Calif.-based security research firm, is mounting what could be the most ambitious attempt yet to compromise the GSM phone system, which is used by over 3 billion people around the world. Others have cracked the A5/1 encryption technology used in GSM before, but their results have remained secret. However, Nohl, who earned a Ph.D. in computer science at the University of Virginia and is a member of Germany&#8217;s Chaos Computer Club (CCC), intends to go one big step further: By the end of the year, he plans to make the keys available to everyone on the Internet.</p>
+<p>
+&#8230;</p>
+<p>
+GSM cracking has a long history, which began in the late 1990s in academic circles and has since sprouted a handful of commercial businesses. Today, these companies legally sell GSM call-interception solutions&#8211;which are relatively expensive&#8211;mostly to government intelligence agencies. In general, supplying and using this software is illegal in the wider market, but no one can say for certain how many groups have illegally gained access to the technology.</p>
+<p>
+That&#8217;s the point Nohl hopes to drive home: The A5/1 algorithm is a broken 64-bit encryption technology, a relic of the Cold War era, when laws prohibited the export of strong encryption technology from the United States. It needs to be replaced&#8211;ideally by the much stronger, 128-bit A5/3 system, which is already being used in newer-generation digital cellular systems, such as Universal Mobile Telecommunications System (UMTS). &#8220;If you go from the 64 bits of the A5/1 cipher to the 128 bits of A5/3,&#8221; says Nohl, cracking requires an amount of memory storage that is beyond what &#8220;is available on earth.&#8221;</p>
+<p>
+A big problem with plugging the GSM encryption hole, according to the security expert, is that operators are unwilling to admit that a problem even exists. Many want to avoid spending additional money on upgrading aging and amortized GSM infrastructure, he says. The GSM Association, which represents the interests of GSM mobile operators around the world, says only that it is aware of various eavesdropping projects. In the same breath, it points to the complexities of identifying and recording calls from RF signals.
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/open-source-gsm-hacking/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>A Belated Apology to Alan Turing</title>
+		<link>https://www.jeffersonswheel.org/2009/a-belated-apology-to-alan-turing</link>
+		<comments>https://www.jeffersonswheel.org/2009/a-belated-apology-to-alan-turing#comments</comments>
+		<pubDate>Fri, 11 Sep 2009 21:22:27 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[History]]></category>
+		<category><![CDATA[Politics]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=130</guid>
+		<description><![CDATA[British Prime Minister Gordon Brown has issued a long overdue apology to Alan Turing on behalf of the British government. The full text is here. Turing was a quite brilliant mathematician, most famous for his work on breaking the German Enigma codes. It is no exaggeration to say that, without his outstanding contribution, the history [...]]]></description>
+				<content:encoded><![CDATA[<p>British Prime Minister Gordon Brown has issued a long overdue apology to Alan Turing on behalf of the British government.  The full text is <a href="http://www.number10.gov.uk/Page20571">here</a>.</p>
+<blockquote><p>
+Turing was a quite brilliant mathematician, most famous for his work on breaking the German Enigma codes. It is no exaggeration to say that, without his outstanding contribution, the history of World War Two could well have been very different. He truly was one of those individuals we can point to whose unique contribution helped to turn the tide of war. The debt of gratitude he is owed makes it all the more horrifying, therefore, that he was treated so inhumanely. In 1952, he was convicted of &#8216;gross indecency&#8217; &#8211; in effect, tried for being gay. His sentence &#8211; and he was faced with the miserable choice of this or prison &#8211; was chemical castration by a series of injections of female hormones. He took his own life just two years later.</p>
+<p>
+&#8230; But even more than that, Alan deserves recognition for his contribution to humankind. For those of us born after 1945, into a Europe which is united, democratic and at peace, it is hard to imagine that our continent was once the theatre of mankind’s darkest hour. It is difficult to believe that in living memory, people could become so consumed by hate &#8211; by anti-Semitism, by homophobia, by xenophobia and other murderous prejudices &#8211; that the gas chambers and crematoria became a piece of the European landscape as surely as the galleries and universities and concert halls which had marked out the European civilisation for hundreds of years. It is thanks to men and women who were totally committed to fighting fascism, people like Alan Turing, that the horrors of the Holocaust and of total war are part of Europe’s history and not Europe’s present.</p>
+<p>
+So on behalf of the British government, and all those who live freely thanks to Alan’s work I am very proud to say: we’re sorry, you deserved so much better.
+</p></blockquote>
+<p>The apology grew out of an <a href="http://petitions.number10.gov.uk/turing/">online petition</a> initiated by <a href="http://www.jgc.org/">John Graham-Cumming</a> (also known for writing the <a href="http://oreilly.com/catalog/9780596523206/"><em>Geek Atlas</em></a> travel guide).  Britain has a long tradition of citizens being able to petition the government, which is now supported by an <a href="http://petitions.number10.gov.uk/">e-petitions website</a>.  The petition asking for an apology to Alan Turing is currently the fourth-most signed petition with 31,349 signatures (all of whom must be British citizens).</p>
+<p>
+Some news coverage:</p>
+<ul>
+<li> BBC: <a href="http://news.bbc.co.uk/2/hi/technology/8249792.stm"><em>PM apology after Turing petition</em></a>
+<li> The Guardian: <a href="http://www.guardian.co.uk/technology/blog/2009/sep/11/turing-apology-gay"><em>No 10 apologises for &#8220;appalling&#8221; treatment of Alan Turing</em></a>
+<li> John Graham-Cumming&#8217;s blog: <a href="http://www.jgc.org/blog/2009/09/hello-john-its-gordon-brown.html"><em>&#8220;Hello John, It&#8217;s Gordon Brown&#8221;</em></a>
+</ul>
+<p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/a-belated-apology-to-alan-turing/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Queen&#8217;s iPod</title>
+		<link>https://www.jeffersonswheel.org/2009/the-queens-ipod</link>
+		<comments>https://www.jeffersonswheel.org/2009/the-queens-ipod#comments</comments>
+		<pubDate>Fri, 03 Apr 2009 14:57:57 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=111</guid>
+		<description><![CDATA[On his recent visit to England, President Obama presented the Queen with an iPod loaded with showtunes. Although one might question the diplomatic and musical judgment behind such a gift, it also raises some interesting questions about copyright law and computer security. The EFF has an interesting article about the copyright issues: iPods, First Sale, [...]]]></description>
+				<content:encoded><![CDATA[<p>On his recent visit to England, President Obama presented the Queen with an iPod loaded with showtunes.  Although one might question the diplomatic and musical judgment behind such a gift, it also raises some interesting questions about copyright law and computer security.</p>
+<p>
+The EFF has an interesting article about the copyright issues: <a href="http://www.eff.org/deeplinks/2009/04/first-sale-president-obama-and-queen-england"><em>iPods, First Sale, President Obama, and the Queen of England</em></a>, Fred von Lohmann, 2 April 2009.  It starts,</p>
+<blockquote><p>
+President Obama reportedly gave an iPod, loaded with 40 show tunes, to England&#8217;s Queen Elizabeth II as a gift. Did he violate the law when he did so?</p>
+<p>
+You know your copyright laws are broken when there is no easy answer to this question.
+</p></blockquote>
+<p>The other question this raises is how effective of a malware vector this is when the Queen attaches the iPod to her PC (okay, the Queen probably runs ubuntu).  I don&#8217;t know if there are any known vulnerabilities in the iPod/iTunes interface, but its a wide enough interface that it would be very unsurprising if there are ways to get malware from an iPod to a host machine.  Perhaps, this is all part of a clever strategy to make heads of less friendly states than the Queen expect to receive electronic gadgets from our President and connect them to their systems.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/the-queens-ipod/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Safety vs. Ideals?</title>
+		<link>https://www.jeffersonswheel.org/2009/safety-vs-ideals</link>
+		<comments>https://www.jeffersonswheel.org/2009/safety-vs-ideals#comments</comments>
+		<pubDate>Wed, 21 Jan 2009 05:23:17 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Voting]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=90</guid>
+		<description><![CDATA[As for our common defense, we reject as false the choice between our safety and our ideals. Our founding fathers faced with perils that we can scarcely imagine, drafted a charter to assure the rule of law and the rights of man, a charter expanded by the blood of generations. Those ideals still light the [...]]]></description>
+				<content:encoded><![CDATA[<p><em><br />
+As for our common defense, we reject as false the choice between our safety and our ideals.</p>
+<p>
+Our founding fathers faced with perils that we can scarcely imagine, drafted a charter to assure the rule of law and the rights of man, a charter expanded by the blood of generations.  Those ideals still light the world, and we will not give them up for expedience&#8217;s sake.</p>
+<p>
+And so, to all other peoples and governments who are watching today, from the grandest capitals to the small village where my father was born: know that America is a friend of each nation and every man, woman and child who seeks a future of peace and dignity, and we are ready to lead once more.<br />
+</em></p>
+<p align="right">
+President Barack Obama, <a href="http://www.nytimes.com/2009/01/20/us/politics/20text-obama.html?pagewanted=all"><em>Inaugural Address</em></a>, 20 January 2009</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/safety-vs-ideals/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

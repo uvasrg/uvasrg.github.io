@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; Social Networks</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/social-networks/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Twitter Single Sign-On</title>
+		<link>https://www.jeffersonswheel.org/2014/twitter-single-sign-on</link>
+		<comments>https://www.jeffersonswheel.org/2014/twitter-single-sign-on#comments</comments>
+		<pubDate>Tue, 07 Oct 2014 17:56:57 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Program Analysis]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Social Networks]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=533</guid>
+		<description><![CDATA[By Hannah Li Single Sign-On (SSO) services are widely used in modern web applications for authentication and social networking. While implementing a SSO service for a website is moderately straightforward, building it correctly could be tough and mistakes can lead to serious security consequences. Previous research on Facebook SSO revealed several major vulnerabilities which could [...]]]></description>
+				<content:encoded><![CDATA[<p><strong>By Hannah Li</strong></p>
+<p>
+Single Sign-On (SSO) services are widely used in modern web applications for authentication and social networking. While implementing a SSO service for a website is moderately straightforward, building it correctly could be tough and mistakes can lead to serious security consequences. <a href="https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/zhou">Previous research on Facebook SSO</a> revealed several major vulnerabilities which could easily allow an attacker to obtain sensitive user information or to take full control of a user&#8217;s account. These security weaknesses can often lead to token credentials misuse.
+</p>
+<p>
+Because of these findings, I was motivated to discover whether SSO services implemented with other versions of OAuth would exhibit the same security vulnerabilities. I analyzed Twitter SSO, which is implemented using OAuth 1.0A instead of OAuth 2 which is used by Facebook, for similar security weaknesses. I searched for vulnerabilities by building a web application implementing Twitter SSO and by examining the traffic between the client and the server for patterns and token leakages.
+</p>
+<h3>Twitter SSO Protocol: Tokens</h3>
+<p>
+The four &#8220;tokens&#8221; which could be used by an attacker are the <b>Consumer Key</b>, <b>Request Token</b>, <b>Verifier</b>, and <b>Access Token</b>, which will be the focus of this analysis. For the rest of this post, Alice is the user and Mallory is the attacker.
+</p>
+<p>
+<em>Consumer Key</em>. The Consumer Key and Secret are given to the application when it registers with Twitter. App developers are instructors to keep this key/secret pair secret and if exposed, to generate another key/secret pair.
+</p>
+<p>
+<em>Request Token</em>. This token also comes in a key/secret pair. This temporary key is issued by Twitter to the application when Alice first requests to sign in with twitter. While the key is shown publicly in the URL, the secret should be kept private.
+</p>
+<p>
+<em>Verifier</em>. The Verifier is a publicly shown key (in the URL) that Twitter issues to confirm that Alice has approved the application.
+</p>
+<p>
+<em>Access Token</em>. This key/secret pair is a more permanent token that allows applications to access protected resources on behalf of Alice.
+</p>
+<h3>Twitter SSO Protocol: Overview</h3>
+<p>The diagram below provides a high-level description for Twitter SSO procedure, breaking up the protocol into three steps, each processing an authentication token. </p>
+<p><center><img src="/images/twittersso.png" width="688" height="467"></center></p>
+<h3>Twitter SSO Protocol: More Details</h3>
+<p>
+The diagram below expands each of the three steps. Note that the items written on the arrows do not show a comprehensive list of parameters sent, but rather a few important ones (see <a href="https://dev.twitter.com/web/sign-in/implementing"><em>Implementing Sign in with Twitter Overview</em></a> and <a href="http://oauth.net/core/1.0a/"><em>OAuth Core 1.0a</em></a> for detailed documentation).
+</p>
+<p><center><A href="/images/twitterprotocol.png"><img src="/images/twitterprotocol-small.png" width="688" height="488"></a></center></p>
+<h3>Security Implications</h3>
+<p>
+To evaluate the security of Twitter&#8217;s SSO implementation, I tried swapping all three tokens for other tokens in different combinations. I did not find any way to use these methods to gain illicit access to private, user information. There are several countermeasures associated with each token that Twitter SSO uses to prevent this type of attack.
+</p>
+<p>
+<b>Request Token.</b> The Request Token must be connected to the Consumer Key and Secret and expires after the first time it is used to request an Access Token. Due to its temporary nature and correspondence with the Consumer Key and Secret, Mallory cannot exploit the system by stealing this Request Token without also knowing the Consumer Key and Secret, which should be kept secret.
+</p>
+<p>
+<b>Verifier.</b> Twitter issues a different Verifier each time, thus preventing a malicious party from reusing the Verifier through an impersonation attack. Even through the Verifier is passed through the URL, like the Request Token, Mallory cannot attack the web application without also knowing the Consumer Key and Secret.
+</p>
+<p>
+<b>Access Token.</b> Each Access Token is connected to a Consumer Key and Secret, which are known only to the application developer. So even if Mallory were to successfully obtain a leaked token over the traffic, she would not be able to use it to log into Alice&#8217;s account.  This is verified with HuffingtonPost.com, which leaks its Access Token pair through its last message to Alice&#8217;s browser. Without this defense, Mallory could have used the leaked Access Token to issue requests to Twitter on behalf of HuffingtonPost.com and Alice.
+</p>
+<p>
+The last precaution also proved to be useful in another serious mistake in the SSO service. Many tests found that when an application uses the Access Token to request Alice’s information or post on her behalf, Twitter does not check the Access Token Secret, as only providing the Access Token is enough to give the client permission. </p>
+<p>
+This may not pose a realistic security threat because the entire Access Token key pair is typically kept secret, so in order to take advantage of this mistake, Mallory would need to find the Consumer Key and Secret as well. To make the entire system more secure, it is recommended that Twitter verify the Access Token Secret, as many keys and secrets are accidentally leaked through GitHub and even mobile applications when the developers are not careful. When Mallory has both the Access Token and Consumer Key token/secret pairs, it would be much easier to attack a web application.
+</p>
+<p>
+Though checking the Access Token against the Consumer Key makes SSO safer to use, it has its weaknesses as well. Mobile Applications are easy to reverse engineer since the client code must be made available. If an application needs the Consumer Key to implement SSO, then there is no possible way to build a client-only secure application with SSO since the Consumer Key must be in the code. The secure approach re-routes requests through an application server, which can securely store the key and add it to the requests sent to Twitter. This adds an extra step to app building and many developers may not realize the importance in not including the Consumer Key in the application code.
+</p>
+<p>
+A <a href="http://www.cs.columbia.edu/~nieh/pubs/sigmetrics2014_playdrone.pdf">recent study from Columbia</a> (Nicolas Viennot, Edward Garcia, and Jason Nieh. <em>A Measurement Study of Google Play</em>. ACM SIGMETRICS, June 2014) scanned thousands of applications in the Google Play Store for token and secret leakages, supports the conclusion that requiring a Consumer Key from the client often leads to faulty implementations.  They discovered 1,477 Facebook credentials and 28,235 Twitter credentials among all the free applications when the Facebook SDK is used twice as much as the Twitter4J Library. While their explanation of the significant difference in credentials found makes sense, a more reasonable explanation is that without using a server, it is impossible to implement a Twitter SSO without including the Consumer Key in the code.
+ </p>
+<h4>Conclusion</h4>
+<p>
+While Twitter&#8217;s implementation of SSO has security advantages for web applications, it is dangerous for mobile applications. There are two clear options an API developer could use to make an authentication protocol: either you require the server to verify the Consumer Key and Secret during each step of the procedure, or you don’t, hoping that Mallory does not gain access to key information. The latter option, however, leads to <a href="http://www.ssoscan.org">many vulnerabilities as clearly seen with Facebook SSO</a>. The first, seemingly more secure, choice causes mobile applications to sacrifice the security of an OAuth protocol.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2014/twitter-single-sign-on/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>To Facebook or not to Facebook</title>
+		<link>https://www.jeffersonswheel.org/2009/to-facebook-or-not-to-facebook</link>
+		<comments>https://www.jeffersonswheel.org/2009/to-facebook-or-not-to-facebook#comments</comments>
+		<pubDate>Sat, 04 Jul 2009 15:34:55 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Social Networks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=126</guid>
+		<description><![CDATA[The Examiner has an article on Facebook privacy issues: To Facebook or not to Facebook, 29 June 2009. The second approach is even scarier, a feature of Facebook which allows outside developers to create small programs called “applications” for members to do things like playing poker, getting daily horoscopes, and sending each other virtual fantasies. [...]]]></description>
+				<content:encoded><![CDATA[<p>The Examiner has an article on Facebook privacy issues: <a href="http://www.examiner.com/x-7834-Phoenix-News-You-Can-Use-Examiner~y2009m6d29-To-Facebook-or-Facebook-not-to"><em>To Facebook or not to Facebook</em></a>, 29 June 2009.  </p>
+<blockquote><p>
+The second approach is even scarier, a feature of Facebook which allows outside developers to create small programs called “applications” for members to do things like playing poker, getting daily horoscopes, and sending each other virtual fantasies. With the younger set, the latter must cause parents a lot of consternation over their kids. Word is there are about 24,000 applications that have been built by 400,000 developers.</p>
+<p>
+And here’s the kicker. Once these developers have your personal data, there is nothing Facebook can do. Adrienne Felt of the University of Virginia investigated the procedure in her thesis and found out that 90 out of 150 of Facebook’s most popular applications (that’s 60 percent) have unnecessary access to your private information.
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/to-facebook-or-not-to-facebook/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How Facebook Mucks Up Office Life</title>
+		<link>https://www.jeffersonswheel.org/2009/how-facebook-mucks-up-office-life</link>
+		<comments>https://www.jeffersonswheel.org/2009/how-facebook-mucks-up-office-life#comments</comments>
+		<pubDate>Sat, 02 May 2009 19:32:40 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Social Networks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=119</guid>
+		<description><![CDATA[Jake Widman has written an interesting article about the impact of &#8220;oversharing&#8221; on Facebook: How Facebook mucks up office life: Managing a workforce is already a challenging job; now Facebook and other social networks raise a host of sticky new situations., ComputerWorld, 30 April 2009. The key observation is the way social networks mix different [...]]]></description>
+				<content:encoded><![CDATA[<p>Jake Widman has written an interesting article about the impact of &#8220;oversharing&#8221; on Facebook: <a href="http://www.computerworld.com/action/article.do?command=printArticleBasic&#038;taxonomyName=Web+2.0&#038;articleId=9131912&#038;taxonomyId=169"><em>How Facebook mucks up office life: Managing a workforce is already a challenging job; now Facebook and other social networks raise a host of sticky new situations.</em></a>, ComputerWorld, 30 April 2009.</p>
+<p>
+The key observation is the way social networks mix different social circles that would rarely intersect in real life, along with people&#8217;s willingness to accept friend requests from unknown or unvalidated individuals.</p>
+<blockquote><p>
+Separate from the social challenge is the issue of people, particularly younger Facebook users, becoming friends with people they don&#8217;t know well, or even at all. &#8220;Facebook doesn&#8217;t have our normal social mechanisms for validating someone,&#8221; Argast points out &#8212; and many users, especially people who use Facebook to network, are reluctant to turn down a friend request.
+</p></blockquote>
+<p>The article mentions studies that indicate both that a significant fraction (23%) of hiring managers check social networking sites on potential hires, and that the majority of Facebook users do not understand how visible their &#8220;private&#8221; information is.</p>
+<p>
+The article also highlights the additional risks of applications.</p>
+<blockquote><p>
+A further issue is the fact Facebook applications gain access to &#8212; as the warning screen tells you &#8212; &#8220;your profile information, photos, your friends&#8217; info, and other content that it requires to work,&#8221; whether they need it or not.</p>
+<p>
+In 2007, Adrienne Porter Felt, then a computer science student at the University of Virginia and now a student at U.C. Berkeley, and David Evans, an Associate Professor of Computer Science at the University of Virginia, did a survey of the top 150 Facebook applications and found that &#8220;90.7% of applications are being given more privileges than they need&#8221; to perform their intended functions.</p>
+<p>
+The researchers haven&#8217;t updated those earlier findings, but Evans says he suspects the results would be pretty similar. &#8220;If anything, the applications are getting more complex,&#8221; he says. &#8220;And there is also an emerging model for third-party advertising networks embedded in applications, which has further privacy risks.&#8221;
+</p></blockquote>
+<p>In summary,</p>
+<blockquote><p>
+Bottom line? Facebook doesn&#8217;t call for new principles, Selvas says, just smart application of the old ones. And the constant reminder that you and your employees are in public when you&#8217;re on Facebook. As Selvas sums up, &#8220;Don&#8217;t do anything on Facebook you wouldn&#8217;t do in an airport.&#8221;
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/how-facebook-mucks-up-office-life/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>NYT: When Everyone’s a Friend, Is Anything Private?</title>
+		<link>https://www.jeffersonswheel.org/2009/new-york-times-when-everyone%e2%80%99s-a-friend-is-anything-private</link>
+		<comments>https://www.jeffersonswheel.org/2009/new-york-times-when-everyone%e2%80%99s-a-friend-is-anything-private#comments</comments>
+		<pubDate>Sun, 08 Mar 2009 02:11:47 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Social Networks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=106</guid>
+		<description><![CDATA[The New York Times has an article on social network privacy issues including the risks of third party applications: When Everyone’s a Friend, Is Anything Private?, New York Times, 7 March 2009 (by Randall Stross, Digital Domain column). FACEBOOK has a chief privacy officer, but I doubt that the position will exist 10 years from [...]]]></description>
+				<content:encoded><![CDATA[<p>The New York Times has an article on social network privacy issues including the risks of third party applications: <a href="http://www.nytimes.com/2009/03/08/business/08digi.html"><em>When Everyone’s a Friend, Is Anything Private?</em></a>, New York Times, 7 March 2009 (by Randall Stross, Digital Domain column).</p>
+<blockquote><p>
+FACEBOOK has a chief privacy officer, but I doubt that the position will exist 10 years from now. That’s not because Facebook is hell-bent on stripping away privacy protections, but because the popularity of Facebook and other social networking sites has promoted the sharing of all things personal, dissolving the line that separates the private from the public.</p>
+<p>
+&#8230;</p>
+<p>
+Facebook’s default settings for new accounts protect users in some ways. For instance, the information in one’s profile is restricted to friends only; it is not accessible to friends of friends. But Facebook sets few restrictions by default on what third-party software can see in a network of friends. Members are not likely aware that unless they change the default privacy settings, an application installed by a friend can vacuum up and store many categories of a member’s personal information.</p>
+<p>
+David E. Evans, an associate professor of computer science at the University of Virginia, says he wishes that Facebook would begin with more restrictions on the information that outside software developers can reach. For 15 of 19 information categories, Facebook sets a default setting of “share,” which means the information can be pulled out of Facebook and stored on servers outside its control. These 15 categories include activities, interests, photos and relationship status.</p>
+<p>
+“Facebook could set defaults erring on the side of privacy instead of on the side of giving your information away,” he said.</p>
+<p>
+Chris Kelly, Facebook’s chief privacy officer, defends its current settings, saying it “gives users extensive control over the applications they choose to interact with.” He also said Facebook had removed “thousands” of applications that members deemed untrustworthy.</p>
+<p>
+In Professor Evans’s view, however, banishment of malevolent software comes too late: “Once the application has got the data, it’s got it, stored on someone else’s machine.”</p>
+<p>
+The defaults turn out to be crucially important, because few users go to the trouble of adjusting the settings. Asked how many members ever change a privacy setting, Mr. Kelly said 20 percent.
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/new-york-times-when-everyone%e2%80%99s-a-friend-is-anything-private/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Grown Up Digital</title>
+		<link>https://www.jeffersonswheel.org/2009/grown-up-digital</link>
+		<comments>https://www.jeffersonswheel.org/2009/grown-up-digital#comments</comments>
+		<pubDate>Tue, 10 Feb 2009 04:46:49 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Social Networks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=100</guid>
+		<description><![CDATA[Don Tapscott&#8217;s new book, Grown Up Digital: How the Net Generation is Changing Your World, includes a brief description of Adrienne Felt&#8217;s work on social network privacy: I&#8217;m still worried, though, and I&#8217;m not alone. According to Adrienne Felt, the coauthor of a 2007 study on social networking privacy, the new measures do not fix [...]]]></description>
+				<content:encoded><![CDATA[<p>Don Tapscott&#8217;s new book, <a href="http://www.amazon.com/gp/reader/0071508635/ref=sib_dp_pt#reader-link"><em>Grown Up Digital: How the Net Generation is Changing Your World</em></a>, includes a brief description of Adrienne Felt&#8217;s work on social network privacy:</p>
+<blockquote><p>
+I&#8217;m still worried, though, and I&#8217;m not alone.  According to Adrienne Felt, the coauthor of a 2007 study on social networking privacy, the new measures do not fix a key problem.  You can decide which of your friends can see what on your profile, and you can stop the applications that your friends install from peering into your Facebook world.  But, if <em>you</em> install an application &mdash; say, a photo editing application that lets you put Angelina Jolie&#8217;s hairdo on your best friend&#8217;s high school graduation picture &mdash; the maker of that application can see anything you put on your profile, like your dating interest, your summer plans, your political views, your photos, the works.  The only way to stop the application developers from peering into your own Facebook world, Felt says, is to not put any applications on your personal profile.  The vast majority of applications don&#8217;t need your private data to do their thing, she notes, and yet all of them have access to whatever you can see. [footnote that references our <a href="http://www.cs.virginia.edu/felt/privacybyproxy.pdf"><em>Privacy by Proxy</em></a> paper]
+</p></blockquote>
+<p>I tried the book&#8217;s website <a href="http://grownupdigital.com/"><em>http://grownupdigital.com/</em></a>, but get:</p>
+<blockquote><p>
+PHP has encountered an Access Violation at 7C81BD02
+</p></blockquote>
+<p>Perhaps the digital world is not fully grown up yet!</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/grown-up-digital/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Congratulations Dr. McCune!</title>
+		<link>https://www.jeffersonswheel.org/2009/congratulations-dr-mccune</link>
+		<comments>https://www.jeffersonswheel.org/2009/congratulations-dr-mccune#comments</comments>
+		<pubDate>Fri, 16 Jan 2009 22:15:41 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Social Networks]]></category>
+		<category><![CDATA[Teaching]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=85</guid>
+		<description><![CDATA[Jonathan McCune successfully defended his PhD thesis at Carnegie Mellon University last week. Jon (sorry, that&#8217;s &#8220;Dr. McCune&#8221;) was an undergraduate researcher in our group from 2001-2003, when he worked on agent-based software (for our RoboCup team) and]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.ece.cmu.edu/~jmmccune/">Jonathan McCune</a> successfully defended his PhD thesis at Carnegie Mellon University last week.  Jon (sorry, that&#8217;s &#8220;Dr. McCune&#8221;) was an undergraduate researcher in our group from 2001-2003, when he worked on agent-based software (for our <a href="http://wwfc.cs.virginia.edu/">RoboCup team</a>) and <a http://www.cs.virginia.edu/~evans/theses/index.html#mccune">adaptable sensor network security</a>, before joining CMU&#8217;s PhD program in 2003.  Dr. McCune&#8217;s recent research has focused on leveraging trusted hardware to build secure systems.</p>
+<p>Congratulations Dr. McCune!</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/congratulations-dr-mccune/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>RFID Security and Privacy Cybertrust Grant</title>
+		<link>https://www.jeffersonswheel.org/2009/uva-team-receives-1-million-grant-to-improve-rfid-security</link>
+		<comments>https://www.jeffersonswheel.org/2009/uva-team-receives-1-million-grant-to-improve-rfid-security#comments</comments>
+		<pubDate>Tue, 13 Jan 2009 04:27:08 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Social Networks]]></category>
+		<category><![CDATA[Teaching]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=77</guid>
+		<description><![CDATA[UVa Today has an article about our (myself, abhi shelat, John Lach, and Ben Calhoun) recent NSF Cybertrust grant on RFID security and privacy: U.Va. Team Receives $1 Million Grant To Improve RFID Security, by Brevy Cannon, 9 January 2009. Some excerpts: To address the problematic use of custom cryptography, the U.Va. research team will [...]]]></description>
+				<content:encoded><![CDATA[<p>UVa Today has an article about our (myself, abhi shelat, John Lach, and Ben Calhoun) recent NSF Cybertrust grant on RFID security and privacy: <a href="http://www.virginia.edu/uvatoday/newsRelease.php?id=7468"><em>U.Va. Team Receives $1 Million Grant To Improve RFID Security</em></a>, by Brevy Cannon, 9 January 2009.</p>
+<p>Some excerpts:</p>
+<blockquote><p>To address the problematic use of custom cryptography, the U.Va. research team will develop an encryption scheme that is relatively strong — providing some measure of privacy and security — but that can be implemented at almost zero cost by repurposing the meager hardware resources already available on common RFID tags. Providing a solution that adds virtually no cost is crucial, because these RFIDs are made by the billions, at such low costs (5 cents or less apiece) that there is no margin for any added expense.</p>
+<p>
+&#8230;</p>
+<p>The team is breaking new ground by using a holistic design approach that considers how all the various levels of the design — the hardware, the encryption algorithm and how it is used — work together, mindful of how an attacker will target the single weakest link in the design.</p>
+<p> &#8230;</p>
+<p>The research team hopes their research will forestall that possibility, enabling RFIDs to be used in countless ingenious applications not yet dreamt of, without sacrificing privacy and security in a Faustian bargain.</p>
+</blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/uva-team-receives-1-million-grant-to-improve-rfid-security/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>UVa&#8217;s Most Popular Stories of 2008</title>
+		<link>https://www.jeffersonswheel.org/2008/uvas-most-popular-stories-of-2008</link>
+		<comments>https://www.jeffersonswheel.org/2008/uvas-most-popular-stories-of-2008#comments</comments>
+		<pubDate>Mon, 22 Dec 2008 22:33:31 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Disk Processing]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Social Networks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=76</guid>
+		<description><![CDATA[The story about Adrienne Felt&#8217;s Facebook privacy study made the list of UVA Today Most Popular Stories of 2008.]]></description>
+				<content:encoded><![CDATA[<p>The <a href="http://www.virginia.edu/uvatoday/newsRelease.php?id=4019">story</a> about Adrienne Felt&#8217;s Facebook privacy study made the list of <a href="http://www.virginia.edu/uvatoday/top_picks_08/top5popular.html"><em>UVA Today Most Popular Stories of 2008</em></a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2008/uvas-most-popular-stories-of-2008/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Privacy and Security Issues in Social Networking</title>
+		<link>https://www.jeffersonswheel.org/2008/privacy-and-security-issues-in-social-networking</link>
+		<comments>https://www.jeffersonswheel.org/2008/privacy-and-security-issues-in-social-networking#comments</comments>
+		<pubDate>Tue, 07 Oct 2008 15:33:30 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Social Networks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=70</guid>
+		<description><![CDATA[Fast Company has an article (by Brendan Collins) on Privacy and Security Issues in Social Networking. The reason social network security and privacy lapses exist results simply from the astronomical amounts of information the sites process each and every day that end up making it that much easier to exploit a single flaw in the [...]]]></description>
+				<content:encoded><![CDATA[<p>Fast Company has an article (by Brendan Collins) on <a href="http://www.fastcompany.com/articles/2008/10/social-networking-security.html"><em>Privacy and Security Issues in Social Networking</em></a>.  </p>
+<blockquote><p>
+The reason social network security and privacy lapses exist results simply from the astronomical amounts of information the sites process each and every day that end up making it that much easier to exploit a single flaw in the system. Features that invite user participation &#8212; messages, invitations, photos, open platform applications, etc. &#8212; are often the avenues used to gain access to private information, especially in the case of Facebook. Adrienne Felt, a Ph.D. candidate at Berkeley, made small headlines last year when she exposed a potentially devastating hole in the framework of Facebook&#8217;s third-party application API (application programming interface) which allows for easy theft of private information. Felt and her co-researchers found that third-party platform applications for Facebook gave developers access to far more information (addresses, pictures, interests, etc.) than needed to run the app.</p>
+<p>
+&#8230;</p>
+<p>
+Will there ever be a security breach-free social network? Probably not. &#8220;Any complex system has vulnerabilities in it. It&#8217;s just the nature of building something above a certain level of complexity,&#8221; says professor Evans. According to Felt, the best idea is a completely private social network. &#8220;It simply requires that there&#8217;s no gossip in the circle, by which I mean one person who sets their privacy settings so low that third parties can use them to get to their friends.&#8221;</p>
+<p>&#8220;Social networks are great fun, and can be advantageous but people really need to understand that it&#8217;s complicated world and you need to step wisely,&#8221; Cluley says.
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2008/privacy-and-security-issues-in-social-networking/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Online friends at what price?</title>
+		<link>https://www.jeffersonswheel.org/2008/online-friends-at-what-price</link>
+		<comments>https://www.jeffersonswheel.org/2008/online-friends-at-what-price#comments</comments>
+		<pubDate>Tue, 22 Jul 2008 02:49:29 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Social Networks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=67</guid>
+		<description><![CDATA[Marc Rotenberg, Executive Director of the Electronic Privacy Information Center, has written an opinion piece for the Sacramento Bee on social networking privacy: Online friends at what price?: The point of social networking is to share your personal information with the world, The Sacramento Bee, 20 July 2008. Many of my friends were surprised when [...]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://epic.org/epic/staff/rotenberg/">Marc Rotenberg</a>, Executive Director of the <a href="http://www.epic.org/">Electronic Privacy Information Center</a>, has written an opinion piece for the Sacramento Bee on social networking privacy: <a href="http://www.sacbee.com/110/v-print/story/1093983.html"><em>Online friends at what price?: The point of social networking is to share your personal information with the world</em></a>, The Sacramento Bee, 20 July 2008.</p>
+<blockquote><p>
+Many of my friends were surprised when I signed up for Facebook. &#8220;Why would a privacy advocate put personal information online?&#8221; they asked.</p>
+<p>
+&#8220;For the same reason that people use the Internet for e-mail or pick up a telephone to make a call,&#8221; I explained. &#8220;It&#8217;s very useful. Of course, there are real privacy issues. We should understand them and fix them.&#8221;</p>
+<p>
+Today Facebook is both very useful and a genuine privacy threat. &#8230;</p>
+<p>
+Privacy problems have continued to plague the service. In May 2007, Facebook opened up the network for software developers to create applications such as Scrabulous that appear on Facebook pages. Some of these programs are very cool, but that doesn&#8217;t answer the privacy problem. Application developers were given access to the detailed personal information of the user as well as the friends of the user. And that means just about everything in your profile, from relationship status and education history to copies of photos and favorite movies. And amazingly, the data of your friends, who did not sign up to install the program, have their data gathered up by Facebook and sent to the developers.</p>
+<p>
+Earlier this year, researchers at the University of Virginia found that Facebook was providing access to far more personal information than was necessary; in fact, information that the developers were not even seeking. As lead researcher Adrienne Felt pointed out, this was a dangerous security practice because it created unnecessary risks for Internet users.
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2008/online-friends-at-what-price/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

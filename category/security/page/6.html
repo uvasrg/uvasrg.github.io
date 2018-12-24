@@ -1,0 +1,608 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Mirrored from www.jeffersonswheel.org/category/security/page/6 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Dec 2018 01:29:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Jefferson&#039;s Wheel   &raquo; Security</title>
+
+	<link rel="stylesheet" href="../../../wp-content/themes/whiteasmilk/style1.css" type="text/css" media="screen" />
+<link rel="icon" type="image/ico" href="http://www.cs.virginia.edu/evans/blog/favicon.ico"/>	
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="../../../feed" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="../../../feed" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="../../../feed/atom" />
+	<link rel="pingback" href="../../../xmlrpc.php" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600' rel='stylesheet' type='text/css'>
+		<link rel='archives' title='October 2018' href='../../../2018/10.html' />
+	<link rel='archives' title='September 2018' href='../../../2018/09.html' />
+	<link rel='archives' title='August 2018' href='../../../2018/08.html' />
+	<link rel='archives' title='July 2018' href='../../../2018/07.html' />
+	<link rel='archives' title='May 2018' href='../../../2018/05.html' />
+	<link rel='archives' title='February 2018' href='../../../2018/02.html' />
+	<link rel='archives' title='December 2017' href='../../../2017/12.html' />
+	<link rel='archives' title='November 2017' href='../../../2017/11.html' />
+	<link rel='archives' title='September 2017' href='../../../2017/09.html' />
+	<link rel='archives' title='August 2017' href='../../../2017/08.html' />
+	<link rel='archives' title='July 2017' href='../../../2017/07.html' />
+	<link rel='archives' title='June 2017' href='../../../2017/06.html' />
+	<link rel='archives' title='April 2017' href='../../../2017/04.html' />
+	<link rel='archives' title='March 2017' href='../../../2017/03.html' />
+	<link rel='archives' title='January 2017' href='../../../2017/01.html' />
+	<link rel='archives' title='December 2016' href='../../../2016/12.html' />
+	<link rel='archives' title='November 2016' href='../../../2016/11.html' />
+	<link rel='archives' title='October 2016' href='../../../2016/10.html' />
+	<link rel='archives' title='August 2016' href='../../../2016/08.html' />
+	<link rel='archives' title='July 2016' href='../../../2016/07.html' />
+	<link rel='archives' title='June 2016' href='../../../2016/06.html' />
+	<link rel='archives' title='May 2016' href='../../../2016/05.html' />
+	<link rel='archives' title='April 2016' href='../../../2016/04.html' />
+	<link rel='archives' title='March 2016' href='../../../2016/03.html' />
+	<link rel='archives' title='February 2016' href='../../../2016/02.html' />
+	<link rel='archives' title='December 2015' href='../../../2015/12.html' />
+	<link rel='archives' title='November 2015' href='../../../2015/11.html' />
+	<link rel='archives' title='August 2015' href='../../../2015/08.html' />
+	<link rel='archives' title='June 2015' href='../../../2015/06.html' />
+	<link rel='archives' title='May 2015' href='../../../2015/05.html' />
+	<link rel='archives' title='April 2015' href='../../../2015/04.html' />
+	<link rel='archives' title='March 2015' href='../../../2015/03.html' />
+	<link rel='archives' title='February 2015' href='../../../2015/02.html' />
+	<link rel='archives' title='January 2015' href='../../../2015/01.html' />
+	<link rel='archives' title='November 2014' href='../../../2014/11.html' />
+	<link rel='archives' title='October 2014' href='../../../2014/10.html' />
+	<link rel='archives' title='September 2014' href='../../../2014/09.html' />
+	<link rel='archives' title='May 2014' href='../../../2014/05.html' />
+	<link rel='archives' title='April 2014' href='../../../2014/04.html' />
+	<link rel='archives' title='February 2014' href='../../../2014/02.html' />
+	<link rel='archives' title='January 2014' href='../../../2014/01.html' />
+	<link rel='archives' title='November 2013' href='../../../2013/11.html' />
+	<link rel='archives' title='October 2013' href='../../../2013/10.html' />
+	<link rel='archives' title='June 2013' href='../../../2013/06.html' />
+	<link rel='archives' title='May 2013' href='../../../2013/05.html' />
+	<link rel='archives' title='April 2013' href='../../../2013/04.html' />
+	<link rel='archives' title='March 2013' href='../../../2013/03.html' />
+	<link rel='archives' title='February 2013' href='../../../2013/02.html' />
+	<link rel='archives' title='August 2012' href='../../../2012/08.html' />
+	<link rel='archives' title='July 2012' href='../../../2012/07.html' />
+	<link rel='archives' title='March 2012' href='../../../2012/03.html' />
+	<link rel='archives' title='February 2012' href='../../../2012/02.html' />
+	<link rel='archives' title='January 2012' href='../../../2012/01.html' />
+	<link rel='archives' title='December 2011' href='../../../2011/12.html' />
+	<link rel='archives' title='November 2011' href='../../../2011/11.html' />
+	<link rel='archives' title='October 2011' href='../../../2011/10.html' />
+	<link rel='archives' title='September 2011' href='../../../2011/09.html' />
+	<link rel='archives' title='August 2011' href='../../../2011/08.html' />
+	<link rel='archives' title='July 2011' href='../../../2011/07.html' />
+	<link rel='archives' title='June 2011' href='../../../2011/06.html' />
+	<link rel='archives' title='May 2011' href='../../../2011/05.html' />
+	<link rel='archives' title='April 2011' href='../../../2011/04.html' />
+	<link rel='archives' title='March 2011' href='../../../2011/03.html' />
+	<link rel='archives' title='February 2011' href='../../../2011/02.html' />
+	<link rel='archives' title='December 2010' href='../../../2010/12.html' />
+	<link rel='archives' title='November 2010' href='../../../2010/11.html' />
+	<link rel='archives' title='September 2010' href='../../../2010/09.html' />
+	<link rel='archives' title='May 2010' href='../../../2010/05.html' />
+	<link rel='archives' title='April 2010' href='../../../2010/04.html' />
+	<link rel='archives' title='February 2010' href='../../../2010/02.html' />
+	<link rel='archives' title='December 2009' href='../../../2009/12.html' />
+	<link rel='archives' title='September 2009' href='../../../2009/09.html' />
+	<link rel='archives' title='July 2009' href='../../../2009/07.html' />
+	<link rel='archives' title='May 2009' href='../../../2009/05.html' />
+	<link rel='archives' title='April 2009' href='../../../2009/04.html' />
+	<link rel='archives' title='March 2009' href='../../../2009/03.html' />
+	<link rel='archives' title='February 2009' href='../../../2009/02.html' />
+	<link rel='archives' title='January 2009' href='../../../2009/01.html' />
+	<link rel='archives' title='December 2008' href='../../../2008/12.html' />
+	<link rel='archives' title='November 2008' href='../../../2008/11.html' />
+	<link rel='archives' title='October 2008' href='../../../2008/10.html' />
+	<link rel='archives' title='September 2008' href='../../../2008/09.html' />
+	<link rel='archives' title='July 2008' href='../../../2008/07.html' />
+	<link rel='archives' title='June 2008' href='../../../2008/06.html' />
+	<link rel='archives' title='May 2008' href='../../../2008/05.html' />
+	<link rel='archives' title='April 2008' href='../../../2008/04.html' />
+	<link rel='archives' title='March 2008' href='../../../2008/03.html' />
+	<link rel='archives' title='February 2008' href='../../../2008/02.html' />
+	<link rel='archives' title='January 2008' href='../../../2008/01.html' />
+	<link rel="alternate" type="application/rss+xml" title="Jefferson&#039;s Wheel &raquo; Security Category Feed" href="../feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+</head>
+<body>
+
+<div id="page">
+<div id="header">
+<table>
+<tr>
+<td valign="middle">
+<a href="../../../images/jwlogo.jpg"><img align="left" width="320" height="193"
+     src="../../../images/jwlogo-small.jpg" alt="SRG Logo"></a>
+</td>
+<td valign="middle">
+	<h1><a href="../../../index.html">Jefferson&#039;s Wheel</a></h1>
+	<p id="blog_description">Security Research at the University of Virginia</p>
+</td>
+</tr>
+</table>
+	
+</div>
+<hr class="hrhide" />
+
+	<div id="content" class="narrowcolumn">
+
+		
+		 				
+		<h2 class="pagetitle">Archive for the 'Security' Category</h2>
+		
+ 	  
+
+		<div class="navigation">
+			<div class="alignleft"><a href="5.html" >&laquo; Previous Page</a> &#8212; <a href="7.html" >&laquo; Previous Entries</a></div>
+			<div class="alignright"><a href="5.html" >Next Entries &raquo;</a> &#8212; <a href="7.html" >Next Page &raquo;</a></div>
+		</div>
+
+				<div class="post">
+				<h3 id="post-171"><a href="../../../2011/lattice-ciphers-for-rfid.html" rel="bookmark" title="Permanent Link to Lattice Ciphers for RFID">Lattice Ciphers for RFID</a></h3>
+				<small>Friday, February 4th, 2011</small>
+				
+				<div class="entry">
+					<p>Our paper on using lattice ciphers for low-power public-key encryption targeted to RFID tags is now available.  Yu Yao will present the paper in Wuxi, China in April.</p>
+<blockquote><p>
+Yu Yao, Jiawei Huang, Sudhanshu Khanna, abhi shelat, Benton Highsmith Calhoun, John Lach, and David Evans.  <em>A Sub-0.5V Lattice-Based Public-Key Encryption Scheme for RFID Platforms in 130nm CMOS</em>.  <a href="http://wuxi.ss.pku.edu.cn/~RFIDSec2011/rfidsec_asia_home.html"><em>2011 Workshop on RFID Security</em></a> (RFIDsec&#8217;11 Asia)<br /> Wuxi, China.  6-8 April 2011.
+</p></blockquote>
+<p><b>Abstract:</b> Implementing public-key cryptography on passive RFID tags is very challenging due to the limited die size and power available. Typical public-key algorithms require complex logical components such as modular exponentiation in RSA. We demonstrate the feasibility of implementing public-key encryption on low-power, low cost passive RFID tags to large-scale private identification. We use Oded Regev&#8217;s Learning-With-Error (LWE) cryptosystem, which is provably secure under the hardness assumption of classic lattice problems. The advantage of using the LWE cryptosystem is its intrinsic computational simplicity (the main operation is modular addition). We leverage the low speed of RFID application by using circuit design with supply voltage close to transistor threshold (<em>V<sub>t</sub></em>) to lower power. This paper presents protocols for using the LWE cipher to provide private identification, evaluates a design for implementing those protocols on passive RFID tags, and reports on simulation experiments that demonstrate the feasibility of this approach.
+</p>
+<p>
+Full paper (19 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/rfidsec11/rfidsec.pdf">PDF</a>]</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="../../papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="../../privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../rfid.html" title="View all posts in RFID" rel="category tag">RFID</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2011/lattice-ciphers-for-rfid"
+    dc:identifier="https://www.jeffersonswheel.org/2011/lattice-ciphers-for-rfid"
+    dc:title="Lattice Ciphers for RFID"
+    trackback:ping="https://www.jeffersonswheel.org/2011/lattice-ciphers-for-rfid/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-166"><a href="../../../2010/car-immobilizers.html" rel="bookmark" title="Permanent Link to Car Immobilizers">Car Immobilizers</a></h3>
+				<small>Friday, December 24th, 2010</small>
+				
+				<div class="entry">
+					<p>Karsten Nohl is in the news again, this time for demonstrating how bad the proprietary crypto used for car immobilizers is.   Here are a few articles:</p>
+<ul>
+<li> NewScientist, <a href="http://www.newscientist.com/article/mg20827894.500-criminals-find-the-key-to-car-immobilisers.html"><em>Criminals find the key to car immobilisers</em></a>, 6 December 2010.  (Note that the <em>criminals</em> in the title refers to evidence that actual car theft is increasing, after many years of steady decline, not to Karsten!)
+<li> Schneier on Security, <a href="http://www.schneier.com/blog/archives/2010/12/proprietary_enc.html"><em>Proprietary Encryption in Car Immobilizers Cracked</em></a>, 23 December 2010.
+<li> The Register, <a href="http://www.theregister.co.uk/2010/12/20/car_immobiliser_security_flaws/"><em>Car immobilisers easily circumvented by crafty carjackers: Crap crypto to blame</em></a>, 20 December 2010.  (British publications as so much better at titling than American ones!)
+</ul>
+<p>Karsten presented the technical aspects in a talk at the <a href="https://www.escar.info/">8th Embedded Security in Cars</a> conference in Berlin.</p>
+<p>Even if car manufacturers get the crypto right, relay attacks pose a serious threat, especially for modern cars that do away with the mechanical key completely.  See the upcoming NDSS paper by Aurelien Francillon, Boris Danev, and Srdjan Capkun: <a href="http://www.isoc.org/isoc/conferences/ndss/11/program.shtml#id2a"><em>Relay Attacks on Passive Keyless Entry and Start Systems in Modern Cars</em></a>.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../rfid.html" title="View all posts in RFID" rel="category tag">RFID</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2010/car-immobilizers"
+    dc:identifier="https://www.jeffersonswheel.org/2010/car-immobilizers"
+    dc:title="Car Immobilizers"
+    trackback:ping="https://www.jeffersonswheel.org/2010/car-immobilizers/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-158"><a href="../../../2010/secure-biometrics.html" rel="bookmark" title="Permanent Link to Secure Biometrics">Secure Biometrics</a></h3>
+				<small>Thursday, December 9th, 2010</small>
+				
+				<div class="entry">
+					<p>We&#8217;ve released our code and paper on efficient privacy-preserving biometric identification:</p>
+<p>
+<a href="http://www.cs.virginia.edu/~yh8h/">Yan Huang</a> (University of Virginia), <a href="http://www.lior.ca/">Lior Malka</a> (Intel/University of Maryland), <a href="http://www.cs.virginia.edu/evans/">David Evans</a> (University of Virginia), and <a href="http://www.cs.umd.edu/~jkatz/">Jonathan Katz</a> (University of Maryland). <a href="http://www.mightbeevil.org/secure-biometrics/"><em>Efficient Privacy-Preserving Biometric Identification</em></a>.  To appear in <a href="http://www.isoc.org/isoc/conferences/ndss/11/"><em>18<sup>th</sup> Network and Distributed System Security Conference</em></a> (NDSS 2011), 6-9 February 2011. [<a href="http://www.mightbeevil.org/secure-biometrics/ndss2011.pdf">PDF</a>, 14 pages]</p>
+<blockquote><p>
+We present an efficient matching protocol that can be used in many privacy-preserving biometric identification systems in the semi-honest setting. Our most general technical contribution is a new backtracking protocol that uses the by-product of evaluating a garbled circuit to enable efficient oblivious information retrieval. We also present a more efficient protocol for computing the Euclidean distances of vectors, and optimized circuits for finding the closest match between a point held by one party and a set of points held by another. We evaluate our protocols by implementing a practical privacy-preserving fingerprint matching system.
+</p></blockquote>
+<p>Yan will present the paper at NDSS in February.  The code for our system is <a href="http://www.mightbeevil.org/secure-biometrics/">available</a> under the MIT open source license.</p>
+<p><center><br />
+<img src="http://www.mightbeevil.org/fingerprints-didbygraham.jpg" width=400></p>
+<p align=right><font color="lightgrey">flickr cc: didbygraham</font></p>
+<p></center></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="../../papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="../../privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2010/secure-biometrics"
+    dc:identifier="https://www.jeffersonswheel.org/2010/secure-biometrics"
+    dc:title="Secure Biometrics"
+    trackback:ping="https://www.jeffersonswheel.org/2010/secure-biometrics/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-156"><a href="../../../2010/guardrails-at-owasp-appsec-dc.html" rel="bookmark" title="Permanent Link to GuardRails at OWASP AppSec DC">GuardRails at OWASP AppSec DC</a></h3>
+				<small>Tuesday, November 9th, 2010</small>
+				
+				<div class="entry">
+					<p>Jonathan Burket, Patrick Mutchler, Michael Weaver and Muzzammil Zaveri will present GuardRails at AppSec DC on Wednesday, 10 November.  The conference is at the Walter E. Washington Convention Center in Washington, DC.</p>
+<p>GuardRails is a framework for automating many of the tasks necessary to build a security web application.  For more, see the talk abstract: <a href="http://www.owasp.org/index.php/GuardRails:_A_Nearly_Painless_Solution_to_Insecure_Web_Applications"><em>GuardRails: A Nearly Painless Solution to Insecure Web Applications</em></a>.  (and video and slides will appear there soon)</p>
+<p><b>Update 9 December:</b> The slides are <a href="http://www.owasp.org/images/c/cd/Guardrails_owasp_final.pdf">here [PDF]</a>.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="../../program-analysis.html" title="View all posts in Program Analysis" rel="category tag">Program Analysis</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a>, <a href="../../software-engineering.html" title="View all posts in Software Engineering" rel="category tag">Software Engineering</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2010/guardrails-at-owasp-appsec-dc"
+    dc:identifier="https://www.jeffersonswheel.org/2010/guardrails-at-owasp-appsec-dc"
+    dc:title="GuardRails at OWASP AppSec DC"
+    trackback:ping="https://www.jeffersonswheel.org/2010/guardrails-at-owasp-appsec-dc/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-151"><a href="../../../2010/deutsche-post-security-cup.html" rel="bookmark" title="Permanent Link to Deutsche Post &#8220;Security Cup&#8221;">Deutsche Post &#8220;Security Cup&#8221;</a></h3>
+				<small>Tuesday, September 7th, 2010</small>
+				
+				<div class="entry">
+					<p>I&#8217;m a judge for the Deutsche Post &#8220;Security Cup&#8221; contest being organized by our former student, Karsten Nohl.  The goal of the contest is to incentivize enterprising students and practitioners to bash on the Deutsche Post&#8217;s E-Postbrief web application.  They are offering some fairly significant prizes (up to 5,000 Euro per bug) to teams that identify vulnerabilities in their application, as well as providing up-front funding to qualified teams that enter the contest.</p>
+<p>
+<a href="http://www.deutschepost.de/dpag?tab=1&amp;skin=hi&amp;check=yes&amp;lang=de_EN&amp;xmlFile=link1022792_1022790">Deutsche Post Page</a><br />
+<a href="http://epostalnews.com/2010/09/06/deutsche-post-fronts-bug-hunt-stunt/">EPostal News</a></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../contests.html" title="View all posts in Contests" rel="category tag">Contests</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2010/deutsche-post-security-cup"
+    dc:identifier="https://www.jeffersonswheel.org/2010/deutsche-post-security-cup"
+    dc:title="Deutsche Post &#8220;Security Cup&#8221;"
+    trackback:ping="https://www.jeffersonswheel.org/2010/deutsche-post-security-cup/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-148"><a href="../../../2010/why-arent-http-only-cookies-more-widely-deployed.html" rel="bookmark" title="Permanent Link to Why Aren&#8217;t HTTP-only Cookies More Widely Deployed?">Why Aren&#8217;t HTTP-only Cookies More Widely Deployed?</a></h3>
+				<small>Monday, May 3rd, 2010</small>
+				
+				<div class="entry">
+					<p>Yuchen Zhou will present <a href="http://www.cs.virginia.edu/~evans/pubs/w2sp2010/">a paper</a>  [<a href="http://www.cs.virginia.edu/~evans/pubs/w2sp2010/http-only.pdf">PDF</a>] on HTTP-only cookies and why it is so hard to deploy security technologies at <a href="http://w2spconf.com/2010/">Web 2.0 Security and Privacy</a> (attached to the <a href="http://oakland10.cs.virginia.edu/">Oakland conference</a>) on May 20.</p>
+<blockquote><p>
+HTTP-only cookies were introduced eight years ago as a simple way to prevent cookie-stealing through cross-site scripting attacks. Adopting HTTP-only cookies seems to be an easy task with no significant costs or drawbacks, but many major websites still do not use HTTP-only cookies. This paper reports on a survey of HTTP-only cookie use in popular websites, and considers reasons why HTTP-only cookies are not yet more widely deployed.
+</p></blockquote>
+<p><a href="http://www.cs.virginia.edu/evans/pubs/w2sp2010/timeline.png"><img src="http://www.cs.virginia.edu/evans/pubs/w2sp2010/timeline-small.png"></a></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="../../history.html" title="View all posts in History" rel="category tag">History</a>, <a href="../../papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2010/why-arent-http-only-cookies-more-widely-deployed"
+    dc:identifier="https://www.jeffersonswheel.org/2010/why-arent-http-only-cookies-more-widely-deployed"
+    dc:title="Why Aren&#8217;t HTTP-only Cookies More Widely Deployed?"
+    trackback:ping="https://www.jeffersonswheel.org/2010/why-arent-http-only-cookies-more-widely-deployed/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-146"><a href="../../../2010/scientists-work-to-keep-hackers-out-of-implanted-medical-devices.html" rel="bookmark" title="Permanent Link to Scientists work to keep hackers out of implanted medical devices">Scientists work to keep hackers out of implanted medical devices</a></h3>
+				<small>Monday, April 19th, 2010</small>
+				
+				<div class="entry">
+					<p>Nate Paul, who finished a PhD in our group a few years ago and is now a research scientist at Oak Ridge National Labs, is the focus of this CNN story: <a href="http://www.cnn.com/2010/TECH/04/16/medical.device.security/"><em>Scientists work to keep hackers out of implanted medical devices</em></a>, CNN, 16 April 2010.</p>
+<blockquote><p>
+Nathanael Paul likes the convenience of the insulin pump that regulates his diabetes. It communicates with other gadgets wirelessly and adjusts his blood sugar levels automatically.</p>
+<p>
+But, a few years ago, the computer scientist started to worry about the security of this setup.</p>
+<p>
+What if someone hacked into that system and sent his blood sugar levels plummeting? Or skyrocketing? Those scenarios could be fatal.</p>
+<p>
+&#8220;If your computer fails, no one dies,&#8221; he said in a phone interview. &#8220;If your insulin pump fails, you have problems.&#8221;</p>
+<p>
+As sci-fi as it sounds, Paul&#8217;s fears are founded in reality.<br />
+&#8230;
+</p></blockquote>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="../../medical-devices.html" title="View all posts in Medical Devices" rel="category tag">Medical Devices</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2010/scientists-work-to-keep-hackers-out-of-implanted-medical-devices"
+    dc:identifier="https://www.jeffersonswheel.org/2010/scientists-work-to-keep-hackers-out-of-implanted-medical-devices"
+    dc:title="Scientists work to keep hackers out of implanted medical devices"
+    trackback:ping="https://www.jeffersonswheel.org/2010/scientists-work-to-keep-hackers-out-of-implanted-medical-devices/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-135"><a href="../../../2009/oakland-2010-update.html" rel="bookmark" title="Permanent Link to Oakland 2010 Update">Oakland 2010 Update</a></h3>
+				<small>Wednesday, December 2nd, 2009</small>
+				
+				<div class="entry">
+					<p><A href="http://oakland10.cs.virginia.edu/">Oakland 2010</a> submissions closed last week.  We received 269 total submissions (of which 30 were Systematization of Knowledge papers).  The program should be available by early February, for the conference that will be held May 16-19, 2010 at the Claremont Resort in Berkeley, CA.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="../../privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2009/oakland-2010-update"
+    dc:identifier="https://www.jeffersonswheel.org/2009/oakland-2010-update"
+    dc:title="Oakland 2010 Update"
+    trackback:ping="https://www.jeffersonswheel.org/2009/oakland-2010-update/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-133"><a href="../../../2009/open-source-gsm-hacking.html" rel="bookmark" title="Permanent Link to Open-Source GSM Hacking">Open-Source GSM Hacking</a></h3>
+				<small>Wednesday, December 2nd, 2009</small>
+				
+				<div class="entry">
+					<p>IEEE Spectrum has an article on Karsten Nohl&#8217;s efforts to lead an open-source GSM hacking project: <a href="http://spectrum.ieee.org/telecom/wireless/open-source-effort-to-hack-gsm"><em>Open-Source Effort to Hack GSM</em></a>, IEEE Spectrum, 30 November 2009.</p>
+<blockquote><p>
+If you&#8217;re still using a cellphone based on early digital standards, you better be careful what you say. The encryption technology used to prevent eavesdropping in GSM (Global System for Mobile communications), the world&#8217;s most widely used cellphone system, has more security holes than Swiss cheese, according to an expert who plans to poke a big hole of his own.</p>
+<p>
+Karsten Nohl, chief research scientist with H4RDW4RE, a Sunnyvale, Calif.-based security research firm, is mounting what could be the most ambitious attempt yet to compromise the GSM phone system, which is used by over 3 billion people around the world. Others have cracked the A5/1 encryption technology used in GSM before, but their results have remained secret. However, Nohl, who earned a Ph.D. in computer science at the University of Virginia and is a member of Germany&#8217;s Chaos Computer Club (CCC), intends to go one big step further: By the end of the year, he plans to make the keys available to everyone on the Internet.</p>
+<p>
+&#8230;</p>
+<p>
+GSM cracking has a long history, which began in the late 1990s in academic circles and has since sprouted a handful of commercial businesses. Today, these companies legally sell GSM call-interception solutions&#8211;which are relatively expensive&#8211;mostly to government intelligence agencies. In general, supplying and using this software is illegal in the wider market, but no one can say for certain how many groups have illegally gained access to the technology.</p>
+<p>
+That&#8217;s the point Nohl hopes to drive home: The A5/1 algorithm is a broken 64-bit encryption technology, a relic of the Cold War era, when laws prohibited the export of strong encryption technology from the United States. It needs to be replaced&#8211;ideally by the much stronger, 128-bit A5/3 system, which is already being used in newer-generation digital cellular systems, such as Universal Mobile Telecommunications System (UMTS). &#8220;If you go from the 64 bits of the A5/1 cipher to the 128 bits of A5/3,&#8221; says Nohl, cracking requires an amount of memory storage that is beyond what &#8220;is available on earth.&#8221;</p>
+<p>
+A big problem with plugging the GSM encryption hole, according to the security expert, is that operators are unwilling to admit that a problem even exists. Many want to avoid spending additional money on upgrading aging and amortized GSM infrastructure, he says. The GSM Association, which represents the interests of GSM mobile operators around the world, says only that it is aware of various eavesdropping projects. In the same breath, it points to the complexities of identifying and recording calls from RF signals.
+</p></blockquote>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="../../politics.html" title="View all posts in Politics" rel="category tag">Politics</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2009/open-source-gsm-hacking"
+    dc:identifier="https://www.jeffersonswheel.org/2009/open-source-gsm-hacking"
+    dc:title="Open-Source GSM Hacking"
+    trackback:ping="https://www.jeffersonswheel.org/2009/open-source-gsm-hacking/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-111"><a href="../../../2009/the-queens-ipod.html" rel="bookmark" title="Permanent Link to The Queen&#8217;s iPod">The Queen&#8217;s iPod</a></h3>
+				<small>Friday, April 3rd, 2009</small>
+				
+				<div class="entry">
+					<p>On his recent visit to England, President Obama presented the Queen with an iPod loaded with showtunes.  Although one might question the diplomatic and musical judgment behind such a gift, it also raises some interesting questions about copyright law and computer security.</p>
+<p>
+The EFF has an interesting article about the copyright issues: <a href="http://www.eff.org/deeplinks/2009/04/first-sale-president-obama-and-queen-england"><em>iPods, First Sale, President Obama, and the Queen of England</em></a>, Fred von Lohmann, 2 April 2009.  It starts,</p>
+<blockquote><p>
+President Obama reportedly gave an iPod, loaded with 40 show tunes, to England&#8217;s Queen Elizabeth II as a gift. Did he violate the law when he did so?</p>
+<p>
+You know your copyright laws are broken when there is no easy answer to this question.
+</p></blockquote>
+<p>The other question this raises is how effective of a malware vector this is when the Queen attaches the iPod to her PC (okay, the Queen probably runs ubuntu).  I don&#8217;t know if there are any known vulnerabilities in the iPod/iTunes interface, but its a wide enough interface that it would be very unsurprising if there are ways to get malware from an iPod to a host machine.  Perhaps, this is all part of a clever strategy to make heads of less friendly states than the Queen expect to receive electronic gadgets from our President and connect them to their systems.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../politics.html" title="View all posts in Politics" rel="category tag">Politics</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <a href="../../../2009/the-queens-ipod.html#comments" title="Comment on The Queen&#8217;s iPod">2 Comments &#187;</a></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2009/the-queens-ipod"
+    dc:identifier="https://www.jeffersonswheel.org/2009/the-queens-ipod"
+    dc:title="The Queen&#8217;s iPod"
+    trackback:ping="https://www.jeffersonswheel.org/2009/the-queens-ipod/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+		
+		<div class="navigation">
+			<div class="alignleft"><a href="5.html" >&laquo; Previous Page</a> &#8212; <a href="7.html" >&laquo; Previous Entries</a></div>
+			<div class="alignright"><a href="5.html" >Next Entries &raquo;</a> &#8212; <a href="7.html" >Next Page &raquo;</a></div>
+		</div>
+	
+			
+	</div>
+
+	<div id="sidebar">
+
+<p></p>
+		<ul>
+
+<li><h2>
+<a href="http://www.cs.virginia.edu/evans/pubs/">Publications</a><br>
+<a href="https://uvasrg.slack.com/signup">Join Slack
+Group</a></h2>
+
+<li><h2>
+<a href="http://www.cs.virginia.edu/evans/students.html">Team</a></h2>
+<a href="http://www.cs.virginia.edu/evans/">David Evans</a><br>
+</li>
+<li><h2>
+<a href="../../../awards.html">Awards</a></h2>
+</li>
+
+<li><h2>
+<a href="https://uvasrg.slack.com/">Slack Group</a></h2>
+</li>
+
+			
+			<!--
+			<li class="pagenav"><h2>Pages</h2><ul><li class="page_item page-item-2"><a href="https://www.jeffersonswheel.org/about">About</a></li>
+<li class="page_item page-item-394"><a href="https://www.jeffersonswheel.org/awards">Awards</a></li>
+</ul></li>			-->
+
+			<li><h2>Archives</h2>
+				<ul>
+					<li><a href='../../../2018.html' title='2018'>2018</a></li>
+	<li><a href='../../../2017.html' title='2017'>2017</a></li>
+	<li><a href='../../../2016.html' title='2016'>2016</a></li>
+	<li><a href='../../../2015.html' title='2015'>2015</a></li>
+	<li><a href='../../../2014.html' title='2014'>2014</a></li>
+	<li><a href='../../../2013.html' title='2013'>2013</a></li>
+	<li><a href='../../../2012.html' title='2012'>2012</a></li>
+	<li><a href='../../../2011.html' title='2011'>2011</a></li>
+	<li><a href='../../../2010.html' title='2010'>2010</a></li>
+	<li><a href='../../../2009.html' title='2009'>2009</a></li>
+	<li><a href='../../../2008.html' title='2008'>2008</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Categories</h2>
+				<ul>
+					<li class="cat-item cat-item-41"><a href="../../adversarial-machine-learning.html" title="View all posts filed under Adversarial Machine Learning">Adversarial Machine Learning</a> (16)
+</li>
+	<li class="cat-item cat-item-38"><a href="../../alumni.html" title="View all posts filed under Alumni">Alumni</a> (19)
+</li>
+	<li class="cat-item cat-item-12"><a href="../../awards.html" title="View all posts filed under Awards">Awards</a> (13)
+</li>
+	<li class="cat-item cat-item-37"><a href="../../childrens-books.html" title="View all posts filed under Children&#039;s Books">Children&#039;s Books</a> (2)
+</li>
+	<li class="cat-item cat-item-18"><a href="../../conferences.html" title="View all posts filed under Conferences">Conferences</a> (56)
+</li>
+	<li class="cat-item cat-item-24"><a href="../../contests.html" title="View all posts filed under Contests">Contests</a> (2)
+</li>
+	<li class="cat-item cat-item-40"><a href="../../cryptocurrency.html" title="View all posts filed under Cryptocurrency">Cryptocurrency</a> (4)
+</li>
+	<li class="cat-item cat-item-6"><a href="../../cryptography.html" title="View all posts filed under Cryptography">Cryptography</a> (52)
+</li>
+	<li class="cat-item cat-item-11"><a href="../../disk-processing.html" title="View all posts filed under Disk Processing">Disk Processing</a> (3)
+</li>
+	<li class="cat-item cat-item-25"><a href="../../guardrails.html" title="View all posts filed under GuardRails">GuardRails</a> (4)
+</li>
+	<li class="cat-item cat-item-21"><a href="../../history.html" title="View all posts filed under History">History</a> (7)
+</li>
+	<li class="cat-item cat-item-44"><a href="../../machine-learning.html" title="View all posts filed under Machine Learning">Machine Learning</a> (6)
+</li>
+	<li class="cat-item cat-item-23"><a href="../../medical-devices.html" title="View all posts filed under Medical Devices">Medical Devices</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="../../movies.html" title="View all posts filed under Movies">Movies</a> (2)
+</li>
+	<li class="cat-item cat-item-28"><a href="../../news.html" title="View all posts filed under News">News</a> (19)
+</li>
+	<li class="cat-item cat-item-13"><a href="../../papers.html" title="View all posts filed under Papers">Papers</a> (34)
+</li>
+	<li class="cat-item cat-item-42"><a href="../../passwords.html" title="View all posts filed under Passwords">Passwords</a> (2)
+</li>
+	<li class="cat-item cat-item-43"><a href="../../personal-assistant.html" title="View all posts filed under Personal Assistant">Personal Assistant</a> (1)
+</li>
+	<li class="cat-item cat-item-35"><a href="../../pictures.html" title="View all posts filed under Pictures">Pictures</a> (7)
+</li>
+	<li class="cat-item cat-item-20"><a href="../../politics.html" title="View all posts filed under Politics">Politics</a> (8)
+</li>
+	<li class="cat-item cat-item-4"><a href="../../privacy.html" title="View all posts filed under Privacy">Privacy</a> (82)
+</li>
+	<li class="cat-item cat-item-16"><a href="../../program-analysis.html" title="View all posts filed under Program Analysis">Program Analysis</a> (10)
+</li>
+	<li class="cat-item cat-item-3"><a href="../../research.html" title="View all posts filed under Research">Research</a> (144)
+</li>
+	<li class="cat-item cat-item-5"><a href="../../rfid.html" title="View all posts filed under RFID">RFID</a> (40)
+</li>
+	<li class="cat-item cat-item-27"><a href="../../secure-computation.html" title="View all posts filed under Secure Computation">Secure Computation</a> (38)
+</li>
+	<li class="cat-item cat-item-8 current-cat"><a href="../../security.html" title="View all posts filed under Security">Security</a> (116)
+</li>
+	<li class="cat-item cat-item-32"><a href="../../side-channel-analysis.html" title="View all posts filed under Side-Channel Analysis">Side-Channel Analysis</a> (2)
+</li>
+	<li class="cat-item cat-item-30"><a href="../../smartphones.html" title="View all posts filed under Smartphones">Smartphones</a> (8)
+</li>
+	<li class="cat-item cat-item-7"><a href="../../social-networks.html" title="View all posts filed under Social Networks">Social Networks</a> (28)
+</li>
+	<li class="cat-item cat-item-15"><a href="../../software-engineering.html" title="View all posts filed under Software Engineering">Software Engineering</a> (3)
+</li>
+	<li class="cat-item cat-item-45"><a href="../../startups.html" title="View all posts filed under Startups">Startups</a> (1)
+</li>
+	<li class="cat-item cat-item-26"><a href="../../talks.html" title="View all posts filed under Talks">Talks</a> (41)
+</li>
+	<li class="cat-item cat-item-17"><a href="../../teaching.html" title="View all posts filed under Teaching">Teaching</a> (19)
+</li>
+	<li class="cat-item cat-item-1"><a href="../../uncategorized.html" title="View all posts filed under Uncategorized">Uncategorized</a> (1)
+</li>
+	<li class="cat-item cat-item-39"><a href="../../usb.html" title="View all posts filed under USB">USB</a> (2)
+</li>
+	<li class="cat-item cat-item-10"><a href="../../voting.html" title="View all posts filed under Voting">Voting</a> (2)
+</li>
+	<li class="cat-item cat-item-29"><a href="../../web-security.html" title="View all posts filed under Web Security">Web Security</a> (21)
+</li>
+				</ul>
+
+
+			</li>
+
+<!--				  <li id="linkcat-2" class="linkcat"><h2>Blogroll</h2>
+	<ul>
+
+	</ul>
+</li>
+ -->
+
+
+					
+			
+
+
+		</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+
+<!-- 19 queries. 0.176 seconds. -->
+</div>
+</div>
+
+<!--		 -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+  Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-3775212-2', 'auto');
+	  ga('send', 'pageview');
+
+	  </script>
+
+</body>
+
+<!-- Mirrored from www.jeffersonswheel.org/category/security/page/6 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Dec 2018 01:29:30 GMT -->
+</html>

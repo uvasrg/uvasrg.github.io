@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; Conferences</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/conferences/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>USENIX Security 2018</title>
+		<link>https://www.jeffersonswheel.org/2018/usenix-security-2018</link>
+		<comments>https://www.jeffersonswheel.org/2018/usenix-security-2018#comments</comments>
+		<pubDate>Sun, 19 Aug 2018 19:20:52 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=892</guid>
+		<description><![CDATA[Nathaniel Grevatt (&#8220;GDPR-Compliant Data Processing: Improving Pseudonymization with Multi-Party Computation&#8221;), Matthew Wallace and Parvesh Samayamanthula (&#8220;Deceiving Privacy Policy Classifiers with Adversarial Examples&#8221;), and Guy Verrier (&#8220;How is GDPR Affecting Privacy Policies?&#8221;, joint with Haonan Chen and Yuan Tian) presented posters at USENIX Security Symposium 2018 in Baltimore, Maryland. There were also a surprising number of [...]]]></description>
+				<content:encoded><![CDATA[<p>Nathaniel Grevatt (&#8220;GDPR-Compliant Data Processing: Improving Pseudonymization with Multi-Party Computation&#8221;), Matthew Wallace and Parvesh Samayamanthula (&#8220;Deceiving Privacy Policy Classifiers with Adversarial Examples&#8221;), and Guy Verrier (&#8220;How is GDPR Affecting Privacy Policies?&#8221;, joint with Haonan Chen and Yuan Tian) presented posters at <a href="https://www.usenix.org/conference/usenixsecurity18/poster-session">USENIX Security Symposium 2018</a> in Baltimore, Maryland. </p>
+<p><center></p>
+<table width="650">
+<tr>
+<td align="center">
+<a href="/images/usenix2018/IMG_20180816_190616-2.jpg"><img align="center" src="/images/usenix2018/IMG_20180816_190616.jpg" height=220>
+</td>
+<td href="/images/usenix2018/IMG_20180816_190626-2.jpg"><img align="center" src="/images/usenix2018/IMG_20180816_190626.jpg" height=220>
+</td>
+</tr>
+<tr>
+<td align="center">
+<a href="/images/usenix2018/IMG_20180816_192620-2.jpg"><img align="center" src="/images/usenix2018/IMG_20180816_192620.jpg" height=220>
+</td>
+<td href="/images/usenix2018/IMG_20180816_192646-2.jpg"><img align="center" src="/images/usenix2018/IMG_20180816_192646.jpg" height=220>
+</td>
+</tr>
+</table>
+<p>There were also a surprising number of appearances by an unidentified unicorn:<br />
+<center></p>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Your poster may have made the cut for the <a href="https://twitter.com/hashtag/usesec18?src=hash&amp;ref_src=twsrc%5Etfw">#usesec18</a> Poster Reception, but has it received the approval of a tiny, adorable unicorn? <a href="https://twitter.com/UVA?ref_src=twsrc%5Etfw">@UVA</a> <a href="https://twitter.com/hashtag/seenatusesec18?src=hash&amp;ref_src=twsrc%5Etfw">#seenatusesec18</a> <a href="https://twitter.com/hashtag/girlswhocode?src=hash&amp;ref_src=twsrc%5Etfw">#girlswhocode</a> <a href="https://twitter.com/hashtag/futurecomputerscientist?src=hash&amp;ref_src=twsrc%5Etfw">#futurecomputerscientist</a> <a href="https://twitter.com/hashtag/dreambig?src=hash&amp;ref_src=twsrc%5Etfw">#dreambig</a> <a href="https://t.co/bZOO6lYLXK">pic.twitter.com/bZOO6lYLXK</a></p>
+<p>&mdash; USENIX Security (@USENIXSecurity) <a href="https://twitter.com/USENIXSecurity/status/1030215384505491456?ref_src=twsrc%5Etfw">August 16, 2018</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2018/usenix-security-2018/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Mutually Assured Destruction and the Impending AI Apocalypse</title>
+		<link>https://www.jeffersonswheel.org/2018/mutually-assured-destruction-and-the-impending-ai-apocalypse</link>
+		<comments>https://www.jeffersonswheel.org/2018/mutually-assured-destruction-and-the-impending-ai-apocalypse#comments</comments>
+		<pubDate>Tue, 14 Aug 2018 03:25:27 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=883</guid>
+		<description><![CDATA[I gave a keynote talk at USENIX Workshop of Offensive Technologies, Baltimore, Maryland, 13 August 2018. The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&#8217;t able to actually figure out a talk to match the title and abstract I provided. The history of [...]]]></description>
+				<content:encoded><![CDATA[<p>I gave a keynote talk at <a href="https://www.usenix.org/conference/woot18/workshop-program">USENIX Workshop of Offensive Technologies</a>, Baltimore, Maryland, 13 August 2018. </p>
+<p>The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&#8217;t able to actually figure out a talk to match the title and abstract I provided.</p>
+<blockquote><p>
+The history of security includes a long series of arms races, where a new technology emerges and is subsequently developed and exploited by both defenders and attackers. Over the past few years, &#8220;Artificial Intelligence&#8221; has re-emerged as a potentially transformative technology, and deep learning in particular has produced a barrage of amazing results. We are in the very early stages of understanding the potential of this technology in security, but more worryingly, seeing how it may be exploited by malicious individuals and powerful organizations. In this talk, I&#8217;ll look at what lessons might be learned from previous security arms races, consider how asymmetries in AI may be exploited by attackers and defenders, touch on some recent work in adversarial machine learning, and hopefully help progress-loving Luddites figure out how to survive in a world overrun by AI doppelgängers, GAN gangs, and gibbon-impersonating pandas.
+</p></blockquote>
+<p><script async class="speakerdeck-embed" data-id="5f72d8151bae4c5a9bb54ab33372f125" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js" width="650"></script></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2018/mutually-assured-destruction-and-the-impending-ai-apocalypse/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Dependable and Secure Machine Learning</title>
+		<link>https://www.jeffersonswheel.org/2018/dependable-and-secure-machine-learning</link>
+		<comments>https://www.jeffersonswheel.org/2018/dependable-and-secure-machine-learning#comments</comments>
+		<pubDate>Sat, 07 Jul 2018 22:30:07 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=880</guid>
+		<description><![CDATA[I co-organized, with Homa Alemzadeh and Karthik Pattabiraman, a workshop on trustworthy machine learning attached to DSN 2018, in Luxembourg: DSML: Dependable and Secure Machine Learning.]]></description>
+				<content:encoded><![CDATA[<p>I co-organized, with <a href="http://faculty.virginia.edu/alemzadeh/">Homa Alemzadeh</a> and <a href="http://blogs.ubc.ca/karthik/">Karthik Pattabiraman</a>, a workshop on trustworthy machine learning attached to DSN 2018, in Luxembourg: <a href="https://dependablesecureml.github.io/">DSML: Dependable and Secure Machine Learning</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2018/dependable-and-secure-machine-learning/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>DLS Keynote: Is &#8220;adversarial examples&#8221; an Adversarial Example?</title>
+		<link>https://www.jeffersonswheel.org/2018/dls-keynote-is-adversarial-examples-an-adversarial-example</link>
+		<comments>https://www.jeffersonswheel.org/2018/dls-keynote-is-adversarial-examples-an-adversarial-example#comments</comments>
+		<pubDate>Wed, 30 May 2018 01:50:32 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=864</guid>
+		<description><![CDATA[I gave a keynote talk at the 1st Deep Learning and Security Workshop (co-located with the 39th IEEE Symposium on Security and Privacy). San Francisco, California. 24 May 2018 Abstract Over the past few years, there has been an explosion of research in security of machine learning and on adversarial examples in particular. Although this [...]]]></description>
+				<content:encoded><![CDATA[<p>I gave a keynote talk at the <a href="https://www.ieee-security.org/TC/SPW2018/DLS/#"><em>1st Deep Learning and Security Workshop</em></a> (co-located with the 39th <em>IEEE Symposium on Security and Privacy</em>). San Francisco, California. 24 May 2018</p>
+<p><center><br />
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/sFhD6ABghf8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
+<p>
+<script async class="speakerdeck-embed"
+	data-id="9d2c5bf9b3444a8a992762f5cd6ea7fe"
+	data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script><br />
+</center>
+</p>
+<p>
+<center><br />
+<b>Abstract</b><br />
+</center></p>
+<p>
+Over the past few years, there has been an explosion of research in security of machine learning and on adversarial examples in particular. Although this is in many ways a new and immature research area, the general problem of adversarial examples has been a core problem in information security for thousands of years. In this talk, I&#8217;ll look at some of the long-forgotten lessons from that quest and attempt to understand what, if anything, has changed now we are in the era of deep learning classifiers. I will survey the prevailing definitions for &#8220;adversarial examples&#8221;, argue that those definitions are unlikely to be the right ones, and raise questions about whether those definitions are leading us astray.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2018/dls-keynote-is-adversarial-examples-an-adversarial-example/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SRG at IEEE S&amp;P 2018</title>
+		<link>https://www.jeffersonswheel.org/2018/srg-at-ieee-sp-2018</link>
+		<comments>https://www.jeffersonswheel.org/2018/srg-at-ieee-sp-2018#comments</comments>
+		<pubDate>Wed, 30 May 2018 01:47:52 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Pictures]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=849</guid>
+		<description><![CDATA[Group Dinner Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018! Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&#160;Chen,&#160;Weilin&#160;Xu Poster Session Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF] Mainuddin Jonas (with David Evans), Enhancing Adversarial [...]]]></description>
+				<content:encoded><![CDATA[<p><b>Group Dinner</b></p>
+<p>
+<center><br />
+Including our newest faculty member, <a href="https://www.cs.purdue.edu/homes/kwon58/#summary">Yongwhi Kwon</a>, joining UVA in Fall 2018!<br />
+<a href="/images/srg2018/ORG_DSC07202.jpg"><img src="/images/srg2018/ORG_DSC07202.jpg" width="680"></a><br />
+<small>Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&nbsp;Chen,&nbsp;Weilin&nbsp;Xu</small><br />
+</center>
+</p>
+<p>
+<b>Poster Session</b></p>
+<table width="100%">
+<tr valign="top">
+<td width="50%" align="center">
+<a href="/images/srg2018/IMG_20180521_193906.jpg"><img src="/images/srg2018/IMG_20180521_193906-3.jpg" height="360"></a><br />
+Fnu Suya (with Yuan Tian and David Evans), <em>Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers</em> <a href="https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper37-poster-abstract.pdf">[PDF]</a>
+</td>
+<td width="50%" align="center">
+<a href="/images/srg2018/IMG_20180521_193914.jpg"><img src="/images/srg2018/IMG_20180521_193914-2.jpg" height="360"></a><br />
+Mainuddin Jonas (with David Evans), <em>Enhancing Adversarial Example Defenses Using Internal Layers</em> <a href="https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper29-poster-abstract.pdf">[PDF]</a>
+</td>
+</tr>
+<tr valign="top">
+<td width="50%" align="center">
+<a href="/images/srg2018/IMG_20180522_153017.jpg"><img src="/images/srg2018/IMG_20180522_153017-2.jpg" height="300"></a>
+</td>
+<td width="50%" align="center">
+<a href="/images/srg2018/IMG_20180522_153109.jpg"><img src="/images/srg2018/IMG_20180522_153109-2.jpg" height="300"></a>
+</td>
+</tr>
+</table>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2018/srg-at-ieee-sp-2018/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Highlights from CCS 2017</title>
+		<link>https://www.jeffersonswheel.org/2017/highlights-from-ccs-2017</link>
+		<comments>https://www.jeffersonswheel.org/2017/highlights-from-ccs-2017#comments</comments>
+		<pubDate>Sat, 18 Nov 2017 23:47:40 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=824</guid>
+		<description><![CDATA[The 24th ACM Conference on Computer and Communications Security was held in Dallas, 30 October &#8211; 3 November. Being Program Committee co-chair for a conference like this is a full-year commitment, and the work continues throughout much of the year preceding the conference. The conference has over 1000 registered attendees, a record for any academic [...]]]></description>
+				<content:encoded><![CDATA[<p>The <a href="https://ccs2017.sigsac.org">24<sup>th</sup> <em>ACM Conference on Computer and Communications Security</em></a> was held in Dallas, 30 October &ndash; 3 November. Being Program Committee co-chair for a conference like this is a full-year commitment, and the work continues throughout much of the year preceding the conference. The conference has over 1000 registered attendees, a record for any academic security research conference.</p>
+<p>
+Here are a few highlights from the conference week.
+</p>
+<p>
+<center><br />
+<script async class="speakerdeck-embed" data-id="a5ca2b52d1a046d59b1bcc6f7e4ab6b9" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script><br />
+<b>PC Chairs&#8217; Welcome</b> (opening session)<br />
+</center>
+</p>
+<p>
+<center><br />
+<a href="//www.cs.virginia.edu/evans/pictures/ccs2017/ccsopening.jpg"><img src="//www.cs.virginia.edu/evans/pictures/ccs2017/ccsopening-small.jpg" width="640" height="427"><br />
+Giving the PC Chairs&#8217; Welcome Talk<br />
+</center>
+</p>
+<p>
+<center><br />
+<a href="//www.cs.virginia.edu/evans/pictures/ccs2017/ccsaudience.jpg"><img src="//www.cs.virginia.edu/evans/pictures/ccs2017/ccsaudience-small.jpg" width="640" height="427"><br />
+Audience at Opening Session<br />
+</center>
+</p>
+<p>
+<center><br />
+<a href="https://acmccs.github.io/images/finalists.jpg"><img src="https://acmccs.github.io/images/finalists.jpg" width="640"</a></br><b>ACM CCS 2017 Paper Awards Finalists</b><br />
+</center>
+</p>
+<p>
+<center><br />
+<a href="//www.cs.virginia.edu/evans/pictures/ccs2017/ccsbanquet.jpg"><img src="//www.cs.virginia.edu/evans/pictures/ccs2017/ccsbanquet-small.jpg" width="640"></a><br />
+<b>CCS 2017 Awards Banquet</b><br />
+</center>
+</p>
+<p>
+<center><br />
+<a href="//www.cs.virginia.edu/evans/pictures/ccs2017/doerner-award.jpg"><img src="//www.cs.virginia.edu/evans/pictures/ccs2017/doerneraward-small.jpg"</img></a><br />
+</center><br />
+At the <a href="https://ccs2017.sigsac.org/awards.html">Award&#8217;s Banquet</a>, I got to award a Best Paper award to SRG alum Jack Doerner (I was, of course, recused by conflict from being involved in any decisions on his paper).<br />
+</center>
+</p>
+<p>
+<center><br />
+<a href="//www.cs.virginia.edu/evans/pictures/ccs2017/uvalunch.jpg"><img src="//www.cs.virginia.edu/evans/pictures/ccs2017/uvalunch-small.jpg" width="640"></a><br />
+</center><br />
+<b>UVA Lunch</b> (around the table starting at front left): Suman Jana (honorary Wahoo by marriage), Darion Cassel (SRG BSCS 2017, now at CMU), Will Hawkins, Jason Hiser, Samee Zahur (SRG PhD 2016, now at Google), Jack Doerner (SRG BACS 2016, now at Northeastern), Joe Calandrino (now at FTC); Back right to front: Ben Kreuter (now at Google), Anh Nguyen-Tuong, Jack Davidson, Yuan Tian, Yuchen Zhou (SRG PhD 2015, now at Palo Alto Networks), David Evans.<br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/highlights-from-ccs-2017/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>First Workshop for Women in Cybersecurity</title>
+		<link>https://www.jeffersonswheel.org/2017/first-workshop-for-women-in-cybersecurity</link>
+		<comments>https://www.jeffersonswheel.org/2017/first-workshop-for-women-in-cybersecurity#comments</comments>
+		<pubDate>Fri, 17 Nov 2017 13:02:43 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=815</guid>
+		<description><![CDATA[I gave a talk at the First ACM Workshop for Women in Cybersecurity (affiliated with ACM CCS 2017) on Truth, Social Justice (and the American Way?): There&#8217;s also a short paper, loosely related to the talk: [PDF]]]></description>
+				<content:encoded><![CDATA[<p>I gave a talk at the <a href="https://sites.google.com/a/vt.edu/cyberw2017/home"><em>First ACM Workshop for Women in Cybersecurity</em></a> (affiliated with <a href="https://ccs2017.sigsac.org">ACM CCS 2017</a>) on <a href="http://www.cs.virginia.edu/~evans/pubs/cyberw2017/"><em>Truth, Social Justice (and the American Way?)</em></a>:<br />
+<center><br />
+<script async class="speakerdeck-embed"
+        data-id="b8709f70dbae4b54be9f2e38a66ca605"
+        data-ratio="1.77777777777778"
+        src="//speakerdeck.com/assets/embed.js"></script><br />
+</center><br />
+There&#8217;s also a short paper, loosely related to the talk: [<a href="http://www.cs.virginia.edu/~evans/pubs/cyberw2017/cyberw.pdf">PDF</a>]</p>
+<p>
+<center><br />
+<a href="//www.cs.virginia.edu/evans/pictures/cyberw2017/BigG1.jpg"><img src="//www.cs.virginia.edu/evans/pictures/cyberw2017/BigG1.jpg" width=650></a><br />
+</center>
+</p>
+<p>
+<center><br />
+<a href="//www.cs.virginia.edu/evans/pictures/cyberw2017/IMG-1768.jpg"><img src="//www.cs.virginia.edu/evans/pictures/cyberw2017/IMG-1768.jpg" width=650></a><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/first-workshop-for-women-in-cybersecurity/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SRG at USENIX Security 2017</title>
+		<link>https://www.jeffersonswheel.org/2017/srg-at-usenix-security-2017</link>
+		<comments>https://www.jeffersonswheel.org/2017/srg-at-usenix-security-2017#comments</comments>
+		<pubDate>Sun, 13 Aug 2017 02:42:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Pictures]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Secure Computation]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=803</guid>
+		<description><![CDATA[Several SRG students presented posters at USENIX Security Symposium in Vancouver, BC. Approaches to Evading Windows PE Malware Classifiers Anant Kharkar, Helen Simecek, Weilin Xu, David Evans, and Hyrum S. Anderson (Endgame) JSPolicy: Policied Sandboxes for Untrusted Third-Party JavaScript Ethan Lowman and David Evans EvadeML-Zoo: A Benchmarking and Visualization Tool for Adversarial Machine Learning Weilin [...]]]></description>
+				<content:encoded><![CDATA[<p>Several SRG students presented posters at <a href="https://www.usenix.org/conference/usenixsecurity17/poster-session">USENIX Security Symposium</a> in Vancouver, BC.</p>
+<table>
+<tr>
+<td valign="top">
+<a href="/images/usenix2017/helen-anant-poster.jpg"><img src="/images/usenix2017/helen-anant-poster.jpg" height="250"></a><br />
+<em>Approaches to Evading Windows PE Malware Classifiers</em><br />
+Anant Kharkar, Helen Simecek, Weilin Xu, David Evans, and Hyrum S. Anderson (Endgame)
+</td>
+<td valign="top">
+<a href="/images/usenix2017/ethan-poster.jpg"><img src="/images/usenix2017/ethan-poster.jpg" height="250"></a><br />
+<em>JSPolicy: Policied Sandboxes for Untrusted Third-Party JavaScript</em><br />
+Ethan Lowman and David Evans
+</td>
+</tr>
+<tr>
+<td valign="top">
+<a href="/images/usenix2017/weilin-poster.jpg"><img src="/images/usenix2017/weilin-poster.jpg" height="250"></a>
+</td>
+<td valign="top">
+<a href="/images/usenix2017/noah-poster.jpg"><img src="/images/usenix2017/noah-poster.jpg" height="250"></a>
+</td>
+</tr>
+<tr>
+<td colspan=2 align="center">
+<a href="https://evademl.org/zoo"><em>EvadeML-Zoo: A Benchmarking and Visualization Tool for Adversarial Machine Learning</em></a><br />
+Weilin Xu, Andrew Norton, Noah Kim, Yanjun Qi, and David Evans
+</td>
+</tr>
+<tr>
+<td colspan=2 align="center">
+<a href="https://oblivc.org/dca"><em>Decentralized Certificate Authorities</em></a><br />
+Hannah Li, Bargav Jayaraman, and David Evans
+</td>
+</tr>
+</table>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/srg-at-usenix-security-2017/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Modest Proposals for Google</title>
+		<link>https://www.jeffersonswheel.org/2017/modest-proposals-for-google</link>
+		<comments>https://www.jeffersonswheel.org/2017/modest-proposals-for-google#comments</comments>
+		<pubDate>Fri, 09 Jun 2017 19:28:20 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Children's Books]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Talks]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=771</guid>
+		<description><![CDATA[Great to meet up with Wahooglers Adrienne Porter Felt, Ben Kreuter, Jonathan McCune, Samee Zahur (Google’s latest addition from my group), and (honorary UVAer interning at Google this summer) Riley Spahn at Google’s Research Summit on Security and Privacy this week in Mountain View. As part of the meeting, the academic attendees were given a [...]]]></description>
+				<content:encoded><![CDATA[<p>Great to meet up with Wahooglers Adrienne Porter Felt, Ben Kreuter, Jonathan McCune, Samee Zahur (Google’s latest addition from my group), and (honorary UVAer interning at Google this summer) Riley Spahn at Google’s <a href="https://sites.google.com/view/securitysummit2017/">Research Summit on Security and Privacy</a> this week in Mountain View.
+</p>
+<p>
+As part of the meeting, the academic attendees were given a chance to give a 3-minute pitch to tell Google what we want them to do. The slides I used are below, but probably don’t make much sense by themselves.
+</p>
+<p>
+The main modest proposal I tried to make is that Google should take it on as their responsibility to make sure nothing bad ever happens to anyone anywhere. They can start with nothing bad ever happening on the Internet, but with the Internet pretty much everywhere, should expand the scope to cover everywhere soon.
+</p>
+<p>
+To start with an analogy from the days when Microsoft ruled computing. There was a time when Windows bluescreens were a frequent experience for most Windows users (and at the time, this pretty much mean all computer users). Microsoft analyzed the crashes and concluded that nearly all were because of bugs in device drivers, so it wasn’t their fault and was horribly unfair for them to be blamed for the crashes. Of course, to people losing their work because of a crash, it doesn’t really matter who’s code was to blame. By the end of the 90s, though, Microsoft took on the mission of reducing the problems with device drivers, and a lot of great work came out of this (e.g., the <a href="https://www.microsoft.com/en-us/research/project/slam/">Static Driver Verifier</a>), with dramatic improvements on the typical end user’s computing experience.
+</p>
+<p>
+Today, Google rules a large chunk of computing. Lots of bad things happen on the Internet that are not Google’s fault. As the latest example in the news, the leaked <a href="https://www.documentcloud.org/documents/3766950-NSA-Report-on-Russia-Spearphishing.html">NSA report</a> of Russian attacks on election officials describes a phishing attack that exploits vulnerabilities in Microsoft Word. Its easy to put the blame on overworked election officials who didn’t pay enough attention to <a href="https://dori-mic.org">books on universal computation they read when they were children</a>, or to put it on Microsoft for allowing Word to be exploited.
+</p>
+<p>
+But, Google’s name is also all over this report &#8211; the emails when through gmail accounts, the attacks phished for Google credentials, and the attackers used plausibly-named gmail accounts. Even if Google isn’t too blame for the problems that enable such an attack, they are uniquely positioned to solve it, both because of their engineering capabilities and resources, but also because of the comprehensive view they have of what happens on the Internet and powerful ability to influence it.
+</p>
+<p>
+Google is a big company, with lots of decentralized teams, some of which definitely seem to get this already. (I’d point to the work the Chrome Security Team has done, MOAR TLS, and RAPPOR as just a few of many examples of things that involve a mix of techincal and engineering depth and a broad mission to make computing better for everyone, not obviously connected to direct business interests.) But, there are also lots of places where Google doesn’t seem to be putting serious efforts into solving problems they could but viewing them as outside scope because its really someone else’s fault (my particular motivating example was <a href="https://www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails">PDF malware</a>). As a company, Google is too capable, important, and ubiquitous to view problems as out-of-scope just because they are obviously undecidable or obviously really someone else’s fault.
+</p>
+<p><center><br />
+<iframe src="https://docs.google.com/presentation/d/1tQ-BdHODwAnYBY2Ci5STvDRArvhmUfwWwkF8_KpJhh0/embed?start=false&#038;loop=false&#038;delayms=3000" frameborder="0" width="612" height="380" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br />
+</center></p>
+<p>
+[Also on <a href="https://plus.google.com/+DavidEvans/posts/5qziomX4BKk">Google +</a>]</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/modest-proposals-for-google/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Enigma 2017 Talk: Classifiers under Attack</title>
+		<link>https://www.jeffersonswheel.org/2017/enigma-2017-talk-classifiers-under-attack</link>
+		<comments>https://www.jeffersonswheel.org/2017/enigma-2017-talk-classifiers-under-attack#comments</comments>
+		<pubDate>Tue, 07 Mar 2017 02:48:02 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=761</guid>
+		<description><![CDATA[The video for my Enigma 2017 talk, &#8220;Classifiers under Attack&#8221; is now posted: The talk focuses on work with Weilin Xu and Yanjun Qi on automatically evading malware classifiers using techniques from genetic programming. (See EvadeML.org for more details and links to code and papers, although some of the work I talked about at Enigma [...]]]></description>
+				<content:encoded><![CDATA[<p>The video for my Enigma 2017 talk, &#8220;Classifiers under Attack&#8221; is now posted:<br />
+<center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XYJamxDROOs" frameborder="0" allowfullscreen></iframe><br />
+</center></p>
+<p>The talk focuses on work with Weilin Xu and Yanjun Qi on automatically evading malware classifiers using techniques from genetic programming.  (See <a href="https://www.evademl.org">EvadeML.org</a> for more details and links to code and papers, although some of the work I talked about at Enigma has not yet been published.)</p>
+<p>Enigma was an amazing conference &#8211; one of the most worthwhile, and definitely the most diverse security/privacy conference I&#8217;ve been to in my career, both in terms of where people were coming from (nearly exactly 50% from industry and 50% from academic/government/non-profits), intellectual variety (range of talks from systems and crypto to neuroscience, law, and journalism), and the demographics of the attendees and speakers (not to mention a way-cool stage setup).  </p>
+<p>The model of having speakers do on-line practice talks with their session was also very valuable (Enigma requires speakers to agree to do three on-line practice talks sessions before the conference, and from what I hear most speakers and sessions did cooperate with this, and it showed in the quality of the sessions) and something I hope other conference will be able to adopt. You actually end up with talks that fit with each other, build of things others present, and avoid unnecessary duplication, as well as, improving all the talks by themselves.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/enigma-2017-talk-classifiers-under-attack/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

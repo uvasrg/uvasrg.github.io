@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; Movies</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/movies/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Engineering Cryptosystems</title>
+		<link>https://www.jeffersonswheel.org/2013/engineering-cryptosystems</link>
+		<comments>https://www.jeffersonswheel.org/2013/engineering-cryptosystems#comments</comments>
+		<pubDate>Thu, 31 Oct 2013 00:33:42 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[History]]></category>
+		<category><![CDATA[Movies]]></category>
+		<category><![CDATA[Talks]]></category>
+		<category><![CDATA[Teaching]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=522</guid>
+		<description><![CDATA[I gave a four-session &#8220;mini-course&#8221; for Microstrategy on Engineering Cryptosystems. It ended up attracting enough interest to be moved from their offices to a nearby movie theater!]]></description>
+				<content:encoded><![CDATA[<p>I gave a four-session &#8220;mini-course&#8221; for Microstrategy on <a href="http://mightbeevil.com/crypto/"><i>Engineering Cryptosystems</i></a>.  It ended up attracting enough interest to be moved from their offices to a nearby movie theater!</p>
+<p><center><br />
+<img src="http://www.mightbeevil.org/crypto/static/images/theater.png" width=500</img><br />
+</center></p>
+<p>The course was targeted to engineers at Microstrategy with no prior experience with cryptography, and designed to give them some ideas of the power of modern cryptography, and to provide enough stories about cryptosystems going bad to convince them not do try to develop their own cryptosystems, and to know enough to ask the right questions of people who do.</p>
+<p>The four main topics were:</p>
+<ul>
+<li> <a href="http://www.mightbeevil.com/crypto/day1.html">Symmetric Cryptosystems</a>
+<li> <a href="http://www.mightbeevil.com/crypto/day2.html">Using (and Misusing) Symmetric Cryptosystems</a>
+<li> <A href="http://www.mightbeevil.com/crypto/day3.html">Public-Key Protocols</a>
+<li> <A href="http://www.mightbeevil.com/crypto/day4.html">The Future of Cryptography</a>
+</ul>
+<p>Since it was in a movie theater, it also provided an opportunity to officially screen this trailer in a real movie theater:<br />
+<center><br />
+<iframe width="640" height="360" src="//www.youtube.com/embed/0QT_CUSOslY?feature=player_embedded" frameborder="0" allowfullscreen><br />
+</iframe><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2013/engineering-cryptosystems/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>&#8217;21&#8242; Opens March 28</title>
+		<link>https://www.jeffersonswheel.org/2008/21-opens-march-28</link>
+		<comments>https://www.jeffersonswheel.org/2008/21-opens-march-28#comments</comments>
+		<pubDate>Fri, 21 Mar 2008 11:04:42 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Movies]]></category>
+
+		<guid isPermaLink="false">http://www.cs.virginia.edu/~evans/blog/?p=43</guid>
+		<description><![CDATA[The movie &#8217;21&#8242;, about the MIT Blackjack Team opens next Friday, March 28. From the preview press, it sounds like this may be a cinematic breakthrough of Gaussian proportions! MIT&#8217;s student newspaper has an interview with Ben Mezrich (author of Bringing Down the House on which the movie is based) and Jeffrey Ma (on whom [...]]]></description>
+				<content:encoded><![CDATA[<p>The movie &#8217;21&#8242;, about the MIT Blackjack Team opens next Friday, March 28.  From the preview press, it sounds like this may be a cinematic <a href="http://www.cs.virginia.edu/~evans/cs551/manifests/1011.html">breakthrough of Gaussian proportions</a>!</p>
+<p>MIT&#8217;s student newspaper has an interview with Ben Mezrich (author of <em>Bringing Down the House</em> on which the movie is based) and Jeffrey Ma (on whom one of the characters in the film is based):<br />
+<a href="http://www-tech.mit.edu/V128/N12/blackjack.html"><em>MIT, Vegas, Hollywood</em></a>, The Tech, March 14, 2008.</p>
+<p>
+Sony&#8217;s official movie site: <a href="http://www.sonypictures.com/movies/21/"><em>http://www.sonypictures.com/movies/21/</em></a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2008/21-opens-march-28/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

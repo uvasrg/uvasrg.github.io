@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; Cryptocurrency</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/cryptocurrency/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Demystifying the Blockchain Hype</title>
+		<link>https://www.jeffersonswheel.org/2016/demystifying-the-blockchain-hype</link>
+		<comments>https://www.jeffersonswheel.org/2016/demystifying-the-blockchain-hype#comments</comments>
+		<pubDate>Wed, 26 Oct 2016 17:48:33 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=744</guid>
+		<description><![CDATA[I gave a talk introducing the blockchain at a meetup hosted by Willow Tree Apps: Demystifying the Blockchain Hype, 25 October 2016. Over the past few years, explosive growth in cryptocurrencies (especially Bitcoin), has led to tremendous excitement about blockchains as a powerful tool for just about everything. Without assuming anyprevious background in cryptography, I&#8217;ll [...]]]></description>
+				<content:encoded><![CDATA[<p>I gave a talk introducing the blockchain at a meetup hosted by Willow Tree Apps:<br />
+<a href="https://www.meetup.com/hashtagzero/events/234619867/?eventId=234619867"><em>Demystifying the Blockchain Hype</em></a>, 25 October 2016.</p>
+<blockquote><p>
+Over the past few years, explosive growth in cryptocurrencies (especially Bitcoin), has led to tremendous excitement about blockchains as a powerful tool for just about everything. Without assuming anyprevious background in cryptography, I&#8217;ll explain the cryptographic and networking technologies that make blockchains possible, explain why people are so excited about blockchains, but why you shouldn&#8217;t believe everything you hear about them.
+</p></blockquote>
+<p>The slides are below (I believe a recording will also be available soon).<br />
+<center><br />
+<script async class="speakerdeck-embed" data-id="ef2c58885d9242ce80569c62ac1d6fc1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/demystifying-the-blockchain-hype/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tracking Congressional Phones</title>
+		<link>https://www.jeffersonswheel.org/2016/tracking-congressional-phones</link>
+		<comments>https://www.jeffersonswheel.org/2016/tracking-congressional-phones#comments</comments>
+		<pubDate>Tue, 19 Apr 2016 03:46:22 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Smartphones]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=674</guid>
+		<description><![CDATA[Karsten Nohl (SRG CpE PhD 2009) was on CBS&#8217; 60 Minutes (April 17) as their &#8220;Moment of the Week&#8221;: Hacking into a congressman&#8217;s phone. We heard we could find some of the world&#8217;s best hackers in Germany. So we headed for Berlin. Just off a trendy street and through this alley we rang the bell [...]]]></description>
+				<content:encoded><![CDATA[<p>Karsten Nohl (SRG CpE PhD 2009) was on CBS&#8217; 60 Minutes (April 17) as their &#8220;Moment of the Week&#8221;: <a href="http://www.cbsnews.com/news/60-minutes-hacking-your-phone/"><em>Hacking into a congressman&#8217;s phone</em></a>.
+</p>
+<blockquote><p>
+<em><br />
+We heard we could find some of the world&#8217;s best hackers in Germany. So we headed for Berlin. Just off a trendy street and through this alley we rang the bell at the door of a former factory. That&#8217;s where we met Karsten Nohl, a German hacker, with a doctorate in computer engineering from the University of Virginia.<br />
+</em></p></blockquote>
+<p><img src="http://cbsnews1.cbsistatic.com/hub/i/r/2016/04/17/98a3a290-5a85-448d-931f-16d663e5f48e/thumbnail/770x430/529616bb49f71e495bef131c8e630946/hackingyourphone.jpg" alt="hackingyourphone.jpg" height="430" width="770"></p>
+<p>
+Karsten demonstrated to the reporter how to track a Congressman&#8217;s location and listen in on phone conversations using <A href="https://www.washingtonpost.com/news/the-switch/wp/2014/12/18/german-researchers-discover-a-flaw-that-could-let-anyone-listen-to-your-cell-calls-and-read-your-texts/">SS7 vulnerabilities</a> (for a real Congressman, Ted Liu of California, who actually has a CS degree). With permission, of course!
+</p>
+<blockquote><p>
+<em>We wanted to see whether Nohl&#8217;s group could actually do what they claimed &#8212; so we sent an off-the-shelf iPhone from 60 Minutes in New York to Representative Ted Lieu, a congressman from California. He has a computer science degree from Stanford and is a member of the House committee that oversees information technology. He agreed to use our phone to talk to his staff knowing they would be hacked and they were. All we gave Nohl, was the number of the 60 Minutes iPhone that we lent the congressman.</em>
+</p></blockquote>
+<p>An excerpt from the show was also the <a href="http://www.cbsnews.com/videos/hacking-into-a-congressmans-phone/"><em>60 Minutes Moment of the Week</em></a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/tracking-congressional-phones/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Spectra Articles: Privacy-Preserving Regression and Ombuds</title>
+		<link>https://www.jeffersonswheel.org/2016/spectra-articles-privacy-preserving-regression-and-ombuds</link>
+		<comments>https://www.jeffersonswheel.org/2016/spectra-articles-privacy-preserving-regression-and-ombuds#comments</comments>
+		<pubDate>Mon, 21 Mar 2016 18:35:10 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=653</guid>
+		<description><![CDATA[The latest edition of Spectra: The Virginia Engineering and Science Research Journal includes two articles about SRGers! The first is an article about Sam Havron&#8217;s research on using MPC to perform linear regression for social science applications: [PDF] alt : Ombuds.pdf The second is by Alex Kuck and Nick Skelsey on their work on using [...]]]></description>
+				<content:encoded><![CDATA[<p>The latest edition of <em>Spectra: The Virginia Engineering and Science Research Journal</em> includes two articles about SRGers!</p>
+<p><center><br />
+<img src="//www.cs.virginia.edu/evans/blog/images/Spectra_2016_Cover-small.png" width=600><br />
+</center></p>
+<p>The first is an article about Sam Havron&#8217;s research on using MPC to perform linear regression for social science applications: [<a href="//www.cs.virginia.edu/evans/docs/Spectra_2016_Havron.pdf">PDF</a>]</p>
+<p><object data="//www.cs.virginia.edu/evans/docs/Spectra_2016_Havron.pdf" type="application/pdf" width="650" height="200"><br />
+  alt : <a href="//www.cs.virginia.edu/evans/docs/Spectra_2016_Havron.pdf">Ombuds.pdf</a><br />
+</object></p>
+<p>The second is by Alex Kuck and Nick Skelsey on their work on using a blockchain to provide censorship-resistant messaging: <em>Ombuds: A Public Space with a Single Shared History</em>: [<a href="//www.cs.virginia.edu/evans/docs/Spectra_2016_Ombuds.pdf">PDF</a>]</p>
+<p><object data="//www.cs.virginia.edu/evans/docs/Spectra_2016_Ombuds.pdf" type="application/pdf" width="650" height="200"><br />
+  alt : <a href="//www.cs.virginia.edu/evans/docs/Spectra_2016_Ombuds.pdf">Ombuds.pdf</a><br />
+</object></p>
+<p>The full issue is available at <a href="http://www.flipsnack.com/UVAengineering/the-spectra.html">the Spectra site</a> (thanks to Garrett Beeghly for granting permission to post these excerpts here).</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/spectra-articles-privacy-preserving-regression-and-ombuds/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Trick or Treat?: Bitcoin for Non-Believers, Cryptocurrencies for Cypherpunks</title>
+		<link>https://www.jeffersonswheel.org/2015/trick-or-treat-bitcoin-for-non-believers-cryptocurrencies-for-cypherpunks</link>
+		<comments>https://www.jeffersonswheel.org/2015/trick-or-treat-bitcoin-for-non-believers-cryptocurrencies-for-cypherpunks#comments</comments>
+		<pubDate>Sun, 08 Nov 2015 16:03:36 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=610</guid>
+		<description><![CDATA[I gave a talk at Johns Hopkins University for the DC-Area Crypto Day focused on cryptocurrencies: Trick or Treat?: Bitcoin for Non-Believers, Cryptocurrencies for Cypherpunks. Video of the Entire Workshop Great to include two recent alums, Alex Kuck and Nick Skelsey at the end of my talk. They talks about progress with Ombuds, a platform [...]]]></description>
+				<content:encoded><![CDATA[<p>I gave a talk at Johns Hopkins University for the DC-Area Crypto Day focused on cryptocurrencies: <a href="http://www.cs.virginia.edu/~evans/talks/dccrypto2015/"><em>Trick or Treat?: Bitcoin for Non-Believers, Cryptocurrencies for Cypherpunks</em></a>.</p>
+<p><center><br />
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/23zEa3UZ4qY?rel=0" frameborder="0" allowfullscreen></iframe><br />
+Video of the Entire Workshop<br />
+</center></p>
+<p>Great to include two recent alums, Alex Kuck and Nick Skelsey at the end of my talk.  They talks about progress with <a href="https://getombuds.org/">Ombuds</a>, a platform for free speech built on the blockchain.</p>
+<p><center><br />
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/2f3tlAFi7Y6cmv" width="620" height="420" frameborder="0" marginwidth="0"<br />
+marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;"allowfullscreen><br />
+</iframe><br />
+<br />
+Download slides: [<a href="http://www.cs.virginia.edu/evans/talks/dccrypto2015/bitcoin-jhu-inked.pptx">PPTX</a> (35 MB), <a href="bhttp://www.cs.virginia.edu/evans/talks/dccrypto2015/itcoin-jhu-inked.pdf">PDF</a> (4-up, 34MB)]<Br><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/trick-or-treat-bitcoin-for-non-believers-cryptocurrencies-for-cypherpunks/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

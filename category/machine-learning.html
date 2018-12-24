@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Mirrored from www.jeffersonswheel.org/category/machine-learning by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Dec 2018 00:44:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Jefferson&#039;s Wheel   &raquo; Machine Learning</title>
+
+	<link rel="stylesheet" href="../wp-content/themes/whiteasmilk/style1.css" type="text/css" media="screen" />
+<link rel="icon" type="image/ico" href="http://www.cs.virginia.edu/evans/blog/favicon.ico"/>	
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="../feed" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="../feed" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="../feed/atom" />
+	<link rel="pingback" href="../xmlrpc.php" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600' rel='stylesheet' type='text/css'>
+		<link rel='archives' title='October 2018' href='../2018/10.html' />
+	<link rel='archives' title='September 2018' href='../2018/09.html' />
+	<link rel='archives' title='August 2018' href='../2018/08.html' />
+	<link rel='archives' title='July 2018' href='../2018/07.html' />
+	<link rel='archives' title='May 2018' href='../2018/05.html' />
+	<link rel='archives' title='February 2018' href='../2018/02.html' />
+	<link rel='archives' title='December 2017' href='../2017/12.html' />
+	<link rel='archives' title='November 2017' href='../2017/11.html' />
+	<link rel='archives' title='September 2017' href='../2017/09.html' />
+	<link rel='archives' title='August 2017' href='../2017/08.html' />
+	<link rel='archives' title='July 2017' href='../2017/07.html' />
+	<link rel='archives' title='June 2017' href='../2017/06.html' />
+	<link rel='archives' title='April 2017' href='../2017/04.html' />
+	<link rel='archives' title='March 2017' href='../2017/03.html' />
+	<link rel='archives' title='January 2017' href='../2017/01.html' />
+	<link rel='archives' title='December 2016' href='../2016/12.html' />
+	<link rel='archives' title='November 2016' href='../2016/11.html' />
+	<link rel='archives' title='October 2016' href='../2016/10.html' />
+	<link rel='archives' title='August 2016' href='../2016/08.html' />
+	<link rel='archives' title='July 2016' href='../2016/07.html' />
+	<link rel='archives' title='June 2016' href='../2016/06.html' />
+	<link rel='archives' title='May 2016' href='../2016/05.html' />
+	<link rel='archives' title='April 2016' href='../2016/04.html' />
+	<link rel='archives' title='March 2016' href='../2016/03.html' />
+	<link rel='archives' title='February 2016' href='../2016/02.html' />
+	<link rel='archives' title='December 2015' href='../2015/12.html' />
+	<link rel='archives' title='November 2015' href='../2015/11.html' />
+	<link rel='archives' title='August 2015' href='../2015/08.html' />
+	<link rel='archives' title='June 2015' href='../2015/06.html' />
+	<link rel='archives' title='May 2015' href='../2015/05.html' />
+	<link rel='archives' title='April 2015' href='../2015/04.html' />
+	<link rel='archives' title='March 2015' href='../2015/03.html' />
+	<link rel='archives' title='February 2015' href='../2015/02.html' />
+	<link rel='archives' title='January 2015' href='../2015/01.html' />
+	<link rel='archives' title='November 2014' href='../2014/11.html' />
+	<link rel='archives' title='October 2014' href='../2014/10.html' />
+	<link rel='archives' title='September 2014' href='../2014/09.html' />
+	<link rel='archives' title='May 2014' href='../2014/05.html' />
+	<link rel='archives' title='April 2014' href='../2014/04.html' />
+	<link rel='archives' title='February 2014' href='../2014/02.html' />
+	<link rel='archives' title='January 2014' href='../2014/01.html' />
+	<link rel='archives' title='November 2013' href='../2013/11.html' />
+	<link rel='archives' title='October 2013' href='../2013/10.html' />
+	<link rel='archives' title='June 2013' href='../2013/06.html' />
+	<link rel='archives' title='May 2013' href='../2013/05.html' />
+	<link rel='archives' title='April 2013' href='../2013/04.html' />
+	<link rel='archives' title='March 2013' href='../2013/03.html' />
+	<link rel='archives' title='February 2013' href='../2013/02.html' />
+	<link rel='archives' title='August 2012' href='../2012/08.html' />
+	<link rel='archives' title='July 2012' href='../2012/07.html' />
+	<link rel='archives' title='March 2012' href='../2012/03.html' />
+	<link rel='archives' title='February 2012' href='../2012/02.html' />
+	<link rel='archives' title='January 2012' href='../2012/01.html' />
+	<link rel='archives' title='December 2011' href='../2011/12.html' />
+	<link rel='archives' title='November 2011' href='../2011/11.html' />
+	<link rel='archives' title='October 2011' href='../2011/10.html' />
+	<link rel='archives' title='September 2011' href='../2011/09.html' />
+	<link rel='archives' title='August 2011' href='../2011/08.html' />
+	<link rel='archives' title='July 2011' href='../2011/07.html' />
+	<link rel='archives' title='June 2011' href='../2011/06.html' />
+	<link rel='archives' title='May 2011' href='../2011/05.html' />
+	<link rel='archives' title='April 2011' href='../2011/04.html' />
+	<link rel='archives' title='March 2011' href='../2011/03.html' />
+	<link rel='archives' title='February 2011' href='../2011/02.html' />
+	<link rel='archives' title='December 2010' href='../2010/12.html' />
+	<link rel='archives' title='November 2010' href='../2010/11.html' />
+	<link rel='archives' title='September 2010' href='../2010/09.html' />
+	<link rel='archives' title='May 2010' href='../2010/05.html' />
+	<link rel='archives' title='April 2010' href='../2010/04.html' />
+	<link rel='archives' title='February 2010' href='../2010/02.html' />
+	<link rel='archives' title='December 2009' href='../2009/12.html' />
+	<link rel='archives' title='September 2009' href='../2009/09.html' />
+	<link rel='archives' title='July 2009' href='../2009/07.html' />
+	<link rel='archives' title='May 2009' href='../2009/05.html' />
+	<link rel='archives' title='April 2009' href='../2009/04.html' />
+	<link rel='archives' title='March 2009' href='../2009/03.html' />
+	<link rel='archives' title='February 2009' href='../2009/02.html' />
+	<link rel='archives' title='January 2009' href='../2009/01.html' />
+	<link rel='archives' title='December 2008' href='../2008/12.html' />
+	<link rel='archives' title='November 2008' href='../2008/11.html' />
+	<link rel='archives' title='October 2008' href='../2008/10.html' />
+	<link rel='archives' title='September 2008' href='../2008/09.html' />
+	<link rel='archives' title='July 2008' href='../2008/07.html' />
+	<link rel='archives' title='June 2008' href='../2008/06.html' />
+	<link rel='archives' title='May 2008' href='../2008/05.html' />
+	<link rel='archives' title='April 2008' href='../2008/04.html' />
+	<link rel='archives' title='March 2008' href='../2008/03.html' />
+	<link rel='archives' title='February 2008' href='../2008/02.html' />
+	<link rel='archives' title='January 2008' href='../2008/01.html' />
+	<link rel="alternate" type="application/rss+xml" title="Jefferson&#039;s Wheel &raquo; Machine Learning Category Feed" href="machine-learning/feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+</head>
+<body>
+
+<div id="page">
+<div id="header">
+<table>
+<tr>
+<td valign="middle">
+<a href="../images/jwlogo.jpg"><img align="left" width="320" height="193"
+     src="../images/jwlogo-small.jpg" alt="SRG Logo"></a>
+</td>
+<td valign="middle">
+	<h1><a href="../index.html">Jefferson&#039;s Wheel</a></h1>
+	<p id="blog_description">Security Research at the University of Virginia</p>
+</td>
+</tr>
+</table>
+	
+</div>
+<hr class="hrhide" />
+
+	<div id="content" class="narrowcolumn">
+
+		
+		 				
+		<h2 class="pagetitle">Archive for the 'Machine Learning' Category</h2>
+		
+ 	  
+
+		<div class="navigation">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post">
+				<h3 id="post-880"><a href="../2018/dependable-and-secure-machine-learning.html" rel="bookmark" title="Permanent Link to Dependable and Secure Machine Learning">Dependable and Secure Machine Learning</a></h3>
+				<small>Saturday, July 7th, 2018</small>
+				
+				<div class="entry">
+					<p>I co-organized, with <a href="http://faculty.virginia.edu/alemzadeh/">Homa Alemzadeh</a> and <a href="http://blogs.ubc.ca/karthik/">Karthik Pattabiraman</a>, a workshop on trustworthy machine learning attached to DSN 2018, in Luxembourg: <a href="https://dependablesecureml.github.io/">DSML: Dependable and Secure Machine Learning</a>.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="machine-learning.html" title="View all posts in Machine Learning" rel="category tag">Machine Learning</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2018/dependable-and-secure-machine-learning"
+    dc:identifier="https://www.jeffersonswheel.org/2018/dependable-and-secure-machine-learning"
+    dc:title="Dependable and Secure Machine Learning"
+    trackback:ping="https://www.jeffersonswheel.org/2018/dependable-and-secure-machine-learning/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-843"><a href="../2018/feature-squeezing-at-ndss.html" rel="bookmark" title="Permanent Link to Feature Squeezing at NDSS">Feature Squeezing at NDSS</a></h3>
+				<small>Sunday, February 25th, 2018</small>
+				
+				<div class="entry">
+					<p>Weilin Xu presented <em>Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks</em> at the <a href="http://www.ndss-symposium.org/ndss2018/">Network and Distributed System Security Symposium 2018</a>. San Diego, CA. 21 February 2018.<br />
+<center><br />
+<script async class="speakerdeck-embed" data-id="cdfcf454436240e4ab1a6c4d594e5c7a" data-ratio="1.77777777777778" src="http://speakerdeck.com/assets/embed.js"></script><br />
+</center></p>
+<p>Paper: Weilin Xu, David Evans, Yanjun Qi. <em>Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks</em>. NDSS 2018. [<a href="https://evademl.org/docs/featuresqueezing.pdf">PDF</a>]</p>
+<p><a href="https://evademl.org/squeezing">Project Site</a></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="adversarial-machine-learning.html" title="View all posts in Adversarial Machine Learning" rel="category tag">Adversarial Machine Learning</a>, <a href="machine-learning.html" title="View all posts in Machine Learning" rel="category tag">Machine Learning</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="security.html" title="View all posts in Security" rel="category tag">Security</a>, <a href="talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2018/feature-squeezing-at-ndss"
+    dc:identifier="https://www.jeffersonswheel.org/2018/feature-squeezing-at-ndss"
+    dc:title="Feature Squeezing at NDSS"
+    trackback:ping="https://www.jeffersonswheel.org/2018/feature-squeezing-at-ndss/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-794"><a href="../2017/in-the-red-corner.html" rel="bookmark" title="Permanent Link to In the Red Corner&#8230;">In the Red Corner&#8230;</a></h3>
+				<small>Monday, August 7th, 2017</small>
+				
+				<div class="entry">
+					<p>The Register has a story on the work Anant Kharkar and collaborators at Endgame, Inc. are doing on using reinforcement learning to find evasive malware: <a href="http://www.theregister.co.uk/2017/08/02/ai_for_better_malware/"><em>In the red corner: Malware-breeding AI. And in the blue corner: The AI trying to stop it</em></a>, by Katyanna Quach, The Register, 2 August 2017.</p>
+<p><center><br />
+<img src="https://regmedia.co.uk/2017/07/31/shutterstock_robot_computer.jpg?x=442&amp;y=293&amp;crop=1" width="442" height="293"><br />
+</center></p>
+<blockquote><p>
+Antivirus makers want you to believe they are adding artificial intelligence to their products: software that has learned how to catch malware on a device. There are two potential problems with that. Either it&#8217;s marketing hype and not really AI – or it&#8217;s true, in which case don&#8217;t forget that such systems can still be hoodwinked.</p>
+<p>It&#8217;s relatively easy to trick machine-learning models – especially in image recognition. Change a few pixels here and there, and an image of a bus can be warped so that the machine thinks it’s an ostrich. Now take that thought and extend it to so-called next-gen antivirus.<br />
+&#8230;</p>
+<p>The researchers from Endgame and the University of Virginia are hoping that by integrating the <a target="_blank" rel="nofollow" href="https://github.com/endgameinc/gym-malware">malware-generating system</a> into OpenAI’s <a target="_blank" rel="nofollow" href="https://www.theregister.co.uk/2016/12/05/openai_universe_reinforcement_learning/">Gym</a> platform, more developers will help sniff out more adversarial examples to improve machine-learning virus classifiers.</p>
+<p>Although Evans believes that Endgame&#8217;s research is important, using such a method to beef up security “reflects the immaturity” of AI and infosec. “It’s mostly experimental and the effectiveness of defenses is mostly judged against particular known attacks, but doesn’t say much about whether it can work against newly discovered attacks,&#8221; he said.</p>
+<p>“Moving forward, we need more work on testing machine learning systems, reasoning about their robustness, and developing general methods for hardening classifiers that are not limited to defending against particular attacks. More broadly, we need ways to measure and build trustworthiness in AI systems.”</p>
+<p>The research has been summarized as a <a target="_blank" rel="nofollow" href="https://www.blackhat.com/docs/us-17/thursday/us-17-Anderson-Bot-Vs-Bot-Evading-Machine-Learning-Malware-Detection-wp.pdf">paper, here</a> if you want to check it out in more detail, or see the upstart&#8217;s <a target="_blank" rel="nofollow" href="https://github.com/endgameinc">code on Github</a>.</p>
+</blockquote>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="adversarial-machine-learning.html" title="View all posts in Adversarial Machine Learning" rel="category tag">Adversarial Machine Learning</a>, <a href="machine-learning.html" title="View all posts in Machine Learning" rel="category tag">Machine Learning</a>, <a href="news.html" title="View all posts in News" rel="category tag">News</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2017/in-the-red-corner"
+    dc:identifier="https://www.jeffersonswheel.org/2017/in-the-red-corner"
+    dc:title="In the Red Corner&#8230;"
+    trackback:ping="https://www.jeffersonswheel.org/2017/in-the-red-corner/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-766"><a href="../2017/feature-squeezing-detecting-adversarial-examples.html" rel="bookmark" title="Permanent Link to Feature Squeezing: Detecting Adversarial Examples">Feature Squeezing: Detecting Adversarial Examples</a></h3>
+				<small>Monday, April 10th, 2017</small>
+				
+				<div class="entry">
+					<p>Although deep neural networks (DNNs) have achieved great success in many computer vision tasks, recent studies have shown they are vulnerable to adversarial examples.  Such examples, typically generated by adding small but purposeful distortions, can frequently fool DNN models. Previous studies to defend against adversarial examples mostly focused on refining the DNN models. They have either shown limited success or suffer from expensive computation. We propose a new strategy, <em>feature squeezing</em>, that can be used to harden DNN models by detecting adversarial examples. Feature squeezing reduces the search space available to an adversary by coalescing samples that correspond to many different feature vectors in the original space into a single sample.</p>
+<p><center><img src="https://evademl.org/images/squeezing.png" width="65%" align="center"></center></p>
+<p>
+By comparing a DNN model’s prediction on the original input with that on the squeezed input, feature squeezing detects adversarial examples with high accuracy and few false positives.  If the original and squeezed examples produce substantially different outputs from the model, the input is likely to be adversarial. By measuring the disagreement among predictions and selecting a threshold value, our system outputs the correct prediction for legitimate examples and rejects adversarial inputs.</p>
+<p><center><img src="https://evademl.org/images/squeezingframework.png" width="85%" align="center"></center></p>
+<p>So far, we have explored two instances of feature squeezing: reducing the color bit depth of each pixel and smoothing using a spatial filter. These strategies are straightforward, inexpensive, and complementary to defensive methods that operate on the underlying model, such as adversarial training.</p>
+<p><center><img src="https://evademl.org//images/jointdetection.png" width="85%" align="center"></center></p>
+<p>The figure shows the histogram of the <em>L</em><sub>1</sub> scores on the MNIST dataset between the original and squeezed sample, for 1000 non-adversarial examples as well as 1000 adversarial examples generated using both the Fast Gradient Sign Method and the Jacobian-based Saliency Map Approach. Over the full MNIST testing set, the detection accuracy is 99.74% (only 22 out of 5000 fast positives).</p>
+<p>For more information, see the paper:</p>
+<p>Weilin Xu, David Evans, Yanjun Qi. <a href="https://arxiv.org/abs/1704.01155"><em>Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks</em></a>. arXiv preprint, 4 April 2017. [<a href="https://arxiv.org/pdf/1704.01155.pdf">PDF</a>]</p>
+<p>Project Site: <a href="https://www.evademl.org/squeezing/"><b>EvadeML</b></a></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="adversarial-machine-learning.html" title="View all posts in Adversarial Machine Learning" rel="category tag">Adversarial Machine Learning</a>, <a href="machine-learning.html" title="View all posts in Machine Learning" rel="category tag">Machine Learning</a>, <a href="papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2017/feature-squeezing-detecting-adversarial-examples"
+    dc:identifier="https://www.jeffersonswheel.org/2017/feature-squeezing-detecting-adversarial-examples"
+    dc:title="Feature Squeezing: Detecting Adversarial Examples"
+    trackback:ping="https://www.jeffersonswheel.org/2017/feature-squeezing-detecting-adversarial-examples/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-761"><a href="../2017/enigma-2017-talk-classifiers-under-attack.html" rel="bookmark" title="Permanent Link to Enigma 2017 Talk: Classifiers under Attack">Enigma 2017 Talk: Classifiers under Attack</a></h3>
+				<small>Monday, March 6th, 2017</small>
+				
+				<div class="entry">
+					<p>The video for my Enigma 2017 talk, &#8220;Classifiers under Attack&#8221; is now posted:<br />
+<center><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XYJamxDROOs" frameborder="0" allowfullscreen></iframe><br />
+</center></p>
+<p>The talk focuses on work with Weilin Xu and Yanjun Qi on automatically evading malware classifiers using techniques from genetic programming.  (See <a href="https://www.evademl.org/">EvadeML.org</a> for more details and links to code and papers, although some of the work I talked about at Enigma has not yet been published.)</p>
+<p>Enigma was an amazing conference &#8211; one of the most worthwhile, and definitely the most diverse security/privacy conference I&#8217;ve been to in my career, both in terms of where people were coming from (nearly exactly 50% from industry and 50% from academic/government/non-profits), intellectual variety (range of talks from systems and crypto to neuroscience, law, and journalism), and the demographics of the attendees and speakers (not to mention a way-cool stage setup).  </p>
+<p>The model of having speakers do on-line practice talks with their session was also very valuable (Enigma requires speakers to agree to do three on-line practice talks sessions before the conference, and from what I hear most speakers and sessions did cooperate with this, and it showed in the quality of the sessions) and something I hope other conference will be able to adopt. You actually end up with talks that fit with each other, build of things others present, and avoid unnecessary duplication, as well as, improving all the talks by themselves.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="adversarial-machine-learning.html" title="View all posts in Adversarial Machine Learning" rel="category tag">Adversarial Machine Learning</a>, <a href="conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="machine-learning.html" title="View all posts in Machine Learning" rel="category tag">Machine Learning</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="security.html" title="View all posts in Security" rel="category tag">Security</a>, <a href="talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2017/enigma-2017-talk-classifiers-under-attack"
+    dc:identifier="https://www.jeffersonswheel.org/2017/enigma-2017-talk-classifiers-under-attack"
+    dc:title="Enigma 2017 Talk: Classifiers under Attack"
+    trackback:ping="https://www.jeffersonswheel.org/2017/enigma-2017-talk-classifiers-under-attack/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-723"><a href="../2016/private-multi%e2%80%91party-machine-learning.html" rel="bookmark" title="Permanent Link to Private Multi‑Party Machine Learning">Private Multi‑Party Machine Learning</a></h3>
+				<small>Thursday, August 18th, 2016</small>
+				
+				<div class="entry">
+					<p>I&#8217;m co-organizing a workshop to be held in conjunction with NIPS on <a href="https://pmpml.github.io/PMPML16">Private Multi‑Party Machine Learning</a>, along with Borja Balle, Aurélien Bellet, Adrià Gascón.  The one-day workshop will be held Dec 9 or Dec 10 in Barcelona.</p>
+<p>NIPS workshops are different from typical workshops attached to computer security conferences, with lots of invited talks (and we have some great speakers lined up for PMPML16), but there is also an <a href="https://pmpml.github.io/PMPML16/#dates">opportunity for researchers to submit short papers to be presented at the workshop either as short talks or posters</a>.</p>
+<p><center><br />
+<img src="https://pmpml.github.io/PMPML16/img/castellers-small.jpg" width=650><br />
+</center></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="machine-learning.html" title="View all posts in Machine Learning" rel="category tag">Machine Learning</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2016/private-multi%e2%80%91party-machine-learning"
+    dc:identifier="https://www.jeffersonswheel.org/2016/private-multi%e2%80%91party-machine-learning"
+    dc:title="Private Multi‑Party Machine Learning"
+    trackback:ping="https://www.jeffersonswheel.org/2016/private-multi%e2%80%91party-machine-learning/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+		
+		<div class="navigation">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+	
+			
+	</div>
+
+	<div id="sidebar">
+
+<p></p>
+		<ul>
+
+<li><h2>
+<a href="http://www.cs.virginia.edu/evans/pubs/">Publications</a><br>
+<a href="https://uvasrg.slack.com/signup">Join Slack
+Group</a></h2>
+
+<li><h2>
+<a href="http://www.cs.virginia.edu/evans/students.html">Team</a></h2>
+<a href="http://www.cs.virginia.edu/evans/">David Evans</a><br>
+</li>
+<li><h2>
+<a href="../awards.html">Awards</a></h2>
+</li>
+
+<li><h2>
+<a href="https://uvasrg.slack.com/">Slack Group</a></h2>
+</li>
+
+			
+			<!--
+			<li class="pagenav"><h2>Pages</h2><ul><li class="page_item page-item-2"><a href="https://www.jeffersonswheel.org/about">About</a></li>
+<li class="page_item page-item-394"><a href="https://www.jeffersonswheel.org/awards">Awards</a></li>
+</ul></li>			-->
+
+			<li><h2>Archives</h2>
+				<ul>
+					<li><a href='../2018.html' title='2018'>2018</a></li>
+	<li><a href='../2017.html' title='2017'>2017</a></li>
+	<li><a href='../2016.html' title='2016'>2016</a></li>
+	<li><a href='../2015.html' title='2015'>2015</a></li>
+	<li><a href='../2014.html' title='2014'>2014</a></li>
+	<li><a href='../2013.html' title='2013'>2013</a></li>
+	<li><a href='../2012.html' title='2012'>2012</a></li>
+	<li><a href='../2011.html' title='2011'>2011</a></li>
+	<li><a href='../2010.html' title='2010'>2010</a></li>
+	<li><a href='../2009.html' title='2009'>2009</a></li>
+	<li><a href='../2008.html' title='2008'>2008</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Categories</h2>
+				<ul>
+					<li class="cat-item cat-item-41"><a href="adversarial-machine-learning.html" title="View all posts filed under Adversarial Machine Learning">Adversarial Machine Learning</a> (16)
+</li>
+	<li class="cat-item cat-item-38"><a href="alumni.html" title="View all posts filed under Alumni">Alumni</a> (19)
+</li>
+	<li class="cat-item cat-item-12"><a href="awards.html" title="View all posts filed under Awards">Awards</a> (13)
+</li>
+	<li class="cat-item cat-item-37"><a href="childrens-books.html" title="View all posts filed under Children&#039;s Books">Children&#039;s Books</a> (2)
+</li>
+	<li class="cat-item cat-item-18"><a href="conferences.html" title="View all posts filed under Conferences">Conferences</a> (56)
+</li>
+	<li class="cat-item cat-item-24"><a href="contests.html" title="View all posts filed under Contests">Contests</a> (2)
+</li>
+	<li class="cat-item cat-item-40"><a href="cryptocurrency.html" title="View all posts filed under Cryptocurrency">Cryptocurrency</a> (4)
+</li>
+	<li class="cat-item cat-item-6"><a href="cryptography.html" title="View all posts filed under Cryptography">Cryptography</a> (52)
+</li>
+	<li class="cat-item cat-item-11"><a href="disk-processing.html" title="View all posts filed under Disk Processing">Disk Processing</a> (3)
+</li>
+	<li class="cat-item cat-item-25"><a href="guardrails.html" title="View all posts filed under GuardRails">GuardRails</a> (4)
+</li>
+	<li class="cat-item cat-item-21"><a href="history.html" title="View all posts filed under History">History</a> (7)
+</li>
+	<li class="cat-item cat-item-44 current-cat"><a href="machine-learning.html" title="View all posts filed under Machine Learning">Machine Learning</a> (6)
+</li>
+	<li class="cat-item cat-item-23"><a href="medical-devices.html" title="View all posts filed under Medical Devices">Medical Devices</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="movies.html" title="View all posts filed under Movies">Movies</a> (2)
+</li>
+	<li class="cat-item cat-item-28"><a href="news.html" title="View all posts filed under News">News</a> (19)
+</li>
+	<li class="cat-item cat-item-13"><a href="papers.html" title="View all posts filed under Papers">Papers</a> (34)
+</li>
+	<li class="cat-item cat-item-42"><a href="passwords.html" title="View all posts filed under Passwords">Passwords</a> (2)
+</li>
+	<li class="cat-item cat-item-43"><a href="personal-assistant.html" title="View all posts filed under Personal Assistant">Personal Assistant</a> (1)
+</li>
+	<li class="cat-item cat-item-35"><a href="pictures.html" title="View all posts filed under Pictures">Pictures</a> (7)
+</li>
+	<li class="cat-item cat-item-20"><a href="politics.html" title="View all posts filed under Politics">Politics</a> (8)
+</li>
+	<li class="cat-item cat-item-4"><a href="privacy.html" title="View all posts filed under Privacy">Privacy</a> (82)
+</li>
+	<li class="cat-item cat-item-16"><a href="program-analysis.html" title="View all posts filed under Program Analysis">Program Analysis</a> (10)
+</li>
+	<li class="cat-item cat-item-3"><a href="research.html" title="View all posts filed under Research">Research</a> (144)
+</li>
+	<li class="cat-item cat-item-5"><a href="rfid.html" title="View all posts filed under RFID">RFID</a> (40)
+</li>
+	<li class="cat-item cat-item-27"><a href="secure-computation.html" title="View all posts filed under Secure Computation">Secure Computation</a> (38)
+</li>
+	<li class="cat-item cat-item-8"><a href="security.html" title="View all posts filed under Security">Security</a> (116)
+</li>
+	<li class="cat-item cat-item-32"><a href="side-channel-analysis.html" title="View all posts filed under Side-Channel Analysis">Side-Channel Analysis</a> (2)
+</li>
+	<li class="cat-item cat-item-30"><a href="smartphones.html" title="View all posts filed under Smartphones">Smartphones</a> (8)
+</li>
+	<li class="cat-item cat-item-7"><a href="social-networks.html" title="View all posts filed under Social Networks">Social Networks</a> (28)
+</li>
+	<li class="cat-item cat-item-15"><a href="software-engineering.html" title="View all posts filed under Software Engineering">Software Engineering</a> (3)
+</li>
+	<li class="cat-item cat-item-45"><a href="startups.html" title="View all posts filed under Startups">Startups</a> (1)
+</li>
+	<li class="cat-item cat-item-26"><a href="talks.html" title="View all posts filed under Talks">Talks</a> (41)
+</li>
+	<li class="cat-item cat-item-17"><a href="teaching.html" title="View all posts filed under Teaching">Teaching</a> (19)
+</li>
+	<li class="cat-item cat-item-1"><a href="uncategorized.html" title="View all posts filed under Uncategorized">Uncategorized</a> (1)
+</li>
+	<li class="cat-item cat-item-39"><a href="usb.html" title="View all posts filed under USB">USB</a> (2)
+</li>
+	<li class="cat-item cat-item-10"><a href="voting.html" title="View all posts filed under Voting">Voting</a> (2)
+</li>
+	<li class="cat-item cat-item-29"><a href="web-security.html" title="View all posts filed under Web Security">Web Security</a> (21)
+</li>
+				</ul>
+
+
+			</li>
+
+<!--				  <li id="linkcat-2" class="linkcat"><h2>Blogroll</h2>
+	<ul>
+
+	</ul>
+</li>
+ -->
+
+
+					
+			
+
+
+		</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+
+<!-- 19 queries. 0.169 seconds. -->
+</div>
+</div>
+
+<!--		 -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+  Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-3775212-2', 'auto');
+	  ga('send', 'pageview');
+
+	  </script>
+
+</body>
+
+<!-- Mirrored from www.jeffersonswheel.org/category/machine-learning by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Dec 2018 00:44:24 GMT -->
+</html>

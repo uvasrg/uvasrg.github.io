@@ -1,0 +1,598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Mirrored from www.jeffersonswheel.org/category/security/page/8 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Dec 2018 01:29:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Jefferson&#039;s Wheel   &raquo; Security</title>
+
+	<link rel="stylesheet" href="../../../wp-content/themes/whiteasmilk/style1.css" type="text/css" media="screen" />
+<link rel="icon" type="image/ico" href="http://www.cs.virginia.edu/evans/blog/favicon.ico"/>	
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="../../../feed" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="../../../feed" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="../../../feed/atom" />
+	<link rel="pingback" href="../../../xmlrpc.php" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600' rel='stylesheet' type='text/css'>
+		<link rel='archives' title='October 2018' href='../../../2018/10.html' />
+	<link rel='archives' title='September 2018' href='../../../2018/09.html' />
+	<link rel='archives' title='August 2018' href='../../../2018/08.html' />
+	<link rel='archives' title='July 2018' href='../../../2018/07.html' />
+	<link rel='archives' title='May 2018' href='../../../2018/05.html' />
+	<link rel='archives' title='February 2018' href='../../../2018/02.html' />
+	<link rel='archives' title='December 2017' href='../../../2017/12.html' />
+	<link rel='archives' title='November 2017' href='../../../2017/11.html' />
+	<link rel='archives' title='September 2017' href='../../../2017/09.html' />
+	<link rel='archives' title='August 2017' href='../../../2017/08.html' />
+	<link rel='archives' title='July 2017' href='../../../2017/07.html' />
+	<link rel='archives' title='June 2017' href='../../../2017/06.html' />
+	<link rel='archives' title='April 2017' href='../../../2017/04.html' />
+	<link rel='archives' title='March 2017' href='../../../2017/03.html' />
+	<link rel='archives' title='January 2017' href='../../../2017/01.html' />
+	<link rel='archives' title='December 2016' href='../../../2016/12.html' />
+	<link rel='archives' title='November 2016' href='../../../2016/11.html' />
+	<link rel='archives' title='October 2016' href='../../../2016/10.html' />
+	<link rel='archives' title='August 2016' href='../../../2016/08.html' />
+	<link rel='archives' title='July 2016' href='../../../2016/07.html' />
+	<link rel='archives' title='June 2016' href='../../../2016/06.html' />
+	<link rel='archives' title='May 2016' href='../../../2016/05.html' />
+	<link rel='archives' title='April 2016' href='../../../2016/04.html' />
+	<link rel='archives' title='March 2016' href='../../../2016/03.html' />
+	<link rel='archives' title='February 2016' href='../../../2016/02.html' />
+	<link rel='archives' title='December 2015' href='../../../2015/12.html' />
+	<link rel='archives' title='November 2015' href='../../../2015/11.html' />
+	<link rel='archives' title='August 2015' href='../../../2015/08.html' />
+	<link rel='archives' title='June 2015' href='../../../2015/06.html' />
+	<link rel='archives' title='May 2015' href='../../../2015/05.html' />
+	<link rel='archives' title='April 2015' href='../../../2015/04.html' />
+	<link rel='archives' title='March 2015' href='../../../2015/03.html' />
+	<link rel='archives' title='February 2015' href='../../../2015/02.html' />
+	<link rel='archives' title='January 2015' href='../../../2015/01.html' />
+	<link rel='archives' title='November 2014' href='../../../2014/11.html' />
+	<link rel='archives' title='October 2014' href='../../../2014/10.html' />
+	<link rel='archives' title='September 2014' href='../../../2014/09.html' />
+	<link rel='archives' title='May 2014' href='../../../2014/05.html' />
+	<link rel='archives' title='April 2014' href='../../../2014/04.html' />
+	<link rel='archives' title='February 2014' href='../../../2014/02.html' />
+	<link rel='archives' title='January 2014' href='../../../2014/01.html' />
+	<link rel='archives' title='November 2013' href='../../../2013/11.html' />
+	<link rel='archives' title='October 2013' href='../../../2013/10.html' />
+	<link rel='archives' title='June 2013' href='../../../2013/06.html' />
+	<link rel='archives' title='May 2013' href='../../../2013/05.html' />
+	<link rel='archives' title='April 2013' href='../../../2013/04.html' />
+	<link rel='archives' title='March 2013' href='../../../2013/03.html' />
+	<link rel='archives' title='February 2013' href='../../../2013/02.html' />
+	<link rel='archives' title='August 2012' href='../../../2012/08.html' />
+	<link rel='archives' title='July 2012' href='../../../2012/07.html' />
+	<link rel='archives' title='March 2012' href='../../../2012/03.html' />
+	<link rel='archives' title='February 2012' href='../../../2012/02.html' />
+	<link rel='archives' title='January 2012' href='../../../2012/01.html' />
+	<link rel='archives' title='December 2011' href='../../../2011/12.html' />
+	<link rel='archives' title='November 2011' href='../../../2011/11.html' />
+	<link rel='archives' title='October 2011' href='../../../2011/10.html' />
+	<link rel='archives' title='September 2011' href='../../../2011/09.html' />
+	<link rel='archives' title='August 2011' href='../../../2011/08.html' />
+	<link rel='archives' title='July 2011' href='../../../2011/07.html' />
+	<link rel='archives' title='June 2011' href='../../../2011/06.html' />
+	<link rel='archives' title='May 2011' href='../../../2011/05.html' />
+	<link rel='archives' title='April 2011' href='../../../2011/04.html' />
+	<link rel='archives' title='March 2011' href='../../../2011/03.html' />
+	<link rel='archives' title='February 2011' href='../../../2011/02.html' />
+	<link rel='archives' title='December 2010' href='../../../2010/12.html' />
+	<link rel='archives' title='November 2010' href='../../../2010/11.html' />
+	<link rel='archives' title='September 2010' href='../../../2010/09.html' />
+	<link rel='archives' title='May 2010' href='../../../2010/05.html' />
+	<link rel='archives' title='April 2010' href='../../../2010/04.html' />
+	<link rel='archives' title='February 2010' href='../../../2010/02.html' />
+	<link rel='archives' title='December 2009' href='../../../2009/12.html' />
+	<link rel='archives' title='September 2009' href='../../../2009/09.html' />
+	<link rel='archives' title='July 2009' href='../../../2009/07.html' />
+	<link rel='archives' title='May 2009' href='../../../2009/05.html' />
+	<link rel='archives' title='April 2009' href='../../../2009/04.html' />
+	<link rel='archives' title='March 2009' href='../../../2009/03.html' />
+	<link rel='archives' title='February 2009' href='../../../2009/02.html' />
+	<link rel='archives' title='January 2009' href='../../../2009/01.html' />
+	<link rel='archives' title='December 2008' href='../../../2008/12.html' />
+	<link rel='archives' title='November 2008' href='../../../2008/11.html' />
+	<link rel='archives' title='October 2008' href='../../../2008/10.html' />
+	<link rel='archives' title='September 2008' href='../../../2008/09.html' />
+	<link rel='archives' title='July 2008' href='../../../2008/07.html' />
+	<link rel='archives' title='June 2008' href='../../../2008/06.html' />
+	<link rel='archives' title='May 2008' href='../../../2008/05.html' />
+	<link rel='archives' title='April 2008' href='../../../2008/04.html' />
+	<link rel='archives' title='March 2008' href='../../../2008/03.html' />
+	<link rel='archives' title='February 2008' href='../../../2008/02.html' />
+	<link rel='archives' title='January 2008' href='../../../2008/01.html' />
+	<link rel="alternate" type="application/rss+xml" title="Jefferson&#039;s Wheel &raquo; Security Category Feed" href="../feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+</head>
+<body>
+
+<div id="page">
+<div id="header">
+<table>
+<tr>
+<td valign="middle">
+<a href="../../../images/jwlogo.jpg"><img align="left" width="320" height="193"
+     src="../../../images/jwlogo-small.jpg" alt="SRG Logo"></a>
+</td>
+<td valign="middle">
+	<h1><a href="../../../index.html">Jefferson&#039;s Wheel</a></h1>
+	<p id="blog_description">Security Research at the University of Virginia</p>
+</td>
+</tr>
+</table>
+	
+</div>
+<hr class="hrhide" />
+
+	<div id="content" class="narrowcolumn">
+
+		
+		 				
+		<h2 class="pagetitle">Archive for the 'Security' Category</h2>
+		
+ 	  
+
+		<div class="navigation">
+			<div class="alignleft"><a href="7.html" >&laquo; Previous Page</a> &#8212; <a href="9.html" >&laquo; Previous Entries</a></div>
+			<div class="alignright"><a href="7.html" >Next Entries &raquo;</a> &#8212; <a href="9.html" >Next Page &raquo;</a></div>
+		</div>
+
+				<div class="post">
+				<h3 id="post-69"><a href="../../../2008/bold-security-claims-about-pufs-on-rfid.html" rel="bookmark" title="Permanent Link to Bold Security Claims about PUFs on RFID">Bold Security Claims about PUFs on RFID</a></h3>
+				<small>Tuesday, September 9th, 2008</small>
+				
+				<div class="entry">
+					<p>Verayo is the second company to announce the <a href="http://www.net-security.org/secworld.php?id=6480">&quot;World’s first unclonable RFID tag&quot;</a> based on a <i>physically unclonable function</i> (PUF), after Veratag announced a similar product based on PUF technology. The security claims of these and other PUF-based products seem dubious since the current realization of PUFs defies basic principles of cryptography. The announcement states:</p>
+<blockquote><p>
+This new RFID chip is based on recently announced breakthrough technology called Physical Unclonable Functions (PUF). PUF technology is a type of electronic DNA or fingerprinting technology for silicon chips that makes each chip unclonable.
+</p></blockquote>
+<p>It might be besides the point that neither DNA, nor <a href="http://www.theregister.co.uk/2008/03/30/german_interior_minister_fingerprint_appropriated/">fingerprints</a> are unclonable. The failure of proprietary security, which has been a constant theme on this blog, has led many to conclude that only well-reviewed security primitives can be strong. PUF technology tries to achieve security in exactly the opposite way: the PUF circuit is designed in a way so that not even the designer understands how outputs are derived from inputs. Security-by-obscurity par excellence.</p>
+<p>Every circuit, including PUFs, is a deterministic function; the only difference in PUF circuits is that some inputs to the function vary across different tags. For a PUF to be cryptographically strong, one would hence need to show that</p>
+<ol>
+<li>the fixed part of the circuit (the cipher) is strong by cryptographic metrics,</li>
+<li>the number of device-dependent inputs (the secret key) is large and</li>
+<li>the entropy of these inputs is high.</li>
+</ol>
+<p>PUFs are a wonderful idea for using manufacturing variance constructively, but in their current realization, PUFs fail to convince that they are strong building blocks for security systems.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="../../rfid.html" title="View all posts in RFID" rel="category tag">RFID</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2008/bold-security-claims-about-pufs-on-rfid"
+    dc:identifier="https://www.jeffersonswheel.org/2008/bold-security-claims-about-pufs-on-rfid"
+    dc:title="Bold Security Claims about PUFs on RFID"
+    trackback:ping="https://www.jeffersonswheel.org/2008/bold-security-claims-about-pufs-on-rfid/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-68"><a href="../../../2008/oakland-cfp-now-available.html" rel="bookmark" title="Permanent Link to Oakland CFP Now Available">Oakland CFP Now Available</a></h3>
+				<small>Wednesday, July 30th, 2008</small>
+				
+				<div class="entry">
+					<p>The Call for Papers for the 30<sup>th</sup> IEEE Symposium on Security and Privacy, May 17-20 2009 is now available: <a href="http://oakland09.cs.virginia.edu/cfp.html"><em>http://oakland09.cs.virginia.edu/cfp.html</em></a> (PDF for printing: <a href="http://oakland09.cs.virginia.edu/cfp.pdf"><em>http://oakland09.cs.virginia.edu/cfp.pdf</em></a>.</p>
+<p>
+Submissions of research papers, workshop proposals, and tutorial proposals are due Monday, 10 November 2008.  Please consider submitting a paper and attending the conference!</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="../../privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2008/oakland-cfp-now-available"
+    dc:identifier="https://www.jeffersonswheel.org/2008/oakland-cfp-now-available"
+    dc:title="Oakland CFP Now Available"
+    trackback:ping="https://www.jeffersonswheel.org/2008/oakland-cfp-now-available/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-65"><a href="../../../2008/nxp-lawsuit.html" rel="bookmark" title="Permanent Link to NXP Lawsuit">NXP Lawsuit</a></h3>
+				<small>Thursday, July 10th, 2008</small>
+				
+				<div class="entry">
+					<p>NXP is suing Radboud University in the Netherlands to prevent them publishing a paper (in <a href="http://www.isac.uma.es/esorics08/">ESORICS 2008</a> in October) containing details on the Mifare classic encryption algorithm (and various flaws they have found in the algorithm).  Perhaps the title of the paper, &#8220;Dismantling MIFARE Classic&#8221;, got NXP&#8217;s attention.  A hearing is scheduled for July 10.</p>
+<p>Articles:</p>
+<ul>
+<li> <a href="http://news.cnet.com/8301-10784_3-9985886-7.html?hhTest=1"><em>Dutch chipmaker sues to silence security researchers</em></a>, c|new News, 9 July 2008.</li>
+<li> <a href="http://www.thetechherald.com/article.php/200828/1463/NXP-sues-academic-research-team-what-are-they-afraid-of"><em>NXP sues academic research team &#8211; what are they afraid of?</em></a>, The Tech Herald, 10 July 2008.</li>
+<li> <a href="http://www.secureidnews.com/news/2008/07/10/nxp-sues-to-prevent-hackers-from-releasing-mifare-flaws/"><em>NXP sues to prevent hackers from releasing MIFARE flaws</em></a>, Secure ID News, 10 July 2008.</li>
+<li><a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9109139&amp;pageNumber=1"><em>Chipmaker sues to quash research on RFID smart card security flaws</em></a>, Computer World, 10 July 2008.</li>
+</ul>
+<p><b>[Update 18 July]</b> The judge has denied NXP&#8217;s request for an injunction, ruling that &#8220;limitations to the freedom of speech are allowed only if there is urgent and obvious threat to society&#8221;: <a href="http://www.thestandard.com/news/2008/07/18/judge-denies-nxps-injunction-against-security-researchers"><em>Judge denies NXP&#8217;s injunction against security researchers</em></a>, Industry Standard, 18 July 2008.</p>
+<p>
+<b>[Update 21 July]</b> Another article: <a href="http://news.cnet.com/8301-1009_3-9994120-83.html"><em>Dutch court allows publication of Mifare security hole research</em></a>, CNet News, 18 July 2008.  This one includes a picture of Karsten Nohl&#8217;s presentation at the Last HOPE Conference.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="../../rfid.html" title="View all posts in RFID" rel="category tag">RFID</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2008/nxp-lawsuit"
+    dc:identifier="https://www.jeffersonswheel.org/2008/nxp-lawsuit"
+    dc:title="NXP Lawsuit"
+    trackback:ping="https://www.jeffersonswheel.org/2008/nxp-lawsuit/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-64"><a href="../../../2008/credit-cards-stolen-without-leaving-wallet.html" rel="bookmark" title="Permanent Link to Credit Cards Stolen Without Leaving Wallet">Credit Cards Stolen Without Leaving Wallet</a></h3>
+				<small>Friday, June 20th, 2008</small>
+				
+				<div class="entry">
+					<p>KIRO TV (Seattle) has a story on RFID privacy issues: <a href="http://www.kirotv.com/news/16644505/detail.html"><em>Credit Cards Stolen Without Leaving Wallet</em></a> (it includes a video demonstration).</p>
+<blockquote><p>
+German-born Karsten Nohl is a security consultant and PhD student at the University of Virginia. He was in Seattle recently to speak at a technology conference and is known worldwide for hacking into transit systems.</p>
+<p>
+He&#8217;s exposed significant security problems with transit cards commuters were told held their personal information secure, but Nohl showed, did not</p>
+<p>
+&#8220;Is it all that inconvenient to swipe a card? Does it really have to be tapping? Would, for that perhaps tiny added benefit, now expose your data to everybody in your vicinity? Perhaps not. So, that is a discussion that has to be had. And not just by the companies introducing something new and fancy and forcing everybody to use it, but rather by the consumers, too,&#8221; said Nohl.
+</p></blockquote>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="../../privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="../../rfid.html" title="View all posts in RFID" rel="category tag">RFID</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2008/credit-cards-stolen-without-leaving-wallet"
+    dc:identifier="https://www.jeffersonswheel.org/2008/credit-cards-stolen-without-leaving-wallet"
+    dc:title="Credit Cards Stolen Without Leaving Wallet"
+    trackback:ping="https://www.jeffersonswheel.org/2008/credit-cards-stolen-without-leaving-wallet/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-62"><a href="../../../2008/interview-on-program-analysis-tools.html" rel="bookmark" title="Permanent Link to Interview on Program Analysis Tools">Interview on Program Analysis Tools</a></h3>
+				<small>Monday, June 2nd, 2008</small>
+				
+				<div class="entry">
+					<p>Electronic Design has an interview with me: <a href="http://electronicdesign.com/Articles/Print.cfm?ArticleID=19027"><em>Electronic Design Interviews U. of Virginia Computer Prof</em></a>, Electronic Design, 21 May 2008.  The interview focuses on the history of Splint, and the current state and future of program analysis tools.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../program-analysis.html" title="View all posts in Program Analysis" rel="category tag">Program Analysis</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a>, <a href="../../software-engineering.html" title="View all posts in Software Engineering" rel="category tag">Software Engineering</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2008/interview-on-program-analysis-tools"
+    dc:identifier="https://www.jeffersonswheel.org/2008/interview-on-program-analysis-tools"
+    dc:title="Interview on Program Analysis Tools"
+    trackback:ping="https://www.jeffersonswheel.org/2008/interview-on-program-analysis-tools/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-60"><a href="../../../2008/facebook-vulnerable-to-serious-xss-attack.html" rel="bookmark" title="Permanent Link to Facebook Vulnerable To Serious XSS Attack">Facebook Vulnerable To Serious XSS Attack</a></h3>
+				<small>Saturday, May 31st, 2008</small>
+				
+				<div class="entry">
+					<p>Another XSS vulnerability has been discovered in Facebook, as reported by <a href="http://www.informationweek.com/blog/main/archives/2008/05/facebook_vulner.html">InformationWeek</a> (George Hulme).  The posting also links to Adrienne Felt&#8217;s <a href="http://www.cs.virginia.edu/felt/fbook/">Facebook security work</a>.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a>, <a href="../../social-networks.html" title="View all posts in Social Networks" rel="category tag">Social Networks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2008/facebook-vulnerable-to-serious-xss-attack"
+    dc:identifier="https://www.jeffersonswheel.org/2008/facebook-vulnerable-to-serious-xss-attack"
+    dc:title="Facebook Vulnerable To Serious XSS Attack"
+    trackback:ping="https://www.jeffersonswheel.org/2008/facebook-vulnerable-to-serious-xss-attack/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-59"><a href="../../../2008/reverse-engineering-a-cryptographic-rfid-tag.html" rel="bookmark" title="Permanent Link to Reverse-Engineering a Cryptographic RFID Tag">Reverse-Engineering a Cryptographic RFID Tag</a></h3>
+				<small>Wednesday, May 14th, 2008</small>
+				
+				<div class="entry">
+					<p>Our upcoming USENIX Security Symposium paper is now available: <a href="http://www.cs.virginia.edu/evans/pubs/usenix08/"><em>Reverse-Engineering a Cryptographic RFID Tag</em></a> by Karsten Nohl, David Evans, Starbug, and Henryk Plötz.</p>
+<p>The paper describes the methods used to reverse engineering the encryption on the Mifare Classic RFID tag and some of the things we learned by doing it. Karsten Nohl will present the paper at the USENIX Security Symposium in San Jose on July 31.</p>
+<p><strong>Abstract</strong></p>
+<p>The security of embedded devices often relies on the secrecy of proprietary cryptographic algorithms. These algorithms and their weaknesses are frequently disclosed through reverse-engineering software, but it is commonly thought to be too expensive to reconstruct designs from a hardware implementation alone. This paper challenges that belief by presenting an approach to reverse-engineering a cipher from a silicon implementation. Using this mostly automated approach, we reveal a cipher from an RFID tag that is not known to have a software or micro-code implementation. We reconstruct the cipher from the widely used Mifare Classic RFID tag by using a combination of image analysis of circuits and protocol analysis. Our analysis reveals that the security of the tag is even below the level that its 48-bit key length suggests due to a number of design flaws. Weak random numbers and a weakness in the authentication protocol allow for pre-computed rainbow tables to be used to find any key in a matter of seconds. Our approach of deducing functionality from circuit images is mostly automated, hence it is also feasible for large chips. The assumption that algorithms can be kept secret should therefore to be avoided for any type of silicon chip.</p>
+<p>Full paper (9 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/usenix08/usenix08.pdf">PDF</a>] [<a href="http://www.cs.virginia.edu/evans/pubs/usenix08/mifare.html">HTML</a>]</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="../../papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="../../privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../rfid.html" title="View all posts in RFID" rel="category tag">RFID</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2008/reverse-engineering-a-cryptographic-rfid-tag"
+    dc:identifier="https://www.jeffersonswheel.org/2008/reverse-engineering-a-cryptographic-rfid-tag"
+    dc:title="Reverse-Engineering a Cryptographic RFID Tag"
+    trackback:ping="https://www.jeffersonswheel.org/2008/reverse-engineering-a-cryptographic-rfid-tag/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-58"><a href="../../../2008/congratulations-dr-paul.html" rel="bookmark" title="Permanent Link to Congratulations Dr. Paul!">Congratulations Dr. Paul!</a></h3>
+				<small>Tuesday, May 13th, 2008</small>
+				
+				<div class="entry">
+					<p>Nathanael Paul&#8217;s PhD dissertation has been approved!  He will graduate this Sunday.</p>
+<p>
+The dissertation is available here: <a href="http://www.cs.virginia.edu/~evans/pubs/theses/paul-abstract.html"><em>Disk-Level Malware Detection</em></a> [<a href="http://www.cs.virginia.edu/~evans/pubs/theses/paul-abstract.html">Abstract</a>] [Full text: <a href="http://www.cs.virginia.edu/evans/theses/paul.pdf">PDF</a>, 155 pages].</p>
+<p>
+Congratulations, Nate!  (That is, &#8220;Dr. Paul&#8221;.)  Nate is currently a post-doctoral fellow at <a href="http://www.vu.nl/home/index.cfm">Vrije Universiteit, Amsterdam</a> working with <a href="http://www.cs.vu.nl/~ast/">Andrew Tanenbaum</a>.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../disk-processing.html" title="View all posts in Disk Processing" rel="category tag">Disk Processing</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2008/congratulations-dr-paul"
+    dc:identifier="https://www.jeffersonswheel.org/2008/congratulations-dr-paul"
+    dc:title="Congratulations Dr. Paul!"
+    trackback:ping="https://www.jeffersonswheel.org/2008/congratulations-dr-paul/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-57"><a href="../../../2008/w2sp-paper-privacy-protection-for-social-networking-platforms.html" rel="bookmark" title="Permanent Link to Privacy Protection for Social Networking Platforms">Privacy Protection for Social Networking Platforms</a></h3>
+				<small>Monday, May 5th, 2008</small>
+				
+				<div class="entry">
+					<p>Our paper, <a href="http://www.cs.virginia.edu/~evans/pubs/proxy/"><em>Privacy Protection for Social Networking Platforms</em> by </a><a href="http://www.cs.virginia.edu/felt/">Adrienne Felt</a> and <a href="http://www.cs.virginia.edu/evans/">David Evans</a> is now available [<a href="http://www.cs.virginia.edu/evans/pubs/proxy/privacybyproxy.pdf">PDF</a>]. Adrienne Felt will present the paper at the <a href="http://seclab.cs.rice.edu/w2sp/2008/">Web 2.0 Security and Privacy 2008</a> (in conjunction with 2008 IEEE Symposium on Security and Privacy) in Oakland, CA on May 22, 2008.</p>
+<p><strong>Abstract</strong></p>
+<p>Social networking platforms integrate third-party content into social networking sites and give third-party developers access to user data. These open interfaces enable popular site enhancements but pose serious privacy risks by exposing user data to third-party developers. We address the privacy risks associated with social networking APIs by presenting a <em>privacy-by-proxy</em> design for a privacy-preserving API. Our design is motivated by an analysis of the data needs and uses of Facebook applications. We studied 150 popular Facebook applications and found that nearly all applications could maintain their functionality using a limited interface that only provides access to an anonymized social graph and placeholders for user data. Since the platform host can control the third party applications&#8217; output, privacy-by-proxy can be accomplished by using new tags and data transformations without major changes to either the platform architecture or applications.</p>
+<p>Full paper (8 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/proxy/privacybyproxy.pdf">PDF</a>]<br />
+<a href="http://www.cs.virginia.edu/felt/privacy/">Project Website</a></p>
+<p>
+[Added 25 May]: Talk slides (by Adrienne Felt): [<a href="http://www.cs.virginia.edu/evans/talks/felt_w2sp.pdf">PDF</a>]</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="../../privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a>, <a href="../../social-networks.html" title="View all posts in Social Networks" rel="category tag">Social Networks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2008/w2sp-paper-privacy-protection-for-social-networking-platforms"
+    dc:identifier="https://www.jeffersonswheel.org/2008/w2sp-paper-privacy-protection-for-social-networking-platforms"
+    dc:title="Privacy Protection for Social Networking Platforms"
+    trackback:ping="https://www.jeffersonswheel.org/2008/w2sp-paper-privacy-protection-for-social-networking-platforms/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-55"><a href="../../../2008/social-networking-applications-can-pose-security-risks.html" rel="bookmark" title="Permanent Link to Social networking applications can pose security risks">Social networking applications can pose security risks</a></h3>
+				<small>Sunday, April 27th, 2008</small>
+				
+				<div class="entry">
+					<p>The Associated Press has an article by Martha Irvine, <a href="http://ap.google.com/article/ALeqM5jAuyKv_MsvuPxywZozMzFJtLvF1wD90ACS600"><em>Social networking applications can pose security risks</em></a>, that is based on Adrienne Felt&#8217;s <a href="http://www.cs.virginia.edu/felt/privacy">analysis of Facebook platform privacy</a>.</p>
+<blockquote><p>Still, it&#8217;s an honor system, says Adrienne Felt, a computer science major at the University of Virginia. A Facebook user herself, she decided to research the site&#8217;s applications and even created her own so she could see how it worked.</p>
+<p>Most of the developers Felt polled said they either didn&#8217;t need or use the information available to them and, if they did, accessed it only for advertising purposes.</p>
+<p>But, in the end, Felt says there&#8217;s really nothing stopping them from matching profile information with public records. It also could be sold or stolen. And all of that could lead to serious matters such as identity theft.</p>
+<p>&#8220;People seem to have this idea that, when you put something on the Internet, there should be some privacy model out there — that there&#8217;s somebody out there that&#8217;s enforcing good manners. But that&#8217;s not true,&#8221; Felt says.</p></blockquote>
+<p>(Note: there wasn&#8217;t actually any &#8220;polling&#8221; of developers, just examining what applications do to determine how they appeared to use information.)</p>
+<p>The story has been picked up by some other places including <a href="http://www.businessweek.com/ap/financialnews/D90ACTEG0.htm">BusinessWeek</a>, <a href="http://money.cnn.com/news/newsfeeds/articles/apwire/70e9a5473ef5a2bd317f47647a4671a7.htm">CNNMoney</a> (<em>From games to virtual gifts, social networking applications popular — but at what risk?</em>), <a href="http://www.forbes.com/feeds/ap/2008/04/27/ap4938194.html">Forbes</a>, <a href="http://www.iht.com/articles/ap/2008/04/27/america/Not-So-Private.php">International Herald Tribune</a>, <a href="http://www.npr.org/templates/story/story.php?storyId=89983267">National Public Radio</a>, <a href="http://www.mercurynews.com/business/ci_9081115">San Jose Mercury News</a>, <a href="http://www.philly.com/philly/wires/ap/features/high_tech/20080427_ap_socialnetworkingapplicationscanposesecurityrisks.html">Philadelphia Inquirer</a>, <a href="http://www.lasvegassun.com/news/2008/apr/27/social-networking-applications-can-pose-security-r/">Las Vegas Sun</a>, <a href="http://www.star-telegram.com/465/story/607290.html">Fort Worth Star-Telegram</a>, <a href="http://www.chron.com/disp/story.mpl/ap/fn/5734058.html">Houston Chronicle</a>, <a href="http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2008/04/27/financial/f120050D94.DTL">San Francisco Chronicle</a>, <a href="http://seattlepi.nwsource.com/business/1700ap_not_so_private.html">Seattle Post-Intelligencer</a>, <a href="http://www.myfoxny.com/myfox/pages/News/Detail?contentId=6405243&amp;version=1&amp;locale=EN-US&amp;layoutCode=TSTY&amp;pageId=3.3.1">MyFOX</a>, and <a href="http://news.smh.com.au/social-networking-applications-can-pose-security-risks/20080428-28xa.html">The Sydney Morning Herald</a>.</p>
+<p>The Colorado Daily wins the best title award for <a href="http://www.coloradodaily.com/news/2008/apr/27/word-jump-line-here-myspace-is-your-space-and/"><em>MySpace is your space (and yours, and yours&#8230;)</em></a> (but its the same story).</p>
+<p><a href="http://www.pantagraph.com/articles/2008/04/27/news/doc48120a3d97c75432641888.txt">Pantagraph</a> (Central Illinois) has it currently as their top article and includes a picture their <a href="http://www.pantagraph.com/">front page</a>.</p>
+<p><center><a href="http://www.cs.virginia.edu/wheel/pantagraph.jpg"><img src="http://www.cs.virginia.edu/evans/blog/pantagraph-med.jpg" align="middle" border="0" height="274" width="480" /></a></center><br />
+[Added 2 May] Yahoo! News has this <a href="http://news.yahoo.com/nphotos/Facebook-Facebook-Charlottesville2C-VA-University-of-Virginia-computer-science/ss/events/tc/031708facebook">slide show</a>.</p>
+<p>
+[Added 13 May] Pew Internet and American Life Project has a post on this: <a href="http://www.pewinternet.org/PPF/p/1471/pipcomments.asp"><em>Securing Private Data from Network &#8216;Zombies&#8217;</em></a> by Mary Madden.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="../../privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="../../research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="../../security.html" title="View all posts in Security" rel="category tag">Security</a>, <a href="../../social-networks.html" title="View all posts in Social Networks" rel="category tag">Social Networks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2008/social-networking-applications-can-pose-security-risks"
+    dc:identifier="https://www.jeffersonswheel.org/2008/social-networking-applications-can-pose-security-risks"
+    dc:title="Social networking applications can pose security risks"
+    trackback:ping="https://www.jeffersonswheel.org/2008/social-networking-applications-can-pose-security-risks/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+		
+		<div class="navigation">
+			<div class="alignleft"><a href="7.html" >&laquo; Previous Page</a> &#8212; <a href="9.html" >&laquo; Previous Entries</a></div>
+			<div class="alignright"><a href="7.html" >Next Entries &raquo;</a> &#8212; <a href="9.html" >Next Page &raquo;</a></div>
+		</div>
+	
+			
+	</div>
+
+	<div id="sidebar">
+
+<p></p>
+		<ul>
+
+<li><h2>
+<a href="http://www.cs.virginia.edu/evans/pubs/">Publications</a><br>
+<a href="https://uvasrg.slack.com/signup">Join Slack
+Group</a></h2>
+
+<li><h2>
+<a href="http://www.cs.virginia.edu/evans/students.html">Team</a></h2>
+<a href="http://www.cs.virginia.edu/evans/">David Evans</a><br>
+</li>
+<li><h2>
+<a href="../../../awards.html">Awards</a></h2>
+</li>
+
+<li><h2>
+<a href="https://uvasrg.slack.com/">Slack Group</a></h2>
+</li>
+
+			
+			<!--
+			<li class="pagenav"><h2>Pages</h2><ul><li class="page_item page-item-2"><a href="https://www.jeffersonswheel.org/about">About</a></li>
+<li class="page_item page-item-394"><a href="https://www.jeffersonswheel.org/awards">Awards</a></li>
+</ul></li>			-->
+
+			<li><h2>Archives</h2>
+				<ul>
+					<li><a href='../../../2018.html' title='2018'>2018</a></li>
+	<li><a href='../../../2017.html' title='2017'>2017</a></li>
+	<li><a href='../../../2016.html' title='2016'>2016</a></li>
+	<li><a href='../../../2015.html' title='2015'>2015</a></li>
+	<li><a href='../../../2014.html' title='2014'>2014</a></li>
+	<li><a href='../../../2013.html' title='2013'>2013</a></li>
+	<li><a href='../../../2012.html' title='2012'>2012</a></li>
+	<li><a href='../../../2011.html' title='2011'>2011</a></li>
+	<li><a href='../../../2010.html' title='2010'>2010</a></li>
+	<li><a href='../../../2009.html' title='2009'>2009</a></li>
+	<li><a href='../../../2008.html' title='2008'>2008</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Categories</h2>
+				<ul>
+					<li class="cat-item cat-item-41"><a href="../../adversarial-machine-learning.html" title="View all posts filed under Adversarial Machine Learning">Adversarial Machine Learning</a> (16)
+</li>
+	<li class="cat-item cat-item-38"><a href="../../alumni.html" title="View all posts filed under Alumni">Alumni</a> (19)
+</li>
+	<li class="cat-item cat-item-12"><a href="../../awards.html" title="View all posts filed under Awards">Awards</a> (13)
+</li>
+	<li class="cat-item cat-item-37"><a href="../../childrens-books.html" title="View all posts filed under Children&#039;s Books">Children&#039;s Books</a> (2)
+</li>
+	<li class="cat-item cat-item-18"><a href="../../conferences.html" title="View all posts filed under Conferences">Conferences</a> (56)
+</li>
+	<li class="cat-item cat-item-24"><a href="../../contests.html" title="View all posts filed under Contests">Contests</a> (2)
+</li>
+	<li class="cat-item cat-item-40"><a href="../../cryptocurrency.html" title="View all posts filed under Cryptocurrency">Cryptocurrency</a> (4)
+</li>
+	<li class="cat-item cat-item-6"><a href="../../cryptography.html" title="View all posts filed under Cryptography">Cryptography</a> (52)
+</li>
+	<li class="cat-item cat-item-11"><a href="../../disk-processing.html" title="View all posts filed under Disk Processing">Disk Processing</a> (3)
+</li>
+	<li class="cat-item cat-item-25"><a href="../../guardrails.html" title="View all posts filed under GuardRails">GuardRails</a> (4)
+</li>
+	<li class="cat-item cat-item-21"><a href="../../history.html" title="View all posts filed under History">History</a> (7)
+</li>
+	<li class="cat-item cat-item-44"><a href="../../machine-learning.html" title="View all posts filed under Machine Learning">Machine Learning</a> (6)
+</li>
+	<li class="cat-item cat-item-23"><a href="../../medical-devices.html" title="View all posts filed under Medical Devices">Medical Devices</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="../../movies.html" title="View all posts filed under Movies">Movies</a> (2)
+</li>
+	<li class="cat-item cat-item-28"><a href="../../news.html" title="View all posts filed under News">News</a> (19)
+</li>
+	<li class="cat-item cat-item-13"><a href="../../papers.html" title="View all posts filed under Papers">Papers</a> (34)
+</li>
+	<li class="cat-item cat-item-42"><a href="../../passwords.html" title="View all posts filed under Passwords">Passwords</a> (2)
+</li>
+	<li class="cat-item cat-item-43"><a href="../../personal-assistant.html" title="View all posts filed under Personal Assistant">Personal Assistant</a> (1)
+</li>
+	<li class="cat-item cat-item-35"><a href="../../pictures.html" title="View all posts filed under Pictures">Pictures</a> (7)
+</li>
+	<li class="cat-item cat-item-20"><a href="../../politics.html" title="View all posts filed under Politics">Politics</a> (8)
+</li>
+	<li class="cat-item cat-item-4"><a href="../../privacy.html" title="View all posts filed under Privacy">Privacy</a> (82)
+</li>
+	<li class="cat-item cat-item-16"><a href="../../program-analysis.html" title="View all posts filed under Program Analysis">Program Analysis</a> (10)
+</li>
+	<li class="cat-item cat-item-3"><a href="../../research.html" title="View all posts filed under Research">Research</a> (144)
+</li>
+	<li class="cat-item cat-item-5"><a href="../../rfid.html" title="View all posts filed under RFID">RFID</a> (40)
+</li>
+	<li class="cat-item cat-item-27"><a href="../../secure-computation.html" title="View all posts filed under Secure Computation">Secure Computation</a> (38)
+</li>
+	<li class="cat-item cat-item-8 current-cat"><a href="../../security.html" title="View all posts filed under Security">Security</a> (116)
+</li>
+	<li class="cat-item cat-item-32"><a href="../../side-channel-analysis.html" title="View all posts filed under Side-Channel Analysis">Side-Channel Analysis</a> (2)
+</li>
+	<li class="cat-item cat-item-30"><a href="../../smartphones.html" title="View all posts filed under Smartphones">Smartphones</a> (8)
+</li>
+	<li class="cat-item cat-item-7"><a href="../../social-networks.html" title="View all posts filed under Social Networks">Social Networks</a> (28)
+</li>
+	<li class="cat-item cat-item-15"><a href="../../software-engineering.html" title="View all posts filed under Software Engineering">Software Engineering</a> (3)
+</li>
+	<li class="cat-item cat-item-45"><a href="../../startups.html" title="View all posts filed under Startups">Startups</a> (1)
+</li>
+	<li class="cat-item cat-item-26"><a href="../../talks.html" title="View all posts filed under Talks">Talks</a> (41)
+</li>
+	<li class="cat-item cat-item-17"><a href="../../teaching.html" title="View all posts filed under Teaching">Teaching</a> (19)
+</li>
+	<li class="cat-item cat-item-1"><a href="../../uncategorized.html" title="View all posts filed under Uncategorized">Uncategorized</a> (1)
+</li>
+	<li class="cat-item cat-item-39"><a href="../../usb.html" title="View all posts filed under USB">USB</a> (2)
+</li>
+	<li class="cat-item cat-item-10"><a href="../../voting.html" title="View all posts filed under Voting">Voting</a> (2)
+</li>
+	<li class="cat-item cat-item-29"><a href="../../web-security.html" title="View all posts filed under Web Security">Web Security</a> (21)
+</li>
+				</ul>
+
+
+			</li>
+
+<!--				  <li id="linkcat-2" class="linkcat"><h2>Blogroll</h2>
+	<ul>
+
+	</ul>
+</li>
+ -->
+
+
+					
+			
+
+
+		</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+
+<!-- 21 queries. 0.181 seconds. -->
+</div>
+</div>
+
+<!--		 -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+  Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-3775212-2', 'auto');
+	  ga('send', 'pageview');
+
+	  </script>
+
+</body>
+
+<!-- Mirrored from www.jeffersonswheel.org/category/security/page/8 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Dec 2018 01:29:40 GMT -->
+</html>

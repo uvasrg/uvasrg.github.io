@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; RFID</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/rfid/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Karsten Nohl visits UVa</title>
+		<link>https://www.jeffersonswheel.org/2013/karsten-nohl-visits-uva</link>
+		<comments>https://www.jeffersonswheel.org/2013/karsten-nohl-visits-uva#comments</comments>
+		<pubDate>Fri, 01 Nov 2013 10:23:25 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=487</guid>
+		<description><![CDATA[Karsten Nohl, who complete a PhD in our group in 2009, is visiting UVa this week. UVa Today has an article: Renowned ‘White Hat Hacker’ to Speak on Real-World Security Holes: University of Virginia graduate Karsten Nohl, one of the world’s most famous “white hat computer hackers,” will speak Friday at 3:30 p.m. in Rice [...]]]></description>
+				<content:encoded><![CDATA[<p>Karsten Nohl, who complete a PhD in our group in 2009, is visiting UVa this week.  UVa Today has an article: <a href="http://news.virginia.edu/content/renowned-white-hat-hacker-speak-real-world-security-holes"><em>Renowned ‘White Hat Hacker’ to Speak on Real-World Security Holes</em></a>:</p>
+<blockquote><p>
+University of Virginia graduate Karsten Nohl, one of the world’s most famous “white hat computer hackers,” will speak Friday at 3:30 p.m. in Rice Hall, room 130, about lessons learned from the security holes that he and fellow researchers have uncovered in mobile phones, wireless car keys and other technology used by billions of people everyday.
+</p>
+<p>
+Nohl first made international headlines in 2008, while still a computer engineering doctoral student at U.Va., for research that exposed vulnerabilities in the world’s most popular smartcard, used by millions of people to pay fares on several major mass-transit systems around the world, including the London Underground and the Boston subway.
+</p>
+<p>
+<img src="http://news.virginia.edu/sites/default/files/styles/380px_wide/public/Karsten_Nohl_02HR_DA.jpg?itok=EXdFgK5B" align="right"><br />
+Such cards utilize miniscule wireless computer chips, about the size of a grain of rice, called RFIDs, short for “radio-frequency identification.” They send and receive information over short distances (generally 10 feet or less) via very low-power radio waves.
+</p>
+<p>
+As an ethical security researcher, often called a “white hat hacker,” Nohl exposes vulnerabilities to spur improvements in the systems that he researches. He now does such work around the world as the founder and director of research at Security Research Labs in Berlin.
+</p>
+<p>
+To prevent those with nefarious purposes from exploiting security holes he uncovers, Nohl typically withholds key details of the exploit and discloses his findings only months after sharing his research with the relevant manufacturers or trade organizations to allow them to roll out upgrades or countermeasures to mitigate the security risk.
+</p>
+<p>
+Since graduating from U.Va. in August 2008, Nohl has gone on to discover and demonstrate two key security vulnerabilities in mobile phones – encryption flaws in both the GSM protocol that most cell phones use to communicate with cell towers, and in SIM cards, the tiny “subscriber identity module” chip in every phone that identifies and authenticates the phone.
+</p>
+<p>
+Both discoveries generated worldwide media coverage.
+</p>
+<p>
+As just one example of possible ramifications, the latter security hole could allow a malicious hacker to send a virus through a text message, which could then allow the hacker to eavesdrop on calls or make purchases through mobile payment systems.
+</p>
+<p>
+“Karsten has had an outstanding impact in analyzing how cryptography gets used in the real world and demonstrating what goes wrong when important engineering principles are not followed carefully,” said computer science professor David Evans, Nohl’s former doctoral adviser and a co-organizer of Friday’s talk. “The vulnerabilities he has identified in RFID algorithms, GSM encryption and SIM cards impact billions of devices most of us use every day, and it’s really important that people understand the security weaknesses in these systems and that vendors work to improve them. Karsten’s work is a fundamental step toward those goals.”
+</p>
+<p>
+Nohl’s talk will discuss how security exploits with real-world implications are usually enabled by not just one design flaw, but by deviations from best practices on multiple design layers. Protection designs that focus on a single security function and neglect complementary layers are more prone to compromise, Nohl will argue, with examples from his own research on three widely deployed technologies – cell phones, car keys and smartcards.
+</p>
+<p>
+“Real-world cryptographic systems rarely meet academic expectations, with most systems being shown ‘insecure’ at some point,” Nohl said in an email description of his talk. “At the same time, our IT-driven world has not yet fallen apart, suggesting that many protection mechanisms are ‘secure enough’ for how they are employed.”
+</p>
+<p>
+The talk will be followed by a reception in the fourth-floor atrium of Rice Hall.
+</p>
+<p>
+The event is co-sponsored by the departments of Computer Science and Electrical and Computer Engineering, which jointly administer U.Va.’s computer engineering Program in the School of Engineering and Applied Science.
+</p>
+</blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2013/karsten-nohl-visits-uva/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lattice Ciphers for RFID</title>
+		<link>https://www.jeffersonswheel.org/2011/lattice-ciphers-for-rfid</link>
+		<comments>https://www.jeffersonswheel.org/2011/lattice-ciphers-for-rfid#comments</comments>
+		<pubDate>Fri, 04 Feb 2011 16:53:38 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=171</guid>
+		<description><![CDATA[Our paper on using lattice ciphers for low-power public-key encryption targeted to RFID tags is now available. Yu Yao will present the paper in Wuxi, China in April. Yu Yao, Jiawei Huang, Sudhanshu Khanna, abhi shelat, Benton Highsmith Calhoun, John Lach, and David Evans. A Sub-0.5V Lattice-Based Public-Key Encryption Scheme for RFID Platforms in 130nm [...]]]></description>
+				<content:encoded><![CDATA[<p>Our paper on using lattice ciphers for low-power public-key encryption targeted to RFID tags is now available.  Yu Yao will present the paper in Wuxi, China in April.</p>
+<blockquote><p>
+Yu Yao, Jiawei Huang, Sudhanshu Khanna, abhi shelat, Benton Highsmith Calhoun, John Lach, and David Evans.  <em>A Sub-0.5V Lattice-Based Public-Key Encryption Scheme for RFID Platforms in 130nm CMOS</em>.  <a href="http://wuxi.ss.pku.edu.cn/~RFIDSec2011/rfidsec_asia_home.html"><em>2011 Workshop on RFID Security</em></a> (RFIDsec&#8217;11 Asia)<br /> Wuxi, China.  6-8 April 2011.
+</p></blockquote>
+<p><b>Abstract:</b> Implementing public-key cryptography on passive RFID tags is very challenging due to the limited die size and power available. Typical public-key algorithms require complex logical components such as modular exponentiation in RSA. We demonstrate the feasibility of implementing public-key encryption on low-power, low cost passive RFID tags to large-scale private identification. We use Oded Regev&#8217;s Learning-With-Error (LWE) cryptosystem, which is provably secure under the hardness assumption of classic lattice problems. The advantage of using the LWE cryptosystem is its intrinsic computational simplicity (the main operation is modular addition). We leverage the low speed of RFID application by using circuit design with supply voltage close to transistor threshold (<em>V<sub>t</sub></em>) to lower power. This paper presents protocols for using the LWE cipher to provide private identification, evaluates a design for implementing those protocols on passive RFID tags, and reports on simulation experiments that demonstrate the feasibility of this approach.
+</p>
+<p>
+Full paper (19 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/rfidsec11/rfidsec.pdf">PDF</a>]</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2011/lattice-ciphers-for-rfid/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Car Immobilizers</title>
+		<link>https://www.jeffersonswheel.org/2010/car-immobilizers</link>
+		<comments>https://www.jeffersonswheel.org/2010/car-immobilizers#comments</comments>
+		<pubDate>Fri, 24 Dec 2010 15:09:57 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=166</guid>
+		<description><![CDATA[Karsten Nohl is in the news again, this time for demonstrating how bad the proprietary crypto used for car immobilizers is. Here are a few articles: NewScientist, Criminals find the key to car immobilisers, 6 December 2010. (Note that the criminals in the title refers to evidence that actual car theft is increasing, after many [...]]]></description>
+				<content:encoded><![CDATA[<p>Karsten Nohl is in the news again, this time for demonstrating how bad the proprietary crypto used for car immobilizers is.   Here are a few articles:</p>
+<ul>
+<li> NewScientist, <a href="http://www.newscientist.com/article/mg20827894.500-criminals-find-the-key-to-car-immobilisers.html"><em>Criminals find the key to car immobilisers</em></a>, 6 December 2010.  (Note that the <em>criminals</em> in the title refers to evidence that actual car theft is increasing, after many years of steady decline, not to Karsten!)
+<li> Schneier on Security, <a href="http://www.schneier.com/blog/archives/2010/12/proprietary_enc.html"><em>Proprietary Encryption in Car Immobilizers Cracked</em></a>, 23 December 2010.
+<li> The Register, <a href="http://www.theregister.co.uk/2010/12/20/car_immobiliser_security_flaws/"><em>Car immobilisers easily circumvented by crafty carjackers: Crap crypto to blame</em></a>, 20 December 2010.  (British publications as so much better at titling than American ones!)
+</ul>
+<p>Karsten presented the technical aspects in a talk at the <a href="https://www.escar.info/">8th Embedded Security in Cars</a> conference in Berlin.</p>
+<p>Even if car manufacturers get the crypto right, relay attacks pose a serious threat, especially for modern cars that do away with the mechanical key completely.  See the upcoming NDSS paper by Aurelien Francillon, Boris Danev, and Srdjan Capkun: <a href="http://www.isoc.org/isoc/conferences/ndss/11/program.shtml#id2a"><em>Relay Attacks on Passive Keyless Entry and Start Systems in Modern Cars</em></a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2010/car-immobilizers/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Welcome Randolph Yu Yao!</title>
+		<link>https://www.jeffersonswheel.org/2009/welcome-randolph-yu-yao</link>
+		<comments>https://www.jeffersonswheel.org/2009/welcome-randolph-yu-yao#comments</comments>
+		<pubDate>Fri, 27 Feb 2009 13:35:37 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=104</guid>
+		<description><![CDATA[Randolph Yu Yao is joining our research group and the NSF RFID project. He&#8217;s a PhD student in Computer Engineering and will be working on something related to security and privacy for RFID systems that integrates cryptographic requirement with circuit-level designs. His brief bio is below. Please join me in welcoming Randolph to the group! [...]]]></description>
+				<content:encoded><![CDATA[<p>Randolph Yu Yao is joining our research group and the NSF RFID project.  He&#8217;s a PhD student in Computer Engineering and will be working on something related to security and privacy for RFID systems that integrates cryptographic requirement with circuit-level designs.</p>
+<p>His brief bio is below.  Please join me in welcoming Randolph to the group!</p>
+<blockquote><p>
+I was born in a small city in southeast of China, and traveled from south to north during my high school, undergraduate, half-graduate study. I&#8217;m very happy to travel to the other half of the planet for my PhD study here in the end.</p>
+<p>
+I was an EE major and love to deal with various aspects of embedded system. I&#8217;ve worked on the RoboCup, which forms a robot team to play &#8220;football&#8221;; the Mobile Satellite Communication Vehicle, which essentially control the attitude of antenna in dynamic circumstance; the Multi-Agent Cooperation via wireless communication etc. I didn&#8217;t realize before that the security issues of the embedded system are very challenge problems and becomes a bottleneck for their ubiquitous deployments, no matter for sensor networks or RFID. My ultimate goal is to enable these smart embedded systems acceptable by common people and put into daily service without concern about the security and reliability in the face of expanding network connection.</p>
+<p>
+I also like sports such as swimming, traveling, exploration, basketball, hiking but no running which I think too boring. I enjoy the weather, the blue sky and fresh air here.
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/welcome-randolph-yu-yao/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Technology Review: RFID&#8217;s Security Problem</title>
+		<link>https://www.jeffersonswheel.org/2009/technology-review-rfids-security-problem</link>
+		<comments>https://www.jeffersonswheel.org/2009/technology-review-rfids-security-problem#comments</comments>
+		<pubDate>Tue, 10 Feb 2009 04:30:17 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=98</guid>
+		<description><![CDATA[Technology Review has an article surveying the state of RFID security: RFID&#8217;s Security Problem, Technology Review, January/February 2009. It focuses on security and privacy issues related to RFID-enabled passports and driver&#8217;s licenses. Excerpt: (bolding is mine) Meanwhile, although experts say that some RFID technologies are quite secure, a University of Virginia security researcher&#8217;s analysis of [...]]]></description>
+				<content:encoded><![CDATA[<p>Technology Review has an article surveying the state of RFID security: <a href="http://www.technologyreview.com/printer_friendly_article.aspx?id=21842&#038;channel=computing&#038;section="><em>RFID&#8217;s Security Problem</em></a>, Technology Review, January/February 2009.  It focuses on security and privacy issues related to RFID-enabled passports and driver&#8217;s licenses.</p>
+<p>
+Excerpt: (bolding is mine)</p>
+<blockquote><p>
+Meanwhile, although experts say that some RFID technologies are quite secure, a University of Virginia security researcher&#8217;s analysis of the NXP Mifare Classic (see <a href="http://www.jeffersonswheel.org/?p=73">Hack, November/December 2008</a>), an RFID chip used in fare cards for the public-­transit systems of ­Boston, London, and other cities, has shown that the security of smart cards can&#8217;t be taken for granted. &#8220;I think we are in the growing-pains phase,&#8221; says Johns Hopkins University computer science professor Avi Rubin, a security and privacy researcher. &#8220;This happens with a lot of technologies when they are first developed.&#8221;</p>
+<p>
+&#8230;<br />
+As long as the remaining problems are ignored, though, it&#8217;s unlikely that the technology will become good enough to protect international borders without compromising the privacy of thousands or millions of people. Tadayoshi Kohno, for one, says that at this point, he is not convinced that RFID even offers security advantages over the old IDs. <b>Technology used on this scale, and for purposes this important, should be clearly better than what it&#8217;s replacing</b>: the U.S. experience with electronic voting systems shows what can happen when it&#8217;s not. <b>If officials continue to advocate band-aids such as privacy sleeves rather than working to address the full extent of critics&#8217; concerns, they will ultimately undermine the very technology that they hope to promote.</b> While new ID technology seems likely to stay, it could become a fiasco if officials don&#8217;t pay attention to the work of hackers and security researchers. These people try to expose weaknesses before they can be exploited maliciously. It&#8217;s much less painful to swallow the news from them than to wait until a problem becomes embarrassing&#8211;or devastating.
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/technology-review-rfids-security-problem/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Barker&#8217;s gift &#8230; funds chip research?</title>
+		<link>https://www.jeffersonswheel.org/2009/barkers-gift-funds-chip-research</link>
+		<comments>https://www.jeffersonswheel.org/2009/barkers-gift-funds-chip-research#comments</comments>
+		<pubDate>Wed, 14 Jan 2009 16:06:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=81</guid>
+		<description><![CDATA[The Daily Progress has an rather odd article juxtaposing our RFID research with a donation from Bob Barker (&#8220;Price is Right&#8221; host) to the law school to fund animal rights research: Barker’s gift to found animal law program; Science Foundation funds chip research. Perhaps we can combine projects to work on preserving pet privacy when [...]]]></description>
+				<content:encoded><![CDATA[<p>The Daily Progress has an rather odd article juxtaposing our RFID research with a donation from Bob Barker (&#8220;Price is Right&#8221; host) to the law school to fund animal rights research: <a href="http://www.dailyprogress.com/cdp/news/local/education/article/barkers_gift_to_help_animal_law_program_science_foundation_funds_chip_resea/34084/"><em>Barker’s gift to found animal law program; Science Foundation funds chip research</em></a>.  Perhaps we can combine projects to work on preserving pet privacy when implanting RFID tags in animals.</p>
+<blockquote><p>
+&#8230;<br />
+“Animal law is a growing area that is in much discussion,” Riley said. “It is a good way even for a student who has no interest in practicing animal law to enlarge their interest and to understand different ways the law works.”</p>
+<p>
+A recent of example is Leona Helmsley’s will, Riley said.</p>
+<p>
+When the hotelier, dubbed the “queen of mean,” died at 87 in August 2007, she spurred a legal debate by leaving behind a $12 million trust for the care of her dog.</p>
+<p>
+Riley said a group of students at UVa have shown interest in animal law.</p>
+<p>
+Elsewhere at UVa, the National Science Foundation’s grant will enable a team of engineers to create a more secure design for RFID chips, which are commonly found in remote car-locking systems and touchless debit cards.</p>
+<p>
+These tiny chips, which send information over short distances using weak radio waves, are an increasingly popular way to monitor potentially sensitive information.</p>
+<p>
+UVa researchers have been working to create a stronger encryption scheme that would keep information on RFID chips secure while keeping costs low.
+</p></blockquote>
+<p>[Added: 14 Jan] NetworkWorld has also picked up this story: <a href="http://www.networkworld.com/community/node/37295"><em>NSF gives University of Virginia researchers a million good reasons to improve RFID security, privacy</em></a>, by Alpha Doggs, NetworkWorld, 14 Jan 2009.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/barkers-gift-funds-chip-research/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>RFID Security and Privacy Cybertrust Grant</title>
+		<link>https://www.jeffersonswheel.org/2009/uva-team-receives-1-million-grant-to-improve-rfid-security</link>
+		<comments>https://www.jeffersonswheel.org/2009/uva-team-receives-1-million-grant-to-improve-rfid-security#comments</comments>
+		<pubDate>Tue, 13 Jan 2009 04:27:08 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Social Networks]]></category>
+		<category><![CDATA[Teaching]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=77</guid>
+		<description><![CDATA[UVa Today has an article about our (myself, abhi shelat, John Lach, and Ben Calhoun) recent NSF Cybertrust grant on RFID security and privacy: U.Va. Team Receives $1 Million Grant To Improve RFID Security, by Brevy Cannon, 9 January 2009. Some excerpts: To address the problematic use of custom cryptography, the U.Va. research team will [...]]]></description>
+				<content:encoded><![CDATA[<p>UVa Today has an article about our (myself, abhi shelat, John Lach, and Ben Calhoun) recent NSF Cybertrust grant on RFID security and privacy: <a href="http://www.virginia.edu/uvatoday/newsRelease.php?id=7468"><em>U.Va. Team Receives $1 Million Grant To Improve RFID Security</em></a>, by Brevy Cannon, 9 January 2009.</p>
+<p>Some excerpts:</p>
+<blockquote><p>To address the problematic use of custom cryptography, the U.Va. research team will develop an encryption scheme that is relatively strong — providing some measure of privacy and security — but that can be implemented at almost zero cost by repurposing the meager hardware resources already available on common RFID tags. Providing a solution that adds virtually no cost is crucial, because these RFIDs are made by the billions, at such low costs (5 cents or less apiece) that there is no margin for any added expense.</p>
+<p>
+&#8230;</p>
+<p>The team is breaking new ground by using a holistic design approach that considers how all the various levels of the design — the hardware, the encryption algorithm and how it is used — work together, mindful of how an attacker will target the single weakest link in the design.</p>
+<p> &#8230;</p>
+<p>The research team hopes their research will forestall that possibility, enabling RFIDs to be used in countless ingenious applications not yet dreamt of, without sacrificing privacy and security in a Faustian bargain.</p>
+</blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2009/uva-team-receives-1-million-grant-to-improve-rfid-security/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Technology Review, How Smart Is a Smart Card?</title>
+		<link>https://www.jeffersonswheel.org/2008/technology-review-how-smart-is-a-smart-card</link>
+		<comments>https://www.jeffersonswheel.org/2008/technology-review-how-smart-is-a-smart-card#comments</comments>
+		<pubDate>Thu, 23 Oct 2008 15:30:20 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[RFID]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=73</guid>
+		<description><![CDATA[The November/December 2008 Technology Review Hack, How Smart Is a Smart Card?&#8221;, describes Karsten Nohl&#8217;s work on reverse engineering the Mifare Classic. In includes a video of a card dissolving, and some great images.]]></description>
+				<content:encoded><![CDATA[<p>The November/December 2008 Technology Review Hack, <a href="http://www.technologyreview.com/computing/21457/?a=f"><em>How Smart Is a Smart Card?&#8221;</em></a>, describes Karsten Nohl&#8217;s work on reverse engineering the Mifare Classic.  In includes a video of a card dissolving, and some great images.</p>
+<p><img src="http://www.jeffersonswheel.org/1108-Hack-D_x600.jpg"></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2008/technology-review-how-smart-is-a-smart-card/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Crypto-1 Cipher Released</title>
+		<link>https://www.jeffersonswheel.org/2008/71</link>
+		<comments>https://www.jeffersonswheel.org/2008/71#comments</comments>
+		<pubDate>Tue, 07 Oct 2008 15:52:55 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=71</guid>
+		<description><![CDATA[The full details of the Crypto-1 cipher (initially exposed back in December) have now been released. They are published in Appendix A of Henryk Plötz&#8217;s thesis report: Mifare Classic – Eine Analyse der Implementierung. The thesis is in German, but the algorithm is published as a C program (by Karsten Nohl, Henryk Plötz and Sean [...]]]></description>
+				<content:encoded><![CDATA[<p>The full details of the Crypto-1 cipher (initially exposed <a href="http://www.jeffersonswheel.org/?p=4">back in December) have now been released. </a></p>
+<p><a href="http://www.jeffersonswheel.org/?p=4">They are published in Appendix A of Henryk Plötz&#8217;s thesis report: </a><a href="http://sar.informatik.hu-berlin.de/research/publications/SAR-PR-2008-21/SAR-PR-2008-21_.pdf"><em>Mifare Classic – Eine Analyse der Implementierung</em></a>.  The thesis is in German, but the algorithm is published as a C program (by Karsten Nohl, Henryk Plötz and Sean O’Neil), so should be understandable to non-German code readers.</p>
+<p>Also yesterday, the paper, <a href="http://www.cs.ru.nl/F.Garcia/publications/Dismantling.Mifare.pdf"><em>Dismantling MIFARE Classic</em></a>, by Flavio D. Garcia, Gerhard de Koning Gans, Ruben Muijrers, Peter van Rossum, Roel Verdult, Ronny Wichers Schreur, and Bart Jacobs of Radboud University Nijmegen, The Netherlands, appeared at <a href="http://www.isac.uma.es/esorics08/">ESORICS 2008</a>.  This is the paper that was the subject of <a href="http://www.jeffersonswheel.org/?p=65">NXP&#8217;s failed lawsuit</a>.</p>
+<p>The publication of these details remove any remaining doubts about the insecurity of the Mifare Classic.</p>
+<p>News articles:</p>
+<p><a href="http://news.cnet.com/8301-1009_3-10059605-83.html"><em>D-Day for RFID-based transit card systems</em></a>, c|net News, 6 October 2008.</p>
+<blockquote><p>&#8220;Combining these two pieces of information, attacks can now be implemented by anyone,&#8221; RFID researcher Karsten Nohl told CNET News. &#8220;All it takes is a $100 (card) reader and a little software.&#8221;<br />
+&#8230;<br />
+Security systems like the Mifare Classic that are not peer reviewed are not as trustworthy as systems that can be openly analyzed by researchers looking for flaws, Johanson and Nohl said.</p>
+<p>&#8220;Developing your own proprietary security mechanisms and not getting public scrutiny on it does not work,&#8221; Nohl said.</p></blockquote>
+<p><a href="http://www.theregister.co.uk/2008/10/06/mifare_hack_finally_published/"><em>Boffins (finally) publish hack for world&#8217;s most popular smartcard</em></a>, The Register, 6 October 2008.</p>
+<blockquote><p>Two research papers published Monday have finally made it official: The world&#8217;s most widely deployed radio frequency identification (RFID) smartcard &#8211; used to control access to transportation systems, military installations, and other restricted areas &#8211; can be cracked in a matter of minutes using inexpensive tools.</p>
+<p>The two documents combined mean that virtually anyone with the time and determination can carry out the attacks, said Karsten Nohl, a PhD candidate at the University of Virginia and one of the cryptographers who first warned of the weakness in December.</p>
+<p>&#8220;Now the weakness that we and others have been talking about for months can be verified independently by really anybody,&#8221; he said. &#8220;The flip side is that everybody can now attack Mifare-based security systems.&#8221;</p>
+<p>Over the past six months, many organizations that rely on the Mifare Classic have upgraded their systems, but Nohl said he is personally aware of a &#8220;handful&#8221; of systems used by government agencies or large multinational companies that have been unable to make the necessary changes because of the logistical challenges of issuing new badges to employees.</p>
+<p>&#8220;One hopes that just based on the announcement, most operators of critical security systems have adopted other technologies besides Mifare,&#8221; Nohl said.</p></blockquote>
+<p><b>Update:</b> (10 Oct) Another article from the CBC: <a href="http://www.cbc.ca/technology/story/2008/10/09/smartcard-security.html"><em>Security flaw in smart cards poses risk for transit, building access</em></a>, CBC News, 10 October, 2008.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2008/71/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Bold Security Claims about PUFs on RFID</title>
+		<link>https://www.jeffersonswheel.org/2008/bold-security-claims-about-pufs-on-rfid</link>
+		<comments>https://www.jeffersonswheel.org/2008/bold-security-claims-about-pufs-on-rfid#comments</comments>
+		<pubDate>Tue, 09 Sep 2008 10:33:31 +0000</pubDate>
+		<dc:creator>Karsten Nohl</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[RFID]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=69</guid>
+		<description><![CDATA[Verayo is the second company to announce the &#34;World’s first unclonable RFID tag&#34; based on a physically unclonable function (PUF), after Veratag announced a similar product based on PUF technology. The security claims of these and other PUF-based products seem dubious since the current realization of PUFs defies basic principles of cryptography. The announcement states: [...]]]></description>
+				<content:encoded><![CDATA[<p>Verayo is the second company to announce the <a href="http://www.net-security.org/secworld.php?id=6480">&quot;World’s first unclonable RFID tag&quot;</a> based on a <i>physically unclonable function</i> (PUF), after Veratag announced a similar product based on PUF technology. The security claims of these and other PUF-based products seem dubious since the current realization of PUFs defies basic principles of cryptography. The announcement states:</p>
+<blockquote><p>
+This new RFID chip is based on recently announced breakthrough technology called Physical Unclonable Functions (PUF). PUF technology is a type of electronic DNA or fingerprinting technology for silicon chips that makes each chip unclonable.
+</p></blockquote>
+<p>It might be besides the point that neither DNA, nor <a href="http://www.theregister.co.uk/2008/03/30/german_interior_minister_fingerprint_appropriated/">fingerprints</a> are unclonable. The failure of proprietary security, which has been a constant theme on this blog, has led many to conclude that only well-reviewed security primitives can be strong. PUF technology tries to achieve security in exactly the opposite way: the PUF circuit is designed in a way so that not even the designer understands how outputs are derived from inputs. Security-by-obscurity par excellence.</p>
+<p>Every circuit, including PUFs, is a deterministic function; the only difference in PUF circuits is that some inputs to the function vary across different tags. For a PUF to be cryptographically strong, one would hence need to show that</p>
+<ol>
+<li>the fixed part of the circuit (the cipher) is strong by cryptographic metrics,</li>
+<li>the number of device-dependent inputs (the secret key) is large and</li>
+<li>the entropy of these inputs is high.</li>
+</ol>
+<p>PUFs are a wonderful idea for using manufacturing variance constructively, but in their current realization, PUFs fail to convince that they are strong building blocks for security systems.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2008/bold-security-claims-about-pufs-on-rfid/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

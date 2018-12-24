@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; Web Security</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/web-security/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Why hasn&#8217;t Cross-Site Scripting been solved?</title>
+		<link>https://www.jeffersonswheel.org/2017/why-hasnt-cross-site-scripting-been-solved</link>
+		<comments>https://www.jeffersonswheel.org/2017/why-hasnt-cross-site-scripting-been-solved#comments</comments>
+		<pubDate>Sun, 31 Dec 2017 21:49:26 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Program Analysis]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=837</guid>
+		<description><![CDATA[By Haina Li Introduction In 2017, Bugcrowd reported that cross-site scripting (XSS) remains as the number one vulnerability found on the web, accounting for 25% of the bugs found and submitted to the bug bounty program. Additionally, XSS has remained in the top 3 on the list of the web’s top vulnerabilities for the recent [...]]]></description>
+				<content:encoded><![CDATA[<p>By <a href="https://hainali.github.io/"><b>Haina Li</b></a></p>
+<h2>Introduction</h2>
+<p>
+In 2017, <a href="https://pages.bugcrowd.com/hubfs/Bugcrowd-2017-State-of-Bug-Bounty-Report.pdf">Bugcrowd</a> reported that cross-site scripting (XSS) remains as the number one vulnerability found on the web, accounting for 25% of the bugs found and submitted to the bug bounty program. Additionally, XSS has remained in the top 3 on the <a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project">list of the web’s top vulnerabilities</a> for the recent years. Over the 17 years since XSS was <a href="https://msdn.microsoft.com/en-us/library/cc750326.aspx">first recognized by Microsoft in 2000</a>, XSS has been the focus of intense academic research and development of penetration testing tools, yet we are still finding vulnerabilities even in top websites such as Facebook and Google. In this blog post, we explore some of the reasons why XSS is still a major problem today.
+</p>
+<h2>XSS has evolved</h2>
+<p>
+XSS evolved while modern applications became more complex than the static pages that they once were. While reflected and stored XSS have not disappeared because both server and client-side logic have become more elaborate, the pattern of replacing server-side logic with client-side JavaScript gave rise to <a href="http://www.webappsec.org/projects/articles/071105.shtml">DOM-Based vulnerabilities</a>. Additionally, server-side XSS prevention tools that examined deviations between the request and response (<a href="http://ieeexplore.ieee.org/abstract/document/4721570/">XSSDS</a>) do not work for DOM-Based vulnerabilities because the entire flow of malicious data from the source to the sink is contained within the browser and do not go through the server.
+</p>
+<p>
+New methods that do prevent DOM-Based XSS attacks include XSS Filters and CSP. These myriad of sophisticated tools aimed to achieve the seemingly simple purpose of escaping user-provided content. As it stands currently, these tools are not able to catch all XSS vulnerabilities, and escaping everything all the time would break an web application altogether. For example, a recent work by Lekis et al. [<a href="https://dustri.org/b/files/papers/9bc7dd6f063509ecffef7c178ef817e788f1d57319f27deda422c4b40704ff29_ccs_gadgets.pdf">PDF</a>]<br />
+ describes a new attack that was missed by every existing XSS prevention technique. In the new attack, the injected payload is benign-looking HTML but can be transformed by script gadgets to behave maliciously.</p>
+<h2>The effectiveness of web penetration tools are limited</h2>
+<p>In a study of automated black-box web application vulnerability testing by Bau et al. [<a href="https://theory.stanford.edu/~jcm/papers/pci_oakland10.pdf">PDF</a>], researchers tested commercial scanners such as McAfee and IBM and found that the average scanner XSS vulnerability detection rates were 62.5, 15. and 11.25, respectively, for reflected, stored, and advanced XSS that used non-standard tags and keywords. The study found that the scanners were effective in finding straightforward, textbook XSS vulnerabilities, but lack sufficient modeling of more complex XSS with respect to the specific web application. Web application scanners are designed using a reactive approach, converting new vulnerabilities into test vectors only after they&#8217;ve become a problem. When it comes to stored XSS, XSS scanners also struggle to link an event to a subsequent, later observation. These scanners are also often difficult to configure and often take too long if they were set to fuzz every possible location in a large and complicated web application.  </p>
+<h2>Conclusion</h2>
+<p>As with most web vulnerabilities, XSS is not going away anytime soon because of the constant evolving technologies of the web and the challenges in developing penetration tools with high true-positive rates. However, we may be able to eliminate most of the client-side security issues by replacing JavaScript with a new language that exhibits better control-flow integrity, such as <a href="http://webassembly.org/docs/security/">WebAssembly</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/why-hasnt-cross-site-scripting-been-solved/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Muzzammil Zaveri on Forbes 30 under 30</title>
+		<link>https://www.jeffersonswheel.org/2017/muzzammil-zaveri-on-forbes-30-under-30</link>
+		<comments>https://www.jeffersonswheel.org/2017/muzzammil-zaveri-on-forbes-30-under-30#comments</comments>
+		<pubDate>Wed, 06 Dec 2017 21:59:43 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=840</guid>
+		<description><![CDATA[Muzzammil Zaveri (BACS 2011) has been recognized by Forbes Magazine as one of the top 30 venture capitalists under 30. As an undergraduate researcher, Muzzammil worked on Guardrails (secure web application framework). Forbes Recognition UVa Today Article: Meet the 5 Alumni on Forbes’ new ‘30 under 30’ Lists, 15 November 2017. Cavalier Daily Article: Forbes [...]]]></description>
+				<content:encoded><![CDATA[<p>Muzzammil Zaveri (BACS 2011) has been recognized by Forbes Magazine as one of the top 30 venture capitalists under 30. As an undergraduate researcher, Muzzammil worked on <a href="https://github.com/guardrails/guardrails">Guardrails</a> (secure web application framework).</p>
+<p>
+<a href="https://www.forbes.com/profile/muzzammil-mz-zaveri/?list=30under30-venture-capital">Forbes Recognition</a>
+</p>
+<p>
+UVa Today Article: <a href="https://news.virginia.edu/content/meet-5-alumni-forbes-new-30-under-30-lists"><em>Meet the 5 Alumni on Forbes’ new ‘30 under 30’ Lists</em></a>, 15 November 2017.
+</p>
+<p>
+Cavalier Daily Article: <a href="http://www.cavalierdaily.com/article/2017/12/forbes-30-under-30-recognizes-five-u-va-alumni"><em>Forbes 30 under 30 recognizes five U.Va alumni</em></a>, 4 December 2017.
+</p>
+<blockquote><p>
+Zaveri stressed the importance of pursuing passion and making positive use of free time while studying as an undergraduate.
+</p>
+<p>
+“There’s nothing like being in a setting where you can make mistakes and explore interests,” he said. “Doing something that you’re strictly passionate about may not be the most productive — you can explore interests and area that you might be passionate about and that can be a great springboard into your own career, or whatever you decide to pursue in life after school.”
+</p>
+<p>
+Zaveri believes he was very lucky with the connections he made at the University, especially with meeting his co-founder, Ethan Fast. He credits Evans, his advisor with empowering him with knowledge and encouraging him to learn more about tech startups.
+</p>
+<p>
+“[Evans] really encouraged and spent time diving into startups and exploring some of my interests in building side projects,” he said. “And through that I met my co-founder [Ethan Fast] and ultimately, we ended up starting Proxino together.”
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/muzzammil-zaveri-on-forbes-30-under-30/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Alumna-Turned-Internet Security Expert Listed Among Nation’s Top Young Innovators</title>
+		<link>https://www.jeffersonswheel.org/2017/alumna-turned-internet-security-expert-listed-among-nations-top-young-innovators</link>
+		<comments>https://www.jeffersonswheel.org/2017/alumna-turned-internet-security-expert-listed-among-nations-top-young-innovators#comments</comments>
+		<pubDate>Sat, 23 Sep 2017 02:33:51 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[Awards]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=798</guid>
+		<description><![CDATA[Adrienne Porter Felt (SRG BSCS 2008) was selected as one of Technology Review&#8217;s 35 Innovators Under 35. UVA Today has an article:Alumna-Turned-Internet Security Expert Listed Among Nation’s Top Young Innovators, UVA Today, 21 September 2017. Felt started working in security when she was a second-year engineering student, responding to a request from computer science professor [...]]]></description>
+				<content:encoded><![CDATA[<p>Adrienne Porter Felt (SRG BSCS 2008) was selected as one of Technology Review&#8217;s <a href="https://www.technologyreview.com/lists/innovators-under-35/2017/visionary/adrienne-felt/">35 Innovators Under 35</a>.</p>
+<p>UVA Today has an article:<a href="https://news.virginia.edu/content/alumna-turned-internet-security-expert-listed-among-nations-top-young-innovators-0"><em>Alumna-Turned-Internet Security Expert Listed Among Nation’s Top Young Innovators</em></a>, UVA Today, 21 September 2017.</p>
+<blockquote><p>
+Felt started working in security when she was a second-year engineering student, responding to a request from computer science professor David Evans, who taught the “Program and Data Representation” course. Evans said Felt stood out amongst her peers because of her “well-thought-out answers and meticulous diagrams.”</p>
+<p>“For the summer after her second year, she joined a project one of my Ph.D. students was working on to use the disk drive controller to detect malware based on the reads and writes it makes that are visible to the disk,” Evans said. “She did great work on that project, and by the end of the summer was envisioning her own research ideas.</p>
+<p>“She came up with the idea of looking at privacy issues in Facebook applications, which, back in 2007, was just emerging, and no one else was yet looking into privacy issues like this.”</p>
+<p>Taking Evans’ offer for a research project was a turning point in Felt’s life, showing her something she liked that she could do well.</p>
+<p>“It turned out that I really loved it,” she said. “I like working in privacy and security because I enjoy helping people control their digital experiences. I think of it as, ‘I’m professionally paranoid, so that other people don’t need to be.’”</p>
+<p>In her final semester as an undergraduate student at UVA, Felt taught a student-led class on web browsers.</p>
+<p>“Her work at Google has dramatically changed the way web browsers convey security information to users, making the web safer for everyone,” Evans said. “Her team at Google has been studying deployment of HTTPS, the protocol that allows web clients to securely communicate with servers, and has had fantastic success in improving security of websites worldwide, as well as a carefully designed plan to use browser interfaces to further encourage adoption of secure web protocols.
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/alumna-turned-internet-security-expert-listed-among-nations-top-young-innovators/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SRG at USENIX Security 2017</title>
+		<link>https://www.jeffersonswheel.org/2017/srg-at-usenix-security-2017</link>
+		<comments>https://www.jeffersonswheel.org/2017/srg-at-usenix-security-2017#comments</comments>
+		<pubDate>Sun, 13 Aug 2017 02:42:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Pictures]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Secure Computation]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=803</guid>
+		<description><![CDATA[Several SRG students presented posters at USENIX Security Symposium in Vancouver, BC. Approaches to Evading Windows PE Malware Classifiers Anant Kharkar, Helen Simecek, Weilin Xu, David Evans, and Hyrum S. Anderson (Endgame) JSPolicy: Policied Sandboxes for Untrusted Third-Party JavaScript Ethan Lowman and David Evans EvadeML-Zoo: A Benchmarking and Visualization Tool for Adversarial Machine Learning Weilin [...]]]></description>
+				<content:encoded><![CDATA[<p>Several SRG students presented posters at <a href="https://www.usenix.org/conference/usenixsecurity17/poster-session">USENIX Security Symposium</a> in Vancouver, BC.</p>
+<table>
+<tr>
+<td valign="top">
+<a href="/images/usenix2017/helen-anant-poster.jpg"><img src="/images/usenix2017/helen-anant-poster.jpg" height="250"></a><br />
+<em>Approaches to Evading Windows PE Malware Classifiers</em><br />
+Anant Kharkar, Helen Simecek, Weilin Xu, David Evans, and Hyrum S. Anderson (Endgame)
+</td>
+<td valign="top">
+<a href="/images/usenix2017/ethan-poster.jpg"><img src="/images/usenix2017/ethan-poster.jpg" height="250"></a><br />
+<em>JSPolicy: Policied Sandboxes for Untrusted Third-Party JavaScript</em><br />
+Ethan Lowman and David Evans
+</td>
+</tr>
+<tr>
+<td valign="top">
+<a href="/images/usenix2017/weilin-poster.jpg"><img src="/images/usenix2017/weilin-poster.jpg" height="250"></a>
+</td>
+<td valign="top">
+<a href="/images/usenix2017/noah-poster.jpg"><img src="/images/usenix2017/noah-poster.jpg" height="250"></a>
+</td>
+</tr>
+<tr>
+<td colspan=2 align="center">
+<a href="https://evademl.org/zoo"><em>EvadeML-Zoo: A Benchmarking and Visualization Tool for Adversarial Machine Learning</em></a><br />
+Weilin Xu, Andrew Norton, Noah Kim, Yanjun Qi, and David Evans
+</td>
+</tr>
+<tr>
+<td colspan=2 align="center">
+<a href="https://oblivc.org/dca"><em>Decentralized Certificate Authorities</em></a><br />
+Hannah Li, Bargav Jayaraman, and David Evans
+</td>
+</tr>
+</table>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/srg-at-usenix-security-2017/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Modest Proposals for Google</title>
+		<link>https://www.jeffersonswheel.org/2017/modest-proposals-for-google</link>
+		<comments>https://www.jeffersonswheel.org/2017/modest-proposals-for-google#comments</comments>
+		<pubDate>Fri, 09 Jun 2017 19:28:20 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Children's Books]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Talks]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=771</guid>
+		<description><![CDATA[Great to meet up with Wahooglers Adrienne Porter Felt, Ben Kreuter, Jonathan McCune, Samee Zahur (Google’s latest addition from my group), and (honorary UVAer interning at Google this summer) Riley Spahn at Google’s Research Summit on Security and Privacy this week in Mountain View. As part of the meeting, the academic attendees were given a [...]]]></description>
+				<content:encoded><![CDATA[<p>Great to meet up with Wahooglers Adrienne Porter Felt, Ben Kreuter, Jonathan McCune, Samee Zahur (Google’s latest addition from my group), and (honorary UVAer interning at Google this summer) Riley Spahn at Google’s <a href="https://sites.google.com/view/securitysummit2017/">Research Summit on Security and Privacy</a> this week in Mountain View.
+</p>
+<p>
+As part of the meeting, the academic attendees were given a chance to give a 3-minute pitch to tell Google what we want them to do. The slides I used are below, but probably don’t make much sense by themselves.
+</p>
+<p>
+The main modest proposal I tried to make is that Google should take it on as their responsibility to make sure nothing bad ever happens to anyone anywhere. They can start with nothing bad ever happening on the Internet, but with the Internet pretty much everywhere, should expand the scope to cover everywhere soon.
+</p>
+<p>
+To start with an analogy from the days when Microsoft ruled computing. There was a time when Windows bluescreens were a frequent experience for most Windows users (and at the time, this pretty much mean all computer users). Microsoft analyzed the crashes and concluded that nearly all were because of bugs in device drivers, so it wasn’t their fault and was horribly unfair for them to be blamed for the crashes. Of course, to people losing their work because of a crash, it doesn’t really matter who’s code was to blame. By the end of the 90s, though, Microsoft took on the mission of reducing the problems with device drivers, and a lot of great work came out of this (e.g., the <a href="https://www.microsoft.com/en-us/research/project/slam/">Static Driver Verifier</a>), with dramatic improvements on the typical end user’s computing experience.
+</p>
+<p>
+Today, Google rules a large chunk of computing. Lots of bad things happen on the Internet that are not Google’s fault. As the latest example in the news, the leaked <a href="https://www.documentcloud.org/documents/3766950-NSA-Report-on-Russia-Spearphishing.html">NSA report</a> of Russian attacks on election officials describes a phishing attack that exploits vulnerabilities in Microsoft Word. Its easy to put the blame on overworked election officials who didn’t pay enough attention to <a href="https://dori-mic.org">books on universal computation they read when they were children</a>, or to put it on Microsoft for allowing Word to be exploited.
+</p>
+<p>
+But, Google’s name is also all over this report &#8211; the emails when through gmail accounts, the attacks phished for Google credentials, and the attackers used plausibly-named gmail accounts. Even if Google isn’t too blame for the problems that enable such an attack, they are uniquely positioned to solve it, both because of their engineering capabilities and resources, but also because of the comprehensive view they have of what happens on the Internet and powerful ability to influence it.
+</p>
+<p>
+Google is a big company, with lots of decentralized teams, some of which definitely seem to get this already. (I’d point to the work the Chrome Security Team has done, MOAR TLS, and RAPPOR as just a few of many examples of things that involve a mix of techincal and engineering depth and a broad mission to make computing better for everyone, not obviously connected to direct business interests.) But, there are also lots of places where Google doesn’t seem to be putting serious efforts into solving problems they could but viewing them as outside scope because its really someone else’s fault (my particular motivating example was <a href="https://www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails">PDF malware</a>). As a company, Google is too capable, important, and ubiquitous to view problems as out-of-scope just because they are obviously undecidable or obviously really someone else’s fault.
+</p>
+<p><center><br />
+<iframe src="https://docs.google.com/presentation/d/1tQ-BdHODwAnYBY2Ci5STvDRArvhmUfwWwkF8_KpJhh0/embed?start=false&#038;loop=false&#038;delayms=3000" frameborder="0" width="612" height="380" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br />
+</center></p>
+<p>
+[Also on <a href="https://plus.google.com/+DavidEvans/posts/5qziomX4BKk">Google +</a>]</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/modest-proposals-for-google/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Insecure by Default? Authentication Services in Popular Web Frameworks</title>
+		<link>https://www.jeffersonswheel.org/2016/insecure-by-default-authentication-services-in-popular-web-frameworks</link>
+		<comments>https://www.jeffersonswheel.org/2016/insecure-by-default-authentication-services-in-popular-web-frameworks#comments</comments>
+		<pubDate>Mon, 15 Aug 2016 13:39:16 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=725</guid>
+		<description><![CDATA[Hannah Li presented a poster at USENIX Security Symposium on how popular web frameworks perform authentication. Insecure by Default? Authentication Services in Popular Web Frameworks [Abstract (PDF)] [Poster (PDF)] The work studies how different design choices made by web frameworks impact the security of web applications built by typical developers using those frameworks, with a [...]]]></description>
+				<content:encoded><![CDATA[<p>Hannah Li presented a poster at <a href="https://www.usenix.org/conference/usenixsecurity16/poster-session"><em>USENIX Security Symposium</em></a> on how popular web frameworks perform authentication.<br />
+<center><br />
+<a href="https://www.cs.virginia.edu/~evans/pubs/webframeworks2016/insecure-by-default-poster.jpg"><img src="https://www.cs.virginia.edu/~evans/pubs/webframeworks2016/insecure-by-default-poster-cropped.png" width="600"></a><br />
+<em>Insecure by Default? Authentication Services in Popular Web Frameworks</em><br />
+[<a href="https://www.cs.virginia.edu/~evans/pubs/webframeworks2016/insecurebydefault.pdf">Abstract (PDF)</a>] [<a href="https://www.cs.virginia.edu/~evans/pubs/webframeworks2016/HainaLiUSENIX2016-Final.pdf">Poster (PDF)</a>]<br />
+</center><br />
+The work studies how different design choices made by web frameworks impact the security of web applications built by typical developers using those frameworks, with a goal of understanding the usability and performance trade-offs that lead frameworks to adopt insecure defaults, and develop alternatives that lead to better security without sacrificing the needs of easy initial development and deployment.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/insecure-by-default-authentication-services-in-popular-web-frameworks/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>An exercise in password security went terribly wrong, security experts say</title>
+		<link>https://www.jeffersonswheel.org/2016/an-exercise-in-password-security-went-terribly-wrong-security-experts-say</link>
+		<comments>https://www.jeffersonswheel.org/2016/an-exercise-in-password-security-went-terribly-wrong-security-experts-say#comments</comments>
+		<pubDate>Fri, 01 Apr 2016 11:09:14 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Passwords]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=668</guid>
+		<description><![CDATA[PCWord has a story about CNBC&#8217;s attempt to &#8220;help&#8221; people measure their password security: CNBC just collected your password and shared it with marketers: An exercise in password security went terribly wrong, security experts say, 29 March 2016. Adrienne Porter Felt, a software engineer with Google&#8217;s Chrome security team, spotted that the article wasn&#8217;t delivered [...]]]></description>
+				<content:encoded><![CDATA[<p>PCWord has a story about CNBC&#8217;s attempt to &#8220;help&#8221; people measure their password security: <a href="http://www.pcworld.com/article/3049552/security/cnbc-just-collected-your-password-and-shared-it-with-marketers.html"><em>CNBC just collected your password and shared it with marketers: An exercise in password security went terribly wrong, security experts say</em></a>, 29 March 2016.</p>
+<blockquote><p>
+Adrienne Porter Felt, a software engineer with Google&#8217;s Chrome security team, spotted that the article wasn&#8217;t delivered using SSL/TLS (Secure Socket Layer/Transport Layer Security) encryption.</p>
+<p>SSL/TLS encrypts the connection between a user and a website, scrambling the data that is sent back and forth. Without SSL/TLS, someone one the same network can see data in clear text and, in this case, any password sent to CNBC.</p>
+<p>&#8220;Worried about security? Enter your password into this @CNBC website (over HTTP, natch). What could go wrong,&#8221; Felt wrote on Twitter. &#8220;Alternately, feel free to tweet your password @ me and have the whole security community inspect it for you.&#8221;</p>
+<p>The form also sent passwords to advertising networks and other parties with trackers on CNBC&#8217;s page, according to Ashkan Soltani, a privacy and security researcher, who posted a screenshot.</p>
+<p>&#8230;</p>
+<p>Despite saying the tool would not store passwords, traffic analysis showed it was actually storing them in a Google Docs spreadsheet, according to Kane York, who works on the Let&#8217;s Encrypt project.
+</p></blockquote>
+<p>(Posted on April 1, but this is actually a real story, as hard as that might be to believe.)</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/an-exercise-in-password-security-went-terribly-wrong-security-experts-say/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Dormant Malicious Code Discovered on Thousands of Websites</title>
+		<link>https://www.jeffersonswheel.org/2015/dormant-malicious-code-discovered-on-thousands-of-websites</link>
+		<comments>https://www.jeffersonswheel.org/2015/dormant-malicious-code-discovered-on-thousands-of-websites#comments</comments>
+		<pubDate>Tue, 29 Dec 2015 17:28:42 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[Program Analysis]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=620</guid>
+		<description><![CDATA[Here&#8217;s the latest from Yuchen Zhou (PhD 2015, now at Palo Alto Networks): Dormant Malicious Code Discovered on Thousands of Websites, Yuchen Zhou and Wei Xu, Palo Alto Networks Blog, 14 November 2015. During our continuous monitoring for a 24-hour period from November 11, 2015 to November 12, 2015, eight days after the initial discovery, [...]]]></description>
+				<content:encoded><![CDATA[<p>Here&#8217;s the latest from <a href="http://www.yuchenzhou.info/">Yuchen Zhou</a> (PhD 2015, now at Palo Alto Networks): <a href="https://web.archive.org/web/20151229172446/http://researchcenter.paloaltonetworks.com/2015/11/dormant-malicious-code-discovered-on-thousands-of-websites/"><em>Dormant Malicious Code Discovered on Thousands of Websites</em></a>, Yuchen Zhou and Wei Xu, Palo Alto Networks Blog, 14 November 2015.</p>
+<p><center><br />
+<img src="//researchcenter.paloaltonetworks.com/wp-content/uploads/2015/11/Screen-Shot-2015-11-13-at-3.58.31-PM-500x241.png" width=500 height=241><br />
+</center></p>
+<blockquote><p>
+During our continuous monitoring for a 24-hour period from November 11, 2015 to November 12, 2015, eight days after the initial discovery, the Chuxiong Archives website consistently presented malicious content injected by an attacker depending on the source IP and user agent. We believe that if a user were to visit the compromised website a second time following the initial exposure to the malicious code, the site would recognize the source IP and user-agent and simply remain dormant, not exhibiting any malicious behavior. Because of this anti-analysis/evasion technique, it may easily cause the belief that a website no longer poses a threat, when it remains infected.
+</p>
+<p>
+At the time of this report, using our malicious web content scanning system, we have already discovered more than four thousands additional, similarly compromised websites globally exhibiting the same ability of being able to be dormant or active depending on source IP and user agent. Investigations regarding this campaign on a larger scale are ongoing and a second report detailing the similarly compromised websites will be published in the near future.
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/dormant-malicious-code-discovered-on-thousands-of-websites/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Computer Science Grad Stands Watch for Users of Google’s Popular Browser</title>
+		<link>https://www.jeffersonswheel.org/2015/computer-science-grad-stands-watch-for-users-of-googles-popular-browser</link>
+		<comments>https://www.jeffersonswheel.org/2015/computer-science-grad-stands-watch-for-users-of-googles-popular-browser#comments</comments>
+		<pubDate>Tue, 08 Dec 2015 16:02:40 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=607</guid>
+		<description><![CDATA[Adrienne Porter Felt (BSCS 2008) returned to UVa last Friday as a Distinguished Alumni Speaker. UVa Today published this article: Computer Science Grad Stands Watch for Users of Google’s Popular Browser, UVa Today, 7 December 2015. Adrienne Porter Felt’s job is to keep you secure on Chrome. Felt, 29, who earned a computer science degree [...]]]></description>
+				<content:encoded><![CDATA[<p>Adrienne Porter Felt (BSCS 2008) returned to UVa last Friday as a Distinguished Alumni Speaker.  UVa Today published this article:<br />
+<a href="https://news.virginia.edu/content/computer-science-grad-stands-watch-users-googles-popular-browser"><br />
+<em>Computer Science Grad Stands Watch for Users of Google’s Popular Browser</em></a></a>, UVa Today, 7 December 2015.</p>
+<blockquote><p>
+Adrienne Porter Felt’s job is to keep you secure on Chrome.
+</p>
+<p>
+Felt, 29, who earned a computer science degree from the University of Virginia in 2008, leads the usable security team at Google working on the popular Internet browser.
+</p>
+<p>&#8230;</p>
+<p>
+Taking Evans’ offer for a research project was a turning point in Felt’s life, showing her something she liked that she could do well.
+</p>
+<p>
+&#8220;It turned out that I really loved it,&#8221; she said. &#8220;I like working in privacy and security because I enjoy helping people control their digital experiences. I think of it as, &#8216;I&#8217;m professionally paranoid so that other people don’t need to be.&#8217;&#8221;
+</p>
+<p>&#8230;
+</p></blockquote>
+<p><img src="https://news.virginia.edu/sites/default/files/styles/uva_basic_article/public/article_image/adrienne_porter_felt_10_da.jpg?itok=o8xIvfL4" width=600></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/computer-science-grad-stands-watch-for-users-of-googles-popular-browser/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SRG at Oakland 2015</title>
+		<link>https://www.jeffersonswheel.org/2015/srg-at-oakland-2015</link>
+		<comments>https://www.jeffersonswheel.org/2015/srg-at-oakland-2015#comments</comments>
+		<pubDate>Sun, 24 May 2015 19:09:17 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Program Analysis]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Secure Computation]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Talks]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=592</guid>
+		<description><![CDATA[Several SRGers were at IEEE Symposium on Security and Privacy (&#8220;Oakland&#8221; in San Jose). Yuchen Zhou presented his work on Understanding and Monitoring Embedded Web Scripts. Yuchen graduated with his PhD the day before the conference, and will be joining Palo Alto Networks. Samee Zahur is a co-author (along with Benjamin Kreuter, who is an [...]]]></description>
+				<content:encoded><![CDATA[<p>Several SRGers were at <a href="http://www.ieee-security.org/TC/SP2015/">IEEE Symposium on Security and Privacy</a> (&#8220;Oakland&#8221; in San Jose).</p>
+<p>Yuchen Zhou presented his work on <A href="http://scriptinspector.org"><em>Understanding and Monitoring Embedded Web Scripts</em></a>.  Yuchen graduated with his PhD the day before the conference, and will be joining Palo Alto Networks.</p>
+<p>Samee Zahur is a co-author (along with Benjamin Kreuter, who is an &#8220;in-progress UVa PhD student&#8221; diverted by Google, and several researchers from Microsoft Research) on the paper, <a href="https://eprint.iacr.org/2014/976.pdf"><em>Geppetto: Versatile Verifiable Computation</em></a>, which was presented by Bryan Parno.</p>
+<p>Samee also presented a poster on <a href="http://oblivc.org/">Obliv-C</a>.</p>
+<p>Weilin Xu presented a poster on <a href="http://www.ieee-security.org/TC/SP2015/posters/paper_47.pdf"><em>Automatically Evading Classifiers</em></a></p>
+<p>It was also great to see SRG alums Yan Huang (who is not at Indiana University, and was a co-author on the paper about <a href="http://homes.soic.indiana.edu/yh33/mypub/oblivm.pdf">ObliVM</a>), Jon McCune (who is now working on trusted computing at Google) and Adrienne Felt (who was the <a href="http://ieee-security.org/TC/SPW2015/W2SP/">keynote speaker for the W2SP workshop</a>, and gave a very interesting talk about user-facing security design and experiments in Google Chrome; Adrienne&#8217;s <a href="http://w2spconf.com/2008/papers/s3p1.pdf">first paper was in W2SP 2008</a> when she was an undergraduate at UVa).</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/srg-at-oakland-2015/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

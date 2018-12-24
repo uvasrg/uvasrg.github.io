@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jefferson&#039;s Wheel &#187; Papers</title>
+	<atom:link href="http://www.jeffersonswheel.org/category/papers/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.jeffersonswheel.org</link>
+	<description>Security Research at the University of Virginia</description>
+	<lastBuildDate>Sun, 14 Oct 2018 03:12:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Horcrux Is a Password Manager Designed for Security and Paranoid Users</title>
+		<link>https://www.jeffersonswheel.org/2017/horcrux-is-a-password-manager-designed-for-security-and-paranoid-users</link>
+		<comments>https://www.jeffersonswheel.org/2017/horcrux-is-a-password-manager-designed-for-security-and-paranoid-users#comments</comments>
+		<pubDate>Fri, 07 Jul 2017 17:48:45 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Passwords]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=789</guid>
+		<description><![CDATA[Bleeping Computer has an article about our work on a more secure password manager: Horcrux Is a Password Manager Designed for Security and Paranoid Users, 4 July 2017. Two researchers from the University of Virginia have developed a new password manager prototype that works quite differently from existing password manager clients. The research team describes [...]]]></description>
+				<content:encoded><![CDATA[<p>Bleeping Computer has an article about our work on a more secure password manager: <a href="https://www.bleepingcomputer.com/news/security/horcrux-is-a-password-manager-designed-for-security-and-paranoid-users/"><em>Horcrux Is a Password Manager Designed for Security and Paranoid Users</em></a>, 4 July 2017.</p>
+<blockquote><p>
+<em><br />
+Two researchers from the University of Virginia have developed a new password manager prototype that works quite differently from existing password manager clients.</p>
+<p>The research team describes their password manager — which they named Horcrux — as &#8220;a password manager for paranoids,&#8221; due to its security and privacy-focused features and a unique design used for handling user passwords, both while in transit and at rest.</p>
+<p>There are two main differences between Horcrux and currently available password manager clients.</p>
+<p>The first is how Horcrux inserts user credentials inside web pages. Regular password managers do this by filling in the login form with the user&#8217;s data.<br />
+&#8230;<br />
+The second feature that makes Horcrux stand out compared to other password manager clients is how it stores user credentials.</p>
+<p>Compared to classic solutions, Horcrux doesn&#8217;t trust one single password store but spreads user credentials across multiple servers. This means that if an attacker manages to gain access to one of the servers, he won&#8217;t gain access to all of the user&#8217;s passwords, limiting the damage of any security incident.<br />
+&#8230;<br />
+More details about the Horcrux design and implementation are available in the research team&#8217;s paper, entitled <a href="https://arxiv.org/pdf/1706.05085.pdf">&#8220;Horcrux: A Password Manager for Paranoids&#8221;</a>.<br />
+</em>
+</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/horcrux-is-a-password-manager-designed-for-security-and-paranoid-users/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Feature Squeezing: Detecting Adversarial Examples</title>
+		<link>https://www.jeffersonswheel.org/2017/feature-squeezing-detecting-adversarial-examples</link>
+		<comments>https://www.jeffersonswheel.org/2017/feature-squeezing-detecting-adversarial-examples#comments</comments>
+		<pubDate>Mon, 10 Apr 2017 21:11:52 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Machine Learning]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=766</guid>
+		<description><![CDATA[Although deep neural networks (DNNs) have achieved great success in many computer vision tasks, recent studies have shown they are vulnerable to adversarial examples. Such examples, typically generated by adding small but purposeful distortions, can frequently fool DNN models. Previous studies to defend against adversarial examples mostly focused on refining the DNN models. They have [...]]]></description>
+				<content:encoded><![CDATA[<p>Although deep neural networks (DNNs) have achieved great success in many computer vision tasks, recent studies have shown they are vulnerable to adversarial examples.  Such examples, typically generated by adding small but purposeful distortions, can frequently fool DNN models. Previous studies to defend against adversarial examples mostly focused on refining the DNN models. They have either shown limited success or suffer from expensive computation. We propose a new strategy, <em>feature squeezing</em>, that can be used to harden DNN models by detecting adversarial examples. Feature squeezing reduces the search space available to an adversary by coalescing samples that correspond to many different feature vectors in the original space into a single sample.</p>
+<p><center><img src="https://evademl.org/images/squeezing.png" width="65%" align="center"></center></p>
+<p>
+By comparing a DNN model’s prediction on the original input with that on the squeezed input, feature squeezing detects adversarial examples with high accuracy and few false positives.  If the original and squeezed examples produce substantially different outputs from the model, the input is likely to be adversarial. By measuring the disagreement among predictions and selecting a threshold value, our system outputs the correct prediction for legitimate examples and rejects adversarial inputs.</p>
+<p><center><img src="https://evademl.org/images/squeezingframework.png" width="85%" align="center"></center></p>
+<p>So far, we have explored two instances of feature squeezing: reducing the color bit depth of each pixel and smoothing using a spatial filter. These strategies are straightforward, inexpensive, and complementary to defensive methods that operate on the underlying model, such as adversarial training.</p>
+<p><center><img src="https://evademl.org//images/jointdetection.png" width="85%" align="center"></center></p>
+<p>The figure shows the histogram of the <em>L</em><sub>1</sub> scores on the MNIST dataset between the original and squeezed sample, for 1000 non-adversarial examples as well as 1000 adversarial examples generated using both the Fast Gradient Sign Method and the Jacobian-based Saliency Map Approach. Over the full MNIST testing set, the detection accuracy is 99.74% (only 22 out of 5000 fast positives).</p>
+<p>For more information, see the paper:</p>
+<p>Weilin Xu, David Evans, Yanjun Qi. <a href="https://arxiv.org/abs/1704.01155"><em>Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks</em></a>. arXiv preprint, 4 April 2017. [<a href="https://arxiv.org/pdf/1704.01155.pdf">PDF</a>]</p>
+<p>Project Site: <a href="https://www.evademl.org/squeezing/"><b>EvadeML</b></a></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/feature-squeezing-detecting-adversarial-examples/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Growth of MPC Research</title>
+		<link>https://www.jeffersonswheel.org/2017/growth-of-mpc-research</link>
+		<comments>https://www.jeffersonswheel.org/2017/growth-of-mpc-research#comments</comments>
+		<pubDate>Fri, 13 Jan 2017 21:50:36 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Secure Computation]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=757</guid>
+		<description><![CDATA[I led a discussion breakout at the NSF SaTC PIs meeting on Secure Computation: Progress, Methods, Challenges, and Open Questions. To set up the session, I looked at the number of papers in Google scholar that match "secure computation" OR "multi-party computation" (which seems like a fairly good measure of research activity in the area): [...]]]></description>
+				<content:encoded><![CDATA[<p>I led a discussion breakout at the <a href="http://cps-vo.org/group/satc-pi-meeting-17">NSF SaTC PIs meeting</a> on <em>Secure Computation: Progress, Methods, Challenges, and Open Questions</em>. To set up the session, I looked at the number of papers in Google scholar that match <tt>"secure computation" OR "multi-party computation"</tt> (which seems like a fairly good measure of research activity in the area):</p>
+<p><center><img width=600 src="/images/mpcpapers.png"></center></p>
+<p>There were 1800 MPC papers published in 2015!  This means in one year, there are most papers published on MPC than there were from the beginning of time through the end of 2004.  Gotta get reading&#8230;</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2017/growth-of-mpc-research/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Secure Stable Matching at Scale</title>
+		<link>https://www.jeffersonswheel.org/2016/secure-stable-matching-at-scale</link>
+		<comments>https://www.jeffersonswheel.org/2016/secure-stable-matching-at-scale#comments</comments>
+		<pubDate>Wed, 31 Aug 2016 00:32:50 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Secure Computation]]></category>
+
+		<guid isPermaLink="false">https://www.jeffersonswheel.org/?p=735</guid>
+		<description><![CDATA[Our paper on secure stable matching is now available [PDF, 12 pages]: Jack Doerner, David Evans, abhi shelat. Secure Stable Matching at Scale. 23rd ACM Conference on Computer and Communications Security (CCS). Vienna, Austria. 24-28 October 2016. See the OblivC.org site for the code and data. Jack Doerner will present the paper at CCS in [...]]]></description>
+				<content:encoded><![CDATA[<p>Our paper on secure stable matching is now available [<a href="http://oblivc.org/docs/matching.pdf">PDF</a>, 12 pages]:</p>
+<p>Jack Doerner, David Evans, abhi shelat. <em>Secure Stable Matching at Scale</em>.  <a href="https://www.sigsac.org/ccs/CCS2016/"><em>23<sup>rd</sup> ACM Conference on Computer and Communications Security</em></a> (CCS). Vienna, Austria. 24-28 October 2016.</p>
+<p>See the <a href="http://oblivc.org/matching">OblivC.org</a> site for the code and data.  Jack Doerner will present the paper at CCS in October.</p>
+<p><center><br />
+<b>Abstract</b><br />
+</center></p>
+<p>When a group of individuals and organizations wish to compute a <em>stable matching</em> &mdash; for example, when medical students are matched to medical residency programs &mdash; they often outsource the computation to a trusted arbiter to preserve the privacy of participants&#8217; preference rankings. Secure multi-party computation presents an alternative that offers the possibility of private matching processes that do not rely on any common trusted third party. However, stable matching algorithms are computationally intensive and involve complex data-dependent memory access patterns, so they have previously been considered infeasible for execution in a secure multiparty context on non-trivial inputs.</p>
+<p>We adapt the classic Gale-Shapley algorithm for use in such a context, and show experimentally that our modifications yield a lower asymptotic complexity and more than an order of magnitude in practical cost improvement over previous techniques. Our main insights are to design new oblivious data structures that exploit the properties of the matching algorithms. We then apply our secure computation techniques to the instability chaining algorithm of Roth and Peranson, currently in use by the National Resident Matching Program. The resulting algorithm is efficient enough to be useful at the scale required for matching medical residents nationwide, taking just over 17 hours to complete an execution simulating the 2016 NRMP match with more than 35,000 participants and 30,000 residency slots.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/secure-stable-matching-at-scale/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>NDSS Talk: Automatically Evading Classifiers (including Gmail&#8217;s)</title>
+		<link>https://www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails</link>
+		<comments>https://www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails#comments</comments>
+		<pubDate>Wed, 24 Feb 2016 21:56:38 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Talks]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=635</guid>
+		<description><![CDATA[Weilin Xu presented his work on Automatically Evading Classifiers today at the Network and Distributed Systems Security Symposium in San Diego, CA (co-advised by Yanjun Qi and myself). The work demonstrates an automated approach for finding evasive variants of malicious PDF files using genetic programming techniques. Starting with a malicious seed file (that is, a [...]]]></description>
+				<content:encoded><![CDATA[<p>Weilin Xu presented his work on Automatically Evading Classifiers today at the <a href="http://www.internetsociety.org/events/ndss-symposium-2016"><em>Network and Distributed Systems Security Symposium</em></a> in San Diego, CA (co-advised by <a href="https://www.cs.virginia.edu/yanjun/">Yanjun Qi</a> and <a href="https://www.cs.virginia.edu/evans/">myself</a>).  The work demonstrates an automated approach for finding evasive variants of malicious PDF files using genetic programming techniques.  Starting with a malicious seed file (that is, a PDF file with the intended malicious behavior, but that is correctly classified as malicious by the target classifier), it heuristically searches for an evasive variant that preserves the malicious behavior of the seed sample but is now classified as benign.  The method automatically found an evasive variant for <em>every</em> seed in our test set of 500 malicious PDFs for both of the target classifiers used in the experiment (PDFrate and Hidost).
+</p>
+<p>
+Slides from the talk are below, the <a href="http://evademl.org/docs/evademl.pdf">full paper</a> and code is available on the <a href="http://evademl.org">EvadeML.org</a> website.</p>
+<p><script async class="speakerdeck-embed" data-id="0a82f51fd6534cdbb58f3df1bcbc004f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script></p>
+<p>In addition to the results in the paper, Weilin found some new results examining gmail&#8217;s PDF malware classifier.  We had hoped the classifier used by gmail would be substantially better than what we found in the research prototype classifiers used in the original experiments, and the initial cross-evasion experiments supported this.  Of the 500 evasive variants found for Hidost in the original experiment, 387 were also evasive variants against PDFrate, but only 3 of them were evasive variants against Gmail&#8217;s classifier.
+</p>
+<p>
+From those 3, and some other manual tests, however, Weilin was able to find two very simple transformations (any change to JavaScript such as adding a variable declaration, and adding padding to the file) that are effective at finding evasive variants for 47% of the seeds.<br />
+<center><br />
+<img src="//www.cs.virginia.edu/evans/blog-images/evadegmail.jpg" width=600><br />
+</center><br />
+The response we got from Google about this was somewhat disappointing (and very inconsistent with my all previous experiences raising security issues to Google):<br />
+<center><br />
+<img src="//www.cs.virginia.edu/evans/blog-images/googlemail.jpg" width=600><br />
+</center><br />
+Its true, of course, that any kind of static program analysis is <a href="//www.cs.virginia.edu/~evans/cs3102-s10/classes/class21/class21.pdf">theoretically impossible to do perfectly</a>. But, that doesn&#8217;t mean the dominant email provider shouldn&#8217;t be trying to do better to detect one of the main vectors for malware distribution today (and there are, we believe, many fairly straightforward and inexpensive things that could be done to do dramatically better than what Gmail is doing today).
+</p>
+<p>
+The other new result in the talk that isn&#8217;t in the paper is the impact of adjusting the target classifier threshold.  The search for evasive variants can succeed even at lower thresholds for defining maliciousness (as shown in the slide below, finding evasive variants against PDFrate at the 0.25 maliciousness threshold).<br />
+<center><br />
+<img src="//www.cs.virginia.edu/evans/blog-images/threshold.png" width=600><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Evading Machine Learning Classifiers</title>
+		<link>https://www.jeffersonswheel.org/2015/evading-machine-learning-classifiers</link>
+		<comments>https://www.jeffersonswheel.org/2015/evading-machine-learning-classifiers#comments</comments>
+		<pubDate>Mon, 21 Dec 2015 15:48:28 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Adversarial Machine Learning]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Research]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=617</guid>
+		<description><![CDATA[Today we&#8217;re releasing our paper on evading machine learning classifiers: Weilin Xu, Yanjun Qi, and David Evans. Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers Network and Distributed System Security Symposium (NDSS). San Diego, CA. 21-24 February 2016. [PDF, 15 pages] The main idea behind the paper is to explore how an adaptive [...]]]></description>
+				<content:encoded><![CDATA[<p>Today we&#8217;re releasing our paper on evading machine learning classifiers:</p>
+<blockquote><p>
+Weilin Xu, Yanjun Qi, and David Evans. <em><a href="//www.cs.virginia.edu/evans/pubs/ndss2016/">Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers</a></em> <a href="https://www.internetsociety.org/events/ndss-symposium-2016"><em>Network and Distributed System Security Symposium</em></a> (NDSS). San Diego, CA. 21-24 February 2016. [<a href="//www.cs.virginia.edu/evans/pubs/ndss2016/evademl.pdf">PDF</a>, 15 pages]
+</p></blockquote>
+<p>The main idea behind the paper is to explore how an adaptive adversary can evade a machine learning-based malware classifier by using techniques from genetic programming to automatically explore the space of potential evasive variants.</p>
+<p><center><br />
+<a href="//www.cs.virginia.edu/evans/pubs/ndss2016/method.png"><img src="//www.cs.virginia.edu/evans/pubs/ndss2016/method.png" width=600 height=184></a><br />
+</center></p>
+<p>In a case study using two PDF malware classifiers as targets, we find that it is possible to automatically find evasive variants (that is, variants that preserve the desired malicious behavior while being (mis)classified as benign) for all 500 seeds in our test dataset.</p>
+<p><center><br />
+<a href="//www.cs.virginia.edu/evans/pubs/ndss2016/accumulated_evasion_by_trace_length.png"><img src="//www.cs.virginia.edu/evans/pubs/ndss2016/accumulated_evasion_by_trace_length.png" width=600 height=417></a><br />
+</center></p>
+<p>Weilin Xu will present the work at the Network and Distributed Systems Security Symposium in San Diego in February.</p>
+<p>For more, see <a href="http://EvadeML.org">EvadeML.org</a> or the <a href="//www.cs.virginia.edu/evans/pubs/ndss2016/evademl.pdf">full paper (PDF)</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/evading-machine-learning-classifiers/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SRG at Oakland 2015</title>
+		<link>https://www.jeffersonswheel.org/2015/srg-at-oakland-2015</link>
+		<comments>https://www.jeffersonswheel.org/2015/srg-at-oakland-2015#comments</comments>
+		<pubDate>Sun, 24 May 2015 19:09:17 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Alumni]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Program Analysis]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Secure Computation]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Talks]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=592</guid>
+		<description><![CDATA[Several SRGers were at IEEE Symposium on Security and Privacy (&#8220;Oakland&#8221; in San Jose). Yuchen Zhou presented his work on Understanding and Monitoring Embedded Web Scripts. Yuchen graduated with his PhD the day before the conference, and will be joining Palo Alto Networks. Samee Zahur is a co-author (along with Benjamin Kreuter, who is an [...]]]></description>
+				<content:encoded><![CDATA[<p>Several SRGers were at <a href="http://www.ieee-security.org/TC/SP2015/">IEEE Symposium on Security and Privacy</a> (&#8220;Oakland&#8221; in San Jose).</p>
+<p>Yuchen Zhou presented his work on <A href="http://scriptinspector.org"><em>Understanding and Monitoring Embedded Web Scripts</em></a>.  Yuchen graduated with his PhD the day before the conference, and will be joining Palo Alto Networks.</p>
+<p>Samee Zahur is a co-author (along with Benjamin Kreuter, who is an &#8220;in-progress UVa PhD student&#8221; diverted by Google, and several researchers from Microsoft Research) on the paper, <a href="https://eprint.iacr.org/2014/976.pdf"><em>Geppetto: Versatile Verifiable Computation</em></a>, which was presented by Bryan Parno.</p>
+<p>Samee also presented a poster on <a href="http://oblivc.org/">Obliv-C</a>.</p>
+<p>Weilin Xu presented a poster on <a href="http://www.ieee-security.org/TC/SP2015/posters/paper_47.pdf"><em>Automatically Evading Classifiers</em></a></p>
+<p>It was also great to see SRG alums Yan Huang (who is not at Indiana University, and was a co-author on the paper about <a href="http://homes.soic.indiana.edu/yh33/mypub/oblivm.pdf">ObliVM</a>), Jon McCune (who is now working on trusted computing at Google) and Adrienne Felt (who was the <a href="http://ieee-security.org/TC/SPW2015/W2SP/">keynote speaker for the W2SP workshop</a>, and gave a very interesting talk about user-facing security design and experiments in Google Chrome; Adrienne&#8217;s <a href="http://w2spconf.com/2008/papers/s3p1.pdf">first paper was in W2SP 2008</a> when she was an undergraduate at UVa).</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/srg-at-oakland-2015/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Understanding and Monitoring Embedded Web Scripts</title>
+		<link>https://www.jeffersonswheel.org/2015/understanding-and-monitoring-embedded-web-scripts</link>
+		<comments>https://www.jeffersonswheel.org/2015/understanding-and-monitoring-embedded-web-scripts#comments</comments>
+		<pubDate>Fri, 27 Mar 2015 04:54:18 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Program Analysis]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Web Security]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=576</guid>
+		<description><![CDATA[Modern web applications make frequent use of third-party scripts, often in ways that allow scripts loaded from external servers to make unrestricted changes to the embedding page and access critical resources including private user information. Our paper describing tools to assist site administrators in understanding, monitoring, and restricting the behavior of third-party scripts embedded in [...]]]></description>
+				<content:encoded><![CDATA[<p>Modern web applications make frequent use of third-party scripts, often in ways that allow scripts loaded from external servers to make unrestricted changes to the embedding page and access critical resources including private user information. Our paper describing tools to assist site administrators in understanding, monitoring, and restricting the behavior of third-party scripts embedded in their site, and what we&#8217;ve learned by using them, is now available: Yuchen Zhou and David Evans, <a href="http://www.cs.virginia.edu/~evans/pubs/oakland2015/"><em>Understanding and Monitoring Embedded Web Scripts</em></a>, IEEE Symposium on Security and Privacy 2015.  </p>
+<p>Yuchen will present the paper at the <a href="http://www.ieee-security.org/TC/SP2015/">Oakland conference</a> (in San Jose) this May.</p>
+<p><center><br />
+<a href="http://www.cs.virginia.edu/evans/pubs/oakland2015/overview.png"><img src="http://www.cs.virginia.edu/evans/pubs/oakland2015/overview-small.png" width=538 height=400></a><br />
+</center></p>
+<p><b>Project Site:</b> <a href="http://scriptinspector.org">ScriptInspector.org</a></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2015/understanding-and-monitoring-embedded-web-scripts/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Two Halves Make a Whole!</title>
+		<link>https://www.jeffersonswheel.org/2014/two-halves-make-a-whole</link>
+		<comments>https://www.jeffersonswheel.org/2014/two-halves-make-a-whole#comments</comments>
+		<pubDate>Mon, 29 Sep 2014 18:33:49 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Secure Computation]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=550</guid>
+		<description><![CDATA[Surprisingly, it is possible to reduce the data needed for a garbled gate to only two ciphertexts per gate, while preserving free xors. The scheme for doing that is described in our paper, Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates by Samee Zahur and Mike Rosulek and David [...]]]></description>
+				<content:encoded><![CDATA[<p>Surprisingly, it is possible to reduce the data needed for a garbled gate to only two ciphertexts per gate, while preserving free xors.  The scheme for doing that is described in our paper, <a href="http://eprint.iacr.org/2014/756"><em>Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates</em></a> by Samee Zahur and Mike Rosulek and David Evans (now <a href="http://eprint.iacr.org/2014/756">available on eprint</a>).  </p>
+<p><b>Abstract.</b> The well-known classical constructions of garbled circuits use four ciphertexts per gate, although various methods have been proposed to reduce this cost. The best previously known methods for optimizing AND gates (two ciphertexts; Pinkas et al., ASIACRYPT 2009) and XOR gates (zero ciphertexts; Kolesnikov &#038; Schneider, ICALP 2008) were incompatible, so most implementations used the best known method compatible with free-XOR gates (three ciphertexts; Kolesnikov &#038; Schneider, ICALP 2008). In this work we show how to simultaneously garble AND gates using two ciphertexts and XOR gates using zero ciphertexts, resulting in smaller garbled circuits than any prior scheme. The main idea behind our construction is to break an AND gate into two half-gates &mdash; AND gates for which one party knows one input. Each half-gate can be garbled with a single ciphertext, so our construction uses two ciphertexts for each AND gate while being compatible with free-XOR gates. The price for the reduction in size is that the evaluator must perform two cryptographic operations per AND gate, rather than one as in previous schemes. We experimentally demonstrate that our garbling scheme leads to an overall decrease in time (up to 25%), bandwidth (up to 33%), and energy use (up to 20%) over several benchmark applications. We also initiate a study of lower bounds for garbled gate size, and show that our construction is optimal for a large class of garbling schemes encompassing all known practical garbling techniques.</p>
+<p><center><br />
+<img src="/images/halfgatestable-small.png" width=700 height=279><br />
+</center></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2014/two-halves-make-a-whole/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Symmetric Cut-and-Choose</title>
+		<link>https://www.jeffersonswheel.org/2013/symmetric-cut-and-choose</link>
+		<comments>https://www.jeffersonswheel.org/2013/symmetric-cut-and-choose#comments</comments>
+		<pubDate>Fri, 14 Jun 2013 14:59:25 +0000</pubDate>
+		<dc:creator>David Evans</dc:creator>
+				<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Cryptography]]></category>
+		<category><![CDATA[Papers]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Secure Computation]]></category>
+
+		<guid isPermaLink="false">http://www.jeffersonswheel.org/?p=475</guid>
+		<description><![CDATA[Our paper on symmetric cut-and-choose is now available. The paper will be presented at CRYPTO 2013 in August. Abstract. Beginning with the work of Lindell and Pinkas, researchers have proposed several protocols for secure two-party computation based on the cut-and-choose paradigm. In existing instantiations of this paradigm, one party generates k garbled circuits; some fraction [...]]]></description>
+				<content:encoded><![CDATA[<p>
+Our paper on <em>symmetric cut-and-choose</em> is <a href="http://www.cs.virginia.edu/evans/pubs/crypto2013/">now available</a>.  The paper will be presented at <a href="http://www.iacr.org/conferences/crypto2013/">CRYPTO 2013</a> in August.
+</p>
+<p>
+<b>Abstract.</b> Beginning with the work of Lindell and Pinkas, researchers have proposed several protocols for secure two-party computation based on the <em>cut-and-choose</em> paradigm. In existing instantiations of this paradigm, one party generates <em>k</em> garbled circuits; some fraction of those are &#8220;checked&#8221; by the other party, and the remaining fraction are evaluated. We introduce here the idea of <em>symmetric</em> cut-and-choose protocols, in which both parties generate <em>k</em> circuits to be checked by the other party. The main advantage of our technique is that <em>k</em> can be reduced by a factor of 3 while attaining the same statistical security level as in prior work.  Since the number of garbled circuits dominates the costs of the protocol, especially as larger circuits are evaluated, our protocol is expected to run up to 3 times faster than existing schemes. Preliminary experiments validate this claim.
+</p>
+<p>
+<b>Full paper</b> (16 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/crypto2013/symmetric-cut-and-choose.pdf">PDF</a>]</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.jeffersonswheel.org/2013/symmetric-cut-and-choose/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,657 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Mirrored from www.jeffersonswheel.org/category/cryptography by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Dec 2018 00:45:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Jefferson&#039;s Wheel   &raquo; Cryptography</title>
+
+	<link rel="stylesheet" href="../wp-content/themes/whiteasmilk/style1.css" type="text/css" media="screen" />
+<link rel="icon" type="image/ico" href="http://www.cs.virginia.edu/evans/blog/favicon.ico"/>	
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="../feed" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="../feed" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="../feed/atom" />
+	<link rel="pingback" href="../xmlrpc.php" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600' rel='stylesheet' type='text/css'>
+		<link rel='archives' title='October 2018' href='../2018/10.html' />
+	<link rel='archives' title='September 2018' href='../2018/09.html' />
+	<link rel='archives' title='August 2018' href='../2018/08.html' />
+	<link rel='archives' title='July 2018' href='../2018/07.html' />
+	<link rel='archives' title='May 2018' href='../2018/05.html' />
+	<link rel='archives' title='February 2018' href='../2018/02.html' />
+	<link rel='archives' title='December 2017' href='../2017/12.html' />
+	<link rel='archives' title='November 2017' href='../2017/11.html' />
+	<link rel='archives' title='September 2017' href='../2017/09.html' />
+	<link rel='archives' title='August 2017' href='../2017/08.html' />
+	<link rel='archives' title='July 2017' href='../2017/07.html' />
+	<link rel='archives' title='June 2017' href='../2017/06.html' />
+	<link rel='archives' title='April 2017' href='../2017/04.html' />
+	<link rel='archives' title='March 2017' href='../2017/03.html' />
+	<link rel='archives' title='January 2017' href='../2017/01.html' />
+	<link rel='archives' title='December 2016' href='../2016/12.html' />
+	<link rel='archives' title='November 2016' href='../2016/11.html' />
+	<link rel='archives' title='October 2016' href='../2016/10.html' />
+	<link rel='archives' title='August 2016' href='../2016/08.html' />
+	<link rel='archives' title='July 2016' href='../2016/07.html' />
+	<link rel='archives' title='June 2016' href='../2016/06.html' />
+	<link rel='archives' title='May 2016' href='../2016/05.html' />
+	<link rel='archives' title='April 2016' href='../2016/04.html' />
+	<link rel='archives' title='March 2016' href='../2016/03.html' />
+	<link rel='archives' title='February 2016' href='../2016/02.html' />
+	<link rel='archives' title='December 2015' href='../2015/12.html' />
+	<link rel='archives' title='November 2015' href='../2015/11.html' />
+	<link rel='archives' title='August 2015' href='../2015/08.html' />
+	<link rel='archives' title='June 2015' href='../2015/06.html' />
+	<link rel='archives' title='May 2015' href='../2015/05.html' />
+	<link rel='archives' title='April 2015' href='../2015/04.html' />
+	<link rel='archives' title='March 2015' href='../2015/03.html' />
+	<link rel='archives' title='February 2015' href='../2015/02.html' />
+	<link rel='archives' title='January 2015' href='../2015/01.html' />
+	<link rel='archives' title='November 2014' href='../2014/11.html' />
+	<link rel='archives' title='October 2014' href='../2014/10.html' />
+	<link rel='archives' title='September 2014' href='../2014/09.html' />
+	<link rel='archives' title='May 2014' href='../2014/05.html' />
+	<link rel='archives' title='April 2014' href='../2014/04.html' />
+	<link rel='archives' title='February 2014' href='../2014/02.html' />
+	<link rel='archives' title='January 2014' href='../2014/01.html' />
+	<link rel='archives' title='November 2013' href='../2013/11.html' />
+	<link rel='archives' title='October 2013' href='../2013/10.html' />
+	<link rel='archives' title='June 2013' href='../2013/06.html' />
+	<link rel='archives' title='May 2013' href='../2013/05.html' />
+	<link rel='archives' title='April 2013' href='../2013/04.html' />
+	<link rel='archives' title='March 2013' href='../2013/03.html' />
+	<link rel='archives' title='February 2013' href='../2013/02.html' />
+	<link rel='archives' title='August 2012' href='../2012/08.html' />
+	<link rel='archives' title='July 2012' href='../2012/07.html' />
+	<link rel='archives' title='March 2012' href='../2012/03.html' />
+	<link rel='archives' title='February 2012' href='../2012/02.html' />
+	<link rel='archives' title='January 2012' href='../2012/01.html' />
+	<link rel='archives' title='December 2011' href='../2011/12.html' />
+	<link rel='archives' title='November 2011' href='../2011/11.html' />
+	<link rel='archives' title='October 2011' href='../2011/10.html' />
+	<link rel='archives' title='September 2011' href='../2011/09.html' />
+	<link rel='archives' title='August 2011' href='../2011/08.html' />
+	<link rel='archives' title='July 2011' href='../2011/07.html' />
+	<link rel='archives' title='June 2011' href='../2011/06.html' />
+	<link rel='archives' title='May 2011' href='../2011/05.html' />
+	<link rel='archives' title='April 2011' href='../2011/04.html' />
+	<link rel='archives' title='March 2011' href='../2011/03.html' />
+	<link rel='archives' title='February 2011' href='../2011/02.html' />
+	<link rel='archives' title='December 2010' href='../2010/12.html' />
+	<link rel='archives' title='November 2010' href='../2010/11.html' />
+	<link rel='archives' title='September 2010' href='../2010/09.html' />
+	<link rel='archives' title='May 2010' href='../2010/05.html' />
+	<link rel='archives' title='April 2010' href='../2010/04.html' />
+	<link rel='archives' title='February 2010' href='../2010/02.html' />
+	<link rel='archives' title='December 2009' href='../2009/12.html' />
+	<link rel='archives' title='September 2009' href='../2009/09.html' />
+	<link rel='archives' title='July 2009' href='../2009/07.html' />
+	<link rel='archives' title='May 2009' href='../2009/05.html' />
+	<link rel='archives' title='April 2009' href='../2009/04.html' />
+	<link rel='archives' title='March 2009' href='../2009/03.html' />
+	<link rel='archives' title='February 2009' href='../2009/02.html' />
+	<link rel='archives' title='January 2009' href='../2009/01.html' />
+	<link rel='archives' title='December 2008' href='../2008/12.html' />
+	<link rel='archives' title='November 2008' href='../2008/11.html' />
+	<link rel='archives' title='October 2008' href='../2008/10.html' />
+	<link rel='archives' title='September 2008' href='../2008/09.html' />
+	<link rel='archives' title='July 2008' href='../2008/07.html' />
+	<link rel='archives' title='June 2008' href='../2008/06.html' />
+	<link rel='archives' title='May 2008' href='../2008/05.html' />
+	<link rel='archives' title='April 2008' href='../2008/04.html' />
+	<link rel='archives' title='March 2008' href='../2008/03.html' />
+	<link rel='archives' title='February 2008' href='../2008/02.html' />
+	<link rel='archives' title='January 2008' href='../2008/01.html' />
+	<link rel="alternate" type="application/rss+xml" title="Jefferson&#039;s Wheel &raquo; Cryptography Category Feed" href="cryptography/feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+</head>
+<body>
+
+<div id="page">
+<div id="header">
+<table>
+<tr>
+<td valign="middle">
+<a href="../images/jwlogo.jpg"><img align="left" width="320" height="193"
+     src="../images/jwlogo-small.jpg" alt="SRG Logo"></a>
+</td>
+<td valign="middle">
+	<h1><a href="../index.html">Jefferson&#039;s Wheel</a></h1>
+	<p id="blog_description">Security Research at the University of Virginia</p>
+</td>
+</tr>
+</table>
+	
+</div>
+<hr class="hrhide" />
+
+	<div id="content" class="narrowcolumn">
+
+		
+		 				
+		<h2 class="pagetitle">Archive for the 'Cryptography' Category</h2>
+		
+ 	  
+
+		<div class="navigation">
+			<div class="alignleft"><a href="cryptography/page/2.html" >&laquo; Previous Entries</a></div>
+			<div class="alignright"><a href="cryptography/page/2.html" >Next Page &raquo;</a></div>
+		</div>
+
+				<div class="post">
+				<h3 id="post-783"><a href="../2017/secure-multi-party-computation-promises-protocols-and-practicalities.html" rel="bookmark" title="Permanent Link to Secure Multi-Party Computation: Promises, Protocols, and Practicalities">Secure Multi-Party Computation: Promises, Protocols, and Practicalities</a></h3>
+				<small>Tuesday, June 27th, 2017</small>
+				
+				<div class="entry">
+					<p>I gave a talk at <a href="http://crypto-events.di.ens.fr/ecryptnet/">ECRYPT NET: Workshop on Crypto for the Cloud &#038; Implementation</a> (which was combined with <a href="https://pariscryptoday.github.io/">Paris Crypto Day</a>) on our group&#8217;s work on secure multi-party computation, using <a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a> and <a href="https://github.com/HainaLi">Hannah Li</a>&#8216;s recent work on <a href="https://oblivc.org/dca">decentralizing certificate authorities</a> as a motivating application.</p>
+<p><center><br />
+<script async class="speakerdeck-embed" data-id="641bb7600e7c478598f142ec476a7ee9" data-ratio="1.77777777777778" src="http://speakerdeck.com/assets/embed.js"></script><br />
+</center></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a>, <a href="talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2017/secure-multi-party-computation-promises-protocols-and-practicalities"
+    dc:identifier="https://www.jeffersonswheel.org/2017/secure-multi-party-computation-promises-protocols-and-practicalities"
+    dc:title="Secure Multi-Party Computation: Promises, Protocols, and Practicalities"
+    trackback:ping="https://www.jeffersonswheel.org/2017/secure-multi-party-computation-promises-protocols-and-practicalities/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-653"><a href="../2016/spectra-articles-privacy-preserving-regression-and-ombuds.html" rel="bookmark" title="Permanent Link to Spectra Articles: Privacy-Preserving Regression and Ombuds">Spectra Articles: Privacy-Preserving Regression and Ombuds</a></h3>
+				<small>Monday, March 21st, 2016</small>
+				
+				<div class="entry">
+					<p>The latest edition of <em>Spectra: The Virginia Engineering and Science Research Journal</em> includes two articles about SRGers!</p>
+<p><center><br />
+<img src="http://www.cs.virginia.edu/evans/blog/images/Spectra_2016_Cover-small.png" width=600><br />
+</center></p>
+<p>The first is an article about Sam Havron&#8217;s research on using MPC to perform linear regression for social science applications: [<a href="http://www.cs.virginia.edu/evans/docs/Spectra_2016_Havron.pdf">PDF</a>]</p>
+<p><object data="http://www.cs.virginia.edu/evans/docs/Spectra_2016_Havron.pdf" type="application/pdf" width="650" height="200"><br />
+  alt : <a href="http://www.cs.virginia.edu/evans/docs/Spectra_2016_Havron.pdf">Ombuds.pdf</a><br />
+</object></p>
+<p>The second is by Alex Kuck and Nick Skelsey on their work on using a blockchain to provide censorship-resistant messaging: <em>Ombuds: A Public Space with a Single Shared History</em>: [<a href="http://www.cs.virginia.edu/evans/docs/Spectra_2016_Ombuds.pdf">PDF</a>]</p>
+<p><object data="http://www.cs.virginia.edu/evans/docs/Spectra_2016_Ombuds.pdf" type="application/pdf" width="650" height="200"><br />
+  alt : <a href="http://www.cs.virginia.edu/evans/docs/Spectra_2016_Ombuds.pdf">Ombuds.pdf</a><br />
+</object></p>
+<p>The full issue is available at <a href="http://www.flipsnack.com/UVAengineering/the-spectra.html">the Spectra site</a> (thanks to Garrett Beeghly for granting permission to post these excerpts here).</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="cryptocurrency.html" title="View all posts in Cryptocurrency" rel="category tag">Cryptocurrency</a>, <a href="cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="news.html" title="View all posts in News" rel="category tag">News</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2016/spectra-articles-privacy-preserving-regression-and-ombuds"
+    dc:identifier="https://www.jeffersonswheel.org/2016/spectra-articles-privacy-preserving-regression-and-ombuds"
+    dc:title="Spectra Articles: Privacy-Preserving Regression and Ombuds"
+    trackback:ping="https://www.jeffersonswheel.org/2016/spectra-articles-privacy-preserving-regression-and-ombuds/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-623"><a href="../2015/latest-from-karsten-nohl-pos-security.html" rel="bookmark" title="Permanent Link to Latest from Karsten Nohl: POS Security">Latest from Karsten Nohl: POS Security</a></h3>
+				<small>Wednesday, December 30th, 2015</small>
+				
+				<div class="entry">
+					<p>Karsten Nohl (PhD 2009) presented his work (with Fabian Bräunlein and Philipp Maier) on vulnerabilities in payment protocols (the ones studied are widely used in Germany but not in other countries) at the Chaos Communications Congress on December 27.<br />
+<iframe width="853" height="480" src="https://media.ccc.de/v/32c3-7368-shopshifting/oembed" frameborder="0" allowfullscreen></iframe><br />
+The work has been widely covered in the press recently.  Here are a few sample articles:</p>
+<p>- <a href="http://www.theregister.co.uk/2015/12/30/payment_system_vulnerabilities/"><em>Watch infosec bods swipe PINs, magstripe data from card readers live on stage</em></a>, The Register, 30 Dec 2015.  (I trust the use of &#8220;bods&#8221; here is some kind of Britishism, not what it means in American.)</p>
+<blockquote><p>
+Now let&#8217;s look at Poseidon: a crook can buy a Poseidon payment terminal from the internet, and configure it to pretend to be a particular merchant&#8217;s systems. To do this, you need three bits of information, which are trivial to obtain&#8230;.  Now you can perform arbitrary refunds, drawing money from the store&#8217;s funds. As there is no interruption to a merchant&#8217;s service, the seller will be none the wiser until he or she audits their finances. &#8230; German banks have shrugged off their research as merely &#8220;theoretical.&#8221;
+</p></blockquote>
+<p>- <a href="https://boingboing.net/2015/12/29/payment-system-security-is-hil.html"><em>Payment system security is hilariously bad</em></a>, BoingBoing (Cory Doctorow), 29 Dec 2015.</p>
+<p>- <a href="http://www.itweb.co.za/index.php?option=com_content&amp;view=article&amp;id=148702"><em>Worries over German retail payments risks</em></a>, Reuters, 23 December 2015. </p>
+<blockquote><p>
+A top cyber security researcher has warned German banks that their retail payment systems have security flaws that could allow fraudsters to steal payment card PIN codes, create fake cards or siphon funds from customer or merchant accounts.<br />
+Karsten Nohl, who is credited with revealing major security threats in mobile phones, automobiles, security cards and thumb-sized USB drives, told Reuters he has found critical weaknesses in software that runs retail point-of-sale terminals in Germany.
+</p></blockquote>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="alumni.html" title="View all posts in Alumni" rel="category tag">Alumni</a>, <a href="cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="security.html" title="View all posts in Security" rel="category tag">Security</a>, <a href="talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2015/latest-from-karsten-nohl-pos-security"
+    dc:identifier="https://www.jeffersonswheel.org/2015/latest-from-karsten-nohl-pos-security"
+    dc:title="Latest from Karsten Nohl: POS Security"
+    trackback:ping="https://www.jeffersonswheel.org/2015/latest-from-karsten-nohl-pos-security/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-610"><a href="../2015/trick-or-treat-bitcoin-for-non-believers-cryptocurrencies-for-cypherpunks.html" rel="bookmark" title="Permanent Link to Trick or Treat?: Bitcoin for Non-Believers, Cryptocurrencies for Cypherpunks">Trick or Treat?: Bitcoin for Non-Believers, Cryptocurrencies for Cypherpunks</a></h3>
+				<small>Sunday, November 8th, 2015</small>
+				
+				<div class="entry">
+					<p>I gave a talk at Johns Hopkins University for the DC-Area Crypto Day focused on cryptocurrencies: <a href="http://www.cs.virginia.edu/~evans/talks/dccrypto2015/"><em>Trick or Treat?: Bitcoin for Non-Believers, Cryptocurrencies for Cypherpunks</em></a>.</p>
+<p><center><br />
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/23zEa3UZ4qY?rel=0" frameborder="0" allowfullscreen></iframe><br />
+Video of the Entire Workshop<br />
+</center></p>
+<p>Great to include two recent alums, Alex Kuck and Nick Skelsey at the end of my talk.  They talks about progress with <a href="https://getombuds.org/">Ombuds</a>, a platform for free speech built on the blockchain.</p>
+<p><center><br />
+<iframe src="http://www.slideshare.net/slideshow/embed_code/key/2f3tlAFi7Y6cmv" width="620" height="420" frameborder="0" marginwidth="0"<br />
+marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;"allowfullscreen><br />
+</iframe><br />
+<br />
+Download slides: [<a href="http://www.cs.virginia.edu/evans/talks/dccrypto2015/bitcoin-jhu-inked.pptx">PPTX</a> (35 MB), <a href="bhttp://www.cs.virginia.edu/evans/talks/dccrypto2015/itcoin-jhu-inked.pdf">PDF</a> (4-up, 34MB)]<Br><br />
+</center></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="cryptocurrency.html" title="View all posts in Cryptocurrency" rel="category tag">Cryptocurrency</a>, <a href="cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2015/trick-or-treat-bitcoin-for-non-believers-cryptocurrencies-for-cypherpunks"
+    dc:identifier="https://www.jeffersonswheel.org/2015/trick-or-treat-bitcoin-for-non-believers-cryptocurrencies-for-cypherpunks"
+    dc:title="Trick or Treat?: Bitcoin for Non-Believers, Cryptocurrencies for Cypherpunks"
+    trackback:ping="https://www.jeffersonswheel.org/2015/trick-or-treat-bitcoin-for-non-believers-cryptocurrencies-for-cypherpunks/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-596"><a href="../2015/crossing.html" rel="bookmark" title="Permanent Link to CROSSING">CROSSING</a></h3>
+				<small>Friday, June 5th, 2015</small>
+				
+				<div class="entry">
+					<p>I went to a very interesting meeting at Darmstadt: <a href="https://www.crossing.tu-darmstadt.de/en/crossing/events/crossing-workshop-2015/agenda/">CROSSING – Where Quantum Physics, Cryptography, System Security and Software Engineering meet</a>.  Lots more diversity than my typical computer security meeting, including a lively debate on quantum physics and <a href="http://motls.blogspot.com/2015/02/sheldon-and-leonard-co-author-paper-on.html">superfluid vacuum theory</a> between Nicolas Grisin (founder of <a href="http://www.idquantique.com/">ID Quantique</a> and Ross Anderson.  Interesting to learn that China is building a huge quantum key distribution network.</p>
+<p>I gave a talk on <a href="http://www.cs.virginia.edu/evans/talks/crossing2015/crossing2015.pptx"><em>Multi-Party Computation for the Masses</em></a>:<br />
+<center><br />
+<iframe src="http://www.slideshare.net/slideshow/embed_code/key/ikTlHdh219hSqo" width="580" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe><br />
+</center></p>
+<p>CROSSING is a <b>12-year</b> project funded by the German Science Foundation (with reviews every 4 years).  Gives some context to US funding agencies that talk about long-range visionary projects with 5-year timelines.</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a>, <a href="security.html" title="View all posts in Security" rel="category tag">Security</a>, <a href="talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2015/crossing"
+    dc:identifier="https://www.jeffersonswheel.org/2015/crossing"
+    dc:title="CROSSING"
+    trackback:ping="https://www.jeffersonswheel.org/2015/crossing/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-550"><a href="../2014/two-halves-make-a-whole.html" rel="bookmark" title="Permanent Link to Two Halves Make a Whole!">Two Halves Make a Whole!</a></h3>
+				<small>Monday, September 29th, 2014</small>
+				
+				<div class="entry">
+					<p>Surprisingly, it is possible to reduce the data needed for a garbled gate to only two ciphertexts per gate, while preserving free xors.  The scheme for doing that is described in our paper, <a href="http://eprint.iacr.org/2014/756"><em>Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates</em></a> by Samee Zahur and Mike Rosulek and David Evans (now <a href="http://eprint.iacr.org/2014/756">available on eprint</a>).  </p>
+<p><b>Abstract.</b> The well-known classical constructions of garbled circuits use four ciphertexts per gate, although various methods have been proposed to reduce this cost. The best previously known methods for optimizing AND gates (two ciphertexts; Pinkas et al., ASIACRYPT 2009) and XOR gates (zero ciphertexts; Kolesnikov &#038; Schneider, ICALP 2008) were incompatible, so most implementations used the best known method compatible with free-XOR gates (three ciphertexts; Kolesnikov &#038; Schneider, ICALP 2008). In this work we show how to simultaneously garble AND gates using two ciphertexts and XOR gates using zero ciphertexts, resulting in smaller garbled circuits than any prior scheme. The main idea behind our construction is to break an AND gate into two half-gates &mdash; AND gates for which one party knows one input. Each half-gate can be garbled with a single ciphertext, so our construction uses two ciphertexts for each AND gate while being compatible with free-XOR gates. The price for the reduction in size is that the evaluator must perform two cryptographic operations per AND gate, rather than one as in previous schemes. We experimentally demonstrate that our garbling scheme leads to an overall decrease in time (up to 25%), bandwidth (up to 33%), and energy use (up to 20%) over several benchmark applications. We also initiate a study of lower bounds for garbled gate size, and show that our construction is optimal for a large class of garbling schemes encompassing all known practical garbling techniques.</p>
+<p><center><br />
+<img src="../images/halfgatestable-small.png" width=700 height=279><br />
+</center></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2014/two-halves-make-a-whole"
+    dc:identifier="https://www.jeffersonswheel.org/2014/two-halves-make-a-whole"
+    dc:title="Two Halves Make a Whole!"
+    trackback:ping="https://www.jeffersonswheel.org/2014/two-halves-make-a-whole/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-487"><a href="../2013/karsten-nohl-visits-uva.html" rel="bookmark" title="Permanent Link to Karsten Nohl visits UVa">Karsten Nohl visits UVa</a></h3>
+				<small>Friday, November 1st, 2013</small>
+				
+				<div class="entry">
+					<p>Karsten Nohl, who complete a PhD in our group in 2009, is visiting UVa this week.  UVa Today has an article: <a href="http://news.virginia.edu/content/renowned-white-hat-hacker-speak-real-world-security-holes"><em>Renowned ‘White Hat Hacker’ to Speak on Real-World Security Holes</em></a>:</p>
+<blockquote><p>
+University of Virginia graduate Karsten Nohl, one of the world’s most famous “white hat computer hackers,” will speak Friday at 3:30 p.m. in Rice Hall, room 130, about lessons learned from the security holes that he and fellow researchers have uncovered in mobile phones, wireless car keys and other technology used by billions of people everyday.
+</p>
+<p>
+Nohl first made international headlines in 2008, while still a computer engineering doctoral student at U.Va., for research that exposed vulnerabilities in the world’s most popular smartcard, used by millions of people to pay fares on several major mass-transit systems around the world, including the London Underground and the Boston subway.
+</p>
+<p>
+<img src="http://news.virginia.edu/sites/default/files/styles/380px_wide/public/Karsten_Nohl_02HR_DA.jpg?itok=EXdFgK5B" align="right"><br />
+Such cards utilize miniscule wireless computer chips, about the size of a grain of rice, called RFIDs, short for “radio-frequency identification.” They send and receive information over short distances (generally 10 feet or less) via very low-power radio waves.
+</p>
+<p>
+As an ethical security researcher, often called a “white hat hacker,” Nohl exposes vulnerabilities to spur improvements in the systems that he researches. He now does such work around the world as the founder and director of research at Security Research Labs in Berlin.
+</p>
+<p>
+To prevent those with nefarious purposes from exploiting security holes he uncovers, Nohl typically withholds key details of the exploit and discloses his findings only months after sharing his research with the relevant manufacturers or trade organizations to allow them to roll out upgrades or countermeasures to mitigate the security risk.
+</p>
+<p>
+Since graduating from U.Va. in August 2008, Nohl has gone on to discover and demonstrate two key security vulnerabilities in mobile phones – encryption flaws in both the GSM protocol that most cell phones use to communicate with cell towers, and in SIM cards, the tiny “subscriber identity module” chip in every phone that identifies and authenticates the phone.
+</p>
+<p>
+Both discoveries generated worldwide media coverage.
+</p>
+<p>
+As just one example of possible ramifications, the latter security hole could allow a malicious hacker to send a virus through a text message, which could then allow the hacker to eavesdrop on calls or make purchases through mobile payment systems.
+</p>
+<p>
+“Karsten has had an outstanding impact in analyzing how cryptography gets used in the real world and demonstrating what goes wrong when important engineering principles are not followed carefully,” said computer science professor David Evans, Nohl’s former doctoral adviser and a co-organizer of Friday’s talk. “The vulnerabilities he has identified in RFID algorithms, GSM encryption and SIM cards impact billions of devices most of us use every day, and it’s really important that people understand the security weaknesses in these systems and that vendors work to improve them. Karsten’s work is a fundamental step toward those goals.”
+</p>
+<p>
+Nohl’s talk will discuss how security exploits with real-world implications are usually enabled by not just one design flaw, but by deviations from best practices on multiple design layers. Protection designs that focus on a single security function and neglect complementary layers are more prone to compromise, Nohl will argue, with examples from his own research on three widely deployed technologies – cell phones, car keys and smartcards.
+</p>
+<p>
+“Real-world cryptographic systems rarely meet academic expectations, with most systems being shown ‘insecure’ at some point,” Nohl said in an email description of his talk. “At the same time, our IT-driven world has not yet fallen apart, suggesting that many protection mechanisms are ‘secure enough’ for how they are employed.”
+</p>
+<p>
+The talk will be followed by a reception in the fourth-floor atrium of Rice Hall.
+</p>
+<p>
+The event is co-sponsored by the departments of Computer Science and Electrical and Computer Engineering, which jointly administer U.Va.’s computer engineering Program in the School of Engineering and Applied Science.
+</p>
+</blockquote>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="news.html" title="View all posts in News" rel="category tag">News</a>, <a href="privacy.html" title="View all posts in Privacy" rel="category tag">Privacy</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="rfid.html" title="View all posts in RFID" rel="category tag">RFID</a>, <a href="security.html" title="View all posts in Security" rel="category tag">Security</a>, <a href="talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2013/karsten-nohl-visits-uva"
+    dc:identifier="https://www.jeffersonswheel.org/2013/karsten-nohl-visits-uva"
+    dc:title="Karsten Nohl visits UVa"
+    trackback:ping="https://www.jeffersonswheel.org/2013/karsten-nohl-visits-uva/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-522"><a href="../2013/engineering-cryptosystems.html" rel="bookmark" title="Permanent Link to Engineering Cryptosystems">Engineering Cryptosystems</a></h3>
+				<small>Wednesday, October 30th, 2013</small>
+				
+				<div class="entry">
+					<p>I gave a four-session &#8220;mini-course&#8221; for Microstrategy on <a href="http://mightbeevil.com/crypto/"><i>Engineering Cryptosystems</i></a>.  It ended up attracting enough interest to be moved from their offices to a nearby movie theater!</p>
+<p><center><br />
+<img src="http://www.mightbeevil.org/crypto/static/images/theater.png" width=500</img><br />
+</center></p>
+<p>The course was targeted to engineers at Microstrategy with no prior experience with cryptography, and designed to give them some ideas of the power of modern cryptography, and to provide enough stories about cryptosystems going bad to convince them not do try to develop their own cryptosystems, and to know enough to ask the right questions of people who do.</p>
+<p>The four main topics were:</p>
+<ul>
+<li> <a href="http://www.mightbeevil.com/crypto/day1.html">Symmetric Cryptosystems</a>
+<li> <a href="http://www.mightbeevil.com/crypto/day2.html">Using (and Misusing) Symmetric Cryptosystems</a>
+<li> <A href="http://www.mightbeevil.com/crypto/day3.html">Public-Key Protocols</a>
+<li> <A href="http://www.mightbeevil.com/crypto/day4.html">The Future of Cryptography</a>
+</ul>
+<p>Since it was in a movie theater, it also provided an opportunity to officially screen this trailer in a real movie theater:<br />
+<center><br />
+<iframe width="640" height="360" src="http://www.youtube.com/embed/0QT_CUSOslY?feature=player_embedded" frameborder="0" allowfullscreen><br />
+</iframe><br />
+</center></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="history.html" title="View all posts in History" rel="category tag">History</a>, <a href="movies.html" title="View all posts in Movies" rel="category tag">Movies</a>, <a href="talks.html" title="View all posts in Talks" rel="category tag">Talks</a>, <a href="teaching.html" title="View all posts in Teaching" rel="category tag">Teaching</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2013/engineering-cryptosystems"
+    dc:identifier="https://www.jeffersonswheel.org/2013/engineering-cryptosystems"
+    dc:title="Engineering Cryptosystems"
+    trackback:ping="https://www.jeffersonswheel.org/2013/engineering-cryptosystems/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-475"><a href="../2013/symmetric-cut-and-choose.html" rel="bookmark" title="Permanent Link to Symmetric Cut-and-Choose">Symmetric Cut-and-Choose</a></h3>
+				<small>Friday, June 14th, 2013</small>
+				
+				<div class="entry">
+					<p>
+Our paper on <em>symmetric cut-and-choose</em> is <a href="http://www.cs.virginia.edu/evans/pubs/crypto2013/">now available</a>.  The paper will be presented at <a href="http://www.iacr.org/conferences/crypto2013/">CRYPTO 2013</a> in August.
+</p>
+<p>
+<b>Abstract.</b> Beginning with the work of Lindell and Pinkas, researchers have proposed several protocols for secure two-party computation based on the <em>cut-and-choose</em> paradigm. In existing instantiations of this paradigm, one party generates <em>k</em> garbled circuits; some fraction of those are &#8220;checked&#8221; by the other party, and the remaining fraction are evaluated. We introduce here the idea of <em>symmetric</em> cut-and-choose protocols, in which both parties generate <em>k</em> circuits to be checked by the other party. The main advantage of our technique is that <em>k</em> can be reduced by a factor of 3 while attaining the same statistical security level as in prior work.  Since the number of garbled circuits dominates the costs of the protocol, especially as larger circuits are evaluated, our protocol is expected to run up to 3 times faster than existing schemes. Preliminary experiments validate this claim.
+</p>
+<p>
+<b>Full paper</b> (16 pages): [<a href="http://www.cs.virginia.edu/evans/pubs/crypto2013/symmetric-cut-and-choose.pdf">PDF</a>]</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="conferences.html" title="View all posts in Conferences" rel="category tag">Conferences</a>, <a href="cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="papers.html" title="View all posts in Papers" rel="category tag">Papers</a>, <a href="research.html" title="View all posts in Research" rel="category tag">Research</a>, <a href="secure-computation.html" title="View all posts in Secure Computation" rel="category tag">Secure Computation</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2013/symmetric-cut-and-choose"
+    dc:identifier="https://www.jeffersonswheel.org/2013/symmetric-cut-and-choose"
+    dc:title="Symmetric Cut-and-Choose"
+    trackback:ping="https://www.jeffersonswheel.org/2013/symmetric-cut-and-choose/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+				<div class="post">
+				<h3 id="post-462"><a href="../2013/stephen-colbert-on-jeffersons-wheel.html" rel="bookmark" title="Permanent Link to Stephen Colbert on Jefferson&#8217;s Wheel!">Stephen Colbert on Jefferson&#8217;s Wheel!</a></h3>
+				<small>Wednesday, May 22nd, 2013</small>
+				
+				<div class="entry">
+					<p>Stephen Colbert spoke about Jefferson&#8217;s wheel cipher at his valediction speech:<br />
+<center><br />
+<iframe width="525" height="394" src="http://www.youtube.com/embed/kNkxQKGex28#9m45s" frameborder="0" allowfullscreen></iframe><br />
+</center></p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="cryptography.html" title="View all posts in Cryptography" rel="category tag">Cryptography</a>, <a href="history.html" title="View all posts in History" rel="category tag">History</a>, <a href="talks.html" title="View all posts in Talks" rel="category tag">Talks</a> <strong>|</strong>   <span>Comments Off</span></p> 
+				
+				<!--
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.jeffersonswheel.org/2013/stephen-colbert-on-jeffersons-wheel"
+    dc:identifier="https://www.jeffersonswheel.org/2013/stephen-colbert-on-jeffersons-wheel"
+    dc:title="Stephen Colbert on Jefferson&#8217;s Wheel!"
+    trackback:ping="https://www.jeffersonswheel.org/2013/stephen-colbert-on-jeffersons-wheel/trackback" />
+</rdf:RDF>				-->
+			</div>
+	
+		
+		<div class="navigation">
+			<div class="alignleft"><a href="cryptography/page/2.html" >&laquo; Previous Entries</a></div>
+			<div class="alignright"><a href="cryptography/page/2.html" >Next Page &raquo;</a></div>
+		</div>
+	
+			
+	</div>
+
+	<div id="sidebar">
+
+<p></p>
+		<ul>
+
+<li><h2>
+<a href="http://www.cs.virginia.edu/evans/pubs/">Publications</a><br>
+<a href="https://uvasrg.slack.com/signup">Join Slack
+Group</a></h2>
+
+<li><h2>
+<a href="http://www.cs.virginia.edu/evans/students.html">Team</a></h2>
+<a href="http://www.cs.virginia.edu/evans/">David Evans</a><br>
+</li>
+<li><h2>
+<a href="../awards.html">Awards</a></h2>
+</li>
+
+<li><h2>
+<a href="https://uvasrg.slack.com/">Slack Group</a></h2>
+</li>
+
+			
+			<!--
+			<li class="pagenav"><h2>Pages</h2><ul><li class="page_item page-item-2"><a href="https://www.jeffersonswheel.org/about">About</a></li>
+<li class="page_item page-item-394"><a href="https://www.jeffersonswheel.org/awards">Awards</a></li>
+</ul></li>			-->
+
+			<li><h2>Archives</h2>
+				<ul>
+					<li><a href='../2018.html' title='2018'>2018</a></li>
+	<li><a href='../2017.html' title='2017'>2017</a></li>
+	<li><a href='../2016.html' title='2016'>2016</a></li>
+	<li><a href='../2015.html' title='2015'>2015</a></li>
+	<li><a href='../2014.html' title='2014'>2014</a></li>
+	<li><a href='../2013.html' title='2013'>2013</a></li>
+	<li><a href='../2012.html' title='2012'>2012</a></li>
+	<li><a href='../2011.html' title='2011'>2011</a></li>
+	<li><a href='../2010.html' title='2010'>2010</a></li>
+	<li><a href='../2009.html' title='2009'>2009</a></li>
+	<li><a href='../2008.html' title='2008'>2008</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Categories</h2>
+				<ul>
+					<li class="cat-item cat-item-41"><a href="adversarial-machine-learning.html" title="View all posts filed under Adversarial Machine Learning">Adversarial Machine Learning</a> (16)
+</li>
+	<li class="cat-item cat-item-38"><a href="alumni.html" title="View all posts filed under Alumni">Alumni</a> (19)
+</li>
+	<li class="cat-item cat-item-12"><a href="awards.html" title="View all posts filed under Awards">Awards</a> (13)
+</li>
+	<li class="cat-item cat-item-37"><a href="childrens-books.html" title="View all posts filed under Children&#039;s Books">Children&#039;s Books</a> (2)
+</li>
+	<li class="cat-item cat-item-18"><a href="conferences.html" title="View all posts filed under Conferences">Conferences</a> (56)
+</li>
+	<li class="cat-item cat-item-24"><a href="contests.html" title="View all posts filed under Contests">Contests</a> (2)
+</li>
+	<li class="cat-item cat-item-40"><a href="cryptocurrency.html" title="View all posts filed under Cryptocurrency">Cryptocurrency</a> (4)
+</li>
+	<li class="cat-item cat-item-6 current-cat"><a href="cryptography.html" title="View all posts filed under Cryptography">Cryptography</a> (52)
+</li>
+	<li class="cat-item cat-item-11"><a href="disk-processing.html" title="View all posts filed under Disk Processing">Disk Processing</a> (3)
+</li>
+	<li class="cat-item cat-item-25"><a href="guardrails.html" title="View all posts filed under GuardRails">GuardRails</a> (4)
+</li>
+	<li class="cat-item cat-item-21"><a href="history.html" title="View all posts filed under History">History</a> (7)
+</li>
+	<li class="cat-item cat-item-44"><a href="machine-learning.html" title="View all posts filed under Machine Learning">Machine Learning</a> (6)
+</li>
+	<li class="cat-item cat-item-23"><a href="medical-devices.html" title="View all posts filed under Medical Devices">Medical Devices</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="movies.html" title="View all posts filed under Movies">Movies</a> (2)
+</li>
+	<li class="cat-item cat-item-28"><a href="news.html" title="View all posts filed under News">News</a> (19)
+</li>
+	<li class="cat-item cat-item-13"><a href="papers.html" title="View all posts filed under Papers">Papers</a> (34)
+</li>
+	<li class="cat-item cat-item-42"><a href="passwords.html" title="View all posts filed under Passwords">Passwords</a> (2)
+</li>
+	<li class="cat-item cat-item-43"><a href="personal-assistant.html" title="View all posts filed under Personal Assistant">Personal Assistant</a> (1)
+</li>
+	<li class="cat-item cat-item-35"><a href="pictures.html" title="View all posts filed under Pictures">Pictures</a> (7)
+</li>
+	<li class="cat-item cat-item-20"><a href="politics.html" title="View all posts filed under Politics">Politics</a> (8)
+</li>
+	<li class="cat-item cat-item-4"><a href="privacy.html" title="View all posts filed under Privacy">Privacy</a> (82)
+</li>
+	<li class="cat-item cat-item-16"><a href="program-analysis.html" title="View all posts filed under Program Analysis">Program Analysis</a> (10)
+</li>
+	<li class="cat-item cat-item-3"><a href="research.html" title="View all posts filed under Research">Research</a> (144)
+</li>
+	<li class="cat-item cat-item-5"><a href="rfid.html" title="View all posts filed under RFID">RFID</a> (40)
+</li>
+	<li class="cat-item cat-item-27"><a href="secure-computation.html" title="View all posts filed under Secure Computation">Secure Computation</a> (38)
+</li>
+	<li class="cat-item cat-item-8"><a href="security.html" title="View all posts filed under Security">Security</a> (116)
+</li>
+	<li class="cat-item cat-item-32"><a href="side-channel-analysis.html" title="View all posts filed under Side-Channel Analysis">Side-Channel Analysis</a> (2)
+</li>
+	<li class="cat-item cat-item-30"><a href="smartphones.html" title="View all posts filed under Smartphones">Smartphones</a> (8)
+</li>
+	<li class="cat-item cat-item-7"><a href="social-networks.html" title="View all posts filed under Social Networks">Social Networks</a> (28)
+</li>
+	<li class="cat-item cat-item-15"><a href="software-engineering.html" title="View all posts filed under Software Engineering">Software Engineering</a> (3)
+</li>
+	<li class="cat-item cat-item-45"><a href="startups.html" title="View all posts filed under Startups">Startups</a> (1)
+</li>
+	<li class="cat-item cat-item-26"><a href="talks.html" title="View all posts filed under Talks">Talks</a> (41)
+</li>
+	<li class="cat-item cat-item-17"><a href="teaching.html" title="View all posts filed under Teaching">Teaching</a> (19)
+</li>
+	<li class="cat-item cat-item-1"><a href="uncategorized.html" title="View all posts filed under Uncategorized">Uncategorized</a> (1)
+</li>
+	<li class="cat-item cat-item-39"><a href="usb.html" title="View all posts filed under USB">USB</a> (2)
+</li>
+	<li class="cat-item cat-item-10"><a href="voting.html" title="View all posts filed under Voting">Voting</a> (2)
+</li>
+	<li class="cat-item cat-item-29"><a href="web-security.html" title="View all posts filed under Web Security">Web Security</a> (21)
+</li>
+				</ul>
+
+
+			</li>
+
+<!--				  <li id="linkcat-2" class="linkcat"><h2>Blogroll</h2>
+	<ul>
+
+	</ul>
+</li>
+ -->
+
+
+					
+			
+
+
+		</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+
+<!-- 19 queries. 0.185 seconds. -->
+</div>
+</div>
+
+<!--		 -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+  Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-3775212-2', 'auto');
+	  ga('send', 'pageview');
+
+	  </script>
+
+</body>
+
+<!-- Mirrored from www.jeffersonswheel.org/category/cryptography by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Dec 2018 00:45:17 GMT -->
+</html>

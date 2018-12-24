@@ -1,0 +1,545 @@
+HTTrack3.49-2 launched on Sun, 23 Dec 2018 19:34:48 at https://www.jeffersonswheel.org
+(httrack https://www.jeffersonswheel.org )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:58:45	Error: 	"Not Found" (404) at link https://www.jeffersonswheel.org/2014/www.amazon.com/gp/product/1495944980 (from https://www.jeffersonswheel.org/2014/02)
+20:03:37	Error: 	"Forbidden" (403) at link https://www.jeffersonswheel.org/wp-content/uploads/2011/11/cra2006.gif (from https://www.jeffersonswheel.org/2011/11)
+20:04:04	Error: 	"Forbidden" (403) at link https://www.jeffersonswheel.org/wp-content/uploads/2011/11/IMG_7093.jpg (from https://www.jeffersonswheel.org/2011/11)
+20:04:04	Error: 	"Forbidden" (403) at link https://www.jeffersonswheel.org/wp-content/uploads/2011/11/IMG_7093-1024x672.jpg (from https://www.jeffersonswheel.org/2011/11)
+20:04:04	Error: 	"Forbidden" (403) at link https://www.jeffersonswheel.org/wp-content/uploads/2011/11/IMG_7094.jpg (from https://www.jeffersonswheel.org/2011/11)
+20:04:04	Error: 	"Forbidden" (403) at link https://www.jeffersonswheel.org/wp-content/uploads/2011/11/IMG_7094-1024x847.jpg (from https://www.jeffersonswheel.org/2011/11)
+20:05:47	Error: 	"Forbidden" (403) at link https://www.jeffersonswheel.org/wp-content/uploads/2011/09/cybercriminals.jpg (from https://www.jeffersonswheel.org/2011/09)
+20:05:47	Error: 	"Forbidden" (403) at link https://www.jeffersonswheel.org/wp-content/uploads/2011/09/cybercriminals-1024x715.jpg (from https://www.jeffersonswheel.org/2011/09)
+20:06:15	Warning: 	File not parsed, looks like binary: https://www.jeffersonswheel.org/images/ESORICS_Zhou_Evans.pptx
+20:07:56	Warning: 	Moved Permanently for www.jeffersonswheel.org/robots.txt
+20:07:56	Warning: 	Redirected link is identical because of 'URL Hack' option: www.jeffersonswheel.org/robots.txt and https://www.jeffersonswheel.org/robots.txt
+20:07:56	Warning: 	Warning moved treated for www.jeffersonswheel.org/robots.txt (real one is https://www.jeffersonswheel.org/robots.txt)
+20:08:10	Warning: 	Moved Permanently for www.jeffersonswheel.org/?p=276
+20:08:10	Warning: 	Redirected link is identical because of 'URL Hack' option: www.jeffersonswheel.org/?p=276 and https://www.jeffersonswheel.org/?p=276
+20:08:10	Warning: 	File has moved from www.jeffersonswheel.org/?p=276 to https://www.jeffersonswheel.org/?p=276
+20:08:10	Warning: 	Moved Permanently for www.jeffersonswheel.org/?p=265
+20:08:10	Warning: 	Redirected link is identical because of 'URL Hack' option: www.jeffersonswheel.org/?p=265 and https://www.jeffersonswheel.org/?p=265
+20:08:10	Warning: 	File has moved from www.jeffersonswheel.org/?p=265 to https://www.jeffersonswheel.org/?p=265
+20:15:52	Warning: 	Moved Permanently for www.jeffersonswheel.org/?p=73
+20:15:52	Warning: 	Redirected link is identical because of 'URL Hack' option: www.jeffersonswheel.org/?p=73 and https://www.jeffersonswheel.org/?p=73
+20:15:52	Warning: 	File has moved from www.jeffersonswheel.org/?p=73 to https://www.jeffersonswheel.org/?p=73
+20:17:34	Warning: 	Link https://www.jeffersonswheel.org/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+20:17:35	Error: 	"Not Found" (404) at link https://www.jeffersonswheel.org/2008/71 (from https://www.jeffersonswheel.org/2008/10)
+20:17:35	Warning: 	Moved Permanently for www.jeffersonswheel.org/?p=4
+20:17:35	Warning: 	Redirected link is identical because of 'URL Hack' option: www.jeffersonswheel.org/?p=4 and https://www.jeffersonswheel.org/?p=4
+20:17:35	Warning: 	File has moved from www.jeffersonswheel.org/?p=4 to https://www.jeffersonswheel.org/?p=4
+20:17:35	Warning: 	Moved Permanently for www.jeffersonswheel.org/?p=65
+20:17:35	Warning: 	Redirected link is identical because of 'URL Hack' option: www.jeffersonswheel.org/?p=65 and https://www.jeffersonswheel.org/?p=65
+20:17:35	Warning: 	File has moved from www.jeffersonswheel.org/?p=65 to https://www.jeffersonswheel.org/?p=65
+20:25:35	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=900
+20:25:35	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=900 to https://www.jeffersonswheel.org/2018/artificial-intelligence-the-new-ghost-in-the-machine
+20:25:42	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=889
+20:25:42	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=889 to https://www.jeffersonswheel.org/2018/violations-of-childrens-privacy-laws
+20:26:07	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=892
+20:26:07	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=892 to https://www.jeffersonswheel.org/2018/usenix-security-2018
+20:26:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=883
+20:26:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=883 to https://www.jeffersonswheel.org/2018/mutually-assured-destruction-and-the-impending-ai-apocalypse
+20:26:09	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=880
+20:26:09	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=880 to https://www.jeffersonswheel.org/2018/dependable-and-secure-machine-learning
+20:26:09	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=875
+20:26:09	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=875 to https://www.jeffersonswheel.org/2018/cybersecurity-summer-camp
+20:26:09	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=864
+20:26:09	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=864 to https://www.jeffersonswheel.org/2018/dls-keynote-is-adversarial-examples-an-adversarial-example
+20:26:09	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=849
+20:26:09	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=849 to https://www.jeffersonswheel.org/2018/srg-at-ieee-sp-2018
+20:26:09	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=868
+20:26:09	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=868 to https://www.jeffersonswheel.org/2018/huawei-stw-lessons-from-the-last-3000-years-of-adversarial-examples
+20:26:09	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=843
+20:26:09	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=843 to https://www.jeffersonswheel.org/2018/feature-squeezing-at-ndss
+20:26:57	Error: 	"Not Found" (404) at link https://www.jeffersonswheel.org/www.amazon.com/gp/product/1495944980 (from https://www.jeffersonswheel.org/2014)
+20:27:03	Error: 	"Not Found" (404) at link https://www.jeffersonswheel.org/category/www.amazon.com/gp/product/1495944980 (from https://www.jeffersonswheel.org/category/childrens-books)
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=837
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=837 to https://www.jeffersonswheel.org/2017/why-hasnt-cross-site-scripting-been-solved
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=840
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=840 to https://www.jeffersonswheel.org/2017/muzzammil-zaveri-on-forbes-30-under-30
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=833
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=833 to https://www.jeffersonswheel.org/2017/letter-to-dhs
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=824
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=824 to https://www.jeffersonswheel.org/2017/highlights-from-ccs-2017
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=815
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=815 to https://www.jeffersonswheel.org/2017/first-workshop-for-women-in-cybersecurity
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=798
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=798 to https://www.jeffersonswheel.org/2017/alumna-turned-internet-security-expert-listed-among-nations-top-young-innovators
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=803
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=803 to https://www.jeffersonswheel.org/2017/srg-at-usenix-security-2017
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=794
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=794 to https://www.jeffersonswheel.org/2017/in-the-red-corner
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=821
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=821 to https://www.jeffersonswheel.org/2017/cispa-distinguished-lecture
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=789
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=789 to https://www.jeffersonswheel.org/2017/horcrux-is-a-password-manager-designed-for-security-and-paranoid-users
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=783
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=783 to https://www.jeffersonswheel.org/2017/secure-multi-party-computation-promises-protocols-and-practicalities
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=777
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=777 to https://www.jeffersonswheel.org/2017/adversarial-machine-learning-are-we-playing-the-wrong-game
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=771
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=771 to https://www.jeffersonswheel.org/2017/modest-proposals-for-google
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=635
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=635 to https://www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=766
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=766 to https://www.jeffersonswheel.org/2017/feature-squeezing-detecting-adversarial-examples
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=761
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=761 to https://www.jeffersonswheel.org/2017/enigma-2017-talk-classifiers-under-attack
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=751
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=751 to https://www.jeffersonswheel.org/2017/ccs-2017
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=757
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=757 to https://www.jeffersonswheel.org/2017/growth-of-mpc-research
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=749
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=749 to https://www.jeffersonswheel.org/2016/aggregating-private-sparse-learning-models-using-multi-party-computation
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=746
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=746 to https://www.jeffersonswheel.org/2016/oreilly-security-2016-classifiers-under-attack
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=744
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=744 to https://www.jeffersonswheel.org/2016/demystifying-the-blockchain-hype
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=735
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=735 to https://www.jeffersonswheel.org/2016/secure-stable-matching-at-scale
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=738
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=738 to https://www.jeffersonswheel.org/2016/ftc-visit
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=723
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=723 to https://www.jeffersonswheel.org/2016/private-multi%e2%80%91party-machine-learning
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=725
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=725 to https://www.jeffersonswheel.org/2016/insecure-by-default-authentication-services-in-popular-web-frameworks
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=701
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=701 to https://www.jeffersonswheel.org/2016/open-source-echo
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=710
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=710 to https://www.jeffersonswheel.org/2016/shanghaitech-symposium
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=706
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=706 to https://www.jeffersonswheel.org/2016/aarhus-workshop-on-theory-and-practice-of-secure-multiparty-computation
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=717
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=717 to https://www.jeffersonswheel.org/2016/srg-at-oakland-2016
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=700
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=700 to https://www.jeffersonswheel.org/2016/summer-school-at-notre-dame
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=687
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=687 to https://www.jeffersonswheel.org/2016/srg-graduates-lunch
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=674
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=674 to https://www.jeffersonswheel.org/2016/tracking-congressional-phones
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=668
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=668 to https://www.jeffersonswheel.org/2016/an-exercise-in-password-security-went-terribly-wrong-security-experts-say
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=653
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=653 to https://www.jeffersonswheel.org/2016/spectra-articles-privacy-preserving-regression-and-ombuds
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=642
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=642 to https://www.jeffersonswheel.org/2016/apple-and-the-fbi
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=632
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=632 to https://www.jeffersonswheel.org/2016/weilins-summer-of-code
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=623
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=623 to https://www.jeffersonswheel.org/2015/latest-from-karsten-nohl-pos-security
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=620
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=620 to https://www.jeffersonswheel.org/2015/dormant-malicious-code-discovered-on-thousands-of-websites
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=617
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=617 to https://www.jeffersonswheel.org/2015/evading-machine-learning-classifiers
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=607
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=607 to https://www.jeffersonswheel.org/2015/computer-science-grad-stands-watch-for-users-of-googles-popular-browser
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=610
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=610 to https://www.jeffersonswheel.org/2015/trick-or-treat-bitcoin-for-non-believers-cryptocurrencies-for-cypherpunks
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=604
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=604 to https://www.jeffersonswheel.org/2015/karsten-nohl-interview
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=602
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=602 to https://www.jeffersonswheel.org/2015/usenix-phd-forum-talk-how-to-live-in-paradise
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=596
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=596 to https://www.jeffersonswheel.org/2015/crossing
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=592
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=592 to https://www.jeffersonswheel.org/2015/srg-at-oakland-2015
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=590
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=590 to https://www.jeffersonswheel.org/2015/graduates-lunch
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=584
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=584 to https://www.jeffersonswheel.org/2015/congratulations-samee-zahur-2
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=582
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=582 to https://www.jeffersonswheel.org/2015/congratulations-dr-zhou
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=576
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=576 to https://www.jeffersonswheel.org/2015/understanding-and-monitoring-embedded-web-scripts
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=573
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=573 to https://www.jeffersonswheel.org/2015/who-does-the-autopsy
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=570
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=570 to https://www.jeffersonswheel.org/2015/idash-competition-winner
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=567
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=567 to https://www.jeffersonswheel.org/2015/giving-web-developers-tools-to-protect-their-sites-and-users
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=564
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=564 to https://www.jeffersonswheel.org/2015/gogos-fake-ssl-certificates
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=560
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=560 to https://www.jeffersonswheel.org/2014/updates-from-karstens-badusb
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=556
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=556 to https://www.jeffersonswheel.org/2014/hacker-school-talk-what-every-hacker-should-know-about-theory-of-computation
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=533
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=533 to https://www.jeffersonswheel.org/2014/twitter-single-sign-on
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=550
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=550 to https://www.jeffersonswheel.org/2014/two-halves-make-a-whole
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=539
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=539 to https://www.jeffersonswheel.org/2014/congratulations-professor-huang
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=517
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=517 to https://www.jeffersonswheel.org/2014/ssoscan-automated-testing-of-web-applications-for-single-sign-on-vulnerabilities
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=497
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=497 to https://www.jeffersonswheel.org/2014/congratulations-samee-zahur
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=500
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=500 to https://www.jeffersonswheel.org/2014/congratulations-yuchen
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=505
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=505 to https://www.jeffersonswheel.org/2014/multi-party-computation-in-2029
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=512
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=512 to https://www.jeffersonswheel.org/2014/dori-mic-and-the-universal-machine
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=492
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=492 to https://www.jeffersonswheel.org/2014/new-years-lunch
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=487
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=487 to https://www.jeffersonswheel.org/2013/karsten-nohl-visits-uva
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=522
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=522 to https://www.jeffersonswheel.org/2013/engineering-cryptosystems
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=479
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=479 to https://www.jeffersonswheel.org/2013/explicating-sdks
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=475
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=475 to https://www.jeffersonswheel.org/2013/symmetric-cut-and-choose
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=467
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=467 to https://www.jeffersonswheel.org/2013/congratulations-srg-graduates
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=462
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=462 to https://www.jeffersonswheel.org/2013/stephen-colbert-on-jeffersons-wheel
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=453
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=453 to https://www.jeffersonswheel.org/2013/congratulations-jonathan
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=450
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=450 to https://www.jeffersonswheel.org/2013/moocs-koocs-and-smoochs
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=443
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=443 to https://www.jeffersonswheel.org/2013/trusted-password-entry
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=441
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=441 to https://www.jeffersonswheel.org/2013/circuit-structures-for-improving-efficiency-of-security-and-privacy-tools
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=437
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=437 to https://www.jeffersonswheel.org/2013/cs101-one-year-later
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=435
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=435 to https://www.jeffersonswheel.org/2012/the-power-of-computing
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=428
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=428 to https://www.jeffersonswheel.org/2012/silver-bullet-interview
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=431
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=431 to https://www.jeffersonswheel.org/2012/professors-without-borders
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=423
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=423 to https://www.jeffersonswheel.org/2012/quid-pro-quo-tocols-strengthening-semi-honest-protocols-with-dual-executionquid-pro-quo-tocols-strengthening-semi-honest-protocols-with-dual-execution
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=419
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=419 to https://www.jeffersonswheel.org/2012/austin-devinney-featured-in-radford-news
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=416
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=416 to https://www.jeffersonswheel.org/2012/university-of-richmond-talk
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=412
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=412 to https://www.jeffersonswheel.org/2011/karstens-gsm-studies
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=407
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=407 to https://www.jeffersonswheel.org/2011/iciss-keynote
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=391
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=391 to https://www.jeffersonswheel.org/2011/congratulations-to-jiamin-and-peter
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=379
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=379 to https://www.jeffersonswheel.org/2011/private-set-intersection
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=374
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=374 to https://www.jeffersonswheel.org/2011/efficient-secure-computation-with-garbled-circuits
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=366
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=366 to https://www.jeffersonswheel.org/2011/steve-huffman-visit
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=363
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=363 to https://www.jeffersonswheel.org/2011/talk-on-talks
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=360
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=360 to https://www.jeffersonswheel.org/2011/nyu-poly-att-applied-security-paper-finalist
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=349
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=349 to https://www.jeffersonswheel.org/2011/peter-chapmans-ccs-talk-on-side-channel-analysis-and-guinness
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=291
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=291 to https://www.jeffersonswheel.org/2011/side-channel-analysis-paper
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=344
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=344 to https://www.jeffersonswheel.org/2011/uva-today-story-on-secure-computation
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=341
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=341 to https://www.jeffersonswheel.org/2011/auditing-information-leakage-talk
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=339
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=339 to https://www.jeffersonswheel.org/2011/talk-to-new-graduate-students
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=331
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=331 to https://www.jeffersonswheel.org/2011/computer-criminals
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=328
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=328 to https://www.jeffersonswheel.org/2011/esorics-talk
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2011/08/
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/2011/08/ to http://www.jeffersonswheel.org/2011/08
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=324
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=324 to https://www.jeffersonswheel.org/2011/secure-computation-kickoff
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=322
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=322 to https://www.jeffersonswheel.org/2011/rice-hall
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=320
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=320 to https://www.jeffersonswheel.org/2011/auditing-information-leakage-for-distance-metrics
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=318
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=318 to https://www.jeffersonswheel.org/2011/proxino-launched
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=312
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=312 to https://www.jeffersonswheel.org/2011/usenix-security-videos
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=307
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=307 to https://www.jeffersonswheel.org/2011/forbes-interview-with-karsten-nohl
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=303
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=303 to https://www.jeffersonswheel.org/2011/faster-secure-two-party-computation-using-garbled-circuits-talk
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=296
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=296 to https://www.jeffersonswheel.org/2011/hoos-at-usenix
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=261
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=261 to https://www.jeffersonswheel.org/2011/nineteenth-century-perfect-ciphers
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=246
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=246 to https://www.jeffersonswheel.org/2011/privacy-preserving-applications-on-smartphones
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=239
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=239 to https://www.jeffersonswheel.org/2011/private-editing-talk
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=234
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=234 to https://www.jeffersonswheel.org/2011/usenix-webapps-presentation
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=229
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=229 to https://www.jeffersonswheel.org/2011/protecting-private-web-content-from-embedded-scripts
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=221
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=221 to https://www.jeffersonswheel.org/2011/secure-computation-framework
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=214
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=214 to https://www.jeffersonswheel.org/2011/science-of-security
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=207
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=207 to https://www.jeffersonswheel.org/2011/secure-computation-on-smartphones
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=205
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=205 to https://www.jeffersonswheel.org/2011/private-editing-using-untrusted-cloud-services
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=198
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=198 to https://www.jeffersonswheel.org/2011/usenix-webapps-paper
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=191
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=191 to https://www.jeffersonswheel.org/2011/bbc-on-karstens-gsm-hacks
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=184
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=184 to https://www.jeffersonswheel.org/2011/guardrails-now-available
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=182
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=182 to https://www.jeffersonswheel.org/2011/talk-on-secure-computation-in-the-realish-world
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=186
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=186 to https://www.jeffersonswheel.org/2011/faster-secure-two-party-computation-using-garbled-circuits
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=180
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=180 to https://www.jeffersonswheel.org/2011/uvers-poster
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=176
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=176 to https://www.jeffersonswheel.org/2011/guardrails-at-rubynation
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=171
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=171 to https://www.jeffersonswheel.org/2011/lattice-ciphers-for-rfid
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=166
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=166 to https://www.jeffersonswheel.org/2010/car-immobilizers
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=158
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=158 to https://www.jeffersonswheel.org/2010/secure-biometrics
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=156
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=156 to https://www.jeffersonswheel.org/2010/guardrails-at-owasp-appsec-dc
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=151
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=151 to https://www.jeffersonswheel.org/2010/deutsche-post-security-cup
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=148
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=148 to https://www.jeffersonswheel.org/2010/why-arent-http-only-cookies-more-widely-deployed
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=146
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=146 to https://www.jeffersonswheel.org/2010/scientists-work-to-keep-hackers-out-of-implanted-medical-devices
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=144
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=144 to https://www.jeffersonswheel.org/2010/oakland-2010-papers
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=138
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=138 to https://www.jeffersonswheel.org/2009/hacking-the-world-cup-draw
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=135
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=135 to https://www.jeffersonswheel.org/2009/oakland-2010-update
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=133
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=133 to https://www.jeffersonswheel.org/2009/open-source-gsm-hacking
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=130
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=130 to https://www.jeffersonswheel.org/2009/a-belated-apology-to-alan-turing
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=128
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=128 to https://www.jeffersonswheel.org/2009/oakland-2010-call-for-papers
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=126
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=126 to https://www.jeffersonswheel.org/2009/to-facebook-or-not-to-facebook
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=119
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=119 to https://www.jeffersonswheel.org/2009/how-facebook-mucks-up-office-life
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=116
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=116 to https://www.jeffersonswheel.org/2009/nsf-graduate-fellowships
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=113
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=113 to https://www.jeffersonswheel.org/2009/dagstuhl-web-application-security-seminar
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=111
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=111 to https://www.jeffersonswheel.org/2009/the-queens-ipod
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=106
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=106 to https://www.jeffersonswheel.org/2009/new-york-times-when-everyone%e2%80%99s-a-friend-is-anything-private
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=104
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=104 to https://www.jeffersonswheel.org/2009/welcome-randolph-yu-yao
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=100
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=100 to https://www.jeffersonswheel.org/2009/grown-up-digital
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=98
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=98 to https://www.jeffersonswheel.org/2009/technology-review-rfids-security-problem
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=94
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=94 to https://www.jeffersonswheel.org/2009/oakland-accepted-papers-posted
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=92
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=92 to https://www.jeffersonswheel.org/2009/outstanding-faculty-award
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=90
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=90 to https://www.jeffersonswheel.org/2009/safety-vs-ideals
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=85
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=85 to https://www.jeffersonswheel.org/2009/congratulations-dr-mccune
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=81
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=81 to https://www.jeffersonswheel.org/2009/barkers-gift-funds-chip-research
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=77
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=77 to https://www.jeffersonswheel.org/2009/uva-team-receives-1-million-grant-to-improve-rfid-security
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=76
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=76 to https://www.jeffersonswheel.org/2008/uvas-most-popular-stories-of-2008
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=75
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=75 to https://www.jeffersonswheel.org/2008/science-of-security-workshop
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=74
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=74 to https://www.jeffersonswheel.org/2008/guest-post-a-whole-new-meaning-to-viral-marketing
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=72
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=72 to https://www.jeffersonswheel.org/2008/what-should-i-read-next
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=70
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=70 to https://www.jeffersonswheel.org/2008/privacy-and-security-issues-in-social-networking
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=69
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=69 to https://www.jeffersonswheel.org/2008/bold-security-claims-about-pufs-on-rfid
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=68
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=68 to https://www.jeffersonswheel.org/2008/oakland-cfp-now-available
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=67
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=67 to https://www.jeffersonswheel.org/2008/online-friends-at-what-price
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=66
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=66 to https://www.jeffersonswheel.org/2008/students-get-crash-course-in-sciences-at-uva-camp
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=64
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=64 to https://www.jeffersonswheel.org/2008/credit-cards-stolen-without-leaving-wallet
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=63
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=63 to https://www.jeffersonswheel.org/2008/more-news-about-adrienne-felts-facebook-privacy-work
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=62
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=62 to https://www.jeffersonswheel.org/2008/interview-on-program-analysis-tools
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=60
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=60 to https://www.jeffersonswheel.org/2008/facebook-vulnerable-to-serious-xss-attack
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=59
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=59 to https://www.jeffersonswheel.org/2008/reverse-engineering-a-cryptographic-rfid-tag
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=58
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=58 to https://www.jeffersonswheel.org/2008/congratulations-dr-paul
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=57
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=57 to https://www.jeffersonswheel.org/2008/w2sp-paper-privacy-protection-for-social-networking-platforms
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=56
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=56 to https://www.jeffersonswheel.org/2008/hiding-in-groups
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=55
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=55 to https://www.jeffersonswheel.org/2008/social-networking-applications-can-pose-security-risks
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=54
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=54 to https://www.jeffersonswheel.org/2008/cs201-bill-gates-and-intelligent-design
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=53
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=53 to https://www.jeffersonswheel.org/2008/award-winners
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=52
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=52 to https://www.jeffersonswheel.org/2008/crypto-1-cryptanalysis-coverage
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=51
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=51 to https://www.jeffersonswheel.org/2008/dutch-ov-cards-weaknesses-confirmed
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=50
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=50 to https://www.jeffersonswheel.org/2008/new-attack-on-crypto-1-mifare-plus-still-secure
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=49
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=49 to https://www.jeffersonswheel.org/2008/faith-based-security
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=48
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=48 to https://www.jeffersonswheel.org/2008/nfc-phones-next-hacker-target
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=47
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=47 to https://www.jeffersonswheel.org/2008/nxp-rfid-encryption-cracked
+20:27:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2008/03/
+20:27:11	Warning: 	File has moved from https://www.jeffersonswheel.org/2008/03/ to http://www.jeffersonswheel.org/2008/03
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=46
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=46 to https://www.jeffersonswheel.org/2008/hackers-target-facebook-applications
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=45
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=45 to https://www.jeffersonswheel.org/2008/secureid-podcast-interviews-with-nohl-and-nxp
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=44
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=44 to https://www.jeffersonswheel.org/2008/talks-on-hardware-security
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=43
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=43 to https://www.jeffersonswheel.org/2008/21-opens-march-28
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=42
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=42 to https://www.jeffersonswheel.org/2008/how-they-hacked-it-the-mifare-rfid-crack-explained
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=41
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=41 to https://www.jeffersonswheel.org/2008/hacked-rfids-render-smart-cards-less-smarter
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=39
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=39 to https://www.jeffersonswheel.org/2008/talking-to-strangers-without-taking-their-candy-isolating-proxied-content
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=38
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=38 to https://www.jeffersonswheel.org/2008/nxp-statements
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=37
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=37 to https://www.jeffersonswheel.org/2008/rfid-journal-nxp-announces-new-more-secure-chip-for-transport-access-cards
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=36
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=36 to https://www.jeffersonswheel.org/2008/dsn-paper-available-security-through-redundant-data-diversity
+20:28:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2008/02/
+20:28:08	Warning: 	File has moved from https://www.jeffersonswheel.org/2008/02/ to http://www.jeffersonswheel.org/2008/02
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=20
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=20 to https://www.jeffersonswheel.org/2008/daily-progress-security-code-easy-hacking-for-uva-student
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=19
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=19 to https://www.jeffersonswheel.org/2008/group-demonstrates-security-hole-in-worlds-most-popular-smartcard
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=18
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=18 to https://www.jeffersonswheel.org/2008/frozen-in-memory
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=17
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=17 to https://www.jeffersonswheel.org/2008/what-every-human-should-know-about-security
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=16
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=16 to https://www.jeffersonswheel.org/2008/cmu-study-shows-dangers-in-facebook-apps
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=15
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=15 to https://www.jeffersonswheel.org/2008/should-facebook-preemptively-protect-users-against-rogue-apps
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=14
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=14 to https://www.jeffersonswheel.org/2008/harvard-crimson-study-finds-privacy-lapse-in-facebook-apps
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=12
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=12 to https://www.jeffersonswheel.org/2008/slashdotted-facebook-platform-privacy
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=11
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=11 to https://www.jeffersonswheel.org/2008/adrienne-felt-interviewed-on-utah-npr
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=10
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=10 to https://www.jeffersonswheel.org/2008/voting-machines-and-secret-recounts
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=7
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=7 to https://www.jeffersonswheel.org/2008/dark-reading
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=6
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=6 to https://www.jeffersonswheel.org/2008/uva-today-article-on-facebook-privacy-work
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=5
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=5 to https://www.jeffersonswheel.org/2008/facebook-privacy
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/adversarial-machine-learning/
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/category/adversarial-machine-learning/ to http://www.jeffersonswheel.org/category/adversarial-machine-learning
+20:29:00	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/research/
+20:29:00	Warning: 	File has moved from https://www.jeffersonswheel.org/category/research/ to http://www.jeffersonswheel.org/category/research
+20:29:01	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/talks/
+20:29:01	Warning: 	File has moved from https://www.jeffersonswheel.org/category/talks/ to http://www.jeffersonswheel.org/category/talks
+20:29:02	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/alumni/
+20:29:02	Warning: 	File has moved from https://www.jeffersonswheel.org/category/alumni/ to http://www.jeffersonswheel.org/category/alumni
+20:29:02	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/news/
+20:29:02	Warning: 	File has moved from https://www.jeffersonswheel.org/category/news/ to http://www.jeffersonswheel.org/category/news
+20:29:02	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/privacy/
+20:29:02	Warning: 	File has moved from https://www.jeffersonswheel.org/category/privacy/ to http://www.jeffersonswheel.org/category/privacy
+20:29:03	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/conferences/
+20:29:03	Warning: 	File has moved from https://www.jeffersonswheel.org/category/conferences/ to http://www.jeffersonswheel.org/category/conferences
+20:29:04	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/security/
+20:29:04	Warning: 	File has moved from https://www.jeffersonswheel.org/category/security/ to http://www.jeffersonswheel.org/category/security
+20:29:05	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/teaching/
+20:29:05	Warning: 	File has moved from https://www.jeffersonswheel.org/category/teaching/ to http://www.jeffersonswheel.org/category/teaching
+20:29:06	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2017/
+20:29:06	Warning: 	File has moved from https://www.jeffersonswheel.org/2017/ to http://www.jeffersonswheel.org/2017
+20:29:06	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2016/
+20:29:06	Warning: 	File has moved from https://www.jeffersonswheel.org/2016/ to http://www.jeffersonswheel.org/2016
+20:29:06	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2015/
+20:29:06	Warning: 	File has moved from https://www.jeffersonswheel.org/2015/ to http://www.jeffersonswheel.org/2015
+20:29:06	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2014/
+20:29:06	Warning: 	File has moved from https://www.jeffersonswheel.org/2014/ to http://www.jeffersonswheel.org/2014
+20:29:06	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2013/
+20:29:06	Warning: 	File has moved from https://www.jeffersonswheel.org/2013/ to http://www.jeffersonswheel.org/2013
+20:29:06	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2011/
+20:29:06	Warning: 	File has moved from https://www.jeffersonswheel.org/2011/ to http://www.jeffersonswheel.org/2011
+20:29:07	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2009/
+20:29:07	Warning: 	File has moved from https://www.jeffersonswheel.org/2009/ to http://www.jeffersonswheel.org/2009
+20:29:07	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/2008/
+20:29:07	Warning: 	File has moved from https://www.jeffersonswheel.org/2008/ to http://www.jeffersonswheel.org/2008
+20:29:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/awards/
+20:29:08	Warning: 	File has moved from https://www.jeffersonswheel.org/category/awards/ to http://www.jeffersonswheel.org/category/awards
+20:29:08	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/cryptography/
+20:29:08	Warning: 	File has moved from https://www.jeffersonswheel.org/category/cryptography/ to http://www.jeffersonswheel.org/category/cryptography
+20:29:09	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/papers/
+20:29:09	Warning: 	File has moved from https://www.jeffersonswheel.org/category/papers/ to http://www.jeffersonswheel.org/category/papers
+20:29:10	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/rfid/
+20:29:10	Warning: 	File has moved from https://www.jeffersonswheel.org/category/rfid/ to http://www.jeffersonswheel.org/category/rfid
+20:29:11	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/secure-computation/
+20:29:11	Warning: 	File has moved from https://www.jeffersonswheel.org/category/secure-computation/ to http://www.jeffersonswheel.org/category/secure-computation
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=270
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=270 to https://www.jeffersonswheel.org/2011/wireless-data-vulnerabilities
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/social-networks/
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/category/social-networks/ to http://www.jeffersonswheel.org/category/social-networks
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/category/web-security/
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/category/web-security/ to http://www.jeffersonswheel.org/category/web-security
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=35
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=35 to https://www.jeffersonswheel.org/2008/interview-karsten-nohl-mifare-classic-researcher-speaks-up
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=34
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=34 to https://www.jeffersonswheel.org/2008/cra-outstanding-undergraduate-awards
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=33
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=33 to https://www.jeffersonswheel.org/2008/london-tube-smartcard-cracked
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=32
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=32 to https://www.jeffersonswheel.org/2008/rfid-hack-could-crack-open-2-billion-smart-cards
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=30
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=30 to https://www.jeffersonswheel.org/2008/nxp-reacts-to-our-research
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=31
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=31 to https://www.jeffersonswheel.org/2008/police-using-oyster-card-data
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=28
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=28 to https://www.jeffersonswheel.org/2008/microscope-wielding-boffins-crack-tube-smartcard
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=26
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=26 to https://www.jeffersonswheel.org/2008/clarifications-on-smartcard-work
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=25
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=25 to https://www.jeffersonswheel.org/2008/hackers-find-a-way-to-crack-popular-smartcard-in-minutes
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=24
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=24 to https://www.jeffersonswheel.org/2008/boston-herald-charliecard-is-far-from-hack-proof
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=9
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=9 to https://www.jeffersonswheel.org/2008/study-raises-new-privacy-concerns-about-facebook
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=13
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=13 to https://www.jeffersonswheel.org/2008/acm-technews-university-of-virginia-engineering-school-student-probes-facebooks-vulnerabilities
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=8
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=8 to https://www.jeffersonswheel.org/2008/facebook-platform-privacy-risks-on-wcav
+20:29:12	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=21
+20:29:12	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=21 to https://www.jeffersonswheel.org/2008/privacy-security-and-social-networking-apis
+20:29:21	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=23
+20:29:21	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=23 to https://www.jeffersonswheel.org/2008/boston-globe-t-card-has-security-flaw-says-researcher
+20:29:21	Warning: 	Moved Permanently for https://www.jeffersonswheel.org/?p=22
+20:29:21	Warning: 	File has moved from https://www.jeffersonswheel.org/?p=22 to https://www.jeffersonswheel.org/2008/uva-student-hackers-crack-credit-card-security-code
+20:29:41	Error: 	"Not Found" (404) at link https://www.jeffersonswheel.org/page/www.amazon.com/gp/product/1495944980 (from https://www.jeffersonswheel.org/page/8)
+
+HTTrack Website Copier/3.49-2 mirror complete in 55 minutes 16 seconds : 866 links scanned, 596 files written (146590290 bytes overall) [134759999 bytes received at 40639 bytes/sec], 15584980 bytes transferred using HTTP compression in 542 files, ratio 20%, 3.8 requests per connection
+(12 errors, 522 warnings, 0 messages)
