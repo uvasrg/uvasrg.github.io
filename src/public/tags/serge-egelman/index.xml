@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jefferson&#39;s Wheel</title>
-    <link>https://jeffersonswheel.org/tags/serge-egelman/index.xml</link>
+    <link>//jeffersonswheel.org/tags/serge-egelman/index.xml</link>
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://jeffersonswheel.org/tags/serge-egelman/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//jeffersonswheel.org/tags/serge-egelman/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Violations of Children’s Privacy Laws</title>
-      <link>https://jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
+      <link>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
+      <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
       <description>&lt;p&gt;The New York Times has an article, &lt;a href=&#34;https://www.nytimes.com/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html&#34;&gt;&lt;em&gt;How Game Apps That Captivate Kids Have Been Collecting Their Data&lt;/em&gt;&lt;/a&gt; about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps. Serge was an undergraduate student here (back in the early 2000s) &amp;#8211; one of the things he did as a undergraduate was successfully sue a spammer.&lt;/p&gt;
 &lt;p&gt;The original paper about the study: &lt;a href=&#34;https://blues.cs.berkeley.edu/wp-content/uploads/2018/04/popets-2018-0021.pdf&#34;&gt;“Won’t Somebody Think of the Children?” Examining COPPA Compliance at Scale&lt;/a&gt;, Irwin Reyes, Primal Wijesekera, Joel Reardon, Amit Elazari Bar On, Abbas Razaghpanah, Narseo Vallina-Rodriguez, and Serge Egelman. Proceedings on Privacy Enhancing Technologies (PETS) 2018.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;br /&gt;

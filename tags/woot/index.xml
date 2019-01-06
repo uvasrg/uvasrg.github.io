@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jefferson&#39;s Wheel</title>
-    <link>https://jeffersonswheel.org/tags/woot/index.xml</link>
+    <link>//jeffersonswheel.org/tags/woot/index.xml</link>
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://jeffersonswheel.org/tags/woot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//jeffersonswheel.org/tags/woot/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mutually Assured Destruction and the Impending AI Apocalypse</title>
-      <link>https://jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
+      <link>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
+      <guid>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
       <description>&lt;p&gt;I gave a keynote talk at &lt;a href=&#34;https://www.usenix.org/conference/woot18/workshop-program&#34;&gt;USENIX Workshop of Offensive Technologies&lt;/a&gt;, Baltimore, Maryland, 13 August 2018. &lt;/p&gt;
 &lt;p&gt;The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&amp;#8217;t able to actually figure out a talk to match the title and abstract I provided.&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jefferson&#39;s Wheel</title>
-    <link>https://jeffersonswheel.org/tags/education/index.xml</link>
+    <link>//jeffersonswheel.org/tags/education/index.xml</link>
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://jeffersonswheel.org/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//jeffersonswheel.org/tags/education/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cybersecurity Summer Camp</title>
-      <link>https://jeffersonswheel.org/cybersecurity-summer-camp/</link>
+      <link>//jeffersonswheel.org/cybersecurity-summer-camp/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/cybersecurity-summer-camp/</guid>
+      <guid>//jeffersonswheel.org/cybersecurity-summer-camp/</guid>
       <description>&lt;p&gt;I helped organize a &lt;a href=&#34;https://www.ahmed.ai/cyberwars2018&#34;&gt;summer camp for high school teachers focused on cybersecurity&lt;/a&gt;, led by Ahmed Ibrahim.  Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: &lt;a href=&#34;https://github.com/evansuva/cipherschool&#34;&gt;&lt;em&gt;Cipher School for Muggles&lt;/em&gt;&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;

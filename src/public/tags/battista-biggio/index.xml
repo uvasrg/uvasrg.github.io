@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jefferson&#39;s Wheel</title>
-    <link>https://jeffersonswheel.org/tags/battista-biggio/index.xml</link>
+    <link>//jeffersonswheel.org/tags/battista-biggio/index.xml</link>
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://jeffersonswheel.org/tags/battista-biggio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//jeffersonswheel.org/tags/battista-biggio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Lessons from the Last 3000 Years of Adversarial Examples</title>
-      <link>https://jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
+      <link>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
+      <guid>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
       <description>&lt;p&gt;I spoke on &lt;em&gt;Lessons from the Last 3000 Years of Adversarial Examples&lt;/em&gt; at Huawei&amp;#8217;s Strategy and Technology Workshop in Shenzhen, China, 15 May 2018.  &lt;/p&gt;
 &lt;p&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3de1c0f163b44ab18e4928c58eea706e&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;http://speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;

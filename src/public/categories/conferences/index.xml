@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jefferson&#39;s Wheel</title>
-    <link>https://jeffersonswheel.org/categories/conferences/index.xml</link>
+    <link>//jeffersonswheel.org/categories/conferences/index.xml</link>
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://jeffersonswheel.org/categories/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//jeffersonswheel.org/categories/conferences/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>USENIX Security 2018</title>
-      <link>https://jeffersonswheel.org/usenix-security-2018/</link>
+      <link>//jeffersonswheel.org/usenix-security-2018/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/usenix-security-2018/</guid>
+      <guid>//jeffersonswheel.org/usenix-security-2018/</guid>
       <description>&lt;p&gt;Three SRG posters were presented at &lt;a
 href=&#34;https://www.usenix.org/conference/usenixsecurity18/poster-session&#34;&gt;USENIX
 Security Symposium 2018&lt;/a&gt; in Baltimore, Maryland:&lt;/p&gt;
@@ -30,16 +30,16 @@ Tian)&lt;/li&gt;
 &lt;table width=&#34;85%&#34;&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
 &lt;/td&gt;
-&lt;td href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
+&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
 &lt;/td&gt;
-&lt;td href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
+&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
@@ -54,10 +54,10 @@ Tian)&lt;/li&gt;
     
     <item>
       <title>Cybersecurity Summer Camp</title>
-      <link>https://jeffersonswheel.org/cybersecurity-summer-camp/</link>
+      <link>//jeffersonswheel.org/cybersecurity-summer-camp/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/cybersecurity-summer-camp/</guid>
+      <guid>//jeffersonswheel.org/cybersecurity-summer-camp/</guid>
       <description>&lt;p&gt;I helped organize a &lt;a href=&#34;https://www.ahmed.ai/cyberwars2018&#34;&gt;summer camp for high school teachers focused on cybersecurity&lt;/a&gt;, led by Ahmed Ibrahim.  Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: &lt;a href=&#34;https://github.com/evansuva/cipherschool&#34;&gt;&lt;em&gt;Cipher School for Muggles&lt;/em&gt;&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;
@@ -81,10 +81,10 @@ Earlier this week, 25 high school teachers – including 21 from Virginia – fi
     
     <item>
       <title>Dependable and Secure Machine Learning</title>
-      <link>https://jeffersonswheel.org/dependable-and-secure-machine-learning/</link>
+      <link>//jeffersonswheel.org/dependable-and-secure-machine-learning/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/dependable-and-secure-machine-learning/</guid>
+      <guid>//jeffersonswheel.org/dependable-and-secure-machine-learning/</guid>
       <description>&lt;p&gt;I co-organized, with &lt;a
 href=&#34;http://faculty.virginia.edu/alemzadeh/&#34;&gt;Homa Alemzadeh&lt;/a&gt; and
 &lt;a href=&#34;http://blogs.ubc.ca/karthik/&#34;&gt;Karthik Pattabiraman&lt;/a&gt;, a
@@ -93,17 +93,17 @@ Luxembourg: &lt;a href=&#34;https://dependablesecureml.github.io/&#34;&gt;DSML:
 Dependable and Secure Machine Learning&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;https://jeffersonswheel.org/images/dsn2018.jpg&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;//jeffersonswheel.org/images/dsn2018.jpg&#34; width=&#34;80%&#34;&gt;
 &lt;/center&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Wahoos at Oakland</title>
-      <link>https://jeffersonswheel.org/wahoos-at-oakland/</link>
+      <link>//jeffersonswheel.org/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/wahoos-at-oakland/</guid>
+      <guid>//jeffersonswheel.org/wahoos-at-oakland/</guid>
       <description>
 
 &lt;h2 id=&#34;uva-group-dinner-at-ieee-security-and-privacy-2018&#34;&gt;UVA Group Dinner at IEEE Security and Privacy 2018&lt;/h2&gt;
@@ -111,7 +111,7 @@ Dependable and Secure Machine Learning&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;Including our newest faculty member, &lt;a href=&#34;https://www.cs.purdue.edu/homes/kwon58/#summary&#34;&gt;Yongwhi Kwon&lt;/a&gt;, joining UVA in Fall 2018!&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;br /&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34; width=&#34;680&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34; width=&#34;680&#34;&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;small&gt;Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu&lt;/small&gt;&lt;br /&gt;
 &lt;/center&gt;
 &lt;/p&gt;
@@ -122,20 +122,20 @@ Dependable and Secure Machine Learning&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;table width=&#34;100%&#34;&gt;
 &lt;tr valign=&#34;top&#34;&gt;
 &lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193906.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193906-3.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193906.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193906-3.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
 Fnu Suya (with Yuan Tian and David Evans), &lt;em&gt;Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers&lt;/em&gt; &lt;a href=&#34;https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper37-poster-abstract.pdf&#34;&gt;[PDF]&lt;/a&gt;
 &lt;/td&gt;
 &lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193914.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193914-2.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193914.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193914-2.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
 Mainuddin Jonas (with David Evans), &lt;em&gt;Enhancing Adversarial Example Defenses Using Internal Layers&lt;/em&gt; &lt;a href=&#34;https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper29-poster-abstract.pdf&#34;&gt;[PDF]&lt;/a&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr valign=&#34;top&#34;&gt;
 &lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153017.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153017-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153017.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153017-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
 &lt;/td&gt;
 &lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153109.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153109-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153109.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153109-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;

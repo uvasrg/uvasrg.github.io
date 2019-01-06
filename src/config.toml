@@ -1,4 +1,4 @@
-baseurl = "https://jeffersonswheel.org"
+baseurl = "//jeffersonswheel.org/"
 languageCode = "en-us"
 title = "Jefferson's Wheel"
 subtitle = "Security Research at the University of Virginia"

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post-rsses on Jefferson&#39;s Wheel</title>
-    <link>https://jeffersonswheel.org/post/index.xml</link>
+    <link>//jeffersonswheel.org/post/index.xml</link>
     <description>Recent content in Post-rsses on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 13 Oct 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jeffersonswheel.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//jeffersonswheel.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Artificial intelligence: the new ghost in the machine</title>
-      <link>https://jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</link>
+      <link>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
+      <guid>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
       <description>&lt;p&gt;&lt;em&gt;Engineering and Technology&lt;/em&gt; Magazine (a publication of the British
 &lt;a href=&#34;a
 href=&amp;quot;https://www.theiet.org/&amp;quot;&#34;&gt;Institution of Engineering and Technology&lt;/a&gt; has an article that highlights
@@ -42,10 +42,10 @@ Researchers such as Evans predict a lengthy arms race in attacks and countermeas
     
     <item>
       <title>Violations of Children’s Privacy Laws</title>
-      <link>https://jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
+      <link>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
+      <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
       <description>&lt;p&gt;The New York Times has an article, &lt;a href=&#34;https://www.nytimes.com/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html&#34;&gt;&lt;em&gt;How Game Apps That Captivate Kids Have Been Collecting Their Data&lt;/em&gt;&lt;/a&gt; about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps. Serge was an undergraduate student here (back in the early 2000s) &amp;#8211; one of the things he did as a undergraduate was successfully sue a spammer.&lt;/p&gt;
 &lt;p&gt;The original paper about the study: &lt;a href=&#34;https://blues.cs.berkeley.edu/wp-content/uploads/2018/04/popets-2018-0021.pdf&#34;&gt;“Won’t Somebody Think of the Children?” Examining COPPA Compliance at Scale&lt;/a&gt;, Irwin Reyes, Primal Wijesekera, Joel Reardon, Amit Elazari Bar On, Abbas Razaghpanah, Narseo Vallina-Rodriguez, and Serge Egelman. Proceedings on Privacy Enhancing Technologies (PETS) 2018.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;br /&gt;
@@ -59,10 +59,10 @@ Serge Egelman, a researcher with the International Computer Science Institute an
     
     <item>
       <title>USENIX Security 2018</title>
-      <link>https://jeffersonswheel.org/usenix-security-2018/</link>
+      <link>//jeffersonswheel.org/usenix-security-2018/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/usenix-security-2018/</guid>
+      <guid>//jeffersonswheel.org/usenix-security-2018/</guid>
       <description>&lt;p&gt;Three SRG posters were presented at &lt;a
 href=&#34;https://www.usenix.org/conference/usenixsecurity18/poster-session&#34;&gt;USENIX
 Security Symposium 2018&lt;/a&gt; in Baltimore, Maryland:&lt;/p&gt;
@@ -79,16 +79,16 @@ Tian)&lt;/li&gt;
 &lt;table width=&#34;85%&#34;&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
 &lt;/td&gt;
-&lt;td href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
+&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
 &lt;/td&gt;
-&lt;td href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
+&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
@@ -103,10 +103,10 @@ Tian)&lt;/li&gt;
     
     <item>
       <title>Mutually Assured Destruction and the Impending AI Apocalypse</title>
-      <link>https://jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
+      <link>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
+      <guid>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
       <description>&lt;p&gt;I gave a keynote talk at &lt;a href=&#34;https://www.usenix.org/conference/woot18/workshop-program&#34;&gt;USENIX Workshop of Offensive Technologies&lt;/a&gt;, Baltimore, Maryland, 13 August 2018. &lt;/p&gt;
 &lt;p&gt;The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&amp;#8217;t able to actually figure out a talk to match the title and abstract I provided.&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;
@@ -118,10 +118,10 @@ The history of security includes a long series of arms races, where a new techno
     
     <item>
       <title>Cybersecurity Summer Camp</title>
-      <link>https://jeffersonswheel.org/cybersecurity-summer-camp/</link>
+      <link>//jeffersonswheel.org/cybersecurity-summer-camp/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/cybersecurity-summer-camp/</guid>
+      <guid>//jeffersonswheel.org/cybersecurity-summer-camp/</guid>
       <description>&lt;p&gt;I helped organize a &lt;a href=&#34;https://www.ahmed.ai/cyberwars2018&#34;&gt;summer camp for high school teachers focused on cybersecurity&lt;/a&gt;, led by Ahmed Ibrahim.  Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: &lt;a href=&#34;https://github.com/evansuva/cipherschool&#34;&gt;&lt;em&gt;Cipher School for Muggles&lt;/em&gt;&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;
@@ -145,10 +145,10 @@ Earlier this week, 25 high school teachers – including 21 from Virginia – fi
     
     <item>
       <title>Dependable and Secure Machine Learning</title>
-      <link>https://jeffersonswheel.org/dependable-and-secure-machine-learning/</link>
+      <link>//jeffersonswheel.org/dependable-and-secure-machine-learning/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/dependable-and-secure-machine-learning/</guid>
+      <guid>//jeffersonswheel.org/dependable-and-secure-machine-learning/</guid>
       <description>&lt;p&gt;I co-organized, with &lt;a
 href=&#34;http://faculty.virginia.edu/alemzadeh/&#34;&gt;Homa Alemzadeh&lt;/a&gt; and
 &lt;a href=&#34;http://blogs.ubc.ca/karthik/&#34;&gt;Karthik Pattabiraman&lt;/a&gt;, a
@@ -157,17 +157,17 @@ Luxembourg: &lt;a href=&#34;https://dependablesecureml.github.io/&#34;&gt;DSML:
 Dependable and Secure Machine Learning&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;https://jeffersonswheel.org/images/dsn2018.jpg&#34; width=&#34;80%&#34;&gt;
+&lt;img src=&#34;//jeffersonswheel.org/images/dsn2018.jpg&#34; width=&#34;80%&#34;&gt;
 &lt;/center&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>DLS Keynote: Is &#39;adversarial examples&#39; an Adversarial Example?</title>
-      <link>https://jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
+      <link>//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</guid>
+      <guid>//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</guid>
       <description>&lt;p&gt;I gave a keynote talk at the &lt;a href=&#34;https://www.ieee-security.org/TC/SPW2018/DLS/#&#34;&gt;&lt;em&gt;1st Deep Learning and Security Workshop&lt;/em&gt;&lt;/a&gt; (co-located with the 39th &lt;em&gt;IEEE Symposium on Security and Privacy&lt;/em&gt;). San Francisco, California. 24 May 2018&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;br /&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube-nocookie.com/embed/sFhD6ABghf8?rel=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -189,10 +189,10 @@ Over the past few years, there has been an explosion of research in security of 
     
     <item>
       <title>Wahoos at Oakland</title>
-      <link>https://jeffersonswheel.org/wahoos-at-oakland/</link>
+      <link>//jeffersonswheel.org/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/wahoos-at-oakland/</guid>
+      <guid>//jeffersonswheel.org/wahoos-at-oakland/</guid>
       <description>
 
 &lt;h2 id=&#34;uva-group-dinner-at-ieee-security-and-privacy-2018&#34;&gt;UVA Group Dinner at IEEE Security and Privacy 2018&lt;/h2&gt;
@@ -200,7 +200,7 @@ Over the past few years, there has been an explosion of research in security of 
 &lt;p&gt;Including our newest faculty member, &lt;a href=&#34;https://www.cs.purdue.edu/homes/kwon58/#summary&#34;&gt;Yongwhi Kwon&lt;/a&gt;, joining UVA in Fall 2018!&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;br /&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34; width=&#34;680&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34; width=&#34;680&#34;&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;small&gt;Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu&lt;/small&gt;&lt;br /&gt;
 &lt;/center&gt;
 &lt;/p&gt;
@@ -211,20 +211,20 @@ Over the past few years, there has been an explosion of research in security of 
 &lt;table width=&#34;100%&#34;&gt;
 &lt;tr valign=&#34;top&#34;&gt;
 &lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193906.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193906-3.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193906.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193906-3.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
 Fnu Suya (with Yuan Tian and David Evans), &lt;em&gt;Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers&lt;/em&gt; &lt;a href=&#34;https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper37-poster-abstract.pdf&#34;&gt;[PDF]&lt;/a&gt;
 &lt;/td&gt;
 &lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193914.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193914-2.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193914.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193914-2.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
 Mainuddin Jonas (with David Evans), &lt;em&gt;Enhancing Adversarial Example Defenses Using Internal Layers&lt;/em&gt; &lt;a href=&#34;https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper29-poster-abstract.pdf&#34;&gt;[PDF]&lt;/a&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr valign=&#34;top&#34;&gt;
 &lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153017.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153017-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153017.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153017-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
 &lt;/td&gt;
 &lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153109.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153109-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153109.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153109-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
@@ -233,10 +233,10 @@ Mainuddin Jonas (with David Evans), &lt;em&gt;Enhancing Adversarial Example Defe
     
     <item>
       <title>Lessons from the Last 3000 Years of Adversarial Examples</title>
-      <link>https://jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
+      <link>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
+      <guid>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
       <description>&lt;p&gt;I spoke on &lt;em&gt;Lessons from the Last 3000 Years of Adversarial Examples&lt;/em&gt; at Huawei&amp;#8217;s Strategy and Technology Workshop in Shenzhen, China, 15 May 2018.  &lt;/p&gt;
 &lt;p&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3de1c0f163b44ab18e4928c58eea706e&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;http://speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
@@ -262,10 +262,10 @@ In front of Huawei&amp;#8217;s &amp;#8220;White House&amp;#8221;, with Battista 
     
     <item>
       <title>Feature Squeezing at NDSS</title>
-      <link>https://jeffersonswheel.org/feature-squeezing-at-ndss/</link>
+      <link>//jeffersonswheel.org/feature-squeezing-at-ndss/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/feature-squeezing-at-ndss/</guid>
+      <guid>//jeffersonswheel.org/feature-squeezing-at-ndss/</guid>
       <description>&lt;p&gt;Weilin Xu presented &lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt; at the &lt;a href=&#34;http://www.ndss-symposium.org/ndss2018/&#34;&gt;Network and Distributed System Security Symposium 2018&lt;/a&gt;. San Diego, CA. 21 February 2018.&lt;br /&gt;
 &lt;center&gt;&lt;br /&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cdfcf454436240e4ab1a6c4d594e5c7a&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;http://speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;br /&gt;
@@ -279,10 +279,10 @@ Paper: Weilin Xu, David Evans, Yanjun Qi. &lt;em&gt;Feature Squeezing: Detecting
     
     <item>
       <title>Older Posts</title>
-      <link>https://jeffersonswheel.org/older-posts/</link>
+      <link>//jeffersonswheel.org/older-posts/</link>
       <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/older-posts/</guid>
+      <guid>//jeffersonswheel.org/older-posts/</guid>
       <description>&lt;p&gt;Older posts on
 &lt;a href=&#34;https://www.jeffersonswheel.org&#34;&gt;www.jeffersonswheel.org&lt;/a&gt; have not
 been moved into this new blog, but are still available here:&lt;/p&gt;

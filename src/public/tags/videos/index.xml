@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jefferson&#39;s Wheel</title>
-    <link>https://jeffersonswheel.org/tags/videos/index.xml</link>
+    <link>//jeffersonswheel.org/tags/videos/index.xml</link>
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://jeffersonswheel.org/tags/videos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//jeffersonswheel.org/tags/videos/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>DLS Keynote: Is &#39;adversarial examples&#39; an Adversarial Example?</title>
-      <link>https://jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
+      <link>//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</guid>
+      <guid>//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</guid>
       <description>&lt;p&gt;I gave a keynote talk at the &lt;a href=&#34;https://www.ieee-security.org/TC/SPW2018/DLS/#&#34;&gt;&lt;em&gt;1st Deep Learning and Security Workshop&lt;/em&gt;&lt;/a&gt; (co-located with the 39th &lt;em&gt;IEEE Symposium on Security and Privacy&lt;/em&gt;). San Francisco, California. 24 May 2018&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;br /&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube-nocookie.com/embed/sFhD6ABghf8?rel=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;

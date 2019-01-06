@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jefferson&#39;s Wheel</title>
-    <link>https://jeffersonswheel.org/tags/nathaniel-grevatt/index.xml</link>
+    <link>//jeffersonswheel.org/tags/nathaniel-grevatt/index.xml</link>
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://jeffersonswheel.org/tags/nathaniel-grevatt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//jeffersonswheel.org/tags/nathaniel-grevatt/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>USENIX Security 2018</title>
-      <link>https://jeffersonswheel.org/usenix-security-2018/</link>
+      <link>//jeffersonswheel.org/usenix-security-2018/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/usenix-security-2018/</guid>
+      <guid>//jeffersonswheel.org/usenix-security-2018/</guid>
       <description>&lt;p&gt;Three SRG posters were presented at &lt;a
 href=&#34;https://www.usenix.org/conference/usenixsecurity18/poster-session&#34;&gt;USENIX
 Security Symposium 2018&lt;/a&gt; in Baltimore, Maryland:&lt;/p&gt;
@@ -30,16 +30,16 @@ Tian)&lt;/li&gt;
 &lt;table width=&#34;85%&#34;&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
 &lt;/td&gt;
-&lt;td href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
+&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
 &lt;/td&gt;
-&lt;td href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
+&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;

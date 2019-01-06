@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jefferson&#39;s Wheel</title>
-    <link>https://jeffersonswheel.org/tags/privacy/index.xml</link>
+    <link>//jeffersonswheel.org/tags/privacy/index.xml</link>
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://jeffersonswheel.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//jeffersonswheel.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Violations of Children’s Privacy Laws</title>
-      <link>https://jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
+      <link>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
+      <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
       <description>&lt;p&gt;The New York Times has an article, &lt;a href=&#34;https://www.nytimes.com/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html&#34;&gt;&lt;em&gt;How Game Apps That Captivate Kids Have Been Collecting Their Data&lt;/em&gt;&lt;/a&gt; about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps. Serge was an undergraduate student here (back in the early 2000s) &amp;#8211; one of the things he did as a undergraduate was successfully sue a spammer.&lt;/p&gt;
 &lt;p&gt;The original paper about the study: &lt;a href=&#34;https://blues.cs.berkeley.edu/wp-content/uploads/2018/04/popets-2018-0021.pdf&#34;&gt;“Won’t Somebody Think of the Children?” Examining COPPA Compliance at Scale&lt;/a&gt;, Irwin Reyes, Primal Wijesekera, Joel Reardon, Amit Elazari Bar On, Abbas Razaghpanah, Narseo Vallina-Rodriguez, and Serge Egelman. Proceedings on Privacy Enhancing Technologies (PETS) 2018.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;br /&gt;
@@ -27,10 +27,10 @@ Serge Egelman, a researcher with the International Computer Science Institute an
     
     <item>
       <title>USENIX Security 2018</title>
-      <link>https://jeffersonswheel.org/usenix-security-2018/</link>
+      <link>//jeffersonswheel.org/usenix-security-2018/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jeffersonswheel.org/usenix-security-2018/</guid>
+      <guid>//jeffersonswheel.org/usenix-security-2018/</guid>
       <description>&lt;p&gt;Three SRG posters were presented at &lt;a
 href=&#34;https://www.usenix.org/conference/usenixsecurity18/poster-session&#34;&gt;USENIX
 Security Symposium 2018&lt;/a&gt; in Baltimore, Maryland:&lt;/p&gt;
@@ -47,16 +47,16 @@ Tian)&lt;/li&gt;
 &lt;table width=&#34;85%&#34;&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
 &lt;/td&gt;
-&lt;td href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
+&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
 &lt;/td&gt;
-&lt;td href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
+&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
