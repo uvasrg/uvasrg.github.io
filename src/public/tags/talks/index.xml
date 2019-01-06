@@ -9,6 +9,35 @@
     <atom:link href="//jeffersonswheel.org/tags/talks/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Can Machine Learning Ever Be Trustworthy?</title>
+      <link>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</guid>
+      <description>&lt;p&gt;I gave the &lt;a href=&#34;https://ece.umd.edu/events/distinguished-colloquium-series&#34;&gt;&lt;em&gt;Booz Allen Hamilton Distinguished Colloquium&lt;/em&gt;&lt;/a&gt; at the
+University of Maryland on &lt;em&gt;Can Machine Learning Ever Be Trustworthy?&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650&#34;&gt;Video&lt;/a&gt; &amp;middot;
+&lt;a href=&#34;https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy&#34;&gt;SpeakerDeck&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;//jeffersonswheel.org/images/umd2018/umd.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/umd2018/umd.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;abstract&#34;&gt;
+&lt;center&gt;&lt;b&gt;Abstract&lt;/b&gt;&lt;/center&gt;
+Machine learning has produced extraordinary results over the past few years, and machine learning systems are rapidly being deployed for
+critical tasks, even in adversarial environments.  This talk will survey some of the reasons building trustworthy machine learning
+systems is inherently impossible, and dive into some recent research on adversarial examples. Adversarial examples are inputs crafted
+deliberately to fool a machine learning system, often by making small, but targeted perturbations, starting from a natural seed example. Over the past few years, there has been an explosion of research in adversarial examples but we are only beginning to understand their
+mysteries and just taking the first steps towards principled and effective defenses. The general problem of adversarial examples, however, has been at the core of information security for thousands of years. In this talk, I&amp;rsquo;ll look at some of the long-forgotten lessons
+from that quest, unravel the huge gulf between theory and practice in adversarial machine learning, and speculate on paths toward
+trustworthy machine learning systems.
+   &lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DLS Keynote: Is &#39;adversarial examples&#39; an Adversarial Example?</title>
       <link>//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>

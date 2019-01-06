@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/bargav-jayaraman/index.xml</link>
+    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="//jeffersonswheel.org/tags/bargav-jayaraman/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NeurIPS 2018: Distributed Learning without Distress</title>
+      <link>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</guid>
+      <description>
+
+&lt;p&gt;Bargav Jayaraman presented our work on privacy-preserving machine learning at the &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt; &lt;em&gt;Conference on Neural Information Processing Systems&lt;/em&gt;&lt;/a&gt; (NeurIPS 2018) in Montreal.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Distributed learning&lt;/em&gt; (sometimes known as &lt;em&gt;federated learning&lt;/em&gt;)
+allows a group of independent data owners to collaboratively learn a
+model over their data sets without exposing their private data.  Our
+approach combines &lt;em&gt;differential privacy&lt;/em&gt; with secure &lt;em&gt;multi-party
+computation&lt;/em&gt; to both protect the data during training and produce a
+model that provides privacy against inference attacks.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
+    src=&#34;https://www.youtube-nocookie.com/embed/rwyWiDyVmjE&#34;
+    frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media;
+    gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;We explore two popular methods of differential privacy, output
+perturbation and gradient perturbation, and advance the
+state-of-the-art for both methods in the distributed learning
+setting. In our output perturbation method, the parties combine local
+models within a secure computation and then add therequired
+differential privacy noise before revealing the model. In our gradient
+perturbation method, the data owners collaboratively train a global
+model via aniterative learning algorithm. At each iteration, the
+parties aggregate their local gradients within a secure computation,
+adding sufficient noise to ensure privacy before the gradient updates
+are revealed. For both methods, we show that the noise can be reduced
+in the multi-party setting by adding the noise inside the
+securecomputation after aggregation, asymptotically improving upon the
+best previous results. Experiments on real world data sets demonstrate
+that our methods providesubstantial utility gains for typical privacy
+requirements.&lt;/p&gt;
+
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/bargavj/distributedMachineLearning&#34;&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/bargavj/distributedMachineLearning&#34;&gt;https://github.com/bargavj/distributedMachineLearning&lt;/a&gt;&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
+
+&lt;p&gt;Bargav Jayaraman, Lingxiao Wang, David Evans and Quanquan Gu. &lt;a href=&#34;//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;&lt;em&gt;Distributed Learning without Distress:
+Privacy-Preserving Empirical Risk Minimization&lt;/em&gt;&lt;/a&gt;. &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt; Conference on Neural Information Processing Systems&lt;/a&gt; (NeurIPS). Montreal, Canada. December 2018. (&lt;a href=&#34;//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;PDF&lt;/a&gt;, 19 pages, including supplemental materials)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

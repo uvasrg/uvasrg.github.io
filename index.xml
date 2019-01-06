@@ -6,8 +6,185 @@
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="//jeffersonswheel.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</title>
+      <link>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
+      <description>&lt;p&gt;Xiao Zhang and my paper on &lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt; has been accepted to ICLR 2019.&lt;/p&gt;
+
+&lt;p&gt;Several recent works have developed methods for training classifiers
+that are certifiably robust against norm-bounded adversarial
+perturbations. However, these methods assume that all the adversarial
+transformations provide equal value for adversaries, which is seldom
+the case in real-world applications. We advocate for cost-sensitive
+robustness as the criteria for measuring the classifier&amp;rsquo;s performance
+for specific tasks. We encode the potential harm of different
+adversarial transformations in a cost matrix, and propose a general
+objective function to adapt the robust training method of Wong &amp;amp;
+Kolter (2018) to optimize for cost-sensitive robustness. Our
+experiments on simple MNIST and CIFAR10 models and a variety of cost
+matrices show that the proposed approach can produce models with
+substantially reduced cost-sensitive robust error, while maintaining
+classification accuracy.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;//jeffersonswheel.org/images/protecteven.png&#34; width=&#34;70%&#34;&gt;
+&lt;div class=&#34;caption&#34;&gt;
+This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Xiao will present the paper at ICLR in New Orleans in May 2019.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Pragmatic Introduction to Secure Multi-Party Computation</title>
+      <link>//jeffersonswheel.org/a-pragmatic-introduction-to-secure-multi-party-computation/</link>
+      <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/a-pragmatic-introduction-to-secure-multi-party-computation/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;//securecomputation.org&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/pragmaticmpc.jpg&#34; align=&#34;right&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A Pragmatic Introduction to Secure Multi-Party Computation&lt;/em&gt;,
+co-authored with Vladimir Kolesnikov and Mike Rosulek, is now
+published by Now Publishers in their
+&lt;a href=&#34;https://www.nowpublishers.com/SEC&#34;&gt;&lt;em&gt;Foundations and Trends in Privacy and Security&lt;/em&gt;&lt;/a&gt; series.&lt;/p&gt;
+
+&lt;p&gt;You can download the book for free (we retain the copyright and are
+allowed to post an open version) from
+&lt;a href=&#34;//securecomputation.org&#34;&gt;securecomputation.org&lt;/a&gt;, or buy an PDF
+version from the published for $260 (there is also a printed $99
+version).&lt;/p&gt;
+
+&lt;div class=&#34;abstract&#34;&gt;
+Secure multi-party computation (MPC) has evolved from a theoretical
+curiosity in the 1980s to a tool for building real systems today. Over
+the past decade, MPC has been one of the most active research areas in
+both theoretical and applied cryptography. This book introduces
+several important MPC protocols, and surveys methods for improving the
+efficiency of privacy-preserving applications built using MPC. Besides
+giving a broad overview of the field and the insights of the main
+constructions, we overview the most currently active areas of MPC
+research and aim to give readers insights into what problems are
+practically solvable using MPC today and how different threat models
+and assumptions impact the practicality of different approaches.
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NeurIPS 2018: Distributed Learning without Distress</title>
+      <link>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</guid>
+      <description>
+
+&lt;p&gt;Bargav Jayaraman presented our work on privacy-preserving machine learning at the &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt; &lt;em&gt;Conference on Neural Information Processing Systems&lt;/em&gt;&lt;/a&gt; (NeurIPS 2018) in Montreal.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Distributed learning&lt;/em&gt; (sometimes known as &lt;em&gt;federated learning&lt;/em&gt;)
+allows a group of independent data owners to collaboratively learn a
+model over their data sets without exposing their private data.  Our
+approach combines &lt;em&gt;differential privacy&lt;/em&gt; with secure &lt;em&gt;multi-party
+computation&lt;/em&gt; to both protect the data during training and produce a
+model that provides privacy against inference attacks.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
+    src=&#34;https://www.youtube-nocookie.com/embed/rwyWiDyVmjE&#34;
+    frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media;
+    gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;We explore two popular methods of differential privacy, output
+perturbation and gradient perturbation, and advance the
+state-of-the-art for both methods in the distributed learning
+setting. In our output perturbation method, the parties combine local
+models within a secure computation and then add therequired
+differential privacy noise before revealing the model. In our gradient
+perturbation method, the data owners collaboratively train a global
+model via aniterative learning algorithm. At each iteration, the
+parties aggregate their local gradients within a secure computation,
+adding sufficient noise to ensure privacy before the gradient updates
+are revealed. For both methods, we show that the noise can be reduced
+in the multi-party setting by adding the noise inside the
+securecomputation after aggregation, asymptotically improving upon the
+best previous results. Experiments on real world data sets demonstrate
+that our methods providesubstantial utility gains for typical privacy
+requirements.&lt;/p&gt;
+
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/bargavj/distributedMachineLearning&#34;&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/bargavj/distributedMachineLearning&#34;&gt;https://github.com/bargavj/distributedMachineLearning&lt;/a&gt;&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
+
+&lt;p&gt;Bargav Jayaraman, Lingxiao Wang, David Evans and Quanquan Gu. &lt;a href=&#34;//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;&lt;em&gt;Distributed Learning without Distress:
+Privacy-Preserving Empirical Risk Minimization&lt;/em&gt;&lt;/a&gt;. &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt; Conference on Neural Information Processing Systems&lt;/a&gt; (NeurIPS). Montreal, Canada. December 2018. (&lt;a href=&#34;//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;PDF&lt;/a&gt;, 19 pages, including supplemental materials)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Can Machine Learning Ever Be Trustworthy?</title>
+      <link>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</guid>
+      <description>&lt;p&gt;I gave the &lt;a href=&#34;https://ece.umd.edu/events/distinguished-colloquium-series&#34;&gt;&lt;em&gt;Booz Allen Hamilton Distinguished Colloquium&lt;/em&gt;&lt;/a&gt; at the
+University of Maryland on &lt;em&gt;Can Machine Learning Ever Be Trustworthy?&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650&#34;&gt;Video&lt;/a&gt; &amp;middot;
+&lt;a href=&#34;https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy&#34;&gt;SpeakerDeck&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;//jeffersonswheel.org/images/umd2018/umd.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/umd2018/umd.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;abstract&#34;&gt;
+&lt;center&gt;&lt;b&gt;Abstract&lt;/b&gt;&lt;/center&gt;
+Machine learning has produced extraordinary results over the past few years, and machine learning systems are rapidly being deployed for
+critical tasks, even in adversarial environments.  This talk will survey some of the reasons building trustworthy machine learning
+systems is inherently impossible, and dive into some recent research on adversarial examples. Adversarial examples are inputs crafted
+deliberately to fool a machine learning system, often by making small, but targeted perturbations, starting from a natural seed example. Over the past few years, there has been an explosion of research in adversarial examples but we are only beginning to understand their
+mysteries and just taking the first steps towards principled and effective defenses. The general problem of adversarial examples, however, has been at the core of information security for thousands of years. In this talk, I&amp;rsquo;ll look at some of the long-forgotten lessons
+from that quest, unravel the huge gulf between theory and practice in adversarial machine learning, and speculate on paths toward
+trustworthy machine learning systems.
+   &lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Center for Trustworthy Machine Learning</title>
+      <link>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/nsf_logo-1h9wdoa.png&#34; align=&#34;right&#34; width=120&gt;&lt;/p&gt;
+
+&lt;p&gt;The National Science Foundation announced the &lt;em&gt;Center for Trustworthy
+Machine Learning&lt;/em&gt; today, a new five-year SaTC Frontier Center &amp;ldquo;to
+develop a rigorous understanding of the security risks of the use of
+machine learning and to devise the tools, metrics and methods to
+manage and mitigate security vulnerabilities.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/ctmllogos.png&#34; align=&#34;left&#34; style=&#34;padding-right: 1em;padding-top: .5em&#34; width=250&gt;&lt;/p&gt;
+
+&lt;p&gt;The Center is lead by Patrick McDaniel at Penn State University, and
+in addition to our group, includes Dan Boneh and Percy Liang (Stanford
+University), Kamalika Chaudhuri (University of California San Diego),
+Somesh Jha (University of Wisconsin) and Dawn Song (University of
+California Berkeley).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ctml.psu.edu/&#34;&gt;Center for Trustworthy Machine Learning&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://www.eecs.psu.edu/news/2018/NSF-Frontier-CTML.aspx&#34;&gt;Penn State Press Release&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://nsf.gov/news/news_summ.jsp?cntn_id=296933&amp;amp;org=NSF&amp;amp;from=news&#34;&gt;NSF News Release&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Artificial intelligence: the new ghost in the machine</title>
@@ -274,158 +451,6 @@ In front of Huawei&amp;#8217;s &amp;#8220;White House&amp;#8221;, with Battista 
 Paper: Weilin Xu, David Evans, Yanjun Qi. &lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;. NDSS 2018. [&lt;a href=&#34;https://evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;Project Site: &lt;a href=&#34;https://evademl.org/squeezing&#34;&gt;EvadeML.org&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Older Posts</title>
-      <link>//jeffersonswheel.org/older-posts/</link>
-      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/older-posts/</guid>
-      <description>&lt;p&gt;Older posts on
-&lt;a href=&#34;https://www.jeffersonswheel.org&#34;&gt;www.jeffersonswheel.org&lt;/a&gt; have not
-been moved into this new blog, but are still available here:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffersonswheel.org/2017.html&#34;&gt;2017&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffersonswheel.org/2016.html&#34;&gt;2016&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffersonswheel.org/2015.html&#34;&gt;2015&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffersonswheel.org/2014.html&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffersonswheel.org/2013.html&#34;&gt;2013&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffersonswheel.org/2012.html&#34;&gt;2012&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffersonswheel.org/2011.html&#34;&gt;2011&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffersonswheel.org/2010.html&#34;&gt;2010&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffersonswheel.org/2009.html&#34;&gt;2009&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jeffersonswheel.org/2008.html&#34;&gt;2008&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//jeffersonswheel.org/schedule/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/schedule/</guid>
-      <description>
-
-&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
-
-&lt;table width=&#34;100%&#34; align=&#34;center&#34;&gt;
-&lt;tr bgcolor=&#34;#CCC&#34;&gt;&lt;td style=&#34;text-align:center&#34; width=&#34;35%&#34;&gt;&lt;b&gt;Date&lt;/b&gt;&lt;/td&gt;&lt;td width=&#34;65%&#34; style=&#34;text-align:center&#34;&gt;&lt;b&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FFF&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week1&#34;&gt;Class 1&lt;/a&gt; (3 September)&lt;/td&gt;
-&lt;td&gt;
-&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSeqijA-YyLUc6UWvsqnpFYR_mV69ApRrUfx_NMEp3fHW75ncw/viewform&#34;&gt;Pre-Course Survey&lt;/a&gt; &lt;b&gt;&lt;font color=&#34;red&#34;&gt;(29 August)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
-Seminar Introduction
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr bgcolor=&#34;#EE8&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week2&#34;&gt;Class 2&lt;/a&gt; (10 September)&lt;/td&gt;
-&lt;td&gt;
-&lt;b&gt;Before class&lt;/b&gt;: readings and responses details, see &lt;a href=&#34;//jeffersonswheel.org/week1&#34;&gt;week 1&lt;/a&gt;.&lt;br&gt;
-&lt;em&gt;Sapiens&lt;/em&gt;, Chapters 1-8; &lt;a href=&#34;https://www.theatlantic.com/amp/article/568330/&#34;&gt;&lt;em&gt;Why Technology Favors Tyranny&lt;/em&gt;&lt;/a&gt;&lt;br&gt;
-&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr bgcolor=&#34;#FFF&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week3&#34;&gt;Class 3&lt;/a&gt; (17 September)&lt;/td&gt;
-&lt;td&gt;
-&lt;b&gt;Before class&lt;/b&gt;: readings and responses details, see &lt;a href=&#34;//jeffersonswheel.org/week2&#34;&gt;week 2&lt;/a&gt;.&lt;br&gt;
-&lt;em&gt;Sapiens&lt;/em&gt;, Chapters 9-13; Alan Turing, &lt;a href=&#34;//jeffersonswheel.org/docs/turing.pdf&#34;&gt;&lt;em&gt;Computing Machinery and Intelligence&lt;/em&gt;&lt;/a&gt; (1950); (optional) Claude Shannon, &lt;a href=&#34;//jeffersonswheel.org/docs/shannon.pdf&#34;&gt;&lt;em&gt;Programming a Computer for Playing Chess&lt;/em&gt;&lt;/a&gt;; Silver et al., &lt;a href=&#34;https://arxiv.org/pdf/1712.01815.pdf&#34;&gt;&lt;em&gt;Mastering Chess and Shogi by Self-Play with a
-General Reinforcement Learning Algorithm&lt;/em&gt;&lt;/a&gt;, 2017.&lt;br&gt;
-
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#EE8&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week4&#34;&gt;Class 4&lt;/a&gt; (24 September)&lt;/td&gt;&lt;td&gt;
-&lt;b&gt;Before class&lt;/b&gt;: readings and responses details, see &lt;a href=&#34;//jeffersonswheel.org/week3&#34;&gt;week 3&lt;/a&gt;.&lt;br&gt;
-&lt;em&gt;Sapiens&lt;/em&gt;, Chapters 14-17;  Neil DeGrasse Tyson, &lt;a href=&#34;//jeffersonswheel.org/docs/tyson.pdf&#34;&gt;&lt;em&gt;Science&#39;s Endless Golden Age&lt;/em&gt;&lt;/a&gt;; 
-Tim Urban (&#34;Wait but why&#34;), &lt;a href=&#34;https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html&#34;&gt;&lt;em&gt;The AI Revolution: The Road to Superintelligence&lt;/em&gt;&lt;/a&gt; (Part I), 2015;
-John Maynard Keynes, &lt;a href=&#34;//jeffersonswheel.org/docs/keynes.pdf&#34;&gt;&lt;em&gt;Economic Possibilities for our Grandchildren&lt;/em&gt;&lt;/a&gt;, 1930.
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FF4&#34;&gt;&lt;td&gt;&lt;b&gt;Sunday, 30 September&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Idea for First Paper Due&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FFF&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week5&#34;&gt;Class 5&lt;/a&gt; (1 October)&lt;/td&gt;&lt;td&gt;
-&lt;b&gt;Before class&lt;/b&gt;: prepare to discuss ideas for paper; readings and responses, see &lt;a href=&#34;//jeffersonswheel.org/week4&#34;&gt;week 4&lt;/a&gt;.&lt;br&gt;
-&lt;em&gt;Sapiens&lt;/em&gt;, Chapters 18-end; &lt;a href=&#34;//jeffersonswheel.org/docs/hallpike-review.pdf&#34;&gt;Hallpike&#39;s review&lt;/a&gt;;
-Tim Urban (&#34;Wait but why&#34;), &lt;a href=&#34;https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html&#34;&gt;&lt;em&gt;The AI Revolution: The Road to Superintelligence&lt;/em&gt;&lt;/a&gt; (Part 2), 2015.
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#7F7&#34;&gt;&lt;td colspan=3 align=&#34;center&#34;&gt;Fall Break&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#EE8&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week6&#34;&gt;Class 6&lt;/a&gt; (15 October)&lt;/td&gt;&lt;td&gt;
-Bostrom, &lt;em&gt;Superintelligence: Paths, Dangers, Strategies&lt;/em&gt;, Chapters 1-4.
-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FF4&#34;&gt;&lt;td&gt;&lt;b&gt;Wednesday, 17 October&lt;/b&gt;&lt;/td&gt;&lt;td&gt;First Paper Draft Due&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FFF&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week7&#34;&gt;Class 7&lt;/a&gt; (22 October)&lt;/td&gt;&lt;td&gt;Black Mirror (and writing advice)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#EE8&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week8&#34;&gt;Class 8&lt;/a&gt; (29 October)&lt;/td&gt;&lt;td&gt;AI Control&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FF4&#34;&gt;&lt;td&gt;&lt;b&gt;Thursday, 1 November (4:59pm)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;First Paper Final Due&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FFF&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week9&#34;&gt;Class 9&lt;/a&gt; (5 November)&lt;/td&gt;&lt;td&gt;Papers Workshop&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#EE8&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week10&#34;&gt;Class 10&lt;/a&gt; (12 November)&lt;/td&gt;&lt;td&gt;
-&lt;a href=&#34;https://allisonpugh.weebly.com/&#34;&gt;Allison Pugh&lt;/a&gt; (UVA Professor of Sociology); discuss ideas for papers&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FF4&#34;&gt;&lt;td&gt;&lt;b&gt;Wednesday, 14 November&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Proposal for Final Paper Due&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FFF&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week11&#34;&gt;Class 11&lt;/a&gt; (19 November)&lt;/td&gt;&lt;td&gt;Security and Malicious Use of AI&lt;td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FF4&#34;&gt;&lt;td&gt;&lt;b&gt;Tuesday, 20 November&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Paper Update Due&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#EE8&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week12&#34;&gt;Class 12&lt;/a&gt; (26 November)&lt;/td&gt;&lt;td&gt;Fairness&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FFF&#34;&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/week13&#34;&gt;Class 13&lt;/a&gt; (3 December)&lt;/td&gt;&lt;td&gt;Paper Presentations and James Micken&#39;s talk&lt;/td&gt;&lt;/tr&gt;
-&lt;tr bgcolor=&#34;#FF4&#34;&gt;&lt;td&gt;&lt;b&gt;Monday, 10 December&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;//jeffersonswheel.org/papers/&#34;&gt;Final Papers&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Jefferson&#39;s Wheel - Security Research Group</title>
-      <link>//jeffersonswheel.org/main/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/main/</guid>
-      <description>&lt;p&gt;&lt;p&gt; Our research seeks to empower individuals and organizations to
-control how their data is used.  We use techniques from cryptography,
-programming languages, machine learning, operating systems, and other
-areas to both understand and improve the security of computing as
-practiced today, and as envisioned in the future.  &lt;/p&gt; &lt;center&gt; &lt;a
-href=&#34;/images/srg2017/IMG_20171212_135015.jpg&#34;&gt;&lt;img
-src=&#34;/images/srg2017/IMG_20171212_135015-2.jpg&#34; alt=&#34;SRG lunch&#34;
-width=80%&gt;&lt;/a&gt;&lt;/br&gt; &lt;b&gt;Security Research Group Lunch&lt;/b&gt; (12 December
-2017)&lt;br&gt; &lt;font size=&#34;-2&#34;&gt; &lt;a href=&#34;https://hainali.github.io/&#34;&gt;Haina
-Li&lt;/a&gt;, Felix Park, &lt;a
-href=&#34;https://sites.google.com/site/mahmadjonas/&#34;&gt;Mainuddin Jonas&lt;/a&gt;,
-&lt;A
-href=&#34;https://www.linkedin.com/in/anant-kharkar-502433b9&#34;&gt;Anant&amp;nbsp;Kharkar&lt;/a&gt;,
-&lt;a
-href=&#34;http://dblp2.uni-trier.de/pers/hd/s/Shezan:Faysal_Hossain&#34;&gt;Faysal
-Hossain Shezan&lt;/a&gt;, &lt;A href=&#34;https://github.com/suyeecav&#34;&gt;Fnu
-Suya&lt;/a&gt;, &lt;A
-href=&#34;https://www.cs.virginia.edu/evans&#34;&gt;David&amp;nbsp;Evans&lt;/a&gt;, &lt;a
-href=&#34;https://www.yuantiancmu.com/&#34;&gt;Yuan&amp;nbsp;Tian&lt;/a&gt;, &lt;a
-href=&#34;//www.cs.columbia.edu/~riley/&#34;&gt;Riley Spahn&lt;/a&gt;, &lt;a
-href=&#34;//www.cs.virginia.edu/~wx4ed/&#34;&gt;Weilin Xu&lt;/a&gt;, &lt;a
-href=&#34;https://github.com/gjverrier&#34;&gt;Guy &amp;ldquo;Jack&amp;rdquo; Verrier&lt;/a&gt; &lt;/font&gt;
-&lt;/center&gt; &lt;/p&gt; &lt;p&gt; Everyone is welcome at our research group meetings
-(most Fridays at 11am, but join the slack group for announcements). To
-get announcements, join our &lt;a
-href=&#34;https://uvasrg.slack.com/signup&#34;&gt;Slack Group&lt;/a&gt; (any
-&lt;em&gt;@virginia.edu&lt;/em&gt; email address can join themsleves, or email me
-to request an invitation). &lt;/p&gt; &lt;p&gt;&lt;/p&gt;
-
-&lt;div class=&#34;mainsection&#34;&gt;Projects&lt;/div&gt;
-
-&lt;p&gt;&lt;div class=&#34;row&#34;&gt;
-    &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-&lt;b&gt;Adversarial Machine Learning&lt;/b&gt;&lt;br&gt; &lt;a
-href=&#34;//www.evademl.org/&#34;&gt;EvadeML&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Secure Multi-Party Computation&lt;/b&gt;&lt;br&gt;
-&lt;a href=&#34;//www.oblivc.org/&#34;&gt;Obliv-C&lt;/a&gt; &amp;middot; &lt;a href=&#34;//www.mightbeevil.org/&#34;&gt;MightBeEvil&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-&lt;b&gt;Web and Mobile Security&lt;/b&gt;&lt;br&gt; &lt;a
-href=&#34;//www.scriptinspector.org/&#34;&gt;ScriptInspector&lt;/a&gt; &amp;middot; &lt;a
-href=&#34;//www.ssoscan.org/&#34;&gt;SSOScan&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;a href=&#34;//www.cs.virginia.edu/evans/research.html&#34;&gt;Past Projects&lt;/b&gt;&lt;br&gt; &lt;font size=&#34;-1&#34;&gt; &lt;a
-&lt;a href=&#34;//www.splint.org/&#34;&gt;Splint&lt;/a&gt; &amp;middot;
-&lt;a href=&#34;//wwww.cs.virginia.edu/perracotta&#34;&gt;Perracotta&lt;/a&gt; &amp;middot;
-&lt;a href=&#34;//www.cs.virginia.edu/nvariant/&#34;&gt;N-Variant Systems&lt;/a&gt; &amp;middot;
-&lt;a href=&#34;//www.cs.virginia.edu/physicrypt/&#34;&gt;Physicrypt&lt;/a&gt; &amp;middot;
-&lt;a href=&#34;//www.cs.virginia.edu/evans/research.html&#34;&gt;More&amp;hellip;&lt;/a&gt;
-&lt;/font&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     

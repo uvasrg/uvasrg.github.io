@@ -349,6 +349,13 @@ ul.taxonomy-terms {
    font-style: italic;
 }
 
+.abstract {
+   margin-left: 2.5em;
+   margin-right: 2.5em;
+   font-size: small;
+   margin-bottom: 1em;
+}
+
 .main {
     padding: 2em 1em 0;
 }

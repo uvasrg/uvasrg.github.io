@@ -9,6 +9,96 @@
     <atom:link href="//jeffersonswheel.org/tags/adversarial-machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</title>
+      <link>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
+      <description>&lt;p&gt;Xiao Zhang and my paper on &lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt; has been accepted to ICLR 2019.&lt;/p&gt;
+
+&lt;p&gt;Several recent works have developed methods for training classifiers
+that are certifiably robust against norm-bounded adversarial
+perturbations. However, these methods assume that all the adversarial
+transformations provide equal value for adversaries, which is seldom
+the case in real-world applications. We advocate for cost-sensitive
+robustness as the criteria for measuring the classifier&amp;rsquo;s performance
+for specific tasks. We encode the potential harm of different
+adversarial transformations in a cost matrix, and propose a general
+objective function to adapt the robust training method of Wong &amp;amp;
+Kolter (2018) to optimize for cost-sensitive robustness. Our
+experiments on simple MNIST and CIFAR10 models and a variety of cost
+matrices show that the proposed approach can produce models with
+substantially reduced cost-sensitive robust error, while maintaining
+classification accuracy.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;//jeffersonswheel.org/images/protecteven.png&#34; width=&#34;70%&#34;&gt;
+&lt;div class=&#34;caption&#34;&gt;
+This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Xiao will present the paper at ICLR in New Orleans in May 2019.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Can Machine Learning Ever Be Trustworthy?</title>
+      <link>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</guid>
+      <description>&lt;p&gt;I gave the &lt;a href=&#34;https://ece.umd.edu/events/distinguished-colloquium-series&#34;&gt;&lt;em&gt;Booz Allen Hamilton Distinguished Colloquium&lt;/em&gt;&lt;/a&gt; at the
+University of Maryland on &lt;em&gt;Can Machine Learning Ever Be Trustworthy?&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650&#34;&gt;Video&lt;/a&gt; &amp;middot;
+&lt;a href=&#34;https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy&#34;&gt;SpeakerDeck&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;//jeffersonswheel.org/images/umd2018/umd.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/umd2018/umd.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;abstract&#34;&gt;
+&lt;center&gt;&lt;b&gt;Abstract&lt;/b&gt;&lt;/center&gt;
+Machine learning has produced extraordinary results over the past few years, and machine learning systems are rapidly being deployed for
+critical tasks, even in adversarial environments.  This talk will survey some of the reasons building trustworthy machine learning
+systems is inherently impossible, and dive into some recent research on adversarial examples. Adversarial examples are inputs crafted
+deliberately to fool a machine learning system, often by making small, but targeted perturbations, starting from a natural seed example. Over the past few years, there has been an explosion of research in adversarial examples but we are only beginning to understand their
+mysteries and just taking the first steps towards principled and effective defenses. The general problem of adversarial examples, however, has been at the core of information security for thousands of years. In this talk, I&amp;rsquo;ll look at some of the long-forgotten lessons
+from that quest, unravel the huge gulf between theory and practice in adversarial machine learning, and speculate on paths toward
+trustworthy machine learning systems.
+   &lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Center for Trustworthy Machine Learning</title>
+      <link>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/nsf_logo-1h9wdoa.png&#34; align=&#34;right&#34; width=120&gt;&lt;/p&gt;
+
+&lt;p&gt;The National Science Foundation announced the &lt;em&gt;Center for Trustworthy
+Machine Learning&lt;/em&gt; today, a new five-year SaTC Frontier Center &amp;ldquo;to
+develop a rigorous understanding of the security risks of the use of
+machine learning and to devise the tools, metrics and methods to
+manage and mitigate security vulnerabilities.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/ctmllogos.png&#34; align=&#34;left&#34; style=&#34;padding-right: 1em;padding-top: .5em&#34; width=250&gt;&lt;/p&gt;
+
+&lt;p&gt;The Center is lead by Patrick McDaniel at Penn State University, and
+in addition to our group, includes Dan Boneh and Percy Liang (Stanford
+University), Kamalika Chaudhuri (University of California San Diego),
+Somesh Jha (University of Wisconsin) and Dawn Song (University of
+California Berkeley).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ctml.psu.edu/&#34;&gt;Center for Trustworthy Machine Learning&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://www.eecs.psu.edu/news/2018/NSF-Frontier-CTML.aspx&#34;&gt;Penn State Press Release&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://nsf.gov/news/news_summ.jsp?cntn_id=296933&amp;amp;org=NSF&amp;amp;from=news&#34;&gt;NSF News Release&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Artificial intelligence: the new ghost in the machine</title>
       <link>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
