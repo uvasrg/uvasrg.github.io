@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jefferson&#39;s Wheel</title>
+    <link>https://jeffersonswheel.org/tags/mainuddin-jonas/index.xml</link>
+    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://jeffersonswheel.org/tags/mainuddin-jonas/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Artificial intelligence: the new ghost in the machine</title>
+      <link>https://jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Engineering and Technology&lt;/em&gt; Magazine (a publication of the British
+&lt;a href=&#34;a
+href=&amp;quot;https://www.theiet.org/&amp;quot;&#34;&gt;Institution of Engineering and Technology&lt;/a&gt; has an article that highlights
+adversarial machine learning research: &lt;a href=&#34;https://eandt.theiet.org/content/articles/2018/10/artificial-intelligence-the-new-ghost-in-the-machine/&#34;&gt;&lt;em&gt;Artificial intelligence: the
+new ghost in the
+machine&lt;/em&gt;&lt;/a&gt;,
+10 October 2018, by Chris Edwards.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;https://eandt.theiet.org/media/7065/feature_501008906335871317828.jpg?anchor=center&amp;amp;mode=crop&amp;amp;width=400&amp;amp;height=267&amp;amp;rnd=131836400900000000&#34;&gt;&lt;br /&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;div class=&#34;excerpt&#34;&gt;
+
+Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.&lt;br /&gt;
+&amp;#8230;&lt;br /&gt;
+He points to work by PhD student Mainuddin Jonas that shows how adversarial examples can push the output away from what we would see as the correct answer. &amp;#8220;It could be just one layer [that makes the mistake]. But from our experience it seems more gradual. It seems many of the layers are being exploited, each one just a little bit. The biggest differences may not be apparent until the very last layer.&amp;#8221;&lt;br /&gt;
+&amp;#8230;&lt;br /&gt;
+Researchers such as Evans predict a lengthy arms race in attacks and countermeasures that may on the way reveal a lot more about the nature of machine learning and its relationship with reality.
+&lt;/p&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wahoos at Oakland</title>
+      <link>https://jeffersonswheel.org/wahoos-at-oakland/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeffersonswheel.org/wahoos-at-oakland/</guid>
+      <description>
+
+&lt;h2 id=&#34;uva-group-dinner-at-ieee-security-and-privacy-2018&#34;&gt;UVA Group Dinner at IEEE Security and Privacy 2018&lt;/h2&gt;
+
+&lt;p&gt;Including our newest faculty member, &lt;a href=&#34;https://www.cs.purdue.edu/homes/kwon58/#summary&#34;&gt;Yongwhi Kwon&lt;/a&gt;, joining UVA in Fall 2018!&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;br /&gt;
+&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34; width=&#34;680&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;small&gt;Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu&lt;/small&gt;&lt;br /&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;poster-session&#34;&gt;Poster Session&lt;/h2&gt;
+
+&lt;table width=&#34;100%&#34;&gt;
+&lt;tr valign=&#34;top&#34;&gt;
+&lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193906.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193906-3.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+Fnu Suya (with Yuan Tian and David Evans), &lt;em&gt;Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers&lt;/em&gt; &lt;a href=&#34;https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper37-poster-abstract.pdf&#34;&gt;[PDF]&lt;/a&gt;
+&lt;/td&gt;
+&lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193914.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180521_193914-2.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+Mainuddin Jonas (with David Evans), &lt;em&gt;Enhancing Adversarial Example Defenses Using Internal Layers&lt;/em&gt; &lt;a href=&#34;https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper29-poster-abstract.pdf&#34;&gt;[PDF]&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&#34;top&#34;&gt;
+&lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153017.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153017-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
+&lt;/td&gt;
+&lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153109.jpg&#34;&gt;&lt;img src=&#34;https://jeffersonswheel.org/images/srg2018/IMG_20180522_153109-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

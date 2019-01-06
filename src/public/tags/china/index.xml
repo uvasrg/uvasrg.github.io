@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jefferson&#39;s Wheel</title>
+    <link>https://jeffersonswheel.org/tags/china/index.xml</link>
+    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://jeffersonswheel.org/tags/china/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lessons from the Last 3000 Years of Adversarial Examples</title>
+      <link>https://jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
+      <description>&lt;p&gt;I spoke on &lt;em&gt;Lessons from the Last 3000 Years of Adversarial Examples&lt;/em&gt; at Huawei&amp;#8217;s Strategy and Technology Workshop in Shenzhen, China, 15 May 2018.  &lt;/p&gt;
+&lt;p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3de1c0f163b44ab18e4928c58eea706e&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;http://speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;
+We also got to tour Huawei&amp;#8217;s new research and development campus, under construction about 40 minutes from Shenzhen. It is pretty close to Disneyland, with its own railroad and villages themed after different European cities (Paris, Bologna, etc.).&lt;br /&gt;
+&lt;center&gt;&lt;br /&gt;
+&lt;a href=&#34;images/029.jpg&#34;&gt;&lt;img src=&#34;images/029.jpg&#34; width=&#34;650&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+Huawei&amp;#8217;s New Research and Development Campus [&lt;a href=&#34;https://photos.app.goo.gl/YqGfaC6fqNAsywzd2&#34;&gt;More Pictures&lt;/a&gt;]&lt;br /&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;
+Unfortunately, pictures were not allowed on our tour of the production line. Not so surprising that nearly all of the work was done by machines, but was surprising to me how much of the human work left is completely robotic. The human workers (called &amp;#8220;operators&amp;#8221;) are mostly scanning QR codes on parts, and following the directions that light up with they do, or scanning bins and following directions on a screen to collect parts from bins and scanning them when they are put into the bin. This is the kind of system that leads to remarkably high production quality. The parts are mostly delivered on tapes that are fed into the machines, and many machines along the line are primarily for testing. There is a &amp;#8220;bottleneck&amp;#8221; marker that is placed on any points that are holding up the production line.
+&lt;/p&gt;
+&lt;p&gt;
+The public (at least to the factory) &amp;#8220;grapey board&amp;#8221; keeps track of the happiness of the workers &amp;mdash; each operator puts up a smiley (or frowny) face on the board to show their mood for the day, monitored carefully by the managers.  There is a batch of grapes to show performance for the month. If an operator does something good, a grape is colored green; if they do something bad, a grape is colored black. There was quite a bit of discussion among the people on the tour (mostly US and European-based professors) if such a management approach would be a good idea for our research groups&amp;#8230; (or for department chairs for their faculty!)
+&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;br /&gt;
+&lt;a href=&#34;images/048.jpg&#34;&gt;&lt;img src=&#34;images/048.jpg&#34; width=&#34;650&#34;&gt;&lt;/a&gt;&lt;br /&gt;
+In front of Huawei&amp;#8217;s &amp;#8220;White House&amp;#8221;, with Battista Biggio [&lt;a href=&#34;https://photos.app.goo.gl/YqGfaC6fqNAsywzd2&#34;&gt;More Pictures&lt;/a&gt;]&lt;br /&gt;
+&lt;/center&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

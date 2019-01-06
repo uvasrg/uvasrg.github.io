@@ -1,0 +1,11 @@
+[0syllabus]
+    Name = "Syllabus"
+    URL = "/syllabus"
+[1schedule]
+    Name = "Schedule"
+    URL = "/schedule"
+
+[2discussion]
+    Name = "Discussion"
+    URL = "https://www.reddit.com/r/aipavilion"
+

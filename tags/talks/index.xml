@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jefferson&#39;s Wheel</title>
+    <link>https://jeffersonswheel.org/tags/talks/index.xml</link>
+    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://jeffersonswheel.org/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DLS Keynote: Is &#39;adversarial examples&#39; an Adversarial Example?</title>
+      <link>https://jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</guid>
+      <description>&lt;p&gt;I gave a keynote talk at the &lt;a href=&#34;https://www.ieee-security.org/TC/SPW2018/DLS/#&#34;&gt;&lt;em&gt;1st Deep Learning and Security Workshop&lt;/em&gt;&lt;/a&gt; (co-located with the 39th &lt;em&gt;IEEE Symposium on Security and Privacy&lt;/em&gt;). San Francisco, California. 24 May 2018&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;br /&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube-nocookie.com/embed/sFhD6ABghf8?rel=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34;
+    data-id=&#34;9d2c5bf9b3444a8a992762f5cd6ea7fe&#34;
+    data-ratio=&#34;1.77777777777778&#34; src=&#34;http://speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;br /&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;center&gt;&lt;br /&gt;
+&lt;b&gt;Abstract&lt;/b&gt;&lt;br /&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;
+Over the past few years, there has been an explosion of research in security of machine learning and on adversarial examples in particular. Although this is in many ways a new and immature research area, the general problem of adversarial examples has been a core problem in information security for thousands of years. In this talk, I&amp;#8217;ll look at some of the long-forgotten lessons from that quest and attempt to understand what, if anything, has changed now we are in the era of deep learning classifiers. I will survey the prevailing definitions for &amp;#8220;adversarial examples&amp;#8221;, argue that those definitions are unlikely to be the right ones, and raise questions about whether those definitions are leading us astray.&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

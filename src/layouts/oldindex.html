@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+<body>
+    <div id="layout" class="pure-g">
+        {{ partial "sidebar.html" . }}
+
+        <div class="content pure-u-1 pure-u-md-3-4">
+            <a name="top"></a>
+            {{ partial "listtop.html" . }}
+
+<section id="main">
+  <div>
+    {{ range .Site.Pages }}
+        {{ if eq .Type "index" }}
+           {{ .Content }}
+        {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+        {{ partial "footer.html" . }}
+        </div>
+    </div>
+    {{ partial "bodyend.html" . }}
+</body>
+</html>

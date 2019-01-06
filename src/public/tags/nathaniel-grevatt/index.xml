@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jefferson&#39;s Wheel</title>
+    <link>https://jeffersonswheel.org/tags/nathaniel-grevatt/index.xml</link>
+    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://jeffersonswheel.org/tags/nathaniel-grevatt/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>USENIX Security 2018</title>
+      <link>https://jeffersonswheel.org/usenix-security-2018/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeffersonswheel.org/usenix-security-2018/</guid>
+      <description>&lt;p&gt;Three SRG posters were presented at &lt;a
+href=&#34;https://www.usenix.org/conference/usenixsecurity18/poster-session&#34;&gt;USENIX
+Security Symposium 2018&lt;/a&gt; in Baltimore, Maryland:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nathaniel Grevatt (&lt;em&gt;GDPR-Compliant Data Processing: Improving
+Pseudonymization with Multi-Party Computation&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Matthew Wallace and Parvesh Samayamanthula (&lt;em&gt;Deceiving Privacy Policy Classifiers with Adversarial Examples&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Guy Verrier (&lt;em&gt;How is GDPR Affecting Privacy Policies?&lt;/em&gt;, joint with Haonan Chen and Yuan
+Tian)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+&lt;table width=&#34;85%&#34;&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
+&lt;/td&gt;
+&lt;td href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
+&lt;/td&gt;
+&lt;td href=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;There were also a surprising number of appearances by an unidentified unicorn:&lt;br /&gt;
+&lt;center&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Your poster may have made the cut for the &lt;a href=&#34;https://twitter.com/hashtag/usesec18?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#usesec18&lt;/a&gt; Poster Reception, but has it received the approval of a tiny, adorable unicorn? &lt;a href=&#34;https://twitter.com/UVA?ref_src=twsrc%5Etfw&#34;&gt;@UVA&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/seenatusesec18?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#seenatusesec18&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/girlswhocode?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#girlswhocode&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/futurecomputerscientist?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#futurecomputerscientist&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/dreambig?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dreambig&lt;/a&gt; &lt;a href=&#34;https://t.co/bZOO6lYLXK&#34;&gt;pic.twitter.com/bZOO6lYLXK&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;mdash; USENIX Security (@USENIXSecurity) &lt;a href=&#34;https://twitter.com/USENIXSecurity/status/1030215384505491456?ref_src=twsrc%5Etfw&#34;&gt;August 16, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;br /&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

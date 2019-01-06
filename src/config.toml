@@ -1,0 +1,46 @@
+baseurl = "https://jeffersonswheel.org"
+languageCode = "en-us"
+title = "Jefferson's Wheel"
+subtitle = "Security Research at the University of Virginia"
+copyright = ""
+theme = "hugo-finite"
+
+paginate = 10
+paginatePath = "page"
+
+pageNotFoundTitle = "Not Found"
+pageNotFoundDetail = "Your request was determined to be an adversarial example by our web server. This could be because you are evil, but it is most likely a bad link or mistyped URL."
+
+# disqusShortname = "evans1629"
+
+[permalinks]
+    post = "/:slug/"
+    code = "/:slug/"
+
+[params]
+    brand = "Jefferson's Wheel"
+    topline = "University of Virginia Security Research Group"
+    footline = "<p align=\"center\">University of Virginia | Security Research Group</p>"
+    sidebar = "left"
+    googleAnalytics = "UA-3775212-1"
+
+    nodate = true
+    noauthor = true
+    noread = true
+    nopaging=true
+    notoc=true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[blackfriday]
+    angledQuotes = false
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []
+
+[[menu.footer]]
