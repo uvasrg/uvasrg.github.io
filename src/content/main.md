@@ -19,7 +19,7 @@ href="https://www.linkedin.com/in/anant-kharkar-502433b9">Anant&nbsp;Kharkar</a>
 <a
 href="http://dblp2.uni-trier.de/pers/hd/s/Shezan:Faysal_Hossain">Faysal
 Hossain Shezan</a>, <A href="https://github.com/suyeecav">Fnu
-Suya</a>,<br> <A
+Suya</a>, <A
 href="https://www.cs.virginia.edu/evans">David&nbsp;Evans</a>, <a
 href="https://www.yuantiancmu.com/">Yuan&nbsp;Tian</a>, <a
 href="//www.cs.columbia.edu/~riley/">Riley Spahn</a>, <a

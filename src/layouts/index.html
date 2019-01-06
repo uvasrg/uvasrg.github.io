@@ -45,7 +45,7 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
     {{ end }}
   
 
-<div class="mainsection">Recent Posts</div>
+    <div class="mainsection">Recent Posts</div>
 
     {{ range first $posts_count ((where .Data.Pages.ByDate "Section" "post").Reverse) }}
     {{ partial "post-full-summary" . }}

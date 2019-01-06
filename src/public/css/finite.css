@@ -14,11 +14,6 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-.content {
-   margin-left: 2em;
-   margin-right: 5em;
-}
-
 /* Title and top bar navigation.  */
 .site-hamburger {
     position: relative;
@@ -431,6 +426,7 @@ p {
 {
     margin-left: 2em;
     padding-left: 1em;
+    padding-right: 1em;
     margin-right: 2em;
     margin-top: 1ex;
     overflow: hidden;
