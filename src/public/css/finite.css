@@ -384,6 +384,16 @@ p {
   font-size: 0.7rem;
 }
 
+.smallcaption {
+  text-align: left;
+  margin-top: 0.5ex;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 0.6rem;
+  line-height: 150%;
+  color: #C8C;
+}
+
 .more {
   font-size: 0.7rem;
   margin-left: 0em;
