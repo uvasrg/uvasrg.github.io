@@ -389,8 +389,8 @@ p {
 
 .mainsection {
   text-align: center;
-  background: #663399;
-  color: #FFF;
+  background: #101730;
+  color: #faf8f8;
   font-weight: 800;
   font-size: 1.4rem;
   margin-bottom: 1ex;
@@ -400,8 +400,8 @@ p {
 {
     float: right;
     width: 250px;
-    background-color: #663399;
-    color: #DDD;
+    background-color: #101730;
+    color: #faf8f8;
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 1em;
@@ -435,4 +435,14 @@ p {
     margin-top: 1ex;
     overflow: hidden;
     background: white;   
+}
+
+.groupstyle
+{
+    font-size: 0.7rem;
+    padding-right: 4em;
+    text-transform: none;
+    padding-top: 0.4em;
+    color: #DEE;
+    line-height: 125%;
 }
