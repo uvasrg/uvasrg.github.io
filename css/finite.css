@@ -64,6 +64,9 @@ body {
 /* Main content.  */
 main {
     margin-top: 2ex;
+    max-width: 1200px;
+    margin: 0 auto !important;
+    float: none !important;
 }
 
 a
