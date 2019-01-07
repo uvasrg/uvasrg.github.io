@@ -3,7 +3,7 @@ title = "Jefferson's Wheel - Security Research Group"
 type = "index"
 +++
 
-  <div class="row">
+<div class="row">
     <div class="column small-25 medium-7">
  Our research seeks to empower individuals and organizations to
 control how their data is used.  We use techniques from cryptography,
