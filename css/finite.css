@@ -152,6 +152,8 @@ pre {
 .whatisthis hr {
     border-style: solid;
     border-color: #101730;
+    height: 2px;
+    max-width: 100%;
 }
 
 /* Taxonomy terms page.  */
