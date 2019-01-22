@@ -9,6 +9,22 @@
     <atom:link href="//jeffersonswheel.org/tags/adversarial-machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Deep Fools</title>
+      <link>//jeffersonswheel.org/deep-fools/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/deep-fools/</guid>
+      <description>&lt;p&gt;&lt;em&gt;New Electronics&lt;/em&gt; has an article that includes my &lt;a href=&#34;//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/&#34;&gt;&lt;em&gt;Deep Learning and Security Workshop&lt;/em&gt; talk&lt;/a&gt;: &lt;a href=&#34;http://www.newelectronics.co.uk/electronics-technology/deep-fools/205133/&#34;&gt;&lt;em&gt;Deep fools&lt;/em&gt;&lt;/a&gt;, 21 January 2019.&lt;/p&gt;
+
+&lt;p&gt;A better version of the image Mainuddin Jonas produced that they use
+(which they screenshot from the talk video) is below:
+&lt;center&gt;
+&lt;A href=&#34;//jeffersonswheel.org/images/adversarialperturbations.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/adversarialperturbations.png&#34; width=80%&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</title>
       <link>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>

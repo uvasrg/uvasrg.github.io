@@ -22,14 +22,14 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    </p>
 
    <p class="nogap">
-   <b><a href="/posts/">Recent News</a></b>
+   <b><a href="/post/">Recent News</a></b>
    </p>
    {{ range first $posts_count ((where .Data.Pages.ByDate "Section" "post").Reverse) }}
    <div class="posttitle">
       {{ partial "post-title" . }}
    </div>
    {{ end }}
-   <div class="more"><a href="/posts/">More...</a></div>
+   <div class="more"><a href="/post/">More...</a></div>
    </p>
    <p>
 <a href="/awards.html"><b>Awards</b></a>

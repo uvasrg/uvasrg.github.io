@@ -6,8 +6,53 @@
     <description>Recent content in Post-rsses on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="//jeffersonswheel.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deep Fools</title>
+      <link>//jeffersonswheel.org/deep-fools/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/deep-fools/</guid>
+      <description>&lt;p&gt;&lt;em&gt;New Electronics&lt;/em&gt; has an article that includes my &lt;a href=&#34;//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/&#34;&gt;&lt;em&gt;Deep Learning and Security Workshop&lt;/em&gt; talk&lt;/a&gt;: &lt;a href=&#34;http://www.newelectronics.co.uk/electronics-technology/deep-fools/205133/&#34;&gt;&lt;em&gt;Deep fools&lt;/em&gt;&lt;/a&gt;, 21 January 2019.&lt;/p&gt;
+
+&lt;p&gt;A better version of the image Mainuddin Jonas produced that they use
+(which they screenshot from the talk video) is below:
+&lt;center&gt;
+&lt;A href=&#34;//jeffersonswheel.org/images/adversarialperturbations.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/adversarialperturbations.png&#34; width=80%&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markets, Mechanisms, Machines</title>
+      <link>//jeffersonswheel.org/markets-mechanisms-machines/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/markets-mechanisms-machines/</guid>
+      <description>&lt;p&gt;My course for Spring 2019 is &lt;a href=&#34;https://uvammm.github.io/&#34;&gt;&lt;em&gt;Markets, Mechanisms,
+Machines&lt;/em&gt;&lt;/a&gt;, cross-listed as cs4501/econ4559
+and co-taught with &lt;a href=&#34;http://people.virginia.edu/~dn4w/&#34;&gt;Denis
+Nekipelov&lt;/a&gt;. The course will explore
+interesting connections between economics and computer science.&lt;/p&gt;
+
+&lt;p&gt;My qualifications for being listed as instructor for a 4000-level
+Economics course are limited to taking an introductory microeconomics
+course my first year as an undergraduate.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/econgrade.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/econgrade.png&#34; width=80%&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Its good to finally get a chance to redeem myself for giving up on
+Economics 28 years ago!&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/econgrade-zoom.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/econgrade-zoom.png&#34; width=80%&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</title>
@@ -403,52 +448,6 @@ Mainuddin Jonas (with David Evans), &lt;em&gt;Enhancing Adversarial Example Defe
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lessons from the Last 3000 Years of Adversarial Examples</title>
-      <link>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
-      <description>&lt;p&gt;I spoke on &lt;em&gt;Lessons from the Last 3000 Years of Adversarial Examples&lt;/em&gt; at Huawei&amp;#8217;s Strategy and Technology Workshop in Shenzhen, China, 15 May 2018.  &lt;/p&gt;
-&lt;p&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3de1c0f163b44ab18e4928c58eea706e&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;http://speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/p&gt;
-&lt;p&gt;
-We also got to tour Huawei&amp;#8217;s new research and development campus, under construction about 40 minutes from Shenzhen. It is pretty close to Disneyland, with its own railroad and villages themed after different European cities (Paris, Bologna, etc.).&lt;br /&gt;
-&lt;center&gt;&lt;br /&gt;
-&lt;a href=&#34;images/029.jpg&#34;&gt;&lt;img src=&#34;images/029.jpg&#34; width=&#34;650&#34;&gt;&lt;/a&gt;&lt;br /&gt;
-Huawei&amp;#8217;s New Research and Development Campus [&lt;a href=&#34;https://photos.app.goo.gl/YqGfaC6fqNAsywzd2&#34;&gt;More Pictures&lt;/a&gt;]&lt;br /&gt;
-&lt;/center&gt;&lt;/p&gt;
-&lt;p&gt;
-Unfortunately, pictures were not allowed on our tour of the production line. Not so surprising that nearly all of the work was done by machines, but was surprising to me how much of the human work left is completely robotic. The human workers (called &amp;#8220;operators&amp;#8221;) are mostly scanning QR codes on parts, and following the directions that light up with they do, or scanning bins and following directions on a screen to collect parts from bins and scanning them when they are put into the bin. This is the kind of system that leads to remarkably high production quality. The parts are mostly delivered on tapes that are fed into the machines, and many machines along the line are primarily for testing. There is a &amp;#8220;bottleneck&amp;#8221; marker that is placed on any points that are holding up the production line.
-&lt;/p&gt;
-&lt;p&gt;
-The public (at least to the factory) &amp;#8220;grapey board&amp;#8221; keeps track of the happiness of the workers &amp;mdash; each operator puts up a smiley (or frowny) face on the board to show their mood for the day, monitored carefully by the managers.  There is a batch of grapes to show performance for the month. If an operator does something good, a grape is colored green; if they do something bad, a grape is colored black. There was quite a bit of discussion among the people on the tour (mostly US and European-based professors) if such a management approach would be a good idea for our research groups&amp;#8230; (or for department chairs for their faculty!)
-&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;br /&gt;
-&lt;a href=&#34;images/048.jpg&#34;&gt;&lt;img src=&#34;images/048.jpg&#34; width=&#34;650&#34;&gt;&lt;/a&gt;&lt;br /&gt;
-In front of Huawei&amp;#8217;s &amp;#8220;White House&amp;#8221;, with Battista Biggio [&lt;a href=&#34;https://photos.app.goo.gl/YqGfaC6fqNAsywzd2&#34;&gt;More Pictures&lt;/a&gt;]&lt;br /&gt;
-&lt;/center&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Feature Squeezing at NDSS</title>
-      <link>//jeffersonswheel.org/feature-squeezing-at-ndss/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/feature-squeezing-at-ndss/</guid>
-      <description>&lt;p&gt;Weilin Xu presented &lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt; at the &lt;a href=&#34;http://www.ndss-symposium.org/ndss2018/&#34;&gt;Network and Distributed System Security Symposium 2018&lt;/a&gt;. San Diego, CA. 21 February 2018.&lt;br /&gt;
-&lt;center&gt;&lt;br /&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cdfcf454436240e4ab1a6c4d594e5c7a&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;http://speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;br /&gt;
-&lt;/center&gt;&lt;/p&gt;
-&lt;p&gt;
-Paper: Weilin Xu, David Evans, Yanjun Qi. &lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;. NDSS 2018. [&lt;a href=&#34;https://evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;Project Site: &lt;a href=&#34;https://evademl.org/squeezing&#34;&gt;EvadeML.org&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
     </item>
     
