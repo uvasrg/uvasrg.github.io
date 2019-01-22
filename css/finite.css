@@ -464,3 +464,8 @@ p {
     color: #DEE;
     line-height: 125%;
 }
+
+hr.post-separator {
+   border: 3px solid #03396c;
+   border-radius: 5px;
+}
