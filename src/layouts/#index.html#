@@ -1,0 +1,63 @@
+{{ define "main" }}
+{{ $posts_title := index .Site.Params "posts_title" | default "Posts" }}
+{{ $posts_count := index .Site.Params "posts_count" | default 5 }}
+{{ $pubs_title := index .Site.Params "pubs_title" | default "Publications" }}
+{{ $pubs_count := index .Site.Params "pubs_count" | default 5 }}
+
+   <div class="container">       
+   <div class="sidebar">
+
+University of Virginia <br>
+Security Research Group
+   </p>
+   <p>
+Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
+   </p>
+   <p>
+   <a href="//www.cs.virginia.edu/evans/students"><b>Team</b></a></br>
+   <a href="//www.cs.virginia.edu/evans/pubs"><b>Publications</b></a><br>
+   </p>
+   <p>
+   <a href="https://uvasrg.slack.com/"><b>Join Slack Group</b></a>
+   </p>
+
+   <p class="nogap">
+   <b><a href="/posts/">Recent News</a></b>
+   </p>
+   {{ range first $posts_count ((where .Data.Pages.ByDate "Section" "post").Reverse) }}
+   <div class="posttitle">
+      {{ partial "post-title" . }}
+   </div>
+   {{ end }}
+   <div class="more"><a href="/posts/">More...</a></div>
+   </p>
+   <p>
+<a href="/awards.html"><b>Awards</b></a>
+    <p>
+<div class="more"><a href="/oldindex.html">Old Site</a></div>
+    </div>
+    <div class="content">
+
+    {{ range .Site.Pages }}
+        {{ if eq .Type "index" }}
+           {{ .Content }}
+        {{ end }}
+    {{ end }}
+  
+
+    <div class="mainsection">Recent Posts</div>
+
+    {{ range first $posts_count ((where .Data.Pages.ByDate "Section" "post").Reverse) }}
+    {{ partial "post-full-summary" . }}
+    {{ end }}
+    <footer>
+      <nav>
+	<a href="/post/" class="button hollow primary">All {{ $posts_title }}</a>
+      </nav>
+    </footer>
+
+</div>
+</div>
+
+{{ end }}
+
