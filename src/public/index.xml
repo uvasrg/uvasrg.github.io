@@ -6,8 +6,67 @@
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="//jeffersonswheel.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>When Relaxations Go Bad: &#34;Differentially-Private&#34; Machine Learning</title>
+      <link>//jeffersonswheel.org/when-relaxations-go-bad-differentially-private-machine-learning/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/when-relaxations-go-bad-differentially-private-machine-learning/</guid>
+      <description>&lt;p&gt;We have posted a paper by Bargav Jayaraman and myself on &lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;&lt;em&gt;When Relaxations Go Bad: &amp;ldquo;Differentially-Private&amp;rdquo; Machine Learning&lt;/em&gt;&lt;/a&gt; (code available at &lt;a href=&#34;https://github.com/bargavj/EvaluatingDPML&#34;&gt;https://github.com/bargavj/EvaluatingDPML&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Differential privacy is becoming a standard notion for performing
+privacy-preserving machine learning over sensitive data. It provides
+formal guarantees, in terms of the privacy budget, &amp;epsilon;, on how
+much information about individual training records is leaked by the
+model.&lt;/p&gt;
+
+&lt;p&gt;While the privacy budget is directly correlated to the privacy
+leakage, the calibration of the privacy budget is not well
+understood. As a result, many existing works on privacy-preserving
+machine learning select large values of ϵ in order to get acceptable
+utility of the model, with little understanding of the concrete impact
+of such choices on meaningful privacy. Moreover, in scenarios where
+iterative learning procedures are used which require privacy
+guarantees for each iteration, relaxed definitions of differential
+privacy are often used which further tradeoff privacy for better
+utility.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we evaluate the impacts of these choices on privacy in
+experiments with logistic regression and neural network models. We
+quantify the privacy leakage in terms of advantage of the adversary
+performing inference attacks and by analyzing the number of members at
+risk for exposure.&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;myrow&#34;&gt;
+   &lt;div class=&#34;mycolumn&#34; align=&#34;center&#34;&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/cifar_nn_grad_add.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cifar_nn_grad_acc.png&#34; width=&#34;92%&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Accuracy Loss as Privacy Decreases&lt;br&gt;
+(CIFAR-100, neural network model)
+   &lt;/div&gt;
+   &lt;div class=&#34;mycolumn&#34; align=&#34;center&#34;&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/Cifar_nn_grad_mem.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/Cifar_nn_grad_mem.png&#34; width=&#34;98%&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Privacy Leakage&lt;br&gt;
+(Yeom et al.&amp;rsquo;s Membership Inference Attack)
+   &lt;/div&gt;
+   &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Our main findings are that current mechanisms for differential privacy
+for machine learning rarely offer acceptable utility-privacy
+tradeoffs: settings that provide limited accuracy loss provide little
+effective privacy, and settings that provide strong privacy result in
+useless models.&lt;/p&gt;
+
+&lt;p&gt;Bargav Jayaraman talked about this work at the &lt;em&gt;DC-Area Anonymity, Privacy, and Security Seminar&lt;/em&gt;(&lt;a href=&#34;https://dcaps.info/2019-2-25.html&#34;&gt;https://dcaps.info/2019-2-25.html&lt;/a&gt;) (25 February 2019) at the University of Maryland:&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;294ac688ec6d415a9bef17a91e031459&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Paper: &lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;&lt;em&gt;When Relaxations Go Bad: &amp;ldquo;Differentially-Private&amp;rdquo; Machine Learning&lt;/em&gt;&lt;/a&gt;&lt;br /&gt;
+Code: &lt;a href=&#34;https://github.com/bargavj/EvaluatingDPML&#34;&gt;https://github.com/bargavj/EvaluatingDPML&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Deep Fools</title>
@@ -400,50 +459,6 @@ Dependable and Secure Machine Learning&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;/center&gt;&lt;/p&gt;
 &lt;p&gt;
 Over the past few years, there has been an explosion of research in security of machine learning and on adversarial examples in particular. Although this is in many ways a new and immature research area, the general problem of adversarial examples has been a core problem in information security for thousands of years. In this talk, I&amp;#8217;ll look at some of the long-forgotten lessons from that quest and attempt to understand what, if anything, has changed now we are in the era of deep learning classifiers. I will survey the prevailing definitions for &amp;#8220;adversarial examples&amp;#8221;, argue that those definitions are unlikely to be the right ones, and raise questions about whether those definitions are leading us astray.&lt;/p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Wahoos at Oakland</title>
-      <link>//jeffersonswheel.org/wahoos-at-oakland/</link>
-      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/wahoos-at-oakland/</guid>
-      <description>
-
-&lt;h2 id=&#34;uva-group-dinner-at-ieee-security-and-privacy-2018&#34;&gt;UVA Group Dinner at IEEE Security and Privacy 2018&lt;/h2&gt;
-
-&lt;p&gt;Including our newest faculty member, &lt;a href=&#34;https://www.cs.purdue.edu/homes/kwon58/#summary&#34;&gt;Yongwhi Kwon&lt;/a&gt;, joining UVA in Fall 2018!&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;br /&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/ORG_DSC07202.jpg&#34; width=&#34;680&#34;&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;small&gt;Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu&lt;/small&gt;&lt;br /&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;poster-session&#34;&gt;Poster Session&lt;/h2&gt;
-
-&lt;table width=&#34;100%&#34;&gt;
-&lt;tr valign=&#34;top&#34;&gt;
-&lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193906.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193906-3.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
-Fnu Suya (with Yuan Tian and David Evans), &lt;em&gt;Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers&lt;/em&gt; &lt;a href=&#34;https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper37-poster-abstract.pdf&#34;&gt;[PDF]&lt;/a&gt;
-&lt;/td&gt;
-&lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193914.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180521_193914-2.jpg&#34; height=&#34;360&#34;&gt;&lt;/a&gt;&lt;br /&gt;
-Mainuddin Jonas (with David Evans), &lt;em&gt;Enhancing Adversarial Example Defenses Using Internal Layers&lt;/em&gt; &lt;a href=&#34;https://www.ieee-security.org/TC/SP2018/poster-abstracts/oakland2018-paper29-poster-abstract.pdf&#34;&gt;[PDF]&lt;/a&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr valign=&#34;top&#34;&gt;
-&lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153017.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153017-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
-&lt;/td&gt;
-&lt;td width=&#34;50%&#34; align=&#34;center&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153109.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/srg2018/IMG_20180522_153109-2.jpg&#34; height=&#34;300&#34;&gt;&lt;/a&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
 </description>
     </item>
     

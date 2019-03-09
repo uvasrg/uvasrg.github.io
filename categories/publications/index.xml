@@ -9,6 +9,65 @@
     <atom:link href="//jeffersonswheel.org/categories/publications/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>When Relaxations Go Bad: &#34;Differentially-Private&#34; Machine Learning</title>
+      <link>//jeffersonswheel.org/when-relaxations-go-bad-differentially-private-machine-learning/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/when-relaxations-go-bad-differentially-private-machine-learning/</guid>
+      <description>&lt;p&gt;We have posted a paper by Bargav Jayaraman and myself on &lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;&lt;em&gt;When Relaxations Go Bad: &amp;ldquo;Differentially-Private&amp;rdquo; Machine Learning&lt;/em&gt;&lt;/a&gt; (code available at &lt;a href=&#34;https://github.com/bargavj/EvaluatingDPML&#34;&gt;https://github.com/bargavj/EvaluatingDPML&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Differential privacy is becoming a standard notion for performing
+privacy-preserving machine learning over sensitive data. It provides
+formal guarantees, in terms of the privacy budget, &amp;epsilon;, on how
+much information about individual training records is leaked by the
+model.&lt;/p&gt;
+
+&lt;p&gt;While the privacy budget is directly correlated to the privacy
+leakage, the calibration of the privacy budget is not well
+understood. As a result, many existing works on privacy-preserving
+machine learning select large values of ϵ in order to get acceptable
+utility of the model, with little understanding of the concrete impact
+of such choices on meaningful privacy. Moreover, in scenarios where
+iterative learning procedures are used which require privacy
+guarantees for each iteration, relaxed definitions of differential
+privacy are often used which further tradeoff privacy for better
+utility.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we evaluate the impacts of these choices on privacy in
+experiments with logistic regression and neural network models. We
+quantify the privacy leakage in terms of advantage of the adversary
+performing inference attacks and by analyzing the number of members at
+risk for exposure.&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;myrow&#34;&gt;
+   &lt;div class=&#34;mycolumn&#34; align=&#34;center&#34;&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/cifar_nn_grad_add.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cifar_nn_grad_acc.png&#34; width=&#34;92%&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Accuracy Loss as Privacy Decreases&lt;br&gt;
+(CIFAR-100, neural network model)
+   &lt;/div&gt;
+   &lt;div class=&#34;mycolumn&#34; align=&#34;center&#34;&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/Cifar_nn_grad_mem.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/Cifar_nn_grad_mem.png&#34; width=&#34;98%&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Privacy Leakage&lt;br&gt;
+(Yeom et al.&amp;rsquo;s Membership Inference Attack)
+   &lt;/div&gt;
+   &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Our main findings are that current mechanisms for differential privacy
+for machine learning rarely offer acceptable utility-privacy
+tradeoffs: settings that provide limited accuracy loss provide little
+effective privacy, and settings that provide strong privacy result in
+useless models.&lt;/p&gt;
+
+&lt;p&gt;Bargav Jayaraman talked about this work at the &lt;em&gt;DC-Area Anonymity, Privacy, and Security Seminar&lt;/em&gt;(&lt;a href=&#34;https://dcaps.info/2019-2-25.html&#34;&gt;https://dcaps.info/2019-2-25.html&lt;/a&gt;) (25 February 2019) at the University of Maryland:&lt;/p&gt;
+
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;294ac688ec6d415a9bef17a91e031459&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Paper: &lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;&lt;em&gt;When Relaxations Go Bad: &amp;ldquo;Differentially-Private&amp;rdquo; Machine Learning&lt;/em&gt;&lt;/a&gt;&lt;br /&gt;
+Code: &lt;a href=&#34;https://github.com/bargavj/EvaluatingDPML&#34;&gt;https://github.com/bargavj/EvaluatingDPML&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</title>
       <link>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>

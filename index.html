@@ -85,6 +85,12 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    </p>
    
    <div class="posttitle">
+      <a href="/when-relaxations-go-bad-differentially-private-machine-learning/">When Relaxations Go Bad: &#34;Differentially-Private&#34; Machine Learning</a>
+
+
+   </div>
+   
+   <div class="posttitle">
       <a href="/deep-fools/">Deep Fools</a>
 
 
@@ -108,12 +114,6 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
 
    </div>
    
-   <div class="posttitle">
-      <a href="/neurips-2018-distributed-learning-without-distress/">NeurIPS 2018: Distributed Learning without Distress</a>
-
-
-   </div>
-   
    <div class="more"><a href="/post/">More...</a></div>
    </p>
    <p>
@@ -123,6 +123,8 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
     </div>
     <div class="content">
 
+    
+        
     
         
     
@@ -226,6 +228,86 @@ href="//www.ssoscan.org/">SSOScan</a></p>
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/when-relaxations-go-bad-differentially-private-machine-learning/">When Relaxations Go Bad: &#34;Differentially-Private&#34; Machine Learning</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-03-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">9 March 2019</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/privacy">privacy</a>,</span> 
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/differential-privacy">differential privacy</a>, 
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/bargav-jayaraman">Bargav Jayaraman</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>We have posted a paper by Bargav Jayaraman and myself on <a href="https://arxiv.org/abs/1902.08874"><em>When Relaxations Go Bad: &ldquo;Differentially-Private&rdquo; Machine Learning</em></a> (code available at <a href="https://github.com/bargavj/EvaluatingDPML">https://github.com/bargavj/EvaluatingDPML</a>).</p>
+
+<p>Differential privacy is becoming a standard notion for performing
+privacy-preserving machine learning over sensitive data. It provides
+formal guarantees, in terms of the privacy budget, &epsilon;, on how
+much information about individual training records is leaked by the
+model.</p>
+
+<p>While the privacy budget is directly correlated to the privacy
+leakage, the calibration of the privacy budget is not well
+understood. As a result, many existing works on privacy-preserving
+machine learning select large values of ϵ in order to get acceptable
+utility of the model, with little understanding of the concrete impact
+of such choices on meaningful privacy. Moreover, in scenarios where
+iterative learning procedures are used which require privacy
+guarantees for each iteration, relaxed definitions of differential
+privacy are often used which further tradeoff privacy for better
+utility.</p>
+
+<p>In this paper, we evaluate the impacts of these choices on privacy in
+experiments with logistic regression and neural network models. We
+quantify the privacy leakage in terms of advantage of the adversary
+performing inference attacks and by analyzing the number of members at
+risk for exposure.</p>
+
+<p><div class="myrow">
+   <div class="mycolumn" align="center">
+<a href="/images/cifar_nn_grad_add.pdf"><img src="/images/cifar_nn_grad_acc.png" width="92%"></a><br>
+Accuracy Loss as Privacy Decreases<br>
+(CIFAR-100, neural network model)
+   </div>
+   <div class="mycolumn" align="center">
+<a href="/images/Cifar_nn_grad_mem.pdf"><img src="/images/Cifar_nn_grad_mem.png" width="98%"></a><br>
+Privacy Leakage<br>
+(Yeom et al.&rsquo;s Membership Inference Attack)
+   </div>
+   </div></p>
+
+<p>Our main findings are that current mechanisms for differential privacy
+for machine learning rarely offer acceptable utility-privacy
+tradeoffs: settings that provide limited accuracy loss provide little
+effective privacy, and settings that provide strong privacy result in
+useless models.</p>
+
+<p>Bargav Jayaraman talked about this work at the <em>DC-Area Anonymity, Privacy, and Security Seminar</em>(<a href="https://dcaps.info/2019-2-25.html">https://dcaps.info/2019-2-25.html</a>) (25 February 2019) at the University of Maryland:</p>
+
+<script async class="speakerdeck-embed" data-id="294ac688ec6d415a9bef17a91e031459" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+<p>Paper: <a href="https://arxiv.org/abs/1902.08874"><em>When Relaxations Go Bad: &ldquo;Differentially-Private&rdquo; Machine Learning</em></a><br />
+Code: <a href="https://github.com/bargavj/EvaluatingDPML">https://github.com/bargavj/EvaluatingDPML</a>)</p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/deep-fools/">Deep Fools</a></h2>
@@ -406,77 +488,6 @@ research and aim to give readers insights into what problems are
 practically solvable using MPC today and how different threat models
 and assumptions impact the practicality of different approaches.
 </div>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
-    <h2><a href="/neurips-2018-distributed-learning-without-distress/">NeurIPS 2018: Distributed Learning without Distress</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2018-12-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">8 December 2018</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//jeffersonswheel.org/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>,</span> 
-    
-    <a class="post-tag" href="//jeffersonswheel.org/tags/secure-computation">secure computation</a>, 
-    
-    <a class="post-tag" href="//jeffersonswheel.org/tags/bargav-jayaraman">Bargav Jayaraman</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        
-
-<p>Bargav Jayaraman presented our work on privacy-preserving machine learning at the <a href="https://nips.cc/Conferences/2018/">32<sup>nd</sup> <em>Conference on Neural Information Processing Systems</em></a> (NeurIPS 2018) in Montreal.</p>
-
-<p><em>Distributed learning</em> (sometimes known as <em>federated learning</em>)
-allows a group of independent data owners to collaboratively learn a
-model over their data sets without exposing their private data.  Our
-approach combines <em>differential privacy</em> with secure <em>multi-party
-computation</em> to both protect the data during training and produce a
-model that provides privacy against inference attacks.</p>
-
-<p><center>
-<iframe width="560" height="315"
-    src="https://www.youtube-nocookie.com/embed/rwyWiDyVmjE"
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media;
-    gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center></p>
-
-<p>We explore two popular methods of differential privacy, output
-perturbation and gradient perturbation, and advance the
-state-of-the-art for both methods in the distributed learning
-setting. In our output perturbation method, the parties combine local
-models within a secure computation and then add therequired
-differential privacy noise before revealing the model. In our gradient
-perturbation method, the data owners collaboratively train a global
-model via aniterative learning algorithm. At each iteration, the
-parties aggregate their local gradients within a secure computation,
-adding sufficient noise to ensure privacy before the gradient updates
-are revealed. For both methods, we show that the noise can be reduced
-in the multi-party setting by adding the noise inside the
-securecomputation after aggregation, asymptotically improving upon the
-best previous results. Experiments on real world data sets demonstrate
-that our methods providesubstantial utility gains for typical privacy
-requirements.</p>
-
-<h2 id="code">Code</h2>
-
-<p><a href="https://github.com/bargavj/distributedMachineLearning"><em><a href="https://github.com/bargavj/distributedMachineLearning">https://github.com/bargavj/distributedMachineLearning</a></em></a></p>
-
-<h2 id="paper">Paper</h2>
-
-<p>Bargav Jayaraman, Lingxiao Wang, David Evans and Quanquan Gu. <a href="//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf"><em>Distributed Learning without Distress:
-Privacy-Preserving Empirical Risk Minimization</em></a>. <a href="https://nips.cc/Conferences/2018/">32<sup>nd</sup> Conference on Neural Information Processing Systems</a> (NeurIPS). Montreal, Canada. December 2018. (<a href="//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf">PDF</a>, 19 pages, including supplemental materials)</p>
 
       </div>
 <hr class="post-separator"></hr>
