@@ -26,11 +26,11 @@ guarantees for each iteration, relaxed definitions of differential
 privacy are often used which further tradeoff privacy for better
 utility. 
 
-In this paper, we evaluate the impacts of these choices on privacy in
-experiments with logistic regression and neural network models. We
-quantify the privacy leakage in terms of advantage of the adversary
-performing inference attacks and by analyzing the number of members at
-risk for exposure. 
+We evaluated the impacts of these choices on privacy in experiments
+with logistic regression and neural network models, quantifying the
+privacy leakage in terms of advantage of the adversary performing
+inference attacks and by analyzing the number of members at risk for
+exposure.
 
    <div class="myrow">
    <div class="mycolumn" align="center"> 
