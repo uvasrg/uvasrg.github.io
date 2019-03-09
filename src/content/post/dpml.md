@@ -59,8 +59,8 @@ relaxtions provide lower utility (more accuracy loss) than na&iuml;ve
 composition for comparable privacy leakage, as measured by the number
 of actual members exposed in a test dataset.  Further, none of the
 methods provide both acceptable utility and meaningful privacy &mdash;
-it a high level, either nothing is learned from the training data, or
-some sensitive data is exposed. (See [the
+at a high level, either _nothing is learned_ from the training data, or
+some _sensitive data is exposed_. (See [the
 paper](https://arxiv.org/abs/1902.08874) for more details and
 results.)
 
