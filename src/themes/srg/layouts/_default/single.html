@@ -8,7 +8,6 @@
 
 	<div id="layout" class="pure-g">
     {{ partial "sidebar.html" . }}
-	
 	{{ if .Params.banner }}
 	<div class="content-banner-image pure-u-1 pure-u-md-3-4" style="{{ if .Params.bannerheight }}height: {{ .Params.bannerheight }}px;{{ end }}">
 		<img src="{{ .Params.banner }}" class="pure-img" style="{{ if .Params.bannerfill }}width: 100%;{{ end }}" />
