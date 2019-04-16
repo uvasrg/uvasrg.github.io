@@ -93,6 +93,12 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    </div>
    
    <div class="posttitle">
+      <a href="/ismr-2019-context-aware-monitoring-in-robotic-surgery/">ISMR 2019: Context-aware Monitoring in Robotic Surgery</a>
+
+
+   </div>
+   
+   <div class="posttitle">
       <a href="/when-relaxations-go-bad-differentially-private-machine-learning/">When Relaxations Go Bad: &#34;Differentially-Private&#34; Machine Learning</a>
 
 
@@ -110,12 +116,6 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
 
    </div>
    
-   <div class="posttitle">
-      <a href="/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/">ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</a>
-
-
-   </div>
-   
    <div class="more"><a href="/post/">More...</a></div>
    </p>
    <p>
@@ -125,6 +125,8 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
     </div>
     <div class="content">
 
+    
+        
     
         
     
@@ -322,6 +324,65 @@ advances the state-of-the-art of certifiable robust training methods.</p>
 the robustness of machine learning models. Our results have motivated
 several subsequent works, and we hope this dissertation will be a step
 towards implementing robust models under attack.</p>
+
+      </div>
+<hr class="post-separator"></hr>
+
+    
+    <h2><a href="/ismr-2019-context-aware-monitoring-in-robotic-surgery/">ISMR 2019: Context-aware Monitoring in Robotic Surgery</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-04-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">3 April 2019</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/dependability">dependability</a>,</span> 
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/machine-learning">machine learning</a>, 
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/samin-yasar">Samin Yasar</a>, 
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/robotic-surgery">robotic surgery</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>Samin Yasar presented our paper on <a href="https://arxiv.org/abs/1901.09802"><em>Context-award Monitoring in
+Robotic Surgery</em></a> at the 2019
+<a href="https://web.archive.org/web/20190416013641/http://www.ismr.gatech.edu/"><em>International Symposium on Medical
+Robotics</em></a>
+(ISMR) in Atlanta, Georgia.</p>
+
+<p><center><a href="/images/surgery.png"><img src="/images/surgery.png" width="80%"></a></center></p>
+
+<p>Robotic-assisted minimally invasive surgery (MIS) has enabled
+procedures with increased precision and dexterity, but surgical robots
+are still open loop and require surgeons to work with a tele-operation
+console providing only limited visual feedback. In this setting,
+mechanical failures, software faults, or human errors might lead to
+adverse events resulting in patient complications or fatalities. We
+argue that impending adverse events could be detected and mitigated by
+applying context-specific safety constraints on the motions of the
+robot. We present a context-aware safety monitoring system which
+segments a surgical task into subtasks using kinematics data and
+monitors safety constraints specific to each subtask. To test our
+hypothesis about context specificity of safety constraints, we analyze
+recorded demonstrations of dry-lab surgical tasks collected from the
+JIGSAWS database as well as from experiments we conducted on a Raven
+II surgical robot. Analysis of the trajectory data shows that each
+subtask of a given surgical procedure has consistent safety
+constraints across multiple demonstrations by different subjects. Our
+preliminary results show that violations of these safety constraints
+lead to unsafe events, and there is often sufficient time between the
+constraint violation and the safety-critical event to allow for a
+corrective action.</p>
 
       </div>
 <hr class="post-separator"></hr>
@@ -605,58 +666,6 @@ course my first year as an undergraduate.</p>
 
 <p>Its good to finally get a chance to redeem myself for giving up on
 Economics 28 years ago!</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
-    <h2><a href="/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/">ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2018-12-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">20 December 2018</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//jeffersonswheel.org/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
-    
-    <a class="post-tag" href="//jeffersonswheel.org/tags/xiao-zhang">Xiao Zhang</a>, 
-    
-    <a class="post-tag" href="//jeffersonswheel.org/tags/iclr">ICLR</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>Xiao Zhang and my paper on <a href="https://openreview.net/forum?id=BygANhA9tQ&amp;noteId=BJe7cKRWeN"><em>Cost-Sensitive Robustness against Adversarial Examples</em></a> has been accepted to ICLR 2019.</p>
-
-<p>Several recent works have developed methods for training classifiers
-that are certifiably robust against norm-bounded adversarial
-perturbations. However, these methods assume that all the adversarial
-transformations provide equal value for adversaries, which is seldom
-the case in real-world applications. We advocate for cost-sensitive
-robustness as the criteria for measuring the classifier&rsquo;s performance
-for specific tasks. We encode the potential harm of different
-adversarial transformations in a cost matrix, and propose a general
-objective function to adapt the robust training method of Wong &amp;
-Kolter (2018) to optimize for cost-sensitive robustness. Our
-experiments on simple MNIST and CIFAR10 models and a variety of cost
-matrices show that the proposed approach can produce models with
-substantially reduced cost-sensitive robust error, while maintaining
-classification accuracy.</p>
-
-<p><center>
-<img src="/images/protecteven.png" width="70%">
-<div class="caption">
-This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
-</center></p>
-
-<p>Xiao will present the paper at ICLR in New Orleans in May 2019.</p>
 
       </div>
 <hr class="post-separator"></hr>
