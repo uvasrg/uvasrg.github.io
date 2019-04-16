@@ -10,9 +10,10 @@ tags = ["adversarial machine learning", "Weilin Xu", "alumni"]
 Congratulations to Weilin Xu for successfully defending his PhD Thesis!
 
 <center>
-<a href="/images/weilin-defense-IMG_4702.jpg"><img src="/images/weilin-defense-IMG_4702-2.jpg" width="70%"> 
-<div class="caption">
-Weilin's Committee: <A href="http://faculty.virginia.edu/alemzadeh/">Homa Alemzadeh</a>, <a href="https://www.cs.virginia.edu/yanjun/">Yanjun Qi</a>, <a href="http://patrickmcdaniel.org/">Patrick McDaniel</a> (on screen)</a>, <a href="https://www.cs.virginia.edu/evans">David Evans</a>, <a href="http://vicenteordonez.com/">Vicente Ordóñez Román</a>
+<a href="/images/weilin-defense-IMG_4702.jpg"><img src="/images/weilin-defense-IMG_4702-2.jpg" width="70%"></a>
+<div class="caption"><center>
+Weilin's Committee: <A href="http://faculty.virginia.edu/alemzadeh/">Homa Alemzadeh</a>, <a href="https://www.cs.virginia.edu/yanjun/">Yanjun Qi</a>, <a href="http://patrickmcdaniel.org/">Patrick McDaniel</a> (on screen)</a>, <a href="https://www.cs.virginia.edu/evans">David Evans</a>, <a href="http://vicenteordonez.com/">Vicente Ordóñez Román</a></center>
+</div>
 </center>
 
 <center>
