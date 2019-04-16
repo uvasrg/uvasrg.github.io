@@ -1,7 +1,7 @@
 +++
 date = "03 Apr 2019"
 draft = false
-title = "Hacker Eva Galperin has a Plan to Eradicate Stalkerware"
+title = "A Plan to Eradicate Stalkerware"
 author = "David Evans"
 categories = ["news"]
 tags = ["alumni", "Sam Havron"]
