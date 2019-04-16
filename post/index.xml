@@ -84,6 +84,27 @@ towards implementing robust models under attack.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Hacker Eva Galperin has a Plan to Eradicate Stalkerware</title>
+      <link>//jeffersonswheel.org/hacker-eva-galperin-has-a-plan-to-eradicate-stalkerware/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/hacker-eva-galperin-has-a-plan-to-eradicate-stalkerware/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.cs.cornell.edu/~havron/&#34;&gt;Sam Havron&lt;/a&gt; (BSCS 2017) is quoted in &lt;a href=&#34;https://www.wired.com/story/eva-galperin-stalkerware-kaspersky-antivirus/&#34;&gt;an article in Wired&lt;/a&gt; on eradicating stalkerware:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&amp;rsquo; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location. &amp;ldquo;This is really exciting news,&amp;rdquo; Havron says of Kaspersky&amp;rsquo;s stalkerware change. &amp;ldquo;Hopefully it will spur the rest of the industry to follow suit. But it&amp;rsquo;s just the very first thing.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For more details on his technical work, see the paper in Oakland 2018:
+Rahul Chatterjee, Periwinkle Doerfler, Hadas Orgad, Sam Havron,
+Jackeline Palmer, Diana Freed, Karen Levy, Nicola Dell, Damon McCoy,
+Thomas Ristenpart. &lt;a href=&#34;https://www.ipvtechresearch.org/pubs/spyware.pdf&#34;&gt;&lt;em&gt;The Spyware Used in Intimate Partner
+Violence&lt;/em&gt;&lt;/a&gt;. IEEE
+Symposium on Security and Privacy, 2018.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ISMR 2019: Context-aware Monitoring in Robotic Surgery</title>
       <link>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
@@ -626,33 +647,6 @@ Tian)&lt;/li&gt;
 The history of security includes a long series of arms races, where a new technology emerges and is subsequently developed and exploited by both defenders and attackers. Over the past few years, &amp;#8220;Artificial Intelligence&amp;#8221; has re-emerged as a potentially transformative technology, and deep learning in particular has produced a barrage of amazing results. We are in the very early stages of understanding the potential of this technology in security, but more worryingly, seeing how it may be exploited by malicious individuals and powerful organizations. In this talk, I&amp;#8217;ll look at what lessons might be learned from previous security arms races, consider how asymmetries in AI may be exploited by attackers and defenders, touch on some recent work in adversarial machine learning, and hopefully help progress-loving Luddites figure out how to survive in a world overrun by AI doppelgängers, GAN gangs, and gibbon-impersonating pandas.
 &lt;/p&gt;&lt;/blockquote&gt;
 &lt;p align=&#34;center&#34;&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;5f72d8151bae4c5a9bb54ab33372f125&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34; width=&#34;90%&#34;&gt;&lt;/script&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cybersecurity Summer Camp</title>
-      <link>//jeffersonswheel.org/cybersecurity-summer-camp/</link>
-      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/cybersecurity-summer-camp/</guid>
-      <description>&lt;p&gt;I helped organize a &lt;a href=&#34;https://www.ahmed.ai/cyberwars2018&#34;&gt;summer camp for high school teachers focused on cybersecurity&lt;/a&gt;, led by Ahmed Ibrahim.  Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: &lt;a href=&#34;https://github.com/evansuva/cipherschool&#34;&gt;&lt;em&gt;Cipher School for Muggles&lt;/em&gt;&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-&lt;center&gt;&lt;br /&gt;
-&lt;img src=&#34;https://web.archive.org/web/20180707220753im_/https://news.virginia.edu/sites/default/files/cyber_security_class_da_inline_01.jpg&#34; width=&#34;90%&#34;&gt;&lt;/img&gt;&lt;br /&gt;
-&lt;/center&gt;&lt;br /&gt;
-&lt;a href=&#34;https://news.virginia.edu/content/cybersecurity-goes-summer-camp&#34;&gt;&lt;em&gt;Cybersecurity Goes to Summer Camp&lt;/em&gt;&lt;/a&gt;. UVA Today. 22 July 2018. [&lt;a href=&#34;https://web.archive.org/web/20180707220753/https://news.virginia.edu/content/cybersecurity-goes-summer-camp&#34;&gt;archive.org&lt;/a&gt;]&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;
-Earlier this week, 25 high school teachers – including 21 from Virginia – filled a glass-walled room in Rice Hall, sitting in high adjustable chairs at wheeled work tables, their laptops open, following a lecture with graphics about the dangers that lurk in cyberspace and trying to figure out how to pass the information on to a generation that seems to share the most intimate details of life online. &amp;#8220;I think understanding privacy is important to that generation that uses Facebook and Snapchat,&amp;#8221; said David Evans, a computer science professor who helped organize the camp. &amp;#8220;We hope to give teachers some ideas and tools to get their students excited about learning about cryptography, privacy and cybersecurity, and how these things can impact them.&amp;#8221;
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;(Also excerpted in &lt;a href=&#34;https://cacm.acm.org/news/229202-cybersecurity-goes-to-summer-camp/fulltext&#34;&gt;ACM TechNews&lt;/a&gt;, 29 June 2018.)
-&lt;/p&gt;
-&lt;p&gt;
-&lt;center&gt;&lt;br /&gt;
-&lt;img width=&#34;90%&#34; src=&#34;https://web.archive.org/web/20180623041512im_/https://bloximages.newyork1.vip.townnews.com/dailyprogress.com/content/tncms/assets/v3/editorial/5/4a/54a8be36-7685-11e8-be03-d32fab775c23/5b2da33dc17ed.image.jpg?resize=1200%2C793&#34; width=650&gt;&lt;br /&gt;
-&lt;/center&gt;&lt;br /&gt;
-&lt;a href=&#34;https://www.dailyprogress.com/news/local/uva/uva-bootcamp-aims-to-increase-it-training-for-teachers/article_f8a5e20a-7682-11e8-81a7-4fd889ca9dbf.html&#34;&gt;&lt;em&gt;UVa bootcamp aims to increase IT training for teachers&lt;/em&gt;&lt;/a&gt;. The Daily Progress. 22 June 2018. [&lt;a href=&#34;https://web.archive.org/web/20180623041512/https://www.dailyprogress.com/news/local/uva/uva-bootcamp-aims-to-increase-it-training-for-teachers/article_f8a5e20a-7682-11e8-81a7-4fd889ca9dbf.html&#34;&gt;archive.org&lt;/a&gt;]
-&lt;/p&gt;&lt;/p&gt;
 </description>
     </item>
     
