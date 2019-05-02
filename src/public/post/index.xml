@@ -6,8 +6,63 @@
     <description>Recent content in Post-rsses on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="//jeffersonswheel.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SRG Lunch</title>
+      <link>//jeffersonswheel.org/srg-lunch/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/srg-lunch/</guid>
+      <description>&lt;p&gt;Some photos for our lunch to celebrate the end of semester, beginning
+of summer, and congratulate Weilin Xu on his PhD:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/ORG_DSC08199.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/ORG_DSC08199-2.jpg&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;div class=&#34;caption&#34;&gt;
+&lt;em&gt;Left to right&lt;/em&gt;: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;Jayaraman, Aihua&amp;nbsp;Chen, Hannah&amp;nbsp;Chen, Weilin&amp;nbsp;Xu, Riley&amp;nbsp;Spahn, David&amp;nbsp;Evans, Fnu&amp;nbsp;Suya, Yuan&amp;nbsp;Tian, Mainuddin&amp;nbsp;Jonas, Tu&amp;nbsp;Le, Faysal&amp;nbsp;Hossain, Xiao&amp;nbsp;Zhang, Jack&amp;nbsp;Verrier
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;table width=&#34;95%&#34;&gt;
+&lt;tr&gt;
+&lt;td width=&#34;46%&#34;&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/IMG_20190430_130313.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/IMG_20190430_130313-2.jpg&#34; height=&#34;50&#34;&gt;
+&lt;/td&gt;
+&lt;td width=&#34;50%&#34;&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/IMG_20190430_130343.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/IMG_20190430_130343-2.jpg&#34; height=&#34;50&#34;&gt;
+&lt;/td&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JASON Spring Meeting: Adversarial Machine Learning</title>
+      <link>//jeffersonswheel.org/jason-spring-meeting-adversarial-machine-learning/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/jason-spring-meeting-adversarial-machine-learning/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/JASON/IMG_20190429_171641.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/JASON/IMG_20190429_171641-2.jpg&#34; width=&#34;70%&#34;&gt; &lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;I had the privilege of speaking at the JASON Spring Meeting,
+undoubtably one of the most diverse meetings I&amp;rsquo;ve been part of with
+talks on hypersonic signatures (from my DSSG 2008-2009 colleague, Ian
+Boyd), FBI DNA, nuclear proliferation in Iran, engineering biological
+materials, and the 2020 census (including a very interesting
+presentatino from John Abowd on the differential privacy mechanisms
+they have developed and evaluated). (Unfortunately, my lack of
+security clearance kept me out of the SCIF used for the talks on
+quantum computing and more sensitive topics).&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/JASON/IMG_20190429_171627.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/JASON/IMG_20190429_171627-2.jpg&#34; width=&#34;70%&#34;&gt; &lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Slides for my talk: &lt;a href=&#34;https://www.dropbox.com/s/f3ykvfawrbb5tt0/jason-share.pdf?dl=0&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Congratulations Dr. Xu!</title>
@@ -588,65 +643,6 @@ Researchers such as Evans predict a lengthy arms race in attacks and countermeas
 Serge Egelman, a researcher with the International Computer Science Institute and the University of California, Berkeley, helped lead the study of nearly 6,000 children’s Android apps&lt;br /&gt;
 &lt;/div&gt;
 &lt;/center&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>USENIX Security 2018</title>
-      <link>//jeffersonswheel.org/usenix-security-2018/</link>
-      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/usenix-security-2018/</guid>
-      <description>&lt;p&gt;Three SRG posters were presented at &lt;a
-href=&#34;https://www.usenix.org/conference/usenixsecurity18/poster-session&#34;&gt;USENIX
-Security Symposium 2018&lt;/a&gt; in Baltimore, Maryland:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Nathaniel Grevatt (&lt;em&gt;GDPR-Compliant Data Processing: Improving
-Pseudonymization with Multi-Party Computation&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;Matthew Wallace and Parvesh Samayamanthula (&lt;em&gt;Deceiving Privacy Policy Classifiers with Adversarial Examples&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;Guy Verrier (&lt;em&gt;How is GDPR Affecting Privacy Policies?&lt;/em&gt;, joint with Haonan Chen and Yuan
-Tian)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;/p&gt;
-&lt;table width=&#34;85%&#34;&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
-&lt;/td&gt;
-&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
-&lt;/td&gt;
-&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;p&gt;There were also a surprising number of appearances by an unidentified unicorn:&lt;br /&gt;
-&lt;center&gt;&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Your poster may have made the cut for the &lt;a href=&#34;https://twitter.com/hashtag/usesec18?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#usesec18&lt;/a&gt; Poster Reception, but has it received the approval of a tiny, adorable unicorn? &lt;a href=&#34;https://twitter.com/UVA?ref_src=twsrc%5Etfw&#34;&gt;@UVA&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/seenatusesec18?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#seenatusesec18&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/girlswhocode?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#girlswhocode&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/futurecomputerscientist?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#futurecomputerscientist&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/dreambig?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dreambig&lt;/a&gt; &lt;a href=&#34;https://t.co/bZOO6lYLXK&#34;&gt;pic.twitter.com/bZOO6lYLXK&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;mdash; USENIX Security (@USENIXSecurity) &lt;a href=&#34;https://twitter.com/USENIXSecurity/status/1030215384505491456?ref_src=twsrc%5Etfw&#34;&gt;August 16, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;br /&gt;
-&lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mutually Assured Destruction and the Impending AI Apocalypse</title>
-      <link>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
-      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
-      <description>&lt;p&gt;I gave a keynote talk at &lt;a href=&#34;https://www.usenix.org/conference/woot18/workshop-program&#34;&gt;USENIX Workshop of Offensive Technologies&lt;/a&gt;, Baltimore, Maryland, 13 August 2018. &lt;/p&gt;
-&lt;p&gt;The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&amp;#8217;t able to actually figure out a talk to match the title and abstract I provided.&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;
-The history of security includes a long series of arms races, where a new technology emerges and is subsequently developed and exploited by both defenders and attackers. Over the past few years, &amp;#8220;Artificial Intelligence&amp;#8221; has re-emerged as a potentially transformative technology, and deep learning in particular has produced a barrage of amazing results. We are in the very early stages of understanding the potential of this technology in security, but more worryingly, seeing how it may be exploited by malicious individuals and powerful organizations. In this talk, I&amp;#8217;ll look at what lessons might be learned from previous security arms races, consider how asymmetries in AI may be exploited by attackers and defenders, touch on some recent work in adversarial machine learning, and hopefully help progress-loving Luddites figure out how to survive in a world overrun by AI doppelgängers, GAN gangs, and gibbon-impersonating pandas.
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p align=&#34;center&#34;&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;5f72d8151bae4c5a9bb54ab33372f125&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34; width=&#34;90%&#34;&gt;&lt;/script&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
     </item>
     

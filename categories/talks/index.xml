@@ -9,6 +9,34 @@
     <atom:link href="//jeffersonswheel.org/categories/talks/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>JASON Spring Meeting: Adversarial Machine Learning</title>
+      <link>//jeffersonswheel.org/jason-spring-meeting-adversarial-machine-learning/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/jason-spring-meeting-adversarial-machine-learning/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/JASON/IMG_20190429_171641.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/JASON/IMG_20190429_171641-2.jpg&#34; width=&#34;70%&#34;&gt; &lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;I had the privilege of speaking at the JASON Spring Meeting,
+undoubtably one of the most diverse meetings I&amp;rsquo;ve been part of with
+talks on hypersonic signatures (from my DSSG 2008-2009 colleague, Ian
+Boyd), FBI DNA, nuclear proliferation in Iran, engineering biological
+materials, and the 2020 census (including a very interesting
+presentatino from John Abowd on the differential privacy mechanisms
+they have developed and evaluated). (Unfortunately, my lack of
+security clearance kept me out of the SCIF used for the talks on
+quantum computing and more sensitive topics).&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/JASON/IMG_20190429_171627.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/JASON/IMG_20190429_171627-2.jpg&#34; width=&#34;70%&#34;&gt; &lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Slides for my talk: &lt;a href=&#34;https://www.dropbox.com/s/f3ykvfawrbb5tt0/jason-share.pdf?dl=0&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Can Machine Learning Ever Be Trustworthy?</title>
       <link>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
