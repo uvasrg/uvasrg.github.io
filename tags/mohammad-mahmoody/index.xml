@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/mohammad-mahmoody/index.xml</link>
+    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="//jeffersonswheel.org/tags/mohammad-mahmoody/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Empirically Measuring Concentration</title>
+      <link>//jeffersonswheel.org/empirically-measuring-concentration/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/empirically-measuring-concentration/</guid>
+      <description>&lt;p&gt;Xiao Zhang and Saeed Mahloujifar will present our work on &lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt; at two workshops May 6 at ICLR 2019 in New Orleans: &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning:
+Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Paper: &lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

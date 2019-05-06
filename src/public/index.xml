@@ -6,8 +6,23 @@
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="//jeffersonswheel.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Empirically Measuring Concentration</title>
+      <link>//jeffersonswheel.org/empirically-measuring-concentration/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/empirically-measuring-concentration/</guid>
+      <description>&lt;p&gt;Xiao Zhang and Saeed Mahloujifar will present our work on &lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt; at two workshops May 6 at ICLR 2019 in New Orleans: &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning:
+Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Paper: &lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SRG Lunch</title>
@@ -626,23 +641,6 @@ Researchers such as Evans predict a lengthy arms race in attacks and countermeas
 &lt;/p&gt;
 
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Violations of Children’s Privacy Laws</title>
-      <link>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
-      <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
-      <description>&lt;p&gt;The New York Times has an article, &lt;a href=&#34;https://www.nytimes.com/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html&#34;&gt;&lt;em&gt;How Game Apps That Captivate Kids Have Been Collecting Their Data&lt;/em&gt;&lt;/a&gt; about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps. Serge was an undergraduate student here (back in the early 2000s) &amp;#8211; one of the things he did as a undergraduate was successfully sue a spammer.&lt;/p&gt;
-&lt;p&gt;The original paper about the study: &lt;a href=&#34;https://blues.cs.berkeley.edu/wp-content/uploads/2018/04/popets-2018-0021.pdf&#34;&gt;“Won’t Somebody Think of the Children?” Examining COPPA Compliance at Scale&lt;/a&gt;, Irwin Reyes, Primal Wijesekera, Joel Reardon, Amit Elazari Bar On, Abbas Razaghpanah, Narseo Vallina-Rodriguez, and Serge Egelman. Proceedings on Privacy Enhancing Technologies (PETS) 2018.&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;br /&gt;
-&lt;img src=&#34;https://static01.nyt.com/images/2018/09/13/autossell/13Kidapps2/13Kidapps2-superJumbo.jpg&#34; width=&#34;80%&#34;&gt;&lt;br /&gt;
-&lt;div class=&#34;caption&#34;&gt;
-Serge Egelman, a researcher with the International Computer Science Institute and the University of California, Berkeley, helped lead the study of nearly 6,000 children’s Android apps&lt;br /&gt;
-&lt;/div&gt;
-&lt;/center&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
     </item>
     
