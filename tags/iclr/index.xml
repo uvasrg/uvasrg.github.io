@@ -9,6 +9,22 @@
     <atom:link href="//jeffersonswheel.org/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Cost-Sensitive Adversarial Robustness at ICLR 2019</title>
+      <link>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
+      <description>&lt;p&gt;Xiao Zhang will present &lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt; on May 7 (4:30-6:30pm) at &lt;a href=&#34;https://iclr.cc/Conferences/2019/&#34;&gt;ICLR 2019 in New Orleans.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;//jeffersonswheel.org/docs/cost-sensitive-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/cost-sensitive-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Paper: &lt;a href=&#34;https://evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt; [&lt;a href=&#34;(https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN)&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;ArXiv&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Empirically Measuring Concentration</title>
       <link>//jeffersonswheel.org/empirically-measuring-concentration/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
