@@ -6,8 +6,32 @@
     <description>Recent content in Post-rsses on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="//jeffersonswheel.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How AI could save lives without spilling medical secrets</title>
+      <link>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m quote in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: &lt;a href=&#34;https://www.technologyreview.com/s/613520/how-ai-could-save-lives-without-spilling-secrets/&#34;&gt;&lt;em&gt;How AI could save lives without spilling medical secrets&lt;/em&gt;&lt;/a&gt;, MIT Technology Review, 14 May 2019.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;You would love it if a medical researcher could learn on everyone&amp;rsquo;s medical records,&amp;rdquo; Evans says. &amp;ldquo;You could do an analysis and tell if a drug is working on not. But you can&amp;rsquo;t do that today.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Despite the potential Oasis represents, Evans is cautious. Storing data in secure hardware creates a potential point of failure, he notes. If the company that makes the hardware is compromised, then all the data handled this way will also be vulnerable. Blockchains are relatively unproven, he adds.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;There&amp;rsquo;s a lot of different tech coming together,&amp;rdquo; he says of Oasis&amp;rsquo;s approach. &amp;ldquo;Some is mature, and some is cutting-edge and has challenges.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(I&amp;rsquo;m pretty sure I didn&amp;rsquo;t actually say &amp;ldquo;tech&amp;rdquo; in my call with Will
+Knight since I wouldn&amp;rsquo;t use that wording, but would say
+&amp;ldquo;technologies&amp;rdquo;.)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cost-Sensitive Adversarial Robustness at ICLR 2019</title>
@@ -602,32 +626,6 @@ mysteries and just taking the first steps towards principled and effective defen
 from that quest, unravel the huge gulf between theory and practice in adversarial machine learning, and speculate on paths toward
 trustworthy machine learning systems.
    &lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Center for Trustworthy Machine Learning</title>
-      <link>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</link>
-      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/nsf_logo-1h9wdoa.png&#34; align=&#34;right&#34; width=120&gt;&lt;/p&gt;
-
-&lt;p&gt;The National Science Foundation announced the &lt;em&gt;Center for Trustworthy
-Machine Learning&lt;/em&gt; today, a new five-year SaTC Frontier Center &amp;ldquo;to
-develop a rigorous understanding of the security risks of the use of
-machine learning and to devise the tools, metrics and methods to
-manage and mitigate security vulnerabilities.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/ctmllogos.png&#34; align=&#34;left&#34; style=&#34;padding-right: 1em;padding-top: .5em&#34; width=250&gt;&lt;/p&gt;
-
-&lt;p&gt;The Center is lead by Patrick McDaniel at Penn State University, and
-in addition to our group, includes Dan Boneh and Percy Liang (Stanford
-University), Kamalika Chaudhuri (University of California San Diego),
-Somesh Jha (University of Wisconsin) and Dawn Song (University of
-California Berkeley).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://ctml.psu.edu/&#34;&gt;Center for Trustworthy Machine Learning&lt;/a&gt; &amp;middot; &lt;a href=&#34;https://www.eecs.psu.edu/news/2018/NSF-Frontier-CTML.aspx&#34;&gt;Penn&amp;nbsp;State&amp;nbsp;News&lt;/a&gt; &amp;middot; &lt;a href=&#34;https://nsf.gov/news/news_summ.jsp?cntn_id=296933&amp;amp;org=NSF&amp;amp;from=news&#34;&gt;NSF&amp;nbsp;News&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
