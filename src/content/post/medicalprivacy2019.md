@@ -7,7 +7,7 @@ categories = ["press"]
 tags = ["privacy-preserving machine learning", "multi-party computation", "differential privacy", "news"]
 +++
 
-I'm quote in this article by Will Knight focused on the work Oasis Labs (Dawn Song's company) is doing on privacy-preserving medical data analysis: [_How AI could save lives without spilling medical secrets_](https://www.technologyreview.com/s/613520/how-ai-could-save-lives-without-spilling-secrets/), MIT Technology Review, 14 May 2019.
+I'm quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song's company) is doing on privacy-preserving medical data analysis: [_How AI could save lives without spilling medical secrets_](https://www.technologyreview.com/s/613520/how-ai-could-save-lives-without-spilling-secrets/), MIT Technology Review, 14 May 2019.
 
 > "The whole notion of doing computation while keeping data secret is an incredibly powerful one," says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.
 
