@@ -9,6 +9,363 @@
     <atom:link href="//jeffersonswheel.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Google Federated Privacy 2019: The Dragon in the Room</title>
+      <link>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;m back from a very interesting &lt;a href=&#34;https://sites.google.com/view/federated-learning-2019/&#34;&gt;&lt;em&gt;Workshop on Federated Learning and
+Analytics&lt;/em&gt;&lt;/a&gt;
+that was organized by &lt;a href=&#34;https://ai.google/research/people/PeterKairouz&#34;&gt;Peter
+Kairouz&lt;/a&gt; and &lt;a href=&#34;https://ai.google/research/people/author35837&#34;&gt;Brendan
+McMahan&lt;/a&gt; from Google&amp;rsquo;s
+federated learning team and was held at Google Seattle.&lt;/p&gt;
+
+&lt;p&gt;For the first part of my talk, I covered Bargav&amp;rsquo;s work on &lt;a href=&#34;http://www.cs.virginia.edu/~evans/pubs/usenix2019/&#34;&gt;evaluating
+differentially private machine
+learning&lt;/a&gt;, but I
+reserved the last few minutes of my talk to address the cognitive
+dissonance I felt being at a Google meeting on privacy.&lt;/p&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide01.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide01.png&#34;&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+&lt;p&gt;
+I don’t want to offend anyone, and want to preface this by saying I
+have lots of friends and former students who work for Google, people
+that I greatly admire and respect – so I want to raise the cognitive
+dissonance I have being at a “privacy” meeting run by Google, in the
+hopes that people at Google actually do think about privacy and will
+able to convince me how wrong I am.
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide02.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide02.png&#34;&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+&lt;p&gt;
+But, it is necessary to address the elephant in the room &amp;mdash; we are at a &lt;em&gt;privacy&lt;/em&gt; meeting organized by &lt;b&gt;Google&lt;/b&gt;.
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide03.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide03.png&#34;&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+&lt;p&gt;
+Or rather, in this case its the &lt;em&gt;Dragon&amp;nbsp;that&amp;nbsp;Owns&amp;nbsp;the&amp;nbsp;Room&lt;/em&gt;.
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p align=&#34;center&#34; style=&#34;margin-top:12px&#34;&gt;
+&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/dragon.png&#34; width=&#34;500&#34; align=&#34;center&#34;&gt;&lt;br&gt;
+&lt;p align=&#34;center&#34;&gt;It may be a cute, colorful, and even &lt;a href=&#34;https://www.mightbeevil.org&#34;&gt;non-evil&lt;/a&gt; Dragon, but it has a huge appetite!&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34; valign=&#34;middle&#34;&gt;
+
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide06.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide06.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide07.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide07.png&#34;&gt;&lt;/a&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34; valign=&#34;middle&#34;&gt;
+&lt;p&gt;
+This quote is from an essay by Maciej Cegłowski (the founder of Pinboard),
+&lt;a href=&#34;https://idlewords.com/2019/06/the_new_wilderness.htm&#34;&gt;The New Wilderness&lt;/a&gt;:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;
+Seen in this light, the giant tech companies can make a credible
+claim to be the defenders of privacy, just like a dragon can
+truthfully boast that it is good at protecting its hoard of
+gold. Nobody spends more money securing user data, or does it more
+effectively, than Facebook and Google. 
+&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;
+The question we need to ask is
+not whether our data is safe, but why there is suddenly so much of it
+that needs protecting. The problem with the dragon, after all, is not its stockpile
+stewardship, but its appetite.&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
+
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide08.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide08.png&#34;&gt;&lt;/a&gt;
+&lt;p style=&#34;margin-top:10px&#34;&gt;
+&lt;em&gt;
+We’re also working hard to challenge the assumption that products need more data to be more helpful. Data minimization is an important privacy principle for us, and we’re encouraged by advances developed by Google A.I. researchers called “federated learning.” It allows Google’s products to work better for everyone without collecting raw data from your device. ... In the future, A.I. will provide even more ways to make products more helpful with less data.
+&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;
+Even as we make privacy and security advances in our own products, we know the kind of privacy we all want as individuals relies on the collaboration and support of many institutions, like legislative bodies and consumer organizations.
+&lt;/em&gt;
+&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;column small-12 medium-6&#34;&gt;
+&lt;p&gt;
+Maciej&amp;rsquo;s essay was partly inspired by the recent New York Times
+opinion piece by Google&amp;rsquo;s CEO: &lt;a
+href=&#34;https://www.nytimes.com/2019/05/07/opinion/google-sundar-pichai-privacy.html&#34;&gt;&lt;em&gt;Google’s
+Sundar Pichai: Privacy Should Not Be a Luxury Good&lt;/em&gt;&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;If you haven&amp;rsquo;t read it, you should. It is truly a masterpiece in
+obfuscation and misdirection.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Pichai somehow makes the argument that
+privacy and equity are in conflict, and that Google&amp;rsquo;s industrial-scale
+surveillance model is necessary to make its products accessible to
+poor people.
+&lt;/p&gt;
+&lt;p&gt;
+The piece also highlight the work the team here has done on federated
+learning &amp;mdash; terrific visibility and recognition of the value of
+the research, but notably, right before getting into discussion about
+government privacy regulation.
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide10.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide10.png&#34;&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+&lt;p&gt;
+The question I want to raise for the Google researchers and engineers
+working on privacy, is what is the actual &lt;em&gt;purpose&lt;/em&gt; of this
+work for the company? 
+&lt;/p&gt;
+&lt;p&gt;
+I distinguish small &#34;p&#34; privacy from big &#34;P&#34; Privacy. 
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&#34;margin-top:12px&#34;&gt;
+Small &#34;p&#34; privacy is about protecting corporate data from
+outsiders. This used to be called &lt;em&gt;confidentiality&lt;/em&gt;. If you
+only believe in small &#34;p&#34; privacy, there is no difficultly in
+justifying working on privacy at Google.
+&lt;/p&gt;
+&lt;p&gt;
+Big &#34;P&#34; Privacy views privacy as an individual human right, and even
+more, as a societal value. Maciej calls this &lt;em&gt;ambient
+privacy&lt;/em&gt;. It is hard to quantify or even understand what we lose
+when we give up Privacy as individuals and as a society, but the
+thought of living in a society where everyone is under constant
+surveillance strikes me as terrifying and dystopian.
+&lt;/p&gt;
+
+&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide11.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide11.png&#34;&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+&lt;p&gt;
+So, if you believe in &lt;b&gt;P&lt;/b&gt;rivacy, and are working on privacy at
+Google, you should consider whether the purpose (for the company) of
+your work is to &lt;em&gt;improve&lt;/em&gt; or &lt;em&gt;harm&lt;/em&gt; &lt;b&gt;P&lt;/b&gt;rivacy.
+&lt;/p&gt;
+&lt;p&gt;
+Given the nature or Google&#39;s business, you should start from the
+assumption that its purpose is probably to harm &lt;b&gt;P&lt;/b&gt;rivacy, and be
+self-critical in your arguments to convince yourself that it is to
+improve &lt;b&gt;P&lt;/b&gt;rivacy.  
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&#34;margin-top:10px&#34;&gt;
+
+There are many ways technically sound and successful work on improving
+privacy could be used to actually harm &lt;b&gt;P&lt;/b&gt;rivacy. For example,
+
+&lt;ul&gt;
+
+&lt;li&gt; Technical mechanisms for privacy can be used to jusfify
+&lt;b&gt;collecting more data&lt;/b&gt;. Collecting more data is harmful to
+&lt;b&gt;P&lt;/b&gt;rivacy even if it is done in a way that protects individual
+privacy and ensures that sensitive data about individuals cannot be
+inferred. And that&#39;s the best case &amp;mdash; it assumes everything is
+implemented perfectly with no technical mistakes or bugs in the code,
+and that parameters are set in ways that provide sufficient privacy,
+even when this means accepting unsatisfactory utility.&lt;/li&gt;
+
+&lt;li&gt; Privacy work can be used by companies to &lt;b&gt;delay, mislead, and
+confuse regulators&lt;/b&gt;, and to provide public relations opportunities that
+primarily serve to confuse and mislead the public.  There can, of
+course, be beneficial publicity from privacy research, but its
+important to realize that not all publicity is good publicity,
+especially when it comes to how companies use privacy research.
+&lt;/ul&gt;
+
+&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide12.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide12.png&#34;&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+&lt;p&gt;
+
+Maciej&#39;s essay draws an analogy between Google&#39;s interest in privacy,
+and the energy industry&#39;s interest in pollution. I&#39;ll make a slightly
+different analogy here, focusing on the role of scientists and
+engineers at these companies.
+&lt;/p&gt;
+&lt;p&gt;
+Of course, comparing Google to poison pushers and destroyers of the
+planet is grossly unfair.
+
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide13.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide13.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Tobacco Executives testifying to House Energy and Commerce Subcommittee on Health and the Environment 
+ that &lt;a href=&#34;https://www.nytimes.com/1994/04/15/us/tobacco-chiefs-say-cigarettes-aren-t-addictive.html&#34;&gt;Cigarettes are not Addictive&lt;/a&gt;, April 1994
+  &lt;/div&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide14.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide14.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Twitter CEO Jack Dorsey, Facebook COO Sheryl Sandberg, and empty chair for Google testifying to Senate Intelligence Committee, September 2018
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&#34;margin-top:12px&#34;&gt;
+For one thing, when congress called the tobacco executives to account
+to the public for their behavior, they actually showed up.
+&lt;/p&gt;
+&lt;p&gt;
+
+I&#39;m certainly not here to defend tobacco company executives,
+though. The more relevant comparison is to the scientists who worked
+at these companies.
+&lt;/p&gt;
+
+&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide17.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide17.png&#34;&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+&lt;p&gt;
+
+The tobacco and fossil fuel companies had &lt;em&gt;good scientists&lt;/em&gt;,
+who did work to understand the impact of their industry. Some of those
+scientists reached conclusions that were problematic for their
+companies. Their companies suppressed or distorted those results, and
+emphasized their investments in science in &lt;a
+href=&#34;http://www.climatefiles.com/exxonmobil/1998-exxon-pamphlet-global-climate-change-everyones-debate/&#34;&gt;glossy
+brochures&lt;/a&gt; to influence public policy and opion.
+
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide15.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide15.png&#34;&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;So, my second challenge to engineers and researchers at Google who
+value &lt;b&gt;P&lt;/b&gt;rivacy, is do be doing work that potentially could lead
+to results the company would want to suppress.
+&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&#34;margin-top:10px&#34;&gt;
+This doesn&amp;rsquo;t mean doing work that is hostile to Google (recall that
+Wigand&amp;rsquo;s project at Brown &amp;amp; Williamson Tobacco was to &lt;a
+href=&#34;https://www.vanityfair.com/magazine/1996/05/wigand199605&#34;&gt;develop
+a safer cigarette&lt;/a&gt;). But it does mean doing research to understand
+the scale and scope of privacy loss resulting from Google&amp;rsquo;s products,
+and to measure its impact on individual behavior and society.
+&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Google&amp;rsquo;s researchers are uniquely well positioned to do this type of
+research &amp;mdash; they have the technical expertise and talent, access
+to data and resources, and opportunity to do large scale experiments.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;reactions&#34;&gt;Reactions&lt;/h2&gt;
+
+&lt;p&gt;
+I was a bit worried about giving this talk to an audience at Google
+(about 40 Googlers and 40 academic researchers in the audience, as
+well as a live stream that I know some people elsewhere at Google were
+watching), especially with a cruise on Lake Washington later in the
+day. But, all the reactions I got were very encouraging and positive,
+with great willingness from the Googlers to consider how people
+outside might perceive their company and interest in thinking about
+ways they can do better.
+&lt;/p&gt;
+
+&lt;p&gt; 
+
+My impression is the engineers and researchers at Google do care about
+&lt;b&gt;P&lt;/b&gt;rivacy, and have some opportunities to influence corporate
+decisions, but its a large and complex company. From the way academics
+(especially cryptographers) reason about systems, once you trust
+Google to provide your hardware or operating system they are a trusted
+party and can easily access and control everything. From a complex
+corporate perspective, there are big difference between data on your
+physical device (even if it was built by Google), in a database at
+Google, and stored in an encrypted form with privacy noise, even if
+all the code doing this is written and controlled by the same
+organization that has full access to the data. Lots of the privacy
+work at Google is motivated by reducing the internal attack surfaces,
+so sensitive data is exposed to less code and people within the
+organization. This makes sense, at least for small &lt;em&gt;p&lt;/em&gt; privacy.
+
+&lt;/p&gt;
+&lt;p&gt;
+
+There is a privacy review board at Google (mandated by an FTC consent
+agreement) that conducts a privacy review of all products and can go
+back to engineering teams with requests for changes (and possibly even
+prevent a product from being launched, although Googlers were murky on
+how much power they would have when things come down to it). On the
+other hand, the privacy review is done by Google employees, who,
+however well meaning and ethical they are, are still beholden to their
+employer. This strikes me as a positive, but more like the
+team-employed doctors do administer the concussion protocol during
+football games. (Unfortunately, Google&#39;s efforts to set up an external
+ethics board &lt;a
+href=&#34;https://www.theverge.com/2019/4/4/18296113/google-ai-ethics-board-ends-controversy-kay-coles-james-heritage-foundation&#34;&gt;did
+not go well&lt;/a&gt;.)
+&lt;/p&gt;
+&lt;p&gt;
+
+On the whole, though, I am encouraged by the discussions with the
+Google researchers, that there is some awareness of the complexities
+in working on privacy at Google, and that scientists and engineers
+there can provide some counter-balance to the dragon&#39;s appetite.
+
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Violations of Children’s Privacy Laws</title>
       <link>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
