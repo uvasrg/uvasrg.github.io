@@ -6,13 +6,52 @@
     <description>Recent content in Post-rsses on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="//jeffersonswheel.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Brink Essay: AI Systems Are Complex and Fragile. Here Are Four Key Risks to Understand.</title>
+      <link>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
+      <description>&lt;p&gt;Brink News (a publication of the &lt;em&gt;The Atlantic&lt;/em&gt;) published my essay on the risks of deploying AI systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;https://www.brinknews.com/ai-systems-are-complex-and-fragile-here-are-four-key-risks-to-understand/&#34;&gt;&lt;img style=&#34;box-shadow: 10px 10px 5px grey;&#34; src=&#34;//jeffersonswheel.org/images/brink.png&#34; width=90%&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood. When AI systems are deployed to make important decisions that impact human safety and well-being, the potential risks of abuse and misbehavior are high and need to be carefully considered and mitigated.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;What Is Deep Learning?&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Over the past seven decades, automatic computing has astonishingly amplified human intelligence. It can execute any information process a human understands well enough to describe precisely at a rate that is quadrillions of times faster than what any human could do. It also enables thousands of people to work together to produce systems that no individual understands.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Artificial intelligence goes beyond this: It allows machines to solve problems in ways no human understands. Instead of being programmed like traditional computing, AI systems are trained. Human engineers set up a training environment and methods, and the machine learns how to solve problems on its own. Although AI is a broad field with many different directions, much of the current excitement is focused on a narrow branch of statistical machine learning known as “deep learning,” where a model is trained to make predictions based on statistical patterns in a training data set.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;In a typical training process, training data is collected, and a model is trained to recognize patterns in this data — as well as patterns in those learned patterns — in order to make predictions about new data. The resulting model can include millions of trained parameters, while providing little insight into how it works or evidence as to which patterns it has learned. It can, however, result in remarkably accurate models when the data used for training is well-distributed and correctly labeled and the data the model needs to make predictions about in deployment is similar to that training data. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;When it is not, however, lots of things can go wrong.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Dogs Also Play in the Snow&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Models learn patterns in the training data, but it is difficult to know if what they have learned is relevant — or just some artifact of the training data. In one famous example, a model that learned to accurately distinguish wolves and dogs &lt;/span&gt;&lt;a href=&#34;https://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;had actually learned nothing about animals&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;. Instead, what it had learned was to recognize snow, since all the training examples with snow were wolves, and the examples without snow were dogs.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;In a more serious example, a PDF malware classifier trained on a corpus of malicious and benign PDF files to produce an accurate model to distinguish malicious PDF files from normal documents actually learned incidental associations, such as “a PDF file with pages is probably benign.” This is a pattern in the training data, since most of the malicious PDFs do not bother to include any content pages, just the malicious payload. But, it&amp;#8217;s not a useful property for distinguishing malware, since a malware author can &lt;/span&gt;&lt;a href=&#34;https://evademl.org/docs/evademl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;easily add pages to a PDF file&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; without disrupting its malicious behavior.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Adversarial Examples&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI systems learn about the data they are trained on, and learning algorithms are designed to generalize from that data, but the resulting models can be fragile and unpredictable.&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;tweet&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Organizations deploying AI systems need to carefully consider how those systems can fail and limit the trust placed in them.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Researchers have developed methods that find tiny perturbations, such as modifying just one or two pixels in an image or changing colors by an amount that is imperceptible to humans, that are enough to change the output prediction. The resulting inputs are known as adversarial examples. Some methods even enable construction of physical objects that confuse classifiers — for example, color patterns can be printed on glasses that lead face-recognition systems to &lt;/span&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~sbhagava/papers/face-rec-ccs16.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;misidentify people as targeted victims&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Reflecting and Amplifying Bias&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;The behavior of AI systems depends on the data they are trained on, and models trained on biased data will reflect those biases. Many well-minded efforts have sought to use algorithms running on unbiased machines to replace the &lt;/span&gt;&lt;a href=&#34;https://www.brinknews.com/algorithms-are-fraught-with-bias-is-there-a-fix/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;inherently biased humans&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; who make critical decisions impacting humans such as granting loans, whether a defendant should be released pending trial and which job candidates to interview.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Unfortunately, there is no way to ensure the algorithms themselves are unbiased, and removing humans from these decision processes risks entrenching those biases. One company, for example, used data from its current employees to train a system to scan resumes to identify interview candidates; the system learned to be biased against women, since &lt;/span&gt;&lt;a href=&#34;https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;the resumes it was trained on&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; were predominantly from male applicants.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Revealing Too Much&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI systems trained on private data such has health records or emails learn to make predictions based on patterns in that data. Unfortunately, they may also reveal sensitive information about that training data.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;One risk is membership inference, which is an attack where an adversary with access to a model trained on private data can learn from the model’s outputs whether or not an individual’s record was part of the training data. This poses a privacy risk, especially if the model is trained on medical records for patients with a particular disease. Models can also memorize specific information in their training data. A language model trained on an email corpus &lt;/span&gt;&lt;a href=&#34;https://arxiv.org/abs/1802.08232&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;might reveal social security numbers&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; contained in those training emails.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;What Can We Do?&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Many researchers are actively working on understanding and mitigating these problems — but although methods exist to mitigate some specific problems, we are a long way from comprehensive solutions. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Organizations deploying AI systems need to carefully consider how those systems can fail and limit the trust placed in them. It is also important to consider whether simpler and more understandable methods can provide equally good solutions before jumping into complex AI techniques like deep learning. In one high-profile example, where considering an AI solution should have raised some red flags, a model for predicting recidivism risk was &lt;/span&gt;&lt;a href=&#34;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;suspected of racial bias&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; in its predictions. A simple model using only three rules based on age, sex and number of prior offenses was found to make &lt;/span&gt;&lt;a href=&#34;https://arxiv.org/abs/1811.10154&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;equally good predictions&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI technologies show great promise and have demonstrated capacity to improve medical diagnosis, automate business processes and free humans from tedious and unrewarding tasks. But decisions about using AI need to also pay attention to the risks and potential pitfalls in using complex, fragile and poorly understood technologies.&lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Google Federated Privacy 2019: The Dragon in the Room</title>
       <link>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</link>
-      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</guid>
       <description>
@@ -744,58 +783,6 @@ research and aim to give readers insights into what problems are
 practically solvable using MPC today and how different threat models
 and assumptions impact the practicality of different approaches.
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NeurIPS 2018: Distributed Learning without Distress</title>
-      <link>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</link>
-      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</guid>
-      <description>
-
-&lt;p&gt;Bargav Jayaraman presented our work on privacy-preserving machine learning at the &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt; &lt;em&gt;Conference on Neural Information Processing Systems&lt;/em&gt;&lt;/a&gt; (NeurIPS 2018) in Montreal.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Distributed learning&lt;/em&gt; (sometimes known as &lt;em&gt;federated learning&lt;/em&gt;)
-allows a group of independent data owners to collaboratively learn a
-model over their data sets without exposing their private data.  Our
-approach combines &lt;em&gt;differential privacy&lt;/em&gt; with secure &lt;em&gt;multi-party
-computation&lt;/em&gt; to both protect the data during training and produce a
-model that provides privacy against inference attacks.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
-    src=&#34;https://www.youtube-nocookie.com/embed/rwyWiDyVmjE&#34;
-    frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media;
-    gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;We explore two popular methods of differential privacy, output
-perturbation and gradient perturbation, and advance the
-state-of-the-art for both methods in the distributed learning
-setting. In our output perturbation method, the parties combine local
-models within a secure computation and then add therequired
-differential privacy noise before revealing the model. In our gradient
-perturbation method, the data owners collaboratively train a global
-model via aniterative learning algorithm. At each iteration, the
-parties aggregate their local gradients within a secure computation,
-adding sufficient noise to ensure privacy before the gradient updates
-are revealed. For both methods, we show that the noise can be reduced
-in the multi-party setting by adding the noise inside the
-securecomputation after aggregation, asymptotically improving upon the
-best previous results. Experiments on real world data sets demonstrate
-that our methods providesubstantial utility gains for typical privacy
-requirements.&lt;/p&gt;
-
-&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/bargavj/distributedMachineLearning&#34;&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/bargavj/distributedMachineLearning&#34;&gt;https://github.com/bargavj/distributedMachineLearning&lt;/a&gt;&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
-
-&lt;p&gt;Bargav Jayaraman, Lingxiao Wang, David Evans and Quanquan Gu. &lt;a href=&#34;//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;&lt;em&gt;Distributed Learning without Distress:
-Privacy-Preserving Empirical Risk Minimization&lt;/em&gt;&lt;/a&gt;. &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt; Conference on Neural Information Processing Systems&lt;/a&gt; (NeurIPS). Montreal, Canada. December 2018. (&lt;a href=&#34;//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;PDF&lt;/a&gt;, 19 pages, including supplemental materials)&lt;/p&gt;
 </description>
     </item>
     

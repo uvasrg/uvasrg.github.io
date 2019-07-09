@@ -1,5 +1,5 @@
 +++
-date = "22 Jul 2019"
+date = "22 Jun 2019"
 draft = false
 title = "Google Federated Privacy 2019: The Dragon in the Room"
 author = "David Evans"
