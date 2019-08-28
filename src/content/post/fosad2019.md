@@ -1,6 +1,6 @@
 +++
 date = "28 Aug 2019"
-draft = true
+draft = false
 title = "FOSAD Trustworthy Machine Learning Mini-Course"
 author = "David Evans"
 categories = ["talks", "courses"]

@@ -9,6 +9,91 @@
     <atom:link href="//jeffersonswheel.org/categories/talks/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>FOSAD Trustworthy Machine Learning Mini-Course</title>
+      <link>//jeffersonswheel.org/fosad2019/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/fosad2019/</guid>
+      <description>
+
+&lt;p&gt;I taught a mini-course on &lt;em&gt;Trustworthy Machine Learning&lt;/em&gt; at the &lt;a href=&#34;http://www.sti.uniurb.it/events/fosad19/&#34;&gt;&lt;em&gt;19th
+International School on Foundations of Security Analysis and
+Design&lt;/em&gt;&lt;/a&gt; in Bertinoro, Italy.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/bertinoro-big.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/bertinoro.jpg&#34; width=&#34;90%&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Slides from my three (two-hour) lectures are posted below, along with
+some links to relevant papers and resources.&lt;/p&gt;
+
+&lt;h2 id=&#34;class-1-introduction-attacks&#34;&gt;Class 1: Introduction/Attacks&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;0ad1775bcc244876ac4df1880a864e78&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;The PDF malware evasion attack is described in this paper:
+&lt;blockquote&gt;
+Weilin Xu, Yanjun Qi, and David Evans.
+&lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2016/&#34;&gt;Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers&lt;/a&gt;&lt;/em&gt;.
+&lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt; (NDSS). San Diego, CA. 21-24 February 2016. [&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2016/evademl.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://evademl.org/gpevasion/&#34;&gt;EvadeML.org&lt;/a&gt;]
+&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;class-2-defenses&#34;&gt;Class 2: Defenses&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cf560cce9e4b418397d2df3429ddc8f9&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;This paper describes the feature squeezing framework:
+&lt;blockquote&gt;
+Weilin Xu, David Evans, and Yanjun Qi. &lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2018/&#34;&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/a&gt;&lt;/em&gt;. In &lt;a href=&#34;https://www.ndss-symposium.org/ndss2018/&#34;&gt;&lt;em&gt;2018 Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt;. 18-21 February, San Diego, California. [&lt;a href=&#34;https://evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://evademl.org/squeezing/&#34;&gt;Project&lt;/a&gt;]
+&lt;/blockquote&gt;
+This paper introduces cost-sensitive robustness:
+&lt;blockquote&gt;
+Xiao Zhang and David Evans. &lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/iclr2019/&#34;&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/a&gt;&lt;/em&gt;. In &lt;a href=&#34;https://iclr.cc/Conferences/2019&#34;&gt;&lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a
+href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;arXiv&lt;/a&gt;] [&lt;a
+href=&#34;https://openreview.net/forum?id=BygANhA9tQ&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;https://evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;PDF&lt;/a&gt;]
+&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;class-3-privacy&#34;&gt;Class 3: Privacy&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;8b378ae0ac2c4a7588016311d1d76ef8&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;This (free) book provides an introduction to secure multi-party computation:
+&lt;blockquote&gt;
+David Evans, Vladimir Kolesnikov and Mike Rosulek. &lt;a href=&#34;https://securecomputation.org/&#34;&gt;&lt;em&gt;A Pragmatic Introduction to Secure Multi-Party Computation&lt;/em&gt;&lt;/a&gt;. NOW Publishers, December 2018. &lt;a href=&#34;https://securecomputation.org/docs/pragmaticmpc.pdf&#34;&gt;&lt;a href=&#34;Full Text&#34;&gt;PDF&lt;/a&gt;&lt;/a&gt;
+&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://oblivc.org&#34;&gt;OblivC.org&lt;/a&gt; is an open-source tool for
+building secure multi-party computations from high-level (extended C)
+code.&lt;/p&gt;
+
+&lt;p&gt;This paper describes our work on integrating differential privacy and multi-party computation:
+&lt;blockquote&gt;
+Bargav Jayaraman, Lingxiao Wang, David Evans and Quanquan
+Gu. &lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/neurips2018/&#34;&gt;Distributed Learning without Distress:
+    Privacy-Preserving Empirical Risk Minimization&lt;/a&gt;&lt;/em&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt;
+&lt;em&gt;Conference on Neural Information Processing Systems&lt;/em&gt;&lt;/a&gt;
+(NeurIPS). Montreal, Canada. December 2018. [&lt;a
+    href=&#34;https://www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a
+    href=&#34;https://youtu.be/rwyWiDyVmjE&#34;&gt;Video Summary&lt;/a&gt;]
+&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;This paper summarizes our work on evaluating the privacy-utility tradeoffs for machine learning:
+&lt;blockquote&gt;
+Bargav Jayaraman and David Evans. &lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/usenix2019/&#34;&gt;Evaluating Differentially Private Machine Learning in Practice&lt;/a&gt;&lt;/em&gt;. In &lt;a
+href=&#34;https://www.usenix.org/conference/usenixsecurity19&#34;&gt;28&lt;sup&gt;th&lt;/sup&gt;
+USENIX Security Symposium&lt;/em&gt;&lt;/a&gt;. Santa&amp;nbsp;Clara. August 2019.
+[&lt;a href=&#34;usenix2019/evaluatingdp.pdf&#34;&gt;PDF&lt;/a&gt;]
+[&lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;arXiv&lt;/a&gt;]
+[&lt;A href=&#34;https://github.com/bargavj/EvaluatingDPML&#34;&gt;code&lt;/a&gt;]
+&lt;/blockquote&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Google Federated Privacy 2019: The Dragon in the Room</title>
       <link>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
