@@ -13,4 +13,4 @@ Xiao Zhang will present [_Cost-Sensitive Robustness against Adversarial Examples
 <a href="/docs/cost-sensitive-poster.pdf"><img src="/docs/cost-sensitive-poster-small.png" width="90%" align="center"></a>
 </center>
 
-Paper: [[PDF]](https://evademl.org/docs/cost-sensitive-robustness.pdf) [[OpenReview]((https://openreview.net/forum?id=BygANhA9tQ&noteId=BJe7cKRWeN)] [[ArXiv](https://arxiv.org/abs/1810.09225)]
+Paper: [[PDF]](https://evademl.org/docs/cost-sensitive-robustness.pdf) [[OpenReview](https://openreview.net/forum?id=BygANhA9tQ&noteId=BJe7cKRWeN)] [[ArXiv](https://arxiv.org/abs/1810.09225)]
