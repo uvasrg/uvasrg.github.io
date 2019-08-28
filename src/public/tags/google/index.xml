@@ -9,6 +9,25 @@
     <atom:link href="//jeffersonswheel.org/tags/google/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Google Security and Privacy Workshop</title>
+      <link>//jeffersonswheel.org/google-security-and-privacy-workshop/</link>
+      <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/google-security-and-privacy-workshop/</guid>
+      <description>&lt;p&gt;I presented a short talk at a workshop at Google on &lt;em&gt;Adversarial ML: Closing Gaps between Theory and Practice&lt;/em&gt; (mostly fun for the &lt;a href=&#34;https://www.youtube.com/watch?v=TVmjjfTvnFs&#34;&gt;movie of me trying to solve Google&amp;rsquo;s CAPTCHA&lt;/a&gt; on the last slide):&lt;/p&gt;
+
+&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTKeMueFNQPz0Pms4EGKoYOXVEg92IBi55babPKG5WRrhHRR2PmIYwZIyLsZ11ucKSahqjjp3Zxd5i3/embed?start=true&amp;loop=false&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;//jeffersonswheel.org/images/googledonuts.jpg&#34; width=&#34;90%&#34;&gt;&lt;br&gt;
+I can say with some confidence, Google does donuts much better than they &lt;a href=&#34;https://freedom-to-tinker.com/2019/08/23/deconstructing-googles-excuses-on-tracking-protection/&#34;&gt;do cookies&lt;/a&gt;!
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Google Federated Privacy 2019: The Dragon in the Room</title>
       <link>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
