@@ -55,7 +55,7 @@ math journal!
 <a href="/images/cantor/IMG_20190919_083500.jpg"><img src="/images/cantor/IMG_20190919_083500-2.jpg" width="50%"></a>
 </center>
 
-And on pages 75-77, Cantor's original published proof!
+And on pages 75-78, Cantor's original published proof!
 
 <center>
 <a href="/images/cantor/IMG_20190919_083511.jpg"><img src="/images/cantor/IMG_20190919_083511-2.jpg" width="80%"></a>
@@ -87,6 +87,16 @@ I don't read German, but the last line is well worth translating:
 
 From now on, whenever its hard to come up with a good conclusion to a
 paper, this one always works.
+
+I believe our library's policy is that (at least for faculty) when you
+check out a book you can keep it until the next person requests
+it. So, I'll be holding on to this one until then. When prospective
+high school students visit UVA, they often ask to see all the cool
+cutting edge technology we use in our research. I'll be happy to show
+them three of the coolest things I have in my office: an abacus, an
+Apple II, and now, an 1891 math journal.
+
+
 
 <hr>
 
