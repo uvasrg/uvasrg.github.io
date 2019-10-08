@@ -6,8 +6,52 @@
     <description>Recent content on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="//jeffersonswheel.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Research Symposium Posters</title>
+      <link>//jeffersonswheel.org/research-symposium-posters/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/research-symposium-posters/</guid>
+      <description>&lt;p&gt;Five students from our group presented posters at the department&amp;rsquo;s
+&lt;a href=&#34;https://engineering.virginia.edu/cs-research-symposium-fall-2019&#34;&gt;Fall Research
+Symposium&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/evaluatingdpml-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt; &lt;br&gt;
+Bargav Jayaraman, &lt;em&gt;Evaluating Differentially Private Machine Learning In Practice&lt;/em&gt;
+[&lt;a href=&#34;
+&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/evaluatingdpml-poster.pdf&#34;&gt;Poster&lt;/a&gt;]&lt;br&gt;
+[&lt;a href=&#34;https://www.cs.virginia.edu/~evans/pubs/usenix2019/&#34;&gt;Paper&lt;/a&gt; (USENIX Security 2019)]
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/pretrainedvulnerable-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
+Hannah Chen [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/pretrainedvulnerable-poster.pdf&#34;&gt;Poster&lt;/a&gt;]
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/measuringconcentration-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
+Xiao Zhang [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/measuringconcentration-poster.pdf&#34;&gt;Poster&lt;a&gt;]&lt;br&gt;
+[&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;Paper&lt;/a&gt; (NeurIPS 2019)]
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/diversemodels-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
+Mainudding Jonas [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/diversemodels-poster.pdf&#34;&gt;Poster&lt;a&gt;]
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cantor&#39;s (No Longer) Lost Proof</title>
@@ -896,44 +940,6 @@ Jackeline Palmer, Diana Freed, Karen Levy, Nicola Dell, Damon McCoy,
 Thomas Ristenpart. &lt;a href=&#34;https://www.ipvtechresearch.org/pubs/spyware.pdf&#34;&gt;&lt;em&gt;The Spyware Used in Intimate Partner
 Violence&lt;/em&gt;&lt;/a&gt;. IEEE
 Symposium on Security and Privacy, 2018.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ISMR 2019: Context-aware Monitoring in Robotic Surgery</title>
-      <link>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>
-      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</guid>
-      <description>&lt;p&gt;Samin Yasar presented our paper on &lt;a href=&#34;https://arxiv.org/abs/1901.09802&#34;&gt;&lt;em&gt;Context-award Monitoring in
-Robotic Surgery&lt;/em&gt;&lt;/a&gt; at the 2019
-&lt;a href=&#34;https://web.archive.org/web/20190416013641/http://www.ismr.gatech.edu/&#34;&gt;&lt;em&gt;International Symposium on Medical
-Robotics&lt;/em&gt;&lt;/a&gt;
-(ISMR) in Atlanta, Georgia.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/surgery.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/surgery.png&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Robotic-assisted minimally invasive surgery (MIS) has enabled
-procedures with increased precision and dexterity, but surgical robots
-are still open loop and require surgeons to work with a tele-operation
-console providing only limited visual feedback. In this setting,
-mechanical failures, software faults, or human errors might lead to
-adverse events resulting in patient complications or fatalities. We
-argue that impending adverse events could be detected and mitigated by
-applying context-specific safety constraints on the motions of the
-robot. We present a context-aware safety monitoring system which
-segments a surgical task into subtasks using kinematics data and
-monitors safety constraints specific to each subtask. To test our
-hypothesis about context specificity of safety constraints, we analyze
-recorded demonstrations of dry-lab surgical tasks collected from the
-JIGSAWS database as well as from experiments we conducted on a Raven
-II surgical robot. Analysis of the trajectory data shows that each
-subtask of a given surgical procedure has consistent safety
-constraints across multiple demonstrations by different subjects. Our
-preliminary results show that violations of these safety constraints
-lead to unsafe events, and there is often sufficient time between the
-constraint violation and the safety-critical event to allow for a
-corrective action.&lt;/p&gt;
 </description>
     </item>
     

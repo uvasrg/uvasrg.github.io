@@ -4,7 +4,7 @@ draft = false
 title = "USENIX Security Symposium 2019"
 author = "David Evans"
 categories = ["conferences", "alumni"]
-tags = ["privacy", "privacy-preserving machine learning","Bargav ]ayaraman", "Sam Havron", "Serge Egelman"]
+tags = ["privacy", "privacy-preserving machine learning","Bargav Jayaraman", "Sam Havron", "Serge Egelman"]
 +++
 
 Bargav Jayaraman presented our paper on [_Evaluating Differentially Private Machine Learning in Practice_](https://arxiv.org/abs/1902.08874) at the <a
