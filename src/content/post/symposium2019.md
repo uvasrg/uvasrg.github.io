@@ -36,11 +36,17 @@ Xiao Zhang [<a href="/docs/symposters2019/measuringconcentration-poster.pdf">Pos
 
 <br></br>
 
-
 <center>
 <embed src="/docs/symposters2019/diversemodels-poster.pdf" width="95%" height="300" type="application/pdf"><br>
 Mainudding Jonas [<a href="/docs/symposters2019/diversemodels-poster.pdf">Poster<a>]
 </center>
 
 <br></br>
+
+
+<center>
+<embed src="/docs/symposters2019/hybridbatch-poster.pdf" width="95%" height="300" type="application/pdf"><br>
+Fnu Suya [<a href="/docs/symposters2019/hybridbatch-poster.pdf">Poster<a>]<br>
+[<a href="https://arxiv.org/abs/1908.07000">Paper</a> (USENIX Security 2020)]
+</center>
 
