@@ -6,7 +6,13 @@ categories = ["publications"]
 tags = ["adversarial machine learning", "Xiao Zhang", "NeurIPS", "Saeed Mahloujifar", "Mohammad Mahmoody"]
 +++
 
-<a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a> will present our work (with <a href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a> and <a href="https://www.cs.virginia.edu/~mohammad/">Mohamood Mahmoody</a>) as a spotlight at [NeurIPS 2019](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792)), Vancouver, December 2019. 
+<a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a> will
+present our work (with <a
+href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a> and
+<a href="https://www.cs.virginia.edu/~mohammad/">Mohamood
+Mahmoody</a>) as a spotlight at [NeurIPS
+2019](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792),
+Vancouver, 10 December 2019.
 
 Recent theoretical results, starting with Gilmer et al.'s
 [_Adversarial Spheres_](https://aipavilion.github.io/) (2018), show
