@@ -24,13 +24,13 @@ We validate effectiveness of the hybrid attack over baseline method on three ben
 **Validation of local adversarial examples as starting points:**
 results are shown below. We find that hybrid attack (starts from local adversarial examples) can significantly ourperform baseline method (starts from original points) in terms of attack success rate and query efficiency. 
 
-<center><img src="/images/usenix2020/local_candidate_results.png" width="80%" align="center"><br></center>
+<center><img src="../images/usenix2020/local_candidate_results.png" width="80%" align="center"><br></center>
 
 **Validation of fine-tuning local models:**
 results of AutoZOOM attack on MNIST dataset are shown below. We find that, in comparison to static local models, fine-tuinng local models during the attack process further improves the query efficiency. However, for more complex datasets (e.g., CIFAR10), we observe degradation in the attack performance by fine-tuning.
 
 
-<center><img src="/images/usenix2020/fine_tune_results.png" width="80%" height ="300" align="center"><br></center>
+<center><img src="../images/usenix2020/fine_tune_results.png" width="80%" height ="300" align="center"><br></center>
 
 **Takeaway:** 
 above results suggest that failed local adversarial examples can generally be used to boost optimization attacks. However, fine-tuning local models is only helpful for small scale dataset (e.g., MNIST) and fails to generalize to more complex datasets. It is an open question whether we can also make the fine-tuning process work well on more complex datasets. More discussion in terms of fine-tuning can be found in the [paper](/docs/hybrid_attack.pdf).
