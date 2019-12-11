@@ -42,7 +42,7 @@ We find that hybrid attack utilizes local adversarial examples can improve the o
 
 To validate effectievness of the two-phase strategy, we compare it against the _retroactive optimal_ strategy and a _random_ baseline. In the retroactive optimal strategy, we assume adversaries already know the exact number of queries to attack each seed (before the attack starts) and therefore, the seeds can be prioritized based on their actual query cost. Retroactive optimal strategy is an (ideal) upper bound for our two-phase strategy. The random baseline simply prioritizes seeds in a random order. Result of AutoZOOM attack on ImageNet is shown below and we find our two-phase strategy performs closely to the retroactive optimal strategy and outpeforms random baseline significantly (i.e., for the same number of query limit, two-phase strategy finds significantly more adversarial examples comapred to the random baseline).  
 
-<center><img src="../images/usenix2020/batch_attack_results.png" width="80%" height="400" align="center"></center>
+<center><img src="../images/usenix2020/batch_attack_results.png" width="80%" height="450" align="center"></center>
 
 **Takeaway:**
 the _hybrid batch attack_, which adopts two-phase prioritization on top of the hybrid attack can significantly improve the query efficiency and find adversarial examples with only a handful of queries.
