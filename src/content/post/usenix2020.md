@@ -25,6 +25,8 @@ We validate effectiveness of the hybrid attack over baseline method on three ben
 results are shown below. We find that hybrid attack (starts from local adversarial examples) can significantly ourperform baseline method (starts from original points) in terms of attack success rate and query efficiency. 
 <center><img src="/images/concentration/localcandidateresults.png" width="80%" align="center"></center>
 
+<center><img src="/images/usenix2020/theory.png" width="80%" align="center"></center>
+
 <img src="/images/usenix2020/localcandidateresults.png" width="100%" align="center"><br></center>
 
 **Validation of fine-tuning local models:**
