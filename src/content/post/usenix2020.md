@@ -18,7 +18,7 @@ Black-box attacks generate adversarial examples against deep neural network with
 In this work, we propose hybrid attack that combines transfer and optimization attacks. On one direction (transfer attack -> optimization attack), hybrid attack takes failed candidate adversarial examples from the local models (of transfer attacks) as the starting points for the optimization attacks. We hope that these failed candidate adversarial examples are stil closer to the target adversarial region and can be better starting points for the optimization attacks. On the other direction (optimization attack -> transfer attack), intermediate query results from the optimization attacks are used to fine-tune the local models (of transfer attacks). We hope that these intermediate results contain meaningful information about the decision boundary of target model and with tune-tuning, the local models can resemble the target model with improved transferability.
 
 
-We validate effectiveness of the hybrid attack over baseline method on three benchmark datasets: MNIST, CIFAR10, ImageNet. In this post, we only show the results of [_AutoZOOM_](https://arxiv.org/abs/1805.11770) as the selected optimization method. More results can be found in the [paper](/docs/hybrid_attack.pdf). 
+We validate effectiveness of the hybrid attack over baseline method on three benchmark datasets: MNIST, CIFAR10, ImageNet. In this post, we only show the results of [_AutoZOOM_](https://arxiv.org/abs/1805.11770) as the selected optimization method. More results can be found in the [paper](../docs/hybrid_attack.pdf). 
 
 
 **Validation of local adversarial examples as starting points:**
@@ -33,7 +33,7 @@ results of AutoZOOM attack on MNIST dataset are shown below. We find that, in co
 <center><img src="../images/usenix2020/fine_tune_results.png" width="80%" align="center"></center>
 
 **Takeaway:** 
-above results suggest that failed local adversarial examples can generally be used to boost optimization attacks. However, fine-tuning local models is only helpful for small scale dataset (e.g., MNIST) and fails to generalize to more complex datasets. It is an open question whether we can also make the fine-tuning process work well on more complex datasets. More discussion in terms of fine-tuning can be found in the [paper](/docs/hybrid_attack.pdf).
+above results suggest that failed local adversarial examples can generally be used to boost optimization attacks. However, fine-tuning local models is only helpful for small scale dataset (e.g., MNIST) and fails to generalize to more complex datasets. It is an open question whether we can also make the fine-tuning process work well on more complex datasets. More discussion in terms of fine-tuning can be found in the [paper](../docs/hybrid_attack.pdf).
 
 
 ### Batch Attack
@@ -50,7 +50,7 @@ the _hybrid batch attack_, which adopts two-phase prioritization on top of the h
 ## Paper
 
 <a href="https://fsuya.org">Fnu Suya</a>,<a href="https://www.linkedin.com/in/jianfeng-chi-001b25133/">Jianfeng Chi</a>,<a href="http://www.cs.virginia.edu/~evans/">David Evans</a> and <a href="https://www.ytian.info">Yuan Tian</a>. [_Hybrid Batch Attacks: Finding Black-box
-Adversarial Examples with Limited Queries_](https://arxiv.org/pdf/1908.07000.pdf). In [_Usenix Security 2020_](https://www.usenix.org/conference/usenixsecurity20). Boston, August 2020. [[PDF](/docs/hybrid_attack.pdf)] [[arXiv](https://arxiv.org/abs/1908.07000)] 
+Adversarial Examples with Limited Queries_](https://arxiv.org/pdf/1908.07000.pdf). In [_Usenix Security 2020_](https://www.usenix.org/conference/usenixsecurity20). Boston, August 2020. [[PDF](../docs/hybrid_attack.pdf)] [[arXiv](https://arxiv.org/abs/1908.07000)] 
 
 ## Code
 
