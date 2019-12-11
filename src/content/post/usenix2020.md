@@ -24,6 +24,8 @@ We validate effectiveness of the hybrid attack over baseline method on three ben
 **Validation of local adversarial examples as starting points:**
 results are shown below. We find that hybrid attack (starts from local adversarial examples) can significantly ourperform baseline method (starts from original points) in terms of attack success rate and query efficiency. 
 
+<img src="/images/concentration/experiments.png" width="100%" align="center"><br></center>
+
 <img src="/images/usenix2020/local_candidate_results.png" width="80%" align="center"><br></center>
 
 
