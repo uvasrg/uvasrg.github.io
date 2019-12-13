@@ -1,19 +1,16 @@
 +++
-date = "9 Dec 2019"
-draft = false
-title = "Usenix Security 2020: Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries"
+date = "09 Dec 2019"
+draft = true
+title = "USENIX Security 2020: Hybrid Batch Attacks"
 categories = ["publications"]
-tags = ["adversarial machine learning", "Fnu Suya", "Usenix Security"]
+tags = ["adversarial machine learning", "Fnu Suya", "USENIX Security", "black-box attacks"]
 +++
 
-<a href="https://fsuya.org">Fnu Suya</a>'s work on black-box attacks is accepted to [Usenix Security 2020](https://www.usenix.org/conference/usenixsecurity20),
-Boston, 12 August 2020.
+## Finding Black-box Adversarial Examples with Limited Queries
 
-## Hybrid Batch Attack
-### Background
-Black-box attacks generate adversarial examples against deep neural network with only API access to the victim model. Existing black-box attacks can be grouped into two main categories: _Transfer Attacks_ use white-box attacks on local models to find candidate adversarial examples that transfer to the target model. Existing work on transfer attacks aims to improve the transfer rate of candidate adversarial examples. _Optimization Attacks_ use queries to the target model and apply optimization techniques to search for adversarial examples. Current work on optimization attacks aims to reduce the total number of queries used to find adversarial examples.    
+Black-box attacks generate adversarial examples against deep neural networks with only API access to the victim model. Existing black-box attacks can be grouped into two main categories: _Transfer Attacks_ use white-box attacks on local models to find candidate adversarial examples that transfer to the target model. Existing work on transfer attacks aims to improve the transfer rate of candidate adversarial examples. _Optimization Attacks_ use queries to the target model and apply optimization techniques to search for adversarial examples. Current work on optimization attacks aims to reduce the total number of queries used to find adversarial examples.    
 
-
+  
 ### Hybrid Attack
 In this work, we propose hybrid attack that combines transfer and optimization attacks. On one direction (transfer attack -> optimization attack), hybrid attack takes failed candidate adversarial examples from the local models (of transfer attacks) as the starting points for the optimization attacks. We hope that these failed candidate adversarial examples are stil closer to the target adversarial region and can be better starting points for the optimization attacks. On the other direction (optimization attack -> transfer attack), intermediate query results from the optimization attacks are used to fine-tune the local models (of transfer attacks). We hope that these intermediate results contain meaningful information about the decision boundary of target model and with tune-tuning, the local models can resemble the target model with improved transferability.
 
@@ -49,8 +46,8 @@ the _hybrid batch attack_, which adopts two-phase prioritization on top of the h
 
 ## Paper
 
-<a href="https://fsuya.org">Fnu Suya</a>,<a href="https://www.linkedin.com/in/jianfeng-chi-001b25133/">Jianfeng Chi</a>,<a href="http://www.cs.virginia.edu/~evans/">David Evans</a> and <a href="https://www.ytian.info">Yuan Tian</a>. [_Hybrid Batch Attacks: Finding Black-box
-Adversarial Examples with Limited Queries_](https://arxiv.org/pdf/1908.07000.pdf). In [_Usenix Security 2020_](https://www.usenix.org/conference/usenixsecurity20). Boston, August 2020. [[PDF](../docs/hybrid_attack.pdf)] [[arXiv](https://arxiv.org/abs/1908.07000)] 
+<a href="https://fsuya.org">Fnu Suya</a>, <a href="https://www.linkedin.com/in/jianfeng-chi-001b25133/">Jianfeng Chi</a>, <a href="http://www.cs.virginia.edu/~evans/">David Evans</a> and <a href="https://www.ytian.info">Yuan Tian</a>. [_Hybrid Batch Attacks: Finding Black-box
+Adversarial Examples with Limited Queries_](https://arxiv.org/pdf/1908.07000.pdf). In [_USENIX Security 2020_](https://www.usenix.org/conference/usenixsecurity20). Boston, August 2020. [[PDF](/docs/hybrid_attack.pdf)]&nbsp;[[arXiv](https://arxiv.org/abs/1908.07000)] 
 
 ## Code
 
