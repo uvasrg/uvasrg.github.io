@@ -8,41 +8,68 @@ tags = ["adversarial machine learning", "Fnu Suya", "USENIX Security", "black-bo
 
 ## Finding Black-box Adversarial Examples with Limited Queries
 
-Black-box attacks generate adversarial examples against deep neural networks with only API access to the victim model. Existing black-box attacks can be grouped into two main categories: _Transfer Attacks_ use white-box attacks on local models to find candidate adversarial examples that transfer to the target model. Existing work on transfer attacks aims to improve the transfer rate of candidate adversarial examples. _Optimization Attacks_ use queries to the target model and apply optimization techniques to search for adversarial examples. Current work on optimization attacks aims to reduce the total number of queries used to find adversarial examples.    
+Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model. Existing black-box attacks can be grouped into two main categories: 
+> - **Transfer Attack:** use white-box attacks on local models to find candidate adversarial examples that transfer to the target model. 
+> - **Optimization Attack:** use queries to the target model and apply optimization techniques to search for adversarial examples.    
 
-  
 ### Hybrid Attack
-In this work, we propose hybrid attack that combines transfer and optimization attacks. On one direction (transfer attack -> optimization attack), hybrid attack takes failed candidate adversarial examples from the local models (of transfer attacks) as the starting points for the optimization attacks. We hope that these failed candidate adversarial examples are stil closer to the target adversarial region and can be better starting points for the optimization attacks. On the other direction (optimization attack -> transfer attack), intermediate query results from the optimization attacks are used to fine-tune the local models (of transfer attacks). We hope that these intermediate results contain meaningful information about the decision boundary of target model and with tune-tuning, the local models can resemble the target model with improved transferability.
+In this work, we propose hybrid attack that combines transfer and optimization attacks as follows:
+> -  **Transfer Attack -> Optimization Attack:** take candidate adversarial examples of the local models of transfer attacks as the starting points for optimization attacks. 
+> - **Optimization Attack -> Transfer Attack:** intermediate query results from the optimization attacks are used to fine-tune the local models of transfer attacks.
+
+The attack process and search space (of adversarial examples) of hybrid attack are visualized below:
+
+<center><img src="../images/usenix2020/hybrid_attack_illustration.png" width="100%" align="center"></center>
+
+We validate effectiveness of the hybrid attack over the baseline on three benchmark datasets: MNIST, CIFAR10, ImageNet. In this post, we only show the results of [AutoZOOM](https://arxiv.org/abs/1805.11770) as the selected optimization method. More results of other attacks can be found in the [paper](../docs/hybrid_attack.pdf). 
 
 
-We validate effectiveness of the hybrid attack over baseline method on three benchmark datasets: MNIST, CIFAR10, ImageNet. In this post, we only show the results of [_AutoZOOM_](https://arxiv.org/abs/1805.11770) as the selected optimization method. More results can be found in the [paper](../docs/hybrid_attack.pdf). 
-
-
-**Validation of local adversarial examples as starting points:**
-results are shown below. We find that hybrid attack (starts from local adversarial examples) can significantly ourperform baseline method (starts from original points) in terms of attack success rate and query efficiency. 
+#### Local adversarial examples are useful (Transfer -> Optimization)
+Below, we compare the performance of AutoZOOM attack when it starts from 1) the local adversarial examples, and 2) the original points. We perform targeted attack on normal (i.e., standard) models. We find that local AEs can generally boost the performance of optimization attacks.
 
 <center><img src="../images/usenix2020/local_candidate_results.png" width="80%" align="center"></center>
 
-**Validation of fine-tuning local models:**
-results of AutoZOOM attack on MNIST dataset are shown below. We find that, in comparison to static local models, fine-tuinng local models during the attack process further improves the query efficiency. However, for more complex datasets (e.g., CIFAR10), we observe degradation in the attack performance by fine-tuning.
+We further test the performance of hybrid attack against [robust models](https://github.com/MadryLab/cifar10_challenge), but find hybrid attack is not significant over the baseline in this case (shown below).  
+
+<center><img src="../images/usenix2020/normal_model_fails.png" width="80%" align="center"></center>
+
+We found the ineffectiveness stems from the differences in the attack space of normal and robust models. Therefore, to improve effectiveness against robust target model, we should deploy robust local models. Figure below compares impact of normal and robust local models when attacking the robust target model.
+
+<center><img src="../images/usenix2020/local_model_comparison.png" width="80%" align="center"></center>
+
+#### Fine-tuning does NOT always help (Optimization -> Transfer)
+Below, we compare the performance of AutoZOOM attack on MNIST normal model when the local models are 1) fine-tuned during the attack process, and 2) kept static.
+Results of AutoZOOM attack on normal MNIST model is shown below. We find fine-tuinng local models during the attack process further improves the query efficiency. However, for more complex datasets (e.g., CIFAR10), we observe degradation in the attack performance by fine-tuning (check Table 6 in the [paper](../docs/hybrid_attack.pdf)).
 
 
 <center><img src="../images/usenix2020/fine_tune_results.png" width="80%" align="center"></center>
 
-**Takeaway:** 
-above results suggest that failed local adversarial examples can generally be used to boost optimization attacks. However, fine-tuning local models is only helpful for small scale dataset (e.g., MNIST) and fails to generalize to more complex datasets. It is an open question whether we can also make the fine-tuning process work well on more complex datasets. More discussion in terms of fine-tuning can be found in the [paper](../docs/hybrid_attack.pdf).
-
+#### Takeaway
+> - **Transfer -> Optimization:** local adversarial examples can generally be used to boost optimization attacks. One caveat is, against robust target model, hybrid attack is more effective with robust local models. 
+> - **Transfer -> Optimization:** fine-tuning local models is only helpful for small scale dataset (e.g., MNIST) and fails to generalize to more complex datasets. It is an open question whether we can make the fine-tuning process work for complex datasets. 
 
 ### Batch Attack
+We consider a **batch attack** scenario: adversaries have limited number of queries and want to maximize the number of adversarial examples found within the limit. 
 
-We find that hybrid attack utilizes local adversarial examples can improve the overall query efficiency of black-box attacks. We additionally consider a more realistic batch attack scenario where adversaries have limited number of queries and want to maximize the number of adversarial examples found within the limit. With the observation that attack difficulty (i.e., number of queries) of different seeds vary significantly, we propose two-phase strategy to prioritize easy seeds and further improve the query efficiency of hybrid attack. In first-phase of the two-phase strategy, the likely-to-transfer seeds are prioritized based on their local PGD-steps (with respect to the local models) and in the second phase, easy-to-attack (i.e., require lower number of queries) seeds are prioritized based on their target loss value (with respect to the target model). 
+We find that number of queries required for attacking a specific seed vary significantly across seeds:
 
-To validate effectievness of the two-phase strategy, we compare it against the _retroactive optimal_ strategy and a _random_ baseline. In the retroactive optimal strategy, we assume adversaries already know the exact number of queries to attack each seed (before the attack starts) and therefore, the seeds can be prioritized based on their actual query cost. Retroactive optimal strategy is an (ideal) upper bound for our two-phase strategy. The random baseline simply prioritizes seeds in a random order. Result of AutoZOOM attack on ImageNet is shown below and we find our two-phase strategy performs closely to the retroactive optimal strategy and outpeforms random baseline significantly (i.e., for the same number of query limit, two-phase strategy finds significantly more adversarial examples comapred to the random baseline).  
+<center><img src="../images/usenix2020/query_variance.png" width="80%" align="center"></center>
+
+With this observation, we propose **two-phase strategy** to prioritize easy seeds for the **hybrid attack**: 
+> - **First Phase:** the likely-to-transfer seeds are prioritized based on their PGD-steps taken to attack the local models.
+> - **Second Phase:** the easy-to-attack (i.e., does not transferm, but need smaller number of queries to attack) seeds are prioritized based on their target loss value with respect to the target model. 
+
+To validate effectievness of the two-phase strategy, we compare to two seed prioritization strategies:
+
+> - **Retroactive Optimal:** we assume adversaries already know the exact number of queries to attack each seed (before the attack starts) and seeds are prioritized based on the actual query cost. Retroactive optimal strategy is an (ideal) upper bound for our two-phase strategy. 
+> - **Random:** this is a baseline strategy and seeds are prioritized in random order.
+
+Result of AutoZOOM attack on normal ImageNet model is shown below. We find our two-phase strategy performs closely to the retroactive optimal strategy and outpeforms random baseline significantly: with same number of query limit, two-phase strategy finds significantly more adversarial examples comapred to the random baseline, and is closer to the retroactive optimal case. 
 
 <center><img src="../images/usenix2020/batch_attack_results.png" width="80%" align="center"></center>
 
-**Takeaway:**
-the _hybrid batch attack_, which adopts two-phase prioritization on top of the hybrid attack can significantly improve the query efficiency and find adversarial examples with only a handful of queries.
+#### Takeaway
+Prioritizing seeds based on two-phase strategy for the hybrid attack can significantly improve its query efficiency in batch attack scenario. We name the whole startegy (two-phase strategy + hybrid attack) as **Hybrid Batch Attack**.
 
 ## Paper
 
@@ -53,4 +80,4 @@ Adversarial Examples with Limited Queries_](https://arxiv.org/pdf/1908.07000.pdf
 
 [https://github.com/suyeecav/Hybrid-Attack](https://github.com/suyeecav/Hybrid-Attack)
 
-
+In this repository, we provide the source code to reproduce the results in the paper. In addition, we believe our hybrid attack framework can (potentially) help boost the performance of new optimization attacks. Therefore, in the repository, we also provide tutorials to incorporate new optimization attacks into the hybrid attack framework. 
