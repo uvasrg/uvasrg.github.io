@@ -399,6 +399,16 @@ p {
   font-weight: 300;
 }
 
+.midcaption {
+  text-align: left;
+  margin-top: 0.5ex;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 0.75rem;
+  line-height: 150%;
+  font-weight: 300;
+}
+
 .more {
   font-size: 0.7rem;
   margin-left: 0em;
@@ -453,6 +463,15 @@ p {
     margin-top: 1ex;
     overflow: hidden;
     background: white;   
+}
+
+.quote
+{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1.5ex;
+    margin-bottom: 1.5ex;
+    overflow: hidden;
 }
 
 .groupstyle
