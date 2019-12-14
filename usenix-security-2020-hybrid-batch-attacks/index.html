@@ -137,7 +137,7 @@ optimization techniques to search for adversarial examples.</p></li>
 
 <p>The attack process and search space (of adversarial examples) of hybrid attack are visualized below:</p>
 
-<p><center><img src="../images/usenix2020/hybrid_attack_illustration.png" width="100%" align="center"></center></p>
+<p><center><a href="/images/usenix2020/hybrid_attack_illustration.png"><img src="../images/usenix2020/hybrid_attack_illustration.png" width="95%" align="center"></a></center></p>
 
 <p>We validate effectiveness of the hybrid attack over the baseline on three benchmark datasets: MNIST, CIFAR10, ImageNet. In this post, we only show the results of <a href="https://arxiv.org/abs/1805.11770">AutoZOOM</a> as the selected optimization method. More results of other attacks can be found in the <a href="../docs/hybrid_attack.pdf">paper</a>.</p>
 
@@ -148,13 +148,13 @@ from 1) the local adversarial examples, and 2) the original
 points. Here, we report results for targeted attacks on normal (i.e.,
 non-robust) models:</p>
 
-<p><center><img src="../images/usenix2020/local_candidate_results.png" width="80%" align="center"></center></p>
+<p><center><a href="/images/usenix2020/local_candidate_results.png"><img src="/images/usenix2020/local_candidate_results.png" width="65%" align="center"></a></center></p>
 
 <p>Local AEs can substantially boost the performance of optimization
 attacks, but when the same attack is used against <a href="https://github.com/MadryLab/cifar10_challenge">robust
 models</a>, the improvement is small:</p>
 
-<p><center><img src="../images/usenix2020/normal_model_fails.png" width="80%" align="center"></center></p>
+<p><center><a href="<img src="/images/usenix2020/normal_model_fails.png"><img src="/images/usenix2020/normal_model_fails.png" width="65%" align="center"></a></center></p>
 
 <p>This ineffectiveness appears to stem from differences in the attack
 space of normal and robust models. Therefore, to improve effectiveness
@@ -163,7 +163,7 @@ transfer candidates for starting the optimization attacks. The figure
 below compares impact of normal and robust local models when attacking
 the robust target model:</p>
 
-<p><center><img src="../images/usenix2020/local_model_comparison.png" width="80%" align="center"></center></p>
+<p><center><a href="/images/usenix2020/local_model_comparison.png"><img src="/images/usenix2020/local_model_comparison.png" width="60%" align="center"></a></center></p>
 
 <h2 id="tuning-with-byproduces-doesn-t-help-much-optimization-rarr-transfer">Tuning with Byproduces Doesn&rsquo;t Help Much (Optimization &rarr; Transfer)</h2>
 
@@ -171,7 +171,7 @@ the robust target model:</p>
 model when the local models are 1) fine-tuned during the attack
 process, and 2) kept static:</p>
 
-<p><center><img src="../images/usenix2020/fine_tune_results.png" width="80%" align="center"></center></p>
+<p><center><a href="/images/usenix2020/fine_tune_results.png"><img src="/images/usenix2020/fine_tune_results.png" width="60%" align="center"></a></center></p>
 
 <p>Tuining local models using byproducts from the optimization attack
 improves the query efficiency. However, for more complex datasets
@@ -189,7 +189,7 @@ the average cost to attack each seed in a large pool of seeds.</p>
 <p>The number of queries required for attacking a specific seed varies
 greatly across seeds:</p>
 
-<p><center><img src="../images/usenix2020/query_variance.png" width="80%" align="center"></center></p>
+<p><center><a href="/images/usenix2020/query_variance.png"><img src="../images/usenix2020/query_variance.png" width="65%" align="center"></center></p>
 
 <p>With this observation, we propose <strong>two-phase strategy</strong> to prioritize easy seeds for the <strong>hybrid attack</strong>:</p>
 
@@ -213,7 +213,7 @@ their target loss value with respect to the target model.</p></li>
 
 <p>Results for the AutoZOOM attack on a normal ImageNet model are shown below:</p>
 
-<p><center><img src="../images/usenix2020/batch_attack_results.png" width="80%" align="center"></center></p>
+<p><center><img src="../images/usenix2020/batch_attack_results.png" width="60%" align="center"></center></p>
 
 <p>Our two-phase strategy performs closely to the retroactive optimal
 strategy and outpeforms random baseline significantly: with same

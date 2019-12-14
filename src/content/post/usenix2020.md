@@ -30,7 +30,7 @@ We propose a _hybrid attack_ that combines transfer and optimization attacks:
 
 The attack process and search space (of adversarial examples) of hybrid attack are visualized below:
 
-<center><img src="../images/usenix2020/hybrid_attack_illustration.png" width="100%" align="center"></center>
+<center><a href="/images/usenix2020/hybrid_attack_illustration.png"><img src="../images/usenix2020/hybrid_attack_illustration.png" width="95%" align="center"></a></center>
 
 We validate effectiveness of the hybrid attack over the baseline on three benchmark datasets: MNIST, CIFAR10, ImageNet. In this post, we only show the results of [AutoZOOM](https://arxiv.org/abs/1805.11770) as the selected optimization method. More results of other attacks can be found in the [paper](../docs/hybrid_attack.pdf). 
 
@@ -42,13 +42,13 @@ from 1) the local adversarial examples, and 2) the original
 points. Here, we report results for targeted attacks on normal (i.e.,
 non-robust) models:
 
-<center><img src="../images/usenix2020/local_candidate_results.png" width="80%" align="center"></center>
+<center><a href="/images/usenix2020/local_candidate_results.png"><img src="/images/usenix2020/local_candidate_results.png" width="65%" align="center"></a></center>
 
 Local AEs can substantially boost the performance of optimization
 attacks, but when the same attack is used against [robust
 models](https://github.com/MadryLab/cifar10_challenge), the improvement is small:
 
-<center><img src="../images/usenix2020/normal_model_fails.png" width="80%" align="center"></center>
+<center><a href="<img src="/images/usenix2020/normal_model_fails.png"><img src="/images/usenix2020/normal_model_fails.png" width="65%" align="center"></a></center>
 
 This ineffectiveness appears to stem from differences in the attack
 space of normal and robust models. Therefore, to improve effectiveness
@@ -57,7 +57,7 @@ transfer candidates for starting the optimization attacks. The figure
 below compares impact of normal and robust local models when attacking
 the robust target model:
 
-<center><img src="../images/usenix2020/local_model_comparison.png" width="80%" align="center"></center>
+<center><a href="/images/usenix2020/local_model_comparison.png"><img src="/images/usenix2020/local_model_comparison.png" width="60%" align="center"></a></center>
 
 ## Tuning with Byproduces Doesn't Help Much (Optimization &rarr; Transfer)
 
@@ -65,7 +65,7 @@ Below, we compare the performance of AutoZOOM attack on MNIST normal
 model when the local models are 1) fine-tuned during the attack
 process, and 2) kept static:
 
-<center><img src="../images/usenix2020/fine_tune_results.png" width="80%" align="center"></center>
+<center><a href="/images/usenix2020/fine_tune_results.png"><img src="/images/usenix2020/fine_tune_results.png" width="60%" align="center"></a></center>
 
 Tuining local models using byproducts from the optimization attack
 improves the query efficiency. However, for more complex datasets
@@ -84,7 +84,7 @@ the average cost to attack each seed in a large pool of seeds.
 The number of queries required for attacking a specific seed varies
 greatly across seeds:
 
-<center><img src="../images/usenix2020/query_variance.png" width="80%" align="center"></center>
+<center><a href="/images/usenix2020/query_variance.png"><img src="../images/usenix2020/query_variance.png" width="65%" align="center"></center>
 
 With this observation, we propose **two-phase strategy** to prioritize easy seeds for the **hybrid attack**: 
 
@@ -104,7 +104,7 @@ To validate effectievness of the two-phase strategy, we compare to two seed prio
 
 Results for the AutoZOOM attack on a normal ImageNet model are shown below:
 
-<center><img src="../images/usenix2020/batch_attack_results.png" width="80%" align="center"></center>
+<center><img src="../images/usenix2020/batch_attack_results.png" width="60%" align="center"></center>
 
 Our two-phase strategy performs closely to the retroactive optimal
 strategy and outpeforms random baseline significantly: with same
