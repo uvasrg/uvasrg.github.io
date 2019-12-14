@@ -1,6 +1,7 @@
 +++
 date = "22 Nov 2019"
 draft = false
+author = "Xiao Zhang"
 title = "NeurIPS 2019: Empirically Measuring Concentration"
 categories = ["publications"]
 tags = ["adversarial machine learning", "Xiao Zhang", "NeurIPS", "Saeed Mahloujifar", "Mohammad Mahmoody"]
