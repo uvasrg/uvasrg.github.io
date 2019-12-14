@@ -4,7 +4,7 @@ draft = false
 author = "Fnu Suya"
 title = "USENIX Security 2020: Hybrid Batch Attacks"
 categories = ["publications"]
-tags = ["adversarial machine learning", "Fnu Suya", "Yuan Tian", "Jianfeng Chi", "USENIX Security", "black-box attacks"]
+tags = ["adversarial machine learning", "Fnu Suya", "Yuan Tian", "Jianfeng Chi", "USENIX Security"]
 +++
 
 ## Finding Black-box Adversarial Examples with Limited Queries
