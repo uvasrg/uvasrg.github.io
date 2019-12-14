@@ -30,7 +30,7 @@ We propose a _hybrid attack_ that combines transfer and optimization attacks:
 
 The attack process and search space (of adversarial examples) of hybrid attack are visualized below:
 
-<center><a href="/images/usenix2020/hybrid_attack_illustration.png"><img src="../images/usenix2020/hybrid_attack_illustration.png" width="95%" align="center"></a></center>
+<center><a href="/images/usenix2020/hybrid_attack_illustration.png"><img src="../images/usenix2020/hybrid_attack_illustration.png" width="90%" align="center"></a></center>
 
 We validate effectiveness of the hybrid attack over the baseline on three benchmark datasets: MNIST, CIFAR10, ImageNet. In this post, we only show the results of [AutoZOOM](https://arxiv.org/abs/1805.11770) as the selected optimization method. More results of other attacks can be found in the [paper](../docs/hybrid_attack.pdf). 
 
