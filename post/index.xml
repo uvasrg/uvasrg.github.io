@@ -96,9 +96,9 @@ the average cost to attack each seed in a large pool of seeds.&lt;/p&gt;
 &lt;p&gt;The number of queries required for attacking a specific seed varies
 greatly across seeds:&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/query_variance.png&#34;&gt;&lt;img src=&#34;../images/usenix2020/query_variance.png&#34; width=&#34;65%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/query_variance.png&#34;&gt;&lt;img src=&#34;../images/usenix2020/query_variance.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;With this observation, we propose &lt;strong&gt;two-phase strategy&lt;/strong&gt; to prioritize easy seeds for the &lt;strong&gt;hybrid attack&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Based on this observation, we propose &lt;strong&gt;two-phase strategy&lt;/strong&gt; to prioritize easy seeds for the &lt;strong&gt;hybrid attack&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;In the first phase, the likely-to-transfer seeds are prioritized

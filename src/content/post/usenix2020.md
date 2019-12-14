@@ -84,9 +84,9 @@ the average cost to attack each seed in a large pool of seeds.
 The number of queries required for attacking a specific seed varies
 greatly across seeds:
 
-<center><a href="/images/usenix2020/query_variance.png"><img src="../images/usenix2020/query_variance.png" width="65%" align="center"></center>
+<center><a href="/images/usenix2020/query_variance.png"><img src="../images/usenix2020/query_variance.png" width="80%" align="center"></a></center>
 
-With this observation, we propose **two-phase strategy** to prioritize easy seeds for the **hybrid attack**: 
+Based on this observation, we propose **two-phase strategy** to prioritize easy seeds for the **hybrid attack**: 
 
 1. In the first phase, the likely-to-transfer seeds are prioritized
 based on their PGD-steps taken to attack the local models. The
