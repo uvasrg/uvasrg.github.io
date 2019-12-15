@@ -409,6 +409,14 @@ p {
   font-weight: 300;
 }
 
+.aside {
+  margin-left: 2em;
+  line-height: 1.2em;
+  font-size: 0.75rem;
+  font-weight: 80;
+  color: #888;
+}
+
 .more {
   font-size: 0.7rem;
   margin-left: 0em;
