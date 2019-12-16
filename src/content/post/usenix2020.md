@@ -29,7 +29,7 @@ We propose a _hybrid attack_ that combines transfer and optimization attacks:
 2. Optimization Attack &rarr; Transfer Attack &mdash; intermediate query results from the optimization attacks are used to fine-tune the local models of transfer attacks.
 
 <center>
-<a href="/images/usenix2020/hybridattack.png"><img src="/images/usenix2020/hybridattack.png" width="90%" align="center"></a>
+<a href="/images/usenix2020/hybridattack.png"><img src="/images/usenix2020/hybridattack.png" width="60%" align="center"></a>
 </center>
 
 
