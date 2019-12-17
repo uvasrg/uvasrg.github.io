@@ -6,8 +6,34 @@
     <description>Recent content in Post-rsses on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="//jeffersonswheel.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NeurIPS 2019</title>
+      <link>//jeffersonswheel.org/neurips2019/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/neurips2019/</guid>
+      <description>&lt;p&gt;
+Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: &lt;br&gt;
+&lt;a href=&#34;https://slideslive.com/38921718/track-2-session-1&#34;&gt;&lt;em&gt;https://slideslive.com/38921718/track-2-session-1&lt;/em&gt;&lt;/a&gt; (starting at 26:50)
+&lt;/p&gt;
+&lt;p&gt;
+See &lt;A href=&#34;//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/&#34;&gt;this post&lt;/a&gt; for info on the paper.
+&lt;/p&gt;
+Here are a few pictures:
+&lt;p&gt;
+&lt;center&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6759.JPG&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6759.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6777.JPG&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6777.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>USENIX Security 2020: Hybrid Batch Attacks</title>
@@ -1890,33 +1916,6 @@ Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;
 &lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
 &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SRG Lunch</title>
-      <link>//jeffersonswheel.org/srg-lunch/</link>
-      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/srg-lunch/</guid>
-      <description>&lt;p&gt;Some photos for our lunch to celebrate the end of semester, beginning
-of summer, and congratulate Weilin Xu on his PhD:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/ORG_DSC08199.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/ORG_DSC08199-2.jpg&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;div class=&#34;caption&#34;&gt;
-&lt;em&gt;Left to right&lt;/em&gt;: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;Jayaraman, Aihua&amp;nbsp;Chen, Hannah&amp;nbsp;Chen, Weilin&amp;nbsp;Xu, Riley&amp;nbsp;Spahn, David&amp;nbsp;Evans, Fnu&amp;nbsp;Suya, Yuan&amp;nbsp;Tian, Mainuddin&amp;nbsp;Jonas, Tu&amp;nbsp;Le, Faysal&amp;nbsp;Hossain, Xiao&amp;nbsp;Zhang, Jack&amp;nbsp;Verrier
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;table width=&#34;95%&#34;&gt;
-&lt;tr&gt;
-&lt;td width=&#34;46%&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/IMG_20190430_130313.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/IMG_20190430_130313-2.jpg&#34; height=&#34;50&#34;&gt;
-&lt;/td&gt;
-&lt;td width=&#34;50%&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/IMG_20190430_130343.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/IMG_20190430_130343-2.jpg&#34; height=&#34;50&#34;&gt;
-&lt;/td&gt;
-&lt;/table&gt;
 </description>
     </item>
     

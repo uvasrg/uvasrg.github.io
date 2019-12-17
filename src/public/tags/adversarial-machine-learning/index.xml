@@ -9,6 +9,32 @@
     <atom:link href="//jeffersonswheel.org/tags/adversarial-machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>NeurIPS 2019</title>
+      <link>//jeffersonswheel.org/neurips2019/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/neurips2019/</guid>
+      <description>&lt;p&gt;
+Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: &lt;br&gt;
+&lt;a href=&#34;https://slideslive.com/38921718/track-2-session-1&#34;&gt;&lt;em&gt;https://slideslive.com/38921718/track-2-session-1&lt;/em&gt;&lt;/a&gt; (starting at 26:50)
+&lt;/p&gt;
+&lt;p&gt;
+See &lt;A href=&#34;//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/&#34;&gt;this post&lt;/a&gt; for info on the paper.
+&lt;/p&gt;
+Here are a few pictures:
+&lt;p&gt;
+&lt;center&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6759.JPG&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6759.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6777.JPG&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6777.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;/center&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>USENIX Security 2020: Hybrid Batch Attacks</title>
       <link>//jeffersonswheel.org/usenix-security-2020-hybrid-batch-attacks/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
@@ -677,37 +703,6 @@ Somesh Jha (University of Wisconsin) and Dawn Song (University of
 California Berkeley).&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://ctml.psu.edu/&#34;&gt;Center for Trustworthy Machine Learning&lt;/a&gt; &amp;middot; &lt;a href=&#34;https://www.eecs.psu.edu/news/2018/NSF-Frontier-CTML.aspx&#34;&gt;Penn&amp;nbsp;State&amp;nbsp;News&lt;/a&gt; &amp;middot; &lt;a href=&#34;https://nsf.gov/news/news_summ.jsp?cntn_id=296933&amp;amp;org=NSF&amp;amp;from=news&#34;&gt;NSF&amp;nbsp;News&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Artificial intelligence: the new ghost in the machine</title>
-      <link>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</link>
-      <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Engineering and Technology&lt;/em&gt; Magazine (a publication of the British
-&lt;a href=&#34;a
-href=&amp;quot;https://www.theiet.org/&amp;quot;&#34;&gt;Institution of Engineering and Technology&lt;/a&gt; has an article that highlights
-adversarial machine learning research: &lt;a href=&#34;https://eandt.theiet.org/content/articles/2018/10/artificial-intelligence-the-new-ghost-in-the-machine/&#34;&gt;&lt;em&gt;Artificial intelligence: the
-new ghost in the
-machine&lt;/em&gt;&lt;/a&gt;,
-10 October 2018, by Chris Edwards.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;https://eandt.theiet.org/media/7065/feature_501008906335871317828.jpg?anchor=center&amp;amp;mode=crop&amp;amp;width=400&amp;amp;height=267&amp;amp;rnd=131836400900000000&#34;&gt;&lt;br /&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;div class=&#34;excerpt&#34;&gt;
-
-Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.&lt;br /&gt;
-&amp;#8230;&lt;br /&gt;
-He points to work by PhD student Mainuddin Jonas that shows how adversarial examples can push the output away from what we would see as the correct answer. &amp;#8220;It could be just one layer [that makes the mistake]. But from our experience it seems more gradual. It seems many of the layers are being exploited, each one just a little bit. The biggest differences may not be apparent until the very last layer.&amp;#8221;&lt;br /&gt;
-&amp;#8230;&lt;br /&gt;
-Researchers such as Evans predict a lengthy arms race in attacks and countermeasures that may on the way reveal a lot more about the nature of machine learning and its relationship with reality.
-&lt;/p&gt;
-
-&lt;/div&gt;
 </description>
     </item>
     
