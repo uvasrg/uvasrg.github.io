@@ -14,7 +14,7 @@ Here's a video of Xiao Zhang's presentation at NeurIPS 2019: <br>
 <p>
 See <A href="/neurips-2019-empirically-measuring-concentration/">this post</a> for info on the paper.
 </p>
-Here are a few pictures:
+Here are a few pictures (by Sicheng Zho and Mohammad Mahmoody):
 <p>
 <center>
 <a href="/images/NeurIPS2019/IMG_6759.JPG"><img src="/images/NeurIPS2019/IMG_6759.JPG" width="75%"></a><br>
