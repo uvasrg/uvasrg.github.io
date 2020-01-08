@@ -12,6 +12,10 @@ href="https://www.usenix.org/conference/usenixsecurity19">28<sup>th</sup>
 USENIX Security Symposium</em></a> in Santa Clara, California.
 
 <center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JAGhqbY_U50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<center>
 <script async class="speakerdeck-embed" data-id="dfdd40e4ba2b46e1baee68219df82de7" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
 </center>
 
