@@ -49,11 +49,9 @@ href="//www.evademl.org/">EvadeML</a>
 <a href="//www.oblivc.org/">Obliv-C</a> &middot; <a href="//www.mightbeevil.org/">MightBeEvil</a>
     </div>
     <div class="column small-14 medium-7">
-<b>Web and Mobile Security</b><br> <a
-href="//www.scriptinspector.org/">ScriptInspector</a> &middot; <a
-href="//www.ssoscan.org/">SSOScan</a>
-
-<b><a href="//www.cs.virginia.edu/evans/research.html">Past Projects</b><br> <font size="-1"> <a
+<b><a href="//www.cs.virginia.edu/evans/research.html">Past Projects</b><br> <font size="-1">
+<a href="http://www.scriptinspector.org/">ScriptInspector</a> &middot; 
+<a href="http://www.ssoscan.org/">SSOScan</a> &middot;
 <a href="//www.splint.org/">Splint</a> &middot; 
 <a href="//www.cs.virginia.edu/perracotta">Perracotta</a> &middot;
 <a href="//www.cs.virginia.edu/nvariant/">N-Variant Systems</a> &middot;
