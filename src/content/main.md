@@ -50,7 +50,7 @@ href="//www.evademl.org/">EvadeML</a>
 &middot; <a href="//securecomputation.org">SecureComputation.org</a>
     </div>
     <div class="column small-14 medium-7">
-<p><br></p>
+<p>
 <b><a href="//www.cs.virginia.edu/evans/research.html">Past Projects</a></b><br>
 <em>Web and Mobile Security</em>: <a href="http://www.scriptinspector.org/">ScriptInspector</a> &middot; 
 <a href="http://www.ssoscan.org/">SSOScan</a><br>
@@ -58,7 +58,7 @@ href="//www.evademl.org/">EvadeML</a>
 <em>Security through Diversity</em>: <a href="//www.cs.virginia.edu/nvariant/">N-Variant Systems</a><br>
 <a href="//www.cs.virginia.edu/physicrypt/">Physicrypt</a> &middot;
 <a href="//www.cs.virginia.edu/evans/research.html">More...</a>
-</font>
+</p>
 </div>
 </div>
 
