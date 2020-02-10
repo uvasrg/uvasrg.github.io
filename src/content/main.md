@@ -47,6 +47,7 @@ href="//www.evademl.org/">EvadeML</a>
 
 <b>Secure Multi-Party Computation</b><br> 
 <a href="//www.oblivc.org/">Obliv-C</a> &middot; <a href="//www.mightbeevil.org/">MightBeEvil</a>
+&middot; <a href="//securecomputation.org">SecureComputation.org</a>
     </div>
     <div class="column small-14 medium-7">
 <b><a href="//www.cs.virginia.edu/evans/research.html">Past Projects</b><br> <font size="-1">
