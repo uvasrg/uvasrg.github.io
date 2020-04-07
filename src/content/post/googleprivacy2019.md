@@ -315,7 +315,7 @@ ways they can do better.
 <p>
 My impression is the engineers and researchers at Google do care about
 <b>P</b>rivacy, and have some opportunities to influence corporate
-decisions, but its a large and complex company. From the way academics
+decisions, but it is a large and complex company. From the way academics
 (especially cryptographers) reason about systems, once you trust
 Google to provide your hardware or operating system they are a trusted
 party and can easily access and control everything. From a complex
