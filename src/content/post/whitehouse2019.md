@@ -51,10 +51,10 @@ which is just a hallway across from the Oval Office.)
 
 
 After the meeting, as a sign of the national state at the time,
-participants were given a gift &mdash; a box of red, white, and blue M	
+participants were given a gift &mdash; a box of red, white, and blue M
 &amp; M's with a barely legible signature on them. I wasn't brave
 enough to eat the contents myself, but according to my kids, they were
-not as good as Smarties or Reese's Pieces.
+okay, but not as good as Smarties or Reese's Pieces.
 
 <div class="row" width=90% style="padding-bottom: 20px">
    <div class="column small-6 medium-3">
