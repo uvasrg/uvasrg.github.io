@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conferences on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/conferences/</link>
+    <description>Recent content in conferences on Jefferson&#39;s Wheel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>White House Visit</title>
+      <link>//jeffersonswheel.org/white-house-visit/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/white-house-visit/</guid>
+      <description>I had a chance to visit the White House for a Roundtable on Accelerating Responsible Sharing of Federal Data. The meeting was held under &amp;ldquo;Chatham House Rules&amp;rdquo;, so I won&amp;rsquo;t mention the other participants here.
+   The meeting was held in the Roosevelt Room of the White House. We entered through the visitor&amp;rsquo;s side entrance. After a security gate (where you put your phone in a lockbox, so no pictures inside) with a TV blaring Fox News, there is a pleasant lobby for waiting, and then an entrance right into the Roosevelt Room.</description>
+    </item>
+    
+  </channel>
+</rss>
