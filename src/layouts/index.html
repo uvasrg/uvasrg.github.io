@@ -26,12 +26,12 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    <p class="nogap">
    <b><a href="/post/">Recent News</a></b>
    </p>
-   {{ range first $posts_count ((where .Data.Pages.ByDate "Section" "post").Reverse) }}
+   {{ range first 12 (where site.RegularPages "Type" "in" site.Params.mainSections).ByDate.Reverse }}
    <div class="posttitle">
       {{ partial "post-title" . }}
    </div>
    {{ end }}
-   <div class="more"><a href="/post/">More...</a></div>
+   <div class="more">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/post/">More...</a></div>
    </p>
    <p>
 <a href="/awards.html"><b>Awards</b></a>
@@ -49,9 +49,11 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
 
     <div class="mainsection">Recent Posts</div>
 
-    {{ range first $posts_count ((where .Data.Pages.ByDate "Section" "post").Reverse) }}
+    {{ range first $posts_count (where site.RegularPages "Type" "in" site.Params.mainSections).ByDate.Reverse }}
     {{ partial "post-full-summary" . }}
     {{ end }}
+
+
     <footer>
       <nav>
 	<a href="/post/" class="button hollow primary">All {{ $posts_title }}</a>

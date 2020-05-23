@@ -1,13 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post-rsses on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/post/index.xml</link>
-    <description>Recent content in Post-rsses on Jefferson&#39;s Wheel</description>
+    <title>Posts on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/post/</link>
+    <description>Recent content in Posts on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//jeffersonswheel.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oakland Test-of-Time Awards</title>
+      <link>//jeffersonswheel.org/oakland-test-of-time-awards/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/oakland-test-of-time-awards/</guid>
+      <description>I chaired the committee to select Test-of-Time Awards for the IEEE Symposium on Security and Privacy symposia from 1995-2006, which were presented at the Opening Section of the 41st IEEE Symposium on Security and Privacy.
+   </description>
+    </item>
     
     <item>
       <title>NeurIPS 2019</title>
@@ -15,24 +27,12 @@
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/neurips2019/</guid>
-      <description>&lt;p&gt;
-Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: &lt;br&gt;
-&lt;a href=&#34;https://slideslive.com/38921718/track-2-session-1&#34;&gt;&lt;em&gt;https://slideslive.com/38921718/track-2-session-1&lt;/em&gt;&lt;/a&gt; (starting at 26:50)
-&lt;/p&gt;
-&lt;p&gt;
-See &lt;A href=&#34;//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/&#34;&gt;this post&lt;/a&gt; for info on the paper.
-&lt;/p&gt;
-Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody):
-&lt;p&gt;
-&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6759.JPG&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6759.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6777.JPG&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6777.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-</description>
+      <description> Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: https://slideslive.com/38921718/track-2-session-1 (starting at 26:50)  See this post for info on the paper. Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody):   
+
+
+
+
+ </description>
     </item>
     
     <item>
@@ -41,151 +41,10 @@ Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody)
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/usenix-security-2020-hybrid-batch-attacks/</guid>
-      <description>
-
-&lt;h2 id=&#34;finding-black-box-adversarial-examples-with-limited-queries&#34;&gt;Finding Black-box Adversarial Examples with Limited Queries&lt;/h2&gt;
-
-&lt;p&gt;Black-box attacks generate adversarial examples (AEs) against deep
-neural networks with only API access to the victim model.&lt;/p&gt;
-
-&lt;p&gt;Existing black-box attacks can be grouped into two main categories:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Transfer Attacks&lt;/strong&gt; use white-box attacks on local models to find
-candidate adversarial examples that transfer to the target model.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Optimization Attacks&lt;/strong&gt; use queries to the target model and apply
-optimization techniques to search for adversarial examples.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;hybrid-attack&#34;&gt;Hybrid Attack&lt;/h3&gt;
-
-&lt;p&gt;We propose a &lt;em&gt;hybrid attack&lt;/em&gt; that combines transfer and optimization attacks:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Transfer Attack &amp;rarr; Optimization Attack &amp;mdash; take candidate adversarial examples of the local models of transfer attacks as the starting points for optimization attacks.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Optimization Attack &amp;rarr; Transfer Attack &amp;mdash; intermediate query results from the optimization attacks are used to fine-tune the local models of transfer attacks.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/hybridattack.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/hybridattack.png&#34; width=&#34;60%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;We validate effectiveness of the hybrid attack over the baseline on three benchmark datasets: MNIST, CIFAR10, ImageNet. In this post, we only show the results of &lt;a href=&#34;https://arxiv.org/abs/1805.11770&#34;&gt;AutoZOOM&lt;/a&gt; as the selected optimization method. More results of other attacks can be found in the &lt;a href=&#34;../docs/hybrid_attack.pdf&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;local-adversarial-examples-are-useful-transfer-rarr-optimization&#34;&gt;Local Adversarial Examples are Useful (Transfer &amp;rarr; Optimization)&lt;/h2&gt;
-
-&lt;p&gt;Below, we compare the performance of AutoZOOM attack when it starts
-from 1) the local adversarial examples, and 2) the original
-points. Here, we report results for targeted attacks on normal (i.e.,
-non-robust) models:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/local_candidate_results.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/local_candidate_results.png&#34; width=&#34;65%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Local AEs can substantially boost the performance of optimization
-attacks, but when the same attack is used against &lt;a href=&#34;https://github.com/MadryLab/cifar10_challenge&#34;&gt;robust
-models&lt;/a&gt;, the improvement is small:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/normal_model_fails.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/normal_model_fails.png&#34; width=&#34;65%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;This ineffectiveness appears to stem from differences in the attack
-space of normal and robust models. Therefore, to improve effectiveness
-against robust target model, we use robust local models to produce the
-transfer candidates for starting the optimization attacks. The figure
-below compares impact of normal and robust local models when attacking
-the robust target model:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/local_model_comparison.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/local_model_comparison.png&#34; width=&#34;60%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;tuning-with-byproduces-doesn-t-help-much-optimization-rarr-transfer&#34;&gt;Tuning with Byproduces Doesn&amp;rsquo;t Help Much (Optimization &amp;rarr; Transfer)&lt;/h2&gt;
-
-&lt;p&gt;Below, we compare the performance of AutoZOOM attack on MNIST normal
-model when the local models are 1) fine-tuned during the attack
-process, and 2) kept static:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/fine_tune_results.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/fine_tune_results.png&#34; width=&#34;60%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Tuining local models using byproducts from the optimization attack
-improves the query efficiency. However, for more complex datasets
-(e.g., CIFAR10), we observe degradation in the attack performance by
-fine-tuning (check Table 6 in the &lt;a href=&#34;../docs/hybrid_attack.pdf&#34;&gt;paper&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h2 id=&#34;batch-attacks&#34;&gt;Batch Attacks&lt;/h2&gt;
-
-&lt;p&gt;We consider a &lt;strong&gt;batch attack&lt;/strong&gt; scenario: adversaries have limited
-number of queries and want to maximize the number of adversarial
-examples found within the limit. This is a more realistic way to
-evaluate attacks for most adversarial purposes, then just looking at
-the average cost to attack each seed in a large pool of seeds.&lt;/p&gt;
-
-&lt;p&gt;The number of queries required for attacking a specific seed varies
-greatly across seeds:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/query_variance.png&#34;&gt;&lt;img src=&#34;../images/usenix2020/query_variance.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Based on this observation, we propose &lt;strong&gt;two-phase strategy&lt;/strong&gt; to prioritize easy seeds for the &lt;strong&gt;hybrid attack&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;In the first phase, the likely-to-transfer seeds are prioritized
-based on their PGD-steps taken to attack the local models. The
-candidate adversarial example for seed seed is attempted in order to
-find all the direct transfers.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In the second phase, the remaining seeds are prioritized based on
-their target loss value with respect to the target model.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;To validate effectievness of the two-phase strategy, we compare to two seed prioritization strategies:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Retroactive Optimal&lt;/strong&gt;: a non-realizable attack that assumes adversaries already know the exact number of queries to attack each seed (before the attack starts) and can prioritize seeds by their actual query cost. This provides an lower bound on the query cost for an optimal strategy.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Random:&lt;/strong&gt; this is a baseline strategy where seeds are prioritized in random order (this is the stragety assumed in most works where the adverage costs are reported).&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Results for the AutoZOOM attack on a normal ImageNet model are shown below:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;../images/usenix2020/batch_attack_results.png&#34; width=&#34;60%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Our two-phase strategy performs closely to the retroactive optimal
-strategy and outpeforms random baseline significantly: with same
-number of query limit, two-phase strategy finds significantly more
-adversarial examples comapred to the random baseline, and is closer to
-the retroactive optimal case. (See the paper for more experimental
-results and variations on the prioritization strategy.)&lt;/p&gt;
-
-&lt;h3 id=&#34;main-takeaways&#34;&gt;Main Takeaways&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Transfer &amp;rarr; Optimization:&lt;/strong&gt; local adversarial examples can generally be used to boost optimization attacks. One caveat is, against robust target model, hybrid attack is more effective with robust local models.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Transfer &amp;rarr; Optimization:&lt;/strong&gt; fine-tuning local models is only helpful for small scale dataset (e.g., MNIST) and fails to generalize to more complex datasets. It is an open question whether we can make the fine-tuning process work for complex datasets.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Prioritizing seeds&lt;/strong&gt; based on two-phase strategy for the hybrid attack can significantly improve its query efficiency in batch attack scenario.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Our results make the case that it is important to evaluate both
-attacks and defenses with a more realistic adversary model than just
-looking at the average cost to attack a seed over a large pool of
-seeds. When an adversary only need to find a small number of
-adversarial examples, and has access to a large pool of potential
-seeds to attack (of equal value to the adversary), then the effective
-costs of a successful attack can be orders of magnitude lower than
-what would be projected assuming an adversary who cannot prioritize
-seeds to attack.&lt;/p&gt;
-
-&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://fsuya.org&#34;&gt;Fnu Suya&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/jianfeng-chi-001b25133/&#34;&gt;Jianfeng Chi&lt;/a&gt;, &lt;a href=&#34;http://www.cs.virginia.edu/~evans/&#34;&gt;David Evans&lt;/a&gt; and &lt;a href=&#34;https://www.ytian.info&#34;&gt;Yuan Tian&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/pdf/1908.07000.pdf&#34;&gt;&lt;em&gt;Hybrid Batch Attacks: Finding Black-box
-Adversarial Examples with Limited Queries&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity20&#34;&gt;&lt;em&gt;USENIX Security 2020&lt;/em&gt;&lt;/a&gt;. Boston, August 2020. [&lt;a href=&#34;//jeffersonswheel.org/docs/hybrid_attack.pdf&#34;&gt;PDF&lt;/a&gt;]&amp;nbsp;[&lt;a href=&#34;https://arxiv.org/abs/1908.07000&#34;&gt;arXiv&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/suyeecav/Hybrid-Attack&#34;&gt;https://github.com/suyeecav/Hybrid-Attack&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;In this repository, we provide the source code to reproduce the results in the paper. In addition, we believe our hybrid attack framework can (potentially) help boost the performance of new optimization attacks. Therefore, in the repository, we also provide tutorials to incorporate new optimization attacks into the hybrid attack framework.&lt;/p&gt;
-</description>
+      <description>Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.
+Existing black-box attacks can be grouped into two main categories:
+  Transfer Attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model.
+  Optimization Attacks use queries to the target model and apply optimization techniques to search for adversarial examples.</description>
     </item>
     
     <item>
@@ -194,80 +53,8 @@ Adversarial Examples with Limited Queries&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt; will
-present our work (with &lt;a
-href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt; and
-&lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood
-Mahmoody&lt;/a&gt;) as a spotlight at &lt;a href=&#34;https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792&#34;&gt;NeurIPS
-2019&lt;/a&gt;,
-Vancouver, 10 December 2019.&lt;/p&gt;
-
-&lt;p&gt;Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s
-&lt;a href=&#34;https://aipavilion.github.io/&#34;&gt;&lt;em&gt;Adversarial Spheres&lt;/em&gt;&lt;/a&gt; (2018), show
-that if inputs are drawn from a concentrated metric probability space,
-then adversarial examples with small perturbation are inevitable.c The
-key insight from this line of research is that &lt;a href=&#34;https://en.wikipedia.org/wiki/Concentration_of_measure&amp;quot;&#34;&gt;&lt;em&gt;concentration of
-measure&lt;/em&gt;&lt;/a&gt;
-gives lower bound on adversarial risk for a large collection of
-classifiers (e.g. imperfect classifiers with risk at least $\alpha$),
-which further implies the impossibility results for robust learning
-against adversarial examples.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/advRisk.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;However, it is not clear whether these theoretical results apply to
-actual distributions such as images. This work presents a method for
-empirically measuring and bounding the concentration of a concrete
-dataset which is proven to converge to the actual concentration. More
-specifically, we prove that by simultaneously increasing the sample
-size and a complexity parameter of the selected collection of subsets
-$\mathcal{G}$, the concentration of the empirical measure based on
-samples converges to the actual concentration asymptotically.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/theory.png&#34; width=&#34;70%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;To solve the empirical concentration problem, we propose heuristic
-algorithms to find error regions with small expansion under both
-$\ell_\infty$ and $\ell_2$ metrics.&lt;/p&gt;
-
-&lt;p&gt;For instance, our algorithm for $\ell_\infty$ starts by sorting the
-dataset based on the empirical density estimated using k-nearest
-neighbor, and then obtains $T$ rectangular data clusters by performing
-k-means clustering on the top-$q$ densest images. After expanding each
-of the rectangles by $\epsilon$, the error region $\mathcal{E}$ is
-then specified as the complement of the expanded rectangles (the
-reddish region in the following figure). Finally, we search for the
-best error region by tuning the number of rectangles $T$ and the
-initial coverage percentile $q$.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/alg.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Based on the proposed algorithm, we empirically measure the
-concentration for image benchmarks, such as MNIST and
-CIFAR-10. Compared with state-of-the-art robustly trained models, our
-estimated bound shows that, for most settings, there exists a large
-gap between the robust error achieved by the best current models and
-the theoretical limits implied by concentration.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/experiments.png&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;br&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;This suggests the concentration of measure is not the only reason
-behind the vulnerability of existing classifiers to adversarial
-perturbations. Thus, either there is room for improving the robustness
-of image classifiers or a need for deeper understanding of the reasons
-for the gap between intrinsic robustness and the actual robustness
-achieved by robust models.&lt;/p&gt;
-
-&lt;h3 id=&#34;paper&#34;&gt;Paper&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt;&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, &lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt;&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, &lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood Mahmoody&lt;/a&gt; and &lt;a href=&#34;https://www.cs.virginia.edu/evans/&#34;&gt;David Evans&lt;/a&gt;. &lt;a href=&#34;//jeffersonswheel.org/docs/empirically-measuring-concentration.pdf&#34;&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2019/&#34;&gt;&lt;em&gt;NeurIPS 2019&lt;/em&gt;&lt;/a&gt; (&lt;a href=&#34;https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792&#34;&gt;&lt;em&gt;spotlight presentation&lt;/em&gt;&lt;/a&gt;). Vancouver, December 2019. [&lt;a href=&#34;//jeffersonswheel.org/docs/empirically-measuring-concentration.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;arXiv&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;&lt;em&gt;https://github.com/xiaozhanguva/Measure-Concentration&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
+Recent theoretical results, starting with Gilmer et al.&amp;lsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
     </item>
     
     <item>
@@ -276,852 +63,8 @@ achieved by robust models.&lt;/p&gt;
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/jobs-for-humans-2029-2059/</guid>
-      <description>
-
-&lt;p&gt;I was honored to particilate in a panel at an event on
-&lt;a href=&#34;https://aohdc.org/adulteducationandai/&#34;&gt;&lt;em&gt;Adult Education in the Age of Artificial Intelligence&lt;/em&gt;&lt;/a&gt; that was run by &lt;a href=&#34;https://www.thegreatcoursesplus.com/&#34;&gt;The Great Courses&lt;/a&gt; as a fundraiser for the &lt;a href=&#34;https://aohdc.org/&#34;&gt;Academy of Hope&lt;/a&gt;, an adult public charter school in Washington, D.C.&lt;/p&gt;
-
-&lt;p&gt;I spoke first, following a few introductory talks, and was followed by
-Nicole Smith and Ellen Scully-Russ, and a keynote from Dexter Manley,
-Super Bowl winner with the Washington Redskins. After a short break,
-Kavitha Cardoza moderated a very interesting panel discussion. A
-recording of the talk and rest of the event is supposed to be
-available to Great Courses Plus subscribers. I&amp;rsquo;ve included a fairly
-complete text from the script I wrote (with some modifications and
-additional comments).&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide01.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide01.png&#34; width=&#34;85%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;As a tenured professor at a well-endowed university, I have the good
-fortune to be about as sheltered as anyone can be from disruptions in
-employment. But, I do have two young children, so I have a strong
-personal interest in there being good jobs available for them in this
-time period.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;My four-year old son drew the picture, and I hate to disappoint him
-that the train driver position he dreams of probably won’t work out,
-and I don’t think there is anything we can do to save it. But, I do
-hope there will be something fulfilling for him to do when he grows
-up.&lt;/em&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide02.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide02.png&#34;&gt;&lt;/a&gt;
-  &lt;div class=&#34;midcaption&#34;&gt;
-
-For the actual
-talk, I was able to use beautiful images from Getty Images which The
-Great Courses has a license to (and not allowed to use Create Commons
-images, since they do not count as non-commercial), so I&#39;ve replaced
-the images from the talk with CC-licensed images. Unfortunately, I wasn&#39;t able to find a cc image of a match making
-factory, like the one in &lt;a href=&#34;https://www.gettyimages.com/detail/illustration/the-match-makers-at-the-east-end-london-1871-royalty-free-illustration/473660654&#34;&gt;this Getty image&lt;/a&gt; that I used in the talk. The replacement image is a &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:General_view_of_spinning_room,_Cornell_Mill,_Fall_River,_Mass._-_NARA_-_523509.jpg&#34;&gt;spinning room from Fall River, MA&lt;/a&gt;, 1912.
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;I want to start by talking about history. Machines taking jobs away from humans is not a new
-thing - goes back hundreds of years.&lt;/p&gt;
-
-&lt;p&gt;The picture shows a match-making factory in the 1870s. No one has a job as this kind of match-maker today – and lots of the jobs the other kind of match-maker have also been taken over by machines.
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:15px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-Another example is automated teller machine. ATMs automated many of
-the roles previously done by human bank tellers.
-&lt;/p&gt;&lt;p&gt;
-ATM Machines didn’t eliminate jobs for bank tellers – actually made
-more, since they make banking cheaper and more accessible, and meant
-banks could open more branches which still needed to hire tellers for
-the more interesting and complicated banking activities.
-&lt;/p&gt;&lt;p&gt;
-We’ve seen many transformations like this, and many tasks that could
-once only be done by humans are now routinely automated. Although past
-technological advances have caused massive disruption and pain for
-many individuals, as a species on the whole, these advances have not
-diminished overall human employment, and there shouldn’t be any doubt
-that on the whole, technological and scientific program have made all
-of our lives tremendously better.
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-  &lt;br&gt;&lt;/br&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/bankautomat.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/bankautomat.png&#34;&gt;&lt;/a&gt;
-  &lt;div class=&#34;midcaption&#34;&gt;
-  Source: James Pethokoukis, &lt;a href=&#34;https://www.aei.org/economics/what-atms-bank-tellers-rise-robots-and-jobs/&#34;&gt;&lt;em&gt;What the story of ATMs and bank tellers reveals about the ‘rise of the robots’ and jobs&lt;/em&gt;&lt;/a&gt;, based on &lt;a href=&#34;http://www.amazon.com/Learning-Doing-Connection-between-Innovation/dp/0300195664&#34;&gt;James Bessen&#39;s book&lt;/a&gt;.
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;center&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide05.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide05.png&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-  &lt;div class=&#34;midcaption&#34;&gt;
-Graph based on data from &lt;a href=&#34;https://ourworldindata.org/employment-in-agriculture&#34;&gt;&lt;em&gt;Our World in Data&lt;/em&gt;&lt;/a&gt;.
-  &lt;/div&gt;
-&lt;/center&gt;
-&lt;/br&gt;
-&lt;p&gt;
-One way to measure that progress is what fraction of our workforce is needed to feed us. 
-&lt;/p&gt;
-&lt;p&gt;
-As recently as 150 years ago, nearly everyone worked in agriculture, and we still couldn’t produce enough food to feed everyone. Now, only about 1 out of 75 people work in farming, and we are so ridiculously productive in producing food with we can burn about 1/3 of it as fuel.
-&lt;/p&gt;
-&lt;p&gt;
-So, if we were driven as a species to avoid work once our subsistence needs are met, we shouldn’t be working 8 hours or more a day.
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide06.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide06.png&#34;&gt;&lt;/a&gt;
-  &lt;div class=&#34;midcaption&#34;&gt;
-  &lt;em&gt;If the ordinary wage-earner worked four hours a day, there would be enough for everybody and no unemployment... This idea shocks the well-to-do, because they are convinced that the poor would not know how to use so much leisure. &lt;/em&gt;&lt;br&gt;
-Bertrand Russell, &lt;a href=&#34;https://harpers.org/archive/1932/10/in-praise-of-idleness/&#34;&gt;&lt;em&gt;In Praise of Idleness&lt;/em&gt;&lt;/a&gt; (1932)
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-We should be working about &lt;b&gt;8 minutes a day&lt;/b&gt;, and still living better than people did 150 years ago.
-&lt;/p&gt;
-&lt;p&gt;
-Somehow we’ve managed improve productivity by a factor of several hundred, without reducing the demand for human work. All the previous scientific and technological progress that has automated work has just led to finding new productive things for humans to do.
-&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;will-artificial-intelligence-change-everything&#34;&gt;&lt;em&gt;Will Artificial Intelligence Change Everything?&lt;/em&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;The question for today is if we are reaching the end of that – are the
-kinds of automation that can be achieved (or soon will be) with
-artificial intelligence that they won’t just improve productivity by
-automating some human tasks, but that they will eliminate the
-opportunity for humans to contribute productively at all.
-&lt;/p&gt;
-&lt;p&gt;
-First, its important to distinguish AI from the traditional automation
-that has driven productivity gains for the past hundred years.
-&lt;/p&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/leibniz.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/leibniz.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-
-We’ve only experienced the disruption computing causes over the past
-half century, but a few people had the vision of what was possible
-much longer ago. 
-&lt;/p&gt;
-&lt;p&gt;
-The first person to see the potential for universal
-computers, was Gottfried Leibniz back in the 17th century. 
-&lt;/p&gt;
-&lt;div class=&#34;quote&#34;&gt;
-&lt;em&gt;The human race will have a new kind of instrument which will increase the power of the mind much more than optical lenses strengthen the eyes and which will be as far superior to microscopes or telescopes as reason is superior to sight.&lt;/em&gt;&lt;br&gt;
-Gottfried Wilhelm Leibniz (1679)
-&lt;/div&gt;
-&lt;p&gt;
-Leibniz is talking about increasing the power of our minds the way a telescope
-increases the power of our eyes.  This is what traditional
-computing has done. 
-&lt;/p&gt;
-&lt;p&gt; 
-More recently, Steve Jobs talked about computers as &lt;a href=&#34;https://www.youtube.com/watch?time_continue=3&amp;v=Pm_WAWZNbdA&amp;feature=emb_logo&#34;&gt;bicycles for the mind&lt;/a&gt;.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-We have machines now that can do any computation we understand well enough to describe in simple steps quadrillions of times faster than humans can do it. We can also build computing systems, like the one most of us have in our pockets, that don’t just do one one human understands faster, but that can take the collective efforts of millions of humans over decades to make it possible for us to play “Angry Birds”.
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide09.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide09.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;
-&lt;center&gt;
-This is an amazing accomplishment for our species, but AI goes beyond it.
-&lt;/center&gt;
-&lt;/p&gt;
-&lt;center&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide11.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide11.png&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;
-  &lt;br&gt;&lt;/br&gt;
-&lt;/center&gt;
-&lt;p&gt;
-All of the previous capabilities can only solve problems humans already understand well enough to solve.
-&lt;/p&gt;
-&lt;p&gt;
-AI allows us to solve problems no humans understand.
-&lt;/p&gt;
-&lt;p&gt;
-I’m going to focus now on Machine Learning, which is just one sub-field of AI, but it’s the one that has the most hype over the past decade, and one that is being rapidly deployed in ways that automate human tasks.
-&lt;/p&gt;
-&lt;p&gt;
-The main distinction between traditional computing and machine learning is that traditional automatons are programmed, while machine learning automatons are trained. Humans set up a training process, but the machine learns how to solve the problem on its own.
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide12.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide12.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-I’ll illustrate with a simple example – building a machine to distinguish women and men in pictures.
-&lt;/p&gt;&lt;p&gt;
-This is something most humans are quite good at, but if I asked you how you do it, you couldn’t explain it. And, since humans can’t explain how to do it, we don’t know how to write a program to do it, but we can train a model that does it well.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide13.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide13.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-First, we need to collect training images.
-&lt;/p&gt;
-&lt;p&gt;
-
-Training complex models requires a lot of training data – a few
-million images. Fortunately, you can find billions of images on the
-Internet (at least if you don&#39;t care about copyright; for the talk, I was allowed to
-use these images, but they blurred them out of the recording).
-
-
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide14.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide14.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-Next, we need to label the images. This is what is called &lt;em&gt;“supervised learning”&lt;/em&gt; – we are telling the machine the correct answers, and it is training to find a model that matches those answers.
-&lt;/p&gt;
-&lt;p&gt;
-Labeling 10M images might seem like a lot of work, but you can &lt;a href=&#34;http://vision.stanford.edu/pdf/ImageNet_CVPR2009.pdf&#34;&gt;find low-paid humans to do it&lt;/a&gt;.
-&lt;/p&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide18.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide18.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-Now, we’re ready to train a model. But first, we need to decide on a model architecture. 
-&lt;/p&gt;
-&lt;p&gt;
-This just means designing a function with lots of unknown parameters that takes all the pixels of an images as its inputs, and outputs a prediction of gender and confidence.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide19.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide19.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-We train the model by starting with random values for all those parameters, testing the labeled images, and updating the weights until we get a model that makes good predictions. 
-&lt;/p&gt;
-&lt;p&gt;
-There are some tricks for how to update the weights in the right direction, but if all goes well, we’ll find a model that has high accuracy on our tests before we run out of money.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-&lt;p&gt;
-Then we deploy the model and everything is great...
-&lt;/p&gt;&lt;p&gt;
-...except we see results like these. 
-&lt;/p&gt;
-&lt;p&gt;
-We have people that look like men, but are identified as women. What they have in common is they are carrying umbrellas.
-&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide20.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide20.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide21.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide21.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;div class=&#34;midcaption&#34;&gt;
-These examples were provided by &lt;a
-href=&#34;https://www.cs.virginia.edu/~tw8cb/&#34;&gt;Tianlu Wang&lt;/a&gt;, and the
-results showing how ML models learn biases (and a method to mitigate this) are in &lt;a href=&#34;https://arxiv.org/abs/1707.09457&#34;&gt;&lt;em&gt;Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints&lt;/em&gt;&lt;/a&gt;, 
-Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, Kai-Wei Chang. (In &lt;em&gt;Empirical Methods in Natural Language Processing&lt;/em&gt; (EMNLP) 2017.)
-&lt;/p&gt;
-&lt;p&gt;
-The umbrella-revealing-gender example is from &lt;a href=&#34;https://arxiv.org/abs/1811.08489&#34;&gt;&lt;em&gt;Balanced Datasets Are Not Enough: Estimating and Mitigating Gender Bias in Deep Image Representations&lt;/em&gt;&lt;/a&gt; by Tianlu Wang, Jieyu Zhao, Mark Yatskar, Kai-Wei Chang, Vicente Ordonez. (In &lt;em&gt;International Conference on Computer Vision&lt;/em&gt; (ICCV), 2019.)
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-The problem is the learning process is just about learning statistical patterns in data – the model is not developing any real understanding of men and women.
-&lt;/p&gt;&lt;p&gt;
-Since most of the people in the labeled data who were holding umbrellas were women, the model learned a strong pattern that if you are holding an umbrella you must be a woman.
-&lt;/p&gt;&lt;p&gt;
-Being mis-gendered because of holding an umbrella may not be such a serious problem, but the same kinds of learning methods are used in many more sensitive tasks, like predicting who is a terrorist and who gets a job interview.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide23.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide23.png&#34; width=&#34;85%&#34;&gt;&lt;/a&gt;
-&lt;br&gt;
-&lt;font size=&#34;-1&#34;&gt;&lt;a href=&#34;https://slate.com/business/2018/10/amazon-artificial-intelligence-hiring-discrimination-women.html&#34;&gt;&lt;em&gt;Amazon Created a Hiring Tool Using A.I. It Immediately Started Discriminating Against Women&lt;/em&gt;&lt;/a&gt;. (Slate, Oct 2018)&lt;/font&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide24.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide24.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-&lt;p&gt;
-&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;p&gt;
-If you are traveling in Hong Kong, being face-recognized with an umbrella nearby may lead to other problems.
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;predicting-the-future&#34;&gt;Predicting the Future&lt;/h2&gt;
-
-&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-&lt;p&gt;&lt;br&gt;
-The wisest quote I know of about making predictions is from English
-footballer Paul Gascoigne, who said &#34;I never predict anything, and I never will.&#34;
-&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide26.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide26.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide27.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide27.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-The hard thing about making predictions, is that our brains and the
-experiences we relate to are linear – we get one year older every
-year, and can relate to linear change easily.   
-&lt;/p&gt;
-&lt;p&gt;
-But, nearly everything we care about is actually changes exponentially.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide28.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide28.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-People tend to talk about exponential change as though it is rare
-and special, but it is actually the way nearly everything that matters
-changes.
-&lt;/p&gt;&lt;p&gt;
-All it means to be &lt;em&gt;exponential&lt;/em&gt;, is that the change is a
-percentage of the current value, like increasing by 5% a year or
-doubling every decade.
-
-&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide29.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide29.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-Here’s what doubling every year looks like for 10 years (compared to the blue line which is adding 100 every year).
-Looks about the same, until we go out another year...
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide30.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide30.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide31.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide31.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide32.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide32.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide33.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide33.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide34.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide34.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide35.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide35.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide36.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide36.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide37.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide37.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide38.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide38.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-16 medium-8&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide39.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide39.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;
-After 20 years, the linear line is so overwhelmed by the exponential
-growth, that it is indistinguishable from the flat axis. In another
-10 years, the doubling rate has produced another factor of 1000.
-&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-16 medium-8&#34;&gt;
-  &lt;a href=&#34;https://ourworldindata.org/grapher/maddison-data-gdp-per-capita-in-2011us-single-benchmark&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/gdpgrowth.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-8 medium-4&#34;&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;
-Almost everything we care about looks like this – here we see GDP per capita for a handful of countries.
-&lt;/p&gt;
-&lt;p&gt;
-The exponential growth is so powerful, that World War II looks like a little glitch.
-&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;
-&lt;br&gt;
-&lt;p&gt;
-We see similar exponential curves for almost anything we look at – here it is books published per person, and crop yield per acre.
-&lt;/p&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/new-books-per-million.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/new-books-per-million.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/long-term-cereal-yields-in-the-united-kingdom.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/long-term-cereal-yields-in-the-united-kingdom.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;
-Predicting exponential growth is the easiest and safest prediction
-to make. The only way it goes wrong is if there is some physical limit
-that stops the growth – Malthus thought we were at the limit of how
-much an acre of land could produce in 1800 – but you can see from the
-graph on the right that we weren’t, and this is one of the reasons he
-got things so wrong.  &lt;/p&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide42.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide42.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;
-The main challenge isn’t predicting the exponential growth, it is guess how much more growth is needed for things to work – that is, what are the labels on the vertical axis.
-
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide43.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide43.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;
-One property of exponential curves, is if you zoom in on any part of them, they look basically the same.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide44.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide44.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;
-When autonomous vehicles started to work in 2005, if you thought we
-were on a curve like this and only needed to get about 100&lt;em&gt;x&lt;/em&gt; better,
-you were at risk of making really bad predictions.
-&lt;/p&gt;
-&lt;div class=&#34;midcaption&#34;&gt;
-Image: &lt;A href=&#34;https://commons.wikimedia.org/wiki/File:DARPAGrandChallenge2005-StanleyAward.jpg&#34;&gt;Stanley winning DARPA Grand Challenge 2005&lt;/a&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide45.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide45.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-
-If you saw the rate of improvement in autonomous vehicles from 2004 to
-2016 and extrapolated continued exponential growth, maybe it wasn&#39;t so
-unreasonable to predict in 2016 that we would have coast-to-coast full
-autonomy by 2017.
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide46.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide46.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-&lt;p&gt;
-Of course, no we know it was a lot further off.
-&lt;/p&gt;
-&lt;p&gt;
-
-Even though its easy to predict exponential change, it is hard to
-predict looking forward how much more change is needed to get to the
-point where something actually works well enough.
-
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-10 medium-5&#34;&gt;
-&lt;p&gt;
-&lt;br&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Predicting dropping costs is easier. The red curve is also exponential, but here, it is decreasing by 7% a year instead of increasing.
-&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-14 medium-7&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide47.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide47.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide48.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide48.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-For example, let’s look at the cost of communicating.
-&lt;/p&gt;
-&lt;p&gt;
-If you wanted to send a message from Washington to California in 1800, you couldn’t even imagine doing it.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide49.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide49.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-By 1803, one person could – Thomas Jefferson envisioned the Lewis and Clark expedition.
-&lt;/p&gt;
-&lt;p&gt;
-It cost \$50,000 in 1803 dollars, which is hard to convert, but let’s guess about \$100M. &lt;p class=&#34;aside&#34;&gt;Congressional appropriation methods, however, haven&#39;t changed much - the initial request, shown in the letter, was for $2,500.&lt;/p&gt;
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide51.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide51.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-Let’s zoom in on the next 100 years.
-&lt;/p&gt;
-&lt;p&gt;
-By 1903, we had telephones. If you were really rich and important you could have one in your office.
-&lt;/p&gt;
-&lt;p&gt;
-A 3-minute call from NY to Chicago cost \$5.45 in 1903 dollars. &lt;p class=&#34;aside&#34;&gt;I couldn’t find out if you could call from Washington to California, and adjusting for inflation is tough, but somewhere around a few $1000 seems reasonable.&lt;/p&gt;
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;center&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide52.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide52.png&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;
-&lt;br&gt;
-&lt;p&gt;
-Why was it so expensive? Here’s the phone operators that were needed
-to make it happen. (Those jobs don’t exist today either.)
-&lt;/p&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide53.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide53.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-
-By 2003, we had early smartphones.
-&lt;/p&gt;
-&lt;p&gt;
-Today, no one thinks twice about the cost of sending messages to
-California.
-&lt;/p&gt;
-&lt;p&gt;
-Sending messages has gotten so ridiculously cheap, spam is profitable.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide54.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide54.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-One way to think about the jobs of the future is to predict when the
-cost of automating the job will drop below the cost of hiring a human
-to do it today.
-&lt;/p&gt;
-&lt;p&gt;
-Nearly all individual jobs could be automated today, if you invested
-enough in a special-purpose solution and in training the machine to do
-that specific job.
-
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide55.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide55.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide57.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide57.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;jobs-that-won-t-be-replaced-by-ai&#34;&gt;Jobs that Won&amp;rsquo;t be Replaced by AI&lt;/h2&gt;
-
-&lt;p&gt;&lt;/center&gt;
-&lt;p&gt;
-It is hard to predict &lt;em&gt;when&lt;/em&gt; particular jobs will be automated out of
-existence, but it seems eventually most jobs people have today will
-be.
-&lt;/p&gt;
-&lt;p&gt;
-I think there are three types of jobs that won’t be – the first two
-will be a bit depressing, but don’t give up hope for a hopeful
-conclusion until I get to the third one.
-&lt;/p&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide59.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide59.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;div class=&#34;midcaption&#34;&gt;&lt;center&gt;Image: 
-&lt;A href=&#34;https://commons.wikimedia.org/wiki/File:US_Navy_050419-N-6665R-030_Dr._Akshay_Dalal_provides_medication_for_an_Indonesian_patient_as_the_medical_team_aboard_the_Military_Sealift_Command_(MSC)_hospital_ship_USNS_Mercy_(T-AH_19)_performs_surgery.jpg&#34;&gt;US Navy&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.wsj.com/articles/robots-vs-anesthesiologists-1380150756&#34;&gt;&lt;em&gt;Robots vs. Aneasthesiologists&lt;/em&gt;&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://web.archive.org/web/20180825144014/https://www.washingtonpost.com/news/the-switch/wp/2016/03/28/its-game-over-for-the-robot-intended-to-replace-anesthesiologists/&#34;&gt;&lt;em&gt;It’s game over for the robot intended to replace anesthesiologists&lt;/em&gt;&lt;/a&gt;
-&lt;/center&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-
-An example of a profession that is well organized to resist job losses
-due to technology is &lt;a
-href=&#34;https://www.nytimes.com/2019/09/13/podcasts/1619-slavery-healthcare.html?showTranscript=1&#34;&gt;medicine&lt;/a&gt;. When
-Johnson &amp;amp; Johnson marketed a machine for performing anesthesia,
-the American Society of Anesthesiologists &lt;a
-href=&#34;https://www.technologyreview.com/s/601141/automated-anesthesiologist-suffers-a-painful-defeat/&#34;&gt;objected&lt;/a&gt;. 
-&lt;/p&gt;
-&lt;p&gt;
-The
-medical professional organizations are so powerful, that
-nearly all medical technology is designed and marketed to assist
-doctors, not replace them. 
-&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide60.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide60.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;div class=&#34;midcaption&#34;&gt;&lt;center&gt;
-Amazon Fulfillment Center, Richmond, VA&lt;br&gt; (picture by me)
-&lt;/center&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-
-It is well worth taking a tour of an Amazon Fulfillment Center. Other
-than conveyer belts, scanners, and fork lifts, there are not many many
-machines operating the warehouse &amp;mdash; nearly all the work is done
-by humans, being told by software what to do. &lt;/p&gt;
-&lt;p&gt;
-Its cheaper to get
-humans to do this work since it is physically complex, varied, and
-high skill, but the skills required to do it are readily available and
-not highly valued by the marketplace, so humans with such skills can
-be hired at low cost and easily replaced when necessary. It&#39;ll be a
-long time before it is cheaper to do these jobs by machine.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide61.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide61.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;div class=&#34;midcaption&#34;&gt;&lt;center&gt;
-
-&lt;/center&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-We don’t watch sports to see the fastest, strongest, most agile
-objects in the universe - we want to be inspired by the individual
-achievements of other humans, and the synergy of a team of humans
-working together.
-&lt;/p&gt;
-&lt;p&gt;
-
-Unfortunately for me, and most of us in this room (unlike Dexter Manley,
-pictured, who was our keynote speaker), we don’t have the
-athletic talents to succeed as professional athletes.
-
-&lt;/p&gt;
-&lt;p&gt;
-But this intrinsic value in work being done by humans applies to many other endeavors.
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide62.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide62.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;div class=&#34;midcaption&#34;&gt;&lt;center&gt;
-&lt;A href=&#34;https://pixabay.com/photos/music-concert-monkey-guitar-stage-3507317/&#34;&gt;Image Credit: Papafox&lt;/a&gt;
-&lt;/center&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-
-Machines can already produce music that musicologists can’t
-distinguish from humans &amp;mdash; but no one wants to listen to it.
-&lt;/p&gt;
-&lt;p&gt;
-We want to listen to music to connect with the humans (or at least
-animals!) who wrote and performed it, and it matters who they are.
-&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide63.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide63.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;div class=&#34;midcaption&#34;&gt;&lt;center&gt;
-Image Credit: &lt;a href=&#34;https://pixabay.com/photos/chef-cook-kitchen-cooking-food-1903882/&#34;&gt;hellotimothytyndale&lt;/a&gt;
-&lt;/center&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-Burger flippers can be replaced by machines once the costs get low
-enough, but not high-end chefs &amp;mdash; food tastes more savory when we
-can imagine it being cooked by a perfectionist chef lording over a
-kitchen.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide64.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide64.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;div class=&#34;midcaption&#34;&gt;&lt;center&gt;
-White House Photo (Public Domain)
-&lt;/center&gt;
-&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-Education works best when the teacher is a human who cares about what she is teaching, and best of all when the teacher also cares about the students as people.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;center&gt;
-## Hopeful Conclusion
-&lt;/center&gt;
-&lt;p&gt;
-In the future, we should &lt;em&gt;all&lt;/em&gt; have jobs like these!
-&lt;/p&gt;
-&lt;p&gt;
-Everyone should have a job that values their intrinsic humanity, and
-technology will soon advance to the point where we all can. In many
-ways (recall the diminishing percentage of our workforce employed in
-agriculture from earlier) we already have. We just have
-to face the challenge of restructuring society to make this work.
-
-&lt;/p&gt;
-&lt;center&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide66.png&#34;&gt;&lt;img width=&#34;70%&#34; src=&#34;//jeffersonswheel.org/images/jobsforhumans/Slide66.png&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:25px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34; valign=&#34;top&#34;&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-conversation=&#34;none&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Kicking off our panel discussion on solutions and the path forward for &lt;a href=&#34;https://twitter.com/hashtag/AdultEdu?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#AdultEdu&lt;/a&gt; in the age of &lt;a href=&#34;https://twitter.com/hashtag/ArtificialInteligence?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#ArtificialInteligence&lt;/a&gt; &lt;a href=&#34;https://t.co/7VCyPM5WAS&#34;&gt;pic.twitter.com/7VCyPM5WAS&lt;/a&gt;&lt;/p&gt;&amp;mdash; Academy of Hope (@AoHDC) &lt;a href=&#34;https://twitter.com/AoHDC/status/1176265610038300672?ref_src=twsrc%5Etfw&#34;&gt;September 23, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-   &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34; valign=&#34;top&#34;&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Cool panel discussion on &lt;a href=&#34;https://twitter.com/hashtag/artificialintelligence?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#artificialintelligence&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/hashtag/adultedu?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#adultedu&lt;/a&gt; with &lt;a href=&#34;https://twitter.com/DexterKManley72?ref_src=twsrc%5Etfw&#34;&gt;@DexterKManley72&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/KavithaCardoza?ref_src=twsrc%5Etfw&#34;&gt;@KavithaCardoza&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/UdacityDave?ref_src=twsrc%5Etfw&#34;&gt;@UdacityDave&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/Adultlearninggw?ref_src=twsrc%5Etfw&#34;&gt;@Adultlearninggw&lt;/a&gt;, Dr. Nicole Smith from &lt;a href=&#34;https://twitter.com/Georgetown?ref_src=twsrc%5Etfw&#34;&gt;@Georgetown&lt;/a&gt;, and &lt;a href=&#34;https://twitter.com/Lecester?ref_src=twsrc%5Etfw&#34;&gt;@Lecester&lt;/a&gt; at &lt;a href=&#34;https://twitter.com/AoHDC?ref_src=twsrc%5Etfw&#34;&gt;@AoHDC&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/TheGreatCourses?ref_src=twsrc%5Etfw&#34;&gt;@TheGreatCourses&lt;/a&gt; event during &lt;a href=&#34;https://twitter.com/hashtag/AEFLWeek?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#AEFLWeek&lt;/a&gt;. &lt;a href=&#34;https://t.co/aOjt2hsP1E&#34;&gt;pic.twitter.com/aOjt2hsP1E&lt;/a&gt;&lt;/p&gt;&amp;mdash; Daniel Grave Robbin&amp;#39;, Son (@QuietFlostheDan) &lt;a href=&#34;https://twitter.com/QuietFlostheDan/status/1176266893520510976?ref_src=twsrc%5Etfw&#34;&gt;September 23, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description>I was honored to particilate in a panel at an event on Adult Education in the Age of Artificial Intelligence that was run by The Great Courses as a fundraiser for the Academy of Hope, an adult public charter school in Washington, D.C.
+I spoke first, following a few introductory talks, and was followed by Nicole Smith and Ellen Scully-Russ, and a keynote from Dexter Manley, Super Bowl winner with the Washington Redskins.</description>
     </item>
     
     <item>
@@ -1130,53 +73,20 @@ to face the challenge of restructuring society to make this work.
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/research-symposium-posters/</guid>
-      <description>&lt;p&gt;Five students from our group presented posters at the department&amp;rsquo;s
-&lt;a href=&#34;https://engineering.virginia.edu/cs-research-symposium-fall-2019&#34;&gt;Fall Research
-Symposium&lt;/a&gt;:&lt;/p&gt;
+      <description>Five students from our group presented posters at the department&amp;rsquo;s Fall Research Symposium:
+ 
+Anshuman Suri&#39;s Overview Talk   Bargav Jayaraman, Evaluating Differentially Private Machine Learning In Practice [Poster]
+[Paper (USENIX Security 2019)]  
 
-&lt;p&gt;&lt;center&gt;
-&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vQcaahIxPyCHIMJti6tRB9HM_RreRhZkGH4wCN7YjTwiHSqcHod9v3hDFj-ZS1TtXp9OtBEBCV8OPH4/embed?start=false&amp;loop=false&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;764&#34; height=&#34;453&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;&lt;br&gt;
-Anshuman Suri&amp;rsquo;s Overview Talk
-&lt;/center&gt;&lt;/p&gt;
+ Hannah Chen [Poster]  
 
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/evaluatingdpml-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt; &lt;br&gt;
-Bargav Jayaraman, &lt;em&gt;Evaluating Differentially Private Machine Learning In Practice&lt;/em&gt;
-[&lt;a href=&#34;
-&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/evaluatingdpml-poster.pdf&#34;&gt;Poster&lt;/a&gt;]&lt;br&gt;
-[&lt;a href=&#34;https://www.cs.virginia.edu/~evans/pubs/usenix2019/&#34;&gt;Paper&lt;/a&gt; (USENIX Security 2019)]
-&lt;/center&gt;&lt;/p&gt;
+ Xiao Zhang [Poster]
+[Paper (NeurIPS 2019)]  
 
-&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
+ Mainudding Jonas [Poster]  
 
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/pretrainedvulnerable-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
-Hannah Chen [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/pretrainedvulnerable-poster.pdf&#34;&gt;Poster&lt;/a&gt;]
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/measuringconcentration-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
-Xiao Zhang [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/measuringconcentration-poster.pdf&#34;&gt;Poster&lt;a&gt;]&lt;br&gt;
-[&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;Paper&lt;/a&gt; (NeurIPS 2019)]
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/diversemodels-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
-Mainudding Jonas [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/diversemodels-poster.pdf&#34;&gt;Poster&lt;/a&gt;]
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/hybridbatch-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
-Fnu Suya [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/hybridbatch-poster.pdf&#34;&gt;Poster&lt;a&gt;]&lt;br&gt;
-[&lt;a href=&#34;https://arxiv.org/abs/1908.07000&#34;&gt;Paper&lt;/a&gt; (USENIX Security 2020)]
-&lt;/center&gt;&lt;/p&gt;
-</description>
+ Fnu Suya [Poster]
+[Paper (USENIX Security 2020)]  </description>
     </item>
     
     <item>
@@ -1185,104 +95,8 @@ Fnu Suya [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/hybridbatch-
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/cantors-no-longer-lost-proof/</guid>
-      <description>&lt;p&gt;In preparing to cover Cantor&amp;rsquo;s proof of different infinite set
-cardinalities (one of my all-time favorite topics!) in our &lt;a href=&#34;https://uvatoc.github.io/class4/&#34;&gt;theory of
-computation course&lt;/a&gt;, I found various
-conflicting accounts of what Cantor originally proved. So, I figured
-it would be easy to search the web to find the original proof.&lt;/p&gt;
-
-&lt;p&gt;Shockingly, at least as far as I could find&lt;sup&gt;1&lt;/sup&gt;, it didn&amp;rsquo;t
- exist on the web! The closest I could find was in Google Books the
- 1892 volume of the &lt;em&gt;J&amp;auml;hresbericht Deutsche
- Mathematiker-Vereinigung&lt;/em&gt; (which many of the references pointed
- to), but in fact not the first value of that journal which contains
- the actual proof.&lt;/p&gt;
-
-&lt;p&gt;Normally, of course, when something doesn&amp;rsquo;t turn up in DuckDuckGo
-searches, that means it doesn&amp;rsquo;t exist, but for a document this old, I
-figured it was worth actually visiting a library. (Okay, nothing quite
-so radical as going to a physical library! By visit, I mean, going to
-the website for the university library and searching there.)&lt;/p&gt;
-
-&lt;p&gt;So, I tried submitting the form our library has, requesting &lt;em&gt;Uber eine
-elementare Frage der Mannigfaltigkeits-lehre&lt;/em&gt; by G. Cantor from the
-1891 journal. I didn&amp;rsquo;t notice the scan request until after submitting,
-so I tried again, checking the box to request a PDF scan.&lt;/p&gt;
-
-&lt;p&gt;I was delighted a few days later to receive this email:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/cantor/email.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/email.png&#34; width=&#34;80%&#34; style=&#34;box-shadow: 10px 10px 5px grey;&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;And, indeed the link went to a scan of Cantor&amp;rsquo;s original proof (&lt;a href=&#34;//jeffersonswheel.org/docs/cantor-proof.pdf&#34;&gt;PDF&lt;/a&gt;):&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/cantor-proof.pdf&#34; width=&#34;80%&#34; height=&#34;500&#34; 
- type=&#34;application/pdf&#34;&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;The really cool thing is about two days later I happened to wander
-into the printer room, and saw a strange object in my mailbox with a
-nice musty smell.&lt;/p&gt;
-
-&lt;p&gt;Apparently, the original request I&amp;rsquo;d submitted to the library had gone
-through, and I found myself starting at an 1891 edition of a German
-math journal!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083500.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083500-2.jpg&#34; width=&#34;50%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;And on pages 75-78, Cantor&amp;rsquo;s original published proof!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083511.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083511-2.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083522.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083522-2.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083526.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083526-2.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083526.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083526-2.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083549.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083549-2.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t read German, but the last line is well worth translating:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/translation.png&#34;&gt;
-&lt;img src=&#34;//jeffersonswheel.org/images/cantor/translation.png&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;From now on, whenever its hard to come up with a good conclusion to a
-paper, this one always works.&lt;/p&gt;
-
-&lt;p&gt;I believe our library&amp;rsquo;s policy is that (at least for faculty) when you
-check out a book you can keep it until the next person requests
-it. So, I&amp;rsquo;ll be holding on to this one until then. When prospective
-high school students visit UVA, they often ask to see all the cool
-cutting edge technology we use in our research. I&amp;rsquo;ll be happy to show
-them three of the coolest things I have in my office: an abacus, an
-Apple II, and now, an 1891 math journal.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Apparently I wasn&amp;rsquo;t very good at searching then. In writing this
-post, I tried a new search and found a great post with both the
-original German and an English translation: &lt;a
-href=&#34;https://www.jamesrmeyer.com/infinite/cantors-original-1891-proof.html&#34;&gt;&lt;em&gt;Cantor’s
-Original 1891 Diagonal proof&lt;/em&gt;&lt;/a&gt; by James Meyer.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>In preparing to cover Cantor&amp;rsquo;s proof of different infinite set cardinalities (one of my all-time favorite topics!) in our theory of computation course, I found various conflicting accounts of what Cantor originally proved. So, I figured it would be easy to search the web to find the original proof.
+Shockingly, at least as far as I could find1, it didn&amp;rsquo;t exist on the web! The closest I could find was in Google Books the 1892 volume of the Jähresbericht Deutsche Mathematiker-Vereinigung (which many of the references pointed to), but in fact not the first value of that journal which contains the actual proof.</description>
     </item>
     
     <item>
@@ -1291,83 +105,20 @@ Original 1891 Diagonal proof&lt;/em&gt;&lt;/a&gt; by James Meyer.&lt;/li&gt;
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/fosad2019/</guid>
-      <description>
-
-&lt;p&gt;I taught a mini-course on &lt;em&gt;Trustworthy Machine Learning&lt;/em&gt; at the &lt;a href=&#34;http://www.sti.uniurb.it/events/fosad19/&#34;&gt;&lt;em&gt;19th
-International School on Foundations of Security Analysis and
-Design&lt;/em&gt;&lt;/a&gt; in Bertinoro, Italy.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/bertinoro-big.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/bertinoro.jpg&#34; width=&#34;90%&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Slides from my three (two-hour) lectures are posted below, along with
-some links to relevant papers and resources.&lt;/p&gt;
-
-&lt;h2 id=&#34;class-1-introduction-attacks&#34;&gt;Class 1: Introduction/Attacks&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;0ad1775bcc244876ac4df1880a864e78&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;The PDF malware evasion attack is described in this paper:
-&lt;blockquote&gt;
-Weilin Xu, Yanjun Qi, and David Evans.
-&lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2016/&#34;&gt;Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers&lt;/a&gt;&lt;/em&gt;.
-&lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt; (NDSS). San Diego, CA. 21-24 February 2016. [&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2016/evademl.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://evademl.org/gpevasion/&#34;&gt;EvadeML.org&lt;/a&gt;]
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;class-2-defenses&#34;&gt;Class 2: Defenses&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cf560cce9e4b418397d2df3429ddc8f9&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;This paper describes the feature squeezing framework:
-&lt;blockquote&gt;
-Weilin Xu, David Evans, and Yanjun Qi. &lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2018/&#34;&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/a&gt;&lt;/em&gt;. In &lt;a href=&#34;https://www.ndss-symposium.org/ndss2018/&#34;&gt;&lt;em&gt;2018 Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt;. 18-21 February, San Diego, California. [&lt;a href=&#34;https://evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://evademl.org/squeezing/&#34;&gt;Project&lt;/a&gt;]
-&lt;/blockquote&gt;
-This paper introduces cost-sensitive robustness:
-&lt;blockquote&gt;
-Xiao Zhang and David Evans. &lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/iclr2019/&#34;&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/a&gt;&lt;/em&gt;. In &lt;a href=&#34;https://iclr.cc/Conferences/2019&#34;&gt;&lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a
-href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;arXiv&lt;/a&gt;] [&lt;a
-href=&#34;https://openreview.net/forum?id=BygANhA9tQ&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;https://evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;PDF&lt;/a&gt;]
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;class-3-privacy&#34;&gt;Class 3: Privacy&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;8b378ae0ac2c4a7588016311d1d76ef8&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;This (free) book provides an introduction to secure multi-party computation:
-&lt;blockquote&gt;
-David Evans, Vladimir Kolesnikov and Mike Rosulek. &lt;a href=&#34;https://securecomputation.org/&#34;&gt;&lt;em&gt;A Pragmatic Introduction to Secure Multi-Party Computation&lt;/em&gt;&lt;/a&gt;. NOW Publishers, December 2018. &lt;a href=&#34;https://securecomputation.org/docs/pragmaticmpc.pdf&#34;&gt;&lt;a href=&#34;Full Text&#34;&gt;PDF&lt;/a&gt;&lt;/a&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://oblivc.org&#34;&gt;OblivC.org&lt;/a&gt; is an open-source tool for
-building secure multi-party computations from high-level (extended C)
-code.&lt;/p&gt;
-
-&lt;p&gt;This paper describes our work on integrating differential privacy and multi-party computation:
-&lt;blockquote&gt;
-Bargav Jayaraman, Lingxiao Wang, David Evans and Quanquan
-Gu. &lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/neurips2018/&#34;&gt;Distributed Learning without Distress:
-    Privacy-Preserving Empirical Risk Minimization&lt;/a&gt;&lt;/em&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt;
-&lt;em&gt;Conference on Neural Information Processing Systems&lt;/em&gt;&lt;/a&gt;
-(NeurIPS). Montreal, Canada. December 2018. [&lt;a
-    href=&#34;https://www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a
-    href=&#34;https://youtu.be/rwyWiDyVmjE&#34;&gt;Video Summary&lt;/a&gt;]
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;This paper summarizes our work on evaluating the privacy-utility tradeoffs for machine learning:
-&lt;blockquote&gt;
-Bargav Jayaraman and David Evans. &lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/usenix2019/&#34;&gt;Evaluating Differentially Private Machine Learning in Practice&lt;/a&gt;&lt;/em&gt;. In &lt;a
-href=&#34;https://www.usenix.org/conference/usenixsecurity19&#34;&gt;28&lt;sup&gt;th&lt;/sup&gt;
-USENIX Security Symposium&lt;/em&gt;&lt;/a&gt;. Santa&amp;nbsp;Clara. August 2019.
-[&lt;a href=&#34;usenix2019/evaluatingdp.pdf&#34;&gt;PDF&lt;/a&gt;]
-[&lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;arXiv&lt;/a&gt;]
-[&lt;A href=&#34;https://github.com/bargavj/EvaluatingDPML&#34;&gt;code&lt;/a&gt;]
-&lt;/blockquote&gt;&lt;/p&gt;
-</description>
+      <description>I taught a mini-course on Trustworthy Machine Learning at the 19th International School on Foundations of Security Analysis and Design in Bertinoro, Italy.
+ Slides from my three (two-hour) lectures are posted below, along with some links to relevant papers and resources.
+Class 1: Introduction/Attacks    The PDF malware evasion attack is described in this paper:
+ Weilin Xu, Yanjun Qi, and David Evans. Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers.</description>
+    </item>
+    
+    <item>
+      <title>Evaluating Differentially Private Machine Learning in Practice</title>
+      <link>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</guid>
+      <description>(Cross-post by Bargav Jayaraman)
+With the recent advances in composition of differential private mechanisms, the research community has been able to achieve meaningful deep learning with privacy budgets in single digits. Rènyi differential privacy (RDP) is one mechanism that provides tighter composition which is widely used because of its implementation in TensorFlow Privacy (recently, Gaussian differential privacy (GDP) has shown a tighter analysis for low privacy budgets, but it was not yet available when we did this work).</description>
     </item>
     
     <item>
@@ -1376,49 +127,11 @@ USENIX Security Symposium&lt;/em&gt;&lt;/a&gt;. Santa&amp;nbsp;Clara. August 201
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/usenix-security-symposium-2019/</guid>
-      <description>&lt;p&gt;Bargav Jayaraman presented our paper on &lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;&lt;em&gt;Evaluating Differentially Private Machine Learning in Practice&lt;/em&gt;&lt;/a&gt; at the &lt;a
-href=&#34;https://www.usenix.org/conference/usenixsecurity19&#34;&gt;28&lt;sup&gt;th&lt;/sup&gt;
-USENIX Security Symposium&lt;/em&gt;&lt;/a&gt; in Santa Clara, California.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/JAGhqbY_U50&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;dfdd40e4ba2b46e1baee68219df82de7&#34; data-ratio=&#34;1.29456384323641&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/bargav.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Summary by Lea Kissner:
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hey it&amp;#39;s the results! &lt;a href=&#34;https://t.co/ru1FbkESho&#34;&gt;pic.twitter.com/ru1FbkESho&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lea Kissner (@LeaKissner) &lt;a href=&#34;https://twitter.com/LeaKissner/status/1162518239177371648?ref_src=twsrc%5Etfw&#34;&gt;August 17, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, great to see several UVA folks at the conference including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://havron.dev&#34;&gt;Sam Havron&lt;/a&gt; (BSCS 2017, now a PhD student at
-Cornell) presented a paper on the work he and his colleagues have
-done on &lt;a href=&#34;https://havron.dev/pubs/clinicalsec.pdf&#34;&gt;computer security for victims of intimate partner violence&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/havron.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.guanotronic.com/~serge/&#34;&gt;Serge Egelman&lt;/a&gt; (BSCS 2004) was an author on the paper &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity19/presentation/reardon&#34;&gt;&lt;em&gt;50 Ways to Leak Your Data: An
-Exploration of Apps&amp;rsquo; Circumvention of the Android Permissions
-System&lt;/em&gt;&lt;/a&gt;
-(which was recognized by a Distinguished Paper Award). His paper in
-SOUPS on &lt;a href=&#34;https://www.usenix.org/system/files/soups2019-frik.pdf&#34;&gt;&lt;em&gt;Privacy and Security Threat Models and Mitigation
-Strategies of Older
-Adults&lt;/em&gt;&lt;/a&gt; was highlighted in Alex Stamos&amp;rsquo; excellent talk.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ytian.info/&#34;&gt;Yuan Tian&lt;/a&gt; (UVA professor) presented her work on Chinese password guessability (since the student author who was planning to present was unfortunately unable to obtain a visa in time). Chinese passwords are different from those of English speakers in many interesting ways, but everyone agrees that &lt;code&gt;123456&lt;/code&gt; is a great password.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/yuantian.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
+       Summary by Lea Kissner:
+ Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
+&amp;mdash; Lea Kissner (@LeaKissner) August 17, 2019   Also, great to see several UVA folks at the conference including:
+ Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.</description>
     </item>
     
     <item>
@@ -1427,17 +140,9 @@ Adults&lt;/em&gt;&lt;/a&gt; was highlighted in Alex Stamos&amp;rsquo; excellent 
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/google-security-and-privacy-workshop/</guid>
-      <description>&lt;p&gt;I presented a short talk at a workshop at Google on &lt;em&gt;Adversarial ML: Closing Gaps between Theory and Practice&lt;/em&gt; (mostly fun for the &lt;a href=&#34;https://www.youtube.com/watch?v=TVmjjfTvnFs&#34;&gt;movie of me trying to solve Google&amp;rsquo;s CAPTCHA&lt;/a&gt; on the last slide):&lt;/p&gt;
-
-&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTKeMueFNQPz0Pms4EGKoYOXVEg92IBi55babPKG5WRrhHRR2PmIYwZIyLsZ11ucKSahqjjp3Zxd5i3/embed?start=true&amp;loop=false&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;//jeffersonswheel.org/images/googledonuts.jpg&#34; width=&#34;90%&#34;&gt;&lt;br&gt;
-I can say with some confidence, Google does donuts much better than they &lt;a href=&#34;https://freedom-to-tinker.com/2019/08/23/deconstructing-googles-excuses-on-tracking-protection/&#34;&gt;do cookies&lt;/a&gt;!
-&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>I presented a short talk at a workshop at Google on Adversarial ML: Closing Gaps between Theory and Practice (mostly fun for the movie of me trying to solve Google&amp;rsquo;s CAPTCHA on the last slide):
+ Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.
+ I can say with some confidence, Google does donuts much better than they do cookies!</description>
     </item>
     
     <item>
@@ -1446,37 +151,9 @@ I can say with some confidence, Google does donuts much better than they &lt;a h
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
-      <description>&lt;p&gt;Brink News (a publication of the &lt;em&gt;The Atlantic&lt;/em&gt;) published my essay on the risks of deploying AI systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;https://www.brinknews.com/ai-systems-are-complex-and-fragile-here-are-four-key-risks-to-understand/&#34;&gt;&lt;img style=&#34;box-shadow: 10px 10px 5px grey;&#34; src=&#34;//jeffersonswheel.org/images/brink.png&#34; width=90%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood. When AI systems are deployed to make important decisions that impact human safety and well-being, the potential risks of abuse and misbehavior are high and need to be carefully considered and mitigated.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;What Is Deep Learning?&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Over the past seven decades, automatic computing has astonishingly amplified human intelligence. It can execute any information process a human understands well enough to describe precisely at a rate that is quadrillions of times faster than what any human could do. It also enables thousands of people to work together to produce systems that no individual understands.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Artificial intelligence goes beyond this: It allows machines to solve problems in ways no human understands. Instead of being programmed like traditional computing, AI systems are trained. Human engineers set up a training environment and methods, and the machine learns how to solve problems on its own. Although AI is a broad field with many different directions, much of the current excitement is focused on a narrow branch of statistical machine learning known as “deep learning,” where a model is trained to make predictions based on statistical patterns in a training data set.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;In a typical training process, training data is collected, and a model is trained to recognize patterns in this data — as well as patterns in those learned patterns — in order to make predictions about new data. The resulting model can include millions of trained parameters, while providing little insight into how it works or evidence as to which patterns it has learned. It can, however, result in remarkably accurate models when the data used for training is well-distributed and correctly labeled and the data the model needs to make predictions about in deployment is similar to that training data. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;When it is not, however, lots of things can go wrong.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Dogs Also Play in the Snow&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Models learn patterns in the training data, but it is difficult to know if what they have learned is relevant — or just some artifact of the training data. In one famous example, a model that learned to accurately distinguish wolves and dogs &lt;/span&gt;&lt;a href=&#34;https://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;had actually learned nothing about animals&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;. Instead, what it had learned was to recognize snow, since all the training examples with snow were wolves, and the examples without snow were dogs.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;In a more serious example, a PDF malware classifier trained on a corpus of malicious and benign PDF files to produce an accurate model to distinguish malicious PDF files from normal documents actually learned incidental associations, such as “a PDF file with pages is probably benign.” This is a pattern in the training data, since most of the malicious PDFs do not bother to include any content pages, just the malicious payload. But, it&amp;#8217;s not a useful property for distinguishing malware, since a malware author can &lt;/span&gt;&lt;a href=&#34;https://evademl.org/docs/evademl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;easily add pages to a PDF file&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; without disrupting its malicious behavior.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Adversarial Examples&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI systems learn about the data they are trained on, and learning algorithms are designed to generalize from that data, but the resulting models can be fragile and unpredictable.&lt;/span&gt;&lt;/p&gt;
-&lt;blockquote class=&#34;tweet&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Organizations deploying AI systems need to carefully consider how those systems can fail and limit the trust placed in them.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Researchers have developed methods that find tiny perturbations, such as modifying just one or two pixels in an image or changing colors by an amount that is imperceptible to humans, that are enough to change the output prediction. The resulting inputs are known as adversarial examples. Some methods even enable construction of physical objects that confuse classifiers — for example, color patterns can be printed on glasses that lead face-recognition systems to &lt;/span&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~sbhagava/papers/face-rec-ccs16.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;misidentify people as targeted victims&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Reflecting and Amplifying Bias&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;The behavior of AI systems depends on the data they are trained on, and models trained on biased data will reflect those biases. Many well-minded efforts have sought to use algorithms running on unbiased machines to replace the &lt;/span&gt;&lt;a href=&#34;https://www.brinknews.com/algorithms-are-fraught-with-bias-is-there-a-fix/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;inherently biased humans&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; who make critical decisions impacting humans such as granting loans, whether a defendant should be released pending trial and which job candidates to interview.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Unfortunately, there is no way to ensure the algorithms themselves are unbiased, and removing humans from these decision processes risks entrenching those biases. One company, for example, used data from its current employees to train a system to scan resumes to identify interview candidates; the system learned to be biased against women, since &lt;/span&gt;&lt;a href=&#34;https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;the resumes it was trained on&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; were predominantly from male applicants.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Revealing Too Much&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI systems trained on private data such has health records or emails learn to make predictions based on patterns in that data. Unfortunately, they may also reveal sensitive information about that training data.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;One risk is membership inference, which is an attack where an adversary with access to a model trained on private data can learn from the model’s outputs whether or not an individual’s record was part of the training data. This poses a privacy risk, especially if the model is trained on medical records for patients with a particular disease. Models can also memorize specific information in their training data. A language model trained on an email corpus &lt;/span&gt;&lt;a href=&#34;https://arxiv.org/abs/1802.08232&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;might reveal social security numbers&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; contained in those training emails.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;What Can We Do?&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Many researchers are actively working on understanding and mitigating these problems — but although methods exist to mitigate some specific problems, we are a long way from comprehensive solutions. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Organizations deploying AI systems need to carefully consider how those systems can fail and limit the trust placed in them. It is also important to consider whether simpler and more understandable methods can provide equally good solutions before jumping into complex AI techniques like deep learning. In one high-profile example, where considering an AI solution should have raised some red flags, a model for predicting recidivism risk was &lt;/span&gt;&lt;a href=&#34;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;suspected of racial bias&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; in its predictions. A simple model using only three rules based on age, sex and number of prior offenses was found to make &lt;/span&gt;&lt;a href=&#34;https://arxiv.org/abs/1811.10154&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;equally good predictions&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI technologies show great promise and have demonstrated capacity to improve medical diagnosis, automate business processes and free humans from tedious and unrewarding tasks. But decisions about using AI need to also pay attention to the risks and potential pitfalls in using complex, fragile and poorly understood technologies.&lt;/span&gt;&lt;/p&gt;
-</description>
+      <description>Brink News (a publication of the The Atlantic) published my essay on the risks of deploying AI systems.
+   Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. 
+Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.</description>
     </item>
     
     <item>
@@ -1485,358 +162,8 @@ I can say with some confidence, Google does donuts much better than they &lt;a h
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;m back from a very interesting &lt;a href=&#34;https://sites.google.com/view/federated-learning-2019/&#34;&gt;&lt;em&gt;Workshop on Federated Learning and
-Analytics&lt;/em&gt;&lt;/a&gt;
-that was organized by &lt;a href=&#34;https://ai.google/research/people/PeterKairouz&#34;&gt;Peter
-Kairouz&lt;/a&gt; and &lt;a href=&#34;https://ai.google/research/people/author35837&#34;&gt;Brendan
-McMahan&lt;/a&gt; from Google&amp;rsquo;s
-federated learning team and was held at Google Seattle.&lt;/p&gt;
-
-&lt;p&gt;For the first part of my talk, I covered Bargav&amp;rsquo;s work on &lt;a href=&#34;http://www.cs.virginia.edu/~evans/pubs/usenix2019/&#34;&gt;evaluating
-differentially private machine
-learning&lt;/a&gt;, but I
-reserved the last few minutes of my talk to address the cognitive
-dissonance I felt being at a Google meeting on privacy.&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide01.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide01.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-I don’t want to offend anyone, and want to preface this by saying I
-have lots of friends and former students who work for Google, people
-that I greatly admire and respect – so I want to raise the cognitive
-dissonance I have being at a “privacy” meeting run by Google, in the
-hopes that people at Google actually do think about privacy and will
-able to convince me how wrong I am.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide02.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide02.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-But, it is necessary to address the elephant in the room &amp;mdash; we are at a &lt;em&gt;privacy&lt;/em&gt; meeting organized by &lt;b&gt;Google&lt;/b&gt;.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide03.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide03.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-Or rather, in this case its the &lt;em&gt;Dragon&amp;nbsp;that&amp;nbsp;Owns&amp;nbsp;the&amp;nbsp;Room&lt;/em&gt;.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p align=&#34;center&#34; style=&#34;margin-top:12px&#34;&gt;
-&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/dragon.png&#34; width=&#34;500&#34; align=&#34;center&#34;&gt;&lt;br&gt;
-&lt;p align=&#34;center&#34;&gt;It may be a cute, colorful, and even &lt;a href=&#34;https://www.mightbeevil.org&#34;&gt;non-evil&lt;/a&gt; Dragon, but it has a huge appetite!&lt;/p&gt;
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34; valign=&#34;middle&#34;&gt;
-
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide06.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide06.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide07.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide07.png&#34;&gt;&lt;/a&gt;
-
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34; valign=&#34;middle&#34;&gt;
-&lt;p&gt;
-This quote is from an essay by Maciej Cegłowski (the founder of Pinboard),
-&lt;a href=&#34;https://idlewords.com/2019/06/the_new_wilderness.htm&#34;&gt;The New Wilderness&lt;/a&gt;:
-&lt;/p&gt;
-&lt;p&gt;
-&lt;em&gt;
-Seen in this light, the giant tech companies can make a credible
-claim to be the defenders of privacy, just like a dragon can
-truthfully boast that it is good at protecting its hoard of
-gold. Nobody spends more money securing user data, or does it more
-effectively, than Facebook and Google. 
-&lt;/em&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;em&gt;
-The question we need to ask is
-not whether our data is safe, but why there is suddenly so much of it
-that needs protecting. The problem with the dragon, after all, is not its stockpile
-stewardship, but its appetite.&lt;/em&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide08.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide08.png&#34;&gt;&lt;/a&gt;
-&lt;p style=&#34;margin-top:10px&#34;&gt;
-&lt;em&gt;
-We’re also working hard to challenge the assumption that products need more data to be more helpful. Data minimization is an important privacy principle for us, and we’re encouraged by advances developed by Google A.I. researchers called “federated learning.” It allows Google’s products to work better for everyone without collecting raw data from your device. ... In the future, A.I. will provide even more ways to make products more helpful with less data.
-&lt;/em&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;em&gt;
-Even as we make privacy and security advances in our own products, we know the kind of privacy we all want as individuals relies on the collaboration and support of many institutions, like legislative bodies and consumer organizations.
-&lt;/em&gt;
-&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-Maciej&amp;rsquo;s essay was partly inspired by the recent New York Times
-opinion piece by Google&amp;rsquo;s CEO: &lt;a
-href=&#34;https://www.nytimes.com/2019/05/07/opinion/google-sundar-pichai-privacy.html&#34;&gt;&lt;em&gt;Google’s
-Sundar Pichai: Privacy Should Not Be a Luxury Good&lt;/em&gt;&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;If you haven&amp;rsquo;t read it, you should. It is truly a masterpiece in
-obfuscation and misdirection.&lt;br /&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Pichai somehow makes the argument that
-privacy and equity are in conflict, and that Google&amp;rsquo;s industrial-scale
-surveillance model is necessary to make its products accessible to
-poor people.
-&lt;/p&gt;
-&lt;p&gt;
-The piece also highlights the work the team here has done on federated
-learning &amp;mdash; terrific visibility and recognition of the value of
-the research, but notably, right before getting into discussion about
-government privacy regulation.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide10.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide10.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-The question I want to raise for the Google researchers and engineers
-working on privacy, is what is the actual &lt;em&gt;purpose&lt;/em&gt; of this
-work for the company? 
-&lt;/p&gt;
-&lt;p&gt;
-I distinguish small &#34;p&#34; privacy from big &#34;P&#34; Privacy. 
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&#34;margin-top:12px&#34;&gt;
-Small &#34;p&#34; privacy is about protecting corporate data from
-outsiders. This used to be called &lt;em&gt;confidentiality&lt;/em&gt;. If you
-only believe in small &#34;p&#34; privacy, there is no difficultly in
-justifying working on privacy at Google.
-&lt;/p&gt;
-&lt;p&gt;
-Big &#34;P&#34; Privacy views privacy as an individual human right, and even
-more, as a societal value. Maciej calls this &lt;em&gt;ambient
-privacy&lt;/em&gt;. It is hard to quantify or even understand what we lose
-when we give up Privacy as individuals and as a society, but the
-thought of living in a society where everyone is under constant
-surveillance strikes me as terrifying and dystopian.
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide11.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide11.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-So, if you believe in &lt;b&gt;P&lt;/b&gt;rivacy, and are working on privacy at
-Google, you should consider whether the purpose (for the company) of
-your work is to &lt;em&gt;improve&lt;/em&gt; or &lt;em&gt;harm&lt;/em&gt; &lt;b&gt;P&lt;/b&gt;rivacy.
-&lt;/p&gt;
-&lt;p&gt;
-Given the nature or Google&#39;s business, you should start from the
-assumption that its purpose is probably to harm &lt;b&gt;P&lt;/b&gt;rivacy, and be
-self-critical in your arguments to convince yourself that it is to
-improve &lt;b&gt;P&lt;/b&gt;rivacy.  
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&#34;margin-top:10px&#34;&gt;
-
-There are many ways technically sound and successful work on improving
-privacy could be used to actually harm &lt;b&gt;P&lt;/b&gt;rivacy. For example,
-
-&lt;ul&gt;
-
-&lt;li&gt; Technical mechanisms for privacy can be used to jusfify
-&lt;b&gt;collecting more data&lt;/b&gt;. Collecting more data is harmful to
-&lt;b&gt;P&lt;/b&gt;rivacy even if it is done in a way that protects individual
-privacy and ensures that sensitive data about individuals cannot be
-inferred. And that&#39;s the best case &amp;mdash; it assumes everything is
-implemented perfectly with no technical mistakes or bugs in the code,
-and that parameters are set in ways that provide sufficient privacy,
-even when this means accepting unsatisfactory utility.&lt;/li&gt;
-
-&lt;li&gt; Privacy work can be used by companies to &lt;b&gt;delay, mislead, and
-confuse regulators&lt;/b&gt;, and to provide public relations opportunities that
-primarily serve to confuse and mislead the public.  There can, of
-course, be beneficial publicity from privacy research, but its
-important to realize that not all publicity is good publicity,
-especially when it comes to how companies use privacy research.
-&lt;/ul&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide12.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide12.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-
-Maciej&#39;s essay draws an analogy between Google&#39;s interest in privacy,
-and the energy industry&#39;s interest in pollution. I&#39;ll make a slightly
-different analogy here, focusing on the role of scientists and
-engineers at these companies.
-&lt;/p&gt;
-&lt;p&gt;
-Of course, comparing Google to poison pushers and destroyers of the
-planet is grossly unfair.
-
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide13.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide13.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-Tobacco Executives testifying to House Energy and Commerce Subcommittee on Health and the Environment 
- that &lt;a href=&#34;https://www.nytimes.com/1994/04/15/us/tobacco-chiefs-say-cigarettes-aren-t-addictive.html&#34;&gt;Cigarettes are not Addictive&lt;/a&gt;, April 1994
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide14.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide14.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-Twitter CEO Jack Dorsey, Facebook COO Sheryl Sandberg, and empty chair for Google testifying to Senate Intelligence Committee, September 2018
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&#34;margin-top:12px&#34;&gt;
-For one thing, when congress called the tobacco executives to account
-to the public for their behavior, they actually showed up.
-&lt;/p&gt;
-&lt;p&gt;
-
-I&#39;m certainly not here to defend tobacco company executives,
-though. The more relevant comparison is to the scientists who worked
-at these companies.
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide17.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide17.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-
-The tobacco and fossil fuel companies had &lt;em&gt;good scientists&lt;/em&gt;,
-who did work to understand the impact of their industry. Some of those
-scientists reached conclusions that were problematic for their
-companies. Their companies suppressed or distorted those results, and
-emphasized their investments in science in &lt;a
-href=&#34;http://www.climatefiles.com/exxonmobil/1998-exxon-pamphlet-global-climate-change-everyones-debate/&#34;&gt;glossy
-brochures&lt;/a&gt; to influence public policy and opion.
-
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide15.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide15.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;So, my second challenge to engineers and researchers at Google who
-value &lt;b&gt;P&lt;/b&gt;rivacy, is do be doing work that potentially could lead
-to results the company would want to suppress.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&#34;margin-top:10px&#34;&gt;
-This doesn&amp;rsquo;t mean doing work that is hostile to Google (recall that
-Wigand&amp;rsquo;s project at Brown &amp;amp; Williamson Tobacco was to &lt;a
-href=&#34;https://www.vanityfair.com/magazine/1996/05/wigand199605&#34;&gt;develop
-a safer cigarette&lt;/a&gt;). But it does mean doing research to understand
-the scale and scope of privacy loss resulting from Google&amp;rsquo;s products,
-and to measure its impact on individual behavior and society.
-&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Google&amp;rsquo;s researchers are uniquely well positioned to do this type of
-research &amp;mdash; they have the technical expertise and talent, access
-to data and resources, and opportunity to do large scale experiments.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;reactions&#34;&gt;Reactions&lt;/h2&gt;
-
-&lt;p&gt;
-I was a bit worried about giving this talk to an audience at Google
-(about 40 Googlers and 40 academic researchers in the audience, as
-well as a live stream that I know some people elsewhere at Google were
-watching), especially with a cruise on Lake Washington later in the
-day. But, all the reactions I got were very encouraging and positive,
-with great willingness from the Googlers to consider how people
-outside might perceive their company and interest in thinking about
-ways they can do better.
-&lt;/p&gt;
-
-&lt;p&gt;
-My impression is the engineers and researchers at Google do care about
-&lt;b&gt;P&lt;/b&gt;rivacy, and have some opportunities to influence corporate
-decisions, but it is a large and complex company. From the way academics
-(especially cryptographers) reason about systems, once you trust
-Google to provide your hardware or operating system they are a trusted
-party and can easily access and control everything. From a complex
-corporate perspective, there are big difference between data on your
-physical device (even if it was built by Google), in a database at
-Google, and stored in an encrypted form with privacy noise, even if
-all the code doing this is written and controlled by the same
-organization that has full access to the data. Lots of the privacy
-work at Google is motivated by reducing the internal attack surfaces,
-so sensitive data is exposed to less code and people within the
-organization. This makes sense, at least for small &lt;em&gt;p&lt;/em&gt; privacy.
-&lt;/p&gt;
-&lt;p&gt;
-
-There is a privacy review board at Google (mandated by an FTC consent
-agreement) that conducts a privacy review of all products and can go
-back to engineering teams with requests for changes (and possibly even
-prevent a product from being launched, although Googlers were murky on
-how much power they would have when things come down to it). On the
-other hand, the privacy review is done by Google employees, who,
-however well meaning and ethical they are, are still beholden to their
-employer. This strikes me as a positive, but more like the
-team-employed doctors do administer the concussion protocol during
-football games. (Unfortunately, Google&#39;s efforts to set up an external
-ethics board &lt;a
-href=&#34;https://www.theverge.com/2019/4/4/18296113/google-ai-ethics-board-ends-controversy-kay-coles-james-heritage-foundation&#34;&gt;did
-not go well&lt;/a&gt;.)
-&lt;/p&gt;
-&lt;p&gt;
-
-On the whole, though, I am encouraged by the discussions with the
-Google researchers, that there is some awareness of the complexities
-in working on privacy at Google, and that scientists and engineers
-there can provide some counter-balance to the dragon&#39;s appetite.
-
-&lt;/p&gt;
-&lt;p&gt;
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;This is a wonderful talk from &lt;a href=&#34;https://twitter.com/UdacityDave?ref_src=twsrc%5Etfw&#34;&gt;@UdacityDave&lt;/a&gt; at the University of Virginia, delivered at Google, that touches on the fundamental ethical conflict of working on privacy technologies for a surveillance giant. &lt;a href=&#34;https://t.co/ucPezrSuTB&#34;&gt;https://t.co/ucPezrSuTB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Pinboard (@Pinboard) &lt;a href=&#34;https://twitter.com/Pinboard/status/1143658356453736448?ref_src=twsrc%5Etfw&#34;&gt;June 25, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m back from a very interesting Workshop on Federated Learning and Analytics that was organized by Peter Kairouz and Brendan McMahan from Google&amp;rsquo;s federated learning team and was held at Google Seattle.
+For the first part of my talk, I covered Bargav&amp;rsquo;s work on evaluating differentially private machine learning, but I reserved the last few minutes of my talk to address the cognitive dissonance I felt being at a Google meeting on privacy.</description>
     </item>
     
     <item>
@@ -1845,25 +172,7 @@ there can provide some counter-balance to the dragon&#39;s appetite.
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/graduation-2019/</guid>
-      <description>&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/graduation2019/IMG_0171.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/graduation2019/IMG_0171-2.jpg&#34; height=120&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;table align=&#34;center&#34; width=&#34;60%&#34;&gt;
-&lt;tr&gt;
-&lt;td&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/graduation2019/IMG_0116.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/graduation2019/IMG_0116-2.jpg&#34; height=&#34;100&#34;&gt;&lt;/a&gt;
-&lt;/td&gt;
-&lt;td&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/graduation2019/IMG-0175.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/graduation2019/IMG_0175-2.jpg&#34; height=&#34;100&#34;&gt;&lt;/a&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/graduation2019/IMG_0193.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/graduation2019/IMG_0193-2.jpg&#34; height=120&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>               </description>
     </item>
     
     <item>
@@ -1872,22 +181,8 @@ there can provide some counter-balance to the dragon&#39;s appetite.
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: &lt;a href=&#34;https://www.technologyreview.com/s/613520/how-ai-could-save-lives-without-spilling-secrets/&#34;&gt;&lt;em&gt;How AI could save lives without spilling medical secrets&lt;/em&gt;&lt;/a&gt;, MIT Technology Review, 14 May 2019.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;You would love it if a medical researcher could learn on everyone&amp;rsquo;s medical records,&amp;rdquo; Evans says. &amp;ldquo;You could do an analysis and tell if a drug is working on not. But you can&amp;rsquo;t do that today.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Despite the potential Oasis represents, Evans is cautious. Storing data in secure hardware creates a potential point of failure, he notes. If the company that makes the hardware is compromised, then all the data handled this way will also be vulnerable. Blockchains are relatively unproven, he adds.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;There&amp;rsquo;s a lot of different tech coming together,&amp;rdquo; he says of Oasis&amp;rsquo;s approach. &amp;ldquo;Some is mature, and some is cutting-edge and has challenges.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(I&amp;rsquo;m pretty sure I didn&amp;rsquo;t actually say &amp;ldquo;tech&amp;rdquo; in my call with Will
-Knight since I wouldn&amp;rsquo;t use that wording, but would say
-&amp;ldquo;technologies&amp;rdquo;.)&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: How AI could save lives without spilling medical secrets, MIT Technology Review, 14 May 2019.
+ &amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
     </item>
     
     <item>
@@ -1896,14 +191,8 @@ Knight since I wouldn&amp;rsquo;t use that wording, but would say
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
-      <description>&lt;p&gt;Xiao Zhang will present &lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt; on May 7 (4:30-6:30pm) at &lt;a href=&#34;https://iclr.cc/Conferences/2019/&#34;&gt;ICLR 2019 in New Orleans.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/docs/cost-sensitive-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/cost-sensitive-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Paper: &lt;a href=&#34;https://evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt; [&lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;ArXiv&lt;/a&gt;]&lt;/p&gt;
-</description>
+      <description>Xiao Zhang will present Cost-Sensitive Robustness against Adversarial Examples on May 7 (4:30-6:30pm) at ICLR 2019 in New Orleans.
+   Paper: [PDF] [OpenReview] [ArXiv]</description>
     </item>
     
     <item>
@@ -1912,15 +201,263 @@ Knight since I wouldn&amp;rsquo;t use that wording, but would say
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/empirically-measuring-concentration/</guid>
-      <description>&lt;p&gt;Xiao Zhang and Saeed Mahloujifar will present our work on &lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt; at two workshops May 6 at ICLR 2019 in New Orleans: &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning:
-Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+      <description>Xiao Zhang and Saeed Mahloujifar will present our work on Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness at two workshops May 6 at ICLR 2019 in New Orleans: Debugging Machine Learning Models and Safe Machine Learning: Specification, Robustness and Assurance.
+Paper: [PDF]
+   </description>
+    </item>
+    
+    <item>
+      <title>SRG Lunch</title>
+      <link>//jeffersonswheel.org/srg-lunch/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/srg-lunch/</guid>
+      <description>Some photos for our lunch to celebrate the end of semester, beginning of summer, and congratulate Weilin Xu on his PhD:
+ 
+Left to right: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;Jayaraman, Aihua&amp;nbsp;Chen, Hannah&amp;nbsp;Chen, Weilin&amp;nbsp;Xu, Riley&amp;nbsp;Spahn, David&amp;nbsp;Evans, Fnu&amp;nbsp;Suya, Yuan&amp;nbsp;Tian, Mainuddin&amp;nbsp;Jonas, Tu&amp;nbsp;Le, Faysal&amp;nbsp;Hossain, Xiao&amp;nbsp;Zhang, Jack&amp;nbsp;Verrier      </description>
+    </item>
+    
+    <item>
+      <title>JASON Spring Meeting: Adversarial Machine Learning</title>
+      <link>//jeffersonswheel.org/jason-spring-meeting-adversarial-machine-learning/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/jason-spring-meeting-adversarial-machine-learning/</guid>
+      <description>I had the privilege of speaking at the JASON Spring Meeting, undoubtably one of the most diverse meetings I&amp;rsquo;ve been part of with talks on hypersonic signatures (from my DSSG 2008-2009 colleague, Ian Boyd), FBI DNA, nuclear proliferation in Iran, engineering biological materials, and the 2020 census (including a very interesting presentatino from John Abowd on the differential privacy mechanisms they have developed and evaluated). (Unfortunately, my lack of security clearance kept me out of the SCIF used for the talks on quantum computing and more sensitive topics).</description>
+    </item>
+    
+    <item>
+      <title>Congratulations Dr. Xu!</title>
+      <link>//jeffersonswheel.org/congratulations-dr.-xu/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/congratulations-dr.-xu/</guid>
+      <description>Congratulations to Weilin Xu for successfully defending his PhD Thesis!
+   Weilin&#39;s Committee: Homa Alemzadeh, Yanjun Qi, Patrick McDaniel (on screen), David Evans, Vicente Ordóñez Román    Improving Robustness of Machine Learning Models using Domain Knowledge  Although machine learning techniques have achieved great success in many areas, such as computer vision, natural language processing, and computer security, recent studies have shown that they are not robust under attack.</description>
+    </item>
+    
+    <item>
+      <title>A Plan to Eradicate Stalkerware</title>
+      <link>//jeffersonswheel.org/a-plan-to-eradicate-stalkerware/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/a-plan-to-eradicate-stalkerware/</guid>
+      <description>Sam Havron (BSCS 2017) is quoted in an article in Wired on eradicating stalkerware:
+ The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&amp;rsquo; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
+    </item>
+    
+    <item>
+      <title>ISMR 2019: Context-aware Monitoring in Robotic Surgery</title>
+      <link>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</guid>
+      <description>Samin Yasar presented our paper on Context-award Monitoring in Robotic Surgery at the 2019 International Symposium on Medical Robotics (ISMR) in Atlanta, Georgia.
+ Robotic-assisted minimally invasive surgery (MIS) has enabled procedures with increased precision and dexterity, but surgical robots are still open loop and require surgeons to work with a tele-operation console providing only limited visual feedback. In this setting, mechanical failures, software faults, or human errors might lead to adverse events resulting in patient complications or fatalities.</description>
+    </item>
+    
+    <item>
+      <title>Deep Fools</title>
+      <link>//jeffersonswheel.org/deep-fools/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/deep-fools/</guid>
+      <description>New Electronics has an article that includes my Deep Learning and Security Workshop talk: Deep fools, 21 January 2019.
+A better version of the image Mainuddin Jonas produced that they use (which they screenshot from the talk video) is below:
+  </description>
+    </item>
+    
+    <item>
+      <title>Markets, Mechanisms, Machines</title>
+      <link>//jeffersonswheel.org/markets-mechanisms-machines/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/markets-mechanisms-machines/</guid>
+      <description>My course for Spring 2019 is Markets, Mechanisms, Machines, cross-listed as cs4501/econ4559 and co-taught with Denis Nekipelov. The course will explore interesting connections between economics and computer science.
+My qualifications for being listed as instructor for a 4000-level Economics course are limited to taking an introductory microeconomics course my first year as an undergraduate.
+   Its good to finally get a chance to redeem myself for giving up on Economics 28 years ago!</description>
+    </item>
+    
+    <item>
+      <title>ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</title>
+      <link>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
+      <description>Xiao Zhang and my paper on Cost-Sensitive Robustness against Adversarial Examples has been accepted to ICLR 2019.
+Several recent works have developed methods for training classifiers that are certifiably robust against norm-bounded adversarial perturbations. However, these methods assume that all the adversarial transformations provide equal value for adversaries, which is seldom the case in real-world applications. We advocate for cost-sensitive robustness as the criteria for measuring the classifier&amp;rsquo;s performance for specific tasks.</description>
+    </item>
+    
+    <item>
+      <title>A Pragmatic Introduction to Secure Multi-Party Computation</title>
+      <link>//jeffersonswheel.org/a-pragmatic-introduction-to-secure-multi-party-computation/</link>
+      <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/a-pragmatic-introduction-to-secure-multi-party-computation/</guid>
+      <description>A Pragmatic Introduction to Secure Multi-Party Computation, co-authored with Vladimir Kolesnikov and Mike Rosulek, is now published by Now Publishers in their Foundations and Trends in Privacy and Security series.
+You can download the book for free (we retain the copyright and are allowed to post an open version) from securecomputation.org, or buy an PDF version from the published for $260 (there is also a printed $99 version).
+Secure multi-party computation (MPC) has evolved from a theoretical curiosity in the 1980s to a tool for building real systems today.</description>
+    </item>
+    
+    <item>
+      <title>NeurIPS 2018: Distributed Learning without Distress</title>
+      <link>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</guid>
+      <description>Bargav Jayaraman presented our work on privacy-preserving machine learning at the 32nd Conference on Neural Information Processing Systems (NeurIPS 2018) in Montreal.
+Distributed learning (sometimes known as federated learning) allows a group of independent data owners to collaboratively learn a model over their data sets without exposing their private data. Our approach combines differential privacy with secure multi-party computation to both protect the data during training and produce a model that provides privacy against inference attacks.</description>
+    </item>
+    
+    <item>
+      <title>Can Machine Learning Ever Be Trustworthy?</title>
+      <link>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</guid>
+      <description>I gave the Booz Allen Hamilton Distinguished Colloquium at the University of Maryland on Can Machine Learning Ever Be Trustworthy?.
+ [Video](https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650) &amp;middot; [SpeakerDeck](https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy) 
+ Abstract Machine learning has produced extraordinary results over the past few years, and machine learning systems are rapidly being deployed for critical tasks, even in adversarial environments. This talk will survey some of the reasons building trustworthy machine learning systems is inherently impossible, and dive into some recent research on adversarial examples.</description>
+    </item>
+    
+    <item>
+      <title>Center for Trustworthy Machine Learning</title>
+      <link>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</guid>
+      <description>The National Science Foundation announced the Center for Trustworthy Machine Learning today, a new five-year SaTC Frontier Center &amp;ldquo;to develop a rigorous understanding of the security risks of the use of machine learning and to devise the tools, metrics and methods to manage and mitigate security vulnerabilities.&amp;rdquo;
+The Center is lead by Patrick McDaniel at Penn State University, and in addition to our group, includes Dan Boneh and Percy Liang (Stanford University), Kamalika Chaudhuri (University of California San Diego), Somesh Jha (University of Wisconsin) and Dawn Song (University of California Berkeley).</description>
+    </item>
+    
+    <item>
+      <title>Artificial intelligence: the new ghost in the machine</title>
+      <link>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
+      <description>Engineering and Technology Magazine (a publication of the British [Institution of Engineering and Technology]() has an article that highlights adversarial machine learning research: Artificial intelligence: the new ghost in the machine, 10 October 2018, by Chris Edwards.
+  Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.</description>
+    </item>
+    
+    <item>
+      <title>Violations of Children’s Privacy Laws</title>
+      <link>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
+      <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
+      <description>The New York Times has an article, How Game Apps That Captivate Kids Have Been Collecting Their Data about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps.</description>
+    </item>
+    
+    <item>
+      <title>USENIX Security 2018</title>
+      <link>//jeffersonswheel.org/usenix-security-2018/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/usenix-security-2018/</guid>
+      <description>Three SRG posters were presented at USENIX Security Symposium 2018 in Baltimore, Maryland:
+ Nathaniel Grevatt (GDPR-Compliant Data Processing: Improving Pseudonymization with Multi-Party Computation) Matthew Wallace and Parvesh Samayamanthula (Deceiving Privacy Policy Classifiers with Adversarial Examples) Guy Verrier (How is GDPR Affecting Privacy Policies?, joint with Haonan Chen and Yuan Tian)  
+         There were also a surprising number of appearances by an unidentified unicorn:</description>
+    </item>
+    
+    <item>
+      <title>Mutually Assured Destruction and the Impending AI Apocalypse</title>
+      <link>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
+      <description>I gave a keynote talk at USENIX Workshop of Offensive Technologies, Baltimore, Maryland, 13 August 2018. The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&amp;#8217;t able to actually figure out a talk to match the title and abstract I provided.
+ The history of security includes a long series of arms races, where a new technology emerges and is subsequently developed and exploited by both defenders and attackers.</description>
+    </item>
+    
+    <item>
+      <title>Cybersecurity Summer Camp</title>
+      <link>//jeffersonswheel.org/cybersecurity-summer-camp/</link>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/cybersecurity-summer-camp/</guid>
+      <description>I helped organize a summer camp for high school teachers focused on cybersecurity, led by Ahmed Ibrahim. Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: Cipher School for Muggles.
+ 
 
-&lt;p&gt;Paper: &lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-</description>
+Cybersecurity Goes to Summer Camp. UVA Today. 22 July 2018. [archive.org]
+ Earlier this week, 25 high school teachers – including 21 from Virginia – filled a glass-walled room in Rice Hall, sitting in high adjustable chairs at wheeled work tables, their laptops open, following a lecture with graphics about the dangers that lurk in cyberspace and trying to figure out how to pass the information on to a generation that seems to share the most intimate details of life online.</description>
+    </item>
+    
+    <item>
+      <title>Dependable and Secure Machine Learning</title>
+      <link>//jeffersonswheel.org/dependable-and-secure-machine-learning/</link>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/dependable-and-secure-machine-learning/</guid>
+      <description>I co-organized, with Homa Alemzadeh and Karthik Pattabiraman, a workshop on trustworthy machine learning attached to DSN 2018, in Luxembourg: DSML: Dependable and Secure Machine Learning.
+ </description>
+    </item>
+    
+    <item>
+      <title>DLS Keynote: Is &#39;adversarial examples&#39; an Adversarial Example?</title>
+      <link>//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</guid>
+      <description>I gave a keynote talk at the 1st Deep Learning and Security Workshop (co-located with the 39th IEEE Symposium on Security and Privacy). San Francisco, California. 24 May 2018
+
+  
+  
+Abstract
+
+ Over the past few years, there has been an explosion of research in security of machine learning and on adversarial examples in particular. Although this is in many ways a new and immature research area, the general problem of adversarial examples has been a core problem in information security for thousands of years.</description>
+    </item>
+    
+    <item>
+      <title>Wahoos at Oakland</title>
+      <link>//jeffersonswheel.org/wahoos-at-oakland/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/wahoos-at-oakland/</guid>
+      <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!
+
+
+Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu
+  ## Poster Session 
+Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF]  
+Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using Internal Layers [PDF]         </description>
+    </item>
+    
+    <item>
+      <title>Lessons from the Last 3000 Years of Adversarial Examples</title>
+      <link>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
+      <description>I spoke on Lessons from the Last 3000 Years of Adversarial Examples at Huawei’s Strategy and Technology Workshop in Shenzhen, China, 15 May 2018.    We also got to tour Huawei&amp;#8217;s new research and development campus, under construction about 40 minutes from Shenzhen. It is pretty close to Disneyland, with its own railroad and villages themed after different European cities (Paris, Bologna, etc.).
+
+
+Huawei&amp;#8217;s New Research and Development Campus [More Pictures]</description>
+    </item>
+    
+    <item>
+      <title>Feature Squeezing at NDSS</title>
+      <link>//jeffersonswheel.org/feature-squeezing-at-ndss/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/feature-squeezing-at-ndss/</guid>
+      <description>Weilin Xu presented Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks at the Network and Distributed System Security Symposium 2018. San Diego, CA. 21 February 2018.
+
+
+
+ Paper: Weilin Xu, David Evans, Yanjun Qi. Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks. NDSS 2018. [PDF]
+Project Site: EvadeML.org</description>
+    </item>
+    
+    <item>
+      <title>Older Posts</title>
+      <link>//jeffersonswheel.org/older-posts/</link>
+      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/older-posts/</guid>
+      <description>Older posts on www.jeffersonswheel.org have not been moved into this new blog, but are still available here:
+ 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008  </description>
     </item>
     
   </channel>

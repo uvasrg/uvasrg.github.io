@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/iclr/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>ICLR on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/iclr/</link>
+    <description>Recent content in ICLR on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Cost-Sensitive Adversarial Robustness at ICLR 2019</title>
@@ -14,14 +17,8 @@
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
-      <description>&lt;p&gt;Xiao Zhang will present &lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt; on May 7 (4:30-6:30pm) at &lt;a href=&#34;https://iclr.cc/Conferences/2019/&#34;&gt;ICLR 2019 in New Orleans.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/docs/cost-sensitive-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/cost-sensitive-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Paper: &lt;a href=&#34;https://evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt; [&lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;ArXiv&lt;/a&gt;]&lt;/p&gt;
-</description>
+      <description>Xiao Zhang will present Cost-Sensitive Robustness against Adversarial Examples on May 7 (4:30-6:30pm) at ICLR 2019 in New Orleans.
+   Paper: [PDF] [OpenReview] [ArXiv]</description>
     </item>
     
     <item>
@@ -30,15 +27,9 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/empirically-measuring-concentration/</guid>
-      <description>&lt;p&gt;Xiao Zhang and Saeed Mahloujifar will present our work on &lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt; at two workshops May 6 at ICLR 2019 in New Orleans: &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning:
-Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Paper: &lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Xiao Zhang and Saeed Mahloujifar will present our work on Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness at two workshops May 6 at ICLR 2019 in New Orleans: Debugging Machine Learning Models and Safe Machine Learning: Specification, Robustness and Assurance.
+Paper: [PDF]
+   </description>
     </item>
     
     <item>
@@ -47,31 +38,8 @@ Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
-      <description>&lt;p&gt;Xiao Zhang and my paper on &lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt; has been accepted to ICLR 2019.&lt;/p&gt;
-
-&lt;p&gt;Several recent works have developed methods for training classifiers
-that are certifiably robust against norm-bounded adversarial
-perturbations. However, these methods assume that all the adversarial
-transformations provide equal value for adversaries, which is seldom
-the case in real-world applications. We advocate for cost-sensitive
-robustness as the criteria for measuring the classifier&amp;rsquo;s performance
-for specific tasks. We encode the potential harm of different
-adversarial transformations in a cost matrix, and propose a general
-objective function to adapt the robust training method of Wong &amp;amp;
-Kolter (2018) to optimize for cost-sensitive robustness. Our
-experiments on simple MNIST and CIFAR10 models and a variety of cost
-matrices show that the proposed approach can produce models with
-substantially reduced cost-sensitive robust error, while maintaining
-classification accuracy.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;//jeffersonswheel.org/images/protecteven.png&#34; width=&#34;70%&#34;&gt;
-&lt;div class=&#34;caption&#34;&gt;
-This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Xiao will present the paper at ICLR in New Orleans in May 2019.&lt;/p&gt;
-</description>
+      <description>Xiao Zhang and my paper on Cost-Sensitive Robustness against Adversarial Examples has been accepted to ICLR 2019.
+Several recent works have developed methods for training classifiers that are certifiably robust against norm-bounded adversarial perturbations. However, these methods assume that all the adversarial transformations provide equal value for adversaries, which is seldom the case in real-world applications. We advocate for cost-sensitive robustness as the criteria for measuring the classifier&amp;rsquo;s performance for specific tasks.</description>
     </item>
     
   </channel>

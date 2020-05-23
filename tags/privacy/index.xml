@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/privacy/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>privacy on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/privacy/</link>
+    <description>Recent content in privacy on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Research Symposium Posters</title>
@@ -14,53 +17,20 @@
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/research-symposium-posters/</guid>
-      <description>&lt;p&gt;Five students from our group presented posters at the department&amp;rsquo;s
-&lt;a href=&#34;https://engineering.virginia.edu/cs-research-symposium-fall-2019&#34;&gt;Fall Research
-Symposium&lt;/a&gt;:&lt;/p&gt;
+      <description>Five students from our group presented posters at the department&amp;rsquo;s Fall Research Symposium:
+ 
+Anshuman Suri&#39;s Overview Talk   Bargav Jayaraman, Evaluating Differentially Private Machine Learning In Practice [Poster]
+[Paper (USENIX Security 2019)]  
 
-&lt;p&gt;&lt;center&gt;
-&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vQcaahIxPyCHIMJti6tRB9HM_RreRhZkGH4wCN7YjTwiHSqcHod9v3hDFj-ZS1TtXp9OtBEBCV8OPH4/embed?start=false&amp;loop=false&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;764&#34; height=&#34;453&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;&lt;br&gt;
-Anshuman Suri&amp;rsquo;s Overview Talk
-&lt;/center&gt;&lt;/p&gt;
+ Hannah Chen [Poster]  
 
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/evaluatingdpml-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt; &lt;br&gt;
-Bargav Jayaraman, &lt;em&gt;Evaluating Differentially Private Machine Learning In Practice&lt;/em&gt;
-[&lt;a href=&#34;
-&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/evaluatingdpml-poster.pdf&#34;&gt;Poster&lt;/a&gt;]&lt;br&gt;
-[&lt;a href=&#34;https://www.cs.virginia.edu/~evans/pubs/usenix2019/&#34;&gt;Paper&lt;/a&gt; (USENIX Security 2019)]
-&lt;/center&gt;&lt;/p&gt;
+ Xiao Zhang [Poster]
+[Paper (NeurIPS 2019)]  
 
-&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
+ Mainudding Jonas [Poster]  
 
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/pretrainedvulnerable-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
-Hannah Chen [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/pretrainedvulnerable-poster.pdf&#34;&gt;Poster&lt;/a&gt;]
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/measuringconcentration-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
-Xiao Zhang [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/measuringconcentration-poster.pdf&#34;&gt;Poster&lt;a&gt;]&lt;br&gt;
-[&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;Paper&lt;/a&gt; (NeurIPS 2019)]
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/diversemodels-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
-Mainudding Jonas [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/diversemodels-poster.pdf&#34;&gt;Poster&lt;/a&gt;]
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/symposters2019/hybridbatch-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;
-Fnu Suya [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/hybridbatch-poster.pdf&#34;&gt;Poster&lt;a&gt;]&lt;br&gt;
-[&lt;a href=&#34;https://arxiv.org/abs/1908.07000&#34;&gt;Paper&lt;/a&gt; (USENIX Security 2020)]
-&lt;/center&gt;&lt;/p&gt;
-</description>
+ Fnu Suya [Poster]
+[Paper (USENIX Security 2020)]  </description>
     </item>
     
     <item>
@@ -69,83 +39,20 @@ Fnu Suya [&lt;a href=&#34;//jeffersonswheel.org/docs/symposters2019/hybridbatch-
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/fosad2019/</guid>
-      <description>
-
-&lt;p&gt;I taught a mini-course on &lt;em&gt;Trustworthy Machine Learning&lt;/em&gt; at the &lt;a href=&#34;http://www.sti.uniurb.it/events/fosad19/&#34;&gt;&lt;em&gt;19th
-International School on Foundations of Security Analysis and
-Design&lt;/em&gt;&lt;/a&gt; in Bertinoro, Italy.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/bertinoro-big.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/bertinoro.jpg&#34; width=&#34;90%&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Slides from my three (two-hour) lectures are posted below, along with
-some links to relevant papers and resources.&lt;/p&gt;
-
-&lt;h2 id=&#34;class-1-introduction-attacks&#34;&gt;Class 1: Introduction/Attacks&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;0ad1775bcc244876ac4df1880a864e78&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;The PDF malware evasion attack is described in this paper:
-&lt;blockquote&gt;
-Weilin Xu, Yanjun Qi, and David Evans.
-&lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2016/&#34;&gt;Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers&lt;/a&gt;&lt;/em&gt;.
-&lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt; (NDSS). San Diego, CA. 21-24 February 2016. [&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2016/evademl.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://evademl.org/gpevasion/&#34;&gt;EvadeML.org&lt;/a&gt;]
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;class-2-defenses&#34;&gt;Class 2: Defenses&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cf560cce9e4b418397d2df3429ddc8f9&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;This paper describes the feature squeezing framework:
-&lt;blockquote&gt;
-Weilin Xu, David Evans, and Yanjun Qi. &lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2018/&#34;&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/a&gt;&lt;/em&gt;. In &lt;a href=&#34;https://www.ndss-symposium.org/ndss2018/&#34;&gt;&lt;em&gt;2018 Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt;. 18-21 February, San Diego, California. [&lt;a href=&#34;https://evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://evademl.org/squeezing/&#34;&gt;Project&lt;/a&gt;]
-&lt;/blockquote&gt;
-This paper introduces cost-sensitive robustness:
-&lt;blockquote&gt;
-Xiao Zhang and David Evans. &lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/iclr2019/&#34;&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/a&gt;&lt;/em&gt;. In &lt;a href=&#34;https://iclr.cc/Conferences/2019&#34;&gt;&lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a
-href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;arXiv&lt;/a&gt;] [&lt;a
-href=&#34;https://openreview.net/forum?id=BygANhA9tQ&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;https://evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;PDF&lt;/a&gt;]
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;class-3-privacy&#34;&gt;Class 3: Privacy&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;8b378ae0ac2c4a7588016311d1d76ef8&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;This (free) book provides an introduction to secure multi-party computation:
-&lt;blockquote&gt;
-David Evans, Vladimir Kolesnikov and Mike Rosulek. &lt;a href=&#34;https://securecomputation.org/&#34;&gt;&lt;em&gt;A Pragmatic Introduction to Secure Multi-Party Computation&lt;/em&gt;&lt;/a&gt;. NOW Publishers, December 2018. &lt;a href=&#34;https://securecomputation.org/docs/pragmaticmpc.pdf&#34;&gt;&lt;a href=&#34;Full Text&#34;&gt;PDF&lt;/a&gt;&lt;/a&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://oblivc.org&#34;&gt;OblivC.org&lt;/a&gt; is an open-source tool for
-building secure multi-party computations from high-level (extended C)
-code.&lt;/p&gt;
-
-&lt;p&gt;This paper describes our work on integrating differential privacy and multi-party computation:
-&lt;blockquote&gt;
-Bargav Jayaraman, Lingxiao Wang, David Evans and Quanquan
-Gu. &lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/neurips2018/&#34;&gt;Distributed Learning without Distress:
-    Privacy-Preserving Empirical Risk Minimization&lt;/a&gt;&lt;/em&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt;
-&lt;em&gt;Conference on Neural Information Processing Systems&lt;/em&gt;&lt;/a&gt;
-(NeurIPS). Montreal, Canada. December 2018. [&lt;a
-    href=&#34;https://www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a
-    href=&#34;https://youtu.be/rwyWiDyVmjE&#34;&gt;Video Summary&lt;/a&gt;]
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;This paper summarizes our work on evaluating the privacy-utility tradeoffs for machine learning:
-&lt;blockquote&gt;
-Bargav Jayaraman and David Evans. &lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/usenix2019/&#34;&gt;Evaluating Differentially Private Machine Learning in Practice&lt;/a&gt;&lt;/em&gt;. In &lt;a
-href=&#34;https://www.usenix.org/conference/usenixsecurity19&#34;&gt;28&lt;sup&gt;th&lt;/sup&gt;
-USENIX Security Symposium&lt;/em&gt;&lt;/a&gt;. Santa&amp;nbsp;Clara. August 2019.
-[&lt;a href=&#34;usenix2019/evaluatingdp.pdf&#34;&gt;PDF&lt;/a&gt;]
-[&lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;arXiv&lt;/a&gt;]
-[&lt;A href=&#34;https://github.com/bargavj/EvaluatingDPML&#34;&gt;code&lt;/a&gt;]
-&lt;/blockquote&gt;&lt;/p&gt;
-</description>
+      <description>I taught a mini-course on Trustworthy Machine Learning at the 19th International School on Foundations of Security Analysis and Design in Bertinoro, Italy.
+ Slides from my three (two-hour) lectures are posted below, along with some links to relevant papers and resources.
+Class 1: Introduction/Attacks    The PDF malware evasion attack is described in this paper:
+ Weilin Xu, Yanjun Qi, and David Evans. Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers.</description>
+    </item>
+    
+    <item>
+      <title>Evaluating Differentially Private Machine Learning in Practice</title>
+      <link>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</guid>
+      <description>(Cross-post by Bargav Jayaraman)
+With the recent advances in composition of differential private mechanisms, the research community has been able to achieve meaningful deep learning with privacy budgets in single digits. Rènyi differential privacy (RDP) is one mechanism that provides tighter composition which is widely used because of its implementation in TensorFlow Privacy (recently, Gaussian differential privacy (GDP) has shown a tighter analysis for low privacy budgets, but it was not yet available when we did this work).</description>
     </item>
     
     <item>
@@ -154,49 +61,11 @@ USENIX Security Symposium&lt;/em&gt;&lt;/a&gt;. Santa&amp;nbsp;Clara. August 201
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/usenix-security-symposium-2019/</guid>
-      <description>&lt;p&gt;Bargav Jayaraman presented our paper on &lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;&lt;em&gt;Evaluating Differentially Private Machine Learning in Practice&lt;/em&gt;&lt;/a&gt; at the &lt;a
-href=&#34;https://www.usenix.org/conference/usenixsecurity19&#34;&gt;28&lt;sup&gt;th&lt;/sup&gt;
-USENIX Security Symposium&lt;/em&gt;&lt;/a&gt; in Santa Clara, California.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/JAGhqbY_U50&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;dfdd40e4ba2b46e1baee68219df82de7&#34; data-ratio=&#34;1.29456384323641&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/bargav.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Summary by Lea Kissner:
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hey it&amp;#39;s the results! &lt;a href=&#34;https://t.co/ru1FbkESho&#34;&gt;pic.twitter.com/ru1FbkESho&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lea Kissner (@LeaKissner) &lt;a href=&#34;https://twitter.com/LeaKissner/status/1162518239177371648?ref_src=twsrc%5Etfw&#34;&gt;August 17, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, great to see several UVA folks at the conference including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://havron.dev&#34;&gt;Sam Havron&lt;/a&gt; (BSCS 2017, now a PhD student at
-Cornell) presented a paper on the work he and his colleagues have
-done on &lt;a href=&#34;https://havron.dev/pubs/clinicalsec.pdf&#34;&gt;computer security for victims of intimate partner violence&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/havron.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.guanotronic.com/~serge/&#34;&gt;Serge Egelman&lt;/a&gt; (BSCS 2004) was an author on the paper &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity19/presentation/reardon&#34;&gt;&lt;em&gt;50 Ways to Leak Your Data: An
-Exploration of Apps&amp;rsquo; Circumvention of the Android Permissions
-System&lt;/em&gt;&lt;/a&gt;
-(which was recognized by a Distinguished Paper Award). His paper in
-SOUPS on &lt;a href=&#34;https://www.usenix.org/system/files/soups2019-frik.pdf&#34;&gt;&lt;em&gt;Privacy and Security Threat Models and Mitigation
-Strategies of Older
-Adults&lt;/em&gt;&lt;/a&gt; was highlighted in Alex Stamos&amp;rsquo; excellent talk.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ytian.info/&#34;&gt;Yuan Tian&lt;/a&gt; (UVA professor) presented her work on Chinese password guessability (since the student author who was planning to present was unfortunately unable to obtain a visa in time). Chinese passwords are different from those of English speakers in many interesting ways, but everyone agrees that &lt;code&gt;123456&lt;/code&gt; is a great password.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/yuantian.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
+       Summary by Lea Kissner:
+ Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
+&amp;mdash; Lea Kissner (@LeaKissner) August 17, 2019   Also, great to see several UVA folks at the conference including:
+ Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.</description>
     </item>
     
     <item>
@@ -205,37 +74,9 @@ Adults&lt;/em&gt;&lt;/a&gt; was highlighted in Alex Stamos&amp;rsquo; excellent 
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
-      <description>&lt;p&gt;Brink News (a publication of the &lt;em&gt;The Atlantic&lt;/em&gt;) published my essay on the risks of deploying AI systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;https://www.brinknews.com/ai-systems-are-complex-and-fragile-here-are-four-key-risks-to-understand/&#34;&gt;&lt;img style=&#34;box-shadow: 10px 10px 5px grey;&#34; src=&#34;//jeffersonswheel.org/images/brink.png&#34; width=90%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood. When AI systems are deployed to make important decisions that impact human safety and well-being, the potential risks of abuse and misbehavior are high and need to be carefully considered and mitigated.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;What Is Deep Learning?&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Over the past seven decades, automatic computing has astonishingly amplified human intelligence. It can execute any information process a human understands well enough to describe precisely at a rate that is quadrillions of times faster than what any human could do. It also enables thousands of people to work together to produce systems that no individual understands.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Artificial intelligence goes beyond this: It allows machines to solve problems in ways no human understands. Instead of being programmed like traditional computing, AI systems are trained. Human engineers set up a training environment and methods, and the machine learns how to solve problems on its own. Although AI is a broad field with many different directions, much of the current excitement is focused on a narrow branch of statistical machine learning known as “deep learning,” where a model is trained to make predictions based on statistical patterns in a training data set.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;In a typical training process, training data is collected, and a model is trained to recognize patterns in this data — as well as patterns in those learned patterns — in order to make predictions about new data. The resulting model can include millions of trained parameters, while providing little insight into how it works or evidence as to which patterns it has learned. It can, however, result in remarkably accurate models when the data used for training is well-distributed and correctly labeled and the data the model needs to make predictions about in deployment is similar to that training data. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;When it is not, however, lots of things can go wrong.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Dogs Also Play in the Snow&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Models learn patterns in the training data, but it is difficult to know if what they have learned is relevant — or just some artifact of the training data. In one famous example, a model that learned to accurately distinguish wolves and dogs &lt;/span&gt;&lt;a href=&#34;https://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;had actually learned nothing about animals&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;. Instead, what it had learned was to recognize snow, since all the training examples with snow were wolves, and the examples without snow were dogs.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;In a more serious example, a PDF malware classifier trained on a corpus of malicious and benign PDF files to produce an accurate model to distinguish malicious PDF files from normal documents actually learned incidental associations, such as “a PDF file with pages is probably benign.” This is a pattern in the training data, since most of the malicious PDFs do not bother to include any content pages, just the malicious payload. But, it&amp;#8217;s not a useful property for distinguishing malware, since a malware author can &lt;/span&gt;&lt;a href=&#34;https://evademl.org/docs/evademl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;easily add pages to a PDF file&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; without disrupting its malicious behavior.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Adversarial Examples&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI systems learn about the data they are trained on, and learning algorithms are designed to generalize from that data, but the resulting models can be fragile and unpredictable.&lt;/span&gt;&lt;/p&gt;
-&lt;blockquote class=&#34;tweet&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Organizations deploying AI systems need to carefully consider how those systems can fail and limit the trust placed in them.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Researchers have developed methods that find tiny perturbations, such as modifying just one or two pixels in an image or changing colors by an amount that is imperceptible to humans, that are enough to change the output prediction. The resulting inputs are known as adversarial examples. Some methods even enable construction of physical objects that confuse classifiers — for example, color patterns can be printed on glasses that lead face-recognition systems to &lt;/span&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~sbhagava/papers/face-rec-ccs16.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;misidentify people as targeted victims&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Reflecting and Amplifying Bias&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;The behavior of AI systems depends on the data they are trained on, and models trained on biased data will reflect those biases. Many well-minded efforts have sought to use algorithms running on unbiased machines to replace the &lt;/span&gt;&lt;a href=&#34;https://www.brinknews.com/algorithms-are-fraught-with-bias-is-there-a-fix/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;inherently biased humans&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; who make critical decisions impacting humans such as granting loans, whether a defendant should be released pending trial and which job candidates to interview.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Unfortunately, there is no way to ensure the algorithms themselves are unbiased, and removing humans from these decision processes risks entrenching those biases. One company, for example, used data from its current employees to train a system to scan resumes to identify interview candidates; the system learned to be biased against women, since &lt;/span&gt;&lt;a href=&#34;https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;the resumes it was trained on&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; were predominantly from male applicants.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Revealing Too Much&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI systems trained on private data such has health records or emails learn to make predictions based on patterns in that data. Unfortunately, they may also reveal sensitive information about that training data.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;One risk is membership inference, which is an attack where an adversary with access to a model trained on private data can learn from the model’s outputs whether or not an individual’s record was part of the training data. This poses a privacy risk, especially if the model is trained on medical records for patients with a particular disease. Models can also memorize specific information in their training data. A language model trained on an email corpus &lt;/span&gt;&lt;a href=&#34;https://arxiv.org/abs/1802.08232&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;might reveal social security numbers&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; contained in those training emails.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;What Can We Do?&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Many researchers are actively working on understanding and mitigating these problems — but although methods exist to mitigate some specific problems, we are a long way from comprehensive solutions. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Organizations deploying AI systems need to carefully consider how those systems can fail and limit the trust placed in them. It is also important to consider whether simpler and more understandable methods can provide equally good solutions before jumping into complex AI techniques like deep learning. In one high-profile example, where considering an AI solution should have raised some red flags, a model for predicting recidivism risk was &lt;/span&gt;&lt;a href=&#34;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;suspected of racial bias&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; in its predictions. A simple model using only three rules based on age, sex and number of prior offenses was found to make &lt;/span&gt;&lt;a href=&#34;https://arxiv.org/abs/1811.10154&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;equally good predictions&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI technologies show great promise and have demonstrated capacity to improve medical diagnosis, automate business processes and free humans from tedious and unrewarding tasks. But decisions about using AI need to also pay attention to the risks and potential pitfalls in using complex, fragile and poorly understood technologies.&lt;/span&gt;&lt;/p&gt;
-</description>
+      <description>Brink News (a publication of the The Atlantic) published my essay on the risks of deploying AI systems.
+   Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. 
+Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.</description>
     </item>
     
     <item>
@@ -244,358 +85,8 @@ Adults&lt;/em&gt;&lt;/a&gt; was highlighted in Alex Stamos&amp;rsquo; excellent 
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;m back from a very interesting &lt;a href=&#34;https://sites.google.com/view/federated-learning-2019/&#34;&gt;&lt;em&gt;Workshop on Federated Learning and
-Analytics&lt;/em&gt;&lt;/a&gt;
-that was organized by &lt;a href=&#34;https://ai.google/research/people/PeterKairouz&#34;&gt;Peter
-Kairouz&lt;/a&gt; and &lt;a href=&#34;https://ai.google/research/people/author35837&#34;&gt;Brendan
-McMahan&lt;/a&gt; from Google&amp;rsquo;s
-federated learning team and was held at Google Seattle.&lt;/p&gt;
-
-&lt;p&gt;For the first part of my talk, I covered Bargav&amp;rsquo;s work on &lt;a href=&#34;http://www.cs.virginia.edu/~evans/pubs/usenix2019/&#34;&gt;evaluating
-differentially private machine
-learning&lt;/a&gt;, but I
-reserved the last few minutes of my talk to address the cognitive
-dissonance I felt being at a Google meeting on privacy.&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide01.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide01.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-I don’t want to offend anyone, and want to preface this by saying I
-have lots of friends and former students who work for Google, people
-that I greatly admire and respect – so I want to raise the cognitive
-dissonance I have being at a “privacy” meeting run by Google, in the
-hopes that people at Google actually do think about privacy and will
-able to convince me how wrong I am.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide02.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide02.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-But, it is necessary to address the elephant in the room &amp;mdash; we are at a &lt;em&gt;privacy&lt;/em&gt; meeting organized by &lt;b&gt;Google&lt;/b&gt;.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide03.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide03.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-Or rather, in this case its the &lt;em&gt;Dragon&amp;nbsp;that&amp;nbsp;Owns&amp;nbsp;the&amp;nbsp;Room&lt;/em&gt;.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p align=&#34;center&#34; style=&#34;margin-top:12px&#34;&gt;
-&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/dragon.png&#34; width=&#34;500&#34; align=&#34;center&#34;&gt;&lt;br&gt;
-&lt;p align=&#34;center&#34;&gt;It may be a cute, colorful, and even &lt;a href=&#34;https://www.mightbeevil.org&#34;&gt;non-evil&lt;/a&gt; Dragon, but it has a huge appetite!&lt;/p&gt;
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34; valign=&#34;middle&#34;&gt;
-
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide06.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide06.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide07.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide07.png&#34;&gt;&lt;/a&gt;
-
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34; valign=&#34;middle&#34;&gt;
-&lt;p&gt;
-This quote is from an essay by Maciej Cegłowski (the founder of Pinboard),
-&lt;a href=&#34;https://idlewords.com/2019/06/the_new_wilderness.htm&#34;&gt;The New Wilderness&lt;/a&gt;:
-&lt;/p&gt;
-&lt;p&gt;
-&lt;em&gt;
-Seen in this light, the giant tech companies can make a credible
-claim to be the defenders of privacy, just like a dragon can
-truthfully boast that it is good at protecting its hoard of
-gold. Nobody spends more money securing user data, or does it more
-effectively, than Facebook and Google. 
-&lt;/em&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;em&gt;
-The question we need to ask is
-not whether our data is safe, but why there is suddenly so much of it
-that needs protecting. The problem with the dragon, after all, is not its stockpile
-stewardship, but its appetite.&lt;/em&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide08.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide08.png&#34;&gt;&lt;/a&gt;
-&lt;p style=&#34;margin-top:10px&#34;&gt;
-&lt;em&gt;
-We’re also working hard to challenge the assumption that products need more data to be more helpful. Data minimization is an important privacy principle for us, and we’re encouraged by advances developed by Google A.I. researchers called “federated learning.” It allows Google’s products to work better for everyone without collecting raw data from your device. ... In the future, A.I. will provide even more ways to make products more helpful with less data.
-&lt;/em&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;em&gt;
-Even as we make privacy and security advances in our own products, we know the kind of privacy we all want as individuals relies on the collaboration and support of many institutions, like legislative bodies and consumer organizations.
-&lt;/em&gt;
-&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-Maciej&amp;rsquo;s essay was partly inspired by the recent New York Times
-opinion piece by Google&amp;rsquo;s CEO: &lt;a
-href=&#34;https://www.nytimes.com/2019/05/07/opinion/google-sundar-pichai-privacy.html&#34;&gt;&lt;em&gt;Google’s
-Sundar Pichai: Privacy Should Not Be a Luxury Good&lt;/em&gt;&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;If you haven&amp;rsquo;t read it, you should. It is truly a masterpiece in
-obfuscation and misdirection.&lt;br /&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Pichai somehow makes the argument that
-privacy and equity are in conflict, and that Google&amp;rsquo;s industrial-scale
-surveillance model is necessary to make its products accessible to
-poor people.
-&lt;/p&gt;
-&lt;p&gt;
-The piece also highlights the work the team here has done on federated
-learning &amp;mdash; terrific visibility and recognition of the value of
-the research, but notably, right before getting into discussion about
-government privacy regulation.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide10.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide10.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-The question I want to raise for the Google researchers and engineers
-working on privacy, is what is the actual &lt;em&gt;purpose&lt;/em&gt; of this
-work for the company? 
-&lt;/p&gt;
-&lt;p&gt;
-I distinguish small &#34;p&#34; privacy from big &#34;P&#34; Privacy. 
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&#34;margin-top:12px&#34;&gt;
-Small &#34;p&#34; privacy is about protecting corporate data from
-outsiders. This used to be called &lt;em&gt;confidentiality&lt;/em&gt;. If you
-only believe in small &#34;p&#34; privacy, there is no difficultly in
-justifying working on privacy at Google.
-&lt;/p&gt;
-&lt;p&gt;
-Big &#34;P&#34; Privacy views privacy as an individual human right, and even
-more, as a societal value. Maciej calls this &lt;em&gt;ambient
-privacy&lt;/em&gt;. It is hard to quantify or even understand what we lose
-when we give up Privacy as individuals and as a society, but the
-thought of living in a society where everyone is under constant
-surveillance strikes me as terrifying and dystopian.
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide11.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide11.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-So, if you believe in &lt;b&gt;P&lt;/b&gt;rivacy, and are working on privacy at
-Google, you should consider whether the purpose (for the company) of
-your work is to &lt;em&gt;improve&lt;/em&gt; or &lt;em&gt;harm&lt;/em&gt; &lt;b&gt;P&lt;/b&gt;rivacy.
-&lt;/p&gt;
-&lt;p&gt;
-Given the nature or Google&#39;s business, you should start from the
-assumption that its purpose is probably to harm &lt;b&gt;P&lt;/b&gt;rivacy, and be
-self-critical in your arguments to convince yourself that it is to
-improve &lt;b&gt;P&lt;/b&gt;rivacy.  
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&#34;margin-top:10px&#34;&gt;
-
-There are many ways technically sound and successful work on improving
-privacy could be used to actually harm &lt;b&gt;P&lt;/b&gt;rivacy. For example,
-
-&lt;ul&gt;
-
-&lt;li&gt; Technical mechanisms for privacy can be used to jusfify
-&lt;b&gt;collecting more data&lt;/b&gt;. Collecting more data is harmful to
-&lt;b&gt;P&lt;/b&gt;rivacy even if it is done in a way that protects individual
-privacy and ensures that sensitive data about individuals cannot be
-inferred. And that&#39;s the best case &amp;mdash; it assumes everything is
-implemented perfectly with no technical mistakes or bugs in the code,
-and that parameters are set in ways that provide sufficient privacy,
-even when this means accepting unsatisfactory utility.&lt;/li&gt;
-
-&lt;li&gt; Privacy work can be used by companies to &lt;b&gt;delay, mislead, and
-confuse regulators&lt;/b&gt;, and to provide public relations opportunities that
-primarily serve to confuse and mislead the public.  There can, of
-course, be beneficial publicity from privacy research, but its
-important to realize that not all publicity is good publicity,
-especially when it comes to how companies use privacy research.
-&lt;/ul&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide12.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide12.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-
-Maciej&#39;s essay draws an analogy between Google&#39;s interest in privacy,
-and the energy industry&#39;s interest in pollution. I&#39;ll make a slightly
-different analogy here, focusing on the role of scientists and
-engineers at these companies.
-&lt;/p&gt;
-&lt;p&gt;
-Of course, comparing Google to poison pushers and destroyers of the
-planet is grossly unfair.
-
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide13.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide13.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-Tobacco Executives testifying to House Energy and Commerce Subcommittee on Health and the Environment 
- that &lt;a href=&#34;https://www.nytimes.com/1994/04/15/us/tobacco-chiefs-say-cigarettes-aren-t-addictive.html&#34;&gt;Cigarettes are not Addictive&lt;/a&gt;, April 1994
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide14.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide14.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
-Twitter CEO Jack Dorsey, Facebook COO Sheryl Sandberg, and empty chair for Google testifying to Senate Intelligence Committee, September 2018
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&#34;margin-top:12px&#34;&gt;
-For one thing, when congress called the tobacco executives to account
-to the public for their behavior, they actually showed up.
-&lt;/p&gt;
-&lt;p&gt;
-
-I&#39;m certainly not here to defend tobacco company executives,
-though. The more relevant comparison is to the scientists who worked
-at these companies.
-&lt;/p&gt;
-
-&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide17.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide17.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;
-
-The tobacco and fossil fuel companies had &lt;em&gt;good scientists&lt;/em&gt;,
-who did work to understand the impact of their industry. Some of those
-scientists reached conclusions that were problematic for their
-companies. Their companies suppressed or distorted those results, and
-emphasized their investments in science in &lt;a
-href=&#34;http://www.climatefiles.com/exxonmobil/1998-exxon-pamphlet-global-climate-change-everyones-debate/&#34;&gt;glossy
-brochures&lt;/a&gt; to influence public policy and opion.
-
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;div class=&#34;row&#34; style=&#34;margin-top:10px&#34;&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-  &lt;a href=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides-full/Slide15.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/googleprivacy2019/slides/Slide15.png&#34;&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;column small-12 medium-6&#34;&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;So, my second challenge to engineers and researchers at Google who
-value &lt;b&gt;P&lt;/b&gt;rivacy, is do be doing work that potentially could lead
-to results the company would want to suppress.
-&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p style=&#34;margin-top:10px&#34;&gt;
-This doesn&amp;rsquo;t mean doing work that is hostile to Google (recall that
-Wigand&amp;rsquo;s project at Brown &amp;amp; Williamson Tobacco was to &lt;a
-href=&#34;https://www.vanityfair.com/magazine/1996/05/wigand199605&#34;&gt;develop
-a safer cigarette&lt;/a&gt;). But it does mean doing research to understand
-the scale and scope of privacy loss resulting from Google&amp;rsquo;s products,
-and to measure its impact on individual behavior and society.
-&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Google&amp;rsquo;s researchers are uniquely well positioned to do this type of
-research &amp;mdash; they have the technical expertise and talent, access
-to data and resources, and opportunity to do large scale experiments.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;reactions&#34;&gt;Reactions&lt;/h2&gt;
-
-&lt;p&gt;
-I was a bit worried about giving this talk to an audience at Google
-(about 40 Googlers and 40 academic researchers in the audience, as
-well as a live stream that I know some people elsewhere at Google were
-watching), especially with a cruise on Lake Washington later in the
-day. But, all the reactions I got were very encouraging and positive,
-with great willingness from the Googlers to consider how people
-outside might perceive their company and interest in thinking about
-ways they can do better.
-&lt;/p&gt;
-
-&lt;p&gt;
-My impression is the engineers and researchers at Google do care about
-&lt;b&gt;P&lt;/b&gt;rivacy, and have some opportunities to influence corporate
-decisions, but it is a large and complex company. From the way academics
-(especially cryptographers) reason about systems, once you trust
-Google to provide your hardware or operating system they are a trusted
-party and can easily access and control everything. From a complex
-corporate perspective, there are big difference between data on your
-physical device (even if it was built by Google), in a database at
-Google, and stored in an encrypted form with privacy noise, even if
-all the code doing this is written and controlled by the same
-organization that has full access to the data. Lots of the privacy
-work at Google is motivated by reducing the internal attack surfaces,
-so sensitive data is exposed to less code and people within the
-organization. This makes sense, at least for small &lt;em&gt;p&lt;/em&gt; privacy.
-&lt;/p&gt;
-&lt;p&gt;
-
-There is a privacy review board at Google (mandated by an FTC consent
-agreement) that conducts a privacy review of all products and can go
-back to engineering teams with requests for changes (and possibly even
-prevent a product from being launched, although Googlers were murky on
-how much power they would have when things come down to it). On the
-other hand, the privacy review is done by Google employees, who,
-however well meaning and ethical they are, are still beholden to their
-employer. This strikes me as a positive, but more like the
-team-employed doctors do administer the concussion protocol during
-football games. (Unfortunately, Google&#39;s efforts to set up an external
-ethics board &lt;a
-href=&#34;https://www.theverge.com/2019/4/4/18296113/google-ai-ethics-board-ends-controversy-kay-coles-james-heritage-foundation&#34;&gt;did
-not go well&lt;/a&gt;.)
-&lt;/p&gt;
-&lt;p&gt;
-
-On the whole, though, I am encouraged by the discussions with the
-Google researchers, that there is some awareness of the complexities
-in working on privacy at Google, and that scientists and engineers
-there can provide some counter-balance to the dragon&#39;s appetite.
-
-&lt;/p&gt;
-&lt;p&gt;
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;This is a wonderful talk from &lt;a href=&#34;https://twitter.com/UdacityDave?ref_src=twsrc%5Etfw&#34;&gt;@UdacityDave&lt;/a&gt; at the University of Virginia, delivered at Google, that touches on the fundamental ethical conflict of working on privacy technologies for a surveillance giant. &lt;a href=&#34;https://t.co/ucPezrSuTB&#34;&gt;https://t.co/ucPezrSuTB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Pinboard (@Pinboard) &lt;a href=&#34;https://twitter.com/Pinboard/status/1143658356453736448?ref_src=twsrc%5Etfw&#34;&gt;June 25, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m back from a very interesting Workshop on Federated Learning and Analytics that was organized by Peter Kairouz and Brendan McMahan from Google&amp;rsquo;s federated learning team and was held at Google Seattle.
+For the first part of my talk, I covered Bargav&amp;rsquo;s work on evaluating differentially private machine learning, but I reserved the last few minutes of my talk to address the cognitive dissonance I felt being at a Google meeting on privacy.</description>
     </item>
     
     <item>
@@ -604,15 +95,7 @@ there can provide some counter-balance to the dragon&#39;s appetite.
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
-      <description>&lt;p&gt;The New York Times has an article, &lt;a href=&#34;https://www.nytimes.com/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html&#34;&gt;&lt;em&gt;How Game Apps That Captivate Kids Have Been Collecting Their Data&lt;/em&gt;&lt;/a&gt; about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps. Serge was an undergraduate student here (back in the early 2000s) &amp;#8211; one of the things he did as a undergraduate was successfully sue a spammer.&lt;/p&gt;
-&lt;p&gt;The original paper about the study: &lt;a href=&#34;https://blues.cs.berkeley.edu/wp-content/uploads/2018/04/popets-2018-0021.pdf&#34;&gt;“Won’t Somebody Think of the Children?” Examining COPPA Compliance at Scale&lt;/a&gt;, Irwin Reyes, Primal Wijesekera, Joel Reardon, Amit Elazari Bar On, Abbas Razaghpanah, Narseo Vallina-Rodriguez, and Serge Egelman. Proceedings on Privacy Enhancing Technologies (PETS) 2018.&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;br /&gt;
-&lt;img src=&#34;https://static01.nyt.com/images/2018/09/13/autossell/13Kidapps2/13Kidapps2-superJumbo.jpg&#34; width=&#34;80%&#34;&gt;&lt;br /&gt;
-&lt;div class=&#34;caption&#34;&gt;
-Serge Egelman, a researcher with the International Computer Science Institute and the University of California, Berkeley, helped lead the study of nearly 6,000 children’s Android apps&lt;br /&gt;
-&lt;/div&gt;
-&lt;/center&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>The New York Times has an article, How Game Apps That Captivate Kids Have Been Collecting Their Data about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps.</description>
     </item>
     
     <item>
@@ -621,42 +104,9 @@ Serge Egelman, a researcher with the International Computer Science Institute an
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/usenix-security-2018/</guid>
-      <description>&lt;p&gt;Three SRG posters were presented at &lt;a
-href=&#34;https://www.usenix.org/conference/usenixsecurity18/poster-session&#34;&gt;USENIX
-Security Symposium 2018&lt;/a&gt; in Baltimore, Maryland:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Nathaniel Grevatt (&lt;em&gt;GDPR-Compliant Data Processing: Improving
-Pseudonymization with Multi-Party Computation&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;Matthew Wallace and Parvesh Samayamanthula (&lt;em&gt;Deceiving Privacy Policy Classifiers with Adversarial Examples&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;Guy Verrier (&lt;em&gt;How is GDPR Affecting Privacy Policies?&lt;/em&gt;, joint with Haonan Chen and Yuan
-Tian)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;/p&gt;
-&lt;table width=&#34;85%&#34;&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190616.jpg&#34; height=220&gt;
-&lt;/td&gt;
-&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_190626.jpg&#34; height=220&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192620.jpg&#34; height=220&gt;
-&lt;/td&gt;
-&lt;td href=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646-2.jpg&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;//jeffersonswheel.org/images/usenix2018/IMG_20180816_192646.jpg&#34; height=220&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;p&gt;There were also a surprising number of appearances by an unidentified unicorn:&lt;br /&gt;
-&lt;center&gt;&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Your poster may have made the cut for the &lt;a href=&#34;https://twitter.com/hashtag/usesec18?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#usesec18&lt;/a&gt; Poster Reception, but has it received the approval of a tiny, adorable unicorn? &lt;a href=&#34;https://twitter.com/UVA?ref_src=twsrc%5Etfw&#34;&gt;@UVA&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/seenatusesec18?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#seenatusesec18&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/girlswhocode?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#girlswhocode&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/futurecomputerscientist?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#futurecomputerscientist&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/dreambig?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dreambig&lt;/a&gt; &lt;a href=&#34;https://t.co/bZOO6lYLXK&#34;&gt;pic.twitter.com/bZOO6lYLXK&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;mdash; USENIX Security (@USENIXSecurity) &lt;a href=&#34;https://twitter.com/USENIXSecurity/status/1030215384505491456?ref_src=twsrc%5Etfw&#34;&gt;August 16, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;br /&gt;
-&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Three SRG posters were presented at USENIX Security Symposium 2018 in Baltimore, Maryland:
+ Nathaniel Grevatt (GDPR-Compliant Data Processing: Improving Pseudonymization with Multi-Party Computation) Matthew Wallace and Parvesh Samayamanthula (Deceiving Privacy Policy Classifiers with Adversarial Examples) Guy Verrier (How is GDPR Affecting Privacy Policies?, joint with Haonan Chen and Yuan Tian)  
+         There were also a surprising number of appearances by an unidentified unicorn:</description>
     </item>
     
   </channel>

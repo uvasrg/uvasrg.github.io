@@ -1,12 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/privacy-preserving-machine-learning/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>privacy-preserving machine learning on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/privacy-preserving-machine-learning/</link>
+    <description>Recent content in privacy-preserving machine learning on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/tags/privacy-preserving-machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/tags/privacy-preserving-machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Evaluating Differentially Private Machine Learning in Practice</title>
+      <link>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</guid>
+      <description>(Cross-post by Bargav Jayaraman)
+With the recent advances in composition of differential private mechanisms, the research community has been able to achieve meaningful deep learning with privacy budgets in single digits. Rènyi differential privacy (RDP) is one mechanism that provides tighter composition which is widely used because of its implementation in TensorFlow Privacy (recently, Gaussian differential privacy (GDP) has shown a tighter analysis for low privacy budgets, but it was not yet available when we did this work).</description>
+    </item>
     
     <item>
       <title>USENIX Security Symposium 2019</title>
@@ -14,49 +27,11 @@
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/usenix-security-symposium-2019/</guid>
-      <description>&lt;p&gt;Bargav Jayaraman presented our paper on &lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;&lt;em&gt;Evaluating Differentially Private Machine Learning in Practice&lt;/em&gt;&lt;/a&gt; at the &lt;a
-href=&#34;https://www.usenix.org/conference/usenixsecurity19&#34;&gt;28&lt;sup&gt;th&lt;/sup&gt;
-USENIX Security Symposium&lt;/em&gt;&lt;/a&gt; in Santa Clara, California.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/JAGhqbY_U50&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;dfdd40e4ba2b46e1baee68219df82de7&#34; data-ratio=&#34;1.29456384323641&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/bargav.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Summary by Lea Kissner:
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hey it&amp;#39;s the results! &lt;a href=&#34;https://t.co/ru1FbkESho&#34;&gt;pic.twitter.com/ru1FbkESho&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lea Kissner (@LeaKissner) &lt;a href=&#34;https://twitter.com/LeaKissner/status/1162518239177371648?ref_src=twsrc%5Etfw&#34;&gt;August 17, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, great to see several UVA folks at the conference including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://havron.dev&#34;&gt;Sam Havron&lt;/a&gt; (BSCS 2017, now a PhD student at
-Cornell) presented a paper on the work he and his colleagues have
-done on &lt;a href=&#34;https://havron.dev/pubs/clinicalsec.pdf&#34;&gt;computer security for victims of intimate partner violence&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/havron.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.guanotronic.com/~serge/&#34;&gt;Serge Egelman&lt;/a&gt; (BSCS 2004) was an author on the paper &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity19/presentation/reardon&#34;&gt;&lt;em&gt;50 Ways to Leak Your Data: An
-Exploration of Apps&amp;rsquo; Circumvention of the Android Permissions
-System&lt;/em&gt;&lt;/a&gt;
-(which was recognized by a Distinguished Paper Award). His paper in
-SOUPS on &lt;a href=&#34;https://www.usenix.org/system/files/soups2019-frik.pdf&#34;&gt;&lt;em&gt;Privacy and Security Threat Models and Mitigation
-Strategies of Older
-Adults&lt;/em&gt;&lt;/a&gt; was highlighted in Alex Stamos&amp;rsquo; excellent talk.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ytian.info/&#34;&gt;Yuan Tian&lt;/a&gt; (UVA professor) presented her work on Chinese password guessability (since the student author who was planning to present was unfortunately unable to obtain a visa in time). Chinese passwords are different from those of English speakers in many interesting ways, but everyone agrees that &lt;code&gt;123456&lt;/code&gt; is a great password.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/yuantian.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
+       Summary by Lea Kissner:
+ Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
+&amp;mdash; Lea Kissner (@LeaKissner) August 17, 2019   Also, great to see several UVA folks at the conference including:
+ Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.</description>
     </item>
     
     <item>
@@ -65,22 +40,8 @@ Adults&lt;/em&gt;&lt;/a&gt; was highlighted in Alex Stamos&amp;rsquo; excellent 
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: &lt;a href=&#34;https://www.technologyreview.com/s/613520/how-ai-could-save-lives-without-spilling-secrets/&#34;&gt;&lt;em&gt;How AI could save lives without spilling medical secrets&lt;/em&gt;&lt;/a&gt;, MIT Technology Review, 14 May 2019.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;You would love it if a medical researcher could learn on everyone&amp;rsquo;s medical records,&amp;rdquo; Evans says. &amp;ldquo;You could do an analysis and tell if a drug is working on not. But you can&amp;rsquo;t do that today.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Despite the potential Oasis represents, Evans is cautious. Storing data in secure hardware creates a potential point of failure, he notes. If the company that makes the hardware is compromised, then all the data handled this way will also be vulnerable. Blockchains are relatively unproven, he adds.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;There&amp;rsquo;s a lot of different tech coming together,&amp;rdquo; he says of Oasis&amp;rsquo;s approach. &amp;ldquo;Some is mature, and some is cutting-edge and has challenges.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(I&amp;rsquo;m pretty sure I didn&amp;rsquo;t actually say &amp;ldquo;tech&amp;rdquo; in my call with Will
-Knight since I wouldn&amp;rsquo;t use that wording, but would say
-&amp;ldquo;technologies&amp;rdquo;.)&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: How AI could save lives without spilling medical secrets, MIT Technology Review, 14 May 2019.
+ &amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
     </item>
     
     <item>
@@ -89,50 +50,8 @@ Knight since I wouldn&amp;rsquo;t use that wording, but would say
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</guid>
-      <description>
-
-&lt;p&gt;Bargav Jayaraman presented our work on privacy-preserving machine learning at the &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt; &lt;em&gt;Conference on Neural Information Processing Systems&lt;/em&gt;&lt;/a&gt; (NeurIPS 2018) in Montreal.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Distributed learning&lt;/em&gt; (sometimes known as &lt;em&gt;federated learning&lt;/em&gt;)
-allows a group of independent data owners to collaboratively learn a
-model over their data sets without exposing their private data.  Our
-approach combines &lt;em&gt;differential privacy&lt;/em&gt; with secure &lt;em&gt;multi-party
-computation&lt;/em&gt; to both protect the data during training and produce a
-model that provides privacy against inference attacks.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
-    src=&#34;https://www.youtube-nocookie.com/embed/rwyWiDyVmjE&#34;
-    frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media;
-    gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;We explore two popular methods of differential privacy, output
-perturbation and gradient perturbation, and advance the
-state-of-the-art for both methods in the distributed learning
-setting. In our output perturbation method, the parties combine local
-models within a secure computation and then add therequired
-differential privacy noise before revealing the model. In our gradient
-perturbation method, the data owners collaboratively train a global
-model via aniterative learning algorithm. At each iteration, the
-parties aggregate their local gradients within a secure computation,
-adding sufficient noise to ensure privacy before the gradient updates
-are revealed. For both methods, we show that the noise can be reduced
-in the multi-party setting by adding the noise inside the
-securecomputation after aggregation, asymptotically improving upon the
-best previous results. Experiments on real world data sets demonstrate
-that our methods providesubstantial utility gains for typical privacy
-requirements.&lt;/p&gt;
-
-&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/bargavj/distributedMachineLearning&#34;&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/bargavj/distributedMachineLearning&#34;&gt;https://github.com/bargavj/distributedMachineLearning&lt;/a&gt;&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
-
-&lt;p&gt;Bargav Jayaraman, Lingxiao Wang, David Evans and Quanquan Gu. &lt;a href=&#34;//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;&lt;em&gt;Distributed Learning without Distress:
-Privacy-Preserving Empirical Risk Minimization&lt;/em&gt;&lt;/a&gt;. &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt; Conference on Neural Information Processing Systems&lt;/a&gt; (NeurIPS). Montreal, Canada. December 2018. (&lt;a href=&#34;//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;PDF&lt;/a&gt;, 19 pages, including supplemental materials)&lt;/p&gt;
-</description>
+      <description>Bargav Jayaraman presented our work on privacy-preserving machine learning at the 32nd Conference on Neural Information Processing Systems (NeurIPS 2018) in Montreal.
+Distributed learning (sometimes known as federated learning) allows a group of independent data owners to collaboratively learn a model over their data sets without exposing their private data. Our approach combines differential privacy with secure multi-party computation to both protect the data during training and produce a model that provides privacy against inference attacks.</description>
     </item>
     
   </channel>

@@ -13,6 +13,9 @@ pageNotFoundDetail = "Your request was determined to be an adversarial example b
 
 # disqusShortname = "evans1629"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [permalinks]
     post = "/:slug/"
     code = "/:slug/"

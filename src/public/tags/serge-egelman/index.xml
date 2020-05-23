@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/serge-egelman/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>Serge Egelman on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/serge-egelman/</link>
+    <description>Recent content in Serge Egelman on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/tags/serge-egelman/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/tags/serge-egelman/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>USENIX Security Symposium 2019</title>
@@ -14,49 +17,11 @@
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/usenix-security-symposium-2019/</guid>
-      <description>&lt;p&gt;Bargav Jayaraman presented our paper on &lt;a href=&#34;https://arxiv.org/abs/1902.08874&#34;&gt;&lt;em&gt;Evaluating Differentially Private Machine Learning in Practice&lt;/em&gt;&lt;/a&gt; at the &lt;a
-href=&#34;https://www.usenix.org/conference/usenixsecurity19&#34;&gt;28&lt;sup&gt;th&lt;/sup&gt;
-USENIX Security Symposium&lt;/em&gt;&lt;/a&gt; in Santa Clara, California.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/JAGhqbY_U50&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;dfdd40e4ba2b46e1baee68219df82de7&#34; data-ratio=&#34;1.29456384323641&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/bargav.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Summary by Lea Kissner:
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hey it&amp;#39;s the results! &lt;a href=&#34;https://t.co/ru1FbkESho&#34;&gt;pic.twitter.com/ru1FbkESho&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lea Kissner (@LeaKissner) &lt;a href=&#34;https://twitter.com/LeaKissner/status/1162518239177371648?ref_src=twsrc%5Etfw&#34;&gt;August 17, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, great to see several UVA folks at the conference including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://havron.dev&#34;&gt;Sam Havron&lt;/a&gt; (BSCS 2017, now a PhD student at
-Cornell) presented a paper on the work he and his colleagues have
-done on &lt;a href=&#34;https://havron.dev/pubs/clinicalsec.pdf&#34;&gt;computer security for victims of intimate partner violence&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/havron.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.guanotronic.com/~serge/&#34;&gt;Serge Egelman&lt;/a&gt; (BSCS 2004) was an author on the paper &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity19/presentation/reardon&#34;&gt;&lt;em&gt;50 Ways to Leak Your Data: An
-Exploration of Apps&amp;rsquo; Circumvention of the Android Permissions
-System&lt;/em&gt;&lt;/a&gt;
-(which was recognized by a Distinguished Paper Award). His paper in
-SOUPS on &lt;a href=&#34;https://www.usenix.org/system/files/soups2019-frik.pdf&#34;&gt;&lt;em&gt;Privacy and Security Threat Models and Mitigation
-Strategies of Older
-Adults&lt;/em&gt;&lt;/a&gt; was highlighted in Alex Stamos&amp;rsquo; excellent talk.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ytian.info/&#34;&gt;Yuan Tian&lt;/a&gt; (UVA professor) presented her work on Chinese password guessability (since the student author who was planning to present was unfortunately unable to obtain a visa in time). Chinese passwords are different from those of English speakers in many interesting ways, but everyone agrees that &lt;code&gt;123456&lt;/code&gt; is a great password.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2019/yuantian.jpg&#34; width=80%&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
+       Summary by Lea Kissner:
+ Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
+&amp;mdash; Lea Kissner (@LeaKissner) August 17, 2019   Also, great to see several UVA folks at the conference including:
+ Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.</description>
     </item>
     
     <item>
@@ -65,15 +30,7 @@ Adults&lt;/em&gt;&lt;/a&gt; was highlighted in Alex Stamos&amp;rsquo; excellent 
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
-      <description>&lt;p&gt;The New York Times has an article, &lt;a href=&#34;https://www.nytimes.com/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html&#34;&gt;&lt;em&gt;How Game Apps That Captivate Kids Have Been Collecting Their Data&lt;/em&gt;&lt;/a&gt; about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps. Serge was an undergraduate student here (back in the early 2000s) &amp;#8211; one of the things he did as a undergraduate was successfully sue a spammer.&lt;/p&gt;
-&lt;p&gt;The original paper about the study: &lt;a href=&#34;https://blues.cs.berkeley.edu/wp-content/uploads/2018/04/popets-2018-0021.pdf&#34;&gt;“Won’t Somebody Think of the Children?” Examining COPPA Compliance at Scale&lt;/a&gt;, Irwin Reyes, Primal Wijesekera, Joel Reardon, Amit Elazari Bar On, Abbas Razaghpanah, Narseo Vallina-Rodriguez, and Serge Egelman. Proceedings on Privacy Enhancing Technologies (PETS) 2018.&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;br /&gt;
-&lt;img src=&#34;https://static01.nyt.com/images/2018/09/13/autossell/13Kidapps2/13Kidapps2-superJumbo.jpg&#34; width=&#34;80%&#34;&gt;&lt;br /&gt;
-&lt;div class=&#34;caption&#34;&gt;
-Serge Egelman, a researcher with the International Computer Science Institute and the University of California, Berkeley, helped lead the study of nearly 6,000 children’s Android apps&lt;br /&gt;
-&lt;/div&gt;
-&lt;/center&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>The New York Times has an article, How Game Apps That Captivate Kids Have Been Collecting Their Data about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps.</description>
     </item>
     
   </channel>

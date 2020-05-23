@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/multi-party-computation/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>multi-party computation on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/multi-party-computation/</link>
+    <description>Recent content in multi-party computation on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/tags/multi-party-computation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/tags/multi-party-computation/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How AI could save lives without spilling medical secrets</title>
@@ -14,22 +17,8 @@
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: &lt;a href=&#34;https://www.technologyreview.com/s/613520/how-ai-could-save-lives-without-spilling-secrets/&#34;&gt;&lt;em&gt;How AI could save lives without spilling medical secrets&lt;/em&gt;&lt;/a&gt;, MIT Technology Review, 14 May 2019.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;You would love it if a medical researcher could learn on everyone&amp;rsquo;s medical records,&amp;rdquo; Evans says. &amp;ldquo;You could do an analysis and tell if a drug is working on not. But you can&amp;rsquo;t do that today.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Despite the potential Oasis represents, Evans is cautious. Storing data in secure hardware creates a potential point of failure, he notes. If the company that makes the hardware is compromised, then all the data handled this way will also be vulnerable. Blockchains are relatively unproven, he adds.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;There&amp;rsquo;s a lot of different tech coming together,&amp;rdquo; he says of Oasis&amp;rsquo;s approach. &amp;ldquo;Some is mature, and some is cutting-edge and has challenges.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(I&amp;rsquo;m pretty sure I didn&amp;rsquo;t actually say &amp;ldquo;tech&amp;rdquo; in my call with Will
-Knight since I wouldn&amp;rsquo;t use that wording, but would say
-&amp;ldquo;technologies&amp;rdquo;.)&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: How AI could save lives without spilling medical secrets, MIT Technology Review, 14 May 2019.
+ &amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
     </item>
     
   </channel>

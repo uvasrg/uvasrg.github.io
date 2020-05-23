@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/categories/publications/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>publications on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/categories/publications/</link>
+    <description>Recent content in publications on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/categories/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/categories/publications/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>USENIX Security 2020: Hybrid Batch Attacks</title>
@@ -14,151 +17,10 @@
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/usenix-security-2020-hybrid-batch-attacks/</guid>
-      <description>
-
-&lt;h2 id=&#34;finding-black-box-adversarial-examples-with-limited-queries&#34;&gt;Finding Black-box Adversarial Examples with Limited Queries&lt;/h2&gt;
-
-&lt;p&gt;Black-box attacks generate adversarial examples (AEs) against deep
-neural networks with only API access to the victim model.&lt;/p&gt;
-
-&lt;p&gt;Existing black-box attacks can be grouped into two main categories:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Transfer Attacks&lt;/strong&gt; use white-box attacks on local models to find
-candidate adversarial examples that transfer to the target model.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Optimization Attacks&lt;/strong&gt; use queries to the target model and apply
-optimization techniques to search for adversarial examples.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;hybrid-attack&#34;&gt;Hybrid Attack&lt;/h3&gt;
-
-&lt;p&gt;We propose a &lt;em&gt;hybrid attack&lt;/em&gt; that combines transfer and optimization attacks:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Transfer Attack &amp;rarr; Optimization Attack &amp;mdash; take candidate adversarial examples of the local models of transfer attacks as the starting points for optimization attacks.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Optimization Attack &amp;rarr; Transfer Attack &amp;mdash; intermediate query results from the optimization attacks are used to fine-tune the local models of transfer attacks.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/hybridattack.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/hybridattack.png&#34; width=&#34;60%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;We validate effectiveness of the hybrid attack over the baseline on three benchmark datasets: MNIST, CIFAR10, ImageNet. In this post, we only show the results of &lt;a href=&#34;https://arxiv.org/abs/1805.11770&#34;&gt;AutoZOOM&lt;/a&gt; as the selected optimization method. More results of other attacks can be found in the &lt;a href=&#34;../docs/hybrid_attack.pdf&#34;&gt;paper&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;local-adversarial-examples-are-useful-transfer-rarr-optimization&#34;&gt;Local Adversarial Examples are Useful (Transfer &amp;rarr; Optimization)&lt;/h2&gt;
-
-&lt;p&gt;Below, we compare the performance of AutoZOOM attack when it starts
-from 1) the local adversarial examples, and 2) the original
-points. Here, we report results for targeted attacks on normal (i.e.,
-non-robust) models:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/local_candidate_results.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/local_candidate_results.png&#34; width=&#34;65%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Local AEs can substantially boost the performance of optimization
-attacks, but when the same attack is used against &lt;a href=&#34;https://github.com/MadryLab/cifar10_challenge&#34;&gt;robust
-models&lt;/a&gt;, the improvement is small:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/normal_model_fails.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/normal_model_fails.png&#34; width=&#34;65%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;This ineffectiveness appears to stem from differences in the attack
-space of normal and robust models. Therefore, to improve effectiveness
-against robust target model, we use robust local models to produce the
-transfer candidates for starting the optimization attacks. The figure
-below compares impact of normal and robust local models when attacking
-the robust target model:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/local_model_comparison.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/local_model_comparison.png&#34; width=&#34;60%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;tuning-with-byproduces-doesn-t-help-much-optimization-rarr-transfer&#34;&gt;Tuning with Byproduces Doesn&amp;rsquo;t Help Much (Optimization &amp;rarr; Transfer)&lt;/h2&gt;
-
-&lt;p&gt;Below, we compare the performance of AutoZOOM attack on MNIST normal
-model when the local models are 1) fine-tuned during the attack
-process, and 2) kept static:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/fine_tune_results.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/usenix2020/fine_tune_results.png&#34; width=&#34;60%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Tuining local models using byproducts from the optimization attack
-improves the query efficiency. However, for more complex datasets
-(e.g., CIFAR10), we observe degradation in the attack performance by
-fine-tuning (check Table 6 in the &lt;a href=&#34;../docs/hybrid_attack.pdf&#34;&gt;paper&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h2 id=&#34;batch-attacks&#34;&gt;Batch Attacks&lt;/h2&gt;
-
-&lt;p&gt;We consider a &lt;strong&gt;batch attack&lt;/strong&gt; scenario: adversaries have limited
-number of queries and want to maximize the number of adversarial
-examples found within the limit. This is a more realistic way to
-evaluate attacks for most adversarial purposes, then just looking at
-the average cost to attack each seed in a large pool of seeds.&lt;/p&gt;
-
-&lt;p&gt;The number of queries required for attacking a specific seed varies
-greatly across seeds:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/usenix2020/query_variance.png&#34;&gt;&lt;img src=&#34;../images/usenix2020/query_variance.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Based on this observation, we propose &lt;strong&gt;two-phase strategy&lt;/strong&gt; to prioritize easy seeds for the &lt;strong&gt;hybrid attack&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;In the first phase, the likely-to-transfer seeds are prioritized
-based on their PGD-steps taken to attack the local models. The
-candidate adversarial example for seed seed is attempted in order to
-find all the direct transfers.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In the second phase, the remaining seeds are prioritized based on
-their target loss value with respect to the target model.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;To validate effectievness of the two-phase strategy, we compare to two seed prioritization strategies:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Retroactive Optimal&lt;/strong&gt;: a non-realizable attack that assumes adversaries already know the exact number of queries to attack each seed (before the attack starts) and can prioritize seeds by their actual query cost. This provides an lower bound on the query cost for an optimal strategy.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Random:&lt;/strong&gt; this is a baseline strategy where seeds are prioritized in random order (this is the stragety assumed in most works where the adverage costs are reported).&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Results for the AutoZOOM attack on a normal ImageNet model are shown below:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;../images/usenix2020/batch_attack_results.png&#34; width=&#34;60%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Our two-phase strategy performs closely to the retroactive optimal
-strategy and outpeforms random baseline significantly: with same
-number of query limit, two-phase strategy finds significantly more
-adversarial examples comapred to the random baseline, and is closer to
-the retroactive optimal case. (See the paper for more experimental
-results and variations on the prioritization strategy.)&lt;/p&gt;
-
-&lt;h3 id=&#34;main-takeaways&#34;&gt;Main Takeaways&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Transfer &amp;rarr; Optimization:&lt;/strong&gt; local adversarial examples can generally be used to boost optimization attacks. One caveat is, against robust target model, hybrid attack is more effective with robust local models.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Transfer &amp;rarr; Optimization:&lt;/strong&gt; fine-tuning local models is only helpful for small scale dataset (e.g., MNIST) and fails to generalize to more complex datasets. It is an open question whether we can make the fine-tuning process work for complex datasets.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Prioritizing seeds&lt;/strong&gt; based on two-phase strategy for the hybrid attack can significantly improve its query efficiency in batch attack scenario.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Our results make the case that it is important to evaluate both
-attacks and defenses with a more realistic adversary model than just
-looking at the average cost to attack a seed over a large pool of
-seeds. When an adversary only need to find a small number of
-adversarial examples, and has access to a large pool of potential
-seeds to attack (of equal value to the adversary), then the effective
-costs of a successful attack can be orders of magnitude lower than
-what would be projected assuming an adversary who cannot prioritize
-seeds to attack.&lt;/p&gt;
-
-&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://fsuya.org&#34;&gt;Fnu Suya&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/jianfeng-chi-001b25133/&#34;&gt;Jianfeng Chi&lt;/a&gt;, &lt;a href=&#34;http://www.cs.virginia.edu/~evans/&#34;&gt;David Evans&lt;/a&gt; and &lt;a href=&#34;https://www.ytian.info&#34;&gt;Yuan Tian&lt;/a&gt;. &lt;a href=&#34;https://arxiv.org/pdf/1908.07000.pdf&#34;&gt;&lt;em&gt;Hybrid Batch Attacks: Finding Black-box
-Adversarial Examples with Limited Queries&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity20&#34;&gt;&lt;em&gt;USENIX Security 2020&lt;/em&gt;&lt;/a&gt;. Boston, August 2020. [&lt;a href=&#34;//jeffersonswheel.org/docs/hybrid_attack.pdf&#34;&gt;PDF&lt;/a&gt;]&amp;nbsp;[&lt;a href=&#34;https://arxiv.org/abs/1908.07000&#34;&gt;arXiv&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/suyeecav/Hybrid-Attack&#34;&gt;https://github.com/suyeecav/Hybrid-Attack&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;In this repository, we provide the source code to reproduce the results in the paper. In addition, we believe our hybrid attack framework can (potentially) help boost the performance of new optimization attacks. Therefore, in the repository, we also provide tutorials to incorporate new optimization attacks into the hybrid attack framework.&lt;/p&gt;
-</description>
+      <description>Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.
+Existing black-box attacks can be grouped into two main categories:
+  Transfer Attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model.
+  Optimization Attacks use queries to the target model and apply optimization techniques to search for adversarial examples.</description>
     </item>
     
     <item>
@@ -167,80 +29,8 @@ Adversarial Examples with Limited Queries&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt; will
-present our work (with &lt;a
-href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt; and
-&lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood
-Mahmoody&lt;/a&gt;) as a spotlight at &lt;a href=&#34;https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792&#34;&gt;NeurIPS
-2019&lt;/a&gt;,
-Vancouver, 10 December 2019.&lt;/p&gt;
-
-&lt;p&gt;Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s
-&lt;a href=&#34;https://aipavilion.github.io/&#34;&gt;&lt;em&gt;Adversarial Spheres&lt;/em&gt;&lt;/a&gt; (2018), show
-that if inputs are drawn from a concentrated metric probability space,
-then adversarial examples with small perturbation are inevitable.c The
-key insight from this line of research is that &lt;a href=&#34;https://en.wikipedia.org/wiki/Concentration_of_measure&amp;quot;&#34;&gt;&lt;em&gt;concentration of
-measure&lt;/em&gt;&lt;/a&gt;
-gives lower bound on adversarial risk for a large collection of
-classifiers (e.g. imperfect classifiers with risk at least $\alpha$),
-which further implies the impossibility results for robust learning
-against adversarial examples.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/advRisk.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;However, it is not clear whether these theoretical results apply to
-actual distributions such as images. This work presents a method for
-empirically measuring and bounding the concentration of a concrete
-dataset which is proven to converge to the actual concentration. More
-specifically, we prove that by simultaneously increasing the sample
-size and a complexity parameter of the selected collection of subsets
-$\mathcal{G}$, the concentration of the empirical measure based on
-samples converges to the actual concentration asymptotically.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/theory.png&#34; width=&#34;70%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;To solve the empirical concentration problem, we propose heuristic
-algorithms to find error regions with small expansion under both
-$\ell_\infty$ and $\ell_2$ metrics.&lt;/p&gt;
-
-&lt;p&gt;For instance, our algorithm for $\ell_\infty$ starts by sorting the
-dataset based on the empirical density estimated using k-nearest
-neighbor, and then obtains $T$ rectangular data clusters by performing
-k-means clustering on the top-$q$ densest images. After expanding each
-of the rectangles by $\epsilon$, the error region $\mathcal{E}$ is
-then specified as the complement of the expanded rectangles (the
-reddish region in the following figure). Finally, we search for the
-best error region by tuning the number of rectangles $T$ and the
-initial coverage percentile $q$.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/alg.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Based on the proposed algorithm, we empirically measure the
-concentration for image benchmarks, such as MNIST and
-CIFAR-10. Compared with state-of-the-art robustly trained models, our
-estimated bound shows that, for most settings, there exists a large
-gap between the robust error achieved by the best current models and
-the theoretical limits implied by concentration.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/experiments.png&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;br&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;This suggests the concentration of measure is not the only reason
-behind the vulnerability of existing classifiers to adversarial
-perturbations. Thus, either there is room for improving the robustness
-of image classifiers or a need for deeper understanding of the reasons
-for the gap between intrinsic robustness and the actual robustness
-achieved by robust models.&lt;/p&gt;
-
-&lt;h3 id=&#34;paper&#34;&gt;Paper&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt;&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, &lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt;&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, &lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood Mahmoody&lt;/a&gt; and &lt;a href=&#34;https://www.cs.virginia.edu/evans/&#34;&gt;David Evans&lt;/a&gt;. &lt;a href=&#34;//jeffersonswheel.org/docs/empirically-measuring-concentration.pdf&#34;&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2019/&#34;&gt;&lt;em&gt;NeurIPS 2019&lt;/em&gt;&lt;/a&gt; (&lt;a href=&#34;https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792&#34;&gt;&lt;em&gt;spotlight presentation&lt;/em&gt;&lt;/a&gt;). Vancouver, December 2019. [&lt;a href=&#34;//jeffersonswheel.org/docs/empirically-measuring-concentration.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;arXiv&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;&lt;em&gt;https://github.com/xiaozhanguva/Measure-Concentration&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
+Recent theoretical results, starting with Gilmer et al.&amp;lsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
     </item>
     
     <item>
@@ -249,37 +39,9 @@ achieved by robust models.&lt;/p&gt;
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
-      <description>&lt;p&gt;Brink News (a publication of the &lt;em&gt;The Atlantic&lt;/em&gt;) published my essay on the risks of deploying AI systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;https://www.brinknews.com/ai-systems-are-complex-and-fragile-here-are-four-key-risks-to-understand/&#34;&gt;&lt;img style=&#34;box-shadow: 10px 10px 5px grey;&#34; src=&#34;//jeffersonswheel.org/images/brink.png&#34; width=90%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood. When AI systems are deployed to make important decisions that impact human safety and well-being, the potential risks of abuse and misbehavior are high and need to be carefully considered and mitigated.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;What Is Deep Learning?&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Over the past seven decades, automatic computing has astonishingly amplified human intelligence. It can execute any information process a human understands well enough to describe precisely at a rate that is quadrillions of times faster than what any human could do. It also enables thousands of people to work together to produce systems that no individual understands.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Artificial intelligence goes beyond this: It allows machines to solve problems in ways no human understands. Instead of being programmed like traditional computing, AI systems are trained. Human engineers set up a training environment and methods, and the machine learns how to solve problems on its own. Although AI is a broad field with many different directions, much of the current excitement is focused on a narrow branch of statistical machine learning known as “deep learning,” where a model is trained to make predictions based on statistical patterns in a training data set.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;In a typical training process, training data is collected, and a model is trained to recognize patterns in this data — as well as patterns in those learned patterns — in order to make predictions about new data. The resulting model can include millions of trained parameters, while providing little insight into how it works or evidence as to which patterns it has learned. It can, however, result in remarkably accurate models when the data used for training is well-distributed and correctly labeled and the data the model needs to make predictions about in deployment is similar to that training data. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;When it is not, however, lots of things can go wrong.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Dogs Also Play in the Snow&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Models learn patterns in the training data, but it is difficult to know if what they have learned is relevant — or just some artifact of the training data. In one famous example, a model that learned to accurately distinguish wolves and dogs &lt;/span&gt;&lt;a href=&#34;https://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;had actually learned nothing about animals&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;. Instead, what it had learned was to recognize snow, since all the training examples with snow were wolves, and the examples without snow were dogs.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;In a more serious example, a PDF malware classifier trained on a corpus of malicious and benign PDF files to produce an accurate model to distinguish malicious PDF files from normal documents actually learned incidental associations, such as “a PDF file with pages is probably benign.” This is a pattern in the training data, since most of the malicious PDFs do not bother to include any content pages, just the malicious payload. But, it&amp;#8217;s not a useful property for distinguishing malware, since a malware author can &lt;/span&gt;&lt;a href=&#34;https://evademl.org/docs/evademl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;easily add pages to a PDF file&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; without disrupting its malicious behavior.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Adversarial Examples&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI systems learn about the data they are trained on, and learning algorithms are designed to generalize from that data, but the resulting models can be fragile and unpredictable.&lt;/span&gt;&lt;/p&gt;
-&lt;blockquote class=&#34;tweet&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Organizations deploying AI systems need to carefully consider how those systems can fail and limit the trust placed in them.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Researchers have developed methods that find tiny perturbations, such as modifying just one or two pixels in an image or changing colors by an amount that is imperceptible to humans, that are enough to change the output prediction. The resulting inputs are known as adversarial examples. Some methods even enable construction of physical objects that confuse classifiers — for example, color patterns can be printed on glasses that lead face-recognition systems to &lt;/span&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~sbhagava/papers/face-rec-ccs16.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;misidentify people as targeted victims&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Reflecting and Amplifying Bias&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;The behavior of AI systems depends on the data they are trained on, and models trained on biased data will reflect those biases. Many well-minded efforts have sought to use algorithms running on unbiased machines to replace the &lt;/span&gt;&lt;a href=&#34;https://www.brinknews.com/algorithms-are-fraught-with-bias-is-there-a-fix/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;inherently biased humans&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; who make critical decisions impacting humans such as granting loans, whether a defendant should be released pending trial and which job candidates to interview.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Unfortunately, there is no way to ensure the algorithms themselves are unbiased, and removing humans from these decision processes risks entrenching those biases. One company, for example, used data from its current employees to train a system to scan resumes to identify interview candidates; the system learned to be biased against women, since &lt;/span&gt;&lt;a href=&#34;https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;the resumes it was trained on&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; were predominantly from male applicants.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;Revealing Too Much&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI systems trained on private data such has health records or emails learn to make predictions based on patterns in that data. Unfortunately, they may also reveal sensitive information about that training data.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;One risk is membership inference, which is an attack where an adversary with access to a model trained on private data can learn from the model’s outputs whether or not an individual’s record was part of the training data. This poses a privacy risk, especially if the model is trained on medical records for patients with a particular disease. Models can also memorize specific information in their training data. A language model trained on an email corpus &lt;/span&gt;&lt;a href=&#34;https://arxiv.org/abs/1802.08232&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;might reveal social security numbers&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; contained in those training emails.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;What Can We Do?&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Many researchers are actively working on understanding and mitigating these problems — but although methods exist to mitigate some specific problems, we are a long way from comprehensive solutions. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Organizations deploying AI systems need to carefully consider how those systems can fail and limit the trust placed in them. It is also important to consider whether simpler and more understandable methods can provide equally good solutions before jumping into complex AI techniques like deep learning. In one high-profile example, where considering an AI solution should have raised some red flags, a model for predicting recidivism risk was &lt;/span&gt;&lt;a href=&#34;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;suspected of racial bias&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt; in its predictions. A simple model using only three rules based on age, sex and number of prior offenses was found to make &lt;/span&gt;&lt;a href=&#34;https://arxiv.org/abs/1811.10154&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;equally good predictions&lt;/span&gt;&lt;/a&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;AI technologies show great promise and have demonstrated capacity to improve medical diagnosis, automate business processes and free humans from tedious and unrewarding tasks. But decisions about using AI need to also pay attention to the risks and potential pitfalls in using complex, fragile and poorly understood technologies.&lt;/span&gt;&lt;/p&gt;
-</description>
+      <description>Brink News (a publication of the The Atlantic) published my essay on the risks of deploying AI systems.
+   Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. 
+Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.</description>
     </item>
     
     <item>
@@ -288,14 +50,8 @@ achieved by robust models.&lt;/p&gt;
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
-      <description>&lt;p&gt;Xiao Zhang will present &lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt; on May 7 (4:30-6:30pm) at &lt;a href=&#34;https://iclr.cc/Conferences/2019/&#34;&gt;ICLR 2019 in New Orleans.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/docs/cost-sensitive-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/cost-sensitive-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Paper: &lt;a href=&#34;https://evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt; [&lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;ArXiv&lt;/a&gt;]&lt;/p&gt;
-</description>
+      <description>Xiao Zhang will present Cost-Sensitive Robustness against Adversarial Examples on May 7 (4:30-6:30pm) at ICLR 2019 in New Orleans.
+   Paper: [PDF] [OpenReview] [ArXiv]</description>
     </item>
     
     <item>
@@ -304,15 +60,9 @@ achieved by robust models.&lt;/p&gt;
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/empirically-measuring-concentration/</guid>
-      <description>&lt;p&gt;Xiao Zhang and Saeed Mahloujifar will present our work on &lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt; at two workshops May 6 at ICLR 2019 in New Orleans: &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning:
-Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Paper: &lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Xiao Zhang and Saeed Mahloujifar will present our work on Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness at two workshops May 6 at ICLR 2019 in New Orleans: Debugging Machine Learning Models and Safe Machine Learning: Specification, Robustness and Assurance.
+Paper: [PDF]
+   </description>
     </item>
     
     <item>
@@ -321,36 +71,8 @@ Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</guid>
-      <description>&lt;p&gt;Samin Yasar presented our paper on &lt;a href=&#34;https://arxiv.org/abs/1901.09802&#34;&gt;&lt;em&gt;Context-award Monitoring in
-Robotic Surgery&lt;/em&gt;&lt;/a&gt; at the 2019
-&lt;a href=&#34;https://web.archive.org/web/20190416013641/http://www.ismr.gatech.edu/&#34;&gt;&lt;em&gt;International Symposium on Medical
-Robotics&lt;/em&gt;&lt;/a&gt;
-(ISMR) in Atlanta, Georgia.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/surgery.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/surgery.png&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Robotic-assisted minimally invasive surgery (MIS) has enabled
-procedures with increased precision and dexterity, but surgical robots
-are still open loop and require surgeons to work with a tele-operation
-console providing only limited visual feedback. In this setting,
-mechanical failures, software faults, or human errors might lead to
-adverse events resulting in patient complications or fatalities. We
-argue that impending adverse events could be detected and mitigated by
-applying context-specific safety constraints on the motions of the
-robot. We present a context-aware safety monitoring system which
-segments a surgical task into subtasks using kinematics data and
-monitors safety constraints specific to each subtask. To test our
-hypothesis about context specificity of safety constraints, we analyze
-recorded demonstrations of dry-lab surgical tasks collected from the
-JIGSAWS database as well as from experiments we conducted on a Raven
-II surgical robot. Analysis of the trajectory data shows that each
-subtask of a given surgical procedure has consistent safety
-constraints across multiple demonstrations by different subjects. Our
-preliminary results show that violations of these safety constraints
-lead to unsafe events, and there is often sufficient time between the
-constraint violation and the safety-critical event to allow for a
-corrective action.&lt;/p&gt;
-</description>
+      <description>Samin Yasar presented our paper on Context-award Monitoring in Robotic Surgery at the 2019 International Symposium on Medical Robotics (ISMR) in Atlanta, Georgia.
+ Robotic-assisted minimally invasive surgery (MIS) has enabled procedures with increased precision and dexterity, but surgical robots are still open loop and require surgeons to work with a tele-operation console providing only limited visual feedback. In this setting, mechanical failures, software faults, or human errors might lead to adverse events resulting in patient complications or fatalities.</description>
     </item>
     
     <item>
@@ -359,31 +81,8 @@ corrective action.&lt;/p&gt;
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
-      <description>&lt;p&gt;Xiao Zhang and my paper on &lt;a href=&#34;https://openreview.net/forum?id=BygANhA9tQ&amp;amp;noteId=BJe7cKRWeN&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt; has been accepted to ICLR 2019.&lt;/p&gt;
-
-&lt;p&gt;Several recent works have developed methods for training classifiers
-that are certifiably robust against norm-bounded adversarial
-perturbations. However, these methods assume that all the adversarial
-transformations provide equal value for adversaries, which is seldom
-the case in real-world applications. We advocate for cost-sensitive
-robustness as the criteria for measuring the classifier&amp;rsquo;s performance
-for specific tasks. We encode the potential harm of different
-adversarial transformations in a cost matrix, and propose a general
-objective function to adapt the robust training method of Wong &amp;amp;
-Kolter (2018) to optimize for cost-sensitive robustness. Our
-experiments on simple MNIST and CIFAR10 models and a variety of cost
-matrices show that the proposed approach can produce models with
-substantially reduced cost-sensitive robust error, while maintaining
-classification accuracy.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;//jeffersonswheel.org/images/protecteven.png&#34; width=&#34;70%&#34;&gt;
-&lt;div class=&#34;caption&#34;&gt;
-This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Xiao will present the paper at ICLR in New Orleans in May 2019.&lt;/p&gt;
-</description>
+      <description>Xiao Zhang and my paper on Cost-Sensitive Robustness against Adversarial Examples has been accepted to ICLR 2019.
+Several recent works have developed methods for training classifiers that are certifiably robust against norm-bounded adversarial perturbations. However, these methods assume that all the adversarial transformations provide equal value for adversaries, which is seldom the case in real-world applications. We advocate for cost-sensitive robustness as the criteria for measuring the classifier&amp;rsquo;s performance for specific tasks.</description>
     </item>
     
     <item>
@@ -392,33 +91,9 @@ This shows the results of cost-sensitive robustness training to protect the odd 
       <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/a-pragmatic-introduction-to-secure-multi-party-computation/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;//securecomputation.org&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/pragmaticmpc.jpg&#34; align=&#34;right&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;A Pragmatic Introduction to Secure Multi-Party Computation&lt;/em&gt;,
-co-authored with Vladimir Kolesnikov and Mike Rosulek, is now
-published by Now Publishers in their
-&lt;a href=&#34;https://www.nowpublishers.com/SEC&#34;&gt;&lt;em&gt;Foundations and Trends in Privacy and Security&lt;/em&gt;&lt;/a&gt; series.&lt;/p&gt;
-
-&lt;p&gt;You can download the book for free (we retain the copyright and are
-allowed to post an open version) from
-&lt;a href=&#34;//securecomputation.org&#34;&gt;securecomputation.org&lt;/a&gt;, or buy an PDF
-version from the published for $260 (there is also a printed $99
-version).&lt;/p&gt;
-
-&lt;div class=&#34;abstract&#34;&gt;
-Secure multi-party computation (MPC) has evolved from a theoretical
-curiosity in the 1980s to a tool for building real systems today. Over
-the past decade, MPC has been one of the most active research areas in
-both theoretical and applied cryptography. This book introduces
-several important MPC protocols, and surveys methods for improving the
-efficiency of privacy-preserving applications built using MPC. Besides
-giving a broad overview of the field and the insights of the main
-constructions, we overview the most currently active areas of MPC
-research and aim to give readers insights into what problems are
-practically solvable using MPC today and how different threat models
-and assumptions impact the practicality of different approaches.
-&lt;/div&gt;
-</description>
+      <description>A Pragmatic Introduction to Secure Multi-Party Computation, co-authored with Vladimir Kolesnikov and Mike Rosulek, is now published by Now Publishers in their Foundations and Trends in Privacy and Security series.
+You can download the book for free (we retain the copyright and are allowed to post an open version) from securecomputation.org, or buy an PDF version from the published for $260 (there is also a printed $99 version).
+Secure multi-party computation (MPC) has evolved from a theoretical curiosity in the 1980s to a tool for building real systems today.</description>
     </item>
     
     <item>
@@ -427,50 +102,8 @@ and assumptions impact the practicality of different approaches.
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</guid>
-      <description>
-
-&lt;p&gt;Bargav Jayaraman presented our work on privacy-preserving machine learning at the &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt; &lt;em&gt;Conference on Neural Information Processing Systems&lt;/em&gt;&lt;/a&gt; (NeurIPS 2018) in Montreal.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Distributed learning&lt;/em&gt; (sometimes known as &lt;em&gt;federated learning&lt;/em&gt;)
-allows a group of independent data owners to collaboratively learn a
-model over their data sets without exposing their private data.  Our
-approach combines &lt;em&gt;differential privacy&lt;/em&gt; with secure &lt;em&gt;multi-party
-computation&lt;/em&gt; to both protect the data during training and produce a
-model that provides privacy against inference attacks.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
-    src=&#34;https://www.youtube-nocookie.com/embed/rwyWiDyVmjE&#34;
-    frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media;
-    gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;We explore two popular methods of differential privacy, output
-perturbation and gradient perturbation, and advance the
-state-of-the-art for both methods in the distributed learning
-setting. In our output perturbation method, the parties combine local
-models within a secure computation and then add therequired
-differential privacy noise before revealing the model. In our gradient
-perturbation method, the data owners collaboratively train a global
-model via aniterative learning algorithm. At each iteration, the
-parties aggregate their local gradients within a secure computation,
-adding sufficient noise to ensure privacy before the gradient updates
-are revealed. For both methods, we show that the noise can be reduced
-in the multi-party setting by adding the noise inside the
-securecomputation after aggregation, asymptotically improving upon the
-best previous results. Experiments on real world data sets demonstrate
-that our methods providesubstantial utility gains for typical privacy
-requirements.&lt;/p&gt;
-
-&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/bargavj/distributedMachineLearning&#34;&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/bargavj/distributedMachineLearning&#34;&gt;https://github.com/bargavj/distributedMachineLearning&lt;/a&gt;&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
-
-&lt;p&gt;Bargav Jayaraman, Lingxiao Wang, David Evans and Quanquan Gu. &lt;a href=&#34;//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;&lt;em&gt;Distributed Learning without Distress:
-Privacy-Preserving Empirical Risk Minimization&lt;/em&gt;&lt;/a&gt;. &lt;a href=&#34;https://nips.cc/Conferences/2018/&#34;&gt;32&lt;sup&gt;nd&lt;/sup&gt; Conference on Neural Information Processing Systems&lt;/a&gt; (NeurIPS). Montreal, Canada. December 2018. (&lt;a href=&#34;//www.cs.virginia.edu/evans/pubs/neurips2018/neurips2018.pdf&#34;&gt;PDF&lt;/a&gt;, 19 pages, including supplemental materials)&lt;/p&gt;
-</description>
+      <description>Bargav Jayaraman presented our work on privacy-preserving machine learning at the 32nd Conference on Neural Information Processing Systems (NeurIPS 2018) in Montreal.
+Distributed learning (sometimes known as federated learning) allows a group of independent data owners to collaboratively learn a model over their data sets without exposing their private data. Our approach combines differential privacy with secure multi-party computation to both protect the data during training and produce a model that provides privacy against inference attacks.</description>
     </item>
     
   </channel>

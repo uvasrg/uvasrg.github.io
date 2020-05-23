@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/history/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>history on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/history/</link>
+    <description>Recent content in history on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Cantor&#39;s (No Longer) Lost Proof</title>
@@ -14,104 +17,8 @@
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/cantors-no-longer-lost-proof/</guid>
-      <description>&lt;p&gt;In preparing to cover Cantor&amp;rsquo;s proof of different infinite set
-cardinalities (one of my all-time favorite topics!) in our &lt;a href=&#34;https://uvatoc.github.io/class4/&#34;&gt;theory of
-computation course&lt;/a&gt;, I found various
-conflicting accounts of what Cantor originally proved. So, I figured
-it would be easy to search the web to find the original proof.&lt;/p&gt;
-
-&lt;p&gt;Shockingly, at least as far as I could find&lt;sup&gt;1&lt;/sup&gt;, it didn&amp;rsquo;t
- exist on the web! The closest I could find was in Google Books the
- 1892 volume of the &lt;em&gt;J&amp;auml;hresbericht Deutsche
- Mathematiker-Vereinigung&lt;/em&gt; (which many of the references pointed
- to), but in fact not the first value of that journal which contains
- the actual proof.&lt;/p&gt;
-
-&lt;p&gt;Normally, of course, when something doesn&amp;rsquo;t turn up in DuckDuckGo
-searches, that means it doesn&amp;rsquo;t exist, but for a document this old, I
-figured it was worth actually visiting a library. (Okay, nothing quite
-so radical as going to a physical library! By visit, I mean, going to
-the website for the university library and searching there.)&lt;/p&gt;
-
-&lt;p&gt;So, I tried submitting the form our library has, requesting &lt;em&gt;Uber eine
-elementare Frage der Mannigfaltigkeits-lehre&lt;/em&gt; by G. Cantor from the
-1891 journal. I didn&amp;rsquo;t notice the scan request until after submitting,
-so I tried again, checking the box to request a PDF scan.&lt;/p&gt;
-
-&lt;p&gt;I was delighted a few days later to receive this email:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;a href=&#34;//jeffersonswheel.org/images/cantor/email.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/email.png&#34; width=&#34;80%&#34; style=&#34;box-shadow: 10px 10px 5px grey;&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;And, indeed the link went to a scan of Cantor&amp;rsquo;s original proof (&lt;a href=&#34;//jeffersonswheel.org/docs/cantor-proof.pdf&#34;&gt;PDF&lt;/a&gt;):&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;embed src=&#34;//jeffersonswheel.org/docs/cantor-proof.pdf&#34; width=&#34;80%&#34; height=&#34;500&#34; 
- type=&#34;application/pdf&#34;&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;The really cool thing is about two days later I happened to wander
-into the printer room, and saw a strange object in my mailbox with a
-nice musty smell.&lt;/p&gt;
-
-&lt;p&gt;Apparently, the original request I&amp;rsquo;d submitted to the library had gone
-through, and I found myself starting at an 1891 edition of a German
-math journal!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083500.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083500-2.jpg&#34; width=&#34;50%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;And on pages 75-78, Cantor&amp;rsquo;s original published proof!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083511.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083511-2.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083522.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083522-2.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083526.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083526-2.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083526.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083526-2.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083549.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/cantor/IMG_20190919_083549-2.jpg&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t read German, but the last line is well worth translating:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/cantor/translation.png&#34;&gt;
-&lt;img src=&#34;//jeffersonswheel.org/images/cantor/translation.png&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;From now on, whenever its hard to come up with a good conclusion to a
-paper, this one always works.&lt;/p&gt;
-
-&lt;p&gt;I believe our library&amp;rsquo;s policy is that (at least for faculty) when you
-check out a book you can keep it until the next person requests
-it. So, I&amp;rsquo;ll be holding on to this one until then. When prospective
-high school students visit UVA, they often ask to see all the cool
-cutting edge technology we use in our research. I&amp;rsquo;ll be happy to show
-them three of the coolest things I have in my office: an abacus, an
-Apple II, and now, an 1891 math journal.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Apparently I wasn&amp;rsquo;t very good at searching then. In writing this
-post, I tried a new search and found a great post with both the
-original German and an English translation: &lt;a
-href=&#34;https://www.jamesrmeyer.com/infinite/cantors-original-1891-proof.html&#34;&gt;&lt;em&gt;Cantor’s
-Original 1891 Diagonal proof&lt;/em&gt;&lt;/a&gt; by James Meyer.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>In preparing to cover Cantor&amp;rsquo;s proof of different infinite set cardinalities (one of my all-time favorite topics!) in our theory of computation course, I found various conflicting accounts of what Cantor originally proved. So, I figured it would be easy to search the web to find the original proof.
+Shockingly, at least as far as I could find1, it didn&amp;rsquo;t exist on the web! The closest I could find was in Google Books the 1892 volume of the Jähresbericht Deutsche Mathematiker-Vereinigung (which many of the references pointed to), but in fact not the first value of that journal which contains the actual proof.</description>
     </item>
     
   </channel>

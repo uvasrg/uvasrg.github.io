@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/categories/food/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>food on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/categories/food/</link>
+    <description>Recent content in food on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/categories/food/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/categories/food/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>SRG Lunch</title>
@@ -14,25 +17,9 @@
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/srg-lunch/</guid>
-      <description>&lt;p&gt;Some photos for our lunch to celebrate the end of semester, beginning
-of summer, and congratulate Weilin Xu on his PhD:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/ORG_DSC08199.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/ORG_DSC08199-2.jpg&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;div class=&#34;caption&#34;&gt;
-&lt;em&gt;Left to right&lt;/em&gt;: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;Jayaraman, Aihua&amp;nbsp;Chen, Hannah&amp;nbsp;Chen, Weilin&amp;nbsp;Xu, Riley&amp;nbsp;Spahn, David&amp;nbsp;Evans, Fnu&amp;nbsp;Suya, Yuan&amp;nbsp;Tian, Mainuddin&amp;nbsp;Jonas, Tu&amp;nbsp;Le, Faysal&amp;nbsp;Hossain, Xiao&amp;nbsp;Zhang, Jack&amp;nbsp;Verrier
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;table width=&#34;95%&#34;&gt;
-&lt;tr&gt;
-&lt;td width=&#34;46%&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/IMG_20190430_130313.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/IMG_20190430_130313-2.jpg&#34; height=&#34;50&#34;&gt;
-&lt;/td&gt;
-&lt;td width=&#34;50%&#34;&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/IMG_20190430_130343.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/IMG_20190430_130343-2.jpg&#34; height=&#34;50&#34;&gt;
-&lt;/td&gt;
-&lt;/table&gt;
-</description>
+      <description>Some photos for our lunch to celebrate the end of semester, beginning of summer, and congratulate Weilin Xu on his PhD:
+ 
+Left to right: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;Jayaraman, Aihua&amp;nbsp;Chen, Hannah&amp;nbsp;Chen, Weilin&amp;nbsp;Xu, Riley&amp;nbsp;Spahn, David&amp;nbsp;Evans, Fnu&amp;nbsp;Suya, Yuan&amp;nbsp;Tian, Mainuddin&amp;nbsp;Jonas, Tu&amp;nbsp;Le, Faysal&amp;nbsp;Hossain, Xiao&amp;nbsp;Zhang, Jack&amp;nbsp;Verrier      </description>
     </item>
     
   </channel>

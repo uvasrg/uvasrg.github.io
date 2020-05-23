@@ -106,29 +106,24 @@
 </div>
 
       <div class="post-body" itemprop="articleBody">
-        
-
-<p><a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a> will
+        <p><a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a> will
 present our work (with <a
 href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a> and
 <a href="https://www.cs.virginia.edu/~mohammad/">Mohamood
 Mahmoody</a>) as a spotlight at <a href="https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792">NeurIPS
 2019</a>,
 Vancouver, 10 December 2019.</p>
-
-<p>Recent theoretical results, starting with Gilmer et al.&rsquo;s
+<p>Recent theoretical results, starting with Gilmer et al.&lsquo;s
 <a href="https://aipavilion.github.io/"><em>Adversarial Spheres</em></a> (2018), show
 that if inputs are drawn from a concentrated metric probability space,
 then adversarial examples with small perturbation are inevitable.c The
-key insight from this line of research is that <a href="https://en.wikipedia.org/wiki/Concentration_of_measure&quot;"><em>concentration of
+key insight from this line of research is that <a href="https://en.wikipedia.org/wiki/Concentration_of_measure%22%3E"><em>concentration of
 measure</em></a>
 gives lower bound on adversarial risk for a large collection of
 classifiers (e.g. imperfect classifiers with risk at least $\alpha$),
 which further implies the impossibility results for robust learning
 against adversarial examples.</p>
-
-<p><center><img src="/images/concentration/advRisk.png" width="80%" align="center"></center></p>
-
+<center><img src="/images/concentration/advRisk.png" width="80%" align="center"></center>
 <p>However, it is not clear whether these theoretical results apply to
 actual distributions such as images. This work presents a method for
 empirically measuring and bounding the concentration of a concrete
@@ -137,13 +132,10 @@ specifically, we prove that by simultaneously increasing the sample
 size and a complexity parameter of the selected collection of subsets
 $\mathcal{G}$, the concentration of the empirical measure based on
 samples converges to the actual concentration asymptotically.</p>
-
-<p><center><img src="/images/concentration/theory.png" width="70%" align="center"></center></p>
-
+<center><img src="/images/concentration/theory.png" width="70%" align="center"></center>
 <p>To solve the empirical concentration problem, we propose heuristic
 algorithms to find error regions with small expansion under both
 $\ell_\infty$ and $\ell_2$ metrics.</p>
-
 <p>For instance, our algorithm for $\ell_\infty$ starts by sorting the
 dataset based on the empirical density estimated using k-nearest
 neighbor, and then obtains $T$ rectangular data clusters by performing
@@ -153,31 +145,23 @@ then specified as the complement of the expanded rectangles (the
 reddish region in the following figure). Finally, we search for the
 best error region by tuning the number of rectangles $T$ and the
 initial coverage percentile $q$.</p>
-
 <p><img src="/images/concentration/alg.png" width="80%" align="center"></center></p>
-
 <p>Based on the proposed algorithm, we empirically measure the
 concentration for image benchmarks, such as MNIST and
 CIFAR-10. Compared with state-of-the-art robustly trained models, our
 estimated bound shows that, for most settings, there exists a large
 gap between the robust error achieved by the best current models and
 the theoretical limits implied by concentration.</p>
-
 <p><img src="/images/concentration/experiments.png" width="100%" align="center"><br></center></p>
-
 <p>This suggests the concentration of measure is not the only reason
 behind the vulnerability of existing classifiers to adversarial
 perturbations. Thus, either there is room for improving the robustness
 of image classifiers or a need for deeper understanding of the reasons
 for the gap between intrinsic robustness and the actual robustness
 achieved by robust models.</p>
-
 <h3 id="paper">Paper</h3>
-
-<p><a href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a><sup><font size="-2">&#9733;</font></sup>, <a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a><sup><font size="-2">&#9733;</font></sup>, <a href="https://www.cs.virginia.edu/~mohammad/">Mohamood Mahmoody</a> and <a href="https://www.cs.virginia.edu/evans/">David Evans</a>. <a href="/docs/empirically-measuring-concentration.pdf"><em>Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness</em></a>. In <a href="https://nips.cc/Conferences/2019/"><em>NeurIPS 2019</em></a> (<a href="https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792"><em>spotlight presentation</em></a>). Vancouver, December 2019. [<a href="/docs/empirically-measuring-concentration.pdf">PDF</a>] [<a href="https://arxiv.org/abs/1905.12202">arXiv</a>]</p>
-
+<p><a href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a><sup><font size="-2">★</font></sup>, <a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a><sup><font size="-2">★</font></sup>, <a href="https://www.cs.virginia.edu/~mohammad/">Mohamood Mahmoody</a> and <a href="https://www.cs.virginia.edu/evans/">David Evans</a>. <a href="/docs/empirically-measuring-concentration.pdf"><em>Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness</em></a>. In <a href="https://nips.cc/Conferences/2019/"><em>NeurIPS 2019</em></a> (<a href="https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792"><em>spotlight presentation</em></a>). Vancouver, December 2019. [<a href="/docs/empirically-measuring-concentration.pdf">PDF</a>] [<a href="https://arxiv.org/abs/1905.12202">arXiv</a>]</p>
 <h3 id="code">Code</h3>
-
 <p><a href="https://github.com/xiaozhanguva/Measure-Concentration"><em>https://github.com/xiaozhanguva/Measure-Concentration</em></a></p>
 
       </div>

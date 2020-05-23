@@ -1,0 +1,288 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Evaluating Differentially Private Machine Learning in Practice | Jefferson&#39;s Wheel</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="//jeffersonswheel.org/css/foundation.min.css">
+    <link rel="stylesheet" href="//jeffersonswheel.org/css/highlight.min.css">
+    <link rel="stylesheet" href="//jeffersonswheel.org/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//jeffersonswheel.org/css/academicons.min.css">
+    <link rel="stylesheet" href="//jeffersonswheel.org/css/fonts.css">
+    <link rel="stylesheet" href="//jeffersonswheel.org/css/finite.css">
+    <link rel="shortcut icon" href="/rotunda.png">  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\[","\]"], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      messageStyle: "none",
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  </script>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+  </script>
+
+    
+  </head>
+  <body>
+      
+    <header>
+      <nav class="nav-bar">
+	
+	  <div class="title-bar" data-responsive-toggle="site-menu" data-hide-for="medium">	      
+	    <button class="site-hamburger" type="button" data-toggle>
+	      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+	    </button>
+	    <div class="title-bar-title site-title">
+	      <a href="//jeffersonswheel.org/">Jefferson&#39;s Wheel</a>
+	    </div>
+	    <div class="title-bar-right pull-right">
+	      
+
+
+
+	    </div>
+	  </div>
+	    
+	  
+	    <div class="top-bar" id="site-menu" >	      
+	      <div class="top-bar-title show-for-medium site-title">
+		<a href="//jeffersonswheel.org/">Jefferson&#39;s Wheel</a>
+	      </div>
+	      <div class="top-bar-left">
+		<ul class="menu vertical medium-horizontal">
+		  
+		  
+		</ul>
+	      </div>
+	      <div class="top-bar-right show-for-medium">
+		
+
+
+
+	      </div>
+	    </div>
+	  
+	</nav>
+      
+    </header>
+    
+    <main>
+      
+<div style="margin-top:16px; margin-left: auto; margin-right: auto; max-width: 800px;">
+    <article class="article" itemscope itemtype="http://schema.org/Article">
+      
+      <h1 itemprop="name">Evaluating Differentially Private Machine Learning in Practice</h1>
+      <div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2019-08-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">27 August 2019</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/privacy">privacy</a>,</span> 
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/bargav-jayaraman">Bargav Jayaraman</a>, 
+    
+    <a class="post-tag" href="//jeffersonswheel.org/tags/differential-privacy">differential privacy</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>(Cross-post by <a href="https://bargavjayaraman.github.io/post/evaluating-dpml-results/">Bargav Jayaraman</a>)</p>
+<p>With the recent advances in composition of differential private
+mechanisms, the research community has been able to achieve meaningful
+deep learning with privacy budgets in single digits. Rènyi
+differential privacy (RDP) is one mechanism that provides tighter
+composition which is widely used because of its implementation in
+TensorFlow Privacy (recently, Gaussian differential privacy (GDP) has
+shown a tighter analysis for low privacy budgets, but it was not yet
+available when we did this work). But the central question that
+remains to be answered is: <em>how private are these methods in
+practice?</em></p>
+<p>In this blog post, we answer this question by empirically evaluating
+the privacy leakage of differential private neural networks via
+membership inference attacks. This work appeared in <a href="https://www.usenix.org/conference/usenixsecurity19">USENIX
+Security'19</a> (full
+paper:
+[<a href="https://arxiv.org/abs/1902.08874">arXiv</a>]
+[<a href="https://www.youtube.com/watch?v=JAGhqbY_U50">talk video</a>]).</p>
+<h2 id="training-differentially-private-models">Training Differentially Private Models</h2>
+<p>We train two-layer neural network models using a training procedure
+similar to the popular <a href="https://arxiv.org/pdf/1607.00133.pdf">DPSGD</a>
+procedure. The training and test sets consist of seperate 10,000
+instances randomly sampled from the
+<a href="https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR-100</a> data set.</p>
+<p>The figure below shows the accuracy loss of private models trained
+with naïve composition (NC) and Rènyi differential
+privacy (RDP) with respect to a non-private model. As expected, models
+trained with RDP achieve much better utility when compared to the
+models trained with NC. To give a comparison, models trained with RDP
+achieve 53% accuracy loss at \(\epsilon = 10\), whereas the models
+trained with NC achieve the same utility at \(\epsilon = 500\). Due
+to the tighter composition, RDP mechanism adds much lesser noise when
+compared to NC mechanism for the same privacy budget.</p>
+<p>This is great, but what about the privacy leakage?
+<figure>
+    <img src="/images/evaluatingdpml/acc_loss.jpg"/> 
+</figure>
+</p>
+<h2 id="privacy-comes-at-a-cost">Privacy comes at a cost</h2>
+<p>To estimate privacy leakage, we implement the membership inference
+attack of <a href="https://arxiv.org/pdf/1709.01604.pdf">Yeom et al</a> and use
+their membership advantage metric, which is given as the difference
+between true positive rate (TPR) and false positive rate (FPR) of
+detecting whether a given instance is a part of the training set. This
+metric lies between 0 and 1, where 0 signifies no privacy leakage.</p>
+<p>As the figure below depicts, there is a clear trade-off between
+privacy and utility. While the RDP mechanism achieves higher utility,
+it also suffers from higher privacy leakage. The attack achieves
+around 0.40 membership advantage score against model trained with RDP
+at \(\epsilon = 1000\), with a positive predictive value (PPV) of
+74%. While this is less than the privacy leakage of non-private model
+(highlighted in the figure below), it is a significant amount of
+leakage. On the other hand, the model has almost no utility at lower
+privacy budgets where the privacy leakage is low.  <figure>
+    <img src="/images/evaluatingdpml/priv_leak.jpg"/> 
+</figure>
+ A more interesting observation is that we
+only have tight theoretical worst case guarantees on membership
+advantage for \(\epsilon &lt; 1\), at which point the models neither
+have any utility nor have any empirical privacy leakage. While the
+attacks only give a lower bound on the privacy leakage, the huge gap
+between the theoretical upper bound and the empirical lower bound
+suggests that there could be stronger attacks in practice.</p>
+<h2 id="leakage-is-not-random">Leakage is not random</h2>
+<p>We have shown above that the membership inference attack can be
+effective against a model trained with RDP at \(\epsilon =
+1000\). The members identified by the attacker are not due to the
+randomness in machine learning process. To show this, we run run the
+above experiment multiple times and note the fraction of members that
+are repeatedly identified across different runs. The figure below
+shows the results. The attacker is able to identify almost a quarter
+of the training records with more than 82% PPV across five runs. If
+the leakage was due to the randomness, we would have expected a trend
+similar to the dotted line.</p>
+<figure>
+    <img src="/images/evaluatingdpml/multi_run.jpg"/> 
+</figure>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>The differential privacy research community has come a long way to
+realize practical mechanisms for privacy-preserving deep
+learning. However, as shown in our work, we still require significant
+improvements to achieve meaningful utility for privacy budgets where
+we have strong theoretical guarantees. Concurrently, the huge gap
+between the empirical privacy leakage and the theoretical bounds opens
+the possibility for more powerful inference attacks in practice.</p>
+<h2 id="additional-results-in-the-paper">Additional Results in the Paper</h2>
+<p>While we only discussed selected results in this blog post, the <a href="https://www.cs.virginia.edu/~evans/pubs/usenix2019/evaluatingdp.pdf">full
+paper</a>
+has more experimental results across different settings as listed
+below:</p>
+<ul>
+<li>
+<p>Results on Purchase-100 data set, derived from <a href="https://www.kaggle.com/c/acquire-valued-shoppers-challenge/data">Kaggle</a> website.</p>
+</li>
+<li>
+<p>Results for logistic regression model.</p>
+</li>
+<li>
+<p>Membership inference attack of <a href="https://arxiv.org/pdf/1610.05820.pdf">Shokri et al.</a>.</p>
+</li>
+<li>
+<p>Attribute inference attack of <a href="https://arxiv.org/pdf/1709.01604.pdf">Yeom et al</a>.</p>
+</li>
+</ul>
+
+      </div>
+
+      <meta itemprop="wordCount" content="737">
+      <meta itemprop="datePublished" content="2019-08-27">
+      <meta itemprop="url" content="//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/">
+    </article>
+
+    <ul class="pagination" role="navigation" aria-label="Pagination" style="margin-top:32px;">
+      
+      <li class="arrow" aria-disabled="true"><a href="//jeffersonswheel.org/usenix-security-symposium-2019/">&laquo; <em>Previous<span class="show-for-sr"> page</span></em>: USENIX Security Symposium 2019</a></li>
+      
+      
+      <li class="arrow" aria-disabled="true"><a href="//jeffersonswheel.org/fosad2019/"><em>Next<span class="show-for-sr"> page</span></em>: FOSAD Trustworthy Machine Learning Mini-Course&nbsp;&raquo;</a></li>
+      
+    </ul>
+</div>
+
+    </main>
+    
+    
+<footer class="whatisthis">
+  <hr />
+  <div class="row">
+    <div class="column small-6 medium-2">
+      <figure class="full-figure">
+	<a href="//jeffersonswheel.org"><img src="/images/jwlogo-tsmall.png" width="200" height="122" alt="Jefferson's Wheel"></a>
+	
+      </figure>
+    </div>
+    <div class="column small-12 medium-4">
+      <a href="//jeffersonswheel.org"><b>Security Research Group</b></a><br>
+      <a href="//www.cs.virginia.edu/">University of Virginia</a><br>
+      <a href="mailto:evans@virginia.edu"><em>evans@virginia.edu</em></a>
+    </div>
+    <div class="column small-14 medium-5">
+      <font size="-1">
+      Subscribe to
+	the <a href="/index.xml"><i class="fa fa-rss-square"></i>&nbsp;RSS feed</a>.
+      <a id="searchsite">
+	<form method="get" action="https://duckduckgo.com/">
+	  <label for="search-field" class="show-for-sr">Search with DuckDuckGo</label>
+	  <input type="search" name="q" maxlength="255" placeholder="Search with DuckDuckGo" id="search-field">
+	  <input type="hidden" name="sites" value="//jeffersonswheel.org/"/>
+	  <input type="hidden" name="k7" value="#faf8f8"/>
+	  <input type="hidden" name="kj" value="#b33"/>
+	  <input type="hidden" name="ky" value="#fafafa"/>
+	  <input type="hidden" name="kx" value="b"/>
+	  <input type="hidden" name="ko" value="-1"/>
+	  <input type="hidden" name="k1" value="-1"/>
+	  <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+	</form>
+      </a>
+</font>
+    </div>
+  </div>
+</footer>
+
+
+    
+    <div class="endofpage">
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/what-input.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/finite.js"></script>
+
+    
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+    
+  </body>
+</html>

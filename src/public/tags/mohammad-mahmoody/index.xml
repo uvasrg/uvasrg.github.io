@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/mohammad-mahmoody/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>Mohammad Mahmoody on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/mohammad-mahmoody/</link>
+    <description>Recent content in Mohammad Mahmoody on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/tags/mohammad-mahmoody/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/tags/mohammad-mahmoody/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>NeurIPS 2019</title>
@@ -14,24 +17,12 @@
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/neurips2019/</guid>
-      <description>&lt;p&gt;
-Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: &lt;br&gt;
-&lt;a href=&#34;https://slideslive.com/38921718/track-2-session-1&#34;&gt;&lt;em&gt;https://slideslive.com/38921718/track-2-session-1&lt;/em&gt;&lt;/a&gt; (starting at 26:50)
-&lt;/p&gt;
-&lt;p&gt;
-See &lt;A href=&#34;//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/&#34;&gt;this post&lt;/a&gt; for info on the paper.
-&lt;/p&gt;
-Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody):
-&lt;p&gt;
-&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6759.JPG&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6759.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6777.JPG&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/IMG_6777.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;a href=&#34;//jeffersonswheel.org/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;/a&gt;&lt;br&gt;
-&lt;/center&gt;
-&lt;/p&gt;
-</description>
+      <description> Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: https://slideslive.com/38921718/track-2-session-1 (starting at 26:50)  See this post for info on the paper. Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody):   
+
+
+
+
+ </description>
     </item>
     
     <item>
@@ -40,80 +31,8 @@ Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody)
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt; will
-present our work (with &lt;a
-href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt; and
-&lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood
-Mahmoody&lt;/a&gt;) as a spotlight at &lt;a href=&#34;https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792&#34;&gt;NeurIPS
-2019&lt;/a&gt;,
-Vancouver, 10 December 2019.&lt;/p&gt;
-
-&lt;p&gt;Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s
-&lt;a href=&#34;https://aipavilion.github.io/&#34;&gt;&lt;em&gt;Adversarial Spheres&lt;/em&gt;&lt;/a&gt; (2018), show
-that if inputs are drawn from a concentrated metric probability space,
-then adversarial examples with small perturbation are inevitable.c The
-key insight from this line of research is that &lt;a href=&#34;https://en.wikipedia.org/wiki/Concentration_of_measure&amp;quot;&#34;&gt;&lt;em&gt;concentration of
-measure&lt;/em&gt;&lt;/a&gt;
-gives lower bound on adversarial risk for a large collection of
-classifiers (e.g. imperfect classifiers with risk at least $\alpha$),
-which further implies the impossibility results for robust learning
-against adversarial examples.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/advRisk.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;However, it is not clear whether these theoretical results apply to
-actual distributions such as images. This work presents a method for
-empirically measuring and bounding the concentration of a concrete
-dataset which is proven to converge to the actual concentration. More
-specifically, we prove that by simultaneously increasing the sample
-size and a complexity parameter of the selected collection of subsets
-$\mathcal{G}$, the concentration of the empirical measure based on
-samples converges to the actual concentration asymptotically.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/theory.png&#34; width=&#34;70%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;To solve the empirical concentration problem, we propose heuristic
-algorithms to find error regions with small expansion under both
-$\ell_\infty$ and $\ell_2$ metrics.&lt;/p&gt;
-
-&lt;p&gt;For instance, our algorithm for $\ell_\infty$ starts by sorting the
-dataset based on the empirical density estimated using k-nearest
-neighbor, and then obtains $T$ rectangular data clusters by performing
-k-means clustering on the top-$q$ densest images. After expanding each
-of the rectangles by $\epsilon$, the error region $\mathcal{E}$ is
-then specified as the complement of the expanded rectangles (the
-reddish region in the following figure). Finally, we search for the
-best error region by tuning the number of rectangles $T$ and the
-initial coverage percentile $q$.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/alg.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Based on the proposed algorithm, we empirically measure the
-concentration for image benchmarks, such as MNIST and
-CIFAR-10. Compared with state-of-the-art robustly trained models, our
-estimated bound shows that, for most settings, there exists a large
-gap between the robust error achieved by the best current models and
-the theoretical limits implied by concentration.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/concentration/experiments.png&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;br&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;This suggests the concentration of measure is not the only reason
-behind the vulnerability of existing classifiers to adversarial
-perturbations. Thus, either there is room for improving the robustness
-of image classifiers or a need for deeper understanding of the reasons
-for the gap between intrinsic robustness and the actual robustness
-achieved by robust models.&lt;/p&gt;
-
-&lt;h3 id=&#34;paper&#34;&gt;Paper&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt;&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, &lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt;&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, &lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood Mahmoody&lt;/a&gt; and &lt;a href=&#34;https://www.cs.virginia.edu/evans/&#34;&gt;David Evans&lt;/a&gt;. &lt;a href=&#34;//jeffersonswheel.org/docs/empirically-measuring-concentration.pdf&#34;&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2019/&#34;&gt;&lt;em&gt;NeurIPS 2019&lt;/em&gt;&lt;/a&gt; (&lt;a href=&#34;https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792&#34;&gt;&lt;em&gt;spotlight presentation&lt;/em&gt;&lt;/a&gt;). Vancouver, December 2019. [&lt;a href=&#34;//jeffersonswheel.org/docs/empirically-measuring-concentration.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;arXiv&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;&lt;em&gt;https://github.com/xiaozhanguva/Measure-Concentration&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
+Recent theoretical results, starting with Gilmer et al.&amp;lsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
     </item>
     
     <item>
@@ -122,15 +41,9 @@ achieved by robust models.&lt;/p&gt;
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/empirically-measuring-concentration/</guid>
-      <description>&lt;p&gt;Xiao Zhang and Saeed Mahloujifar will present our work on &lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt; at two workshops May 6 at ICLR 2019 in New Orleans: &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning:
-Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Paper: &lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster.pdf&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/docs/concentration-robustness-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Xiao Zhang and Saeed Mahloujifar will present our work on Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness at two workshops May 6 at ICLR 2019 in New Orleans: Debugging Machine Learning Models and Safe Machine Learning: Specification, Robustness and Assurance.
+Paper: [PDF]
+   </description>
     </item>
     
   </channel>

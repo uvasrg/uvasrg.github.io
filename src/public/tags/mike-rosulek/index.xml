@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/mike-rosulek/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>Mike Rosulek on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/mike-rosulek/</link>
+    <description>Recent content in Mike Rosulek on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/tags/mike-rosulek/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/tags/mike-rosulek/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>A Pragmatic Introduction to Secure Multi-Party Computation</title>
@@ -14,33 +17,9 @@
       <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/a-pragmatic-introduction-to-secure-multi-party-computation/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;//securecomputation.org&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/pragmaticmpc.jpg&#34; align=&#34;right&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;A Pragmatic Introduction to Secure Multi-Party Computation&lt;/em&gt;,
-co-authored with Vladimir Kolesnikov and Mike Rosulek, is now
-published by Now Publishers in their
-&lt;a href=&#34;https://www.nowpublishers.com/SEC&#34;&gt;&lt;em&gt;Foundations and Trends in Privacy and Security&lt;/em&gt;&lt;/a&gt; series.&lt;/p&gt;
-
-&lt;p&gt;You can download the book for free (we retain the copyright and are
-allowed to post an open version) from
-&lt;a href=&#34;//securecomputation.org&#34;&gt;securecomputation.org&lt;/a&gt;, or buy an PDF
-version from the published for $260 (there is also a printed $99
-version).&lt;/p&gt;
-
-&lt;div class=&#34;abstract&#34;&gt;
-Secure multi-party computation (MPC) has evolved from a theoretical
-curiosity in the 1980s to a tool for building real systems today. Over
-the past decade, MPC has been one of the most active research areas in
-both theoretical and applied cryptography. This book introduces
-several important MPC protocols, and surveys methods for improving the
-efficiency of privacy-preserving applications built using MPC. Besides
-giving a broad overview of the field and the insights of the main
-constructions, we overview the most currently active areas of MPC
-research and aim to give readers insights into what problems are
-practically solvable using MPC today and how different threat models
-and assumptions impact the practicality of different approaches.
-&lt;/div&gt;
-</description>
+      <description>A Pragmatic Introduction to Secure Multi-Party Computation, co-authored with Vladimir Kolesnikov and Mike Rosulek, is now published by Now Publishers in their Foundations and Trends in Privacy and Security series.
+You can download the book for free (we retain the copyright and are allowed to post an open version) from securecomputation.org, or buy an PDF version from the published for $260 (there is also a printed $99 version).
+Secure multi-party computation (MPC) has evolved from a theoretical curiosity in the 1980s to a tool for building real systems today.</description>
     </item>
     
   </channel>

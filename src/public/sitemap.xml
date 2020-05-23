@@ -1,8 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/</loc>
+    <lastmod>2020-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/conferences/</loc>
+    <lastmod>2020-05-23T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>//jeffersonswheel.org/</loc>
+    <lastmod>2020-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/oakland-test-of-time-awards/</loc>
+    <lastmod>2020-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/post/</loc>
+    <lastmod>2020-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/adversarial-machine-learning/</loc>
+    <lastmod>2019-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/mohammad-mahmoody/</loc>
+    <lastmod>2019-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/neurips/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -12,7 +48,47 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/saeed-mahloujifar/</loc>
+    <lastmod>2019-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/</loc>
+    <lastmod>2019-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/xiao-zhang/</loc>
+    <lastmod>2019-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/fnu-suya/</loc>
+    <lastmod>2019-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/jianfeng-chi/</loc>
+    <lastmod>2019-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/publications/</loc>
+    <lastmod>2019-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/usenix-security/</loc>
+    <lastmod>2019-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/usenix-security-2020-hybrid-batch-attacks/</loc>
+    <lastmod>2019-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/yuan-tian/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -22,8 +98,68 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/artificial-intelligence/</loc>
+    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/education/</loc>
+    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/jobs-for-humans-2029-2059/</loc>
     <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/outreach/</loc>
+    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/outreach/</loc>
+    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/talks/</loc>
+    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/anshuman-suri/</loc>
+    <lastmod>2019-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/bargav-jayaraman/</loc>
+    <lastmod>2019-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/hannah-chen/</loc>
+    <lastmod>2019-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/mainuddin-jonas/</loc>
+    <lastmod>2019-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/privacy/</loc>
+    <lastmod>2019-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/research/</loc>
+    <lastmod>2019-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/research/</loc>
+    <lastmod>2019-10-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -37,13 +173,73 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/history/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/history/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/teaching/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/uncountability/</loc>
+    <lastmod>2019-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/courses/</loc>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/fosad2019/</loc>
     <lastmod>2019-08-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/differential-privacy/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/privacy-preserving-machine-learning/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/alumni/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/sam-havron/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/serge-egelman/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/usenix-security-symposium-2019/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/google/</loc>
+    <lastmod>2019-08-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -57,12 +253,37 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/fairness/</loc>
+    <lastmod>2019-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/alumni/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/graduation-2019/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/pictures/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/weilin-xu/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/yanjun-qi/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -72,13 +293,38 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/multi-party-computation/</loc>
+    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/news/</loc>
+    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/press/</loc>
+    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/iclr/</loc>
     <lastmod>2019-05-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//jeffersonswheel.org/empirically-measuring-concentration/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/food/</loc>
+    <lastmod>2019-05-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -97,7 +343,17 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/categories/presentations/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/a-plan-to-eradicate-stalkerware/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/dependability/</loc>
     <lastmod>2019-04-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -107,12 +363,47 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/machine-learning/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/news/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/robotic-surgery/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/samin-yasar/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/deep-fools/</loc>
     <lastmod>2019-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/courses/</loc>
+    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/economics/</loc>
+    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/markets-mechanisms-machines/</loc>
+    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/categories/teaching/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -127,6 +418,21 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/mike-rosulek/</loc>
+    <lastmod>2018-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/secure-computation/</loc>
+    <lastmod>2018-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/vladimir-kolesnikov/</loc>
+    <lastmod>2018-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</loc>
     <lastmod>2018-12-08T00:00:00+00:00</lastmod>
   </url>
@@ -137,7 +443,27 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/talks/</loc>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/university-of-maryland/</loc>
+    <lastmod>2018-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/center-for-trustworthy-machine-learning/</loc>
+    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</loc>
+    <lastmod>2018-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/nsf/</loc>
     <lastmod>2018-10-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -152,6 +478,36 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/gdpr/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/guy-verrier/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/matthew-wallace/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/nathaniel-grevatt/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/parvesh-samayamanthula/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/unicorns/</loc>
+    <lastmod>2018-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/usenix-security-2018/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
   </url>
@@ -159,6 +515,16 @@
   <url>
     <loc>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</loc>
     <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/woot/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/ahmed-ibrahim/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -172,7 +538,37 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/dependable-machine-learning/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/homa-alemzadeh/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/summer-camp/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</loc>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/pictures/</loc>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/posters/</loc>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/videos/</loc>
     <lastmod>2018-05-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -182,8 +578,33 @@
   </url>
   
   <url>
+    <loc>//jeffersonswheel.org/tags/yongwhi-kwon/</loc>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/battista-biggio/</loc>
+    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/china/</loc>
+    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/huawei/</loc>
+    <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</loc>
     <lastmod>2018-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//jeffersonswheel.org/tags/feature-squeezing/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>

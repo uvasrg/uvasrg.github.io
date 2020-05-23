@@ -418,6 +418,7 @@ p {
 }
 
 .more {
+  margin-top: 1.0em;
   font-size: 0.7rem;
   margin-left: 0em;
 }

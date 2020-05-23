@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/feature-squeezing/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>feature squeezing on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/tags/feature-squeezing/</link>
+    <description>Recent content in feature squeezing on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/tags/feature-squeezing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/tags/feature-squeezing/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Feature Squeezing at NDSS</title>
@@ -14,15 +17,12 @@
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/feature-squeezing-at-ndss/</guid>
-      <description>&lt;p&gt;Weilin Xu presented &lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt; at the &lt;a href=&#34;http://www.ndss-symposium.org/ndss2018/&#34;&gt;Network and Distributed System Security Symposium 2018&lt;/a&gt;. San Diego, CA. 21 February 2018.&lt;br /&gt;
-&lt;center&gt;&lt;br /&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cdfcf454436240e4ab1a6c4d594e5c7a&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;http://speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;br /&gt;
-&lt;/center&gt;&lt;/p&gt;
-&lt;p&gt;
-Paper: Weilin Xu, David Evans, Yanjun Qi. &lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;. NDSS 2018. [&lt;a href=&#34;https://evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;&lt;/p&gt;
+      <description>Weilin Xu presented Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks at the Network and Distributed System Security Symposium 2018. San Diego, CA. 21 February 2018.
 
-&lt;p&gt;Project Site: &lt;a href=&#34;https://evademl.org/squeezing&#34;&gt;EvadeML.org&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
+
+
+ Paper: Weilin Xu, David Evans, Yanjun Qi. Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks. NDSS 2018. [PDF]
+Project Site: EvadeML.org</description>
     </item>
     
   </channel>

@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/categories/press/index.xml</link>
-    <description>Recent content on Jefferson&#39;s Wheel</description>
+    <title>press on Jefferson&#39;s Wheel</title>
+    <link>//jeffersonswheel.org/categories/press/</link>
+    <description>Recent content in press on Jefferson&#39;s Wheel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//jeffersonswheel.org/categories/press/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//jeffersonswheel.org/categories/press/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How AI could save lives without spilling medical secrets</title>
@@ -14,22 +17,8 @@
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: &lt;a href=&#34;https://www.technologyreview.com/s/613520/how-ai-could-save-lives-without-spilling-secrets/&#34;&gt;&lt;em&gt;How AI could save lives without spilling medical secrets&lt;/em&gt;&lt;/a&gt;, MIT Technology Review, 14 May 2019.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;You would love it if a medical researcher could learn on everyone&amp;rsquo;s medical records,&amp;rdquo; Evans says. &amp;ldquo;You could do an analysis and tell if a drug is working on not. But you can&amp;rsquo;t do that today.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Despite the potential Oasis represents, Evans is cautious. Storing data in secure hardware creates a potential point of failure, he notes. If the company that makes the hardware is compromised, then all the data handled this way will also be vulnerable. Blockchains are relatively unproven, he adds.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;There&amp;rsquo;s a lot of different tech coming together,&amp;rdquo; he says of Oasis&amp;rsquo;s approach. &amp;ldquo;Some is mature, and some is cutting-edge and has challenges.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(I&amp;rsquo;m pretty sure I didn&amp;rsquo;t actually say &amp;ldquo;tech&amp;rdquo; in my call with Will
-Knight since I wouldn&amp;rsquo;t use that wording, but would say
-&amp;ldquo;technologies&amp;rdquo;.)&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: How AI could save lives without spilling medical secrets, MIT Technology Review, 14 May 2019.
+ &amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
     </item>
     
     <item>
@@ -38,14 +27,9 @@ Knight since I wouldn&amp;rsquo;t use that wording, but would say
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/deep-fools/</guid>
-      <description>&lt;p&gt;&lt;em&gt;New Electronics&lt;/em&gt; has an article that includes my &lt;a href=&#34;//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/&#34;&gt;&lt;em&gt;Deep Learning and Security Workshop&lt;/em&gt; talk&lt;/a&gt;: &lt;a href=&#34;http://www.newelectronics.co.uk/electronics-technology/deep-fools/205133/&#34;&gt;&lt;em&gt;Deep fools&lt;/em&gt;&lt;/a&gt;, 21 January 2019.&lt;/p&gt;
-
-&lt;p&gt;A better version of the image Mainuddin Jonas produced that they use
-(which they screenshot from the talk video) is below:
-&lt;center&gt;
-&lt;A href=&#34;//jeffersonswheel.org/images/adversarialperturbations.png&#34;&gt;&lt;img src=&#34;//jeffersonswheel.org/images/adversarialperturbations.png&#34; width=80%&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>New Electronics has an article that includes my Deep Learning and Security Workshop talk: Deep fools, 21 January 2019.
+A better version of the image Mainuddin Jonas produced that they use (which they screenshot from the talk video) is below:
+  </description>
     </item>
     
     <item>
@@ -54,24 +38,8 @@ Knight since I wouldn&amp;rsquo;t use that wording, but would say
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/nsf_logo-1h9wdoa.png&#34; align=&#34;right&#34; width=120&gt;&lt;/p&gt;
-
-&lt;p&gt;The National Science Foundation announced the &lt;em&gt;Center for Trustworthy
-Machine Learning&lt;/em&gt; today, a new five-year SaTC Frontier Center &amp;ldquo;to
-develop a rigorous understanding of the security risks of the use of
-machine learning and to devise the tools, metrics and methods to
-manage and mitigate security vulnerabilities.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//jeffersonswheel.org/images/ctmllogos.png&#34; align=&#34;left&#34; style=&#34;padding-right: 1em;padding-top: .5em&#34; width=250&gt;&lt;/p&gt;
-
-&lt;p&gt;The Center is lead by Patrick McDaniel at Penn State University, and
-in addition to our group, includes Dan Boneh and Percy Liang (Stanford
-University), Kamalika Chaudhuri (University of California San Diego),
-Somesh Jha (University of Wisconsin) and Dawn Song (University of
-California Berkeley).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://ctml.psu.edu/&#34;&gt;Center for Trustworthy Machine Learning&lt;/a&gt; &amp;middot; &lt;a href=&#34;https://www.eecs.psu.edu/news/2018/NSF-Frontier-CTML.aspx&#34;&gt;Penn&amp;nbsp;State&amp;nbsp;News&lt;/a&gt; &amp;middot; &lt;a href=&#34;https://nsf.gov/news/news_summ.jsp?cntn_id=296933&amp;amp;org=NSF&amp;amp;from=news&#34;&gt;NSF&amp;nbsp;News&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>The National Science Foundation announced the Center for Trustworthy Machine Learning today, a new five-year SaTC Frontier Center &amp;ldquo;to develop a rigorous understanding of the security risks of the use of machine learning and to devise the tools, metrics and methods to manage and mitigate security vulnerabilities.&amp;rdquo;
+The Center is lead by Patrick McDaniel at Penn State University, and in addition to our group, includes Dan Boneh and Percy Liang (Stanford University), Kamalika Chaudhuri (University of California San Diego), Somesh Jha (University of Wisconsin) and Dawn Song (University of California Berkeley).</description>
     </item>
     
     <item>
@@ -80,29 +48,8 @@ California Berkeley).&lt;/p&gt;
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Engineering and Technology&lt;/em&gt; Magazine (a publication of the British
-&lt;a href=&#34;a
-href=&amp;quot;https://www.theiet.org/&amp;quot;&#34;&gt;Institution of Engineering and Technology&lt;/a&gt; has an article that highlights
-adversarial machine learning research: &lt;a href=&#34;https://eandt.theiet.org/content/articles/2018/10/artificial-intelligence-the-new-ghost-in-the-machine/&#34;&gt;&lt;em&gt;Artificial intelligence: the
-new ghost in the
-machine&lt;/em&gt;&lt;/a&gt;,
-10 October 2018, by Chris Edwards.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;https://eandt.theiet.org/media/7065/feature_501008906335871317828.jpg?anchor=center&amp;amp;mode=crop&amp;amp;width=400&amp;amp;height=267&amp;amp;rnd=131836400900000000&#34;&gt;&lt;br /&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;div class=&#34;excerpt&#34;&gt;
-
-Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.&lt;br /&gt;
-&amp;#8230;&lt;br /&gt;
-He points to work by PhD student Mainuddin Jonas that shows how adversarial examples can push the output away from what we would see as the correct answer. &amp;#8220;It could be just one layer [that makes the mistake]. But from our experience it seems more gradual. It seems many of the layers are being exploited, each one just a little bit. The biggest differences may not be apparent until the very last layer.&amp;#8221;&lt;br /&gt;
-&amp;#8230;&lt;br /&gt;
-Researchers such as Evans predict a lengthy arms race in attacks and countermeasures that may on the way reveal a lot more about the nature of machine learning and its relationship with reality.
-&lt;/p&gt;
-
-&lt;/div&gt;
-</description>
+      <description>Engineering and Technology Magazine (a publication of the British [Institution of Engineering and Technology]() has an article that highlights adversarial machine learning research: Artificial intelligence: the new ghost in the machine, 10 October 2018, by Chris Edwards.
+  Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.</description>
     </item>
     
     <item>
@@ -111,15 +58,7 @@ Researchers such as Evans predict a lengthy arms race in attacks and countermeas
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
-      <description>&lt;p&gt;The New York Times has an article, &lt;a href=&#34;https://www.nytimes.com/interactive/2018/09/12/technology/kids-apps-data-privacy-google-twitter.html&#34;&gt;&lt;em&gt;How Game Apps That Captivate Kids Have Been Collecting Their Data&lt;/em&gt;&lt;/a&gt; about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps. Serge was an undergraduate student here (back in the early 2000s) &amp;#8211; one of the things he did as a undergraduate was successfully sue a spammer.&lt;/p&gt;
-&lt;p&gt;The original paper about the study: &lt;a href=&#34;https://blues.cs.berkeley.edu/wp-content/uploads/2018/04/popets-2018-0021.pdf&#34;&gt;“Won’t Somebody Think of the Children?” Examining COPPA Compliance at Scale&lt;/a&gt;, Irwin Reyes, Primal Wijesekera, Joel Reardon, Amit Elazari Bar On, Abbas Razaghpanah, Narseo Vallina-Rodriguez, and Serge Egelman. Proceedings on Privacy Enhancing Technologies (PETS) 2018.&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;br /&gt;
-&lt;img src=&#34;https://static01.nyt.com/images/2018/09/13/autossell/13Kidapps2/13Kidapps2-superJumbo.jpg&#34; width=&#34;80%&#34;&gt;&lt;br /&gt;
-&lt;div class=&#34;caption&#34;&gt;
-Serge Egelman, a researcher with the International Computer Science Institute and the University of California, Berkeley, helped lead the study of nearly 6,000 children’s Android apps&lt;br /&gt;
-&lt;/div&gt;
-&lt;/center&gt;&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>The New York Times has an article, How Game Apps That Captivate Kids Have Been Collecting Their Data about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps.</description>
     </item>
     
     <item>
@@ -128,25 +67,12 @@ Serge Egelman, a researcher with the International Computer Science Institute an
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>//jeffersonswheel.org/cybersecurity-summer-camp/</guid>
-      <description>&lt;p&gt;I helped organize a &lt;a href=&#34;https://www.ahmed.ai/cyberwars2018&#34;&gt;summer camp for high school teachers focused on cybersecurity&lt;/a&gt;, led by Ahmed Ibrahim.  Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: &lt;a href=&#34;https://github.com/evansuva/cipherschool&#34;&gt;&lt;em&gt;Cipher School for Muggles&lt;/em&gt;&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-&lt;center&gt;&lt;br /&gt;
-&lt;img src=&#34;https://web.archive.org/web/20180707220753im_/https://news.virginia.edu/sites/default/files/cyber_security_class_da_inline_01.jpg&#34; width=&#34;90%&#34;&gt;&lt;/img&gt;&lt;br /&gt;
-&lt;/center&gt;&lt;br /&gt;
-&lt;a href=&#34;https://news.virginia.edu/content/cybersecurity-goes-summer-camp&#34;&gt;&lt;em&gt;Cybersecurity Goes to Summer Camp&lt;/em&gt;&lt;/a&gt;. UVA Today. 22 July 2018. [&lt;a href=&#34;https://web.archive.org/web/20180707220753/https://news.virginia.edu/content/cybersecurity-goes-summer-camp&#34;&gt;archive.org&lt;/a&gt;]&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;
-Earlier this week, 25 high school teachers – including 21 from Virginia – filled a glass-walled room in Rice Hall, sitting in high adjustable chairs at wheeled work tables, their laptops open, following a lecture with graphics about the dangers that lurk in cyberspace and trying to figure out how to pass the information on to a generation that seems to share the most intimate details of life online. &amp;#8220;I think understanding privacy is important to that generation that uses Facebook and Snapchat,&amp;#8221; said David Evans, a computer science professor who helped organize the camp. &amp;#8220;We hope to give teachers some ideas and tools to get their students excited about learning about cryptography, privacy and cybersecurity, and how these things can impact them.&amp;#8221;
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;(Also excerpted in &lt;a href=&#34;https://cacm.acm.org/news/229202-cybersecurity-goes-to-summer-camp/fulltext&#34;&gt;ACM TechNews&lt;/a&gt;, 29 June 2018.)
-&lt;/p&gt;
-&lt;p&gt;
-&lt;center&gt;&lt;br /&gt;
-&lt;img width=&#34;90%&#34; src=&#34;https://web.archive.org/web/20180623041512im_/https://bloximages.newyork1.vip.townnews.com/dailyprogress.com/content/tncms/assets/v3/editorial/5/4a/54a8be36-7685-11e8-be03-d32fab775c23/5b2da33dc17ed.image.jpg?resize=1200%2C793&#34; width=650&gt;&lt;br /&gt;
-&lt;/center&gt;&lt;br /&gt;
-&lt;a href=&#34;https://www.dailyprogress.com/news/local/uva/uva-bootcamp-aims-to-increase-it-training-for-teachers/article_f8a5e20a-7682-11e8-81a7-4fd889ca9dbf.html&#34;&gt;&lt;em&gt;UVa bootcamp aims to increase IT training for teachers&lt;/em&gt;&lt;/a&gt;. The Daily Progress. 22 June 2018. [&lt;a href=&#34;https://web.archive.org/web/20180623041512/https://www.dailyprogress.com/news/local/uva/uva-bootcamp-aims-to-increase-it-training-for-teachers/article_f8a5e20a-7682-11e8-81a7-4fd889ca9dbf.html&#34;&gt;archive.org&lt;/a&gt;]
-&lt;/p&gt;&lt;/p&gt;
-</description>
+      <description>I helped organize a summer camp for high school teachers focused on cybersecurity, led by Ahmed Ibrahim. Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: Cipher School for Muggles.
+ 
+
+
+Cybersecurity Goes to Summer Camp. UVA Today. 22 July 2018. [archive.org]
+ Earlier this week, 25 high school teachers – including 21 from Virginia – filled a glass-walled room in Rice Hall, sitting in high adjustable chairs at wheeled work tables, their laptops open, following a lecture with graphics about the dangers that lurk in cyberspace and trying to figure out how to pass the information on to a generation that seems to share the most intimate details of life online.</description>
     </item>
     
   </channel>
