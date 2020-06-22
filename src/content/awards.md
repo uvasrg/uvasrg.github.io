@@ -16,6 +16,7 @@ The <a href="//www.cra.org/awards/undergrad/">CRA Outstanding Undergraduate Rese
 <div class="hanging"><b>Ami Malaviya</b> (BSCS 2005), 2005&nbsp;Honorable&nbsp;Mention</div>
 <div class="hanging"><a href="//www.ece.cmu.edu/~jmmccune/"><b>Jonathan McCune</b></a> (BSCS 2003, CMU PhD 2009), 2003&nbsp;Honorable&nbsp;Mention</div>
 
+
 ### NSF Graduate Research Fellowships
 
 The National Science Foundation&#8217;s Graduate Research Fellowships recognize outstanding graduate students and provides up to three years of funding to support a student&#8217;s graduate work (over $100,000 total).  Students may apply for NSF Graduate Research Fellowships as final-year undergraduates, or in their early years in a graduate program.
