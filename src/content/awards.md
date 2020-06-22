@@ -28,9 +28,9 @@ The National Science Foundation&#8217;s Graduate Research Fellowships recognize 
 
 <a href="https://www.technologyreview.com/lists/innovators-under-35/2017/visionary/adrienne-felt/"><b>Adrienne Porter Felt</b></a> (top innovators under 35) (BSCS 2008, UC Berkeley PhD 2012) [<a href="2017/alumna-turned-internet-security-expert-listed-among-nations-top-young-innovators.html">News</a>]
 
-### NYU-Poly AT&#038;T Best Applied Security Paper Award
+### NYU-Poly AT&amp;T Best Applied Security Paper Award
 
-The <a href="//www.poly.edu/csaw2011/csaw-research"><em>NYU-Poly AT&#038;T Best Applied Security Paper Award</em></a> recognizes the best papers on applied security in any venue.
+The <a href="//www.poly.edu/csaw2011/csaw-research"><em>NYU-Poly AT&amp;T Best Applied Security Paper Award</em></a> recognizes the best papers on applied security in any venue.
 
 <div class="hanging"><b><a href="//www.cs.virginia.edu/~yh8h/">Yan Huang</a></b>, Finalist 2012 (for the paper <a href="//www.cs.virginia.edu/~evans/pubs/oakland2012/"><em>Quid-Pro-Quo-tocols: Strengthening Semi-Honest Protocols with Dual Execution</em></a> in IEEE Security and Privacy 2012, co-authored with Jonathan Katz and David Evans</div>
 <div class="hanging"><b><a href="//www.cs.virginia.edu/~yh8h/">Yan Huang</a></b>, Finalist 2011 (for the paper <a href="//www.cs.virginia.edu/~evans/pubs/usenix2011/"><em>Faster Secure Two-Party Computation Using Garbled Circuits</em></a> in USENIX Security 2011, co-authored with David Evans, Jonathan Katz, and Lior Malka)</div>

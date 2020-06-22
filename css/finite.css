@@ -523,3 +523,34 @@ hr.post-separator {
   padding-top: 0px;
 }
 
+p.indent {
+    text-indent: 5px;
+    }
+
+div.indented {
+   margin-left: 60px;
+}
+
+div.credits {
+   font-size: 9pt;
+   text-align: right;
+   padding-left: 90px;
+   padding-right: 0px;
+   margin-top:18pt;
+   margin-bottom:12pt;
+}
+
+
+div.hanging {
+     padding-left: 25px;
+     text-indent: -25px;
+}
+
+div.hangingmore {
+     padding-left: 125px;
+     text-indent: -125px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
