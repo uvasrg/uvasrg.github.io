@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>presentations on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/categories/presentations/</link>
-    <description>Recent content in presentations on Jefferson&#39;s Wheel</description>
+    <title>presentations on Security Research Group</title>
+    <link>//uvasrg.github.io/categories/presentations/</link>
+    <description>Recent content in presentations on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/categories/presentations/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/categories/presentations/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Congratulations Dr. Xu!</title>
-      <link>//jeffersonswheel.org/congratulations-dr.-xu/</link>
+      <link>//uvasrg.github.io/congratulations-dr.-xu/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/congratulations-dr.-xu/</guid>
+      <guid>//uvasrg.github.io/congratulations-dr.-xu/</guid>
       <description>Congratulations to Weilin Xu for successfully defending his PhD Thesis!
    Weilin&#39;s Committee: Homa Alemzadeh, Yanjun Qi, Patrick McDaniel (on screen), David Evans, Vicente Ordóñez Román    Improving Robustness of Machine Learning Models using Domain Knowledge  Although machine learning techniques have achieved great success in many areas, such as computer vision, natural language processing, and computer security, recent studies have shown that they are not robust under attack.</description>
     </item>

@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>alumni on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/alumni/</link>
-    <description>Recent content in alumni on Jefferson&#39;s Wheel</description>
+    <title>alumni on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/alumni/</link>
+    <description>Recent content in alumni on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Wed, 05 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/alumni/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/alumni/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Graduation 2019</title>
-      <link>//jeffersonswheel.org/graduation-2019/</link>
+      <link>//uvasrg.github.io/graduation-2019/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/graduation-2019/</guid>
+      <guid>//uvasrg.github.io/graduation-2019/</guid>
       <description>               </description>
     </item>
     
     <item>
       <title>SRG Lunch</title>
-      <link>//jeffersonswheel.org/srg-lunch/</link>
+      <link>//uvasrg.github.io/srg-lunch/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/srg-lunch/</guid>
+      <guid>//uvasrg.github.io/srg-lunch/</guid>
       <description>Some photos for our lunch to celebrate the end of semester, beginning of summer, and congratulate Weilin Xu on his PhD:
  
 Left to right: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;Jayaraman, Aihua&amp;nbsp;Chen, Hannah&amp;nbsp;Chen, Weilin&amp;nbsp;Xu, Riley&amp;nbsp;Spahn, David&amp;nbsp;Evans, Fnu&amp;nbsp;Suya, Yuan&amp;nbsp;Tian, Mainuddin&amp;nbsp;Jonas, Tu&amp;nbsp;Le, Faysal&amp;nbsp;Hossain, Xiao&amp;nbsp;Zhang, Jack&amp;nbsp;Verrier      </description>
@@ -33,39 +34,39 @@ Left to right: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;
     
     <item>
       <title>Congratulations Dr. Xu!</title>
-      <link>//jeffersonswheel.org/congratulations-dr.-xu/</link>
+      <link>//uvasrg.github.io/congratulations-dr.-xu/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/congratulations-dr.-xu/</guid>
+      <guid>//uvasrg.github.io/congratulations-dr.-xu/</guid>
       <description>Congratulations to Weilin Xu for successfully defending his PhD Thesis!
    Weilin&#39;s Committee: Homa Alemzadeh, Yanjun Qi, Patrick McDaniel (on screen), David Evans, Vicente Ordóñez Román    Improving Robustness of Machine Learning Models using Domain Knowledge  Although machine learning techniques have achieved great success in many areas, such as computer vision, natural language processing, and computer security, recent studies have shown that they are not robust under attack.</description>
     </item>
     
     <item>
       <title>A Plan to Eradicate Stalkerware</title>
-      <link>//jeffersonswheel.org/a-plan-to-eradicate-stalkerware/</link>
+      <link>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/a-plan-to-eradicate-stalkerware/</guid>
+      <guid>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</guid>
       <description>Sam Havron (BSCS 2017) is quoted in an article in Wired on eradicating stalkerware:
  The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&amp;rsquo; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
     </item>
     
     <item>
       <title>Violations of Children’s Privacy Laws</title>
-      <link>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
+      <link>//uvasrg.github.io/violations-of-childrens-privacy-laws/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
+      <guid>//uvasrg.github.io/violations-of-childrens-privacy-laws/</guid>
       <description>The New York Times has an article, How Game Apps That Captivate Kids Have Been Collecting Their Data about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps.</description>
     </item>
     
     <item>
       <title>Wahoos at Oakland</title>
-      <link>//jeffersonswheel.org/wahoos-at-oakland/</link>
+      <link>//uvasrg.github.io/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/wahoos-at-oakland/</guid>
+      <guid>//uvasrg.github.io/wahoos-at-oakland/</guid>
       <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!
 
 

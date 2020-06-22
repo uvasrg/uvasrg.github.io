@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>education on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/education/</link>
-    <description>Recent content in education on Jefferson&#39;s Wheel</description>
+    <title>education on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/education/</link>
+    <description>Recent content in education on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/education/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/education/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jobs for Humans, 2029-2059</title>
-      <link>//jeffersonswheel.org/jobs-for-humans-2029-2059/</link>
+      <link>//uvasrg.github.io/jobs-for-humans-2029-2059/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/jobs-for-humans-2029-2059/</guid>
+      <guid>//uvasrg.github.io/jobs-for-humans-2029-2059/</guid>
       <description>I was honored to particilate in a panel at an event on Adult Education in the Age of Artificial Intelligence that was run by The Great Courses as a fundraiser for the Academy of Hope, an adult public charter school in Washington, D.C.
 I spoke first, following a few introductory talks, and was followed by Nicole Smith and Ellen Scully-Russ, and a keynote from Dexter Manley, Super Bowl winner with the Washington Redskins.</description>
     </item>
     
     <item>
       <title>Markets, Mechanisms, Machines</title>
-      <link>//jeffersonswheel.org/markets-mechanisms-machines/</link>
+      <link>//uvasrg.github.io/markets-mechanisms-machines/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/markets-mechanisms-machines/</guid>
+      <guid>//uvasrg.github.io/markets-mechanisms-machines/</guid>
       <description>My course for Spring 2019 is Markets, Mechanisms, Machines, cross-listed as cs4501/econ4559 and co-taught with Denis Nekipelov. The course will explore interesting connections between economics and computer science.
 My qualifications for being listed as instructor for a 4000-level Economics course are limited to taking an introductory microeconomics course my first year as an undergraduate.
    Its good to finally get a chance to redeem myself for giving up on Economics 28 years ago!</description>
@@ -34,10 +35,10 @@ My qualifications for being listed as instructor for a 4000-level Economics cour
     
     <item>
       <title>Cybersecurity Summer Camp</title>
-      <link>//jeffersonswheel.org/cybersecurity-summer-camp/</link>
+      <link>//uvasrg.github.io/cybersecurity-summer-camp/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/cybersecurity-summer-camp/</guid>
+      <guid>//uvasrg.github.io/cybersecurity-summer-camp/</guid>
       <description>I helped organize a summer camp for high school teachers focused on cybersecurity, led by Ahmed Ibrahim. Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: Cipher School for Muggles.
  
 

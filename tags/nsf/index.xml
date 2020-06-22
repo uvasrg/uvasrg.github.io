@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NSF on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/nsf/</link>
-    <description>Recent content in NSF on Jefferson&#39;s Wheel</description>
+    <title>NSF on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/nsf/</link>
+    <description>Recent content in NSF on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/nsf/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/nsf/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Center for Trustworthy Machine Learning</title>
-      <link>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</link>
+      <link>//uvasrg.github.io/center-for-trustworthy-machine-learning/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</guid>
+      <guid>//uvasrg.github.io/center-for-trustworthy-machine-learning/</guid>
       <description>The National Science Foundation announced the Center for Trustworthy Machine Learning today, a new five-year SaTC Frontier Center &amp;ldquo;to develop a rigorous understanding of the security risks of the use of machine learning and to devise the tools, metrics and methods to manage and mitigate security vulnerabilities.&amp;rdquo;
 The Center is lead by Patrick McDaniel at Penn State University, and in addition to our group, includes Dan Boneh and Percy Liang (Stanford University), Kamalika Chaudhuri (University of California San Diego), Somesh Jha (University of Wisconsin) and Dawn Song (University of California Berkeley).</description>
     </item>

@@ -1,5 +1,5 @@
 +++
-title = "Jefferson's Wheel - Security Research Group"
+title = "Security Research Group"
 type = "index"
 +++
 

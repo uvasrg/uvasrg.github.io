@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>courses on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/courses/</link>
-    <description>Recent content in courses on Jefferson&#39;s Wheel</description>
+    <title>courses on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/courses/</link>
+    <description>Recent content in courses on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/courses/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/courses/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markets, Mechanisms, Machines</title>
-      <link>//jeffersonswheel.org/markets-mechanisms-machines/</link>
+      <link>//uvasrg.github.io/markets-mechanisms-machines/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/markets-mechanisms-machines/</guid>
+      <guid>//uvasrg.github.io/markets-mechanisms-machines/</guid>
       <description>My course for Spring 2019 is Markets, Mechanisms, Machines, cross-listed as cs4501/econ4559 and co-taught with Denis Nekipelov. The course will explore interesting connections between economics and computer science.
 My qualifications for being listed as instructor for a 4000-level Economics course are limited to taking an introductory microeconomics course my first year as an undergraduate.
    Its good to finally get a chance to redeem myself for giving up on Economics 28 years ago!</description>

@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>publications on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/categories/publications/</link>
-    <description>Recent content in publications on Jefferson&#39;s Wheel</description>
+    <title>publications on Security Research Group</title>
+    <link>//uvasrg.github.io/categories/publications/</link>
+    <description>Recent content in publications on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Sat, 14 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/categories/publications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/categories/publications/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>USENIX Security 2020: Hybrid Batch Attacks</title>
-      <link>//jeffersonswheel.org/usenix-security-2020-hybrid-batch-attacks/</link>
+      <link>//uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/usenix-security-2020-hybrid-batch-attacks/</guid>
+      <guid>//uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/</guid>
       <description>Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.
 Existing black-box attacks can be grouped into two main categories:
   Transfer Attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model.
@@ -25,20 +26,20 @@ Existing black-box attacks can be grouped into two main categories:
     
     <item>
       <title>NeurIPS 2019: Empirically Measuring Concentration</title>
-      <link>//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/</link>
+      <link>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/</guid>
+      <guid>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</guid>
       <description>Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
 Recent theoretical results, starting with Gilmer et al.&amp;lsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
     </item>
     
     <item>
       <title>Brink Essay: AI Systems Are Complex and Fragile. Here Are Four Key Risks to Understand.</title>
-      <link>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</link>
+      <link>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
+      <guid>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
       <description>Brink News (a publication of the The Atlantic) published my essay on the risks of deploying AI systems.
    Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. 
 Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.</description>
@@ -46,20 +47,20 @@ Despite these successes, AI systems are fundamentally fragile — and the ways t
     
     <item>
       <title>Cost-Sensitive Adversarial Robustness at ICLR 2019</title>
-      <link>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</link>
+      <link>//uvasrg.github.io/cost-sensitive-adversarial-robustness-at-iclr-2019/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
+      <guid>//uvasrg.github.io/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
       <description>Xiao Zhang will present Cost-Sensitive Robustness against Adversarial Examples on May 7 (4:30-6:30pm) at ICLR 2019 in New Orleans.
    Paper: [PDF] [OpenReview] [ArXiv]</description>
     </item>
     
     <item>
       <title>Empirically Measuring Concentration</title>
-      <link>//jeffersonswheel.org/empirically-measuring-concentration/</link>
+      <link>//uvasrg.github.io/empirically-measuring-concentration/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/empirically-measuring-concentration/</guid>
+      <guid>//uvasrg.github.io/empirically-measuring-concentration/</guid>
       <description>Xiao Zhang and Saeed Mahloujifar will present our work on Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness at two workshops May 6 at ICLR 2019 in New Orleans: Debugging Machine Learning Models and Safe Machine Learning: Specification, Robustness and Assurance.
 Paper: [PDF]
    </description>
@@ -67,30 +68,30 @@ Paper: [PDF]
     
     <item>
       <title>ISMR 2019: Context-aware Monitoring in Robotic Surgery</title>
-      <link>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>
+      <link>//uvasrg.github.io/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</guid>
+      <guid>//uvasrg.github.io/ismr-2019-context-aware-monitoring-in-robotic-surgery/</guid>
       <description>Samin Yasar presented our paper on Context-award Monitoring in Robotic Surgery at the 2019 International Symposium on Medical Robotics (ISMR) in Atlanta, Georgia.
  Robotic-assisted minimally invasive surgery (MIS) has enabled procedures with increased precision and dexterity, but surgical robots are still open loop and require surgeons to work with a tele-operation console providing only limited visual feedback. In this setting, mechanical failures, software faults, or human errors might lead to adverse events resulting in patient complications or fatalities.</description>
     </item>
     
     <item>
       <title>ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</title>
-      <link>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
+      <link>//uvasrg.github.io/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
+      <guid>//uvasrg.github.io/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
       <description>Xiao Zhang and my paper on Cost-Sensitive Robustness against Adversarial Examples has been accepted to ICLR 2019.
 Several recent works have developed methods for training classifiers that are certifiably robust against norm-bounded adversarial perturbations. However, these methods assume that all the adversarial transformations provide equal value for adversaries, which is seldom the case in real-world applications. We advocate for cost-sensitive robustness as the criteria for measuring the classifier&amp;rsquo;s performance for specific tasks.</description>
     </item>
     
     <item>
       <title>A Pragmatic Introduction to Secure Multi-Party Computation</title>
-      <link>//jeffersonswheel.org/a-pragmatic-introduction-to-secure-multi-party-computation/</link>
+      <link>//uvasrg.github.io/a-pragmatic-introduction-to-secure-multi-party-computation/</link>
       <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/a-pragmatic-introduction-to-secure-multi-party-computation/</guid>
+      <guid>//uvasrg.github.io/a-pragmatic-introduction-to-secure-multi-party-computation/</guid>
       <description>A Pragmatic Introduction to Secure Multi-Party Computation, co-authored with Vladimir Kolesnikov and Mike Rosulek, is now published by Now Publishers in their Foundations and Trends in Privacy and Security series.
 You can download the book for free (we retain the copyright and are allowed to post an open version) from securecomputation.org, or buy an PDF version from the published for $260 (there is also a printed $99 version).
 Secure multi-party computation (MPC) has evolved from a theoretical curiosity in the 1980s to a tool for building real systems today.</description>
@@ -98,10 +99,10 @@ Secure multi-party computation (MPC) has evolved from a theoretical curiosity in
     
     <item>
       <title>NeurIPS 2018: Distributed Learning without Distress</title>
-      <link>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</link>
+      <link>//uvasrg.github.io/neurips-2018-distributed-learning-without-distress/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</guid>
+      <guid>//uvasrg.github.io/neurips-2018-distributed-learning-without-distress/</guid>
       <description>Bargav Jayaraman presented our work on privacy-preserving machine learning at the 32nd Conference on Neural Information Processing Systems (NeurIPS 2018) in Montreal.
 Distributed learning (sometimes known as federated learning) allows a group of independent data owners to collaboratively learn a model over their data sets without exposing their private data. Our approach combines differential privacy with secure multi-party computation to both protect the data during training and produce a model that provides privacy against inference attacks.</description>
     </item>

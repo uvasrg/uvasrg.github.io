@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dependability on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/dependability/</link>
-    <description>Recent content in dependability on Jefferson&#39;s Wheel</description>
+    <title>dependability on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/dependability/</link>
+    <description>Recent content in dependability on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/dependability/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/dependability/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ISMR 2019: Context-aware Monitoring in Robotic Surgery</title>
-      <link>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>
+      <link>//uvasrg.github.io/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</guid>
+      <guid>//uvasrg.github.io/ismr-2019-context-aware-monitoring-in-robotic-surgery/</guid>
       <description>Samin Yasar presented our paper on Context-award Monitoring in Robotic Surgery at the 2019 International Symposium on Medical Robotics (ISMR) in Atlanta, Georgia.
  Robotic-assisted minimally invasive surgery (MIS) has enabled procedures with increased precision and dexterity, but surgical robots are still open loop and require surgeons to work with a tele-operation console providing only limited visual feedback. In this setting, mechanical failures, software faults, or human errors might lead to adverse events resulting in patient complications or fatalities.</description>
     </item>

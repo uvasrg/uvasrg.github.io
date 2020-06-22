@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guy Verrier on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/guy-verrier/</link>
-    <description>Recent content in Guy Verrier on Jefferson&#39;s Wheel</description>
+    <title>Guy Verrier on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/guy-verrier/</link>
+    <description>Recent content in Guy Verrier on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/guy-verrier/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/guy-verrier/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>USENIX Security 2018</title>
-      <link>//jeffersonswheel.org/usenix-security-2018/</link>
+      <link>//uvasrg.github.io/usenix-security-2018/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/usenix-security-2018/</guid>
+      <guid>//uvasrg.github.io/usenix-security-2018/</guid>
       <description>Three SRG posters were presented at USENIX Security Symposium 2018 in Baltimore, Maryland:
  Nathaniel Grevatt (GDPR-Compliant Data Processing: Improving Pseudonymization with Multi-Party Computation) Matthew Wallace and Parvesh Samayamanthula (Deceiving Privacy Policy Classifiers with Adversarial Examples) Guy Verrier (How is GDPR Affecting Privacy Policies?, joint with Haonan Chen and Yuan Tian)  
          There were also a surprising number of appearances by an unidentified unicorn:</description>

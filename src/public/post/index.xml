@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/post/</link>
-    <description>Recent content in Posts on Jefferson&#39;s Wheel</description>
+    <title>Posts on Security Research Group</title>
+    <link>//uvasrg.github.io/post/</link>
+    <description>Recent content in Posts on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Oakland Test-of-Time Awards</title>
-      <link>//jeffersonswheel.org/oakland-test-of-time-awards/</link>
+      <link>//uvasrg.github.io/oakland-test-of-time-awards/</link>
       <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/oakland-test-of-time-awards/</guid>
+      <guid>//uvasrg.github.io/oakland-test-of-time-awards/</guid>
       <description>I chaired the committee to select Test-of-Time Awards for the IEEE Symposium on Security and Privacy symposia from 1995-2006, which were presented at the Opening Section of the 41st IEEE Symposium on Security and Privacy.
    </description>
     </item>
     
     <item>
       <title>NeurIPS 2019</title>
-      <link>//jeffersonswheel.org/neurips2019/</link>
+      <link>//uvasrg.github.io/neurips2019/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/neurips2019/</guid>
+      <guid>//uvasrg.github.io/neurips2019/</guid>
       <description> Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: https://slideslive.com/38921718/track-2-session-1 (starting at 26:50)  See this post for info on the paper. Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody):   
 
 
@@ -37,10 +38,10 @@
     
     <item>
       <title>USENIX Security 2020: Hybrid Batch Attacks</title>
-      <link>//jeffersonswheel.org/usenix-security-2020-hybrid-batch-attacks/</link>
+      <link>//uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/usenix-security-2020-hybrid-batch-attacks/</guid>
+      <guid>//uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/</guid>
       <description>Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.
 Existing black-box attacks can be grouped into two main categories:
   Transfer Attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model.
@@ -49,40 +50,40 @@ Existing black-box attacks can be grouped into two main categories:
     
     <item>
       <title>NeurIPS 2019: Empirically Measuring Concentration</title>
-      <link>//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/</link>
+      <link>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/neurips-2019-empirically-measuring-concentration/</guid>
+      <guid>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</guid>
       <description>Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
 Recent theoretical results, starting with Gilmer et al.&amp;lsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
     </item>
     
     <item>
       <title>White House Visit</title>
-      <link>//jeffersonswheel.org/white-house-visit/</link>
+      <link>//uvasrg.github.io/white-house-visit/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/white-house-visit/</guid>
+      <guid>//uvasrg.github.io/white-house-visit/</guid>
       <description>I had a chance to visit the White House for a Roundtable on Accelerating Responsible Sharing of Federal Data. The meeting was held under &amp;ldquo;Chatham House Rules&amp;rdquo;, so I won&amp;rsquo;t mention the other participants here.
    The meeting was held in the Roosevelt Room of the White House. We entered through the visitor&amp;rsquo;s side entrance. After a security gate (where you put your phone in a lockbox, so no pictures inside) with a TV blaring Fox News, there is a pleasant lobby for waiting, and then an entrance right into the Roosevelt Room.</description>
     </item>
     
     <item>
       <title>Jobs for Humans, 2029-2059</title>
-      <link>//jeffersonswheel.org/jobs-for-humans-2029-2059/</link>
+      <link>//uvasrg.github.io/jobs-for-humans-2029-2059/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/jobs-for-humans-2029-2059/</guid>
+      <guid>//uvasrg.github.io/jobs-for-humans-2029-2059/</guid>
       <description>I was honored to particilate in a panel at an event on Adult Education in the Age of Artificial Intelligence that was run by The Great Courses as a fundraiser for the Academy of Hope, an adult public charter school in Washington, D.C.
 I spoke first, following a few introductory talks, and was followed by Nicole Smith and Ellen Scully-Russ, and a keynote from Dexter Manley, Super Bowl winner with the Washington Redskins.</description>
     </item>
     
     <item>
       <title>Research Symposium Posters</title>
-      <link>//jeffersonswheel.org/research-symposium-posters/</link>
+      <link>//uvasrg.github.io/research-symposium-posters/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/research-symposium-posters/</guid>
+      <guid>//uvasrg.github.io/research-symposium-posters/</guid>
       <description>Five students from our group presented posters at the department&amp;rsquo;s Fall Research Symposium:
  
 Anshuman Suri&#39;s Overview Talk   Bargav Jayaraman, Evaluating Differentially Private Machine Learning In Practice [Poster]
@@ -101,20 +102,20 @@ Anshuman Suri&#39;s Overview Talk   Bargav Jayaraman, Evaluating Differentially 
     
     <item>
       <title>Cantor&#39;s (No Longer) Lost Proof</title>
-      <link>//jeffersonswheel.org/cantors-no-longer-lost-proof/</link>
+      <link>//uvasrg.github.io/cantors-no-longer-lost-proof/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/cantors-no-longer-lost-proof/</guid>
+      <guid>//uvasrg.github.io/cantors-no-longer-lost-proof/</guid>
       <description>In preparing to cover Cantor&amp;rsquo;s proof of different infinite set cardinalities (one of my all-time favorite topics!) in our theory of computation course, I found various conflicting accounts of what Cantor originally proved. So, I figured it would be easy to search the web to find the original proof.
 Shockingly, at least as far as I could find1, it didn&amp;rsquo;t exist on the web! The closest I could find was in Google Books the 1892 volume of the Jähresbericht Deutsche Mathematiker-Vereinigung (which many of the references pointed to), but in fact not the first value of that journal which contains the actual proof.</description>
     </item>
     
     <item>
       <title>FOSAD Trustworthy Machine Learning Mini-Course</title>
-      <link>//jeffersonswheel.org/fosad2019/</link>
+      <link>//uvasrg.github.io/fosad2019/</link>
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/fosad2019/</guid>
+      <guid>//uvasrg.github.io/fosad2019/</guid>
       <description>I taught a mini-course on Trustworthy Machine Learning at the 19th International School on Foundations of Security Analysis and Design in Bertinoro, Italy.
  Slides from my three (two-hour) lectures are posted below, along with some links to relevant papers and resources.
 Class 1: Introduction/Attacks    The PDF malware evasion attack is described in this paper:
@@ -123,20 +124,20 @@ Class 1: Introduction/Attacks    The PDF malware evasion attack is described in 
     
     <item>
       <title>Evaluating Differentially Private Machine Learning in Practice</title>
-      <link>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</link>
+      <link>//uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</guid>
+      <guid>//uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/</guid>
       <description>(Cross-post by Bargav Jayaraman)
 With the recent advances in composition of differential private mechanisms, the research community has been able to achieve meaningful deep learning with privacy budgets in single digits. Rènyi differential privacy (RDP) is one mechanism that provides tighter composition which is widely used because of its implementation in TensorFlow Privacy (recently, Gaussian differential privacy (GDP) has shown a tighter analysis for low privacy budgets, but it was not yet available when we did this work).</description>
     </item>
     
     <item>
       <title>USENIX Security Symposium 2019</title>
-      <link>//jeffersonswheel.org/usenix-security-symposium-2019/</link>
+      <link>//uvasrg.github.io/usenix-security-symposium-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/usenix-security-symposium-2019/</guid>
+      <guid>//uvasrg.github.io/usenix-security-symposium-2019/</guid>
       <description>Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
        Summary by Lea Kissner:
  Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
@@ -146,10 +147,10 @@ With the recent advances in composition of differential private mechanisms, the 
     
     <item>
       <title>Google Security and Privacy Workshop</title>
-      <link>//jeffersonswheel.org/google-security-and-privacy-workshop/</link>
+      <link>//uvasrg.github.io/google-security-and-privacy-workshop/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/google-security-and-privacy-workshop/</guid>
+      <guid>//uvasrg.github.io/google-security-and-privacy-workshop/</guid>
       <description>I presented a short talk at a workshop at Google on Adversarial ML: Closing Gaps between Theory and Practice (mostly fun for the movie of me trying to solve Google&amp;rsquo;s CAPTCHA on the last slide):
  Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.
  I can say with some confidence, Google does donuts much better than they do cookies!</description>
@@ -157,10 +158,10 @@ With the recent advances in composition of differential private mechanisms, the 
     
     <item>
       <title>Brink Essay: AI Systems Are Complex and Fragile. Here Are Four Key Risks to Understand.</title>
-      <link>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</link>
+      <link>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
+      <guid>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
       <description>Brink News (a publication of the The Atlantic) published my essay on the risks of deploying AI systems.
    Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. 
 Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.</description>
@@ -168,49 +169,49 @@ Despite these successes, AI systems are fundamentally fragile — and the ways t
     
     <item>
       <title>Google Federated Privacy 2019: The Dragon in the Room</title>
-      <link>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</link>
+      <link>//uvasrg.github.io/google-federated-privacy-2019-the-dragon-in-the-room/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/google-federated-privacy-2019-the-dragon-in-the-room/</guid>
+      <guid>//uvasrg.github.io/google-federated-privacy-2019-the-dragon-in-the-room/</guid>
       <description>I&amp;rsquo;m back from a very interesting Workshop on Federated Learning and Analytics that was organized by Peter Kairouz and Brendan McMahan from Google&amp;rsquo;s federated learning team and was held at Google Seattle.
 For the first part of my talk, I covered Bargav&amp;rsquo;s work on evaluating differentially private machine learning, but I reserved the last few minutes of my talk to address the cognitive dissonance I felt being at a Google meeting on privacy.</description>
     </item>
     
     <item>
       <title>Graduation 2019</title>
-      <link>//jeffersonswheel.org/graduation-2019/</link>
+      <link>//uvasrg.github.io/graduation-2019/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/graduation-2019/</guid>
+      <guid>//uvasrg.github.io/graduation-2019/</guid>
       <description>               </description>
     </item>
     
     <item>
       <title>How AI could save lives without spilling medical secrets</title>
-      <link>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</link>
+      <link>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
+      <guid>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
       <description>I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: How AI could save lives without spilling medical secrets, MIT Technology Review, 14 May 2019.
  &amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
     </item>
     
     <item>
       <title>Cost-Sensitive Adversarial Robustness at ICLR 2019</title>
-      <link>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</link>
+      <link>//uvasrg.github.io/cost-sensitive-adversarial-robustness-at-iclr-2019/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
+      <guid>//uvasrg.github.io/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
       <description>Xiao Zhang will present Cost-Sensitive Robustness against Adversarial Examples on May 7 (4:30-6:30pm) at ICLR 2019 in New Orleans.
    Paper: [PDF] [OpenReview] [ArXiv]</description>
     </item>
     
     <item>
       <title>Empirically Measuring Concentration</title>
-      <link>//jeffersonswheel.org/empirically-measuring-concentration/</link>
+      <link>//uvasrg.github.io/empirically-measuring-concentration/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/empirically-measuring-concentration/</guid>
+      <guid>//uvasrg.github.io/empirically-measuring-concentration/</guid>
       <description>Xiao Zhang and Saeed Mahloujifar will present our work on Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness at two workshops May 6 at ICLR 2019 in New Orleans: Debugging Machine Learning Models and Safe Machine Learning: Specification, Robustness and Assurance.
 Paper: [PDF]
    </description>
@@ -218,10 +219,10 @@ Paper: [PDF]
     
     <item>
       <title>SRG Lunch</title>
-      <link>//jeffersonswheel.org/srg-lunch/</link>
+      <link>//uvasrg.github.io/srg-lunch/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/srg-lunch/</guid>
+      <guid>//uvasrg.github.io/srg-lunch/</guid>
       <description>Some photos for our lunch to celebrate the end of semester, beginning of summer, and congratulate Weilin Xu on his PhD:
  
 Left to right: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;Jayaraman, Aihua&amp;nbsp;Chen, Hannah&amp;nbsp;Chen, Weilin&amp;nbsp;Xu, Riley&amp;nbsp;Spahn, David&amp;nbsp;Evans, Fnu&amp;nbsp;Suya, Yuan&amp;nbsp;Tian, Mainuddin&amp;nbsp;Jonas, Tu&amp;nbsp;Le, Faysal&amp;nbsp;Hossain, Xiao&amp;nbsp;Zhang, Jack&amp;nbsp;Verrier      </description>
@@ -229,49 +230,49 @@ Left to right: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;
     
     <item>
       <title>JASON Spring Meeting: Adversarial Machine Learning</title>
-      <link>//jeffersonswheel.org/jason-spring-meeting-adversarial-machine-learning/</link>
+      <link>//uvasrg.github.io/jason-spring-meeting-adversarial-machine-learning/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/jason-spring-meeting-adversarial-machine-learning/</guid>
+      <guid>//uvasrg.github.io/jason-spring-meeting-adversarial-machine-learning/</guid>
       <description>I had the privilege of speaking at the JASON Spring Meeting, undoubtably one of the most diverse meetings I&amp;rsquo;ve been part of with talks on hypersonic signatures (from my DSSG 2008-2009 colleague, Ian Boyd), FBI DNA, nuclear proliferation in Iran, engineering biological materials, and the 2020 census (including a very interesting presentatino from John Abowd on the differential privacy mechanisms they have developed and evaluated). (Unfortunately, my lack of security clearance kept me out of the SCIF used for the talks on quantum computing and more sensitive topics).</description>
     </item>
     
     <item>
       <title>Congratulations Dr. Xu!</title>
-      <link>//jeffersonswheel.org/congratulations-dr.-xu/</link>
+      <link>//uvasrg.github.io/congratulations-dr.-xu/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/congratulations-dr.-xu/</guid>
+      <guid>//uvasrg.github.io/congratulations-dr.-xu/</guid>
       <description>Congratulations to Weilin Xu for successfully defending his PhD Thesis!
    Weilin&#39;s Committee: Homa Alemzadeh, Yanjun Qi, Patrick McDaniel (on screen), David Evans, Vicente Ordóñez Román    Improving Robustness of Machine Learning Models using Domain Knowledge  Although machine learning techniques have achieved great success in many areas, such as computer vision, natural language processing, and computer security, recent studies have shown that they are not robust under attack.</description>
     </item>
     
     <item>
       <title>A Plan to Eradicate Stalkerware</title>
-      <link>//jeffersonswheel.org/a-plan-to-eradicate-stalkerware/</link>
+      <link>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/a-plan-to-eradicate-stalkerware/</guid>
+      <guid>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</guid>
       <description>Sam Havron (BSCS 2017) is quoted in an article in Wired on eradicating stalkerware:
  The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&amp;rsquo; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
     </item>
     
     <item>
       <title>ISMR 2019: Context-aware Monitoring in Robotic Surgery</title>
-      <link>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>
+      <link>//uvasrg.github.io/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/ismr-2019-context-aware-monitoring-in-robotic-surgery/</guid>
+      <guid>//uvasrg.github.io/ismr-2019-context-aware-monitoring-in-robotic-surgery/</guid>
       <description>Samin Yasar presented our paper on Context-award Monitoring in Robotic Surgery at the 2019 International Symposium on Medical Robotics (ISMR) in Atlanta, Georgia.
  Robotic-assisted minimally invasive surgery (MIS) has enabled procedures with increased precision and dexterity, but surgical robots are still open loop and require surgeons to work with a tele-operation console providing only limited visual feedback. In this setting, mechanical failures, software faults, or human errors might lead to adverse events resulting in patient complications or fatalities.</description>
     </item>
     
     <item>
       <title>Deep Fools</title>
-      <link>//jeffersonswheel.org/deep-fools/</link>
+      <link>//uvasrg.github.io/deep-fools/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/deep-fools/</guid>
+      <guid>//uvasrg.github.io/deep-fools/</guid>
       <description>New Electronics has an article that includes my Deep Learning and Security Workshop talk: Deep fools, 21 January 2019.
 A better version of the image Mainuddin Jonas produced that they use (which they screenshot from the talk video) is below:
   </description>
@@ -279,10 +280,10 @@ A better version of the image Mainuddin Jonas produced that they use (which they
     
     <item>
       <title>Markets, Mechanisms, Machines</title>
-      <link>//jeffersonswheel.org/markets-mechanisms-machines/</link>
+      <link>//uvasrg.github.io/markets-mechanisms-machines/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/markets-mechanisms-machines/</guid>
+      <guid>//uvasrg.github.io/markets-mechanisms-machines/</guid>
       <description>My course for Spring 2019 is Markets, Mechanisms, Machines, cross-listed as cs4501/econ4559 and co-taught with Denis Nekipelov. The course will explore interesting connections between economics and computer science.
 My qualifications for being listed as instructor for a 4000-level Economics course are limited to taking an introductory microeconomics course my first year as an undergraduate.
    Its good to finally get a chance to redeem myself for giving up on Economics 28 years ago!</description>
@@ -290,20 +291,20 @@ My qualifications for being listed as instructor for a 4000-level Economics cour
     
     <item>
       <title>ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</title>
-      <link>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
+      <link>//uvasrg.github.io/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
+      <guid>//uvasrg.github.io/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
       <description>Xiao Zhang and my paper on Cost-Sensitive Robustness against Adversarial Examples has been accepted to ICLR 2019.
 Several recent works have developed methods for training classifiers that are certifiably robust against norm-bounded adversarial perturbations. However, these methods assume that all the adversarial transformations provide equal value for adversaries, which is seldom the case in real-world applications. We advocate for cost-sensitive robustness as the criteria for measuring the classifier&amp;rsquo;s performance for specific tasks.</description>
     </item>
     
     <item>
       <title>A Pragmatic Introduction to Secure Multi-Party Computation</title>
-      <link>//jeffersonswheel.org/a-pragmatic-introduction-to-secure-multi-party-computation/</link>
+      <link>//uvasrg.github.io/a-pragmatic-introduction-to-secure-multi-party-computation/</link>
       <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/a-pragmatic-introduction-to-secure-multi-party-computation/</guid>
+      <guid>//uvasrg.github.io/a-pragmatic-introduction-to-secure-multi-party-computation/</guid>
       <description>A Pragmatic Introduction to Secure Multi-Party Computation, co-authored with Vladimir Kolesnikov and Mike Rosulek, is now published by Now Publishers in their Foundations and Trends in Privacy and Security series.
 You can download the book for free (we retain the copyright and are allowed to post an open version) from securecomputation.org, or buy an PDF version from the published for $260 (there is also a printed $99 version).
 Secure multi-party computation (MPC) has evolved from a theoretical curiosity in the 1980s to a tool for building real systems today.</description>
@@ -311,20 +312,20 @@ Secure multi-party computation (MPC) has evolved from a theoretical curiosity in
     
     <item>
       <title>NeurIPS 2018: Distributed Learning without Distress</title>
-      <link>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</link>
+      <link>//uvasrg.github.io/neurips-2018-distributed-learning-without-distress/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/neurips-2018-distributed-learning-without-distress/</guid>
+      <guid>//uvasrg.github.io/neurips-2018-distributed-learning-without-distress/</guid>
       <description>Bargav Jayaraman presented our work on privacy-preserving machine learning at the 32nd Conference on Neural Information Processing Systems (NeurIPS 2018) in Montreal.
 Distributed learning (sometimes known as federated learning) allows a group of independent data owners to collaboratively learn a model over their data sets without exposing their private data. Our approach combines differential privacy with secure multi-party computation to both protect the data during training and produce a model that provides privacy against inference attacks.</description>
     </item>
     
     <item>
       <title>Can Machine Learning Ever Be Trustworthy?</title>
-      <link>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</link>
+      <link>//uvasrg.github.io/can-machine-learning-ever-be-trustworthy/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/can-machine-learning-ever-be-trustworthy/</guid>
+      <guid>//uvasrg.github.io/can-machine-learning-ever-be-trustworthy/</guid>
       <description>I gave the Booz Allen Hamilton Distinguished Colloquium at the University of Maryland on Can Machine Learning Ever Be Trustworthy?.
  [Video](https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650) &amp;middot; [SpeakerDeck](https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy) 
  Abstract Machine learning has produced extraordinary results over the past few years, and machine learning systems are rapidly being deployed for critical tasks, even in adversarial environments. This talk will survey some of the reasons building trustworthy machine learning systems is inherently impossible, and dive into some recent research on adversarial examples.</description>
@@ -332,39 +333,39 @@ Distributed learning (sometimes known as federated learning) allows a group of i
     
     <item>
       <title>Center for Trustworthy Machine Learning</title>
-      <link>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</link>
+      <link>//uvasrg.github.io/center-for-trustworthy-machine-learning/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</guid>
+      <guid>//uvasrg.github.io/center-for-trustworthy-machine-learning/</guid>
       <description>The National Science Foundation announced the Center for Trustworthy Machine Learning today, a new five-year SaTC Frontier Center &amp;ldquo;to develop a rigorous understanding of the security risks of the use of machine learning and to devise the tools, metrics and methods to manage and mitigate security vulnerabilities.&amp;rdquo;
 The Center is lead by Patrick McDaniel at Penn State University, and in addition to our group, includes Dan Boneh and Percy Liang (Stanford University), Kamalika Chaudhuri (University of California San Diego), Somesh Jha (University of Wisconsin) and Dawn Song (University of California Berkeley).</description>
     </item>
     
     <item>
       <title>Artificial intelligence: the new ghost in the machine</title>
-      <link>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</link>
+      <link>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
+      <guid>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
       <description>Engineering and Technology Magazine (a publication of the British [Institution of Engineering and Technology]() has an article that highlights adversarial machine learning research: Artificial intelligence: the new ghost in the machine, 10 October 2018, by Chris Edwards.
   Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.</description>
     </item>
     
     <item>
       <title>Violations of Children’s Privacy Laws</title>
-      <link>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
+      <link>//uvasrg.github.io/violations-of-childrens-privacy-laws/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
+      <guid>//uvasrg.github.io/violations-of-childrens-privacy-laws/</guid>
       <description>The New York Times has an article, How Game Apps That Captivate Kids Have Been Collecting Their Data about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps.</description>
     </item>
     
     <item>
       <title>USENIX Security 2018</title>
-      <link>//jeffersonswheel.org/usenix-security-2018/</link>
+      <link>//uvasrg.github.io/usenix-security-2018/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/usenix-security-2018/</guid>
+      <guid>//uvasrg.github.io/usenix-security-2018/</guid>
       <description>Three SRG posters were presented at USENIX Security Symposium 2018 in Baltimore, Maryland:
  Nathaniel Grevatt (GDPR-Compliant Data Processing: Improving Pseudonymization with Multi-Party Computation) Matthew Wallace and Parvesh Samayamanthula (Deceiving Privacy Policy Classifiers with Adversarial Examples) Guy Verrier (How is GDPR Affecting Privacy Policies?, joint with Haonan Chen and Yuan Tian)  
          There were also a surprising number of appearances by an unidentified unicorn:</description>
@@ -372,20 +373,20 @@ The Center is lead by Patrick McDaniel at Penn State University, and in addition
     
     <item>
       <title>Mutually Assured Destruction and the Impending AI Apocalypse</title>
-      <link>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
+      <link>//uvasrg.github.io/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
+      <guid>//uvasrg.github.io/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
       <description>I gave a keynote talk at USENIX Workshop of Offensive Technologies, Baltimore, Maryland, 13 August 2018. The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&amp;#8217;t able to actually figure out a talk to match the title and abstract I provided.
  The history of security includes a long series of arms races, where a new technology emerges and is subsequently developed and exploited by both defenders and attackers.</description>
     </item>
     
     <item>
       <title>Cybersecurity Summer Camp</title>
-      <link>//jeffersonswheel.org/cybersecurity-summer-camp/</link>
+      <link>//uvasrg.github.io/cybersecurity-summer-camp/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/cybersecurity-summer-camp/</guid>
+      <guid>//uvasrg.github.io/cybersecurity-summer-camp/</guid>
       <description>I helped organize a summer camp for high school teachers focused on cybersecurity, led by Ahmed Ibrahim. Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: Cipher School for Muggles.
  
 
@@ -396,20 +397,20 @@ Cybersecurity Goes to Summer Camp. UVA Today. 22 July 2018. [archive.org]
     
     <item>
       <title>Dependable and Secure Machine Learning</title>
-      <link>//jeffersonswheel.org/dependable-and-secure-machine-learning/</link>
+      <link>//uvasrg.github.io/dependable-and-secure-machine-learning/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/dependable-and-secure-machine-learning/</guid>
+      <guid>//uvasrg.github.io/dependable-and-secure-machine-learning/</guid>
       <description>I co-organized, with Homa Alemzadeh and Karthik Pattabiraman, a workshop on trustworthy machine learning attached to DSN 2018, in Luxembourg: DSML: Dependable and Secure Machine Learning.
  </description>
     </item>
     
     <item>
       <title>DLS Keynote: Is &#39;adversarial examples&#39; an Adversarial Example?</title>
-      <link>//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
+      <link>//uvasrg.github.io/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/dls-keynote-is-adversarial-examples-an-adversarial-example/</guid>
+      <guid>//uvasrg.github.io/dls-keynote-is-adversarial-examples-an-adversarial-example/</guid>
       <description>I gave a keynote talk at the 1st Deep Learning and Security Workshop (co-located with the 39th IEEE Symposium on Security and Privacy). San Francisco, California. 24 May 2018
 
   
@@ -421,10 +422,10 @@ Abstract
     
     <item>
       <title>Wahoos at Oakland</title>
-      <link>//jeffersonswheel.org/wahoos-at-oakland/</link>
+      <link>//uvasrg.github.io/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/wahoos-at-oakland/</guid>
+      <guid>//uvasrg.github.io/wahoos-at-oakland/</guid>
       <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!
 
 
@@ -436,10 +437,10 @@ Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using
     
     <item>
       <title>Lessons from the Last 3000 Years of Adversarial Examples</title>
-      <link>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
+      <link>//uvasrg.github.io/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
+      <guid>//uvasrg.github.io/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
       <description>I spoke on Lessons from the Last 3000 Years of Adversarial Examples at Huawei’s Strategy and Technology Workshop in Shenzhen, China, 15 May 2018.    We also got to tour Huawei&amp;#8217;s new research and development campus, under construction about 40 minutes from Shenzhen. It is pretty close to Disneyland, with its own railroad and villages themed after different European cities (Paris, Bologna, etc.).
 
 
@@ -448,10 +449,10 @@ Huawei&amp;#8217;s New Research and Development Campus [More Pictures]</descript
     
     <item>
       <title>Feature Squeezing at NDSS</title>
-      <link>//jeffersonswheel.org/feature-squeezing-at-ndss/</link>
+      <link>//uvasrg.github.io/feature-squeezing-at-ndss/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/feature-squeezing-at-ndss/</guid>
+      <guid>//uvasrg.github.io/feature-squeezing-at-ndss/</guid>
       <description>Weilin Xu presented Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks at the Network and Distributed System Security Symposium 2018. San Diego, CA. 21 February 2018.
 
 
@@ -462,11 +463,11 @@ Project Site: EvadeML.org</description>
     
     <item>
       <title>Older Posts</title>
-      <link>//jeffersonswheel.org/older-posts/</link>
+      <link>//uvasrg.github.io/older-posts/</link>
       <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/older-posts/</guid>
-      <description>Older posts on www.jeffersonswheel.org have not been moved into this new blog, but are still available here:
+      <guid>//uvasrg.github.io/older-posts/</guid>
+      <description>Older posts have not been moved into this new blog, but are still available here:
  2017 2016 2015 2014 2013 2012 2011 2010 2009 2008  </description>
     </item>
     

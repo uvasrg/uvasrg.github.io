@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>press on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/categories/press/</link>
-    <description>Recent content in press on Jefferson&#39;s Wheel</description>
+    <title>press on Security Research Group</title>
+    <link>//uvasrg.github.io/categories/press/</link>
+    <description>Recent content in press on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/categories/press/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/categories/press/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How AI could save lives without spilling medical secrets</title>
-      <link>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</link>
+      <link>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
+      <guid>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
       <description>I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: How AI could save lives without spilling medical secrets, MIT Technology Review, 14 May 2019.
  &amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
     </item>
     
     <item>
       <title>Deep Fools</title>
-      <link>//jeffersonswheel.org/deep-fools/</link>
+      <link>//uvasrg.github.io/deep-fools/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/deep-fools/</guid>
+      <guid>//uvasrg.github.io/deep-fools/</guid>
       <description>New Electronics has an article that includes my Deep Learning and Security Workshop talk: Deep fools, 21 January 2019.
 A better version of the image Mainuddin Jonas produced that they use (which they screenshot from the talk video) is below:
   </description>
@@ -34,39 +35,39 @@ A better version of the image Mainuddin Jonas produced that they use (which they
     
     <item>
       <title>Center for Trustworthy Machine Learning</title>
-      <link>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</link>
+      <link>//uvasrg.github.io/center-for-trustworthy-machine-learning/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/center-for-trustworthy-machine-learning/</guid>
+      <guid>//uvasrg.github.io/center-for-trustworthy-machine-learning/</guid>
       <description>The National Science Foundation announced the Center for Trustworthy Machine Learning today, a new five-year SaTC Frontier Center &amp;ldquo;to develop a rigorous understanding of the security risks of the use of machine learning and to devise the tools, metrics and methods to manage and mitigate security vulnerabilities.&amp;rdquo;
 The Center is lead by Patrick McDaniel at Penn State University, and in addition to our group, includes Dan Boneh and Percy Liang (Stanford University), Kamalika Chaudhuri (University of California San Diego), Somesh Jha (University of Wisconsin) and Dawn Song (University of California Berkeley).</description>
     </item>
     
     <item>
       <title>Artificial intelligence: the new ghost in the machine</title>
-      <link>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</link>
+      <link>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
+      <guid>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
       <description>Engineering and Technology Magazine (a publication of the British [Institution of Engineering and Technology]() has an article that highlights adversarial machine learning research: Artificial intelligence: the new ghost in the machine, 10 October 2018, by Chris Edwards.
   Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.</description>
     </item>
     
     <item>
       <title>Violations of Children’s Privacy Laws</title>
-      <link>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</link>
+      <link>//uvasrg.github.io/violations-of-childrens-privacy-laws/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/violations-of-childrens-privacy-laws/</guid>
+      <guid>//uvasrg.github.io/violations-of-childrens-privacy-laws/</guid>
       <description>The New York Times has an article, How Game Apps That Captivate Kids Have Been Collecting Their Data about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps.</description>
     </item>
     
     <item>
       <title>Cybersecurity Summer Camp</title>
-      <link>//jeffersonswheel.org/cybersecurity-summer-camp/</link>
+      <link>//uvasrg.github.io/cybersecurity-summer-camp/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/cybersecurity-summer-camp/</guid>
+      <guid>//uvasrg.github.io/cybersecurity-summer-camp/</guid>
       <description>I helped organize a summer camp for high school teachers focused on cybersecurity, led by Ahmed Ibrahim. Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: Cipher School for Muggles.
  
 

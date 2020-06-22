@@ -1,9 +1,8 @@
-baseurl = "//jeffersonswheel.org/"
+baseurl = "//uvasrg.github.io/"
 languageCode = "en-us"
-title = "Jefferson's Wheel"
-subtitle = "Security Research at the University of Virginia"
-copyright = ""
-theme = "hugo-finite"
+title = "Security Research Group"
+copyright = "Privacy and Security Research at the University of Virginia"
+theme = "srg"
 
 paginate = 10
 paginatePath = "page"
@@ -21,11 +20,10 @@ unsafe= true
     code = "/:slug/"
 
 [params]
-    brand = "Jefferson's Wheel"
+    brand = "Security Research Group"
     topline = "University of Virginia Security Research Group"
     footline = "<p align=\"center\">University of Virginia | Security Research Group</p>"
     sidebar = "left"
-    googleAnalytics = "UA-3775212-1"
 
     nodate = true
     noauthor = true

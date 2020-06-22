@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>posters on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/posters/</link>
-    <description>Recent content in posters on Jefferson&#39;s Wheel</description>
+    <title>posters on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/posters/</link>
+    <description>Recent content in posters on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 29 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/posters/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/posters/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Wahoos at Oakland</title>
-      <link>//jeffersonswheel.org/wahoos-at-oakland/</link>
+      <link>//uvasrg.github.io/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/wahoos-at-oakland/</guid>
+      <guid>//uvasrg.github.io/wahoos-at-oakland/</guid>
       <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!
 
 

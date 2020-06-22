@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mainuddin Jonas on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/mainuddin-jonas/</link>
-    <description>Recent content in Mainuddin Jonas on Jefferson&#39;s Wheel</description>
+    <title>Mainuddin Jonas on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/mainuddin-jonas/</link>
+    <description>Recent content in Mainuddin Jonas on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/mainuddin-jonas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/mainuddin-jonas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Research Symposium Posters</title>
-      <link>//jeffersonswheel.org/research-symposium-posters/</link>
+      <link>//uvasrg.github.io/research-symposium-posters/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/research-symposium-posters/</guid>
+      <guid>//uvasrg.github.io/research-symposium-posters/</guid>
       <description>Five students from our group presented posters at the department&amp;rsquo;s Fall Research Symposium:
  
 Anshuman Suri&#39;s Overview Talk   Bargav Jayaraman, Evaluating Differentially Private Machine Learning In Practice [Poster]
@@ -35,10 +36,10 @@ Anshuman Suri&#39;s Overview Talk   Bargav Jayaraman, Evaluating Differentially 
     
     <item>
       <title>Deep Fools</title>
-      <link>//jeffersonswheel.org/deep-fools/</link>
+      <link>//uvasrg.github.io/deep-fools/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/deep-fools/</guid>
+      <guid>//uvasrg.github.io/deep-fools/</guid>
       <description>New Electronics has an article that includes my Deep Learning and Security Workshop talk: Deep fools, 21 January 2019.
 A better version of the image Mainuddin Jonas produced that they use (which they screenshot from the talk video) is below:
   </description>
@@ -46,20 +47,20 @@ A better version of the image Mainuddin Jonas produced that they use (which they
     
     <item>
       <title>Artificial intelligence: the new ghost in the machine</title>
-      <link>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</link>
+      <link>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
+      <guid>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
       <description>Engineering and Technology Magazine (a publication of the British [Institution of Engineering and Technology]() has an article that highlights adversarial machine learning research: Artificial intelligence: the new ghost in the machine, 10 October 2018, by Chris Edwards.
   Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.</description>
     </item>
     
     <item>
       <title>Wahoos at Oakland</title>
-      <link>//jeffersonswheel.org/wahoos-at-oakland/</link>
+      <link>//uvasrg.github.io/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/wahoos-at-oakland/</guid>
+      <guid>//uvasrg.github.io/wahoos-at-oakland/</guid>
       <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!
 
 

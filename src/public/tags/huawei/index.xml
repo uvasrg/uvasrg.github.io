@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Huawei on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/huawei/</link>
-    <description>Recent content in Huawei on Jefferson&#39;s Wheel</description>
+    <title>Huawei on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/huawei/</link>
+    <description>Recent content in Huawei on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/huawei/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/huawei/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lessons from the Last 3000 Years of Adversarial Examples</title>
-      <link>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
+      <link>//uvasrg.github.io/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
+      <guid>//uvasrg.github.io/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
       <description>I spoke on Lessons from the Last 3000 Years of Adversarial Examples at Huawei’s Strategy and Technology Workshop in Shenzhen, China, 15 May 2018.    We also got to tour Huawei&amp;#8217;s new research and development campus, under construction about 40 minutes from Shenzhen. It is pretty close to Disneyland, with its own railroad and villages themed after different European cities (Paris, Bologna, etc.).
 
 

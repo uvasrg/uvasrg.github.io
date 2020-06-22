@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WOOT on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/woot/</link>
-    <description>Recent content in WOOT on Jefferson&#39;s Wheel</description>
+    <title>WOOT on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/woot/</link>
+    <description>Recent content in WOOT on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Mon, 13 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/woot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/woot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mutually Assured Destruction and the Impending AI Apocalypse</title>
-      <link>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
+      <link>//uvasrg.github.io/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
+      <guid>//uvasrg.github.io/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
       <description>I gave a keynote talk at USENIX Workshop of Offensive Technologies, Baltimore, Maryland, 13 August 2018. The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&amp;#8217;t able to actually figure out a talk to match the title and abstract I provided.
  The history of security includes a long series of arms races, where a new technology emerges and is subsequently developed and exploited by both defenders and attackers.</description>
     </item>

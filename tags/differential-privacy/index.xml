@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>differential privacy on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/differential-privacy/</link>
-    <description>Recent content in differential privacy on Jefferson&#39;s Wheel</description>
+    <title>differential privacy on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/differential-privacy/</link>
+    <description>Recent content in differential privacy on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 27 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/differential-privacy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/differential-privacy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Evaluating Differentially Private Machine Learning in Practice</title>
-      <link>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</link>
+      <link>//uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/evaluating-differentially-private-machine-learning-in-practice/</guid>
+      <guid>//uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/</guid>
       <description>(Cross-post by Bargav Jayaraman)
 With the recent advances in composition of differential private mechanisms, the research community has been able to achieve meaningful deep learning with privacy budgets in single digits. Rènyi differential privacy (RDP) is one mechanism that provides tighter composition which is widely used because of its implementation in TensorFlow Privacy (recently, Gaussian differential privacy (GDP) has shown a tighter analysis for low privacy budgets, but it was not yet available when we did this work).</description>
     </item>
     
     <item>
       <title>How AI could save lives without spilling medical secrets</title>
-      <link>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</link>
+      <link>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
+      <guid>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
       <description>I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: How AI could save lives without spilling medical secrets, MIT Technology Review, 14 May 2019.
  &amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
     </item>

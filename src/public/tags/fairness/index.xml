@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>fairness on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/fairness/</link>
-    <description>Recent content in fairness on Jefferson&#39;s Wheel</description>
+    <title>fairness on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/fairness/</link>
+    <description>Recent content in fairness on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/fairness/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/fairness/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Brink Essay: AI Systems Are Complex and Fragile. Here Are Four Key Risks to Understand.</title>
-      <link>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</link>
+      <link>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
+      <guid>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
       <description>Brink News (a publication of the The Atlantic) published my essay on the risks of deploying AI systems.
    Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. 
 Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.</description>

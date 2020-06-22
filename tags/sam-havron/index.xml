@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sam Havron on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/sam-havron/</link>
-    <description>Recent content in Sam Havron on Jefferson&#39;s Wheel</description>
+    <title>Sam Havron on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/sam-havron/</link>
+    <description>Recent content in Sam Havron on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/sam-havron/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/sam-havron/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>USENIX Security Symposium 2019</title>
-      <link>//jeffersonswheel.org/usenix-security-symposium-2019/</link>
+      <link>//uvasrg.github.io/usenix-security-symposium-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/usenix-security-symposium-2019/</guid>
+      <guid>//uvasrg.github.io/usenix-security-symposium-2019/</guid>
       <description>Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
        Summary by Lea Kissner:
  Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
@@ -26,10 +27,10 @@
     
     <item>
       <title>A Plan to Eradicate Stalkerware</title>
-      <link>//jeffersonswheel.org/a-plan-to-eradicate-stalkerware/</link>
+      <link>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/a-plan-to-eradicate-stalkerware/</guid>
+      <guid>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</guid>
       <description>Sam Havron (BSCS 2017) is quoted in an article in Wired on eradicating stalkerware:
  The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&amp;rsquo; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
     </item>

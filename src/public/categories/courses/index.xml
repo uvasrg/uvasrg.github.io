@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>courses on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/categories/courses/</link>
-    <description>Recent content in courses on Jefferson&#39;s Wheel</description>
+    <title>courses on Security Research Group</title>
+    <link>//uvasrg.github.io/categories/courses/</link>
+    <description>Recent content in courses on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/categories/courses/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/categories/courses/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>FOSAD Trustworthy Machine Learning Mini-Course</title>
-      <link>//jeffersonswheel.org/fosad2019/</link>
+      <link>//uvasrg.github.io/fosad2019/</link>
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/fosad2019/</guid>
+      <guid>//uvasrg.github.io/fosad2019/</guid>
       <description>I taught a mini-course on Trustworthy Machine Learning at the 19th International School on Foundations of Security Analysis and Design in Bertinoro, Italy.
  Slides from my three (two-hour) lectures are posted below, along with some links to relevant papers and resources.
 Class 1: Introduction/Attacks    The PDF malware evasion attack is described in this paper:

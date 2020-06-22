@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>artificial intelligence on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/artificial-intelligence/</link>
-    <description>Recent content in artificial intelligence on Jefferson&#39;s Wheel</description>
+    <title>artificial intelligence on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/artificial-intelligence/</link>
+    <description>Recent content in artificial intelligence on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jobs for Humans, 2029-2059</title>
-      <link>//jeffersonswheel.org/jobs-for-humans-2029-2059/</link>
+      <link>//uvasrg.github.io/jobs-for-humans-2029-2059/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/jobs-for-humans-2029-2059/</guid>
+      <guid>//uvasrg.github.io/jobs-for-humans-2029-2059/</guid>
       <description>I was honored to particilate in a panel at an event on Adult Education in the Age of Artificial Intelligence that was run by The Great Courses as a fundraiser for the Academy of Hope, an adult public charter school in Washington, D.C.
 I spoke first, following a few introductory talks, and was followed by Nicole Smith and Ellen Scully-Russ, and a keynote from Dexter Manley, Super Bowl winner with the Washington Redskins.</description>
     </item>

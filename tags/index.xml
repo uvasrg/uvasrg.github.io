@@ -1,616 +1,617 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/</link>
-    <description>Recent content in Tags on Jefferson&#39;s Wheel</description>
+    <title>Tags on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/</link>
+    <description>Recent content in Tags on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>adversarial machine learning</title>
-      <link>//jeffersonswheel.org/tags/adversarial-machine-learning/</link>
+      <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/adversarial-machine-learning/</guid>
+      <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mohammad Mahmoody</title>
-      <link>//jeffersonswheel.org/tags/mohammad-mahmoody/</link>
+      <link>//uvasrg.github.io/tags/mohammad-mahmoody/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/mohammad-mahmoody/</guid>
+      <guid>//uvasrg.github.io/tags/mohammad-mahmoody/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NeurIPS</title>
-      <link>//jeffersonswheel.org/tags/neurips/</link>
+      <link>//uvasrg.github.io/tags/neurips/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/neurips/</guid>
+      <guid>//uvasrg.github.io/tags/neurips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Saeed Mahloujifar</title>
-      <link>//jeffersonswheel.org/tags/saeed-mahloujifar/</link>
+      <link>//uvasrg.github.io/tags/saeed-mahloujifar/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/saeed-mahloujifar/</guid>
+      <guid>//uvasrg.github.io/tags/saeed-mahloujifar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xiao Zhang</title>
-      <link>//jeffersonswheel.org/tags/xiao-zhang/</link>
+      <link>//uvasrg.github.io/tags/xiao-zhang/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/xiao-zhang/</guid>
+      <guid>//uvasrg.github.io/tags/xiao-zhang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fnu Suya</title>
-      <link>//jeffersonswheel.org/tags/fnu-suya/</link>
+      <link>//uvasrg.github.io/tags/fnu-suya/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/fnu-suya/</guid>
+      <guid>//uvasrg.github.io/tags/fnu-suya/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jianfeng Chi</title>
-      <link>//jeffersonswheel.org/tags/jianfeng-chi/</link>
+      <link>//uvasrg.github.io/tags/jianfeng-chi/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/jianfeng-chi/</guid>
+      <guid>//uvasrg.github.io/tags/jianfeng-chi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>USENIX Security</title>
-      <link>//jeffersonswheel.org/tags/usenix-security/</link>
+      <link>//uvasrg.github.io/tags/usenix-security/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/usenix-security/</guid>
+      <guid>//uvasrg.github.io/tags/usenix-security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yuan Tian</title>
-      <link>//jeffersonswheel.org/tags/yuan-tian/</link>
+      <link>//uvasrg.github.io/tags/yuan-tian/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/yuan-tian/</guid>
+      <guid>//uvasrg.github.io/tags/yuan-tian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conferences</title>
-      <link>//jeffersonswheel.org/tags/conferences/</link>
+      <link>//uvasrg.github.io/tags/conferences/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/conferences/</guid>
+      <guid>//uvasrg.github.io/tags/conferences/</guid>
       <description></description>
     </item>
     
     <item>
       <title>multi-party computation</title>
-      <link>//jeffersonswheel.org/tags/multi-party-computation/</link>
+      <link>//uvasrg.github.io/tags/multi-party-computation/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/multi-party-computation/</guid>
+      <guid>//uvasrg.github.io/tags/multi-party-computation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>//jeffersonswheel.org/tags/privacy/</link>
+      <link>//uvasrg.github.io/tags/privacy/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/privacy/</guid>
+      <guid>//uvasrg.github.io/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>White House</title>
-      <link>//jeffersonswheel.org/tags/white-house/</link>
+      <link>//uvasrg.github.io/tags/white-house/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/white-house/</guid>
+      <guid>//uvasrg.github.io/tags/white-house/</guid>
       <description></description>
     </item>
     
     <item>
       <title>artificial intelligence</title>
-      <link>//jeffersonswheel.org/tags/artificial-intelligence/</link>
+      <link>//uvasrg.github.io/tags/artificial-intelligence/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/artificial-intelligence/</guid>
+      <guid>//uvasrg.github.io/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>education</title>
-      <link>//jeffersonswheel.org/tags/education/</link>
+      <link>//uvasrg.github.io/tags/education/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/education/</guid>
+      <guid>//uvasrg.github.io/tags/education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>outreach</title>
-      <link>//jeffersonswheel.org/tags/outreach/</link>
+      <link>//uvasrg.github.io/tags/outreach/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/outreach/</guid>
+      <guid>//uvasrg.github.io/tags/outreach/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Anshuman Suri</title>
-      <link>//jeffersonswheel.org/tags/anshuman-suri/</link>
+      <link>//uvasrg.github.io/tags/anshuman-suri/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/anshuman-suri/</guid>
+      <guid>//uvasrg.github.io/tags/anshuman-suri/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bargav Jayaraman</title>
-      <link>//jeffersonswheel.org/tags/bargav-jayaraman/</link>
+      <link>//uvasrg.github.io/tags/bargav-jayaraman/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/bargav-jayaraman/</guid>
+      <guid>//uvasrg.github.io/tags/bargav-jayaraman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hannah Chen</title>
-      <link>//jeffersonswheel.org/tags/hannah-chen/</link>
+      <link>//uvasrg.github.io/tags/hannah-chen/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/hannah-chen/</guid>
+      <guid>//uvasrg.github.io/tags/hannah-chen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mainuddin Jonas</title>
-      <link>//jeffersonswheel.org/tags/mainuddin-jonas/</link>
+      <link>//uvasrg.github.io/tags/mainuddin-jonas/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/mainuddin-jonas/</guid>
+      <guid>//uvasrg.github.io/tags/mainuddin-jonas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research</title>
-      <link>//jeffersonswheel.org/tags/research/</link>
+      <link>//uvasrg.github.io/tags/research/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/research/</guid>
+      <guid>//uvasrg.github.io/tags/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>history</title>
-      <link>//jeffersonswheel.org/tags/history/</link>
+      <link>//uvasrg.github.io/tags/history/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/history/</guid>
+      <guid>//uvasrg.github.io/tags/history/</guid>
       <description></description>
     </item>
     
     <item>
       <title>teaching</title>
-      <link>//jeffersonswheel.org/tags/teaching/</link>
+      <link>//uvasrg.github.io/tags/teaching/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/teaching/</guid>
+      <guid>//uvasrg.github.io/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uncountability</title>
-      <link>//jeffersonswheel.org/tags/uncountability/</link>
+      <link>//uvasrg.github.io/tags/uncountability/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/uncountability/</guid>
+      <guid>//uvasrg.github.io/tags/uncountability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>differential privacy</title>
-      <link>//jeffersonswheel.org/tags/differential-privacy/</link>
+      <link>//uvasrg.github.io/tags/differential-privacy/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/differential-privacy/</guid>
+      <guid>//uvasrg.github.io/tags/differential-privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy-preserving machine learning</title>
-      <link>//jeffersonswheel.org/tags/privacy-preserving-machine-learning/</link>
+      <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/privacy-preserving-machine-learning/</guid>
+      <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sam Havron</title>
-      <link>//jeffersonswheel.org/tags/sam-havron/</link>
+      <link>//uvasrg.github.io/tags/sam-havron/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/sam-havron/</guid>
+      <guid>//uvasrg.github.io/tags/sam-havron/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Serge Egelman</title>
-      <link>//jeffersonswheel.org/tags/serge-egelman/</link>
+      <link>//uvasrg.github.io/tags/serge-egelman/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/serge-egelman/</guid>
+      <guid>//uvasrg.github.io/tags/serge-egelman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google</title>
-      <link>//jeffersonswheel.org/tags/google/</link>
+      <link>//uvasrg.github.io/tags/google/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/google/</guid>
+      <guid>//uvasrg.github.io/tags/google/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fairness</title>
-      <link>//jeffersonswheel.org/tags/fairness/</link>
+      <link>//uvasrg.github.io/tags/fairness/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/fairness/</guid>
+      <guid>//uvasrg.github.io/tags/fairness/</guid>
       <description></description>
     </item>
     
     <item>
       <title>alumni</title>
-      <link>//jeffersonswheel.org/tags/alumni/</link>
+      <link>//uvasrg.github.io/tags/alumni/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/alumni/</guid>
+      <guid>//uvasrg.github.io/tags/alumni/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Weilin Xu</title>
-      <link>//jeffersonswheel.org/tags/weilin-xu/</link>
+      <link>//uvasrg.github.io/tags/weilin-xu/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/weilin-xu/</guid>
+      <guid>//uvasrg.github.io/tags/weilin-xu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yanjun Qi</title>
-      <link>//jeffersonswheel.org/tags/yanjun-qi/</link>
+      <link>//uvasrg.github.io/tags/yanjun-qi/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/yanjun-qi/</guid>
+      <guid>//uvasrg.github.io/tags/yanjun-qi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>news</title>
-      <link>//jeffersonswheel.org/tags/news/</link>
+      <link>//uvasrg.github.io/tags/news/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/news/</guid>
+      <guid>//uvasrg.github.io/tags/news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ICLR</title>
-      <link>//jeffersonswheel.org/tags/iclr/</link>
+      <link>//uvasrg.github.io/tags/iclr/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/iclr/</guid>
+      <guid>//uvasrg.github.io/tags/iclr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dependability</title>
-      <link>//jeffersonswheel.org/tags/dependability/</link>
+      <link>//uvasrg.github.io/tags/dependability/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/dependability/</guid>
+      <guid>//uvasrg.github.io/tags/dependability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine learning</title>
-      <link>//jeffersonswheel.org/tags/machine-learning/</link>
+      <link>//uvasrg.github.io/tags/machine-learning/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/machine-learning/</guid>
+      <guid>//uvasrg.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robotic surgery</title>
-      <link>//jeffersonswheel.org/tags/robotic-surgery/</link>
+      <link>//uvasrg.github.io/tags/robotic-surgery/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/robotic-surgery/</guid>
+      <guid>//uvasrg.github.io/tags/robotic-surgery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Samin Yasar</title>
-      <link>//jeffersonswheel.org/tags/samin-yasar/</link>
+      <link>//uvasrg.github.io/tags/samin-yasar/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/samin-yasar/</guid>
+      <guid>//uvasrg.github.io/tags/samin-yasar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>courses</title>
-      <link>//jeffersonswheel.org/tags/courses/</link>
+      <link>//uvasrg.github.io/tags/courses/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/courses/</guid>
+      <guid>//uvasrg.github.io/tags/courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>economics</title>
-      <link>//jeffersonswheel.org/tags/economics/</link>
+      <link>//uvasrg.github.io/tags/economics/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/economics/</guid>
+      <guid>//uvasrg.github.io/tags/economics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mike Rosulek</title>
-      <link>//jeffersonswheel.org/tags/mike-rosulek/</link>
+      <link>//uvasrg.github.io/tags/mike-rosulek/</link>
       <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/mike-rosulek/</guid>
+      <guid>//uvasrg.github.io/tags/mike-rosulek/</guid>
       <description></description>
     </item>
     
     <item>
       <title>secure computation</title>
-      <link>//jeffersonswheel.org/tags/secure-computation/</link>
+      <link>//uvasrg.github.io/tags/secure-computation/</link>
       <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/secure-computation/</guid>
+      <guid>//uvasrg.github.io/tags/secure-computation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vladimir Kolesnikov</title>
-      <link>//jeffersonswheel.org/tags/vladimir-kolesnikov/</link>
+      <link>//uvasrg.github.io/tags/vladimir-kolesnikov/</link>
       <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/vladimir-kolesnikov/</guid>
+      <guid>//uvasrg.github.io/tags/vladimir-kolesnikov/</guid>
       <description></description>
     </item>
     
     <item>
       <title>talks</title>
-      <link>//jeffersonswheel.org/tags/talks/</link>
+      <link>//uvasrg.github.io/tags/talks/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/talks/</guid>
+      <guid>//uvasrg.github.io/tags/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>University of Maryland</title>
-      <link>//jeffersonswheel.org/tags/university-of-maryland/</link>
+      <link>//uvasrg.github.io/tags/university-of-maryland/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/university-of-maryland/</guid>
+      <guid>//uvasrg.github.io/tags/university-of-maryland/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Center for Trustworthy Machine Learning</title>
-      <link>//jeffersonswheel.org/tags/center-for-trustworthy-machine-learning/</link>
+      <link>//uvasrg.github.io/tags/center-for-trustworthy-machine-learning/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/center-for-trustworthy-machine-learning/</guid>
+      <guid>//uvasrg.github.io/tags/center-for-trustworthy-machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NSF</title>
-      <link>//jeffersonswheel.org/tags/nsf/</link>
+      <link>//uvasrg.github.io/tags/nsf/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/nsf/</guid>
+      <guid>//uvasrg.github.io/tags/nsf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GDPR</title>
-      <link>//jeffersonswheel.org/tags/gdpr/</link>
+      <link>//uvasrg.github.io/tags/gdpr/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/gdpr/</guid>
+      <guid>//uvasrg.github.io/tags/gdpr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guy Verrier</title>
-      <link>//jeffersonswheel.org/tags/guy-verrier/</link>
+      <link>//uvasrg.github.io/tags/guy-verrier/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/guy-verrier/</guid>
+      <guid>//uvasrg.github.io/tags/guy-verrier/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Matthew Wallace</title>
-      <link>//jeffersonswheel.org/tags/matthew-wallace/</link>
+      <link>//uvasrg.github.io/tags/matthew-wallace/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/matthew-wallace/</guid>
+      <guid>//uvasrg.github.io/tags/matthew-wallace/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nathaniel Grevatt</title>
-      <link>//jeffersonswheel.org/tags/nathaniel-grevatt/</link>
+      <link>//uvasrg.github.io/tags/nathaniel-grevatt/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/nathaniel-grevatt/</guid>
+      <guid>//uvasrg.github.io/tags/nathaniel-grevatt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parvesh Samayamanthula</title>
-      <link>//jeffersonswheel.org/tags/parvesh-samayamanthula/</link>
+      <link>//uvasrg.github.io/tags/parvesh-samayamanthula/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/parvesh-samayamanthula/</guid>
+      <guid>//uvasrg.github.io/tags/parvesh-samayamanthula/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unicorns</title>
-      <link>//jeffersonswheel.org/tags/unicorns/</link>
+      <link>//uvasrg.github.io/tags/unicorns/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/unicorns/</guid>
+      <guid>//uvasrg.github.io/tags/unicorns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WOOT</title>
-      <link>//jeffersonswheel.org/tags/woot/</link>
+      <link>//uvasrg.github.io/tags/woot/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/woot/</guid>
+      <guid>//uvasrg.github.io/tags/woot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ahmed Ibrahim</title>
-      <link>//jeffersonswheel.org/tags/ahmed-ibrahim/</link>
+      <link>//uvasrg.github.io/tags/ahmed-ibrahim/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/ahmed-ibrahim/</guid>
+      <guid>//uvasrg.github.io/tags/ahmed-ibrahim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dependable machine learning</title>
-      <link>//jeffersonswheel.org/tags/dependable-machine-learning/</link>
+      <link>//uvasrg.github.io/tags/dependable-machine-learning/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/dependable-machine-learning/</guid>
+      <guid>//uvasrg.github.io/tags/dependable-machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Homa Alemzadeh</title>
-      <link>//jeffersonswheel.org/tags/homa-alemzadeh/</link>
+      <link>//uvasrg.github.io/tags/homa-alemzadeh/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/homa-alemzadeh/</guid>
+      <guid>//uvasrg.github.io/tags/homa-alemzadeh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>summer camp</title>
-      <link>//jeffersonswheel.org/tags/summer-camp/</link>
+      <link>//uvasrg.github.io/tags/summer-camp/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/summer-camp/</guid>
+      <guid>//uvasrg.github.io/tags/summer-camp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pictures</title>
-      <link>//jeffersonswheel.org/tags/pictures/</link>
+      <link>//uvasrg.github.io/tags/pictures/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/pictures/</guid>
+      <guid>//uvasrg.github.io/tags/pictures/</guid>
       <description></description>
     </item>
     
     <item>
       <title>posters</title>
-      <link>//jeffersonswheel.org/tags/posters/</link>
+      <link>//uvasrg.github.io/tags/posters/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/posters/</guid>
+      <guid>//uvasrg.github.io/tags/posters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>videos</title>
-      <link>//jeffersonswheel.org/tags/videos/</link>
+      <link>//uvasrg.github.io/tags/videos/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/videos/</guid>
+      <guid>//uvasrg.github.io/tags/videos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yongwhi Kwon</title>
-      <link>//jeffersonswheel.org/tags/yongwhi-kwon/</link>
+      <link>//uvasrg.github.io/tags/yongwhi-kwon/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/yongwhi-kwon/</guid>
+      <guid>//uvasrg.github.io/tags/yongwhi-kwon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Battista Biggio</title>
-      <link>//jeffersonswheel.org/tags/battista-biggio/</link>
+      <link>//uvasrg.github.io/tags/battista-biggio/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/battista-biggio/</guid>
+      <guid>//uvasrg.github.io/tags/battista-biggio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>China</title>
-      <link>//jeffersonswheel.org/tags/china/</link>
+      <link>//uvasrg.github.io/tags/china/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/china/</guid>
+      <guid>//uvasrg.github.io/tags/china/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Huawei</title>
-      <link>//jeffersonswheel.org/tags/huawei/</link>
+      <link>//uvasrg.github.io/tags/huawei/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/huawei/</guid>
+      <guid>//uvasrg.github.io/tags/huawei/</guid>
       <description></description>
     </item>
     
     <item>
       <title>feature squeezing</title>
-      <link>//jeffersonswheel.org/tags/feature-squeezing/</link>
+      <link>//uvasrg.github.io/tags/feature-squeezing/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/tags/feature-squeezing/</guid>
+      <guid>//uvasrg.github.io/tags/feature-squeezing/</guid>
       <description></description>
     </item>
     

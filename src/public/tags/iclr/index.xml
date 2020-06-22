@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ICLR on Jefferson&#39;s Wheel</title>
-    <link>//jeffersonswheel.org/tags/iclr/</link>
-    <description>Recent content in ICLR on Jefferson&#39;s Wheel</description>
+    <title>ICLR on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/iclr/</link>
+    <description>Recent content in ICLR on Security Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//jeffersonswheel.org/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//uvasrg.github.io/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cost-Sensitive Adversarial Robustness at ICLR 2019</title>
-      <link>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</link>
+      <link>//uvasrg.github.io/cost-sensitive-adversarial-robustness-at-iclr-2019/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
+      <guid>//uvasrg.github.io/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
       <description>Xiao Zhang will present Cost-Sensitive Robustness against Adversarial Examples on May 7 (4:30-6:30pm) at ICLR 2019 in New Orleans.
    Paper: [PDF] [OpenReview] [ArXiv]</description>
     </item>
     
     <item>
       <title>Empirically Measuring Concentration</title>
-      <link>//jeffersonswheel.org/empirically-measuring-concentration/</link>
+      <link>//uvasrg.github.io/empirically-measuring-concentration/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/empirically-measuring-concentration/</guid>
+      <guid>//uvasrg.github.io/empirically-measuring-concentration/</guid>
       <description>Xiao Zhang and Saeed Mahloujifar will present our work on Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness at two workshops May 6 at ICLR 2019 in New Orleans: Debugging Machine Learning Models and Safe Machine Learning: Specification, Robustness and Assurance.
 Paper: [PDF]
    </description>
@@ -34,10 +35,10 @@ Paper: [PDF]
     
     <item>
       <title>ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</title>
-      <link>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
+      <link>//uvasrg.github.io/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>//jeffersonswheel.org/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
+      <guid>//uvasrg.github.io/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
       <description>Xiao Zhang and my paper on Cost-Sensitive Robustness against Adversarial Examples has been accepted to ICLR 2019.
 Several recent works have developed methods for training classifiers that are certifiably robust against norm-bounded adversarial perturbations. However, these methods assume that all the adversarial transformations provide equal value for adversaries, which is seldom the case in real-world applications. We advocate for cost-sensitive robustness as the criteria for measuring the classifier&amp;rsquo;s performance for specific tasks.</description>
     </item>
