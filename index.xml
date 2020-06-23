@@ -473,6 +473,17 @@ Project Site: EvadeML.org</description>
     
     <item>
       <title></title>
+      <link>//uvasrg.github.io/advml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/advml/</guid>
+      <description>Adversarial Machine Learning Study Group Meetings on Mondays, 11am (Summer 2020)
+Leaders: Hannah Chen, Anshuman Suri
+DateTopic/Talk 25 May 2020 Nicolas Carlini, Lessons Learned from Evaluating the Robustness of Defenses to Adversarial Examples (USENIX Security 2019)   1 June 2020  Aleksander Madry, A New Perspective on Adversarial Perturbations (Simons Institute, July 2019)   8 June 2020  Sadia Afroz, How to Build Realistic Machine Learning Systems for Security?</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>//uvasrg.github.io/awards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -480,6 +491,39 @@ Project Site: EvadeML.org</description>
       <description>This page collects awards won by SRG students and alumni.
 National Awards CRA Outstanding Undergraduate Researchers The CRA Outstanding Undergraduate Researchers Award is the premier national research award that recognized undergraduate research in Computer Science, given to students at North American universities by the Computing Research Association.
 Jonathan Burket (BACS 2013, CMU PhD program), 2013&amp;nbsp;Honorable Mention Peter Chapman (BACS 2012, CMU PhD program), 2012&amp;nbsp;Runner-Up Jiamin Chen (BACS 2012, now at UCLA), 2012 Honorable Mention Rachel Lathbury (BACS 2010, now at University of Pennsylvania), 2010&amp;nbsp;Honorable&amp;nbsp;Mention Adrienne Felt (BSCS 2008, UC Berkeley PhD 2012, now at Google), 2008&amp;nbsp;Finalist Salvatore Guarnieri (BSCS 2006, now at IBM and University of Washington), 2006&amp;nbsp;Finalist Ami Malaviya (BSCS 2005), 2005&amp;nbsp;Honorable&amp;nbsp;Mention Jonathan McCune (BSCS 2003, CMU PhD 2009), 2003&amp;nbsp;Honorable&amp;nbsp;Mention NSF Graduate Research Fellowships The National Science Foundation’s Graduate Research Fellowships recognize outstanding graduate students and provides up to three years of funding to support a student’s graduate work (over $100,000 total).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//uvasrg.github.io/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/privacy/</guid>
+      <description>Privacy Study Group Meetings on Tuesdays, 11am (Summer 2020)
+Leader: Bargav Jayaraman
+DateTopic/Talk 26 May 2020 Cynthia Dwork, Privacy-Preserving Data Analysis (Alan Turing Institute, Turing Lecture, Dec 2016)   2 June 2020  Guy Rothblum, Composition: The Key to Differential Privacy is Success (Institute for Advanced Study, Nov 2016)   9 June 2020  Yuxin Wang, Detecting Violations of Differential Privacy (ACM CCS 2018)
+Benjamin Bichsel, DP-Finder: Finding Differential Privacy Violations by Sampling and Optimization (ACM CCS 2018)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//uvasrg.github.io/studygroups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/studygroups/</guid>
+      <description>Active Study Groups Groups meet on zoom, and everyone is welcome.
+Adversarial Machine Learning
+Meetings: Mondays, 11am (Summer 2020)
+Leaders: Hannah Chen, Anshuman Suri
+Schedule and Topics
+Privacy
+Meetings: Tuesdays, 11am (Summer 2020)
+Leader: Bargav Jayaraman
+Schedule and Topics
+Previous Study Groups and Seminars How will Artificial Intelligence Change Humanity? (Fall 2018)
+Pavillion Seminar
+Deep Learning Reading Group (Summer 2018)
+Deep Learning book by Ian Goodfellow, Yoshua Bengio, and Aaron Courville</description>
     </item>
     
     <item>
