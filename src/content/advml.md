@@ -51,6 +51,18 @@ Roei Schuster, <a href="https://www.youtube.com/watch?v=lg3NrnxGsiU&feature=yout
 
 </td>
    </tr>
+   <tr bgcolor="#BDF">
+   <td>
+   29 June 2020</td>
+   <td>
+
+Ambra Demontis, <a href="https://www.youtube.com/watch?v=WxgVJAY21kI"><em>Why Do Adversarial Attacks Transfer? Explaining Transferability of Evasion and Poisoning Attacks</em></a> (USENIX Security 2019)
+
+Jianbo Chen, <a href="https://www.youtube.com/watch?v=vkCifg2rp34"><em>HopSkipJumpAttack: A Query-Efficient Decision-Based Attack
+</em></a> (IEEE Security and Privacy 2020)
+
+</td>
+</tr>
 
    </table>
 
