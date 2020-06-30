@@ -50,6 +50,19 @@ Reza Shokri, <a href="https://www.youtube.com/watch?v=rDm1n2gceJY"><em>Membershi
    </td>
    </tr>
 
+   <tr>
+   <td>30 June 2020</td>
+   <td>
+
+
+Karan Ganju, <a href="https://www.youtube.com/watch?v=99YHPIsKzCc"><em>Property Inference Attacks on Fully Connected Neural Networks</em></a> (ACM CCS 2019)
+
+Binghui Wang, <a href="https://www.youtube.com/watch?v=rpRVqfjW0AA"><em>Stealing Hyperparameters in Machine Learning</em></a> (IEEE Security and Privacy 2018)
+</td>
+</tr>
+
    </table>
+
+
 
 Join [our slack group](https://uvasrg.slack.com) for announcements about future meetings.
