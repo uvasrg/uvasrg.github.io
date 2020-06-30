@@ -40,7 +40,7 @@ Liwei Song, <a href="https://www.youtube.com/watch?v=MUhb3bRla2A"><em>Membership
 
 </td>
 </tr>
-   <tr>
+   <tr bgcolor="#FFF">>
    <td>23 June 2020</td>
    <td>
 
@@ -50,7 +50,7 @@ Reza Shokri, <a href="https://www.youtube.com/watch?v=rDm1n2gceJY"><em>Membershi
    </td>
    </tr>
 
-   <tr>
+   <tr bgcolor="#BDF">
    <td>30 June 2020</td>
    <td>
 
