@@ -63,6 +63,19 @@ Jianbo Chen, <a href="https://www.youtube.com/watch?v=vkCifg2rp34"><em>HopSkipJu
 
 </td>
 </tr>
+<tr>
+   <td>6 July 2020</td>
+   <td>
+
+Nicholas Carlini, <a href="https://www.youtube.com/watch?v=Ho5jLKfoKSA"><em>Audio Adversarial Examples: Targeted Attacks on Speech-to-Text
+</em></a> (IEEE Security and Privacy 2018)
+
+Xuejing Yuan, <a href="https://www.youtube.com/watch?v=ncfr4YPkJ9E"><em>CommanderSong: A Systematic Approach for Practical Adversarial Voice Recognition</em></a> (USENIX Security 2018)
+
+<a href="https://www.youtube.com/watch?v=ORji7Tz5GiI&feature=emb_title"><em>Laser-Based Audio Injection on Voice-Controllable Systems</em></a> (USENIX Security 2020)
+
+</td>
+   </tr>
 
    </table>
 
