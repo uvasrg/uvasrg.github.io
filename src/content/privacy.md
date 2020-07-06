@@ -61,6 +61,16 @@ Binghui Wang, <a href="https://www.youtube.com/watch?v=rpRVqfjW0AA"><em>Stealing
 </td>
 </tr>
 
+   <tr bgcolor="#FFF">>
+   <td>7 July 2020</td>
+   <td>
+Joe Near, <a href="https://www.youtube.com/watch?v=pk_DCSUayDA"><em>Differential Privacy at Scale: Uber and Berkeley Collaboration</em></a> (USENIX Enigma 2020)
+
+Brendan McMahan, <a href="https://www.youtube.com/watch?v=e5othcNmync"><em>Guarding user Privacy with Federated Learning and Differential Privacy</em></a> (DIMACS, 2017)
+
+</td>
+</tr>
+
    </table>
 
 
