@@ -64,7 +64,7 @@ Binghui Wang, <a href="https://www.youtube.com/watch?v=rpRVqfjW0AA"><em>Stealing
    <tr bgcolor="#FFF">>
    <td>7 July 2020</td>
    <td>
-Joe Near, <a href="https://www.youtube.com/watch?v=pk_DCSUayDA"><em>Differential Privacy at Scale: Uber and Berkeley Collaboration</em></a> (USENIX Enigma 2020)
+Joe Near, <a href="https://www.youtube.com/watch?v=pk_DCSUayDA"><em>Differential Privacy at Scale: Uber and Berkeley Collaboration</em></a> (USENIX Enigma 2020) (also see Frank McSherry's <a href="https://github.com/uber-archive/sql-differential-privacy/issues/1">github issue</a> and <a href="https://github.com/frankmcsherry/blog/blob/master/posts/2018-02-25.md">blog post</a>)
 
 Brendan McMahan, <a href="https://www.youtube.com/watch?v=e5othcNmync"><em>Guarding user Privacy with Federated Learning and Differential Privacy</em></a> (DIMACS, 2017)
 
