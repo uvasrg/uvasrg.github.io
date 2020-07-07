@@ -6,6 +6,7 @@ Leader: <a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a>
 
    <table width="100%" align="center">
    <tr bgcolor="#CCC"><td style="text-align:center" width="25%"><b>Date</b></td><td width="75%" style="text-align:center"><b>Topic/Talk</b></td></tr>
+
    <tr bgcolor="#FFF"><td>26 May 2020</td><td>
 Cynthia Dwork, <a href="https://www.youtube.com/watch?v=vsA4w3itxA0"><em>Privacy-Preserving Data Analysis</em></a> (Alan Turing Institute, Turing Lecture, Dec 2016)
   </td></tr>
