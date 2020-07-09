@@ -653,6 +653,11 @@
   </url>
   
   <url>
+    <loc>//uvasrg.github.io/team/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/main/</loc>
   </url>
   
