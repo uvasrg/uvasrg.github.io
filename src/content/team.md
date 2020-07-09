@@ -90,14 +90,14 @@
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/etemad.png"><br><b><a href="https://scholar.google.com/citations?user=2fNWdYwAAAAJ&hl=en">Mohammad Etemad</a></b><br>Post-Doctoral Visitor<br>2016 &ndash; 2017<br>LinkedIn<br>PhD Koc University, Turkey<br>   </div>
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/movahedi.png"><br><b><a href="http://www.cs.yale.edu/homes/movahedi/">Mahnush Movahedi</a></b><br>Post-Doctoral Visitor<br>Spring 2016<br>Yale University, Dfinity, Facebook<br>PhD from University of New Mexico<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/etemad.png"><br><b><a href="https://scholar.google.com/citations?user=2fNWdYwAAAAJ&hl=en">Mohammad Etemad</a></b><br>Post-Doctoral Visitor<br>2016 &ndash; 2017<br>LinkedIn<br>PhD Koc University, Turkey<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/movahedi.png"><br><b><a href="http://www.cs.yale.edu/homes/movahedi/">Mahnush Movahedi</a></b><br>Post-Doctoral Visitor<br>Spring 2016<br>Yale University, Dfinity, Facebook<br>PhD from University of New Mexico<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/naveed.png"><br><b><a href="https://www.cryptoonline.com/">Muhammad Naveed</a></b><br>Pre-Doctoral Visitor<br>Summer 2013<br>Graduate student visit while PhD student at UIUC<br> Assistant Professor at <a href="http://www.cs.usc.edu/">University of Southern Californa</a><br>   </div>
 </div>
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/naveed.png"><br><b><a href="https://www.cryptoonline.com/">Muhammad Naveed</a></b><br>Pre-Doctoral Visitor<br>Summer 2013<br>Graduate student visit while PhD student at UIUC<br> Assistant Professor at <a href="http://www.cs.usc.edu/">University of Southern Californa</a><br>   </div>
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/sicheng.png"><br><b><a href="https://schzhu.github.io/">Sicheng Zhu</a></b><br>Pre-Doctoral Visitor<br>Fall 2019 &ndash; Summer 2020<br>robust machine learning<br>University of Maryland PhD Student (starting Fall 2020)<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/sicheng.png"><br><b><a href="https://schzhu.github.io/">Sicheng Zhu</a></b><br>Pre-Doctoral Visitor<br>Fall 2019 &ndash; Summer 2020<br>robust machine learning<br>University of Maryland PhD Student (starting Fall 2020)<br>   </div>
 </div>
 </center>
 

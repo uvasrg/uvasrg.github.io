@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ACL</title>
+      <link>//uvasrg.github.io/tags/acl/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hannah Chen</title>
+      <link>//uvasrg.github.io/tags/hannah-chen/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/hannah-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>natural language processing</title>
+      <link>//uvasrg.github.io/tags/natural-language-processing/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/natural-language-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yangfeng Ji</title>
+      <link>//uvasrg.github.io/tags/yangfeng-ji/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/yangfeng-ji/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>adversarial machine learning</title>
@@ -171,15 +207,6 @@
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/bargav-jayaraman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hannah Chen</title>
-      <link>//uvasrg.github.io/tags/hannah-chen/</link>
-      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/hannah-chen/</guid>
       <description></description>
     </item>
     

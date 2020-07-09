@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pointwise Paraphrase Appraisal is Potentially Problematic</title>
+      <link>//uvasrg.github.io/pointwise-paraphrase-appraisal-is-potentially-problematic/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/pointwise-paraphrase-appraisal-is-potentially-problematic/</guid>
+      <description>Hannah Chen presented her paper on Pointwise Paraphrase Appraisal is Potentially Problematic at the ACL 2020 Student Research Workshop:
+ The prevailing approach for training and evaluating paraphrase identification models is constructed as a binary classification problem: the model is given a pair of sentences, and is judged by how accurately it classifies pairs as either paraphrases or non-paraphrases. This pointwise-based evaluation method does not match well the objective of most real world applications, so the goal of our work is to understand how models which perform well under pointwise evaluation may fail in practice and find better methods for evaluating paraphrase identification models.</description>
+    </item>
+    
+    <item>
+      <title>De-Naming the Blog</title>
+      <link>//uvasrg.github.io/de-naming-the-blog/</link>
+      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/de-naming-the-blog/</guid>
+      <description>This blog was started in January 2008, a bit over eight years after I started as a professor at UVA and initiated the research group. It was named after Thomas Jefferson&amp;rsquo;s cipher wheel, which has long been (and remains) one of my favorite ways to introduce cryptography.
+  Figuring out how to honor our history, including Jefferson&amp;rsquo;s founding of the University, and appreciate his ideals and enormous contributions, while confronting the reality of Jefferson as a slave owner and abuser, will be a challenge and responsibility for people above my administrative rank.</description>
+    </item>
     
     <item>
       <title>Oakland Test-of-Time Awards</title>

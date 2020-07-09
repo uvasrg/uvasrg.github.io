@@ -3,7 +3,7 @@ date = "24 Feb 2018"
 draft = false
 title = "Older Posts"
 author = "David Evans"
-categories = []
+categories = ["history"]
 tags = []
 +++
 
