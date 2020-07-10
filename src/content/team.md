@@ -30,7 +30,7 @@
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/figgins.png"><br><b><a href="https://www.linkedin.com/in/nicholas-figgins/">Nick Figgins</a></b><br>Undergraduate Researcher<br>Since Summer 2020<br>adversarial machine learning for malware classification<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/missing.png"><br><b>Katherine Knipmeyer</b><br>Undergraduate Researcher<br>Since Summer 2020<br>evaluating privacy for machine learning<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/knipmeyer.png"><br><b>Katherine Knipmeyer</b><br>Undergraduate Researcher<br>Since Summer 2020<br>evaluating privacy for machine learning<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/missing.png"><br><b>Jesse Li</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
 </div>
 </center>
@@ -279,7 +279,7 @@
 # 
 
    <div class="hanging">
-<b><a href="https://github.com/jburket">Jonathan Burket</a></b><br>Undergraduate Researcher, 2010 &ndash; 2013<br>BACS 2013<br>CRA Outstanding Undergraduate Honorable Mentionee) 2013<br> CMU MS 2015<br> Apogee Research<br> DuoLingo<br>   </div>
+<b><a href="https://github.com/jburket">Jonathan Burket</a></b><br>Undergraduate Researcher, 2010 &ndash; 2013<br>BACS 2013<br>CRA Outstanding Undergraduate Honorable Mentionee 2013<br> CMU MS 2015<br> Apogee Research<br> DuoLingo<br>   </div>
 
 # 
 
