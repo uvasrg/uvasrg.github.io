@@ -187,7 +187,7 @@
 # 
 
 
-# Undergraduate Researcher Completed PhDs
+# Undergraduate Researchers Completed PhDs
 
 
    <div class="hanging">
@@ -221,7 +221,7 @@
 # 
 
    <div class="hanging">
-<b><a href="http://www.linkedin.com/pub/william-melicher/3a/62b/b22">William Melicher</a></b><br>2012 &ndash; 2013<br>BACS 2013<br><div class="hanging">Carnegie Mellon Univeristy PhD 2019 (advised by Lujo Bauer)<br></div>USENIX Security 2016 (Best Paper): <a href="https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_melicher.pdf"><em>Fast, Lean, and Accurate: Modeling Password Guessability Using Neural Networks</em></a><br>   </div>
+<b><a href="http://www.linkedin.com/pub/william-melicher/3a/62b/b22">William Melicher</a></b><br>2012 &ndash; 2013<br>BACS 2013<br><div class="hanging">Carnegie Mellon Univeristy PhD 2019 (advised by Lujo Bauer)<br></div><a href="https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_melicher.pdf">USENIX Security 2016 Best Paper</a><br>   </div>
 
 # 
 
@@ -236,7 +236,7 @@
 # 
 
 
-# Undergraduate Researcher Currently in PhD Programs
+# Undergraduate Researchers Currently in PhD Programs
 
 
    <div class="hanging">
@@ -359,7 +359,7 @@
 # 
 
    <div class="hanging">
-<b><a href="http://jhoughton.me/">James Houghton</a></b><br>Undergraduate Researcher, 2019 &ndash; 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/gf06g3296"><em>An Analysis of The Fingerprintability of Web Traffic Through obfs4</em></a><br></div><div class="hanging">Google<br></div>   </div>
+<b><a href="http://jhoughton.me/">James Houghton</a></b><br>Undergraduate Researcher, Co-advised with Yixin Sun<br>2019 &ndash; 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/gf06g3296"><em>An Analysis of The Fingerprintability of Web Traffic Through obfs4</em></a><br></div><div class="hanging">Google<br></div>   </div>
 
 # 
 
