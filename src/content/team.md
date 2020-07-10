@@ -6,11 +6,12 @@
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/hannahchen.png"><br><b><a href="https://hannahxchen.github.io/">Yu-Han (Hannah) Chen</a></b><br>Co-advised with Yangfeng Ji<br>Since Fall 2019<br>natural language processing<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jayaraman.png"><br><b><a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a></b><br>Since Fall 2016<br>privacy-preserving machine learning<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/anshuman.png"><br><b><a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman Suri</a></b><br>Since Fall 2019<br>robust machine learning<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/josielamp.png"><br><b><a href="https://www.josephinelamp.com/">Josephine Lamp</a></b><br>Co-advised with Lu Feng<br>Since 2019<br>privacy-preserving medical decision systems<br>   </div>
 </div>
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/anshuman.png"><br><b><a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman Suri</a></b><br>Since Fall 2019<br>robust machine learning<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/suya.png"><br><b><a href="https://fsuya.org/">Fnu Suya</a></b><br>Co-advised with Yuan Tian<br>Since Fall 2017<br>robust machine learning<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/xiaozhang.png"><br><b><a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a></b><br>Since Summer 2018<br>robust machine learning<br>   </div>
 </div>
