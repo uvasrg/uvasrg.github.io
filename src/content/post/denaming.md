@@ -19,8 +19,8 @@ cryptography](https://www.cs.virginia.edu/~evans/crypto/day1-jefferson.html).
 <center><img src="/images/jwlogo-small.jpg" width="60%"></center>
 </p>
 
-Figuring out how to honor our history, including Jefferson's founding
-of the University, and appreciate his
+Figuring out how to honor our history, including Jefferson's [founding
+of the University](https://youtu.be/cJbIXG50RCE?t=388), and appreciate his
 [ideals](https://www.monticello.org/site/research-and-collections/virginia-statute-religious-freedom)
 and [enormous
 contributions](https://www.cs.virginia.edu/~evans/cs655/readings/declaration.html),
@@ -36,7 +36,7 @@ reluctantly rejected "Hamilton's Dual", alluding, of course, to
 [Margaret
 Hamilton](https://www.amazon.com/Margaret-Moon-Dean-Robbins/dp/0399551859)
 and [William Rown
-Hamilton](https://www.youtube.com/watch?v=SZXHoWwBcDc), of course, and
+Hamilton](https://www.youtube.com/watch?v=SZXHoWwBcDc), and
 the Lagranian Dual and [Dual
 Execution](https://www.cs.virginia.edu/~evans/pubs/oakland2012/), not
 to [any historical rival of
