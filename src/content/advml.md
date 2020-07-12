@@ -76,6 +76,20 @@ Xuejing Yuan, <a href="https://www.youtube.com/watch?v=ncfr4YPkJ9E"><em>Commande
 
 </td>
    </tr>
+   <tr bgcolor="#BDF">
+   <td>
+   13 July 2020</td>
+   <td>
+
+Alhussein Fawzi, <a href="https://www.youtube.com/watch?v=yd4j8ue521g&feature=youtu.be"><em>Universal Adversarial Perturbations
+</em></a> (CVPR 2017)
+
+Eric Wallace, <a href="https://www.youtube.com/watch?v=pGSl3eHdgeo&feature=youtu.be"><em>Universal Adversarial Triggers for Attacking and Analyzing NLP
+</em></a> (EMNLP-IJCNLP 2019)
+
+</td>
+</tr>
+   
 
    </table>
 
