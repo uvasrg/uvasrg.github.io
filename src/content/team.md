@@ -186,6 +186,11 @@
 
 # 
 
+<center>
+<a href="/2011/hoos-at-usenix.html"><img src="/images/grouplunch/hoos-at-usenix-small.png" width=650 height=365 border=0></img></a><br>
+<b>Students and Alumni at USENIX Security 2011</b>
+</center>
+                      
 
 # Undergraduate Researchers Completed PhDs
 
@@ -235,6 +240,13 @@
 
 # 
 
+<p>
+<center>
+<a href="/images/srg2015/edited/srglunch.jpg"><img src="/images/srg2015/edited/srglunch-small.png" alt="srg lunch" width=680 height=310></a><br>
+<b>Research Group Lunch</b> (6 May 2015)
+</center>
+</p>
+                      
 
 # Undergraduate Researchers Currently in PhD Programs
 
@@ -552,3 +564,16 @@
 <b>Muzzammil Zaveri</b><br>Undergraduate Researcher, Summer 2010 &ndash; Spring 2011<br>BSCS 2011<br><div class="hanging">a secure web application framework<br></div>   </div>
 
 # 
+
+<center>
+<a href="/images/srg-2016-01-19-full.jpg"><img src="/images/srg-2016-01-19.jpg" alt="researchgroup" width=600></a><br>
+<b>Security Research Group</b> (19 January 2016)<br>
+<font size="-1"><a href="//jackdoerner.net/">Jack Doerner</a>,
+<a href="//www.cs.virginia.edu/~sza4uq/">Samee Zahur</a>,
+<a href="//www.cs.unm.edu/~movahedi/">Mahnush Movahedi</a>,
+<a href="//home.ku.edu.tr/~metemad/">Mohammad Etemad</a>,
+<a href="https://github.com/HainaLi">Hannah Li</a>,
+<a href="https://github.com/mzweilin">Weilin Xu</a>,
+<a href="https://www.linkedin.com/in/karen-pan-34b26770">Karen Pan</a></font>
+</center>
+          
