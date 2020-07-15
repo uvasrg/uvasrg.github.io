@@ -74,6 +74,15 @@ Brendan McMahan, <a href="https://www.youtube.com/watch?v=e5othcNmync"><em>Guard
 </td>
 </tr>
 
+   <tr bgcolor="#BDF">
+   <td>14 July 2020</td>
+   <td>
+
+Ilya Mironov, <A href="https://www.youtube.com/watch?v=oQzaA5KG3pM"><em>Rényi Differential Privacy</em></a> (DIMACS, 2017)
+
+</td>
+</tr>
+
    </table>
 
 
