@@ -41,6 +41,9 @@
 </div>
 </center>
 
+
+# <center>Undergraduate Researchers</center>
+
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Alex Becker</b><br>Undergraduate Researcher<br>Co-advised with Denis Nekipelov<br>Since Summer 2020<br>revealing privacy preferences<br>   </div>
@@ -58,9 +61,8 @@
 </div>
 </center>
 
-<div style="background: #101730; color: #FFF; font-size: 2.0rem;padding:20px;">
-<center>Alumni</center>
-</div>
+
+# <center>Alumni</center>
 
 # <center>Graduated PhD Students</center>
 
