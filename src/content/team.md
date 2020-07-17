@@ -30,7 +30,7 @@
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/knipmeyer.png"><br><b>Katherine Knipmeyer</b><br>Undergraduate Researcher<br>Since Summer 2020<br>evaluating privacy for machine learning<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jessieli.png"><br><b>Jesse Li</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jessieli.png"><br><b>Jessie Li</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/siebor.png"><br><b>Konrad Siebor</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
 </div>
 </center>
@@ -58,9 +58,11 @@
 </div>
 </center>
 
-<div style="background: #101730; color: #FFF; font-size: 2.0rem;padding:20px;">
+
+       <div style="background: #101730; color: #FFF; font-size: 2.0rem;padding:20px;">
 <center>Alumni</center>
 </div>
+       
 
 # <center>Graduated PhD Students</center>
 
