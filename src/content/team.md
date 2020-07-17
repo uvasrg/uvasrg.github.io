@@ -30,27 +30,31 @@
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/knipmeyer.png"><br><b>Katherine Knipmeyer</b><br>Undergraduate Researcher<br>Since Summer 2020<br>evaluating privacy for machine learning<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jessieli.png"><br><b>Jesse Li</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/siebor.png"><br><b>Konrad Siebor</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/weinschenk.png"><br><b><a href="https://www.linkedin.com/in/katherine-weinschenk-4968a0150/">Katherine Weinschenk</a></b><br>Undergraduate Researcher<br>Since Summer 2020<br>societal risks of AI<br>   </div>
 </div>
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/weinschenk.png"><br><b><a href="https://www.linkedin.com/in/katherine-weinschenk-4968a0150/">Katherine Weinschenk</a></b><br>Undergraduate Researcher<br>Since Summer 2020<br>societal risks of AI<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/wijaya.png"><br><b><a href="https://www.linkedin.com/in/erwinxwijaya/">Erwin Wijaya</a></b><br>Undergraduate Researcher<br>Co-advised with Denis Nekipelov<br>Since Summer 2020<br>revealing privacy preferences<br>   </div>
 </div>
 </center>
+
+
+# <center>Undergraduate Researchers</center>
+
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Alex Becker</b><br>Undergraduate Researcher<br>Co-advised with Denis Nekipelov<br>Since Summer 2020<br>revealing privacy preferences<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Jesse Li</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Jack Prescott</b><br>Undergraduate Researcher<br>Since Fall 2019<br>robust machine learning<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Brian Tran</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
 </div>
 </center>
+
+
+# <center>Director</center>
+
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/evans.png"><br><b><a href="https://www.cs.virginia.edu/evans">David Evans</a></b><br>Since Fall 1999<br>   </div>
