@@ -613,3 +613,8 @@ div.hangingmore {
 .img-circle {
     border-radius: 50%;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
