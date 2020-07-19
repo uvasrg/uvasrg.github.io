@@ -59,9 +59,9 @@
 </center>
 
 
-       <div style="background: #101730; color: #FFF; font-size: 2.0rem;padding:20px;">
-<center>Alumni</center>
-</div>
+   <div style="background: #101730; color: #FFF; font-size: 2.0rem;padding:20px;">
+   <center>Alumni</center>
+   </div>
        
 
 # <center>Graduated PhD Students</center>
