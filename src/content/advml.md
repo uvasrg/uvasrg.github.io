@@ -89,6 +89,21 @@ Eric Wallace, <a href="https://www.youtube.com/watch?v=pGSl3eHdgeo&feature=youtu
 
 </td>
 </tr>
+<tr>
+   <td>20 July 2020</td>
+   <td>
+
+Michael Xie, <a href="https://www.youtube.com/watch?v=SkKFAY0GiZk"><em>Understanding and Mitigating the Tradeoff between Robustness and Accuracy
+</em></a> (ICML 2020)
+
+Eric Wong, <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/2936-Paper.pdf"><em>Overfitting in adversarially robust deep learning
+</em></a> (ICML 2020)
+
+Francesco Croce, <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/6846-Paper.pdf"><em>Reliable Evaluation of Adversarial Robustness with an Ensemble of Diverse
+Parameter-free Attacks </em></a> (ICML 2020)
+
+</td>
+   </tr>
    
 
    </table>
