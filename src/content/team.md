@@ -58,10 +58,9 @@
 </div>
 </center>
 
-
-   <div style="background: #101730; color: #FFF; font-size: 2.0rem;padding:20px;">
-   <center>Alumni</center>
-   </div>
+<div style="background: #101730; color: #FFF; font-size: 2.0rem;padding:20px;">
+<center>Alumni</center>
+</div>
        
 
 # <center>Graduated PhD Students</center>
@@ -86,7 +85,7 @@
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/yuchenzhou.png"><br><b><a href="https://www.yuchenzhou.info/">Yuchen Zhou</a></b><br>Spring 2015<br>PhD in Computer Engineering, May 2015<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/2227mp92b"><em>Improving Security and Privacy of Integrated Web Applications</em></a><br>Palo Alto Networks<br>   </div>
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/yuchenzhou.png"><br><b><a href="https://www.yuchenzhou.info/">Yuchen Zhou</a></b><br>Spring 2015<br>PhD in Computer Engineering, May 2015<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/2227mp92b"><em>Improving Security and Privacy of Integrated Web Applications</em></a><br>Palo Alto Networks; Facebook<br>   </div>
 </div>
 </center>
 
