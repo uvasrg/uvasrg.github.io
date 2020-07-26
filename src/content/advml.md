@@ -99,13 +99,21 @@ Michael Xie, <a href="https://www.youtube.com/watch?v=SkKFAY0GiZk"><em>Understan
 Eric Wong, <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/2936-Paper.pdf"><em>Overfitting in adversarially robust deep learning
 </em></a> (ICML 2020)
 
+</td>
+   </tr>
+<tr bgcolor="#BDF">
+   <td>
+   27 July 2020</td>
+   <td>
+
 Francesco Croce, <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/6846-Paper.pdf"><em>Reliable Evaluation of Adversarial Robustness with an Ensemble of Diverse
 Parameter-free Attacks </em></a> (ICML 2020)
 
-</td>
-   </tr>
-   
+Pratyush Maini, <a href="https://proceedings.icml.cc/static/paper_files/icml/2020/3863-Paper.pdf"><em>Adversarial Robustness Against the Union of Multiple Perturbation Models </em></a> (ICML 2020)
 
+</td>
+</tr>
+   
    </table>
 
 Join [our slack group](https://uvasrg.slack.com) for announcements about future meetings.
