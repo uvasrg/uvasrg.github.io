@@ -668,6 +668,11 @@
   </url>
   
   <url>
+    <loc>//uvasrg.github.io/gpuservers/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/privacy/</loc>
     <priority>0</priority>
   </url>

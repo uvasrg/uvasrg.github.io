@@ -515,6 +515,17 @@ Jonathan Burket (BACS 2013, CMU PhD program), 2013&amp;nbsp;Honorable Mention Pe
     
     <item>
       <title></title>
+      <link>//uvasrg.github.io/gpuservers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/gpuservers/</guid>
+      <description>Using the GPU Servers Here are some notes on how to use the GPU servers (thanks to Brian Tran for creating this document). Before getting started, you&amp;rsquo;ll need a CS department account set up.
+ First, log into the general purpose server (e.g., portal01) using:  ssh -l _YourComputingID_ portal01.cs.virginia.edu (for more, see https://www.cs.virginia.edu/wiki/doku.php?id=linux_ssh_access.
+ Run srun -p gpu -w _ai01_ --pty bash -i -l to log into one of the nodes that support GPU.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>//uvasrg.github.io/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
