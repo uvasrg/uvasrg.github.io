@@ -362,6 +362,8 @@
         
     
         
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -424,6 +426,47 @@ href="//www.evademl.org/">EvadeML</a>
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/hybrid-batch-attacks-at-usenix-security-2020/">Hybrid Batch Attacks at USENIX Security 2020</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2020-08-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">13 August 2020</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/yuan-tian">Yuan Tian</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/jianfeng-chi">Jianfeng Chi</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/usenix-security">USENIX Security</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>Here&rsquo;s the video for Fnu Suya&rsquo;s presentation on <a href="/usenix-security-2020-hybrid-batch-attacks">Hybrid Batch Attacks</a> at USENIX Security 2020:</p>
+<center>
+  <video width="90%" id="usenix-media-video-1" data-setup="{}" poster="" class="video-js vjs-default-skin vjs-big-play-centered" preload="auto" controls>
+    <source src='https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec20/videos/0813/s5_machine_learning_1/3_sec20summer-paper412-presentation-video.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+  </video><br> 
+<a href="https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec20/videos/0813/s5_machine_learning_1/3_sec20summer-paper412-presentation-video.mp4">Download Video [mp4]</a></p>
+</center>
+<p><a href="/usenix-security-2020-hybrid-batch-attacks">Blog Post</a><br>
+Paper: [<a href="/docs/hybrid_attack.pdf">PDF</a>] [<a href="https://arxiv.org/abs/1908.07000">arXiv</a>]</p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/pointwise-paraphrase-appraisal-is-potentially-problematic/">Pointwise Paraphrase Appraisal is Potentially Problematic</a></h2>
@@ -592,158 +635,6 @@ Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody)
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/usenix-security-2020-hybrid-batch-attacks/">USENIX Security 2020: Hybrid Batch Attacks</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2019-12-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">14 December 2019</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/yuan-tian">Yuan Tian</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/jianfeng-chi">Jianfeng Chi</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/usenix-security">USENIX Security</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <h2 id="finding-black-box-adversarial-examples-with-limited-queries">Finding Black-box Adversarial Examples with Limited Queries</h2>
-<p>Black-box attacks generate adversarial examples (AEs) against deep
-neural networks with only API access to the victim model.</p>
-<p>Existing black-box attacks can be grouped into two main categories:</p>
-<ul>
-<li>
-<p><strong>Transfer Attacks</strong> use white-box attacks on local models to find
-candidate adversarial examples that transfer to the target model.</p>
-</li>
-<li>
-<p><strong>Optimization Attacks</strong> use queries to the target model and apply
-optimization techniques to search for adversarial examples.</p>
-</li>
-</ul>
-<h3 id="hybrid-attack">Hybrid Attack</h3>
-<p>We propose a <em>hybrid attack</em> that combines transfer and optimization attacks:</p>
-<ol>
-<li>
-<p>Transfer Attack → Optimization Attack — take candidate adversarial examples of the local models of transfer attacks as the starting points for optimization attacks.</p>
-</li>
-<li>
-<p>Optimization Attack → Transfer Attack — intermediate query results from the optimization attacks are used to fine-tune the local models of transfer attacks.</p>
-</li>
-</ol>
-<center>
-<a href="/images/usenix2020/hybridattack.png"><img src="/images/usenix2020/hybridattack.png" width="60%" align="center"></a>
-</center>
-<p>We validate effectiveness of the hybrid attack over the baseline on three benchmark datasets: MNIST, CIFAR10, ImageNet. In this post, we only show the results of <a href="https://arxiv.org/abs/1805.11770">AutoZOOM</a> as the selected optimization method. More results of other attacks can be found in the <a href="../docs/hybrid_attack.pdf">paper</a>.</p>
-<h2 id="local-adversarial-examples-are-useful-transfer-rarr-optimization">Local Adversarial Examples are Useful (Transfer → Optimization)</h2>
-<p>Below, we compare the performance of AutoZOOM attack when it starts
-from 1) the local adversarial examples, and 2) the original
-points. Here, we report results for targeted attacks on normal (i.e.,
-non-robust) models:</p>
-<center><a href="/images/usenix2020/local_candidate_results.png"><img src="/images/usenix2020/local_candidate_results.png" width="65%" align="center"></a></center>
-<p>Local AEs can substantially boost the performance of optimization
-attacks, but when the same attack is used against <a href="https://github.com/MadryLab/cifar10_challenge">robust
-models</a>, the improvement is small:</p>
-<center><a href="<img src="/images/usenix2020/normal_model_fails.png"><img src="/images/usenix2020/normal_model_fails.png" width="65%" align="center"></a></center>
-<p>This ineffectiveness appears to stem from differences in the attack
-space of normal and robust models. Therefore, to improve effectiveness
-against robust target model, we use robust local models to produce the
-transfer candidates for starting the optimization attacks. The figure
-below compares impact of normal and robust local models when attacking
-the robust target model:</p>
-<center><a href="/images/usenix2020/local_model_comparison.png"><img src="/images/usenix2020/local_model_comparison.png" width="60%" align="center"></a></center>
-<h2 id="tuning-with-byproduces-doesnt-help-much-optimization-rarr-transfer">Tuning with Byproduces Doesn&rsquo;t Help Much (Optimization → Transfer)</h2>
-<p>Below, we compare the performance of AutoZOOM attack on MNIST normal
-model when the local models are 1) fine-tuned during the attack
-process, and 2) kept static:</p>
-<center><a href="/images/usenix2020/fine_tune_results.png"><img src="/images/usenix2020/fine_tune_results.png" width="60%" align="center"></a></center>
-<p>Tuining local models using byproducts from the optimization attack
-improves the query efficiency. However, for more complex datasets
-(e.g., CIFAR10), we observe degradation in the attack performance by
-fine-tuning (check Table 6 in the <a href="../docs/hybrid_attack.pdf">paper</a>).</p>
-<h2 id="batch-attacks">Batch Attacks</h2>
-<p>We consider a <strong>batch attack</strong> scenario: adversaries have limited
-number of queries and want to maximize the number of adversarial
-examples found within the limit. This is a more realistic way to
-evaluate attacks for most adversarial purposes, then just looking at
-the average cost to attack each seed in a large pool of seeds.</p>
-<p>The number of queries required for attacking a specific seed varies
-greatly across seeds:</p>
-<center><a href="/images/usenix2020/query_variance.png"><img src="../images/usenix2020/query_variance.png" width="80%" align="center"></a></center>
-<p>Based on this observation, we propose <strong>two-phase strategy</strong> to prioritize easy seeds for the <strong>hybrid attack</strong>:</p>
-<ol>
-<li>
-<p>In the first phase, the likely-to-transfer seeds are prioritized
-based on their PGD-steps taken to attack the local models. The
-candidate adversarial example for seed seed is attempted in order to
-find all the direct transfers.</p>
-</li>
-<li>
-<p>In the second phase, the remaining seeds are prioritized based on
-their target loss value with respect to the target model.</p>
-</li>
-</ol>
-<p>To validate effectievness of the two-phase strategy, we compare to two seed prioritization strategies:</p>
-<ul>
-<li>
-<p><strong>Retroactive Optimal</strong>: a non-realizable attack that assumes adversaries already know the exact number of queries to attack each seed (before the attack starts) and can prioritize seeds by their actual query cost. This provides an lower bound on the query cost for an optimal strategy.</p>
-</li>
-<li>
-<p><strong>Random:</strong> this is a baseline strategy where seeds are prioritized in random order (this is the stragety assumed in most works where the adverage costs are reported).</p>
-</li>
-</ul>
-<p>Results for the AutoZOOM attack on a normal ImageNet model are shown below:</p>
-<center><img src="../images/usenix2020/batch_attack_results.png" width="60%" align="center"></center>
-<p>Our two-phase strategy performs closely to the retroactive optimal
-strategy and outpeforms random baseline significantly: with same
-number of query limit, two-phase strategy finds significantly more
-adversarial examples comapred to the random baseline, and is closer to
-the retroactive optimal case. (See the paper for more experimental
-results and variations on the prioritization strategy.)</p>
-<h3 id="main-takeaways">Main Takeaways</h3>
-<ul>
-<li>
-<p><strong>Transfer → Optimization:</strong> local adversarial examples can generally be used to boost optimization attacks. One caveat is, against robust target model, hybrid attack is more effective with robust local models.</p>
-</li>
-<li>
-<p><strong>Transfer → Optimization:</strong> fine-tuning local models is only helpful for small scale dataset (e.g., MNIST) and fails to generalize to more complex datasets. It is an open question whether we can make the fine-tuning process work for complex datasets.</p>
-</li>
-<li>
-<p><strong>Prioritizing seeds</strong> based on two-phase strategy for the hybrid attack can significantly improve its query efficiency in batch attack scenario.</p>
-</li>
-</ul>
-<p>Our results make the case that it is important to evaluate both
-attacks and defenses with a more realistic adversary model than just
-looking at the average cost to attack a seed over a large pool of
-seeds. When an adversary only need to find a small number of
-adversarial examples, and has access to a large pool of potential
-seeds to attack (of equal value to the adversary), then the effective
-costs of a successful attack can be orders of magnitude lower than
-what would be projected assuming an adversary who cannot prioritize
-seeds to attack.</p>
-<h2 id="paper">Paper</h2>
-<p><a href="https://fsuya.org">Fnu Suya</a>, <a href="https://www.linkedin.com/in/jianfeng-chi-001b25133/">Jianfeng Chi</a>, <a href="http://www.cs.virginia.edu/~evans/">David Evans</a> and <a href="https://www.ytian.info">Yuan Tian</a>. <a href="https://arxiv.org/pdf/1908.07000.pdf"><em>Hybrid Batch Attacks: Finding Black-box
-Adversarial Examples with Limited Queries</em></a>. In <a href="https://www.usenix.org/conference/usenixsecurity20"><em>USENIX Security 2020</em></a>. Boston, August 2020. [<a href="/docs/hybrid_attack.pdf">PDF</a>] [<a href="https://arxiv.org/abs/1908.07000">arXiv</a>]</p>
-<h2 id="code">Code</h2>
-<p><a href="https://github.com/suyeecav/Hybrid-Attack">https://github.com/suyeecav/Hybrid-Attack</a></p>
-<p>In this repository, we provide the source code to reproduce the results in the paper. In addition, we believe our hybrid attack framework can (potentially) help boost the performance of new optimization attacks. Therefore, in the repository, we also provide tutorials to incorporate new optimization attacks into the hybrid attack framework.</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -781,6 +672,12 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    <p class="nogap">
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/hybrid-batch-attacks-at-usenix-security-2020/">Hybrid Batch Attacks at USENIX Security 2020</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/pointwise-paraphrase-appraisal-is-potentially-problematic/">Pointwise Paraphrase Appraisal is Potentially Problematic</a>
@@ -922,12 +819,6 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    
    <div class="posttitle">
       <a href="/ismr-2019-context-aware-monitoring-in-robotic-surgery/">ISMR 2019: Context-aware Monitoring in Robotic Surgery</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/a-plan-to-eradicate-stalkerware/">A Plan to Eradicate Stalkerware</a>
 
 
    </div>

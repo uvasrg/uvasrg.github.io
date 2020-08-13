@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>adversarial machine learning</title>
+      <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fnu Suya</title>
+      <link>//uvasrg.github.io/tags/fnu-suya/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/fnu-suya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jianfeng Chi</title>
+      <link>//uvasrg.github.io/tags/jianfeng-chi/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/jianfeng-chi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>USENIX Security</title>
+      <link>//uvasrg.github.io/tags/usenix-security/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/usenix-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yuan Tian</title>
+      <link>//uvasrg.github.io/tags/yuan-tian/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/yuan-tian/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ACL</title>
@@ -49,15 +94,6 @@
     </item>
     
     <item>
-      <title>adversarial machine learning</title>
-      <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
-      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Mohammad Mahmoody</title>
       <link>//uvasrg.github.io/tags/mohammad-mahmoody/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
@@ -90,42 +126,6 @@
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/xiao-zhang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fnu Suya</title>
-      <link>//uvasrg.github.io/tags/fnu-suya/</link>
-      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/fnu-suya/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jianfeng Chi</title>
-      <link>//uvasrg.github.io/tags/jianfeng-chi/</link>
-      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/jianfeng-chi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>USENIX Security</title>
-      <link>//uvasrg.github.io/tags/usenix-security/</link>
-      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/usenix-security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yuan Tian</title>
-      <link>//uvasrg.github.io/tags/yuan-tian/</link>
-      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/yuan-tian/</guid>
       <description></description>
     </item>
     

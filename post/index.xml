@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hybrid Batch Attacks at USENIX Security 2020</title>
+      <link>//uvasrg.github.io/hybrid-batch-attacks-at-usenix-security-2020/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/hybrid-batch-attacks-at-usenix-security-2020/</guid>
+      <description>Here&amp;rsquo;s the video for Fnu Suya&amp;rsquo;s presentation on Hybrid Batch Attacks at USENIX Security 2020:
+ 
+Download Video [mp4]
+ Blog Post
+Paper: [PDF] [arXiv]</description>
+    </item>
     
     <item>
       <title>Pointwise Paraphrase Appraisal is Potentially Problematic</title>
@@ -62,7 +75,8 @@
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/</guid>
-      <description>Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.
+      <description>New: Video Presentation
+Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.
 Existing black-box attacks can be grouped into two main categories:
   Transfer Attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model.
   Optimization Attacks use queries to the target model and apply optimization techniques to search for adversarial examples.</description>

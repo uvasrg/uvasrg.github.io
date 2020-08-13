@@ -7,6 +7,8 @@ categories = ["publications"]
 tags = ["adversarial machine learning", "Fnu Suya", "Yuan Tian", "Jianfeng Chi", "USENIX Security"]
 +++
 
+<b><font color="red">New:</font> [Video Presentation](hybrid-batch-attacks-at-usenix-security-2020/)</b>
+
 ## Finding Black-box Adversarial Examples with Limited Queries
 
 Black-box attacks generate adversarial examples (AEs) against deep
@@ -136,6 +138,14 @@ seeds to attack.
 
 <a href="https://fsuya.org">Fnu Suya</a>, <a href="https://www.linkedin.com/in/jianfeng-chi-001b25133/">Jianfeng Chi</a>, <a href="http://www.cs.virginia.edu/~evans/">David Evans</a> and <a href="https://www.ytian.info">Yuan Tian</a>. [_Hybrid Batch Attacks: Finding Black-box
 Adversarial Examples with Limited Queries_](https://arxiv.org/pdf/1908.07000.pdf). In [_USENIX Security 2020_](https://www.usenix.org/conference/usenixsecurity20). Boston, August 2020. [[PDF](/docs/hybrid_attack.pdf)]&nbsp;[[arXiv](https://arxiv.org/abs/1908.07000)] 
+
+<center>
+  <video width="90%" id="usenix-media-video-1" data-setup="{}" poster="" class="video-js vjs-default-skin vjs-big-play-centered" preload="auto" controls>
+    <source src='https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec20/videos/0813/s5_machine_learning_1/3_sec20summer-paper412-presentation-video.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+  </video><br> 
+<a href="https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec20/videos/0813/s5_machine_learning_1/3_sec20summer-paper412-presentation-video.mp4">Download Video [mp4]</a></p>
+</center>
+
 
 ## Code
 
