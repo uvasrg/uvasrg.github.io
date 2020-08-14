@@ -80,7 +80,7 @@ on CIFAR-10 only admits an adversarial accuracy of ~75% for any
 downstream classifiers.
 
 <center>
-<img alt="miresults" src="/images/robustreps/image2a.png" style="width:85%; margin-top: 12px; margin-bottom: 12px;">
+<img alt="miresults" src="/images/robustreps/image2a.png" style="width:60%; margin-top: 12px; margin-bottom: 12px;">
 </center>
 
 This motivates us to develop a method to learn adversarially robust
@@ -107,7 +107,7 @@ and CIFAR-10), here we report on CIFAR-10 (see the paper for the
 others, where the results are similar).
 
 <center>
-<img alt="miresults" src="/images/robustreps/image2.png" style="width: 85%; margin-top: 12px; margin-bottom: 12px;">
+<img alt="miresults" src="/images/robustreps/image2.png" style="width: 65%; margin-top: 12px; margin-bottom: 12px;">
 </center>
 
 Note that the representations are learned using only unlabeled data
@@ -136,7 +136,7 @@ between the interpretability of saliency maps and the adversarial
 robustness (see [Etmann et al.](http://proceedings.mlr.press/v97/etmann19a/etmann19a.pdf)).
 
 <center>
-<img alt="miresults" src="/images/robustreps/image2.png" style="width: 85%; margin-top: 12px; margin-bottom: 12px;">
+<img alt="miresults" src="/images/robustreps/image3.png" style="width: 75%; margin-top: 12px; margin-bottom: 12px;">
 </center>
 
 The saliency maps of our robust representation (third row) are less
@@ -156,6 +156,8 @@ adversarially robust models.
 
 **Paper:** [Sicheng Zhu](https://schzhu.github.io/), [Xiao Zhang](https://people.virginia.edu/~xz7bc/), and [David Evans](https://www.cs.virginia.edu/~evans).
 [_Learning Adversarially Robust Representations via Worst-Case Mutual Information Maximization_](https://icml.cc/virtual/2020/poster/6604). In
-[International Conference on Machine Learning ](https://icml.cc/virtual/2020) (ICML 2020), July 2020. [[ICML PDF](https://proceedings.icml.cc/static/paper_files/icml/2020/5124-Paper.pdf)] [[arXiv](https://arxiv.org/abs/2002.11798)]
+[International Conference on Machine Learning ](https://icml.cc/virtual/2020) (ICML 2020), July 2020.
+[[PDF](/docs/robustrepresentations.pdf)] [[Supplemental Materials](/docs/robustrepresentations-supplement.pdf)]
+[[ICML PDF](https://proceedings.icml.cc/static/paper_files/icml/2020/5124-Paper.pdf)] [[arXiv](https://arxiv.org/abs/2002.11798)]
 
 [Video Presentation](https://icml.cc/virtual/2020/poster/6604) (from ICML 2020)
