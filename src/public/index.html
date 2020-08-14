@@ -364,6 +364,12 @@
         
     
         
+    
+        
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -426,6 +432,154 @@ href="//www.evademl.org/">EvadeML</a>
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/robustrepresentations/">Adversarially Robust Representations</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2020-08-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">14 August 2020</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/icml">ICML</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/sicheng-zhu">Sicheng Zhu</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/xiao-zhang">Xiao Zhang</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p><em>Post by Sicheng Zhu</em></p>
+<p>With the rapid development of deep learning and the explosive growth
+of unlabeled data, <a href="https://arxiv.org/abs/1206.5538">representation
+learning</a> is becoming increasingly
+important. It has made impressive applications such as pre-trained
+language models (e.g., <a href="https://arxiv.org/abs/1810.04805">BERT</a> and
+<a href="https://github.com/openai/gpt-3">GPT-3</a>).</p>
+<p>Popular as it is, representation learning raises concerns about the
+robustness of learned representations under adversarial settings. For
+example, <em>how can we compare the robustness to different
+representations</em>, and <em>how can we build representations that enable
+robust downstream classifiers</em>?</p>
+<p>In this work, we answer these questions by proposing a notion of
+<em>adversarial robustness for representations</em>. We show what the best
+achievable robustness for a downstream classifier is limited by a
+measurable representation robustness, and provide a training principle
+for learning adversarially robust representations.</p>
+<h1 id="adversarial-robustness-for-representations">Adversarial Robustness for Representations</h1>
+<p>Despite various existing criteria for evaluating a representation
+(e.g., smoothness, sparsity), there is no general way previously known
+to measure a representation’s robustness under adversarial
+perturbations. We propose a notion of adversarial robustness for
+representations based on information-theoretic measures.</p>
+<center>
+<img alt="mutualinformation" src="/images/robustreps/image1.png" style="width: 85%; margin-top: 12px; margin-bottom: 12px;"</img>
+</center>
+<p>Consider a representation that maps an underlying data distribution to
+a representation distribution. In this case, we can measure the
+(standard-case) mutual information between the two distributions. Then
+by perturbing the data distribution within a Wasserstein ball such
+that the mutual information term is minimized, we can measure the
+worst-case mutual information. The representation vulnerability (an
+opposite notion of robustness) is defined as the difference between
+the two terms.</p>
+<p>This notion enjoys several desired properties in representation
+learning scenarios-it is scale-invariant, label-free, and compatible
+with different threat models (including the commonly used
+<em>L<sub>p</sub></em> norm attacks). Most importantly, we show next that it
+has a direct relationship with the performance of downstream tasks.</p>
+<h1 id="connecting-representation-to-downstream-tasks">Connecting Representation to Downstream Tasks</h1>
+<p>If a representation is robust, we show (theoretically in a synthetic
+setting and empirically in general settings) that a properly trained
+downstream classifier will perform consistently in both natural and
+adversarial settings, that is the difference between the natural
+accuracy and the adversarial accuracy will be small.</p>
+<p>If a representation is not robust, we show that no robust downstream
+classifiers can be built using that representation.</p>
+<p>We provide an information-theoretic upper bound for the maximum robust
+accuracy that can be achieved by any downstream classifier, with
+respect to the representation robustness. We empirically evaluate the
+tightness of this bound and find that the vulnerability of internal
+layer representations of many neural networks is at least one
+bottleneck for the model to be more robust.</p>
+<p>For example, the representation defined by the logit layer of Resnet18
+on CIFAR-10 only admits an adversarial accuracy of ~75% for any
+downstream classifiers.</p>
+<center>
+<img alt="miresults" src="/images/robustreps/image2a.png" style="width:85%; margin-top: 12px; margin-bottom: 12px;">
+</center>
+<p>This motivates us to develop a method to learn adversarially robust
+representations.</p>
+<h1 id="a-learning-principle-for-robust-representations">A Learning Principle for Robust Representations</h1>
+<p>Based on the proposed notion, a natural way to learn adversarially
+robust representations is to directly induce the representation
+robustness on common representation learning objectives.</p>
+<p>We consider a popular representation learning objective — <A
+href="https://arxiv.org/abs/1808.06670">mutual information
+maximization</a> — as it has impressive performance in practice
+and many other objectives (e.g., noise contrastive estimation) can be
+viewed as surrogate losses of this objective. By inducing the
+representation robustness and setting a specific coefficient, we
+provide the worst-case mutual information maximization principle for
+learning adversarially robust representations.</p>
+<p>We evaluate the performance of our representation learning principle
+on four image classification benchmarks (MNIST, Fashion-MNIST, SVHN,
+and CIFAR-10), here we report on CIFAR-10 (see the paper for the
+others, where the results are similar).</p>
+<center>
+<img alt="miresults" src="/images/robustreps/image2.png" style="width: 85%; margin-top: 12px; margin-bottom: 12px;">
+</center>
+<p>Note that the representations are learned using only unlabeled data
+and are kept fixed during the training of downstream classifiers.  The
+robust downstream classifier (trained using adversarial training)
+benefits from the robust representation. It has both better natural
+accuracy and better adversarial accuracy. The adversarial accuracy of
+~31% is even comparable to the fully-supervised robust model with the
+same architecture.</p>
+<p>Even the standard classifier based on our robust representation
+inherits a non-trivial adversarial accuracy from the robust
+representation. And more interestingly, they also have better natural
+accuracy compared to the baseline. This phenomenon is consistent with
+some <a href="https://arxiv.org/abs/1909.11764">recent work</a> using
+adversarial training to learn pre-trained models and may indicate the
+better standard generalization of adversarially learned
+representations.</p>
+<h2 id="saliency-maps">Saliency Maps</h2>
+<p>We also visualize the saliency map of our learn representations as
+side evaluation of adversarial robustness, since the relationship
+between the interpretability of saliency maps and the adversarial
+robustness (see <a href="http://proceedings.mlr.press/v97/etmann19a/etmann19a.pdf">Etmann et al.</a>).</p>
+<center>
+<img alt="miresults" src="/images/robustreps/image2.png" style="width: 85%; margin-top: 12px; margin-bottom: 12px;">
+</center>
+<p>The saliency maps of our robust representation (third row) are less
+noisy and more interpretable than its standard counterpart (second
+row).</p>
+<h1 id="conclusions">Conclusions</h1>
+<p>We show that the adversarial robustness for representations is
+correlated with the achievable robustness for downstream tasks, and
+that an associated learning principle can be used to produce more
+robust representations. Our work motivates leaning adversarially
+robust representations as an intermediate step or as a regularization
+to circumvent the insurmountable difficulty of directly learning
+adversarially robust models.</p>
+<p><strong>Paper:</strong> <a href="https://schzhu.github.io/">Sicheng Zhu</a>, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and <a href="https://www.cs.virginia.edu/~evans">David Evans</a>.
+<a href="https://icml.cc/virtual/2020/poster/6604"><em>Learning Adversarially Robust Representations via Worst-Case Mutual Information Maximization</em></a>. In
+<a href="https://icml.cc/virtual/2020">International Conference on Machine Learning </a> (ICML 2020), July 2020. [<a href="https://proceedings.icml.cc/static/paper_files/icml/2020/5124-Paper.pdf">ICML PDF</a>] [<a href="https://arxiv.org/abs/2002.11798">arXiv</a>]</p>
+<p><a href="https://icml.cc/virtual/2020/poster/6604">Video Presentation</a> (from ICML 2020)</p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/hybrid-batch-attacks-at-usenix-security-2020/">Hybrid Batch Attacks at USENIX Security 2020</a></h2>
@@ -586,55 +740,6 @@ Jefferson&rsquo;s</a>.)</p>
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/neurips2019/">NeurIPS 2019</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2019-12-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">16 December 2019</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/xiao-zhang">Xiao Zhang</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/neurips">NeurIPS</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/saeed-mahloujifar">Saeed Mahloujifar</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/mohammad-mahmoody">Mohammad Mahmoody</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>
-Here's a video of Xiao Zhang's presentation at NeurIPS 2019: <br>
-<a href="https://slideslive.com/38921718/track-2-session-1"><em>https://slideslive.com/38921718/track-2-session-1</em></a> (starting at 26:50)
-</p>
-<p>
-See <A href="/neurips-2019-empirically-measuring-concentration/">this post</a> for info on the paper.
-</p>
-Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody):
-<p>
-<center>
-<a href="/images/NeurIPS2019/IMG_6759.JPG"><img src="/images/NeurIPS2019/IMG_6759.JPG" width="75%"></a><br>
-<p><br></p>
-<a href="/images/NeurIPS2019/IMG_6777.JPG"><img src="/images/NeurIPS2019/IMG_6777.JPG" width="75%"></a><br>
-<p><br></p>
-<a href="/images/NeurIPS2019/xiao-poster.jpg"><img src="/images/NeurIPS2019/xiao-poster.jpg"></a><br>
-</center>
-</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -672,6 +777,12 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    <p class="nogap">
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/robustrepresentations/">Adversarially Robust Representations</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/hybrid-batch-attacks-at-usenix-security-2020/">Hybrid Batch Attacks at USENIX Security 2020</a>
@@ -813,12 +924,6 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    
    <div class="posttitle">
       <a href="/congratulations-dr.-xu/">Congratulations Dr. Xu!</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/ismr-2019-context-aware-monitoring-in-robotic-surgery/">ISMR 2019: Context-aware Monitoring in Robotic Surgery</a>
 
 
    </div>
