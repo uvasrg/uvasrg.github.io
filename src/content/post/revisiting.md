@@ -62,7 +62,7 @@ whereas it is equally likely to increase or decrease for
 non-members. For each record, a small amount of random Gaussian noise
 is added and the change of loss direction is recorded. This process is
 repeated multiple times and Merlin infers membership based on the
-fraction of times the loss increases
+fraction of times the loss increases.
 
 <center>
 <img alt="" src="/images/revisiting/image3.png" width="80%">
@@ -127,10 +127,9 @@ members.
 
 ## Conclusion
 
-As shown in the conditions with highly imbalanced priors, attacks like
-Yeom, Merlin and Morgan can produce a very high rate of
-positively-identified members even in situations where other attacks
-fail to show meaningful inference risk. 
+The Merlin and Morgan attacks can reliably identify members even in
+situations with imbalanced priors where other attacks fail to show
+meaningful inference risk.
 
 In addition, there is a large gap between what can be guaranteed using
 differential privacy methods, and what can be inferred using known
