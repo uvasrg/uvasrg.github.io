@@ -25,7 +25,7 @@ robustness limits implied by our theory and the adversarial robustness
 achieved by current state-of-the-art robust models.
 
 <center>
-<img src="/images/grobustness.png" width="60%"><br>
+<img src="/images/grobustness.png" width="50%"><br>
 <div class="caption">
 Comparisons between the theoretical intrinsic robustness bound and the
 empirically estimated unconstrained (unc)/in-distribution (in)
@@ -38,7 +38,7 @@ other settings.)
 </center>
 
 
-Paper: Xiao Zhang, Jinghui Chen, Quanquan Gu, David Evans. [Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models](https://arxiv.org/abs/2003.00378)). [arXiv](https://arxiv.org/abs/2003.00378) [PDF]()
+**Paper:** Xiao Zhang, Jinghui Chen, Quanquan Gu, David Evans. [_Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models_](https://arxiv.org/abs/2003.00378)), AISTATS 2020. [arXiv](https://arxiv.org/abs/2003.00378) 
 
-Code: [_https://github.com/xiaozhanguva/Intrinsic-Rob_](https://github.com/xiaozhanguva/Intrinsic-Rob)
+**Code:** [_https://github.com/xiaozhanguva/Intrinsic-Rob_](https://github.com/xiaozhanguva/Intrinsic-Rob)
 
