@@ -24,6 +24,16 @@ Popular as it is, representation learning raises concerns about the robustness o
     </item>
     
     <item>
+      <title>Intrinsic Robustness using Conditional GANs</title>
+      <link>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</guid>
+      <description>The video of Xiao&amp;rsquo;s presentation for AISTATS 2020 is now available: Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models
+Starting with Gilmer et al. (2018), several works have demonstrated the inevitability of adversarial examples based on different assumptions about the underlying input probability space. It remains unclear, however, whether these results apply to natural image distributions. In this work, we assume the underlying data distribution is captured by some conditional generative model, and prove intrinsic robustness bounds for a general class of classifiers, which solves an open problem in Fawzi et al.</description>
+    </item>
+    
+    <item>
       <title>NeurIPS 2019</title>
       <link>//uvasrg.github.io/neurips2019/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>

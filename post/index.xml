@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Merlin, Morgan, and the Importance of Thresholds and Priors</title>
+      <link>//uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/</guid>
+      <description>Post by Katherine Knipmeyer
+Machine learning poses a substantial risk that adversaries will be able to discover information that the model does not intend to reveal. One set of methods by which consumers can learn this sensitive information, known broadly as membership inference attacks, predicts whether or not a query record belongs to the training set. A basic membership inference attack involves an attacker with a given record and black-box access to a model who tries to determine whether said record was a member of the model’s training set.</description>
+    </item>
     
     <item>
       <title>Adversarially Robust Representations</title>
@@ -21,6 +31,16 @@
       <description>Post by Sicheng Zhu
 With the rapid development of deep learning and the explosive growth of unlabeled data, representation learning is becoming increasingly important. It has made impressive applications such as pre-trained language models (e.g., BERT and GPT-3).
 Popular as it is, representation learning raises concerns about the robustness of learned representations under adversarial settings. For example, how can we compare the robustness to different representations, and how can we build representations that enable robust downstream classifiers?</description>
+    </item>
+    
+    <item>
+      <title>Intrinsic Robustness using Conditional GANs</title>
+      <link>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</guid>
+      <description>The video of Xiao&amp;rsquo;s presentation for AISTATS 2020 is now available: Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models
+Starting with Gilmer et al. (2018), several works have demonstrated the inevitability of adversarial examples based on different assumptions about the underlying input probability space. It remains unclear, however, whether these results apply to natural image distributions. In this work, we assume the underlying data distribution is captured by some conditional generative model, and prove intrinsic robustness bounds for a general class of classifiers, which solves an open problem in Fawzi et al.</description>
     </item>
     
     <item>

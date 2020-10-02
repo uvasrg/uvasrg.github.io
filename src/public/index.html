@@ -370,6 +370,20 @@
         
     
         
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -432,6 +446,216 @@ href="//www.evademl.org/">EvadeML</a>
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/merlin-morgan-and-the-importance-of-thresholds-and-priors/">Merlin, Morgan, and the Importance of Thresholds and Priors</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2020-10-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2 October 2020</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy">privacy</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/bargav-jayaraman">Bargav Jayaraman</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/lingxiao-wang">Lingxiao Wang</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/katherine-knipmeyer">Katherine Knipmeyer</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/quanquan-gu">Quanquan Gu</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p><em>Post by Katherine Knipmeyer</em></p>
+<p>Machine learning poses a substantial risk that adversaries will be
+able to discover information that the model does not intend to
+reveal. One set of methods by which consumers can learn this sensitive
+information, known broadly as <em>membership inference</em> attacks,
+predicts whether or not a query record belongs to the training set. A
+basic membership inference attack involves an attacker with a given
+record and black-box access to a model who tries to determine whether
+said record was a member of the model’s training set.</p>
+<p>Unlike much of the existing research on the membership inference,
+though, these particular results focus on what are considered
+“realistic assumptions,” including conditions with skewed
+priors (wherein members only make up a small fraction of the candidate
+pool) and conditions with adversaries that select accuracy-improving
+inference thresholds based on specific attack goals. These new
+assumptions help to answer the question of how differential privacy
+can be implemented to provide meaningful privacy guarantees in
+practice.</p>
+<center><img src="/images/revisiting/image1.png" width="80%"></center>
+<h2 id="threshold-selection">Threshold Selection</h2>
+<p>In order to classify a record as either a member or a non-member,
+there must be a threshold that converts a real number output from a
+test into a Boolean. We develop a procedure to select a threshold,
+φ, that allows the adversary to achieve as much privacy leakage as
+possible while staying beneath a maximum false positive rate, α.</p>
+<p>This selection procedure can be applied to any membership inference
+attack, including Yeom’s attack. The original version of this
+attack classifies a record as a member if its per-instance-loss is
+less than the expected training loss, whereas this new approach
+selects members based on a threshold <em>φ</em>, which can be set
+to target a particular false positive rate.</p>
+<center>
+<img alt="" src="/images/revisiting/image2.png" width="80%">
+</center>
+<h2 id="the-merlin-attack">The Merlin Attack</h2>
+<p>In addition to this new selection procedure, we introduce a new attack
+known as Merlin, which stands for <B>ME</b>asuring <b>R</b>elative <b>L</b>oss <b>I</b>n <b>N</b>eighborhood. Instead of per-instance-loss, this attack uses the
+direction of change of per-instance-loss when the record is slightly
+perturbed with noise. Merlin operates based on the intuition that, as
+a result of overfitting, member records are more likely to be near
+local minima than non-member records. This suggests that for members,
+loss is more likely to increase at perturbed points near the original,
+whereas it is equally likely to increase or decrease for
+non-members. For each record, a small amount of random Gaussian noise
+is added and the change of loss direction is recorded. This process is
+repeated multiple times and Merlin infers membership based on the
+fraction of times the loss increases</p>
+<center>
+<img alt="" src="/images/revisiting/image3.png" width="80%">
+</center>
+<h2 id="the-morgan-attack">The Morgan Attack</h2>
+<p>Since Yeom and Merlin use different information to make their
+membership inferences, they do not always identify the same records as
+members; some members are more vulnerable to one attack than the
+other. Visualizing a combination of the attacks’ results
+suggests that by eliminating the results with a very low
+per-instance-loss, a combination of the two may produce an improved
+PPV. The intuition here is that extremely low per-instance-losses may
+result in Merlin’s identification of a local minimum where there
+is in fact a near global minimum (which is much less strongly
+correlated with membership).</p>
+<p>The Morgan (<b>M</b>easuring l<b>O</b>ss, <b>R</b>elatively
+<B>G</b>reater <b>A</b>round <b>N</b>eighborhood) attack uses three
+different thresholds: a lower threshold on per-instance loss (<em>φ</em><sub><em>L</em></sub>),
+an upper threshold on per-instance loss (<em>φ</em><sub><em>U</em></sub>),
+and a threshold on the ratio as used by Merlin (<em>φ</em><sub><em>M</em></sub>). If a
+record has a per-instance-loss that falls between <em>φ</em><sub><em>L</em></sub> and <em>φ</em><sub><em>U</em></sub>, and has a Merlin ratio of at least <em>φ</em><sub><em>M</em></sub>, Morgan identifies it as a member.</p>
+<center>
+<img alt="" src="/images/revisiting/image5.jpg" width="50%"><br>
+<div class="caption">
+<p>The figure shows the per-instance loss and Merlin ratio for
+Purchase-100X (and expanded version of the Purchase-100 dataset that
+we created for our experiments). Members and nonmembers are denoted
+by orange and purple points respectively. The boxes show the
+thresholds found by the threshold selection process (without access to
+the training data, but with the same data distribution), and
+illustrate the regions where members are identified by Morgan with
+very high confidence (PPV ∼1). (See <a href="https://arxiv.org/abs/2005.10881">paper</a> for details, and more result.)</p>
+</div>
+</center>
+<h2 id="imbalanced-priors">Imbalanced Priors</h2>
+<p>Previous work on membership inference attacks assumes a candidate pool
+where half of the candidates are members. For most settings,
+especially ones where there is a serious privacy risk for an
+individual of being identified as a dataset member, this assumption is
+unrealistic. It is important to understand how well inference attacks
+work when the adversary&rsquo;s candidate pool has a different prior
+probability of being amember.</p>
+<center>
+<img alt="" src="/images/revisiting/image6.png" width="60%">
+</center>
+<p>Here, the candidate pool from which the attacker attempts to select
+members has <em>γ</em> times more non-member records than member
+records. As shown above, even in situations that other papers do not
+consider, wherein there are many times more non-members than members,
+attacks are able to attain a high rate of positively-identified
+members.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>As shown in the conditions with highly imbalanced priors, attacks like
+Yeom, Merlin and Morgan can produce a very high rate of
+positively-identified members even in situations where other attacks
+fail to show meaningful inference risk.</p>
+<p>In addition, there is a large gap between what can be guaranteed using
+differential privacy methods, and what can be inferred using known
+inference attacks. This means better inference attacks may exist, and
+our results show that there are concrete ways to improve attacks
+(e.g., our threshold-selection procedure) and to incorporate more
+information to improve attacks. We are especially interested in
+attacks that produce extremely high PPVs, even if this is only for a
+small fraction of candidates, since for most scenarios this is where
+the most serious privacy risks lie.</p>
+<p><strong>Full paper:</strong> Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer,
+Quanquan Gu, David Evans. <a href="https://arxiv.org/abs/2005.10881"><em>Revisiting Membership Inference Under
+Realistic Assumptions</em></a> (<a href="https://arxiv.org/abs/2005.10881">arXiv</a>).</p>
+<p><strong>Code:</strong> <a href="https://github.com/bargavj/EvaluatingDPLM"><em>https://github.com/bargavj/EvaluatingDPML</em></a></p>
+
+      </div>
+<hr class="post-separator"></hr>
+
+    
+    <h2><a href="/intrinsic-robustness-using-conditional-gans/">Intrinsic Robustness using Conditional GANs</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2020-08-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">14 August 2020</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/aistats">AISTATS</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/xiao-zhang">Xiao Zhang</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/jinghui-chen">Jinghui Chen</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/quanquan-gu">Quanquan Gu</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>The video of Xiao&rsquo;s presentation for AISTATS 2020 is now available:
+<a href="https://slideslive.com/38930305/understanding-the-intrinsic-robustness-of-image-distributions-using-conditional-generative-models"><em>Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models</em></a></p>
+<p>Starting with Gilmer et al. (2018), several works have demonstrated
+the inevitability of adversarial examples based on different
+assumptions about the underlying input probability space. It remains
+unclear, however, whether these results apply to natural image
+distributions. In this work, we assume the underlying data
+distribution is captured by some conditional generative model, and
+prove intrinsic robustness bounds for a general class of classifiers,
+which solves an open problem in Fawzi et al. (2018). Building upon the
+state-of-the-art conditional generative models, we study the intrinsic
+robustness of two common image benchmarks under _l_<sub>2</sub>
+perturbations, and show the existence of a large gap between the
+robustness limits implied by our theory and the adversarial robustness
+achieved by current state-of-the-art robust models.</p>
+<center>
+<img src="/images/grobustness.png" width="60%"><br>
+<div class="caption">
+Comparisons between the theoretical intrinsic robustness bound and the
+empirically estimated unconstrained (unc)/in-distribution (in)
+adversarial robustness under <em>l</em><sub>2</sub> for ImageNet10
+(&epsilon = 3.0). The dotted curve line represents the theoretical
+bound on intrinsic robustness with horizontal axis denoting the
+different choice of &alpha;. (See paper for details and results in
+other settings.)
+</div>
+</center>
+<p>Paper: Xiao Zhang, Jinghui Chen, Quanquan Gu, David Evans. <a href="https://arxiv.org/abs/2003.00378">Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models</a>). <a href="https://arxiv.org/abs/2003.00378">arXiv</a> <a href="">PDF</a></p>
+<p>Code: <a href="https://github.com/xiaozhanguva/Intrinsic-Rob"><em>https://github.com/xiaozhanguva/Intrinsic-Rob</em></a></p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/robustrepresentations/">Adversarially Robust Representations</a></h2>
@@ -678,70 +902,6 @@ score than a pair of identical ones.</p>
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/de-naming-the-blog/">De-Naming the Blog</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2020-06-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">21 June 2020</time>
-  </span>
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>This blog was started in <a href="/2008/facebook-privacy.html">January 2008</a>, a bit over
-eight years after I started as a professor at UVA and initiated the
-research group. It was named after Thomas Jefferson&rsquo;s cipher wheel,
-which <a href="http://www.cs.virginia.edu/~evans/cs588-fall2001/challenges/wheel-solved.html">has long
-been</a>
-(and <a href="https://github.com/evansuva/cipherschool">remains</a>) one of my
-<a href="https://www.cs.virginia.edu/~evans/crypto/day1-jefferson.html">favorite ways to introduce
-cryptography</a>.</p>
-<p>
-<center><img src="/images/jwlogo-small.jpg" width="60%"></center>
-</p>
-<p>Figuring out how to honor our history, including Jefferson&rsquo;s <a href="https://youtu.be/cJbIXG50RCE?t=388">founding
-of the University</a>, and appreciate his
-<a href="https://www.monticello.org/site/research-and-collections/virginia-statute-religious-freedom">ideals</a>
-and <a href="https://www.cs.virginia.edu/~evans/cs655/readings/declaration.html">enormous
-contributions</a>,
-while confronting the reality of Jefferson as a slave owner and
-abuser, will be a challenge and responsibility for people above my
-administrative rank. But, I&rsquo;ve come to see that it is harmful to have
-a blogged named after Jefferson so have removed the Jefferson&rsquo;s Wheel
-name from this research group blog.</p>
-<p>For now, we&rsquo;re going with a very generic &ldquo;uvasrg&rdquo; name&hellip;but hopefully
-will come up with something more interesting eventually.  (I&rsquo;ve
-reluctantly rejected &ldquo;Hamilton&rsquo;s Dual&rdquo;, alluding, of course, to
-<a href="https://www.amazon.com/Margaret-Moon-Dean-Robbins/dp/0399551859">Margaret
-Hamilton</a>
-and <a href="https://www.youtube.com/watch?v=SZXHoWwBcDc">William Rown
-Hamilton</a>, and
-the Lagranian Dual and <a href="https://www.cs.virginia.edu/~evans/pubs/oakland2012/">Dual
-Execution</a>, not
-to <a href="https://www.history.com/news/alexander-hamilton-slavery-facts">any historical rival of
-Jefferson&rsquo;s</a>.)</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
-    <h2><a href="/oakland-test-of-time-awards/">Oakland Test-of-Time Awards</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2020-05-23 00:00:00 &#43;0000 UTC" itemprop="datePublished">23 May 2020</time>
-  </span>
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>I chaired the committee to select Test-of-Time Awards for the IEEE Symposium on Security and Privacy symposia from 1995-2006, which were presented at the Opening Section of the <a href="https://www.ieee-security.org/TC/SP2020/awards.html">41<sup>st</sup> <em>IEEE Symposium on Security and Privacy</em></a>.</p>
-<center>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EwT1tnyin1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -779,6 +939,18 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    <p class="nogap">
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/merlin-morgan-and-the-importance-of-thresholds-and-priors/">Merlin, Morgan, and the Importance of Thresholds and Priors</a>
+
+
+   </div>
+   
+   <div class="posttitle">
+      <a href="/intrinsic-robustness-using-conditional-gans/">Intrinsic Robustness using Conditional GANs</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/robustrepresentations/">Adversarially Robust Representations</a>
@@ -914,18 +1086,6 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    
    <div class="posttitle">
       <a href="/srg-lunch/">SRG Lunch</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/jason-spring-meeting-adversarial-machine-learning/">JASON Spring Meeting: Adversarial Machine Learning</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/congratulations-dr.-xu/">Congratulations Dr. Xu!</a>
 
 
    </div>
