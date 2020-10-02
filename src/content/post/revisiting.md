@@ -131,7 +131,7 @@ The Merlin and Morgan attacks can reliably identify members even in
 situations with imbalanced priors where other attacks fail to show
 meaningful inference risk.
 
-In addition, there is a large gap between what can be guaranteed using
+There remains a large gap between what can be guaranteed using
 differential privacy methods, and what can be inferred using known
 inference attacks. This means better inference attacks may exist, and
 our results show that there are concrete ways to improve attacks
