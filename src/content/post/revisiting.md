@@ -145,5 +145,5 @@ the most serious privacy risks lie.
 Quanquan Gu, David Evans. [_Revisiting Membership Inference Under
 Realistic Assumptions_](https://arxiv.org/abs/2005.10881) ([arXiv](https://arxiv.org/abs/2005.10881)).
 
-**Code:** [_https://github.com/bargavj/EvaluatingDPLM_](https://github.com/bargavj/EvaluatingDPML)
+**Code:** [_https://github.com/bargavj/EvaluatingDPML_](https://github.com/bargavj/EvaluatingDPML)
 
