@@ -18,6 +18,15 @@
 </center>
 
 
+# <center>Pre-Doctoral Visitor</center>
+
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yulong Tian</b><br>Pre-Doctoral Visitor<br>Since Fall 2020<br>hiding machine learning backdoors<br>   </div>
+</div>
+</center>
+
+
 # <center>Undergraduate Researchers</center>
 
    <center>
@@ -30,22 +39,24 @@
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/knipmeyer.png"><br><b>Katherine Knipmeyer</b><br>Undergraduate Researcher<br>Since Summer 2020<br>evaluating privacy for machine learning<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jessieli.png"><br><b>Jessie Li</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/siebor.png"><br><b>Konrad Siebor</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/weinschenk.png"><br><b><a href="https://www.linkedin.com/in/katherine-weinschenk-4968a0150/">Katherine Weinschenk</a></b><br>Undergraduate Researcher<br>Since Summer 2020<br>societal risks of AI<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/wijaya.png"><br><b><a href="https://www.linkedin.com/in/erwinxwijaya/">Erwin Wijaya</a></b><br>Undergraduate Researcher<br>Co-advised with Denis Nekipelov<br>Since Summer 2020<br>revealing privacy preferences<br>   </div>
 </div>
 </center>
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Alex Becker</b><br>Undergraduate Researcher<br>Co-advised with Denis Nekipelov<br>Since Summer 2020<br>revealing privacy preferences<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Isabelle Fang</b><br>Undergraduate Researcher<br>Since Fall 2020<br>natural language processing<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Jack Prescott</b><br>Undergraduate Researcher<br>Since Fall 2019<br>robust machine learning<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Brian Tran</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
+</div>
+</center>
+
+
+# <center>Visiting High School Students</center>
+
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>William Buerk</b><br>Visiting High School Student<br>Since Fall 2020<br>black-box attacks machine learning systems<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Anika Karpurapu</b><br>Visiting High School Student<br>Since Fall 2020<br>evaluating privacy for machine learning<br>   </div>
 </div>
 </center>
 
@@ -94,7 +105,7 @@
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/etemad.png"><br><b><a href="https://scholar.google.com/citations?user=2fNWdYwAAAAJ&hl=en">Mohammad Etemad</a></b><br>Post-Doctoral Visitor<br>2016 &ndash; 2017<br>LinkedIn<br>PhD Koc University, Turkey<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/etemad.png"><br><b><a href="https://scholar.google.com/citations?user=2fNWdYwAAAAJ&hl=en">Mohammad Etemad</a></b><br>Post-Doctoral Visitor<br>2016 &ndash; 2017<br>Google<br>PhD Koc University, Turkey<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/movahedi.png"><br><b><a href="http://www.cs.yale.edu/homes/movahedi/">Mahnush Movahedi</a></b><br>Post-Doctoral Visitor<br>Spring 2016<br>Yale University, Dfinity, Facebook<br>PhD from University of New Mexico<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/naveed.png"><br><b><a href="https://www.cryptoonline.com/">Muhammad Naveed</a></b><br>Pre-Doctoral Visitor<br>Summer 2013<br>Graduate student visit while PhD student at UIUC<br> Assistant Professor at <a href="http://www.cs.usc.edu/">University of Southern Californa</a><br>   </div>
 </div>
@@ -279,16 +290,6 @@
 
 
    <div class="hanging">
-<b><a href="https://twitter.com/eryous_ye">Youssef Errami</a></b><br>Undergraduate Researcher, Summer 2019 &ndash; Spring 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/jm214p64h"><em>A Deeper Look into the Fairness of Differential Privacy</em></a><br></div>   </div>
-
-# 
-
-   <div class="hanging">
-<b><a href="https://www.linkedin.com/in/kushpatel12/">Kush Patel</a></b><br>Undergraduate Researcher, Fall 2019 &ndash; Spring 2020<br>BSCS 2020<br><div class="hanging"><em>The Effects of Clipping on Differentially Private Machine Learning</em><br></div>   </div>
-
-# 
-
-   <div class="hanging">
 <b>Corey Ames</b><br>Undergraduate Researcher, 2014 &ndash; 2015<br>   </div>
 
 # 
@@ -300,6 +301,11 @@
 
    <div class="hanging">
 <b>Shay Batheja</b><br>Undergraduate Researcher, Summer 2015<br><div class="hanging">learning materials for <a href="https://picoctf.com/">PicoCTF</a> and beyond<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Alex Becker</b><br>Undergraduate Researcher, Co-advised with Denis Nekipelov<br>Since Summer 2020<br><div class="hanging">revealing privacy preferences<br></div>   </div>
 
 # 
 
@@ -345,6 +351,11 @@
 
    <div class="hanging">
 <b><a href="https://www.linkedin.com/in/natnatee-dokmai-14005b167/">Natnatee Dokmai</a></b><br>Undergraduate Researcher, 2013 &ndash; 2015<br>BACS 2015<br><div class="hanging">Indiana University MS<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b><a href="https://twitter.com/eryous_ye">Youssef Errami</a></b><br>Undergraduate Researcher, Summer 2019 &ndash; Spring 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/jm214p64h"><em>A Deeper Look into the Fairness of Differential Privacy</em></a><br></div>   </div>
 
 # 
 
@@ -434,6 +445,11 @@
 # 
 
    <div class="hanging">
+<b>Jessie Li</b><br>Undergraduate Researcher, Summer 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b>Guanmei Liang</b><br>Undergraduate Researcher, Summer 2013<br>   </div>
 
 # 
@@ -474,7 +490,7 @@
 # 
 
    <div class="hanging">
-<b>Aditi Narvekar</b><br>Undergraduate Researcher, 2017 &ndash; 2019<br><div class="hanging">adversarial machine learning<br></div>   </div>
+<b>Aditi Narvekar</b><br>Undergraduate Researcher, 2017 &ndash; 2019<br><div class="hanging">adversarial machine learning<br></div><div class="hanging">Apple; Georgia Tech OMCS<br></div>   </div>
 
 # 
 
@@ -490,6 +506,11 @@
 
    <div class="hanging">
 <b>Felix Park</b><br>Undergraduate Researcher, 2017 &ndash; 2018<br><div class="hanging">adversarial machine learning<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b><a href="https://www.linkedin.com/in/kushpatel12/">Kush Patel</a></b><br>Undergraduate Researcher, Fall 2019 &ndash; Spring 2020<br>BSCS 2020<br><div class="hanging"><em>The Effects of Clipping on Differentially Private Machine Learning</em><br></div>   </div>
 
 # 
 
@@ -510,6 +531,11 @@
 
    <div class="hanging">
 <b>Ori Shimony</b><br>Undergraduate Researcher, Summer 2015 &ndash; 2016<br><div class="hanging">incentives and Tor<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Konrad Siebor</b><br>Undergraduate Researcher, Summer 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
 
 # 
 
@@ -554,7 +580,17 @@
 # 
 
    <div class="hanging">
+<b><a href="https://www.linkedin.com/in/katherine-weinschenk-4968a0150/">Katherine Weinschenk</a></b><br>Undergraduate Researcher, Summer 2020<br><div class="hanging">societal risks of AI<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b><a href="https://www.jeffersonscholars.org/people/jonah-weissman">Jonah Weissman</a></b><br>Undergraduate Researcher, Summer 2019<br><div class="hanging">evaluating privacy for machine learning<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b><a href="https://www.linkedin.com/in/erwinxwijaya/">Erwin Wijaya</a></b><br>Undergraduate Researcher, Co-advised with Denis Nekipelov<br>Since Summer 2020<br><div class="hanging">revealing privacy preferences<br></div>   </div>
 
 # 
 

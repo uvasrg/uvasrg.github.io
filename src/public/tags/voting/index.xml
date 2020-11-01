@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>voting on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/voting/</link>
+    <description>Recent content in voting on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//uvasrg.github.io/tags/voting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Voting Security</title>
+      <link>//uvasrg.github.io/voting-security/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/voting-security/</guid>
+      <description>I was interviewed for a local news story by Daniel Grimes on election security: UVA cybersecurity expert: Virginia is one of the safer states to cast a ballot, NBC 29 News, 21 October 2020.</description>
+    </item>
+    
+  </channel>
+</rss>

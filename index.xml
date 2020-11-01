@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Voting Security</title>
+      <link>//uvasrg.github.io/voting-security/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/voting-security/</guid>
+      <description>I was interviewed for a local news story by Daniel Grimes on election security: UVA cybersecurity expert: Virginia is one of the safer states to cast a ballot, NBC 29 News, 21 October 2020.</description>
+    </item>
     
     <item>
       <title>Merlin, Morgan, and the Importance of Thresholds and Priors</title>
