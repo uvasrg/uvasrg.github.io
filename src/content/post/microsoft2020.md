@@ -11,7 +11,7 @@ Here are the slides for my talk at the Microsoft Security Data Science Colloquiu
 
 <center>
 <a href="https://www.dropbox.com/s/698cuvee81clx1q/inference-privacy-share.pdf?dl=0">
-<img src="/images/inferenceprivacytitle.png" width=650>
+<img src="/images/inferenceprivacytitle.png" width=65%>
 </a>
 </center>
 
