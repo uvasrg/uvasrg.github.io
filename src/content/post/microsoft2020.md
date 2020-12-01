@@ -7,7 +7,7 @@ categories = ["talks"]
 tags = ["adversarial machine learning", "privacy", "Bargav Jayaraman", "privacy", "privacy-preserving machine learning"]
 +++
 
-Here are the slides for my talk at the Microsoft Security Data Science Colloquium:
+Here are the slides for my talk at the Microsoft Security Data Science Colloquium:  
 [_When Models Learn Too Much: Inference Privacy in Theory and Practice_ [PDF]](https://www.dropbox.com/s/698cuvee81clx1q/inference-privacy-share.pdf?dl=0) 
 
 <center>
