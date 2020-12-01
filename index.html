@@ -392,6 +392,8 @@
         
     
         
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -454,6 +456,49 @@ href="//www.evademl.org/">EvadeML</a>
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/microsoft-security-data-science-colloquium-inference-privacy-in-theory-and-practice/">Microsoft Security Data Science Colloquium: Inference Privacy in Theory and Practice</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2020-12-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">1 December 2020</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy">privacy</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/bargav-jayaraman">Bargav Jayaraman</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy">privacy</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>Here are the slides for my talk at the Microsoft Security Data Science Colloquium: <a href="https://www.dropbox.com/s/698cuvee81clx1q/inference-privacy-share.pdf?dl=0">When Models Learn Too Much: Inference Privacy in Theory and Practice [PDF]</a></p>
+<center>
+<a href="https://www.dropbox.com/s/698cuvee81clx1q/inference-privacy-share.pdf?dl=0">
+<img src="/images/inferenceprivacytitle.png" width=650>
+</a>
+</center>
+<p>The talk is mostly about Bargav Jayaraman&rsquo;s work (with Katherine Knipmeyer, Lingxiao Wang, and Quanquan Gu) on evaluating privacy:</p>
+<ul>
+<li><a href="/merlin-morgan-and-the-importance-of-thresholds-and-priors/"><em>Merlin, Morgan, and the Importance of Thresholds and Priors</em></a></li>
+<li><a href="/evaluating-differentially-private-machine-learning-in-practice/"><em>Evaluating Differentially Private Machine Learning in Practice</em></a></li>
+</ul>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/fact-checking-donald-trumps-tweet-firing-christopher-krebs/">Fact-checking Donald Trump’s tweet firing Christopher Krebs</a></h2>
@@ -737,156 +782,6 @@ other settings.)
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/robustrepresentations/">Adversarially Robust Representations</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2020-08-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">14 August 2020</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/icml">ICML</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/sicheng-zhu">Sicheng Zhu</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/xiao-zhang">Xiao Zhang</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p><em>Post by Sicheng Zhu</em></p>
-<p>With the rapid development of deep learning and the explosive growth
-of unlabeled data, <a href="https://arxiv.org/abs/1206.5538">representation
-learning</a> is becoming increasingly
-important. It has made impressive applications such as pre-trained
-language models (e.g., <a href="https://arxiv.org/abs/1810.04805">BERT</a> and
-<a href="https://github.com/openai/gpt-3">GPT-3</a>).</p>
-<p>Popular as it is, representation learning raises concerns about the
-robustness of learned representations under adversarial settings. For
-example, <em>how can we compare the robustness to different
-representations</em>, and <em>how can we build representations that enable
-robust downstream classifiers</em>?</p>
-<p>In this work, we answer these questions by proposing a notion of
-<em>adversarial robustness for representations</em>. We show what the best
-achievable robustness for a downstream classifier is limited by a
-measurable representation robustness, and provide a training principle
-for learning adversarially robust representations.</p>
-<h1 id="adversarial-robustness-for-representations">Adversarial Robustness for Representations</h1>
-<p>Despite various existing criteria for evaluating a representation
-(e.g., smoothness, sparsity), there is no general way previously known
-to measure a representation’s robustness under adversarial
-perturbations. We propose a notion of adversarial robustness for
-representations based on information-theoretic measures.</p>
-<center>
-<img alt="mutualinformation" src="/images/robustreps/image1.png" style="width: 85%; margin-top: 12px; margin-bottom: 12px;"</img>
-</center>
-<p>Consider a representation that maps an underlying data distribution to
-a representation distribution. In this case, we can measure the
-(standard-case) mutual information between the two distributions. Then
-by perturbing the data distribution within a Wasserstein ball such
-that the mutual information term is minimized, we can measure the
-worst-case mutual information. The representation vulnerability (an
-opposite notion of robustness) is defined as the difference between
-the two terms.</p>
-<p>This notion enjoys several desired properties in representation
-learning scenarios-it is scale-invariant, label-free, and compatible
-with different threat models (including the commonly used
-<em>L<sub>p</sub></em> norm attacks). Most importantly, we show next that it
-has a direct relationship with the performance of downstream tasks.</p>
-<h1 id="connecting-representation-to-downstream-tasks">Connecting Representation to Downstream Tasks</h1>
-<p>If a representation is robust, we show (theoretically in a synthetic
-setting and empirically in general settings) that a properly trained
-downstream classifier will perform consistently in both natural and
-adversarial settings, that is the difference between the natural
-accuracy and the adversarial accuracy will be small.</p>
-<p>If a representation is not robust, we show that no robust downstream
-classifiers can be built using that representation.</p>
-<p>We provide an information-theoretic upper bound for the maximum robust
-accuracy that can be achieved by any downstream classifier, with
-respect to the representation robustness. We empirically evaluate the
-tightness of this bound and find that the vulnerability of internal
-layer representations of many neural networks is at least one
-bottleneck for the model to be more robust.</p>
-<p>For example, the representation defined by the logit layer of Resnet18
-on CIFAR-10 only admits an adversarial accuracy of ~75% for any
-downstream classifiers.</p>
-<center>
-<img alt="miresults" src="/images/robustreps/image2a.png" style="width:60%; margin-top: 12px; margin-bottom: 12px;">
-</center>
-<p>This motivates us to develop a method to learn adversarially robust
-representations.</p>
-<h1 id="a-learning-principle-for-robust-representations">A Learning Principle for Robust Representations</h1>
-<p>Based on the proposed notion, a natural way to learn adversarially
-robust representations is to directly induce the representation
-robustness on common representation learning objectives.</p>
-<p>We consider a popular representation learning objective — <A
-href="https://arxiv.org/abs/1808.06670">mutual information
-maximization</a> — as it has impressive performance in practice
-and many other objectives (e.g., noise contrastive estimation) can be
-viewed as surrogate losses of this objective. By inducing the
-representation robustness and setting a specific coefficient, we
-provide the worst-case mutual information maximization principle for
-learning adversarially robust representations.</p>
-<p>We evaluate the performance of our representation learning principle
-on four image classification benchmarks (MNIST, Fashion-MNIST, SVHN,
-and CIFAR-10), here we report on CIFAR-10 (see the paper for the
-others, where the results are similar).</p>
-<center>
-<img alt="miresults" src="/images/robustreps/image2.png" style="width: 65%; margin-top: 12px; margin-bottom: 12px;">
-</center>
-<p>Note that the representations are learned using only unlabeled data
-and are kept fixed during the training of downstream classifiers.  The
-robust downstream classifier (trained using adversarial training)
-benefits from the robust representation. It has both better natural
-accuracy and better adversarial accuracy. The adversarial accuracy of
-~31% is even comparable to the fully-supervised robust model with the
-same architecture.</p>
-<p>Even the standard classifier based on our robust representation
-inherits a non-trivial adversarial accuracy from the robust
-representation. And more interestingly, they also have better natural
-accuracy compared to the baseline. This phenomenon is consistent with
-some <a href="https://arxiv.org/abs/1909.11764">recent work</a> using
-adversarial training to learn pre-trained models and may indicate the
-better standard generalization of adversarially learned
-representations.</p>
-<h2 id="saliency-maps">Saliency Maps</h2>
-<p>We also visualize the saliency map of our learn representations as
-side evaluation of adversarial robustness, since the relationship
-between the interpretability of saliency maps and the adversarial
-robustness (see <a href="http://proceedings.mlr.press/v97/etmann19a/etmann19a.pdf">Etmann et al.</a>).</p>
-<center>
-<img alt="miresults" src="/images/robustreps/image3.png" style="width: 75%; margin-top: 12px; margin-bottom: 12px;">
-</center>
-<p>The saliency maps of our robust representation (third row) are less
-noisy and more interpretable than its standard counterpart (second
-row).</p>
-<h1 id="conclusions">Conclusions</h1>
-<p>We show that the adversarial robustness for representations is
-correlated with the achievable robustness for downstream tasks, and
-that an associated learning principle can be used to produce more
-robust representations. Our work motivates leaning adversarially
-robust representations as an intermediate step or as a regularization
-to circumvent the insurmountable difficulty of directly learning
-adversarially robust models.</p>
-<p><strong>Paper:</strong> <a href="https://schzhu.github.io/">Sicheng Zhu</a>, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and <a href="https://www.cs.virginia.edu/~evans">David Evans</a>.
-<a href="https://icml.cc/virtual/2020/poster/6604"><em>Learning Adversarially Robust Representations via Worst-Case Mutual Information Maximization</em></a>. In
-<a href="https://icml.cc/virtual/2020">International Conference on Machine Learning </a> (ICML 2020), July 2020.
-[<a href="/docs/robustrepresentations.pdf">PDF</a>] [<a href="/docs/robustrepresentations-supplement.pdf">Supplemental Materials</a>]
-[<a href="https://proceedings.icml.cc/static/paper_files/icml/2020/5124-Paper.pdf">ICML PDF</a>] [<a href="https://arxiv.org/abs/2002.11798">arXiv</a>]</p>
-<p><a href="https://icml.cc/virtual/2020/poster/6604">Video Presentation</a> (from ICML 2020)</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -924,6 +819,12 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    <p class="nogap">
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/microsoft-security-data-science-colloquium-inference-privacy-in-theory-and-practice/">Microsoft Security Data Science Colloquium: Inference Privacy in Theory and Practice</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/fact-checking-donald-trumps-tweet-firing-christopher-krebs/">Fact-checking Donald Trump’s tweet firing Christopher Krebs</a>
@@ -1065,12 +966,6 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    
    <div class="posttitle">
       <a href="/how-ai-could-save-lives-without-spilling-medical-secrets/">How AI could save lives without spilling medical secrets</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/cost-sensitive-adversarial-robustness-at-iclr-2019/">Cost-Sensitive Adversarial Robustness at ICLR 2019</a>
 
 
    </div>
