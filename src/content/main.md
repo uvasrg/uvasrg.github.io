@@ -15,7 +15,8 @@ Our research seeks to empower individuals and organizations to control
 how their data is used.  We use techniques from cryptography,
 programming languages, machine learning, operating systems, and other
 areas to both understand and improve the privacy and security of
-computing as practiced today, and as envisioned in the future. Our main current focus is on <em>adversarial machine learning</em>.
+computing as practiced today, and as envisioned in the future. A major
+current focus is on <em>adversarial machine learning</em>.
 
 </p> 
  <p>
