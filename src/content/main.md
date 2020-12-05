@@ -11,16 +11,17 @@ type = "index"
 <div class="row">
     <div class="column small-25 medium-7">
 
-Our research seeks to empower individuals and organizations to
-control how their data is used.  We use techniques from cryptography,
+Our research seeks to empower individuals and organizations to control
+how their data is used.  We use techniques from cryptography,
 programming languages, machine learning, operating systems, and other
-areas to both understand and improve the security of computing as
-practiced today, and as envisioned in the future.  </p> 
+areas to both understand and improve the privacy and security of
+computing as practiced today, and as envisioned in the future. Our main current focus is on <em>adversarial machine learning</em>.
+
+</p> 
  <p>
 
-Everyone is welcome at our research group meetings and summer
-reading/viewing groups on privacy and adversarial machine learning. To
-get announcements, join our <a
+Everyone is welcome at our research group meetings. To get
+announcements, join our <a
 href="https://uvasrg.slack.com/signup">Slack Group</a> (any
 <em>@virginia.edu</em> email address can join themsleves, or email me
 to request an invitation). </p> </div> <div class="column small-5
