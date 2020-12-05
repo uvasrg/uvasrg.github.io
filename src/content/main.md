@@ -51,15 +51,18 @@ href="https://github.com/gjverrier">Guy&nbsp;"Jack"&nbsp;Verrier</a>
 
   <div class="row">
     <div class="column small-10 medium-5">
-<b>Adversarial Machine Learning</b><br> <a
-href="//www.evademl.org/">EvadeML</a>
+<b>Adversarial Machine Learning</b><br>
+<a href="//www.evademl.org/">EvadeML</a> (Security)<br>
+<a href="/privacy/">Privacy</a>
 
-<b>Secure Multi-Party Computation</b><br> 
-<a href="//www.oblivc.org/">Obliv-C</a> &middot; <a href="//www.mightbeevil.org/">MightBeEvil</a>
-&middot; <a href="//securecomputation.org">SecureComputation.org</a>
     </div>
     <div class="column small-14 medium-7">
 <b><a href="//www.cs.virginia.edu/evans/research.html">Past Projects</a></b><br>
+
+<em>Secure Multi-Party Computation</em>:
+<a href="//www.oblivc.org/">Obliv-C</a> &middot; <a href="//www.mightbeevil.org/">MightBeEvil</a>
+&middot; <a href="//securecomputation.org">SecureComputation.org</a>
+
 <em>Web and Mobile Security</em>: <a href="http://www.scriptinspector.org/">ScriptInspector</a> &middot; 
 <a href="http://www.ssoscan.org/">SSOScan</a><br>
 <em>Program Analysis</em>: <a href="//www.splint.org/">Splint</a> &middot; <a href="//www.cs.virginia.edu/perracotta">Perracotta</a><br>

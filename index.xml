@@ -606,10 +606,9 @@ Jonathan Burket (BACS 2013, CMU PhD program), 2013&amp;nbsp;Honorable Mention Pe
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/privacy/</guid>
-      <description>Privacy Study Group Meetings on Tuesdays, 11am (Summer 2020)
-Leader: Bargav Jayaraman
-DateTopic/Talk 26 May 2020 Cynthia Dwork, Privacy-Preserving Data Analysis (Alan Turing Institute, Turing Lecture, Dec 2016)   2 June 2020  Guy Rothblum, Composition: The Key to Differential Privacy is Success (Institute for Advanced Study, Nov 2016)   9 June 2020  Yuxin Wang, Detecting Violations of Differential Privacy (ACM CCS 2018)
-Benjamin Bichsel, DP-Finder: Finding Differential Privacy Violations by Sampling and Optimization (ACM CCS 2018)</description>
+      <description>Machine Learning Privacy Our research focuses on understanding and mitigating privacy risks associated with machine learning. This includes both data privacy (protecting sensitive data used to train a model during the collection and learning process) and inference privacy (limiting what can be inferred about sensitive training data from an exposed model).
+Evaluating Inference Privacy These two blog posts summarize our recent work on evaluating inference leakage from models:
+  Merlin, Morgan, and the Importance of Thresholds and Priors ([Preprint])</description>
     </item>
     
     <item>
