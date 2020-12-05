@@ -9,7 +9,7 @@ type = "index"
 <p></p>
 
 <div class="row">
-    <div class="column small-25 medium-7">
+<div class="column small-25 medium-7">
 
 Our research seeks to empower individuals and organizations to control
 how their data is used.  We use techniques from cryptography,
@@ -47,26 +47,28 @@ href="//www.cs.virginia.edu/~wx4ed/">Weilin&nbsp;Xu</a>, <a
 href="https://github.com/gjverrier">Guy&nbsp;"Jack"&nbsp;Verrier</a>
 </font> </center> </p> </div> </div>
 
-<div class="mainsection">Projects</div>
+<div class="row">
+<div class="column small-10 medium-5">
+<div class="mainsection">Active Projects</div>
 
-  <div class="row">
-    <div class="column small-10 medium-5">
-<b>Adversarial Machine Learning</b><br>
-<a href="//www.evademl.org/">EvadeML</a> (Security)<br>
-<a href="/privacy/">Privacy</a>
 
-    </div>
-    <div class="column small-14 medium-7">
-<b><a href="//www.cs.virginia.edu/evans/research.html">Past Projects</a></b><br>
+<a href="/privacy/"><b>Privacy for Machine Learning</b></a> <br>
+<a href="//www.evademl.org/"><b>Security for Machine Learning</b> (EvadeML)</a><br>
+<a href="/pointwise-paraphrase-appraisal-is-potentially-problematic/">NLP Robustness</a>
 
-<em>Secure Multi-Party Computation</em>:
-<a href="//www.oblivc.org/">Obliv-C</a> &middot; <a href="//www.mightbeevil.org/">MightBeEvil</a>
-&middot; <a href="//securecomputation.org">SecureComputation.org</a>
+</div>
+<div class="column small-14 medium-7">
+
+<div class="mainsection">Other Projects</div>
+
+<em>
+<a href="//securecomputation.org">Secure Multi-Party Computation</a></em>:
+<a href="//www.oblivc.org/">Obliv-C</a> &middot; <a href="//www.mightbeevil.org/">MightBeEvil</a><br>
 
 <em>Web and Mobile Security</em>: <a href="http://www.scriptinspector.org/">ScriptInspector</a> &middot; 
 <a href="http://www.ssoscan.org/">SSOScan</a><br>
 <em>Program Analysis</em>: <a href="//www.splint.org/">Splint</a> &middot; <a href="//www.cs.virginia.edu/perracotta">Perracotta</a><br>
-<em>Security through Diversity</em>: <a href="//www.cs.virginia.edu/nvariant/">N-Variant Systems</a><br>
+<a href="//www.cs.virginia.edu/nvariant/">N-Variant Systems</a> &middot;
 <a href="//www.cs.virginia.edu/physicrypt/">Physicrypt</a> &middot;
 <a href="//www.cs.virginia.edu/evans/research.html">More...</a>
 </p>

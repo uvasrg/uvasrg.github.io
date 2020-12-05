@@ -10,9 +10,9 @@ inferred about sensitive training data from an exposed model).
 
 These two blog posts summarize our recent work on evaluating inference leakage from models:
 
-- [_Merlin, Morgan, and the Importance of Thresholds and Priors_](https://uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/) ([[Preprint](https://arxiv.org/abs/2005.10881)])
+- [_Merlin, Morgan, and the Importance of Thresholds and Priors_](https://uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/) ([Preprint](https://arxiv.org/abs/2005.10881))
 
-- [_Evaluating Differentially Private Machine Learning in Practice_](https://uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/) ([[Paper (USENIX Security 2019)](https://arxiv.org/abs/1902.08874)])
+- [_Evaluating Differentially Private Machine Learning in Practice_](https://uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/) ([USENIX Security 2019 Paper](https://arxiv.org/abs/1902.08874))
 
 [Code](https://github.com/bargavj/EvaluatingDPML)
 
@@ -24,11 +24,14 @@ model over their data sets without exposing their private data.
 
 ### Projects
 
-[**Integrating Multi-Party Computation with Differential Privacy**](https://oblivc.org/ppml/) [[Code](https://github.com/bargavj/distributedMachineLearning), [Paper (NeurIPS 2018)](https://oblivc.org/docs/neurips2018.pdf) ([Bargav Jayaraman](https://bargavjayaraman.github.io/), Lingxiao Wang, [Quanquan Gu](http://web.cs.ucla.edu/~qgu/research.html))
+[**Integrating Multi-Party Computation with Differential Privacy**](https://oblivc.org/ppml/) ([Code](https://github.com/bargavj/distributedMachineLearning), [NeurIPS 2018 Paper](https://oblivc.org/docs/neurips2018.pdf)  
+[Bargav Jayaraman](https://bargavjayaraman.github.io/), Lingxiao Wang, [Quanquan Gu](http://web.cs.ucla.edu/~qgu/research.html)
 
-**Privacy-preserving Medical Decision Systems** ([Josephine Lamp](https://www.josephinelamp.com/) and [Lu Feng](http://www.cs.virginia.edu/~lufeng/index.html))
+**Privacy-preserving Medical Decision Systems**  
+[Josephine Lamp](https://www.josephinelamp.com/) and [Lu Feng](http://www.cs.virginia.edu/~lufeng/index.html)
 
-**Privacy-Preserving Nonconvex Optimization** [[Preprint](https://arxiv.org/abs/1910.13659)] (Lingxiao Wang, [Bargav Jayaraman](https://bargavjayaraman.github.io/), [Quanquan Gu](http://web.cs.ucla.edu/~qgu/research.html))
+**Privacy-Preserving Nonconvex Optimization** [[Preprint](https://arxiv.org/abs/1910.13659)]  
+Lingxiao Wang, [Bargav Jayaraman](https://bargavjayaraman.github.io/), [Quanquan Gu](http://web.cs.ucla.edu/~qgu/research.html)
 
 # Privacy Study Group
 
