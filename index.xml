@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Algorithmic Accountability and the Law</title>
+      <link>//uvasrg.github.io/algorithmic-accountability-and-the-law/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/algorithmic-accountability-and-the-law/</guid>
+      <description>Brink News (a publication of The Atlantic) published an essay I co-authored with Tom Nachbar (UVA Law School) on how the law views algorithmic accountability and the limits of what measures are permitted under the law to adjust algorithms to counter inequity:
+ Algorithms Are Running Foul of Anti-Discrimination Law
+Tom Nachbar and David Evans
+Brink, 7 December 2020  Computing systems that are found to discriminate on prohibited bases, such as race or sex, are no longer surprising.</description>
+    </item>
     
     <item>
       <title>Microsoft Security Data Science Colloquium: Inference Privacy in Theory and Practice</title>

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>fairness</title>
+      <link>//uvasrg.github.io/tags/fairness/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/fairness/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>adversarial machine learning</title>
@@ -369,15 +378,6 @@
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fairness</title>
-      <link>//uvasrg.github.io/tags/fairness/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/fairness/</guid>
       <description></description>
     </item>
     
