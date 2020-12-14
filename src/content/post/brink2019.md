@@ -7,7 +7,7 @@ categories = ["publications"]
 tags = ["adversarial machine learning", "privacy", "fairness"]
 +++
 
-Brink News (a publication of the _The Atlantic_) published my essay on the risks of deploying AI systems.
+Brink News (a publication of _The Atlantic_) published my essay on the risks of deploying AI systems.
 
 <center>
 <a href="https://www.brinknews.com/ai-systems-are-complex-and-fragile-here-are-four-key-risks-to-understand/"><img style="box-shadow: 10px 10px 5px grey;" src="/images/brink.png" width=90%"></a>
