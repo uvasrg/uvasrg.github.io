@@ -20,6 +20,8 @@ Tom Nachbar and David Evans<br>
 Brink, 7 December 2020
 </center>
 
+<p><br></br></p>
+
 Computing systems that are found to discriminate on prohibited bases, such as race or sex, are no longer surprising. We’ve seen hiring systems that discriminate <a href="https://www.brinknews.com/ethics-codes-are-not-enough-to-curb-the-danger-of-bias-in-ai/">against women</a> image systems that are prone to <a href="https://www.theatlantic.com/family/archive/2020/10/algorithmic-bias-especially-dangerous-teens/616793/">cropping out dark-colored faces</a> and <a href="https://www.theatlantic.com/technology/archive/2016/12/how-algorithms-can-bring-down-minorities-credit-scores/509333/">credit scoring systems that discriminate against minorities</a>.
 
 Anyone considering deploying an algorithm that impacts humans needs to understand the potential for such algorithms to discriminate. But what to do about it is much less clear.
