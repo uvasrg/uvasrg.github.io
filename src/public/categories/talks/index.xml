@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/categories/talks/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Virginia Consumer Data Protection Act</title>
+      <link>//uvasrg.github.io/virginia-consumer-data-protection-act/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/virginia-consumer-data-protection-act/</guid>
+      <description>Josephine Lamp presented on the new data privacy law that is pending in Virginia (it still needs a few steps including expected signing by governor, but likely to go into effect Jan 1, 2023): Slides (PDF)
+This article provides a summary of the law: Virginia Passes Consumer Privacy Law; Other States May Follow, National Law Review, 17 February 2021.
+The law itself is here: SB 1392: Consumer Data Protection Act</description>
+    </item>
     
     <item>
       <title>Microsoft Security Data Science Colloquium: Inference Privacy in Theory and Practice</title>

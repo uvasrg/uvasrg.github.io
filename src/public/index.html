@@ -396,6 +396,10 @@
         
     
         
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -460,6 +464,35 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/virginia-consumer-data-protection-act/">Virginia Consumer Data Protection Act</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2021-02-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">19 February 2021</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy">privacy</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/law">law</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p><a href="https://www.josephinelamp.com/">Josephine Lamp</a> presented on the new data privacy law that is pending in Virginia (it still needs a few steps including expected signing by governor, but likely to go into effect Jan 1, 2023): <a href="https://www.dropbox.com/s/1epulyhc30wd239/cdpa.pdf?dl=0">Slides (PDF)</a></p>
+<p>This article provides a summary of the law: <a href="https://www.natlawreview.com/article/virginia-passes-consumer-privacy-law-other-states-may-follow"><em>Virginia Passes Consumer Privacy Law; Other States May Follow</em></a>, National Law Review, 17 February 2021.</p>
+<p>The law itself is here: <a href="https://lis.virginia.gov/cgi-bin/legp604.exe?211+ful+SB1392">SB 1392: Consumer Data Protection Act</a></p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/algorithmic-accountability-and-the-law/">Algorithmic Accountability and the Law</a></h2>
@@ -737,154 +770,6 @@ security: <a href="https://www.nbc29.com/2020/10/21/virginia-is-one-safer-states
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/merlin-morgan-and-the-importance-of-thresholds-and-priors/">Merlin, Morgan, and the Importance of Thresholds and Priors</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2020-10-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2 October 2020</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy">privacy</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/bargav-jayaraman">Bargav Jayaraman</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/lingxiao-wang">Lingxiao Wang</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/katherine-knipmeyer">Katherine Knipmeyer</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/quanquan-gu">Quanquan Gu</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p><em>Post by Katherine Knipmeyer</em></p>
-<p>Machine learning poses a substantial risk that adversaries will be
-able to discover information that the model does not intend to
-reveal. One set of methods by which consumers can learn this sensitive
-information, known broadly as <em>membership inference</em> attacks,
-predicts whether or not a query record belongs to the training set. A
-basic membership inference attack involves an attacker with a given
-record and black-box access to a model who tries to determine whether
-said record was a member of the model’s training set.</p>
-<p>Unlike much of the existing research on the membership inference,
-though, these particular results focus on what are considered
-“realistic assumptions,” including conditions with skewed
-priors (wherein members only make up a small fraction of the candidate
-pool) and conditions with adversaries that select accuracy-improving
-inference thresholds based on specific attack goals. These new
-assumptions help to answer the question of how differential privacy
-can be implemented to provide meaningful privacy guarantees in
-practice.</p>
-<center><img src="/images/revisiting/image1.png" width="80%"></center>
-<h2 id="threshold-selection">Threshold Selection</h2>
-<p>In order to classify a record as either a member or a non-member,
-there must be a threshold that converts a real number output from a
-test into a Boolean. We develop a procedure to select a threshold,
-φ, that allows the adversary to achieve as much privacy leakage as
-possible while staying beneath a maximum false positive rate, α.</p>
-<p>This selection procedure can be applied to any membership inference
-attack, including Yeom’s attack. The original version of this
-attack classifies a record as a member if its per-instance-loss is
-less than the expected training loss, whereas this new approach
-selects members based on a threshold <em>φ</em>, which can be set
-to target a particular false positive rate.</p>
-<center>
-<img alt="" src="/images/revisiting/image2.png" width="80%">
-</center>
-<h2 id="the-merlin-attack">The Merlin Attack</h2>
-<p>In addition to this new selection procedure, we introduce a new attack
-known as Merlin, which stands for <B>ME</b>asuring <b>R</b>elative <b>L</b>oss <b>I</b>n <b>N</b>eighborhood. Instead of per-instance-loss, this attack uses the
-direction of change of per-instance-loss when the record is slightly
-perturbed with noise. Merlin operates based on the intuition that, as
-a result of overfitting, member records are more likely to be near
-local minima than non-member records. This suggests that for members,
-loss is more likely to increase at perturbed points near the original,
-whereas it is equally likely to increase or decrease for
-non-members. For each record, a small amount of random Gaussian noise
-is added and the change of loss direction is recorded. This process is
-repeated multiple times and Merlin infers membership based on the
-fraction of times the loss increases.</p>
-<center>
-<img alt="" src="/images/revisiting/image3.png" width="80%">
-</center>
-<h2 id="the-morgan-attack">The Morgan Attack</h2>
-<p>Since Yeom and Merlin use different information to make their
-membership inferences, they do not always identify the same records as
-members; some members are more vulnerable to one attack than the
-other. Visualizing a combination of the attacks’ results
-suggests that by eliminating the results with a very low
-per-instance-loss, a combination of the two may produce an improved
-PPV. The intuition here is that extremely low per-instance-losses may
-result in Merlin’s identification of a local minimum where there
-is in fact a near global minimum (which is much less strongly
-correlated with membership).</p>
-<p>The Morgan (<b>M</b>easuring l<b>O</b>ss, <b>R</b>elatively
-<B>G</b>reater <b>A</b>round <b>N</b>eighborhood) attack uses three
-different thresholds: a lower threshold on per-instance loss (<em>φ</em><sub><em>L</em></sub>),
-an upper threshold on per-instance loss (<em>φ</em><sub><em>U</em></sub>),
-and a threshold on the ratio as used by Merlin (<em>φ</em><sub><em>M</em></sub>). If a
-record has a per-instance-loss that falls between <em>φ</em><sub><em>L</em></sub> and <em>φ</em><sub><em>U</em></sub>, and has a Merlin ratio of at least <em>φ</em><sub><em>M</em></sub>, Morgan identifies it as a member.</p>
-<center>
-<img alt="" src="/images/revisiting/image5.jpg" width="50%"><br>
-<div class="caption">
-<p>The figure shows the per-instance loss and Merlin ratio for
-Purchase-100X (and expanded version of the Purchase-100 dataset that
-we created for our experiments). Members and nonmembers are denoted
-by orange and purple points respectively. The boxes show the
-thresholds found by the threshold selection process (without access to
-the training data, but with the same data distribution), and
-illustrate the regions where members are identified by Morgan with
-very high confidence (PPV ∼1). (See <a href="https://arxiv.org/abs/2005.10881">paper</a> for details, and more result.)</p>
-</div>
-</center>
-<h2 id="imbalanced-priors">Imbalanced Priors</h2>
-<p>Previous work on membership inference attacks assumes a candidate pool
-where half of the candidates are members. For most settings,
-especially ones where there is a serious privacy risk for an
-individual of being identified as a dataset member, this assumption is
-unrealistic. It is important to understand how well inference attacks
-work when the adversary&rsquo;s candidate pool has a different prior
-probability of being amember.</p>
-<center>
-<img alt="" src="/images/revisiting/image6.png" width="60%">
-</center>
-<p>Here, the candidate pool from which the attacker attempts to select
-members has <em>γ</em> times more non-member records than member
-records. As shown above, even in situations that other papers do not
-consider, wherein there are many times more non-members than members,
-attacks are able to attain a high rate of positively-identified
-members.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>The Merlin and Morgan attacks can reliably identify members even in
-situations with imbalanced priors where other attacks fail to show
-meaningful inference risk.</p>
-<p>There remains a large gap between what can be guaranteed using
-differential privacy methods, and what can be inferred using known
-inference attacks. This means better inference attacks may exist, and
-our results show that there are concrete ways to improve attacks
-(e.g., our threshold-selection procedure) and to incorporate more
-information to improve attacks. We are especially interested in
-attacks that produce extremely high PPVs, even if this is only for a
-small fraction of candidates, since for most scenarios this is where
-the most serious privacy risks lie.</p>
-<p><strong>Full paper:</strong> Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer,
-Quanquan Gu, David Evans. <a href="https://arxiv.org/abs/2005.10881"><em>Revisiting Membership Inference Under
-Realistic Assumptions</em></a> (<a href="https://arxiv.org/abs/2005.10881">arXiv</a>).</p>
-<p><strong>Code:</strong> <a href="https://github.com/bargavj/EvaluatingDPML"><em>https://github.com/bargavj/EvaluatingDPML</em></a></p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -922,6 +807,12 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    <p class="nogap">
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/virginia-consumer-data-protection-act/">Virginia Consumer Data Protection Act</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/algorithmic-accountability-and-the-law/">Algorithmic Accountability and the Law</a>
@@ -1063,12 +954,6 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    
    <div class="posttitle">
       <a href="/google-federated-privacy-2019-the-dragon-in-the-room/">Google Federated Privacy 2019: The Dragon in the Room</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/graduation-2019/">Graduation 2019</a>
 
 
    </div>
