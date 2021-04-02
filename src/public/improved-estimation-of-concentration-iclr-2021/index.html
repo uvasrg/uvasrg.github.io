@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Improved Estimation of Concentration (ICLR 2021) | Security Research Group</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="//uvasrg.github.io/css/foundation.min.css">
+    <link rel="stylesheet" href="//uvasrg.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="//uvasrg.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//uvasrg.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="//uvasrg.github.io/css/fonts.css">
+    <link rel="stylesheet" href="//uvasrg.github.io/css/finite.css">
+    <link rel="shortcut icon" href="/rotunda.png">  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\[","\]"], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      messageStyle: "none",
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+  </script>
+  
+    
+  </head>
+  <body>
+      
+    <header>
+      <nav class="nav-bar">
+	
+	  <div class="title-bar" data-responsive-toggle="site-menu" data-hide-for="medium">	      
+	    <button class="site-hamburger" type="button" data-toggle>
+	      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+	    </button>
+	    <div class="title-bar-title site-title">
+	      <a href="//uvasrg.github.io/">Security Research Group</a>
+	    </div>
+	    <div class="title-bar-right pull-right">
+	      
+
+
+
+	    </div>
+	  </div>
+	    
+	  
+	    <div class="top-bar" id="site-menu" >	      
+	      <div class="top-bar-title show-for-medium site-title">
+		<a href="//uvasrg.github.io/">Security Research Group</a>
+	      </div>
+	      <div class="top-bar-left">
+		<ul class="menu vertical medium-horizontal">
+		  
+		  
+		</ul>
+	      </div>
+	      <div class="top-bar-right show-for-medium">
+		
+
+
+
+	      </div>
+	    </div>
+	  
+	</nav>
+      
+    </header>
+    
+    <main>
+      
+<div style="margin-top:16px; margin-left: auto; margin-right: auto; max-width: 800px;">
+    <article class="article" itemscope itemtype="http://schema.org/Article">
+      
+      <h1 itemprop="name">Improved Estimation of Concentration (ICLR 2021)</h1>
+      <div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2021-04-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2 April 2021</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/xiao-zhang">Xiao Zhang</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/jack-prescott">Jack Prescott</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/intrinsic-robustness">intrinsic robustness</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/iclr">ICLR</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>Our paper on [<em>Improved Estimation of Concentration Under ℓ<sub>p</sub>-Norm Distance Metrics Using Half Spaces</em>] (Jack Prescott, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and David Evans) will be presented at ICLR 2021.</p>
+<p><b>Abstract:</b> Concentration of measure has been argued to be the
+fundamental cause of adversarial vulnerability. Mahloujifar et
+al. (2019) presented an empirical way to measure the concentration of
+a data distribution using samples, and employed it to find lower
+bounds on intrinsic robustness for several benchmark
+datasets. However, it remains unclear whether these lower bounds are
+tight enough to provide a useful approximation for the intrinsic
+robustness of a dataset. To gain a deeper understanding of the
+concentration of measure phenomenon, we first extend the Gaussian
+Isoperimetric Inequality to non-spherical Gaussian measures and
+arbitrary ℓ<sub>p</sub>-norms (<em>p</em> ≥ 2). We leverage these
+theoretical insights to design a method that uses half-spaces to
+estimate the concentration of any empirical dataset under
+ℓ<sub>p</sub>-norm distance metrics. Our proposed algorithm is more
+efficient than Mahloujifar et al. (2019)&lsquo;s, and experiments on
+synthetic datasets and image benchmarks demonstrate that it is able to
+find much tighter intrinsic robustness bounds. These tighter estimates
+provide further evidence that rules out intrinsic dataset
+concentration as a possible explanation for the adversarial
+vulnerability of state-of-the-art classifiers.</p>
+<p>Here&rsquo;s Jack&rsquo;s video summary of the work:</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VELmIHq09pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Paper: <a href="https://arxiv.org/abs/2103.12913">arXiv</a>, <a href="https://openreview.net/forum?id=BUlyHkzjgmA">Open Review</a><br>
+Code: <a href="https://github.com/jackbprescott/EMC_HalfSpaces"><em>https://github.com/jackbprescott/EMC_HalfSpaces</em></a></p>
+
+      </div>
+
+      <meta itemprop="wordCount" content="216">
+      <meta itemprop="datePublished" content="2021-04-02">
+      <meta itemprop="url" content="//uvasrg.github.io/improved-estimation-of-concentration-iclr-2021/">
+    </article>
+
+    <ul class="pagination" role="navigation" aria-label="Pagination" style="margin-top:32px;">
+      
+      <li class="arrow" aria-disabled="true"><a href="//uvasrg.github.io/virginia-consumer-data-protection-act/">&laquo; <em>Previous<span class="show-for-sr"> page</span></em>: Virginia Consumer Data Protection Act</a></li>
+      
+      
+    </ul>
+</div>
+
+    </main>
+    
+    
+<footer class="whatisthis">
+  <hr />
+  <div class="row">
+    <div class="column small-6 medium-3">
+      <img src="/images/uva_primary_rgb.png">
+      </div>
+    <div class="column small-6 medium-3">
+      <a href="/"><b>Security Research Group</b></a><br>
+      <a href="//www.cs.virginia.edu/">University of Virginia</a><br>
+      <a href="mailto:evans@virginia.edu"><em>evans@virginia.edu</em></a>
+    </div>
+    <div classs="column small-4 medium-2"></div>
+    <div class="column small-6 medium-3">
+      <font size="-1">
+      Subscribe to
+	the <a href="/index.xml"><i class="fa fa-rss-square"></i>&nbsp;RSS feed</a>.
+      <a id="searchsite">
+	<form method="get" action="https://duckduckgo.com/">
+	  <label for="search-field" class="show-for-sr">Search with DuckDuckGo</label>
+	  <input type="search" name="q" maxlength="255" placeholder="Search with DuckDuckGo" id="search-field">
+	  <input type="hidden" name="sites" value="//uvasrg.github.io/"/>
+	  <input type="hidden" name="k7" value="#faf8f8"/>
+	  <input type="hidden" name="kj" value="#b33"/>
+	  <input type="hidden" name="ky" value="#fafafa"/>
+	  <input type="hidden" name="kx" value="b"/>
+	  <input type="hidden" name="ko" value="-1"/>
+	  <input type="hidden" name="k1" value="-1"/>
+	  <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+	</form>
+      </a>
+</font>
+    </div>
+  </div>
+</footer>
+
+
+    
+    <div class="endofpage">
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/what-input.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/finite.js"></script>
+
+    
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+    
+  </body>
+</html>

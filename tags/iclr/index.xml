@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Improved Estimation of Concentration (ICLR 2021)</title>
+      <link>//uvasrg.github.io/improved-estimation-of-concentration-iclr-2021/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/improved-estimation-of-concentration-iclr-2021/</guid>
+      <description>Our paper on [Improved Estimation of Concentration Under ℓp-Norm Distance Metrics Using Half Spaces] (Jack Prescott, Xiao Zhang, and David Evans) will be presented at ICLR 2021.
+Abstract: Concentration of measure has been argued to be the fundamental cause of adversarial vulnerability. Mahloujifar et al. (2019) presented an empirical way to measure the concentration of a data distribution using samples, and employed it to find lower bounds on intrinsic robustness for several benchmark datasets.</description>
+    </item>
     
     <item>
       <title>Cost-Sensitive Adversarial Robustness at ICLR 2019</title>
