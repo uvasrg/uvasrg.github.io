@@ -32,7 +32,9 @@ vulnerability of state-of-the-art classifiers.
 
 Here's Jack's video summary of the work:
 
+<center>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VELmIHq09pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 Paper: [arXiv](https://arxiv.org/abs/2103.12913), [Open Review](https://openreview.net/forum?id=BUlyHkzjgmA)  
 Code: [_https://github.com/jackbprescott/EMC_HalfSpaces_](https://github.com/jackbprescott/EMC_HalfSpaces)
