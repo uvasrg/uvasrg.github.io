@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 29 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/videos/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CrySP Talk: When Models Learn Too Much</title>
+      <link>//uvasrg.github.io/crysp-talk-when-models-learn-too-much/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/crysp-talk-when-models-learn-too-much/</guid>
+      <description>I gave a talko on When Models Learn Too Much at the University of Waterloo (virtually) in the CrySP Speaker Series on Privacy (29 March 2021):
+    Abstract  Statistical machine learning uses training data to produce models that capture patterns in that data. When models are trained on private data, such as medical records or personal emails, there is a risk that those models not only learn the hoped-for patterns, but will also learn and expose sensitive information about their training data.</description>
+    </item>
     
     <item>
       <title>DLS Keynote: Is &#39;adversarial examples&#39; an Adversarial Example?</title>

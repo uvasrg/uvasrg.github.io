@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,45 @@
     <item>
       <title>adversarial machine learning</title>
       <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
-      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>differential privacy</title>
+      <link>//uvasrg.github.io/tags/differential-privacy/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/differential-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>//uvasrg.github.io/tags/privacy/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy-preserving machine learning</title>
+      <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>videos</title>
+      <link>//uvasrg.github.io/tags/videos/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/videos/</guid>
       <description></description>
     </item>
     
@@ -67,15 +103,6 @@
     </item>
     
     <item>
-      <title>privacy</title>
-      <link>//uvasrg.github.io/tags/privacy/</link>
-      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>fairness</title>
       <link>//uvasrg.github.io/tags/fairness/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
@@ -90,15 +117,6 @@
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/bargav-jayaraman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy-preserving machine learning</title>
-      <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
       <description></description>
     </item>
     
@@ -378,15 +396,6 @@
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/uncountability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>differential privacy</title>
-      <link>//uvasrg.github.io/tags/differential-privacy/</link>
-      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/differential-privacy/</guid>
       <description></description>
     </item>
     
@@ -684,15 +693,6 @@
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/posters/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>videos</title>
-      <link>//uvasrg.github.io/tags/videos/</link>
-      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/videos/</guid>
       <description></description>
     </item>
     
