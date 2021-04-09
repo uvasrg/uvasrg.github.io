@@ -7,7 +7,7 @@ categories = ["publications"]
 tags = ["adversarial machine learning", "Jack Prescott", "Xiao Zhang", "intrinsic robustness", "ICLR"]
 +++
 
-Our paper on [_Improved Estimation of Concentration Under &#8467;<sub>p</sub>-Norm Distance Metrics Using Half Spaces_] (Jack Prescott, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and David Evans) will be presented at ICLR 2021.
+Our paper on [_Improved Estimation of Concentration Under &#8467;<sub>p</sub>-Norm Distance Metrics Using Half Spaces_](https://openreview.net/forum?id=BUlyHkzjgmA) (Jack Prescott, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and David Evans) will be presented at ICLR 2021.
 
 <b>Abstract:</b> Concentration of measure has been argued to be the
 fundamental cause of adversarial vulnerability. Mahloujifar et
