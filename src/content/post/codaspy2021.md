@@ -9,9 +9,11 @@ tags = ["adversarial machine learning", "privacy", "Bargav Jayaraman", "Anshuman
 
 Here are the slides for my talk at the
 [11th ACM Conference on Data and Application Security and Privacy](http://www.codaspy.org/2021/program.html):
-<center>
-[**When Models Learn Too Much** [PDF]](https://www.dropbox.com/s/6wzloxuai709s0k/codaspy-post.pdf?dl=0)
-</center>
+   <center>
+<a href="https://www.dropbox.com/s/6wzloxuai709s0k/codaspy-post.pdf?dl=0)"><b>When Models Learn Too Much</b> [PDF]</a>
+   </center>
+
+##
 
 The talk includes Bargav Jayaraman's work (with Katherine Knipmeyer, Lingxiao Wang, and Quanquan Gu) on evaluating privacy in machine learning (as well as more recent work by Anshuman Suri on property inference attacks, and Bargav on attribute inference and imputation): 
 
