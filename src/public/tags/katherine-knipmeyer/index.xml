@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/katherine-knipmeyer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Codaspy 2021 Keynote: When Models Learn Too Much</title>
+      <link>//uvasrg.github.io/codaspy-2021-keynote-when-models-learn-too-much/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/codaspy-2021-keynote-when-models-learn-too-much/</guid>
+      <description>Here are the slides for my talk at the 11th ACM Conference on Data and Application Security and Privacy: When Models Learn Too Much [PDF]
+The talk includes Bargav Jayaraman&amp;rsquo;s work (with Katherine Knipmeyer, Lingxiao Wang, and Quanquan Gu) on evaluating privacy in machine learning (as well as more recent work by Anshuman Suri on property inference attacks, and Bargav on attribute inference and imputation):
+ Merlin, Morgan, and the Importance of Thresholds and Priors Evaluating Differentially Private Machine Learning in Practice  </description>
+    </item>
     
     <item>
       <title>Merlin, Morgan, and the Importance of Thresholds and Priors</title>

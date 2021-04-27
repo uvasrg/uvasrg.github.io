@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,63 @@
     <item>
       <title>adversarial machine learning</title>
       <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
-      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anshuman Suri</title>
+      <link>//uvasrg.github.io/tags/anshuman-suri/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/anshuman-suri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bargav Jayaraman</title>
+      <link>//uvasrg.github.io/tags/bargav-jayaraman/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/bargav-jayaraman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inference privacy</title>
+      <link>//uvasrg.github.io/tags/inference-privacy/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/inference-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Katherine Knipmeyer</title>
+      <link>//uvasrg.github.io/tags/katherine-knipmeyer/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/katherine-knipmeyer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>//uvasrg.github.io/tags/privacy/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy-preserving machine learning</title>
+      <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
       <description></description>
     </item>
     
@@ -27,24 +81,6 @@
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/differential-privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>//uvasrg.github.io/tags/privacy/</link>
-      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy-preserving machine learning</title>
-      <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
-      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
       <description></description>
     </item>
     
@@ -112,29 +148,11 @@
     </item>
     
     <item>
-      <title>Bargav Jayaraman</title>
-      <link>//uvasrg.github.io/tags/bargav-jayaraman/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/bargav-jayaraman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>voting</title>
       <link>//uvasrg.github.io/tags/voting/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/voting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Katherine Knipmeyer</title>
-      <link>//uvasrg.github.io/tags/katherine-knipmeyer/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/katherine-knipmeyer/</guid>
       <description></description>
     </item>
     
@@ -342,15 +360,6 @@
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/outreach/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anshuman Suri</title>
-      <link>//uvasrg.github.io/tags/anshuman-suri/</link>
-      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/anshuman-suri/</guid>
       <description></description>
     </item>
     
