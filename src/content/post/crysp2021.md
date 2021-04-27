@@ -7,7 +7,7 @@ categories = ["talks"]
 tags = ["adversarial machine learning", "privacy-preserving machine learning", "differential privacy", "videos"]
 +++
 
-I gave a talko on [_When Models Learn Too Much_](https://crysp.uwaterloo.ca/speakers/20210329-Evans) at the University of Waterloo (virtually) in the CrySP
+I gave a talk on [_When Models Learn Too Much_](https://crysp.uwaterloo.ca/speakers/20210329-Evans) at the University of Waterloo (virtually) in the CrySP
 Speaker Series on Privacy (29 March 2021):
 
 <center>
