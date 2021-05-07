@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yulong Tian on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/yulong-tian/</link>
+    <description>Recent content in Yulong Tian on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//uvasrg.github.io/tags/yulong-tian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>//uvasrg.github.io/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/</guid>
+      <description>The Register has an article on our recent work on Stealthy Backdoors as Compression Artifacts: Thomas Claburn, How to hide a backdoor in AI software — Neural networks can be aimed to misbehave when squeezed, The Register, 5 May 2021.</description>
+    </item>
+    
+  </channel>
+</rss>

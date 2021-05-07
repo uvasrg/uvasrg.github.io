@@ -3,7 +3,7 @@ date = "03 Apr 2019"
 draft = false
 title = "A Plan to Eradicate Stalkerware"
 author = "David Evans"
-categories = ["news"]
+categories = ["press"]
 tags = ["alumni", "Sam Havron"]
 +++
 

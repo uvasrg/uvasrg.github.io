@@ -3,7 +3,7 @@ date = "08 Oct 2019"
 draft = false
 title = "Research Symposium Posters"
 author = "David Evans"
-categories = ["research"]
+categories = ["conferences"]
 tags = ["research","adversarial machine learning", "privacy", "Mainuddin Jonas", "Xiao Zhang", "Bargav Jayaraman", "Hannah Chen", "Fnu Suya", "Anshuman Suri"]
 +++
 
