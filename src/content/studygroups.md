@@ -1,6 +1,10 @@
 # Active Study Groups
 
+Study groups for summer 2021 to be determined.
+
 Groups meet on zoom, and everyone is welcome.
+
+# Previous Study Groups and Seminars
 
 [**Adversarial Machine Learning**](/advml)  
 Meetings: **Mondays, 11am** (Summer 2020)  
@@ -11,8 +15,6 @@ Leaders: <a href="https://hannahxchen.github.io/">Hannah Chen</a>, <a href="http
 Meetings: **Tuesdays, 11am** (Summer 2020)  
 Leader: <a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a>  
 [Schedule and Topics](/privacy)
-
-# Previous Study Groups and Seminars
 
 [**How will Artificial Intelligence Change Humanity?**](https://aipavilion.github.io/) (Fall 2018)  
 Pavillion Seminar
