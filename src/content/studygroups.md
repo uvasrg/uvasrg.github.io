@@ -1,8 +1,10 @@
 # Active Study Groups
 
-Study groups for summer 2021 to be determined.
-
 Groups meet on zoom, and everyone is welcome.
+
+Summer 2021 we will have meetings most Fridays at 9:30am
+(Charlottesville time), and be discussing a variety of security and
+privacy and related research papers.
 
 # Previous Study Groups and Seminars
 
