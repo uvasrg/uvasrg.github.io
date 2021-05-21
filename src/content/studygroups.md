@@ -6,13 +6,11 @@ Groups meet on zoom, and everyone is welcome.
 
 # Previous Study Groups and Seminars
 
-[**Adversarial Machine Learning**](/advml)  
-Meetings: **Mondays, 11am** (Summer 2020)  
+[**Adversarial Machine Learning**](/advml) (Summer 2020)  
 Leaders: <a href="https://hannahxchen.github.io/">Hannah Chen</a>, <a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman Suri</a>  
 [Schedule and Topics](/advml)
 
-[**Privacy**](/privacy)  
-Meetings: **Tuesdays, 11am** (Summer 2020)  
+[**Privacy**](/privacy) (Summer 2020)
 Leader: <a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a>  
 [Schedule and Topics](/privacy)
 
