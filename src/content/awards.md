@@ -82,6 +82,11 @@ This award from the Department of Computer Science recognizes outstanding resear
 
 <a href="https://www.cs.virginia.edu/~sza4uq/"><b>Samee Zahur</b></a>, 2015
 
+
+### Louis T. Rader Undergraduate Research Award
+
+<a href="https://engineering.virginia.edu/2021-cs-louis-t-rader-undergraduate-research-award-winner-jack-prescott"><b>Jack Prescott</b></a>, 2021
+
 ### University of Virginia Engineering Research Symposium (UVERS)
 
 <B>Yan Huang</b>, Honorable Mention, 2011  
