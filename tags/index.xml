@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mike Rosulek</title>
+      <link>//uvasrg.github.io/tags/mike-rosulek/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/mike-rosulek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>secure computation</title>
+      <link>//uvasrg.github.io/tags/secure-computation/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/secure-computation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vladimir Kolesnikov</title>
+      <link>//uvasrg.github.io/tags/vladimir-kolesnikov/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/vladimir-kolesnikov/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>adversarial machine learning</title>
@@ -531,33 +558,6 @@
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/economics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mike Rosulek</title>
-      <link>//uvasrg.github.io/tags/mike-rosulek/</link>
-      <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/mike-rosulek/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>secure computation</title>
-      <link>//uvasrg.github.io/tags/secure-computation/</link>
-      <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/secure-computation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vladimir Kolesnikov</title>
-      <link>//uvasrg.github.io/tags/vladimir-kolesnikov/</link>
-      <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/vladimir-kolesnikov/</guid>
       <description></description>
     </item>
     

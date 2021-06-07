@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//uvasrg.github.io/categories/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/chinese-translation-of-mpc-book/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/mike-rosulek/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/categories/publications/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/secure-computation/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/vladimir-kolesnikov/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url>
@@ -14,11 +59,6 @@
   
   <url>
     <loc>//uvasrg.github.io/tags/bargav-jayaraman/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/categories/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,27 +78,12 @@
   </url>
   
   <url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//uvasrg.github.io/tags/privacy/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -129,11 +154,6 @@
   
   <url>
     <loc>//uvasrg.github.io/tags/jack-prescott/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/categories/publications/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -584,21 +604,6 @@
   
   <url>
     <loc>//uvasrg.github.io/a-pragmatic-introduction-to-secure-multi-party-computation/</loc>
-    <lastmod>2018-12-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/mike-rosulek/</loc>
-    <lastmod>2018-12-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/secure-computation/</loc>
-    <lastmod>2018-12-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/vladimir-kolesnikov/</loc>
     <lastmod>2018-12-19T00:00:00+00:00</lastmod>
   </url>
   

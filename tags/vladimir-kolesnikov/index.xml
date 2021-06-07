@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 19 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/vladimir-kolesnikov/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chinese Translation of MPC Book</title>
+      <link>//uvasrg.github.io/chinese-translation-of-mpc-book/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/chinese-translation-of-mpc-book/</guid>
+      <description>A Chinese translation of our A Pragmatic Introduction to Secure Multi-Party Computation book (by David Evans, Vladimir Kolesnikov, and Mike Rosulek) is now available!
+   Thanks to Weiran Liu and Sengchao Ding for all the work they did on the translation.
+To order from JD.com: https://item.jd.com/13302742.html
+(The English version of the book is still available for free download, from https://securecomputation.org.)</description>
+    </item>
     
     <item>
       <title>A Pragmatic Introduction to Secure Multi-Party Computation</title>
