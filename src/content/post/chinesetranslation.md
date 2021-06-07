@@ -8,7 +8,7 @@ tags = ["secure computation", "Vladimir Kolesnikov", "Mike Rosulek"]
 +++
 
 <a href="https://item.jd.com/13302742.html">
-<img src="https://securecomputation.org/images/chinese-cover.png" width=25% align="right"></a>
+<img src="https://securecomputation.org/images/chinese-cover.png" width=25% align="right" style="margin-bottom: 10px; margin-left: 10px;"></a>
 
 A Chinese translation of our [_A Pragmatic Introduction to Secure
 Multi-Party Computation_](//securecomputation.org) book (by David
