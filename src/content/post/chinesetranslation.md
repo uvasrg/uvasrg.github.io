@@ -7,14 +7,12 @@ categories = ["publications"]
 tags = ["secure computation", "Vladimir Kolesnikov", "Mike Rosulek"]
 +++
 
+<a href="https://item.jd.com/13302742.html">
+<img src="https://securecomputation.org/images/chinese-cover.png" width=25% align="right"></a>
+
 A Chinese translation of our [_A Pragmatic Introduction to Secure
 Multi-Party Computation_](//securecomputation.org) book (by David
 Evans, Vladimir Kolesnikov, and Mike Rosulek) is now available!
-
-<center>
-<a href="https://item.jd.com/13302742.html">
-<img src="https://securecomputation.org/images/chinese-cover.png" width=45% align="right"></a>
-</center>
 
 Thanks to Weiran Liu and Sengchao Ding for all the work they
 did on the translation.
