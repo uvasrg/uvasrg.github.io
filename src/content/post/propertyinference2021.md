@@ -14,15 +14,20 @@ Inference attacks seek to infer sensitive information about the training process
 
 We illustrate the kind of risks introduced by property inference via an example:
 
-WEP Inc., a (imaginary) hospital, trains and releases a machine learning regression model $M$ to predict the expenditure for a patient’s visit based on their attributes. However, the company ($\mathcal{A}$) that sells blood-pressure medication to this hospital sees an opportunity in this model: they seek to infer whether the probability of a patient in the hospital has high blood pressure is below 0.5 ($\mathcal{D}_0$) or not ($\mathcal{D}_1$). Suppose they can use this infered information to increase the cost of their medication based on known the hospital’s need. 
+Skynet, an (imaginary) organization that handles private data, releases a machine learning model $M$ trained on their network flow graphs to predict faulty nodes in a network of servers. However, an adversary ($\mathcal{A}$) that wishes to launch a bot-net into this cluster of servers sees an opportunity in this model. They seek to infer whether the effective diameter ($90^{th}$ percentile of all pair-wise shortest paths) of the network is below 6 ($\mathcal{D}_0$) or not ($\mathcal{D}_1$). Suppose the adversary could infer this from the model $M$. In that case, it could use this information to craft a bot-net such that it goes undetected by Skynet's bot-detection software.
 
 <center>
 {{< figure src="/images/propertyinference2021/example.svg">}}
 </center>
+<div class="caption">
+Inferring the effective diameter of the underlying network may or may not actually help the adversary design its bot-net. We simply pick this property as an example based on useful properties cited in the <a href="http://www.eecs.harvard.edu/~michaelm/postscripts/GI2009.pdf">literature</a>. We wish to convey that a malicious party can infer properties of the underlying data distribution that it is not supposed to. Such information can then further be used to help with other attacks or infer private information.
+</div>
+
+<br>
 
 ## Formalizing Property Inference
 
-To formalize property inference attacks we adapt the cryptographic game for membership inference proposed by Yeom et al. ([Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8429311)):
+To formalize property inference attacks, we adapt the cryptographic game for membership inference proposed by Yeom et al. ([Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8429311)):
 
 <center>
 {{< figure src="/images/propertyinference2021/yeom.svg" >}}
