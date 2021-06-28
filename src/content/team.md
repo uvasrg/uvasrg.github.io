@@ -13,16 +13,17 @@
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/anshuman.png"><br><b><a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman Suri</a></b><br>Since Fall 2019<br>robust machine learning<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/suya.png"><br><b><a href="https://fsuya.org/">Fnu Suya</a></b><br>Co-advised with Yuan Tian<br>Since Fall 2017<br>robust machine learning<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/xiaozhang.png"><br><b><a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a></b><br>Since Summer 2018<br>robust machine learning<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/xiaozhang.png"><br><b><a href="https://xiao-zhang.net/">Xiao Zhang</a></b><br>Since Summer 2018<br>robust machine learning<br>   </div>
 </div>
 </center>
 
 
-# <center>Pre-Doctoral Visitor</center>
+# <center>Pre-Doctoral Visitors</center>
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yulong Tian</b><br>Pre-Doctoral Visitor<br>Since Fall 2020<br>hiding machine learning backdoors<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yiran Yao</b><br>Pre-Doctoral Visitor<br>Since Summer 2021<br>adversarial training<br>   </div>
 </div>
 </center>
 
@@ -32,30 +33,28 @@
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/ananda.png"><br><b><a href="https://www.linkedin.com/in/pragun-ananda/">Pragun Ananda</a></b><br>Undergraduate Researcher<br>Since Summer 2020<br>natural language processing<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/buerk.png"><br><b>Emily Buerk</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/figgins.png"><br><b><a href="https://www.linkedin.com/in/nicholas-figgins/">Nick Figgins</a></b><br>Undergraduate Researcher<br>Since Summer 2020<br>adversarial machine learning for malware classification<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/knipmeyer.png"><br><b>Katherine Knipmeyer</b><br>Undergraduate Researcher<br>Since Summer 2020<br>evaluating privacy for machine learning<br>   </div>
 </div>
 </center>
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Justin Chen</b><br>Undergraduate Researcher<br>Since Summer 2021<br>inference privacy<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Isabelle Fang</b><br>Undergraduate Researcher<br>Since Fall 2020<br>natural language processing<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Jack Prescott</b><br>Undergraduate Researcher<br>Since Fall 2019<br>robust machine learning<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Brian Tran</b><br>Undergraduate Researcher<br>Since Summer 2020<br>black-box attacks machine learning systems<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Sean Miller</b><br>Undergraduate Researcher<br>Since Summer 2021<br>poisoning attacks<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Evan Rose</b><br>Undergraduate Researcher<br>Since Summer 2021<br>poisoning attacks<br>   </div>
 </div>
 </center>
 
 
-# <center>Visiting High School Students</center>
+# <center>Visiting High School Student</center>
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>William Buerk</b><br>Visiting High School Student<br>Since Fall 2020<br>black-box attacks machine learning systems<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Anika Karpurapu</b><br>Visiting High School Student<br>Since Fall 2020<br>evaluating privacy for machine learning<br>   </div>
 </div>
 </center>
@@ -310,6 +309,16 @@
 # 
 
    <div class="hanging">
+<b>Emily Buerk</b><br>Undergraduate Researcher, Summer 2020 &ndash; Fall 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>William Buerk</b><br>Visiting High School Student, Since Fall 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b><a href="https://github.com/jburket">Jonathan Burket</a></b><br>Undergraduate Researcher, 2010 &ndash; 2013<br>BACS 2013<br>CRA Outstanding Undergraduate Honorable Mentionee 2013<br> CMU MS 2015<br> Apogee Research<br> DuoLingo<br>   </div>
 
 # 
@@ -525,6 +534,11 @@
 # 
 
    <div class="hanging">
+<b>Jack Prescott</b><br>Undergraduate Researcher, Fall 2019 &ndash; Spring 2021<br>BACS 2021 (Highest Distinction)<br><div class="hanging">robust machine learning<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b>Parvesh Samayamanthula</b><br>Visiting High School Student, Summer 2018<br><div class="hanging">adversarial NLP for privacy policies<br></div>   </div>
 
 # 
@@ -556,6 +570,11 @@
 
    <div class="hanging">
 <b>Kelvin Sparks</b><br>Undergraduate Researcher, Fall 2017 &ndash; 2018<br>BSCS 2018<br><div class="hanging">cryptocurrency governance<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Brian Tran</b><br>Undergraduate Researcher, Summer 2020 &ndash; Fall 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
 
 # 
 
@@ -601,6 +620,11 @@
 
    <div class="hanging">
 <b>Muzzammil Zaveri</b><br>Undergraduate Researcher, Summer 2010 &ndash; Spring 2011<br>BSCS 2011<br><div class="hanging">a secure web application framework<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b><a href="https://www.linkedin.com/in/nicholas-figgins/">Nick Figgins</a></b><br>Undergraduate Researcher, Summer 2020 &ndash; Spring 2021<br><div class="hanging">adversarial machine learning for malware classification<br></div>   </div>
 
 # 
 
