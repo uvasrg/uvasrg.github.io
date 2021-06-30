@@ -119,7 +119,7 @@ allowing our attack to satisfy any number of objectives.
 href="https://arxiv.org/abs/2006.16469">Model-Targeted Poisoning
 Attacks with Provable Convergence.</a> In [_Thirty-eighth
 International Conference on Machine
-Learning_](https://icml.cc/Conferences/2021) (ICML), July 2021.
+Learning_](https://icml.cc/Conferences/2021) (ICML), July 2021. [[arXiv](https://arxiv.org/abs/2006.16469)] [[PDF](https://arxiv.org/pdf/2006.16469)]
 
 ## Code
 
