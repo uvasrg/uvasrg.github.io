@@ -416,6 +416,14 @@
         
     
         
+    
+        
+    
+        
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -480,6 +488,136 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/model-targeted-poisoning-attacks-with-provable-convergence/">Model-Targeted Poisoning Attacks with Provable Convergence</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2021-06-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">29 June 2021</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/model-targeted-poisoning-attacks">model-targeted poisoning attacks</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/saeed-mahloujifar">Saeed Mahloujifar</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/david-evans">David Evans</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/yuan-tian">Yuan Tian</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/icml-2021">ICML 2021</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>(Post by Sean Miller, using images adapted from Suya&rsquo;s talk slides)</p>
+<h2 id="data-poisoning-attacks">Data Poisoning Attacks</h2>
+<p>Machine learning models are often trained using data from untrusted
+sources, leaving them open to poisoning attacks where adversaries use
+their control over a small fraction of that training data to poison
+the model in a particular way.</p>
+<p>Most work on poisoning attacks is directly driven by an attacker&rsquo;s
+objective, where the adversary chooses poisoning points that maximize
+some target objective. Our work focuses on <em>model-targeted</em> poisoning
+attacks, where the adversary splits the attack into choosing a target
+model that satisfies the objective and then choosing poisoning points
+that induce the target model.</p>
+<center>
+<a href="/images/model-targeted-poisoning/difference-between-model-types.png"><img src="/images/model-targeted-poisoning/difference-between-model-types.png" width="80%" align="center"></a>
+</center><br/>
+<p>The advantage of the model-targeted approach is that while
+objective-driven attacks must be designed for a specific objective and
+tend to result in difficult optimization problems for complex
+objectives, model-targeted attacks only depend on the target
+model. That model can be selected to incorporate any attacker
+objective, allowing the same attack to be easily applied to many
+different objectives.</p>
+<h2 id="the-attack">The Attack</h2>
+<p>Our attack requires the desired target model and the clean training
+data. We sequentially train a model on the mixture of the clean
+training points and the poisoning points found so far (which at the
+start is none) in order to generate an intermediate model. We then
+find a point that maximizes the loss difference between the
+intermediate model and the target model, and then add that point to
+the poisoning data for the next iteration.  The process repeats until
+some stopping condition is met (such as the maximum loss difference
+between the intermediate and target models being smaller than a
+threshold value).</p>
+<center>
+<a href="/images/model-targeted-poisoning/attack-diagram.png"><img src="/images/model-targeted-poisoning/attack-diagram.png" width="80%" align="center"></a>
+</center><br/>
+<p>We prove two important features of our attack:</p>
+<ol>
+<li>
+<p>If our loss function is Lipschitz continuous and strongly convex, the induced model converges to the target model. <em>This is the first model-targeted attack with provable convergence</em>.</p>
+</li>
+<li>
+<p>For any loss function, we can empirically find a lower bound on the
+number of poisoning points required to produce the target
+classifier. This allows us to check the optimality of any
+model-targeted attack.</p>
+</li>
+</ol>
+<h2 id="experimental-results">Experimental Results</h2>
+<p>To test our attack, we use subpopulation and indiscriminate attack scenarios on SVM and linear regression models for the Adult, MNIST 1-7, and Dogfish datasets. We compare our attack to the state-of-the-art model targeted KKT attack from Pang Wei Koh, Jacob Steinhardt, and Percy Liang, <a href="https://arxiv.org/abs/1811.00741"><em>Stronger data poisoning attacks break data sanitation defenses</em></a>, 2018.</p>
+<p>Our attack steadily reduces the Euclidean distance to the target
+model, indicating convergence, while the KKT attack does not reliably
+converge to the target even as more poisoning points are used:</p>
+<center>
+<a href="/images/model-targeted-poisoning/attack-convergence.png"><img src="/images/model-targeted-poisoning/attack-convergence.png" width="50%" align="center"></a>
+</center><br/>
+<p>Next, we compare our attack to the KKT attack based on attack
+success. For the subpopulation attack on the left, where the attacker
+aims to reduce model accuracy only on a subpopulation of the data, our
+attack is significantly more successful in increasing error on the
+subpopulation than the KKT attack for the same number of poisoning
+points. In the indiscriminate setting (right side of figure), where
+the attacker aims to reduce overall model accuracy, our attack is
+comparable to the KKT attack.</p>
+<center>
+<a href="/images/model-targeted-poisoning/success-comparison.png"><img src="/images/model-targeted-poisoning/success-comparison.png" width="90%" align="center"></a>
+</center>
+<p>Finally, we also compare our computed number of poisoning points to
+the theoretical lower bound on points to see the optimality of our
+attack. For the Adult dataset on the left, the gap between the lower
+bound and the number of points used is small, so our attack is close
+to optimal. However, for the other two datasets on the right, there
+still is a gap between the lower bound and the number actually used,
+indicating that the attack might not be optimal.</p>
+<center>
+<a href="/images/model-targeted-poisoning/optimality.png"><img src="/images/model-targeted-poisoning/optimality.png" width="90%" align="center"></a>
+</center>
+<h2 id="summary">Summary</h2>
+<p>We propose a model-targeted poisoning attack that is proven to
+converge theoretically and empirically, along with a lower bound on
+the number of poisoning points needed. Since our attack is
+model-targeted, we can select a target model that can achieve any goal
+of an adversary and then induce that model through poisoning attacks,
+allowing our attack to satisfy any number of objectives.</p>
+<h2 id="full-paper">Full Paper</h2>
+<p><a href="https://fsuya.org/">Fnu Suya</a>, <a href="https://smahloujifar.github.io/">Saeed Mahloujifar</a>, <a href="https://www.anshumansuri.me/">Anshuman Suri</a>, <a href="https://www.cs.virginia.edu/evans/">David Evans</a>, <a href="https://www.ytian.info/">Yuan Tian</a>. <a
+href="https://arxiv.org/abs/2006.16469">Model-Targeted Poisoning
+Attacks with Provable Convergence.</a> In <a href="https://icml.cc/Conferences/2021"><em>Thirty-eighth
+International Conference on Machine
+Learning</em></a> (ICML), July 2021. [<a href="https://arxiv.org/abs/2006.16469">arXiv</a>] [<a href="https://arxiv.org/pdf/2006.16469">PDF</a>]</p>
+<h2 id="code">Code</h2>
+<p><a href="https://github.com/suyeecav/model-targeted-poisoning">https://github.com/suyeecav/model-targeted-poisoning</a></p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/chinese-translation-of-mpc-book/">Chinese Translation of MPC Book</a></h2>
@@ -646,65 +784,6 @@ Thomas Claburn, <a href="https://www.theregister.com/AMP/2021/05/05/ai_backdoors
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/crysp-talk-when-models-learn-too-much/">CrySP Talk: When Models Learn Too Much</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2021-04-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">5 April 2021</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/differential-privacy">differential privacy</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/videos">videos</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>I gave a talk on <a href="https://crysp.uwaterloo.ca/speakers/20210329-Evans"><em>When Models Learn Too Much</em></a> at the University of Waterloo (virtually) in the CrySP
-Speaker Series on Privacy (29 March 2021):</p>
-<center>
-<iframe width="900" height="315" src="https://www.youtube-nocookie.com/embed/LM_-N76_KIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-<center>
-<b>Abstract</b>
-</center>
-<p>Statistical machine learning uses training data to produce models that
-capture patterns in that data. When models are trained on private
-data, such as medical records or personal emails, there is a risk that
-those models not only learn the hoped-for patterns, but will also
-learn and expose sensitive information about their training
-data. Several different types of inference attacks on machine learning
-models have been found, and methods have been proposed to mitigate the
-risks of exposing sensitive aspects of training data. Differential
-privacy provides formal guarantees bounding certain types of inference
-risk, but, at least with state-of-the-art methods, providing
-substantive differential privacy guarantees requires adding so much
-noise to the training process for complex models that the resulting
-models are useless. Experimental evidence, however, suggests that
-inference attacks have limited power, and in many cases a very small
-amount of privacy noise seems to be enough to defuse inference
-attacks. In this talk, I will give an overview of a variety of
-different inference risks for machine learning models, talk about
-strategies for evaluating model inference risks, and report on some
-experiments by our research group to better understand the power of
-inference attacks in more realistic settings, and explore some broader
-the connections between privacy, fairness, and adversarial robustness.</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -740,6 +819,12 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
   <p>
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/model-targeted-poisoning-attacks-with-provable-convergence/">Model-Targeted Poisoning Attacks with Provable Convergence</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/chinese-translation-of-mpc-book/">Chinese Translation of MPC Book</a>
@@ -881,12 +966,6 @@ Director: <a href="//www.cs.virginia.edu/evans">David Evans</a>
    
    <div class="posttitle">
       <a href="/research-symposium-posters/">Research Symposium Posters</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/cantors-no-longer-lost-proof/">Cantor&#39;s (No Longer) Lost Proof</a>
 
 
    </div>
