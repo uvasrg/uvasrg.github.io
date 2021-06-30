@@ -40,7 +40,7 @@ percentile of all pair-wise shortest paths) of the network is below 6
 ($\mathcal{D}_0$) or not ($\mathcal{D}_1$). 
 
 <center>
-{{< figure src="/images/propertyinference2021/example.svg">}}
+{{< figure src="/images/propertyinference2021/example.png">}}
 </center>
 <div class="caption">
 <b>Illustration of a property inference attack.</b> The adversary infers the effective diameter of the underlying network from the model trained to predict an unrelated property.
@@ -64,7 +64,7 @@ valuable to the adversary.
 To formalize property inference attacks, we adapt the cryptographic game for membership inference proposed by Yeom et al. ([_Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting_](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8429311), CSF 2018):
 
 <center>
-{{< figure src="/images/propertyinference2021/yeom.svg" >}}
+{{< figure src="/images/propertyinference2021/yeom.png" >}}
 </center>
 
 In this game, the victim samples a dataset S from the distribution $\mathcal{D}$ and trains a model $M$ on it. It then samples some data-point $z$ from either $S$ or $\mathcal{D}$, based on $b \xleftarrow{R}${0,1}. The adversary then tries to infer $b$ using algorithm $H$, given access to ($z$, $\mathcal{D}$, $M$). This cryptographic game captures the intuitive notion of membership inference. It focuses on a particular dataset and sample: inferring whether a given data point was part of training data.
@@ -72,7 +72,7 @@ In this game, the victim samples a dataset S from the distribution $\mathcal{D}$
 In contrast, property inference focuses on properties of the underlying distribution ($\mathcal{D}$), not the dataset ($S$) itself. To capture property inference, we propose a similar cryptographic game. Instead of differentiating between the sources of a specific data point ($S$ or $\mathcal{D}$), we propose distinguishing between two distributions, $\mathcal{D}_0$ and $\mathcal{D}_1$.
 
 <center>
-{{< figure src="/images/propertyinference2021/distr.svg" >}}
+{{< figure src="/images/propertyinference2021/distr.png" >}}
 </center>
 
 A model trainer $\mathcal{B}$ samples a dataset $D$ from either of the distributions $\mathcal{D}_0$, $\mathcal{D}_1$. These distributions can be obtained from the publicly know distribution $\mathcal{D}$ by applying functions $\mathcal{G}_0$, $\mathcal{G}_1$ respectively, that transform distributions (and represent the "property" an adversary might care about). So, we formalize distribution inference with this question: 
@@ -141,8 +141,8 @@ Our proposed definitions allow the property to hold over the whole dataset, not 
 
 <table>
 <tr>
-    <td> <img src="/images/propertyinference2021/census_meta.png"/></td>
-    <td> <img src="/images/propertyinference2021/rsna_meta.png"/> </td>
+    <td> <img src="/images/propertyinference2021/arxiv.png"/></td>
+    <td style="width:53.5%;"> <img src="/images/propertyinference2021/arxiv_degree.png"/> </td>
 </tr>
 <tr>
     <td>
