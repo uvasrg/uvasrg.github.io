@@ -1,6 +1,7 @@
 +++
 title = "Security Research Group"
 type = "index"
+math = true
 +++
 
 
