@@ -1,6 +1,6 @@
 +++
 date = "24 Jun 2021"
-draft = true
+draft = false
 title = "On the Risks of Distribution Inference"
 author = "Anshuman Suri"
 categories = ["conferences"]

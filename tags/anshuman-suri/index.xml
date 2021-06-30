@@ -24,6 +24,17 @@ Most work on poisoning attacks is directly driven by an attacker&amp;rsquo;s obj
     </item>
     
     <item>
+      <title>On the Risks of Distribution Inference</title>
+      <link>//uvasrg.github.io/on-the-risks-of-distribution-inference/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/on-the-risks-of-distribution-inference/</guid>
+      <description>(Cross-post by Anshuman Suri)
+Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.
+Standard inference attacks (which we call “dataset inference attacks”) aim to learn something about a particular record that may have been in that training data. For example, in a membership inference attack (Reza Shokri et al., Membership Inference Attacks Against Machine Learning Models, IEEE S&amp;amp;P 2017), the adversary aims to infer whether or not a particular record was included in the training data.</description>
+    </item>
+    
+    <item>
       <title>ICLR DPML 2021: Inference Risks for Machine Learning</title>
       <link>//uvasrg.github.io/iclr-dpml-2021-inference-risks-for-machine-learning/</link>
       <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>property inference on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/property-inference/</link>
+    <description>Recent content in property inference on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//uvasrg.github.io/tags/property-inference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On the Risks of Distribution Inference</title>
+      <link>//uvasrg.github.io/on-the-risks-of-distribution-inference/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/on-the-risks-of-distribution-inference/</guid>
+      <description>(Cross-post by Anshuman Suri)
+Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.
+Standard inference attacks (which we call “dataset inference attacks”) aim to learn something about a particular record that may have been in that training data. For example, in a membership inference attack (Reza Shokri et al., Membership Inference Attacks Against Machine Learning Models, IEEE S&amp;amp;P 2017), the adversary aims to infer whether or not a particular record was included in the training data.</description>
+    </item>
+    
+  </channel>
+</rss>

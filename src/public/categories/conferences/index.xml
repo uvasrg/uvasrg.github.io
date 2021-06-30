@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/categories/conferences/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>On the Risks of Distribution Inference</title>
+      <link>//uvasrg.github.io/on-the-risks-of-distribution-inference/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/on-the-risks-of-distribution-inference/</guid>
+      <description>(Cross-post by Anshuman Suri)
+Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.
+Standard inference attacks (which we call “dataset inference attacks”) aim to learn something about a particular record that may have been in that training data. For example, in a membership inference attack (Reza Shokri et al., Membership Inference Attacks Against Machine Learning Models, IEEE S&amp;amp;P 2017), the adversary aims to infer whether or not a particular record was included in the training data.</description>
+    </item>
     
     <item>
       <title>Oakland Test-of-Time Awards</title>
