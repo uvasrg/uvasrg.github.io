@@ -3,8 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/</loc>
-    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/david-evans/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/fnu-suya/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/icml/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/icml-2021/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/model-targeted-poisoning-attacks/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/categories/publications/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/saeed-mahloujifar/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/yuan-tian/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,43 +88,13 @@
   </url>
   
   <url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/categories/publications/</loc>
-    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//uvasrg.github.io/tags/secure-computation/</loc>
-    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2021-06-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//uvasrg.github.io/tags/vladimir-kolesnikov/</loc>
     <lastmod>2021-06-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -90,11 +130,6 @@
   <url>
     <loc>//uvasrg.github.io/categories/talks/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/fnu-suya/</loc>
-    <lastmod>2021-05-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -228,11 +263,6 @@
   </url>
   
   <url>
-    <loc>//uvasrg.github.io/tags/icml/</loc>
-    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
   </url>
@@ -264,11 +294,6 @@
   
   <url>
     <loc>//uvasrg.github.io/tags/usenix-security/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/yuan-tian/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -329,11 +354,6 @@
   
   <url>
     <loc>//uvasrg.github.io/neurips2019/</loc>
-    <lastmod>2019-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/saeed-mahloujifar/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
   </url>
   

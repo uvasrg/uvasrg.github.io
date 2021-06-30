@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>model-targeted poisoning attacks on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/model-targeted-poisoning-attacks/</link>
+    <description>Recent content in model-targeted poisoning attacks on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//uvasrg.github.io/tags/model-targeted-poisoning-attacks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Model-Targeted Poisoning Attacks with Provable Convergence</title>
+      <link>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</guid>
+      <description>(Post by Sean Miller, using images adapted from Suya&amp;rsquo;s talk slides)
+Data Poisoning Attacks Machine learning models are often trained using data from untrusted sources, leaving them open to poisoning attacks where adversaries use their control over a small fraction of that training data to poison the model in a particular way.
+Most work on poisoning attacks is directly driven by an attacker&amp;rsquo;s objective, where the adversary chooses poisoning points that maximize some target objective.</description>
+    </item>
+    
+  </channel>
+</rss>
