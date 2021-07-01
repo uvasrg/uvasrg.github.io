@@ -40,7 +40,7 @@ percentile of all pair-wise shortest paths) of the network is below 6
 ($\mathcal{D}_0$) or not ($\mathcal{D}_1$). 
 
 <center>
-{{< figure src="/images/propertyinference2021/example.png">}}
+{{< figure src="/images/propertyinference2021/example.png" width="80%">}}
 </center>
 <div class="caption">
 <b>Illustration of a property inference attack.</b> The adversary infers the effective diameter of the underlying network from the model trained to predict an unrelated property.
@@ -64,7 +64,7 @@ valuable to the adversary.
 To formalize property inference attacks, we adapt the cryptographic game for membership inference proposed by Yeom et al. ([_Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting_](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8429311), CSF 2018):
 
 <center>
-{{< figure src="/images/propertyinference2021/yeom.png" >}}
+{{< figure src="/images/propertyinference2021/yeom.png" width="70%">}}
 </center>
 
 In this game, the victim samples a dataset S from the distribution $\mathcal{D}$ and trains a model $M$ on it. It then samples some data-point $z$ from either $S$ or $\mathcal{D}$, based on $b \xleftarrow{R}${0,1}. The adversary then tries to infer $b$ using algorithm $H$, given access to ($z$, $\mathcal{D}$, $M$). This cryptographic game captures the intuitive notion of membership inference. It focuses on a particular dataset and sample: inferring whether a given data point was part of training data.
@@ -72,7 +72,7 @@ In this game, the victim samples a dataset S from the distribution $\mathcal{D}$
 In contrast, property inference focuses on properties of the underlying distribution ($\mathcal{D}$), not the dataset ($S$) itself. To capture property inference, we propose a similar cryptographic game. Instead of differentiating between the sources of a specific data point ($S$ or $\mathcal{D}$), we propose distinguishing between two distributions, $\mathcal{D}_0$ and $\mathcal{D}_1$.
 
 <center>
-{{< figure src="/images/propertyinference2021/distr.png" >}}
+{{< figure src="/images/propertyinference2021/distr.png" width="70%">}}
 </center>
 
 A model trainer $\mathcal{B}$ samples a dataset $D$ from either of the distributions $\mathcal{D}_0$, $\mathcal{D}_1$. These distributions can be obtained from the publicly know distribution $\mathcal{D}$ by applying functions $\mathcal{G}_0$, $\mathcal{G}_1$ respectively, that transform distributions (and represent the "property" an adversary might care about). So, we formalize distribution inference with this question: 
@@ -103,7 +103,7 @@ To better understand how well an intuitive notion of divergence in properties al
 The state-of-the-art method for property inference attacks involves meta-classifiers, usually using Permutation Invariant Networks (Karan Ganju et al., [Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations](https://dl.acm.org/doi/pdf/10.1145/3243734.3243834)). After training hundreds or thousands of models locally, the adversary trains a meta-classifier on model parameters.
 
 <center>
-<video loop type="video/mp4" autoplay="yes" allowfullscreen="no" src="/images/propertyinference2021/PIM-Animation.mp4" style="width:100%;"> </video>
+<video loop type="video/mp4" autoplay="yes" allowfullscreen="no" src="/images/propertyinference2021/PIM-Animation.mp4" style="width:85%;"> </video>
 </center>
 <div class="caption">
 
@@ -123,8 +123,8 @@ Our results demonstrate how a meta-classifier can differentiate between models w
 
 <table>
 <tr>
-    <td style="width: 50%"> <img src="/images/propertyinference2021/census_meta.png"/></td>
-    <td style="width: 50%"> <img src="/images/propertyinference2021/rsna_meta.png"/> </td>
+    <td style="width: 50%"> <img src="/images/propertyinference2021/census_meta.png" /></td>
+    <td style="width: 50%"> <img src="/images/propertyinference2021/rsna_meta.png" /> </td>
 </tr>
 </table>
 <div class="caption" id="figure1">

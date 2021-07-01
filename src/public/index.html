@@ -677,7 +677,7 @@ percentile of all pair-wise shortest paths) of the network is below 6
 ($\mathcal{D}_0$) or not ($\mathcal{D}_1$).</p>
 <center>
 <figure>
-    <img src="/images/propertyinference2021/example.png"/> 
+    <img src="/images/propertyinference2021/example.png" width="80%"/> 
 </figure>
 
 </center>
@@ -698,7 +698,7 @@ valuable to the adversary.</p>
 <p>To formalize property inference attacks, we adapt the cryptographic game for membership inference proposed by Yeom et al. (<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8429311"><em>Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting</em></a>, CSF 2018):</p>
 <center>
 <figure>
-    <img src="/images/propertyinference2021/yeom.png"/> 
+    <img src="/images/propertyinference2021/yeom.png" width="70%"/> 
 </figure>
 
 </center>
@@ -706,7 +706,7 @@ valuable to the adversary.</p>
 <p>In contrast, property inference focuses on properties of the underlying distribution ($\mathcal{D}$), not the dataset ($S$) itself. To capture property inference, we propose a similar cryptographic game. Instead of differentiating between the sources of a specific data point ($S$ or $\mathcal{D}$), we propose distinguishing between two distributions, $\mathcal{D}_0$ and $\mathcal{D}_1$.</p>
 <center>
 <figure>
-    <img src="/images/propertyinference2021/distr.png"/> 
+    <img src="/images/propertyinference2021/distr.png" width="70%"/> 
 </figure>
 
 </center>
@@ -730,7 +730,7 @@ Multi-Party Machine Learning</em></a>
 <p>To better understand how well an intuitive notion of divergence in properties aligns with observed inference risk, we execute property inference attacks with increasing diverging properties. We fix one property (ratio=0.5) and vary the other ($\alpha$). We perform these experiments for three datasets: focusing on the ratio of females for the <a href="https://dl.acm.org/doi/pdf/10.1145/380995.381030">US Census</a> and <a href="https://pubs.rsna.org/doi/pdf/10.1148/radiol.2018180736">RSNA BoneAge</a> datasets, and the average node-degree for the <a href="https://direct.mit.edu/qss/article/1/1/396/15572/Microsoft-Academic-Graph-When-experts-are-not">OGBN arXiv</a> dataset.</p>
 <p>The state-of-the-art method for property inference attacks involves meta-classifiers, usually using Permutation Invariant Networks (Karan Ganju et al., <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243834">Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations</a>). After training hundreds or thousands of models locally, the adversary trains a meta-classifier on model parameters.</p>
 <center>
-<video loop type="video/mp4" autoplay="yes" allowfullscreen="no" src="/images/propertyinference2021/PIM-Animation.mp4" style="width:100%;"> </video>
+<video loop type="video/mp4" autoplay="yes" allowfullscreen="no" src="/images/propertyinference2021/PIM-Animation.mp4" style="width:85%;"> </video>
 </center>
 <div class="caption">
 <p>Illustration of the functioning of a <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243834">Permutation Invariant Network</a>. The process of model-parameter extraction involves constructing permutation-invariant representations of neurons per layer $h_i$ using learnable parameters ($\phi_i$). These representations are then joined together for all layers with another learnable transform $\rho$, yielding the meta-classifier’s predictions.</p>
@@ -745,8 +745,8 @@ Multi-Party Machine Learning</em></a>
 <p>Our results demonstrate how a meta-classifier can differentiate between models with ratios as similar as 0.5 and 0.6:</p>
 <table>
 <tr>
-    <td style="width: 50%"> <img src="/images/propertyinference2021/census_meta.png"/></td>
-    <td style="width: 50%"> <img src="/images/propertyinference2021/rsna_meta.png"/> </td>
+    <td style="width: 50%"> <img src="/images/propertyinference2021/census_meta.png" /></td>
+    <td style="width: 50%"> <img src="/images/propertyinference2021/rsna_meta.png" /> </td>
 </tr>
 </table>
 <div class="caption" id="figure1">
