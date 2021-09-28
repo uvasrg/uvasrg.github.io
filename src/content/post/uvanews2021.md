@@ -9,9 +9,10 @@ tags = ["adversarial machine learning", "privacy", "Bargav Jayaraman", "Xiao Zha
 
 UVA News has an article by Audra Book on our research on security and
 privacy of machine learning (with some very nice quotes from several
-students in the group!): [_Computer science professor David Evans and
-his team conduct experiments to understand security and privacy risks
-associated with machine
+students in the group, and me saying something positive about the
+NSA!): [_Computer science professor David Evans and his team conduct
+experiments to understand security and privacy risks associated with
+machine
 learning_](https://engineering.virginia.edu/news/2021/09/computer-science-professor-david-evans-and-his-team-conduct-experiments-understand),
 8 September 2021.
 
