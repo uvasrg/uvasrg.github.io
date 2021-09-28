@@ -4,17 +4,77 @@
   
   <url>
     <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/bargav-jayaraman/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//uvasrg.github.io/categories/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/computer-science-professor-david-evans-and-his-team-conduct-experiments-to-understand-security-and-privacy-risks-associated-with-machine-learning/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/inference-privacy/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/jack-prescott/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/katherine-knipmeyer/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/privacy/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/categories/talks/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/xiao-zhang/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -48,27 +108,12 @@
   </url>
   
   <url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//uvasrg.github.io/categories/publications/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//uvasrg.github.io/tags/saeed-mahloujifar/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,37 +163,7 @@
   </url>
   
   <url>
-    <loc>//uvasrg.github.io/tags/bargav-jayaraman/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//uvasrg.github.io/iclr-dpml-2021-inference-risks-for-machine-learning/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/inference-privacy/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/katherine-knipmeyer/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/privacy/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/categories/talks/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -204,16 +219,6 @@
   
   <url>
     <loc>//uvasrg.github.io/tags/intrinsic-robustness/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/jack-prescott/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/xiao-zhang/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url>
   
