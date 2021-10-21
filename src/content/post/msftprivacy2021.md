@@ -10,7 +10,7 @@ tags = ["adversarial machine learning", "privacy", "Bargav Jayaraman", "Anshuman
 Here are the slides for my talk at the [_Practical and Theoretical Privacy of Machine Learning Training Pipelines_](https://www.microsoft.com/en-us/research/theme/confidential-computing/#workshops)
 Workshop at the Microsoft Research Summit (21 October 2021):
    <center>
-<a href="https://www.dropbox.com/s/1mfhbelv7qx4t3u/surprisinginferences.pdf?dl=0"><b>Surprising (and unsurprising) Inference Risks in Machine Learning"</b> [PDF]</a>
+<a href="https://www.dropbox.com/s/1mfhbelv7qx4t3u/surprisinginferences.pdf?dl=0"><b>Surprising (and Unsurprising) Inference Risks in Machine Learning</b> [PDF]</a>
    </center>
 
 ##
