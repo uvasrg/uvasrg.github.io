@@ -4,7 +4,7 @@ draft = false
 title = "Microsoft Security Data Science Colloquium: Inference Privacy in Theory and Practice"
 author = "David Evans"
 categories = ["talks"]
-tags = ["adversarial machine learning", "privacy", "Bargav Jayaraman", "privacy", "privacy-preserving machine learning"]
+tags = ["adversarial machine learning", "privacy", "Bargav Jayaraman", "privacy", "privacy-preserving machine learning", "Microsoft"]
 +++
 
 Here are the slides for my talk at the Microsoft Security Data Science Colloquium:  

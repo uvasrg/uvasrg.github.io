@@ -4,7 +4,7 @@ draft = false
 title = "Microsoft Research Summit: Surprising (and unsurprising) Inference Risks in Machine Learning"
 author = "David Evans"
 categories = ["talks"]
-tags = ["adversarial machine learning", "privacy", "Bargav Jayaraman", "Anshuman Suri", "Katherine Knipmeyer", "inference privacy", "privacy", "privacy-preserving machine learning"]
+tags = ["adversarial machine learning", "privacy", "Bargav Jayaraman", "Anshuman Suri", "Katherine Knipmeyer", "inference privacy", "privacy", "privacy-preserving machine learning", "Microsoft"]
 +++
 
 Here are the slides for my talk at the [_Practical and Theoretical Privacy of Machine Learning Training Pipelines_](https://www.microsoft.com/en-us/research/theme/confidential-computing/#workshops)
