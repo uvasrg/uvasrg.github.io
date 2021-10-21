@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Oct 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microsoft Research Summit: Surprising (and unsurprising) Inference Risks in Machine Learning</title>
+      <link>//uvasrg.github.io/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/</guid>
+      <description>Here are the slides for my talk at the Practical and Theoretical Privacy of Machine Learning Training Pipelines Workshop at the Microsoft Research Summit (21 October 2021):
+ Surprising (and unsurprising) Inference Risks in Machine Learning&#34; [PDF]   The work by Bargav Jayaraman (with Katherine Knipmeyer, Lingxiao Wang, and Quanquan Gu) that I talked about on improving membership inference attacks is described in more details here:
+  Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer, Quanquan Gu, David Evans.</description>
+    </item>
     
     <item>
       <title>UVA News Article</title>

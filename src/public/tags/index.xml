@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Oct 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>adversarial machine learning</title>
       <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Anshuman Suri</title>
       <link>//uvasrg.github.io/tags/anshuman-suri/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/anshuman-suri/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Bargav Jayaraman</title>
       <link>//uvasrg.github.io/tags/bargav-jayaraman/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/bargav-jayaraman/</guid>
       <description></description>
@@ -42,9 +42,36 @@
     <item>
       <title>inference privacy</title>
       <link>//uvasrg.github.io/tags/inference-privacy/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/inference-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Katherine Knipmeyer</title>
+      <link>//uvasrg.github.io/tags/katherine-knipmeyer/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/katherine-knipmeyer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>//uvasrg.github.io/tags/privacy/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy-preserving machine learning</title>
+      <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
       <description></description>
     </item>
     
@@ -54,33 +81,6 @@
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/jack-prescott/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Katherine Knipmeyer</title>
-      <link>//uvasrg.github.io/tags/katherine-knipmeyer/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/katherine-knipmeyer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>//uvasrg.github.io/tags/privacy/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy-preserving machine learning</title>
-      <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
       <description></description>
     </item>
     
