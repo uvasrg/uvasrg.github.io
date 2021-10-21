@@ -22,9 +22,10 @@ and Quanquan Gu) that I talked about on improving membership inference
 attacks is described in more details here:
 
 - Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer, Quanquan Gu, David Evans. [_Revisiting Membership Inference Under Realistic Assumptions_](https://arxiv.org/abs/2005.10881) (PETS 2021).  
-[[Blog](/merlin-morgan-and-the-importance-of-thresholds-and-priors/)]] [Code: [_https://github.com/bargavj/EvaluatingDPML_](https://github.com/bargavj/EvaluatingDPML)]
+[[Blog](/merlin-morgan-and-the-importance-of-thresholds-and-priors/)]] [Code: [_https://github.com/bargavj/EvaluatingDPML_](https://github.com/bargavj/EvaluatingDPML)] 
 
-- [_Evaluating Differentially Private Machine Learning in Practice_](/evaluating-differentially-private-machine-learning-in-practice/)
+- Bargav Jayaraman, David Evans. [_Evaluating Differentially Private Machine Learning in Practice_](https://arxiv.org/abs/1902.08874) (USENIX Security 2019).  
+[[Blog](/evaluating-differentially-private-machine-learning-in-practice/)] [[Talk Video](https://uvasrg.github.io/usenix-security-symposium-2019/)] [[Code](https://github.com/bargavj/EvaluatingDPML)]
 
 The work on distribution inference is described in this paper (by Anshuman Suri):
 
