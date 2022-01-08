@@ -11,7 +11,7 @@
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/anshuman.png"><br><b><a href="http://anshumansuri.me/">Anshuman Suri</a></b><br>Since Fall 2019<br>robust machine learning<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/anshuman.png"><br><b><a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman Suri</a></b><br>Since Fall 2019<br>robust machine learning<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/suya.png"><br><b><a href="https://fsuya.org/">Fnu Suya</a></b><br>Co-advised with Yuan Tian<br>Since Fall 2017<br>robust machine learning<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/xiaozhang.png"><br><b><a href="https://xiao-zhang.net/">Xiao Zhang</a></b><br>Since Summer 2018<br>robust machine learning<br>   </div>
 </div>
@@ -22,6 +22,7 @@
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Zihao Su</b><br>Pre-Doctoral Visitor<br>Since Fall 2021<br>inference privacy, VR security<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yulong Tian</b><br>Pre-Doctoral Visitor<br>Since Fall 2020<br>hiding machine learning backdoors<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yiran Yao</b><br>Pre-Doctoral Visitor<br>Since Summer 2021<br>adversarial training<br>   </div>
 </div>
@@ -32,15 +33,15 @@
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/ananda.png"><br><b><a href="https://www.linkedin.com/in/pragun-ananda/">Pragun Ananda</a></b><br>Undergraduate Researcher<br>Since Summer 2020<br>natural language processing<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/knipmeyer.png"><br><b>Katherine Knipmeyer</b><br>Undergraduate Researcher<br>Since Summer 2020<br>evaluating privacy for machine learning<br>   </div>
-</div>
-</center>
-
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Justin Chen</b><br>Undergraduate Researcher<br>Since Summer 2021<br>inference privacy<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Isabelle Fang</b><br>Undergraduate Researcher<br>Since Fall 2020<br>natural language processing<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Meredith James</b><br>Undergraduate Researcher<br>Since Fall 2021<br>inference privacy<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Katherine Knipmeyer</b><br>Undergraduate Researcher<br>Since Summer 2020<br>evaluating privacy for machine learning<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yifu Lu</b><br>Undergraduate Researcher<br>Since Fall 2021<br>inference privacy<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Sean Miller</b><br>Undergraduate Researcher<br>Since Summer 2021<br>poisoning attacks<br>   </div>
 </div>
 </center>
@@ -111,7 +112,7 @@
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/sicheng.png"><br><b><a href="https://schzhu.github.io/">Sicheng Zhu</a></b><br>Pre-Doctoral Visitor<br>Fall 2019 &ndash; Summer 2020<br>robust machine learning<br>University of Maryland PhD Student (starting Fall 2020)<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/sicheng.png"><br><b><a href="https://schzhu.github.io/">Sicheng Zhu</a></b><br>Pre-Doctoral Visitor<br>Fall 2019 &ndash; Summer 2020<br>robust machine learning<br>University of Maryland PhD Student<br>   </div>
 </div>
 </center>
 
@@ -214,7 +215,7 @@
 # 
 
    <div class="hanging">
-<b><a href="https://www.adrienneporterfelt.com/">Adrienne Porter Felt</a></b><br>2006 &ndash; 2008<br><div class="hanging">UC Berkeley PhD 2012 (David Wagner)<br></div><a href=https://web.archive.org/web/20180313102555/http://www.cs.virginia.edu:80/felt/privacy/">privacy protection for social networking APIs</a>,  <a href="https://web.archive.org/web/20171226065929/http://www.cs.virginia.edu:80/felt/fbook/">mashup security issues</a><br> CRA Outstanding Undergraduate Award Finalist 2008, SEAS Outstanding Student Award 2008<br> <a href="https://www.technologyreview.com/innovator/adrienne-felt/">TR 35</a>, <a href="https://www.youtube.com/watch?v=29K7ldNlH6s">CRA Video</a>, USENIX Security PC Co-Chair 2018<br> Google<br>   </div>
+<b><a href="https://www.adrienneporterfelt.com/">Adriana Porter Felt</a></b><br>2006 &ndash; 2008<br><div class="hanging">UC Berkeley PhD 2012 (David Wagner)<br></div><a href=https://web.archive.org/web/20180313102555/http://www.cs.virginia.edu:80/felt/privacy/">privacy protection for social networking APIs</a>,  <a href="https://web.archive.org/web/20171226065929/http://www.cs.virginia.edu:80/felt/fbook/">mashup security issues</a><br> CRA Outstanding Undergraduate Award Finalist 2008, SEAS Outstanding Student Award 2008<br> <a href="https://www.technologyreview.com/innovator/adrienne-felt/">TR 35</a>, <a href="https://www.youtube.com/watch?v=29K7ldNlH6s">CRA Video</a>, USENIX Security PC Co-Chair 2018<br> Google<br>   </div>
 
 # 
 
@@ -287,6 +288,11 @@
 
 # Researchers
 
+
+   <div class="hanging">
+<b><a href="https://www.linkedin.com/in/pragun-ananda/">Pragun Ananda</a></b><br>Undergraduate Researcher, Summer 2020 &ndash; Fall 2020<br><div class="hanging">natural language processing<br></div>   </div>
+
+# 
 
    <div class="hanging">
 <b>Corey Ames</b><br>Undergraduate Researcher, 2014 &ndash; 2015<br>   </div>
@@ -365,6 +371,11 @@
 
    <div class="hanging">
 <b><a href="https://twitter.com/eryous_ye">Youssef Errami</a></b><br>Undergraduate Researcher, Summer 2019 &ndash; Spring 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/jm214p64h"><em>A Deeper Look into the Fairness of Differential Privacy</em></a><br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b><a href="https://www.linkedin.com/in/nicholas-figgins/">Nick Figgins</a></b><br>Undergraduate Researcher, Summer 2020 &ndash; Spring 2021<br><div class="hanging">adversarial machine learning for malware classification<br></div>   </div>
 
 # 
 
@@ -620,11 +631,6 @@
 
    <div class="hanging">
 <b>Muzzammil Zaveri</b><br>Undergraduate Researcher, Summer 2010 &ndash; Spring 2011<br>BSCS 2011<br><div class="hanging">a secure web application framework<br></div>   </div>
-
-# 
-
-   <div class="hanging">
-<b><a href="https://www.linkedin.com/in/nicholas-figgins/">Nick Figgins</a></b><br>Undergraduate Researcher, Summer 2020 &ndash; Spring 2021<br><div class="hanging">adversarial machine learning for malware classification<br></div>   </div>
 
 # 
 
