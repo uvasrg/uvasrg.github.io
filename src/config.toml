@@ -22,7 +22,7 @@ unsafe= true
 [params]
     brand = "Security Research Group"
     topline = "University of Virginia Security Research Group"
-    footline = "<p align=\"center\">University of Virginia | Security Research Group</p>"
+    footline = "<p align=\"center\">University of Virginia | Privacy and Security Research Group</p>"
     sidebar = "left"
 
     nodate = true
