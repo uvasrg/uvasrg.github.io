@@ -11,7 +11,7 @@ The <a href="//www.cra.org/awards/undergrad/">CRA Outstanding Undergraduate Rese
 <div class="hanging"><A href="//www.cs.virginia.edu/~pmc8p/"><b>Peter Chapman</b></a> (BACS 2012, CMU PhD program), 2012&nbsp;Runner-Up</div>
 <div class="hanging"><b>Jiamin Chen</b> (BACS 2012, now at UCLA), 2012 Honorable Mention</div>
 <div class="hanging"><b>Rachel Lathbury</b> (BACS 2010, now at University of Pennsylvania), 2010&nbsp;Honorable&nbsp;Mention</div>
-<div class="hanging"><a href="//www.cs.berkeley.edu/~afelt/"><b>Adrienne Felt</b></a> (BSCS 2008, UC Berkeley PhD 2012, now at Google), 2008&nbsp;Finalist</div>
+<div class="hanging"><a href="//www.cs.berkeley.edu/~afelt/"><b>Adriana Felt</b></a> (BSCS 2008, UC Berkeley PhD 2012, now at Google), 2008&nbsp;Finalist</div>
 <div class="hanging"><a href="//sammyg.org/"><b>Salvatore Guarnieri</b></a> (BSCS 2006, now at IBM and University of Washington), 2006&nbsp;Finalist</div>
 <div class="hanging"><b>Ami Malaviya</b> (BSCS 2005), 2005&nbsp;Honorable&nbsp;Mention</div>
 <div class="hanging"><a href="//www.ece.cmu.edu/~jmmccune/"><b>Jonathan McCune</b></a> (BSCS 2003, CMU PhD 2009), 2003&nbsp;Honorable&nbsp;Mention</div>
@@ -23,11 +23,11 @@ The National Science Foundation&#8217;s Graduate Research Fellowships recognize 
 
 
 <A href="//www.cs.virginia.edu/~pmc8p/"><b>Peter Chapman</b></a> (BACS 2012, now at CMU), 2012<br />
-<a href="//www.cs.berkeley.edu/~afelt/"><b>Adrienne Felt</b></a> (BSCS 2008, UC Berkeley PhD 2012), 2009
+<a href="//www.cs.berkeley.edu/~afelt/"><b>Adriana Felt</b></a> (BSCS 2008, UC Berkeley PhD 2012), 2009
 
 ### Technology Review TR35
 
-<a href="https://www.technologyreview.com/lists/innovators-under-35/2017/visionary/adrienne-felt/"><b>Adrienne Porter Felt</b></a> (top innovators under 35) (BSCS 2008, UC Berkeley PhD 2012) [<a href="2017/alumna-turned-internet-security-expert-listed-among-nations-top-young-innovators.html">News</a>]
+<a href="https://www.technologyreview.com/lists/innovators-under-35/2017/visionary/adrienne-felt/"><b>Adriana Porter Felt</b></a> (top innovators under 35) (BSCS 2008, UC Berkeley PhD 2012) [<a href="2017/alumna-turned-internet-security-expert-listed-among-nations-top-young-innovators.html">News</a>]
 
 ### NYU-Poly AT&amp;T Best Applied Security Paper Award
 
@@ -44,11 +44,11 @@ The <a href="//www.poly.edu/csaw2011/csaw-research"><em>NYU-Poly AT&amp;T Best A
 
 ### Facebook Research Fellowship
 
-<a href="//www.cs.berkeley.edu/~afelt/"><b>Adrienne Felt</b></a> (BSCS 2008, UC Berkeley PhD 2012), 2011
+<a href="//www.cs.berkeley.edu/~afelt/"><b>Adriana Felt</b></a> (BSCS 2008, UC Berkeley PhD 2012), 2011
 
 ### Google Anita Borg Scholar
 
-<a href="//www.cs.berkeley.edu/~afelt/"><b>Adrienne Felt</b></a> (BSCS 2008, UC Berkeley PhD 2012), 2010
+<a href="//www.cs.berkeley.edu/~afelt/"><b>Adriana Felt</b></a> (BSCS 2008, UC Berkeley PhD 2012), 2010
 
 ### USENIX Student Grant
 
@@ -66,7 +66,7 @@ This award from the ECE Department at Carnegie Mellon University, recognizes an 
 
 The School of Engineering and Applied Science Outstanding Student Award from the Virginia Engineering Foundation is an annual school-wide award for the graduating fourth-year student who has “demonstrated outstanding academic performance, leadership and service”.
 
-<a href="//www.cs.berkeley.edu/~afelt/"><b>Adrienne Felt</b></a> (BSCS 2008, UC Berkeley PhD 2012), 2008
+<a href="//www.cs.berkeley.edu/~afelt/"><b>Adriana Felt</b></a> (BSCS 2008, UC Berkeley PhD 2012), 2008
 
 ### Louis T. Rader Graduate Research Award
 
@@ -90,7 +90,7 @@ This award from the Department of Computer Science recognizes outstanding resear
 ### University of Virginia Engineering Research Symposium (UVERS)
 
 <B>Yan Huang</b>, Honorable Mention, 2011  
-<b>Nathanael Paul</b> and <b>Adrienne Felt</b>, Semi-Finalists, 2008  
+<b>Nathanael Paul</b> and <b>Adriana Felt</b>, Semi-Finalists, 2008  
 
 ### Undergraduate Research Symposium
 
