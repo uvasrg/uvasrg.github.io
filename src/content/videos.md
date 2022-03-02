@@ -32,7 +32,7 @@ CrySP Speaker Series on Privacy, University of Waterloo, 29 March
 	allowfullscreen></iframe>
 </center>
 
-## Hybrid Batch Attacks
+## <A href="/usenix-security-2020-hybrid-batch-attacks"><b>Hybrid Batch Attacks</b></a>
 
 Suya's presentation on [**Hybrid Batch Attacks**](/usenix-security-2020-hybrid-batch-attacks) at USENIX Security 2020:
 
@@ -41,24 +41,23 @@ Suya's presentation on [**Hybrid Batch Attacks**](/usenix-security-2020-hybrid-b
     <source src='https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec20/videos/0813/s5_machine_learning_1/3_sec20summer-paper412-presentation-video.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
   </video><br> 
 
-(<a href="https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec20/videos/0813/s5_machine_learning_1/3_sec20summer-paper412-presentation-video.mp4">Download Video [mp4]</a><, [Blog Post](/usenix-security-2020-hybrid-batch-attacks), Paper: [[PDF](/docs/hybrid_attack.pdf)]&nbsp;[[arXiv](https://arxiv.org/abs/1908.07000)])
+(<a href="https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec20/videos/0813/s5_machine_learning_1/3_sec20summer-paper412-presentation-video.mp4">Download Video [mp4]</a>, [Blog Post](/usenix-security-2020-hybrid-batch-attacks), Paper: [[PDF](/docs/hybrid_attack.pdf)]&nbsp;[[arXiv](https://arxiv.org/abs/1908.07000)])
 
 
 </center>
 
-## Empirically Measuring Concentration
+## <A href="/neurips-2019-empirically-measuring-concentration/"><b>Empirically Measuring Concentration</b></a>
 
-Xiao Zhang's presentation
-on <A href="/neurips-2019-empirically-measuring-concentration/"><b>Empirically Measuring Concentration</b></a> at NeurIPS 2019: <br>
+Xiao Zhang's presentation at NeurIPS 2019: <br>
 <a href="https://slideslive.com/38921718/track-2-session-1"><em>https://slideslive.com/38921718/track-2-session-1</em></a> (starting at 26:50)
 </p>
 <center>
 <a href="/images/NeurIPS2019/IMG_6759.JPG"><img src="/images/NeurIPS2019/IMG_6759.JPG" width="75%"></a><br>
 </center>
 
-## Evaluating Differentially Private Machine Learning 
+## <a href="/evaluating-differentially-private-machine-learning-in-practice/"><b>Evaluating Differentially Private Machine Learning in Practice</b></a>
 
-Bargav Jayaraman's talk on <a href="/evaluating-differentially-private-machine-learning-in-practice/"><b>Evaluating Differentially Private Machine Learning in Practice</b></a> at USENIX Security 2019:
+Bargav Jayaraman's talk at USENIX Security 2019:
 <center>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JAGhqbY_U50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
