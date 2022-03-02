@@ -1,5 +1,7 @@
 Some selected talk videos on our research. See [David Evans - Videos](https://www.cs.virginia.edu/~evans/videos/) for more videos.
 
+##
+
 <a href="https://uvasrg.github.io/iclr-dpml-2021-inference-risks-for-machine-learning/"><b>Inference
     Risks for Machine Learning</b></a>
 <blockquote>
@@ -20,6 +22,8 @@ the <a href="https://dp-ml.github.io/2021-workshop-ICLR/">Distributed
 	allowfullscreen></iframe>
 </center>
 
+##
+
 <a href="https://crysp.uwaterloo.ca/speakers/20210329-Evans"><b>When Models Learn Too Much</b></a>
 <blockquote>
 CrySP Speaker Series on Privacy, University of Waterloo, 29 March
@@ -35,6 +39,8 @@ CrySP Speaker Series on Privacy, University of Waterloo, 29 March
 	allowfullscreen></iframe>
 </center>
 
+##
+
 Suya's presentation on [**Hybrid Batch Attacks**](/usenix-security-2020-hybrid-batch-attacks) at USENIX Security 2020:
 
 <center>
@@ -42,10 +48,13 @@ Suya's presentation on [**Hybrid Batch Attacks**](/usenix-security-2020-hybrid-b
     <source src='https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec20/videos/0813/s5_machine_learning_1/3_sec20summer-paper412-presentation-video.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
   </video><br> 
 <a href="https://2459d6dc103cb5933875-c0245c5c937c5dedcca3f1764ecc9b2f.ssl.cf2.rackcdn.com/sec20/videos/0813/s5_machine_learning_1/3_sec20summer-paper412-presentation-video.mp4">Download Video [mp4]</a></p>
+
 ([Blog Post](/usenix-security-2020-hybrid-batch-attacks)  
 Paper: [[PDF](/docs/hybrid_attack.pdf)]&nbsp;[[arXiv](https://arxiv.org/abs/1908.07000)] 
 ([Blog Post](/usenix-security-2020-hybrid-batch-attacks), Paper: [[PDF](/docs/hybrid_attack.pdf)]&nbsp;[[arXiv](https://arxiv.org/abs/1908.07000)] )
 </center>
+
+##
 
 Xiao Zhang's presentation
 on <A href="/neurips-2019-empirically-measuring-concentration/"><b>Empirically Measuring Concentration</b></a> at NeurIPS 2019: <br>
@@ -54,6 +63,8 @@ on <A href="/neurips-2019-empirically-measuring-concentration/"><b>Empirically M
 <center>
 <a href="/images/NeurIPS2019/IMG_6759.JPG"><img src="/images/NeurIPS2019/IMG_6759.JPG" width="75%"></a><br>
 </center>
+
+##
 
 Bargav Jayaraman's talk on <a href="/evaluating-differentially-private-machine-learning-in-practice/"><b>Evaluating Differentially Private Machine Learning in Practice</b></a> at USENIX Security 2019:
 <center>
