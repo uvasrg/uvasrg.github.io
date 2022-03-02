@@ -1,4 +1,6 @@
-Some selected talk videos on our research. See [David Evans - Videos](https://www.cs.virginia.edu/~evans/videos/) for more videos.
+# Videos
+
+Here are some selected videos of talks about our research.
 
 ## <a href="https://uvasrg.github.io/iclr-dpml-2021-inference-risks-for-machine-learning/"><b>Inference Risks for Machine Learning</b></a>
 
