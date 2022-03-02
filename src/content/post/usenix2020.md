@@ -7,7 +7,7 @@ categories = ["publications"]
 tags = ["adversarial machine learning", "Fnu Suya", "Yuan Tian", "Jianfeng Chi", "USENIX Security"]
 +++
 
-<b><font color="red">New:</font> [Video Presentation](hybrid-batch-attacks-at-usenix-security-2020/)</b>
+<b><font color="red">New:</font> [Video Presentation](/hybrid-batch-attacks-at-usenix-security-2020/)</b>
 
 ## Finding Black-box Adversarial Examples with Limited Queries
 

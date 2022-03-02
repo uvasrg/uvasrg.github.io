@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="//uvasrg.github.io/categories/press/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/press/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Hide a Backdoor</title>
       <link>//uvasrg.github.io/how-to-hide-a-backdoor/</link>
@@ -57,7 +53,7 @@ PolitiFact: Fact-checking Donald Trump’s tweet firing Christopher Krebs, 18 No
       
       <guid>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</guid>
       <description>Sam Havron (BSCS 2017) is quoted in an article in Wired on eradicating stalkerware:
- The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&amp;rsquo; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
+ The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&#39; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
     </item>
     
     <item>

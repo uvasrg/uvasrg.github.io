@@ -7,7 +7,7 @@ categories = ["publications", "presentations"]
 tags = ["adversarial machine learning", "Fnu Suya", "Yuan Tian", "Jianfeng Chi", "USENIX Security"]
 +++
 
-Here's the video for Fnu Suya's presentation on [Hybrid Batch Attacks](/usenix-security-2020-hybrid-batch-attacks) at USENIX Security 2020:
+Here's the video for Suya's presentation on [Hybrid Batch Attacks](/usenix-security-2020-hybrid-batch-attacks) at USENIX Security 2020:
 
 <center>
   <video width="90%" id="usenix-media-video-1" data-setup="{}" poster="" class="video-js vjs-default-skin vjs-big-play-centered" preload="auto" controls>

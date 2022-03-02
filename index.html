@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.71.0" />
+	<meta name="generator" content="Hugo 0.92.0" />
     <meta charset="utf-8">
     <title>Security Research Group</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -87,6 +87,8 @@
       
     <div class="content">
 
+    
+        
     
         
     
@@ -830,8 +832,7 @@ model. They seek to infer whether the effective diameter ($90^{th}$
 percentile of all pair-wise shortest paths) of the network is below 6
 ($\mathcal{D}_0$) or not ($\mathcal{D}_1$).</p>
 <center>
-<figure>
-    <img src="/images/propertyinference2021/example.png" width="80%"/> 
+<figure><img src="/images/propertyinference2021/example.png" width="80%"/>
 </figure>
 
 </center>
@@ -851,16 +852,14 @@ valuable to the adversary.</p>
 <h2 id="formalizing-property-inference">Formalizing Property Inference</h2>
 <p>To formalize property inference attacks, we adapt the cryptographic game for membership inference proposed by Yeom et al. (<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8429311"><em>Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting</em></a>, CSF 2018):</p>
 <center>
-<figure>
-    <img src="/images/propertyinference2021/yeom.png" width="70%"/> 
+<figure><img src="/images/propertyinference2021/yeom.png" width="70%"/>
 </figure>
 
 </center>
 <p>In this game, the victim samples a dataset S from the distribution $\mathcal{D}$ and trains a model $M$ on it. It then samples some data-point $z$ from either $S$ or $\mathcal{D}$, based on $b \xleftarrow{R}${0,1}. The adversary then tries to infer $b$ using algorithm $H$, given access to ($z$, $\mathcal{D}$, $M$). This cryptographic game captures the intuitive notion of membership inference. It focuses on a particular dataset and sample: inferring whether a given data point was part of training data.</p>
 <p>In contrast, property inference focuses on properties of the underlying distribution ($\mathcal{D}$), not the dataset ($S$) itself. To capture property inference, we propose a similar cryptographic game. Instead of differentiating between the sources of a specific data point ($S$ or $\mathcal{D}$), we propose distinguishing between two distributions, $\mathcal{D}_0$ and $\mathcal{D}_1$.</p>
 <center>
-<figure>
-    <img src="/images/propertyinference2021/distr.png" width="70%"/> 
+<figure><img src="/images/propertyinference2021/distr.png" width="70%"/>
 </figure>
 
 </center>
@@ -996,6 +995,7 @@ Security Research Group
    <p>
    <a href="/team"><b>Team</b></a></br>
    <a href="//www.cs.virginia.edu/evans/pubs"><b>Publications</b></a><br>
+      <a href="/videos"><b>Videos</b></a><br>
    </p>
 <p class="nogap">
      <p>

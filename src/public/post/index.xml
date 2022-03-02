@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Thu, 21 Oct 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="//uvasrg.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 21 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microsoft Research Summit: Surprising (and unsurprising) Inference Risks in Machine Learning</title>
       <link>//uvasrg.github.io/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/</link>
@@ -210,7 +206,7 @@ Starting with Gilmer et al. (2018), several works have demonstrated the inevitab
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/hybrid-batch-attacks-at-usenix-security-2020/</guid>
-      <description>Here&amp;rsquo;s the video for Fnu Suya&amp;rsquo;s presentation on Hybrid Batch Attacks at USENIX Security 2020:
+      <description>Here&amp;rsquo;s the video for Suya&amp;rsquo;s presentation on Hybrid Batch Attacks at USENIX Security 2020:
  
 Download Video [mp4]
  Blog Post
@@ -281,7 +277,7 @@ Existing black-box attacks can be grouped into two main categories:
       
       <guid>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</guid>
       <description>Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
-Recent theoretical results, starting with Gilmer et al.&amp;lsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
+Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
     </item>
     
     <item>
@@ -480,7 +476,7 @@ Left to right: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;
       
       <guid>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</guid>
       <description>Sam Havron (BSCS 2017) is quoted in an article in Wired on eradicating stalkerware:
- The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&amp;rsquo; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
+ The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&#39; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
     </item>
     
     <item>
