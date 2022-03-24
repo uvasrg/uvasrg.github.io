@@ -23,7 +23,7 @@ imperfect classifiers, the intrinsic robustness problem can be reduced
 to the **_concentration of measure problem_**.
 
 <p>
-<center><img src="/images/figs/concentration.png" width=60% alt="Concentration of Measure"></center>
+<center><img src="/images/figs/concentration.png" width=50% alt="Concentration of Measure"></center>
 </p>
 
 In this work, we argue that the standard concentration of measure
@@ -41,7 +41,7 @@ regions induced by state-of-the-art models tend to have much higher
 label uncertainty than randomly-selected subsets.
 
 <p>
-<center><img src="/images/figs/err_reg_lu.png" width=60% alt="Error Regions have higher label uncertainty"></center>
+<center><img src="/images/figs/err_reg_lu.png" width=50% alt="Error Regions have higher label uncertainty"></center>
 </p>
 
 This observation motivates us to adapt a concentration estimation
@@ -56,7 +56,7 @@ inputs_** may explain more fundamentally the adversarial vulnerability
 of state-of-the-art robustly-trained models.
 
 <p>
-<center><img src="/images/figs/result.png" width=60% alt="Intrinsic robustness with label uncertainty"></center>
+<center><img src="/images/figs/result.png" width=50% alt="Intrinsic robustness with label uncertainty"></center>
 </p>
 
 <b>Paper:</b> [Xiao Zhang](https://xiao-zhang.net) and [David Evans](https://www.cs.virginia.edu/evans/). **_Understanding Intrinsic Robustness Using Label Uncertainty_**. _In [Tenth International Conference on Learning Representations](https://iclr.cc/Conferences/2022) (ICLR), April 2022._ [[PDF](https://openreview.net/pdf?id=6ET9SzlgNX)]  [[OpenReview](https://openreview.net/forum?id=6ET9SzlgNX)] [[ArXiv](https://arxiv.org/abs/2107.03250)]
