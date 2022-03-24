@@ -439,6 +439,8 @@
         
     
         
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -503,6 +505,86 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/">ICLR 2022: Understanding Intrinsic Robustness Using Label Uncertainty</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2022-03-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">24 March 2022</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/xiao-zhang">Xiao Zhang</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/iclr">ICLR</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/intrinsic-robustness">intrinsic robustness</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>(Blog post written by <a href="https://xiao-zhang.net/">Xiao Zhang</a>)</p>
+<p>Motivated by the empirical hardness of developing robust classifiers
+against adversarial perturbations, researchers began asking the
+question “<em>Does there even exist a robust classifier?</em>”. This is
+formulated as the <strong><em>intrinsic robustness problem</em></strong> <a href="https://proceedings.neurips.cc/paper/2019/file/46f76a4bda9a9579eab38a8f6eabcda1-Paper.pdf">(Mahloujifar et
+al.,
+2019)</a>,
+where the goal is to characterize the maximum adversarial robustness
+possible for a given robust classification problem. Building upon the
+connection between adversarial robustness and classifier’s error
+region, it has been shown that if we restrict the search to the set of
+imperfect classifiers, the intrinsic robustness problem can be reduced
+to the <strong><em>concentration of measure problem</em></strong>.</p>
+<p>
+<center><img src="/images/figs/concentration.png" width=60% alt="Concentration of Measure"></center>
+</p>
+<p>In this work, we argue that the standard concentration of measure
+problem is not sufficient to capture a realistic intrinsic robustness
+limit for a classification problem. In particular, the standard
+concentration function is defined as an inherent property regarding
+the input metric probability space, which does not take account of the
+underlying label information. However, such label information is
+essential for any supervised learning problem, including adversarially
+robust classification, so must be incorporated into intrinsic
+robustness limits. By introducing a novel definition of <strong><em>label
+uncertainty</em></strong>, which characterizes the average uncertainty of label
+assignments for an input region, we empirically demonstrate that error
+regions induced by state-of-the-art models tend to have much higher
+label uncertainty than randomly-selected subsets.</p>
+<p>
+<center><img src="/images/figs/err_reg_lu.png" width=60% alt="Error Regions have higher label uncertainty"></center>
+</p>
+<p>This observation motivates us to adapt a concentration estimation
+algorithm to account for label uncertainty, where we focus on
+understanding the concentration of measure phenomenon with respect to
+input regions with label uncertainty exceeding a certain threshold
+$\gamma&gt;0$. The intrinsic robustness estimates we obtain by
+incorporating label uncertainty (shown as the green dots in the figure
+below) are much lower than prior limits, suggesting that compared with
+the concentration of measure phenomenon, the <strong><em>existence of uncertain
+inputs</em></strong> may explain more fundamentally the adversarial vulnerability
+of state-of-the-art robustly-trained models.</p>
+<p>
+<center><img src="/images/figs/result.png" width=60% alt="Intrinsic robustness with label uncertainty"></center>
+</p>
+<p><b>Paper:</b> <a href="https://xiao-zhang.net">Xiao Zhang</a> and <a href="https://www.cs.virginia.edu/evans/">David Evans</a>. <strong><em>Understanding Intrinsic Robustness Using Label Uncertainty</em></strong>. <em>In <a href="https://iclr.cc/Conferences/2022">Tenth International Conference on Learning Representations</a> (ICLR), April 2022.</em> [<a href="https://openreview.net/pdf?id=6ET9SzlgNX">PDF</a>]  [<a href="https://openreview.net/forum?id=6ET9SzlgNX">OpenReview</a>] [<a href="https://arxiv.org/abs/2107.03250">ArXiv</a>]</p>
+<p><b>Code:</b> <a href="https://github.com/xiaozhanguva/intrinsic_rob_lu"><em>https://github.com/xiaozhanguva/intrinsic_rob_lu</em></a></p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YrxO1zM1KuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/">Microsoft Research Summit: Surprising (and unsurprising) Inference Risks in Machine Learning</a></h2>
@@ -940,43 +1022,6 @@ Multi-Party Machine Learning</em></a>
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/chinese-translation-of-mpc-book/">Chinese Translation of MPC Book</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2021-06-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">7 June 2021</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/secure-computation">secure computation</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/vladimir-kolesnikov">Vladimir Kolesnikov</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/mike-rosulek">Mike Rosulek</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <a href="https://item.jd.com/13302742.html">
-<img src="https://securecomputation.org/images/chinese-cover.png" width=25% align="right" style="margin-bottom: 12px; margin-left: 12px; margin-right: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></a>
-<p>A Chinese translation of our <a href="//securecomputation.org"><em>A Pragmatic Introduction to Secure
-Multi-Party Computation</em></a> book (by David
-Evans, Vladimir Kolesnikov, and Mike Rosulek) is now available!</p>
-<p>Thanks to Weiran Liu and Sengchao Ding for all the work they
-did on the translation.</p>
-<p>To order from JD.com: <a href="https://item.jd.com/13302742.html"><em>https://item.jd.com/13302742.html</em></a></p>
-<p>(The English version of the book is still available for free download, from <a href="https://securecomputation.org"><em>https://securecomputation.org</em></a>.)</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -1013,6 +1058,12 @@ Security Research Group
   <p>
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/">ICLR 2022: Understanding Intrinsic Robustness Using Label Uncertainty</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/">Microsoft Research Summit: Surprising (and unsurprising) Inference Risks in Machine Learning</a>
@@ -1154,12 +1205,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/usenix-security-2020-hybrid-batch-attacks/">USENIX Security 2020: Hybrid Batch Attacks</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/neurips-2019-empirically-measuring-concentration/">NeurIPS 2019: Empirically Measuring Concentration</a>
 
 
    </div>

@@ -1,0 +1,33 @@
++++
+date = "20 Dec 2018"
+draft = false
+title = "ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples"
+author = "David Evans"
+categories = ["publications"]
+tags = ["adversarial machine learning", "Xiao Zhang", "ICLR"]
++++
+
+Xiao Zhang and my paper on [_Cost-Sensitive Robustness against Adversarial Examples_](https://openreview.net/forum?id=BygANhA9tQ&noteId=BJe7cKRWeN) has been accepted to ICLR 2019.
+
+Several recent works have developed methods for training classifiers
+that are certifiably robust against norm-bounded adversarial
+perturbations. However, these methods assume that all the adversarial
+transformations provide equal value for adversaries, which is seldom
+the case in real-world applications. We advocate for cost-sensitive
+robustness as the criteria for measuring the classifier's performance
+for specific tasks. We encode the potential harm of different
+adversarial transformations in a cost matrix, and propose a general
+objective function to adapt the robust training method of Wong &
+Kolter (2018) to optimize for cost-sensitive robustness. Our
+experiments on simple MNIST and CIFAR10 models and a variety of cost
+matrices show that the proposed approach can produce models with
+substantially reduced cost-sensitive robust error, while maintaining
+classification accuracy.
+
+<center>
+<img src="/images/protecteven.png" width="70%"> 
+<div class="caption">
+This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
+</center>
+
+Xiao will present the paper at ICLR in New Orleans in May 2019.

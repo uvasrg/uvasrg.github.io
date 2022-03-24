@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//uvasrg.github.io/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ICLR 2022: Understanding Intrinsic Robustness Using Label Uncertainty</title>
+      <link>//uvasrg.github.io/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/</link>
+      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/</guid>
+      <description>(Blog post written by Xiao Zhang)
+Motivated by the empirical hardness of developing robust classifiers against adversarial perturbations, researchers began asking the question “Does there even exist a robust classifier?”. This is formulated as the intrinsic robustness problem (Mahloujifar et al., 2019), where the goal is to characterize the maximum adversarial robustness possible for a given robust classification problem. Building upon the connection between adversarial robustness and classifier’s error region, it has been shown that if we restrict the search to the set of imperfect classifiers, the intrinsic robustness problem can be reduced to the concentration of measure problem.</description>
+    </item>
     
     <item>
       <title>Improved Estimation of Concentration (ICLR 2021)</title>
