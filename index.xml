@@ -19,7 +19,8 @@ We&amp;rsquo;ve posted work that helps understand how poisoning attacks work wit
 Poisoning Attacks and Subpopulation Susceptibility
 An Experimental Exploration on the Effectiveness of Poisoning Attacks
 Evan Rose, Fnu Suya, and David Evans
- Follow the link to try the interactive version!   Machine learning is susceptible to poisoning attacks in which adversaries inject maliciously crafted training data into the training set to induce specific model behavior.</description>
+ 
+Follow the link to try the interactive version!   Machine learning is susceptible to poisoning attacks in which adversaries inject maliciously crafted training data into the training set to induce specific model behavior.</description>
     </item>
     
     <item>

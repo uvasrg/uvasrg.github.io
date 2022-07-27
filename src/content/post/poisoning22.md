@@ -18,7 +18,7 @@ _An Experimental Exploration on the Effectiveness of Poisoning Attacks_
 Evan Rose, Fnu Suya, and David Evans
 
 <center>
-<img src="/images/visualizingpoisoning.png" width="85%"><br>
+<a href="/poisoning"><img src="/images/visualizingpoisoning.png" width="85%"></a><br>
 Follow <a href="/poisoning">the link</a> to try the interactive version!
 </center>
 
