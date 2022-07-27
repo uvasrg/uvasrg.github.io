@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 22 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>adversarial machine learning</title>
+      <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evan Rose</title>
+      <link>//uvasrg.github.io/tags/evan-rose/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/evan-rose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fnu Suya</title>
+      <link>//uvasrg.github.io/tags/fnu-suya/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/fnu-suya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poisoning attacks</title>
+      <link>//uvasrg.github.io/tags/poisoning-attacks/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/poisoning-attacks/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>adversary machine learning</title>
       <link>//uvasrg.github.io/tags/adversary-machine-learning/</link>
@@ -68,15 +104,6 @@
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>adversarial machine learning</title>
-      <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
-      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
       <description></description>
     </item>
     
@@ -158,15 +185,6 @@
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/david-evans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fnu Suya</title>
-      <link>//uvasrg.github.io/tags/fnu-suya/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/fnu-suya/</guid>
       <description></description>
     </item>
     
