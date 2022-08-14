@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>adversarial machine learning</title>
       <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
@@ -99,6 +103,15 @@
     </item>
     
     <item>
+      <title>privacy</title>
+      <link>//uvasrg.github.io/tags/privacy/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>privacy-preserving machine learning</title>
       <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
@@ -162,15 +175,6 @@
     </item>
     
     <item>
-      <title>privacy</title>
-      <link>//uvasrg.github.io/tags/privacy/</link>
-      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jack Prescott</title>
       <link>//uvasrg.github.io/tags/jack-prescott/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
@@ -185,6 +189,15 @@
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/david-evans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICML</title>
+      <link>//uvasrg.github.io/tags/icml/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/icml/</guid>
       <description></description>
     </item>
     
@@ -347,15 +360,6 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/aistats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ICML</title>
-      <link>//uvasrg.github.io/tags/icml/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/icml/</guid>
       <description></description>
     </item>
     

@@ -13,7 +13,7 @@
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/anshuman.png"><br><b><a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman Suri</a></b><br>Since Fall 2019<br>inference privacy<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/suya.png"><br><b><a href="https://fsuya.org/">Fnu Suya</a></b><br>Co-advised with Yuan Tian<br>Since Fall 2017<br>robust machine learning<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/xiaozhang.png"><br><b><a href="https://xiao-zhang.net/">Xiao Zhang</a></b><br>Since Summer 2018<br>robust machine learning<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/archit.jpg"><br><b>Archit Uniyal</b><br>Co-advised with Tianhao Wang<br>Since Fall 2022<br>privacy for NLP<br>   </div>
 </div>
 </center>
 
@@ -33,30 +33,21 @@
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Justin Chen</b><br>Undergraduate Researcher<br>Since Summer 2021<br>inference privacy<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Isabelle Fang</b><br>Undergraduate Researcher<br>Since Fall 2020<br>natural language processing<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yanjin Chen</b><br>Undergraduate Researcher<br>Since Summer 2022<br>inference privacy<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Scott Hong</b><br>Undergraduate Researcher<br>Since Summer 2022<br>black-box attacks machine learning systems<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Meredith James</b><br>Undergraduate Researcher<br>Since Fall 2021<br>inference privacy<br>   </div>
 </div>
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Katherine Knipmeyer</b><br>Undergraduate Researcher<br>Since Summer 2020<br>evaluating privacy for machine learning<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yifu Lu</b><br>Undergraduate Researcher<br>Since Fall 2021<br>inference privacy<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Sean Miller</b><br>Undergraduate Researcher<br>Since Summer 2021<br>poisoning attacks<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Evan Rose</b><br>Undergraduate Researcher<br>Since Summer 2021<br>poisoning attacks<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Jinghui Tian</b><br>Undergraduate Researcher<br>Since Summer 2022<br>black-box attacks machine learning systems<br>   </div>
 </div>
 </center>
-
-
-# <center>Visiting High School Student</center>
-
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Anika Karpurapu</b><br>Visiting High School Student<br>Since Fall 2020<br>evaluating privacy for machine learning<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Tingwei Zhang</b><br>Undergraduate Researcher<br>Since Summer 2022<br>black-box attacks machine learning systems<br>   </div>
 </div>
 </center>
 
@@ -96,6 +87,7 @@
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/xiaozhang.png"><br><b><a href="https://xiao-zhang.net/">Xiao Zhang</a></b><br>Summer 2018 &ndash; August 2022<br>PhD in Computer Science, May 2019<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/g732d9951"><em>From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning</em></a><br>CISPA Helmholtz Center for Information Security<br>   </div>
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/yuchenzhou.png"><br><b><a href="https://www.yuchenzhou.info/">Yuchen Zhou</a></b><br>Spring 2015<br>PhD in Computer Engineering, May 2015<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/2227mp92b"><em>Improving Security and Privacy of Integrated Web Applications</em></a><br>Palo Alto Networks; Facebook<br>   </div>
 </div>
 </center>
@@ -345,6 +337,11 @@
 # 
 
    <div class="hanging">
+<b>Justin Chen</b><br>Undergraduate Researcher, Since Summer 2021<br><div class="hanging">inference privacy<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b>Yikan Chen</b><br>Graduate Researcher, 2009 &ndash; 2011<br><div class="hanging"><a href="http://www.cs.virginia.edu/~evans/pubs/passat2011/">Auditing Information Leakage for Distance Metrics</a><br></div><div class="hanging">Amazon<br></div>   </div>
 
 # 
@@ -371,6 +368,11 @@
 
    <div class="hanging">
 <b><a href="https://twitter.com/eryous_ye">Youssef Errami</a></b><br>Undergraduate Researcher, Summer 2019 &ndash; Spring 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/jm214p64h"><em>A Deeper Look into the Fairness of Differential Privacy</em></a><br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Isabelle Fang</b><br>Undergraduate Researcher, Fall 2020 &ndash; Fall 2021<br><div class="hanging">natural language processing<br></div>   </div>
 
 # 
 
@@ -425,12 +427,22 @@
 # 
 
    <div class="hanging">
+<b>Anika Karpurapu</b><br>Visiting High School Student, Since Fall 2020<br><div class="hanging">evaluating privacy for machine learning<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b><a href="https://www.linkedin.com/in/anant-kharkar-502433b9">Anant Kharkar</a></b><br>Undergraduate Researcher, 2015 &ndash; 2018<br>BSCS 2018<br><div class="hanging">evading classifiers<br></div><div class="hanging">Amazon; Microsoft<br></div>   </div>
 
 # 
 
    <div class="hanging">
 <b><a href="http://www.noahdkim.com/">Noah Kim</a></b><br>Undergraduate Researcher, Summer 2017<br><div class="hanging"><a href="https://evademl.org/squeezing">feature squeezing</a><br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Katherine Knipmeyer</b><br>Undergraduate Researcher, Summer 2020 &ndash; Fall 2021<br><div class="hanging">evaluating privacy for machine learning<br></div>   </div>
 
 # 
 
@@ -506,6 +518,11 @@
 
    <div class="hanging">
 <b>Casey Mihaloew</b><br>Undergraduate Researcher, Summer 2011<br><div class="hanging">secure web aplication framework<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Sean Miller</b><br>Undergraduate Researcher, Since Summer 2021<br><div class="hanging">poisoning attacks<br></div>   </div>
 
 # 
 
