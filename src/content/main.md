@@ -39,8 +39,8 @@ class="smallcaption">
 <a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a>,
 <a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>,
 <A href="https://www.linkedin.com/in/minjun-elena-long-06a283173/">Elena&nbsp;Long</a>,
-Yanjin&nbsp;Chen,
-<a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee&nbsp;Zahur</a> (PhD 2016),
+Yanjin&nbsp;Chen,<br>
+<a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee&nbsp;Zahur</a>&nbsp;(PhD&nbsp;2016),
 <a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman&nbsp;Suri</a>,
 <A href="https://fsuya.org/">Fnu&nbsp;Suya</a>,
 Tingwei&nbsp;Zhang,
@@ -60,7 +60,7 @@ Scott&nbsp;Hong
 </div>
 <div class="column small-14 medium-7">
 
-<div class="mainsection">Other Projects</div>
+<div class="mainsection">Past Projects</div>
 
 <em>
 <a href="//securecomputation.org">Secure Multi-Party Computation</a></em>:
