@@ -35,16 +35,16 @@ src="/images/srg-lunch-2022-08-22-small.png" alt="SRG lunch"
 width=98%></a></br> <b>Security Research Group Lunch</b> <font
 size="-1">(22&nbsp;August&nbsp;2022)</font><br> <div
 class="smallcaption">
-<a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a>,
-<a href="https://www.josephinelamp.com/">Josephine Lamp</a>,
-<a href="https://hannahxchen.github.io/">Hannah Chen</a>,
-<A href="https://www.linkedin.com/in/minjun-elena-long-06a283173/">Elena Long</a>,
-Yanjin Chen,
-<a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee Zahur</a> (PhD 2016),
-<a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman Suri</a>,
-<A href="https://fsuya.org/">Fnu Suya</a>,
-Tingwei Zhang,
-Scott Hong
+<a href="https://bargavjayaraman.github.io/">Bargav&nbsp;Jayaraman</a>,
+<a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a>,
+<a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>,
+<A href="https://www.linkedin.com/in/minjun-elena-long-06a283173/">Elena&nbsp;Long</a>,
+Yanjin&nbsp;Chen,
+<a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee&nbsp;Zahur</a> (PhD 2016),
+<a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman&nbsp;Suri</a>,
+<A href="https://fsuya.org/">Fnu&nbsp;Suya</a>,
+Tingwei&nbsp;Zhang,
+Scott&nbsp;Hong
 </font> </center>
  </p> </div> </div>
 
