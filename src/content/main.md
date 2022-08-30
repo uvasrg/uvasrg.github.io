@@ -10,7 +10,7 @@ math = true
 <p></p>
 
 <div class="row">
-<div class="column small-25 medium-7">
+<div class="column small-10 medium-6">
 
 Our research seeks to empower individuals and organizations to control
 how their data is used.  We use techniques from cryptography,
@@ -24,10 +24,10 @@ current focus is on <em>adversarial machine learning</em>.
 
 Everyone is welcome at our research group meetings. To get
 announcements, join our <a
-href="https://uvasrg.slack.com/signup">Slack Group</a> (any
-<em>@virginia.edu</em> email address can join themsleves, or email me
-to request an invitation). </p> </div> <div class="column small-5
-medium-5">
+href="https://teams.microsoft.com/l/team/19%3aWdkw2xYq6taXh-0OftqQdt8SQ2vyvUI_Z0ZL39APghY1%40thread.tacv2/conversations?groupId=58076b41-c835-4a07-abaa-705bc7cca101&tenantId=7b3480c7-3707-4873-8b77-e216733a65ac">Teams Group</a> (any
+<em>@virginia.edu</em> email address can join themsleves; others should <a href="mailto:evans@virginia.edu">email me</a> to request an invitation). </p> </div>
+
+<div class="column small-10 medium-6">
 
 <center> <a
 href="/images/srg-lunch-2022-08-22.png"><img
