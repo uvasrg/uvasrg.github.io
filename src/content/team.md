@@ -93,6 +93,26 @@
 </center>
 
 
+<center> <a
+href="/images/srg-lunch-2022-08-22.png"><img
+src="/images/srg-lunch-2022-08-22-small.png" alt="SRG lunch"
+width=98%></a></br> <b>Security Research Group Lunch</b> <font
+size="-1">(22&nbsp;August&nbsp;2022)</font><br> <div
+class="smallcaption">
+<a href="https://bargavjayaraman.github.io/">Bargav&nbsp;Jayaraman</a>,
+<a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a>,
+<a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>,
+<A href="https://www.linkedin.com/in/minjun-elena-long-06a283173/">Elena&nbsp;Long</a>,
+Yanjin&nbsp;Chen,<br>
+<a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee&nbsp;Zahur</a>&nbsp;(PhD&nbsp;2016),
+<a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman&nbsp;Suri</a>,
+<A href="https://fsuya.org/">Fnu&nbsp;Suya</a>,
+Tingwei&nbsp;Zhang,
+Scott&nbsp;Hong
+</font> </center>
+
+
+
 # <center>Visitors</center>
 
    <center>
@@ -107,6 +127,27 @@
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/sicheng.png"><br><b><a href="https://schzhu.github.io/">Sicheng Zhu</a></b><br>Pre-Doctoral Visitor<br>Fall 2019 &ndash; Summer 2020<br>robust machine learning<br>University of Maryland PhD Student<br>   </div>
 </div>
 </center>
+
+<center> <a
+href="/images/srg2017/IMG_20171212_135015.jpg"><img
+src="/images/srg2017/IMG_20171212_135015-2.jpg" alt="SRG lunch"
+width=98%></a></br> <b>Security Research Group Lunch</b> <font
+size="-1">(12 December 2017)</font><br> <div
+class="smallcaption"> <a
+href="https://hainali.github.io/">Haina Li</a>, Felix Park,
+<a
+href="https://sites.google.com/site/mahmadjonas/">Mainuddin Jonas</a>,
+<A
+href="https://www.linkedin.com/in/anant-kharkar-502433b9">Anant Kharkar</a>,
+<a
+href="http://dblp2.uni-trier.de/pers/hd/s/Shezan:Faysal_Hossain">Faysal Hossain Shezan</a>,
+<A href="https://fsuya.org/">Fnu Suya</a>, <A
+href="https://www.cs.virginia.edu/evans">David Evans</a>, <a
+href="https://www.yuantiancmu.com/">Yuan Tian</a>, <a
+href="//www.cs.columbia.edu/~riley/">Riley Spahn</a>, <a
+href="//www.cs.virginia.edu/~wx4ed/">Weilin Xu</a>, <a
+href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
+</font> </center>
 
 
 # Graduated Masters Students
