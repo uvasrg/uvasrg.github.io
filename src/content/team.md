@@ -237,7 +237,7 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 <center>
 <a href="/2011/hoos-at-usenix.html"><img src="/images/grouplunch/hoos-at-usenix-small.png" width=650 height=365 border=0></img></a><br>
 <b>Students and Alumni at USENIX Security 2011</b>
-</center>
+</center><p></br></p>
                       
 
 # Undergraduate Researchers Completed PhDs
