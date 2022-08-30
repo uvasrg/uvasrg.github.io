@@ -98,7 +98,7 @@ href="/images/srg-lunch-2022-08-22.png"><img
 src="/images/srg-lunch-2022-08-22-small.png" alt="SRG lunch"
 width=98%></a></br> <b>Security Research Group Lunch</b> <font
 size="-1">(22&nbsp;August&nbsp;2022)</font><br> <div
-class="smallcaption">
+class="smallcaption"><center>
 <a href="https://bargavjayaraman.github.io/">Bargav&nbsp;Jayaraman</a>,
 <a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a>,
 <a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>,
@@ -109,8 +109,8 @@ Yanjin&nbsp;Chen,<br>
 <A href="https://fsuya.org/">Fnu&nbsp;Suya</a>,
 Tingwei&nbsp;Zhang,
 Scott&nbsp;Hong
-</font> </center>
-
+</center></font> </center>
+<p><br></p>
 
 
 # <center>Visitors</center>
@@ -148,6 +148,7 @@ href="//www.cs.columbia.edu/~riley/">Riley Spahn</a>, <a
 href="//www.cs.virginia.edu/~wx4ed/">Weilin Xu</a>, <a
 href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 </font> </center>
+<p></br></p>
 
 
 # Graduated Masters Students
