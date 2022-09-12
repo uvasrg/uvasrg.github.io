@@ -6,7 +6,7 @@ associated with machine learning. This includes both _data privacy_
 and learning process) and _inference privacy_ (limiting what can be
 inferred about sensitive training data from an exposed model).
 
-## Blog Posts
+# Inference Privacy
 
 These blog posts summarize our recent work on evaluating inference leakage from models:
 
@@ -16,60 +16,48 @@ These blog posts summarize our recent work on evaluating inference leakage from 
 
 - [_Evaluating Differentially Private Machine Learning in Practice_](https://uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/) ([USENIX Security 2019 Paper](https://arxiv.org/abs/1902.08874))
 
-## Publications
+### Publications
 
 <a href="https://arxiv.org/abs/2209.01292"><em>Are Attribute Inference
-    Attacks Just Imputation?</em></a>
-<blockquote>
-Bargav Jayaraman and David
+    Attacks Just Imputation?</em></a>. Bargav Jayaraman and David
 Evans. In <a href="https://www.sigsac.org/ccs/CCS2022/">29<sup>th</sup> ACM
     Conference on Computer and Communications Security</a>
 (CCS). November
 2022. [<a href="https://arxiv.org/abs/2209.01292">Arxiv</a>]
 [<a href="https://github.com/bargavj/EvaluatingDPML">Code</a>]
-</blockquote>
 
 <a href="https://arxiv.org/abs/2109.06024"><em>Formalizing and
     Estimating Distribution Inference Risks
-</em></a>
-<blockquote>
-Anshuman Suri and David
+</em></a>. Anshuman Suri and David
 Evans. In <a href="https://petsymposium.org/2022/">Privacy Enhancing
     Technologies Symposium</a> (PETS). July 2022. (Also published
 in <a href="https://petsymposium.org/popets/2022/">Proceedings on
     Privacy Enhancing Technologies</a>, Issue 4, 2022.)
 [<a href="https://arxiv.org/abs/2109.06024">Arxiv</a>]
 [<a href="https://github.com/iamgroot42/FormEstDistRisks">Code</a>]
-</blockquote>
 
 <a href="https://arxiv.org/abs/2005.10881"><em>
-Revisiting Membership Inference Under Realistic Assumptions</em></a>
-<blockquote>
-Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer, Quanquan Gu, and David
+Revisiting Membership Inference Under Realistic Assumptions</em></a>. Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer, Quanquan Gu, and David
 Evans. In <a href="https://www.petsymposium.org/2021/">Proceedings on Privacy Enhancing Technologies</a>
 (PETS). July
 2021. [<a href="https://arxiv.org/abs/2005.10881">Arxiv</a>]
 [<A href="https://arxiv.org/pdf/2005.10881.pdf">PDF</a>] [<a href="https://github.com/bargavj/EvaluatingDPML">Code</a>]
-</blockquote>
 
 <em><a href="usenix2019/">Evaluating Differentially Private Machine
-Learning in Practice</a></em>
-<blockquote>
-Bargav Jayaraman and David Evans. In <a
+Learning in Practice</a></em>. Bargav Jayaraman and David Evans. In <a
 href="https://www.usenix.org/conference/usenixsecurity19"><em>28<sup>th</sup>
 USENIX Security Symposium</em></a>. Santa&nbsp;Clara. August 2019. 
 [<a href="usenix2019/evaluatingdp.pdf">PDF</a>]
 [<a href="https://arxiv.org/abs/1902.08874">arXiv</a>] 
 [<A href="https://github.com/bargavj/EvaluatingDPML">code</a>]
-</blockquote>
 
-## Privacy-Preserving Machine Learning
+# Privacy-Preserving Machine Learning
 
 _Distributed learning_ (sometimes marketed as _federated learning_)
 allows a group of independent data owners to collaboratively learn a
 model over their data sets without exposing their private data.
 
-### Projects
+## Projects
 
 [**Integrating Multi-Party Computation with Differential Privacy**](https://oblivc.org/ppml/) ([Code](https://github.com/bargavj/distributedMachineLearning), [NeurIPS 2018 Paper](https://oblivc.org/docs/neurips2018.pdf)  
 [Bargav Jayaraman](https://bargavjayaraman.github.io/), Lingxiao Wang, [Quanquan Gu](http://web.cs.ucla.edu/~qgu/research.html)
