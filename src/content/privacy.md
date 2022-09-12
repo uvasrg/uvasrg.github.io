@@ -166,7 +166,3 @@ Ilya Mironov, <A href="https://www.youtube.com/watch?v=oQzaA5KG3pM"><em>Rényi D
 </tr>
 
    </table>
-
-
-
-Join [our slack group](https://uvasrg.slack.com) for announcements about future meetings.
