@@ -783,8 +783,8 @@ Jonathan Burket (BACS 2013, CMU PhD program), 2013&amp;nbsp;Honorable Mention Pe
       
       <guid>//uvasrg.github.io/privacy/</guid>
       <description>Machine Learning Privacy Our research focuses on understanding and mitigating privacy risks associated with machine learning. This includes both data privacy (protecting sensitive data used to train a model during the collection and learning process) and inference privacy (limiting what can be inferred about sensitive training data from an exposed model).
-Evaluating Inference Privacy These two blog posts summarize our recent work on evaluating inference leakage from models:
-  Merlin, Morgan, and the Importance of Thresholds and Priors (Preprint)</description>
+Blog Posts These blog posts summarize our recent work on evaluating inference leakage from models:
+  On the Risks of Distribution Inference (PETS 2022 Paper: Formalizing and Estimating Distribution Inference Risks</description>
     </item>
     
     <item>

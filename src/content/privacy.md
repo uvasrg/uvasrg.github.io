@@ -6,15 +6,62 @@ associated with machine learning. This includes both _data privacy_
 and learning process) and _inference privacy_ (limiting what can be
 inferred about sensitive training data from an exposed model).
 
-## Evaluating Inference Privacy
+## Blog Posts
 
-These two blog posts summarize our recent work on evaluating inference leakage from models:
+These blog posts summarize our recent work on evaluating inference leakage from models:
 
-- [_Merlin, Morgan, and the Importance of Thresholds and Priors_](https://uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/) ([Preprint](https://arxiv.org/abs/2005.10881))
+- [_On the Risks of Distribution Inference_](https://uvasrg.github.io/on-the-risks-of-distribution-inference/) (PETS 2022 Paper: [_Formalizing and Estimating Distribution Inference Risks_](https://arxiv.org/abs/2109.06024)
+
+- [_Merlin, Morgan, and the Importance of Thresholds and Priors_](https://uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/) (PETS 2021 Paper: [_Revisiting Membership Inference Under Realistic Assumptions_ ](https://arxiv.org/abs/2005.10881))
 
 - [_Evaluating Differentially Private Machine Learning in Practice_](https://uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/) ([USENIX Security 2019 Paper](https://arxiv.org/abs/1902.08874))
 
-[Code](https://github.com/bargavj/EvaluatingDPML)
+## Publications
+
+<a href="https://arxiv.org/abs/2209.01292"><em>Are Attribute Inference
+    Attacks Just Imputation?</em></a>
+<blockquote>
+Bargav Jayaraman and David
+Evans. In <a href="https://www.sigsac.org/ccs/CCS2022/">29<sup>th</sup> ACM
+    Conference on Computer and Communications Security</a>
+(CCS). November
+2022. [<a href="https://arxiv.org/abs/2209.01292">Arxiv</a>]
+[<a href="https://github.com/bargavj/EvaluatingDPML">Code</a>]
+</blockquote>
+
+<a href="https://arxiv.org/abs/2109.06024"><em>Formalizing and
+    Estimating Distribution Inference Risks
+</em></a>
+<blockquote>
+Anshuman Suri and David
+Evans. In <a href="https://petsymposium.org/2022/">Privacy Enhancing
+    Technologies Symposium</a> (PETS). July 2022. (Also published
+in <a href="https://petsymposium.org/popets/2022/">Proceedings on
+    Privacy Enhancing Technologies</a>, Issue 4, 2022.)
+[<a href="https://arxiv.org/abs/2109.06024">Arxiv</a>]
+[<a href="https://github.com/iamgroot42/FormEstDistRisks">Code</a>]
+</blockquote>
+
+<a href="https://arxiv.org/abs/2005.10881"><em>
+Revisiting Membership Inference Under Realistic Assumptions</em></a>
+<blockquote>
+Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer, Quanquan Gu, and David
+Evans. In <a href="https://www.petsymposium.org/2021/">Proceedings on Privacy Enhancing Technologies</a>
+(PETS). July
+2021. [<a href="https://arxiv.org/abs/2005.10881">Arxiv</a>]
+[<A href="https://arxiv.org/pdf/2005.10881.pdf">PDF</a>] [<a href="https://github.com/bargavj/EvaluatingDPML">Code</a>]
+</blockquote>
+
+<em><a href="usenix2019/">Evaluating Differentially Private Machine
+Learning in Practice</a></em>
+<blockquote>
+Bargav Jayaraman and David Evans. In <a
+href="https://www.usenix.org/conference/usenixsecurity19"><em>28<sup>th</sup>
+USENIX Security Symposium</em></a>. Santa&nbsp;Clara. August 2019. 
+[<a href="usenix2019/evaluatingdp.pdf">PDF</a>]
+[<a href="https://arxiv.org/abs/1902.08874">arXiv</a>] 
+[<A href="https://github.com/bargavj/EvaluatingDPML">code</a>]
+</blockquote>
 
 ## Privacy-Preserving Machine Learning
 
