@@ -26,7 +26,7 @@ d-figure > figure {
 }
 
 d-figure.attackAnim .param-space-acc .acc-dif-hist .dif-scatter {
-  grid-column: text;
+  /* grid-column: text; */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -333,8 +333,18 @@ d-figure.poison-demo {
   left: calc(50px - 32px);
 }
 
+.restart-button {
+  right: calc(50px - 34px - 2.5px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
 .reset-button {
-  right: calc(50px - 32px - 2.5px);
+  right: calc(50px - 92px - 2.5px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
 }
 
 .control-button {
@@ -457,34 +467,44 @@ d-figure.poison-demo {
   pointer-events: visible;
 }
 
-.summary-box-scrollarea {
-  overflow-y: auto;
-  overflow-x: hidden;
+.summary-box-area {
+  /* overflow-y: auto; */
+  /* overflow-x: hidden; */
   margin: 10px;
-  width: calc(100% - 20px);
-  height: calc(100% - 20px);
+  display:flex;
+  flex-wrap: wrap;
+  /* width: calc(100% - 20px); */
+  /* height: calc(100% - 20px); */
 }
 
 .summary-box-entry {
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   display: block;
   padding:0px;
-  width:calc(100% - 5px);
+  width:calc(25% - 10px);
+  /* height:calc(25%); */
 }
 
 .attack-summary-container {
-  overflow-y: auto;
+  /* overflow-y: auto; */
   margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 10px;
+  margin-left:10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  /* row-gap: 0px; */
+  /* margin-left: 5px; */
+  /* margin-right: 10px; */
 }
   
 .attack-summary-container .item {
   display: block;
   float: left;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-bottom: 10px;
-  width: calc(33% - 5px);
+  width: calc(25% - 10px);
   height: auto;
 }
 

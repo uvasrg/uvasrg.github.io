@@ -32,7 +32,7 @@ d-figure > figure {
 }
 
 d-figure.attackAnim .param-space-acc .acc-dif-hist .dif-scatter {
-  grid-column: text;
+  /* grid-column: text; */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -339,8 +339,18 @@ d-figure.poison-demo {
   left: calc(50px - 32px);
 }
 
+.restart-button {
+  right: calc(50px - 34px - 2.5px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
 .reset-button {
-  right: calc(50px - 32px - 2.5px);
+  right: calc(50px - 92px - 2.5px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
 }
 
 .control-button {
@@ -463,34 +473,44 @@ d-figure.poison-demo {
   pointer-events: visible;
 }
 
-.summary-box-scrollarea {
-  overflow-y: auto;
-  overflow-x: hidden;
+.summary-box-area {
+  /* overflow-y: auto; */
+  /* overflow-x: hidden; */
   margin: 10px;
-  width: calc(100% - 20px);
-  height: calc(100% - 20px);
+  display:flex;
+  flex-wrap: wrap;
+  /* width: calc(100% - 20px); */
+  /* height: calc(100% - 20px); */
 }
 
 .summary-box-entry {
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   display: block;
   padding:0px;
-  width:calc(100% - 5px);
+  width:calc(25% - 10px);
+  /* height:calc(25%); */
 }
 
 .attack-summary-container {
-  overflow-y: auto;
+  /* overflow-y: auto; */
   margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 10px;
+  margin-left:10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  /* row-gap: 0px; */
+  /* margin-left: 5px; */
+  /* margin-right: 10px; */
 }
   
 .attack-summary-container .item {
   display: block;
   float: left;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-bottom: 10px;
-  width: calc(33% - 5px);
+  width: calc(25% - 10px);
   height: auto;
 }
 
@@ -735,9 +755,10 @@ d-figure.poison-demo {
       We use linear SVM models for our experiments. Before conducting the poisoning attacks against the subpopulations, let’s observe the behavior of the clean models trained on each combination of the dataset parameters:
     </p>
 
-    <d-figure id="svelte-param-space-acc-dfigure" class="param-space-acc">
+    <d-figure id="svelte-param-space-acc-dfigure" class="l-page-outset">
       <figure>
-        <div id="svelte-param-space-acc-target" style="pointer-events: none; text-align: center;"></div>
+        <!-- <div id="svelte-param-space-acc-target" style="pointer-events: none; text-align: center;"></div> -->
+        <div id="svelte-param-space-acc-target" style="pointer-events: none; margin:auto"></div>
         <figcaption>
           The clean model performance can be affected by the dataset parameters: as the two classes are more separated and less noisy, the clean models achieve higher test accuracy. Click points on the plot to see the datasets generated with each parameter combination.
         </figcaption>
@@ -755,8 +776,14 @@ d-figure.poison-demo {
     </p>
 
     <p>
-      Our choice of attack algorithm requires a target model as input. For our attacks, the required target model is generated using the label-flipping attack variant described in Koh et al.<d-cite key="koh2018stronger"></d-cite>, which is also used by Suya et al. in their experiments. For each subpopulation, we use the label-flipping attack to generate a collection of candidate classifiers (using different fraction and repetition number) which each achieve 0% accuracy (100% error rate) on the target subpopulation. Afterwards, the classifier with the lowest loss on the clean training set is chosen to be the target model, as done in Suya et al.<d-cite key="suya2021modeltargeted"></d-cite>. For our case, the attack terminates when the induced model misclassifies at least 50% of the target subpopulation, measured on the test set<d-footnote>Why do we terminate the attack after achieving only 50% attack success? In earlier experiments requiring 100% attack success, we observed that attack difficulty was often determined by outliers in the subpopulation. By relaxing the attack success requirement, we are able to capture the more essential properties of an attack against each subpopulation. Since our eventual goal is to characterize attack difficulty in terms of the properties of the targeted subpopulation (which outliers do not necessarily satisfy), this is a reasonable relaxation.</d-footnote>.
+      Our choice of attack algorithm requires a target model as input. For our attacks, the required target model is generated using the label-flipping attack variant described in Koh et al.<d-cite key="koh2018stronger"></d-cite>, which is also used by Suya et al. in their experiments. For each subpopulation, we use the label-flipping attack to generate a collection of candidate classifiers (using different fraction and repetition number) which each achieve 0% accuracy (100% error rate) on the target subpopulation. Afterwards, the classifier with the lowest loss on the clean training set is chosen to be the target model, as done in Suya et al.<d-cite key="suya2021modeltargeted"></d-cite>.
     </p>
+
+    <p>
+      For our case, the attack terminates when the induced model misclassifies at least 50% of the target subpopulation, measured on the test set. This threshold was chosen to mitigate the impact of outliers in the subpopulations. In earlier experiments requiring 100% attack success, we observed that attack difficulty was often determined by outliers in the subpopulation. By relaxing the attack success requirement, we are able to capture the more essential properties of an attack against each subpopulation. Since our eventual goal is to characterize attack difficulty in terms of the properties of the targeted subpopulation (which outliers do not necessarily satisfy), this is a reasonable relaxation.
+    </p>
+
+    <!-- <d-footnote>Why do we terminate the attack after achieving only 50% attack success? In earlier experiments requiring 100% attack success, we observed that attack difficulty was often determined by outliers in the subpopulation. By relaxing the attack success requirement, we are able to capture the more essential properties of an attack against each subpopulation. Since our eventual goal is to characterize attack difficulty in terms of the properties of the targeted subpopulation (which outliers do not necessarily satisfy), this is a reasonable relaxation.</d-footnote> -->
 
     <p>
       Since we want to describe attack difficulties by the (essential) number of poisoning points needed (i.e., the number of poisoning points of the optimal attacks), more efficient attacks serve as better proxy to the (unknown) optimal poisoning attacks. To achieve the reported state-of-the-art performance using the chosen model-targeted attack, it is important to choose a suitable target model, and we ensure this by selecting the target models using the selection criteria mentioned above. This selection criteria is also justified in the analysis of the <a id="attack-algo-theoretical-return" href="#attack-algo-theoretical">theoretical properties of the attack framework</a>.
@@ -776,7 +803,7 @@ d-figure.poison-demo {
     </d-figure>
 
     <p>
-      The above animation shows how the attack sequentially adds poisoning points into the training set to move the induced model towards the target model. Take note of how the poisoning points with positive labels work to reorient the model's decision boundary to cover the subpopulation while minimizing the impact on the rest of the dataset. This behavior also echos with the target model selection criteria mentioned above, which aims to minimize the loss on the clean training set while satisfying the attacker goal. Another possible way to generate the target model is to push the entire clean decision boundary downwards without reorienting it<d-footnote>i.e., the target model differs from the clean model only in the bias term.</d-footnote>, but this will result in a model with higher loss on other parts of the dataset, and thus a higher (overall) loss difference to the clean model. Intuitively, such an alternative would experience more "resistance" from the dataset, preventing the induced model from moving as swiftly to the target.
+      The above animation shows how the attack sequentially adds poisoning points into the training set to move the induced model towards the target model. Take note of how the poisoning points with positive labels work to reorient the model's decision boundary to cover the subpopulation while minimizing the impact on the rest of the dataset. This behavior also echoes with the target model selection criteria mentioned above, which aims to minimize the loss on the clean training set while satisfying the attacker goal. Another possible way to generate the target model is to push the entire clean decision boundary downwards without reorienting it<d-footnote>i.e., the target model differs from the clean model only in the bias term.</d-footnote>, but this will result in a model with higher loss on other parts of the dataset, and thus a higher (overall) loss difference to the clean model. Intuitively, such an alternative would experience more "resistance" from the dataset, preventing the induced model from moving as swiftly to the target.
     </p>
 
     <d-figure class="l-page-outset" style="display: inline-flex; justify-content: space-evenly; margin-top: 25px;">
@@ -841,9 +868,9 @@ d-figure.poison-demo {
       As mentioned earlier, the properties that apply to the above two datasets should also apply to all other datasets with either close class centers or high label noise. We can demonstrate this empirically by looking at the mean attack difficulty over the entire grid of the dataset parameters, where we describe the difficulty of an attack against a dataset of $n$ training samples that uses $p$ poisoning points using the ratio $p/n$. That is, the difficulty of an attack is the fraction of poisoning points added relative to the size of the original clean training set to achieve the attacker goal.
     </p>
 
-    <d-figure id="svelte-param-space-dif-dfigure" class="param-space-acc">
+    <d-figure id="svelte-param-space-dif-dfigure" class="l-page-outset">
       <figure>
-        <div id="svelte-param-space-dif-target" style="pointer-events: none; text-align: center;"></div>
+        <div id="svelte-param-space-dif-target" style="pointer-events: none; margin:auto;"></div>
         <figcaption>Average attack difficulty is roughly characterized by clean model accuracy, with more accurate models corresponding to more difficult attacks. Click points on the plot to see different dataset parameter combinations, or click datasets on the right to see specific attacks.</figcaption>
       </figure>
     </d-figure>
@@ -962,12 +989,16 @@ d-figure.poison-demo {
       </figure>
     </d-figure>
 
-    <p>
+    <!-- <p>
       In the above histogram, we see a wide range of attack difficulties. Note that the overall low difficulties still represent a significant contribution from the attacker, since $n = 15,682$ for the Adult dataset (for example, a difficulty of 0.05 corresponds to ~780 poisons).
+    </p> -->
+
+    <p>
+      The range of difficulties as indictated by the histogram is significant: an attack with a difficulty of 0.1 uses 10 times as many points as an attack with a difficulty of 0.01. For a more concrete example, consider the subpopulation consisting of all people who have never married and the subpopulation consisting of divorced craft-repair workers (each subpopulation only taking negative-labeled instances). Both subpopulations are perfectly classified by the clean model, but the attack against the first subpopulation uses 1,490 poisoning points, while the attack against the second uses only 281.
     </p>
 
     <p>
-      For completeness, we can also plot the attack difficulty against numerical properties of the Adult dataset subpopulations:
+      We can also plot the attack difficulty against numerical properties of the Adult dataset subpopulations:
     </p>
 
     <d-figure id="svelte-adult-scatter-dfigure" class="dif-scatter">
@@ -989,10 +1020,10 @@ d-figure.poison-demo {
       To start, we compare a few attacks from our experiments on the Adult dataset.
     </p>
 
-    <d-figure id="svelte-adult-comparison1A-dfigure" class="acc-dif-hist">
+    <d-figure id="svelte-adult-comparison1-dfigure" class="acc-dif-hist">
       <figure>
-        <div id="svelte-adult-comparison1A-target" style="pointer-events: none; text-align: center;"></div>
-        <figcaption>How do semantic properties of a subpopulation affect attack difficulty? All of the above subpopulations are of similar sizes and are classified with 100% accuracy by the clean model.</figcaption>
+        <div id="svelte-adult-comparison1-target" style="pointer-events: none; text-align: center;"></div>
+        <figcaption>In some cases, ambient positivity is an indicator of the attack difficulty, especially if it relates to the loss difference (on clean training data) between the clean and the target models.</figcaption>
       </figure>
     </d-figure>
 
@@ -1001,15 +1032,8 @@ d-figure.poison-demo {
     </p>
 
     <p>
-      For a subpopulation with a given property $P$, let us call the set of all points satisfying $P$ the <em>ambient subpopulation</em> (since it also includes positive-label points), and call the fraction of points in the ambient subpopulation with a positive label the <em>ambient positivity</em> of the subpopulation. In the above attacks, attack difficulty is closely correlated with the ambient positivity of the subpopulation. This makes sense, since positive-label points near the subpopulation work to the advantage of the attacker when attempting to induce misclassification of the negative-label points. Stated in terms of the model-targeted attack, if the clean model classifies the ambient subpopulation as the negative label, then the loss difference between the target and clean models is smaller if there are positive-label points in that region.
+      For a subpopulation with a given property $P$, let us call the set of all points satisfying $P$ the <em>ambient subpopulation</em> (since it also includes positive-label points), and call the fraction of points in the ambient subpopulation with a positive label the <em>ambient positivity</em> of the subpopulation. In the above attacks, attack difficulty is negatively correlated with the ambient positivity of the subpopulation. This makes sense, since positive-label points near the subpopulation work to the advantage of the attacker when attempting to induce misclassification of the negative-label points. Stated in terms of the model-targeted attack, if the clean model classifies the ambient subpopulation as the negative label, then the loss difference between the target and clean models is smaller if there are positive-label points in that region.
     </p>
-
-    <d-figure id="svelte-adult-comparison1B-dfigure" class="acc-dif-hist">
-      <figure>
-        <div id="svelte-adult-comparison1B-target" style="pointer-events: none; text-align: center;"></div>
-        <figcaption>In some cases, ambient positivity is an indicator of the attack difficulty, especially if it relates to the loss difference (on clean training data) between the clean and the target models.</figcaption>
-      </figure>
-    </d-figure>
 
     <p>
       But does the ambient positivity of a subpopulation necessarily determine attack difficulty for otherwise similar subpopulations? If we restrict our view to subpopulations with similar pre-poisoning ambient positivity (e.g., between 0.2 and 0.3), we still find a significant spread of attack difficulties:
@@ -1103,7 +1127,7 @@ d-figure.poison-demo {
     <h3 id="attack-algo-theoretical">Attack Algorithm Theoretical Properties</h3>
 
     <p>
-      We consider a binary prediction task $h : \mathcal{X} \rightarrow \mathcal{Y},$ where $\mathcal{X} \subseteq \mathbb{R}^d$ and $\mathcal{Y} = \{+1, -1\},$ and where the prediction model $h$ is characterized by the model parameters $\theta \in \Theta \subseteq \mathbb{R}^d.$ We denote the non-negative convex loss on a point $(x, y) \in \mathcal{X} \times \mathcal{Y}$ by $l(\theta; x, y)$, and define the loss over a set of points $A$ as $L(\theta; A) = \sum_{(x, y) \in A} l(\theta; x, y)$.
+      We consider a binary prediction task $h : \mathcal{X} \rightarrow \mathcal{Y},$ where $\mathcal{X} \subseteq \mathbb{R}^d$ and $\mathcal{Y} = \{+1, -1\},$ and where the prediction model $h$ is characterized by the model parameters $\theta \in \Theta \subseteq \mathbb{R}^d.$ We denote the non-negative convex loss on a point $(x, y) \in \mathcal{X} \times \mathcal{Y}$ by $l(\theta; x, y)$, and define the loss over a set of points $A$ as $L(\theta; A) = \sum_{(x, y) \in A} l(\theta; x, y)$. Denote by $\mathcal{D}_c$ the clean dataset sampled from some distribution over $\mathcal{X} \times \mathcal{Y}$.
     </p>
 
     <p>
@@ -1115,7 +1139,7 @@ d-figure.poison-demo {
     </d-math>
 
     <p>
-      then the loss-based distance between the induced model $\theta_{atk}$ and the target model $\theta_p$ correlates to the loss difference $L(\theta_p; \mathcal{D}_c) - L(\theta_c; D_c)$ between $\theta_p$ and the clean model $\theta_c$ on the clean dataset. This fact gives a general heuristic for predicting attack difficulty: the closer a target model is to the clean model as measured by loss difference on the clean dataset (under the same search space of poisoning points), the easier the attack will be. This also justifies the decision to choose a target model with lower loss on the clean dataset.
+      then the loss-based distance between the induced model $\theta_{atk}$ and the target model $\theta_p$ correlates to the loss difference $L(\theta_p; \mathcal{D}_c) - L(\theta_c; \mathcal{D}_c)$ between $\theta_p$ and the clean model $\theta_c$ on the clean dataset $\mathcal{D}_c$. This fact gives a general heuristic for predicting attack difficulty: the closer a target model is to the clean model as measured by loss difference on the clean dataset (under the same search space of poisoning points), the easier the attack will be. This also justifies the decision to choose a target model with lower loss on the clean dataset.
     </p>
 
     <a href="#attack-algo-theoretical-return">Back to the main text</a>

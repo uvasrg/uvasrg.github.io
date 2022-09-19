@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="//uvasrg.github.io/tags/evan-rose/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/evan-rose/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visualizing Poisoning</title>
       <link>//uvasrg.github.io/visualizing-poisoning/</link>
