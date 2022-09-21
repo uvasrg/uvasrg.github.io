@@ -42,6 +42,18 @@ d-figure.acc-dif-hist .tick line, d-figure.dif-scatter .tick line {
   visibility: visible;
 }
 
+d-byline {
+  /* contain: style;
+  overflow: hidden;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /* font-size: 0.8rem;
+  line-height: 1.8em;
+  padding: 1em 0;
+  padding-top: 0em 0;
+  min-height: 1.8em; */
+}
+
 /* d-figure.dif-scatter .tick line {
   visibility: visible;
 } */
@@ -61,6 +73,7 @@ d-figure.poison-demo {
   height: 684;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1.5em;
 }
 
 .hidden {
@@ -566,6 +579,7 @@ d-figure.poison-demo {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  pointer-events: none;
 }
 
 .demo-stats-text {
@@ -587,7 +601,7 @@ d-figure.poison-demo {
   /* line-height: 12px; */
 }
   </style>
-  <script src="https://distill.pub/template.v2.js"></script>
+  <script src="js/_distill/template.v2.js"></script>
   <script src="https://d3js.org/d3.v6.min.js"></script>
 </head>
 
@@ -639,6 +653,43 @@ d-figure.poison-demo {
     <h1>Poisoning Attacks and Subpopulation Susceptibility</h1>
     <p>An Experimental Exploration on the Effectiveness of Poisoning Attacks</p>
   </d-title>
+
+  <d-byline>
+    <div class="byline grid" style="grid-template-columns: 1fr 1fr 1fr;">
+      <div class="authors-affiliations grid">
+        <h3>Authors</h3>
+        <h3>Affiliations</h3>
+
+        <p class="author">
+          <span class="name">Evan Rose</span>
+        </p>
+        <p class="affiliation">
+          <a class="affiliation" href="https://engineering.virginia.edu/departments/computer-science">University of Virginia</a>
+        </p>
+
+        <p class="author">
+          <a class="name" href="https://fsuya.org/">Fnu Suya</a>
+        </p>
+        <p class="affiliation"></p>
+
+        <p class="author">
+          <a class="name" href="https://www.cs.virginia.edu/evans">David Evans</a>
+        </p>
+        <p class="affiliation"></p>
+
+      </div>
+      <div>
+        <h3>Published</h3>
+        <p>VISxAI</p>
+        <p>September 21, 2022</p>
+      </div>
+      <!-- <div>
+        <h3>DOI</h3>
+  
+        <p><em>No DOI yet.</em></p>
+      </div> -->
+    </div>
+  </d-byline>
 
   <d-figure id="svelte-poison-demo-dfigure" class="poison-demo">
     <figure>
@@ -926,7 +977,7 @@ d-figure.poison-demo {
     <h3>Quantitative Analysis</h3>
 
     <p>
-      Visualizations are helpful, but are rarely possible given the high-dimensional nature of most datasets in practice. Now that we have visualized some of the attacks in the lower-dimensional setting, can we quantify the properties that describe the difficulty of poisoning attacks?
+      Visualizations are helpful, but cannot be directly created in the case of high-dimensional datasets. Now that we have visualized some of the attacks in the lower-dimensional setting, can we quantify the properties that describe the difficulty of poisoning attacks?
     </p>
 
     <p>
@@ -976,10 +1027,70 @@ d-figure.poison-demo {
       In total, 4,338 subpopulations are formed using this method. Each of these subpopulations is attacked using the same attack as in the case of synthetic dataset. Of these attacks, 1,602 were trivial (i.e., the clean model already satisfies the attack objective), leaving 2,736 nontrivial attacks.
     </p>
 
+    <h3>Visualization</h3>
+
+    <p>
+      The Adult dataset is high-dimensional (57 after data transformations), and so attacks against it cannot be directly visualized as in the case of synthetic datasets. However, by employing dimensionality reduction techniques, we can indirectly visualize poisoning attacks in the high-dimensional setting.
+    </p>
+
+    <p>
+      Dimensionality reduction gives us a way to visualize the high-dimensional data points in two dimensions, but we still need a way to visualize a classifier's behavior on these points. Previous attempts to visualize high-dimensional classifiers have used self-organizing maps <d-cite key="Hamel2006VisualizationOS"></d-cite>, projection-based tour methods <d-cite key="Caragea2001"></d-cite>, hyperplane intersection techniques <d-cite key="Poulet2008"></d-cite>, or Voronoi tesslations constructed from projected data points <d-cite key="Migut2013"></d-cite>. We will focus on another type of technique explored separately by Shulz et al. and Rodrigues et al., which attempts to produce a rich depiction of the classifier's behavior by examining the classifier's classification on data points sampled from the high-dimensional space <d-cite key="Schulz2014, Rodrigues2019"></d-cite>.
+    </p>
+
+    <p>
+      The key idea in the work by Shulz et al. and Rodrigues et al. is to find additional points in the high-dimensional space corresponding to points in the lower-dimensional projection space. More specifically, the visualization process can be described by the following procedure:
+    </p>
+
+    <ol>
+      <li>
+        Given a high-dimensional data space $\mathcal{X}$, a low-dimensional projection space $\mathcal{Z}$, and data points $x_i$ from $\mathcal{X}$, train an embedding map $\pi \colon \mathcal{X} \to \mathcal{Z}$ to obtain the projected points $z_i = \pi(x_i)$.
+      </li>
+      <li>
+        Sample the projection space $\mathcal{Z}$ to obtain the image sample points $z'_i$. Determine points $x'_i$ in the data space $\mathcal{X}$ which project to the image sample points $\pi(x'_i) \approx z_i$ via some learned inverse mapping $\pi^{-1} \colon \mathcal{Z} \to \mathcal{X}$.
+      </li>
+      <li>
+        Use the classifier $f$ defined on the data space to determine labels $f(x'_i)$ for each of the additional data points $x'_i$. Visualize the data points and classifier behavior by plotting the projected points $z_i$ on a scatterplot and coloring the background according to the sampled pairs $(z'_i, f(x'_i))$.
+      </li>
+    </ol>
+
+    <!-- <p>
+      The image sample points can be sampled in a rectangular grid as in of Shulz et al., or uniformly at random as in Rodrigues et al. In our experiments, we sample according to a 
+    </p> -->
+
+    <p>
+      We apply this technique to our attacks against the Adult dataset, using Isomap embedding as our dimensionalty reduction algorithm. We obtain the following visualization as a result:
+    </p>
+
+    <!-- <d-figure> -->
+    <!-- <figure> -->
+    <video autoplay loop muted style="padding-bottom: 2em;">
+      <source src="videos/adult-1.mp4" type="video/mp4">
+    </video>
+    <figcaption style="margin-top: -5em; margin-bottom: 5em;">In the above visualization, the classifier's behavior is illustrated using the plot's background color. Notice how the blue decision regions slowly grow, reflecting the tendency of the poisoned model to classify more points as blue.</figcaption>
+    <!-- </figure> -->
+    <!-- </d-figure> -->
+
+    <p>
+      Already, we can see how the general behavior of the classifier changes as poisoning points are added.
+    </p>
+
+    <p>
+      The above visualization is a good way to measure the impact of poisoning points on the poisoned classifier. However, it can be difficult to see just how much the classifier's behavior is changing on the targeted subpopulation (never married). We can instead choose to perform the attack visualization technique on only the target subpopulation, in which case we get a much more focused understanding of the model's behavior:
+    </p>
+
+    <video autoplay loop muted style=" padding-bottom: 2em;">
+      <source src="videos/adult-2.mp4" type="video/mp4">
+    </video>
+    <figcaption style="margin-top: -5em; margin-bottom: 5em;">Embedding only the targetd subpopulation gives a more focused visualization which emphasizes the attack objective.</figcaption>
+
+    <p>
+      Even if limited, these visualizations provide a starting point to understanding subpopulation poisoning attacks in a high-dimensional setting.
+    </p>
+
     <h3>Quantitative Analysis</h3>
 
     <p>
-      We first examine the attack difficulty (measured by the ratio $p / n$) distribution of all the nontrivial attacks:
+      We examine the attack difficulty (measured by the ratio $p / n$) distribution of all the nontrivial attacks:
     </p>
 
     <d-figure id="svelte-adult-dif-hist-dfigure" class="acc-dif-hist">
