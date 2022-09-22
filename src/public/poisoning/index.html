@@ -657,8 +657,6 @@ d-figure.poison-demo {
   <d-byline>
     <div class="byline grid" style="grid-template-columns: 1fr 1fr 1fr;">
       <div class="authors-affiliations grid">
-        <h3>Authors</h3>
-        <h3>Affiliations</h3>
 
         <p class="author">
           <span class="name">Evan Rose</span>
@@ -679,9 +677,9 @@ d-figure.poison-demo {
 
       </div>
       <div>
-        <h3>Published</h3>
-        <p>VISxAI</p>
-        <p>September 21, 2022</p>
+	<p>5th Workshop on Visualization for AI Explainability
+        <p><a href="https://visxai.io/">VISxAI</a></p>
+        <p>21 September 2022</p>
       </div>
       <!-- <div>
         <h3>DOI</h3>
@@ -1014,7 +1012,7 @@ d-figure.poison-demo {
     <h1>Adult Dataset</h1>
 
     <p>
-      While the visualizations made possible by the synthetic datasets are useful for developing an intuition for subpopulation poisoning attacks, it is desirable to see how subpopulation susceptibility arises in a more complex and practical setting. For this purpose, we perform subpopulation poisoning attacks against the UCI Adult dataset, whose associated classification task is to determine whether an adult's income exceeds $50,000 per year based on attributes such as education, age, race, and martial status.
+      While the visualizations made possible by the synthetic datasets are useful for developing an intuition for subpopulation poisoning attacks, we want to understand how subpopulation susceptibility arises in a more complex and practical setting. For this purpose, we perform subpopulation poisoning attacks against the UCI Adult dataset, based on US Census data, whose associated classification task is to determine whether an adult's income exceeds $50,000 per year based on attributes such as education, age, race, and martial status.
     </p>
 
     <h3>Subpopulation Formation</h3>
@@ -1030,15 +1028,15 @@ d-figure.poison-demo {
     <h3>Visualization</h3>
 
     <p>
-      The Adult dataset is high-dimensional (57 after data transformations), and so attacks against it cannot be directly visualized as in the case of synthetic datasets. However, by employing dimensionality reduction techniques, we can indirectly visualize poisoning attacks in the high-dimensional setting.
+      The Adult dataset is high-dimensional (57 dimensions after data transformations), so attacks against it cannot be directly visualized as in the case of our two-dimensional synthetic datasets. However, by employing dimensionality reduction techniques, we can indirectly visualize poisoning attacks in the high-dimensional setting.
     </p>
 
     <p>
-      Dimensionality reduction gives us a way to visualize the high-dimensional data points in two dimensions, but we still need a way to visualize a classifier's behavior on these points. Previous attempts to visualize high-dimensional classifiers have used self-organizing maps <d-cite key="Hamel2006VisualizationOS"></d-cite>, projection-based tour methods <d-cite key="Caragea2001"></d-cite>, hyperplane intersection techniques <d-cite key="Poulet2008"></d-cite>, or Voronoi tesslations constructed from projected data points <d-cite key="Migut2013"></d-cite>. We will focus on another type of technique explored separately by Shulz et al. and Rodrigues et al., which attempts to produce a rich depiction of the classifier's behavior by examining the classifier's classification on data points sampled from the high-dimensional space <d-cite key="Schulz2014, Rodrigues2019"></d-cite>.
+      Dimensionality reduction gives us a way to visualize the high-dimensional data in two dimensions, but we still need a way to visualize a classifier's behavior on these points. Previous attempts to visualize high-dimensional classifiers have used self-organizing maps&nbsp;<d-cite key="Hamel2006VisualizationOS"></d-cite>, projection-based tour methods <d-cite key="Caragea2001"></d-cite>, hyperplane intersection techniques <d-cite key="Poulet2008"></d-cite>, or Voronoi tesslations constructed from projected data points <d-cite key="Migut2013"></d-cite>. We will focus on another type of technique explored separately by Shulz et al. and Rodrigues et al., which attempts to produce a rich depiction of the classifier's behavior by examining the classifier's classification on data points sampled from the high-dimensional space <d-cite key="Schulz2014, Rodrigues2019"></d-cite>.
     </p>
 
     <p>
-      The key idea in the work by Shulz et al. and Rodrigues et al. is to find additional points in the high-dimensional space corresponding to points in the lower-dimensional projection space. More specifically, the visualization process can be described by the following procedure:
+      The key idea is to find additional points in the high-dimensional space corresponding to points in the lower-dimensional projection space. The visualization process can be described by the following procedure:
     </p>
 
     <ol>
@@ -1058,15 +1056,15 @@ d-figure.poison-demo {
     </p> -->
 
     <p>
-      We apply this technique to our attacks against the Adult dataset, using Isomap embedding as our dimensionalty reduction algorithm. We obtain the following visualization as a result:
-    </p>
+      We apply this technique to our attacks against the Adult dataset, using Isomap embedding as our dimensionalty reduction algorithm. Here is the resulting visualization:
+          </p>
 
     <!-- <d-figure> -->
     <!-- <figure> -->
     <video autoplay loop muted style="padding-bottom: 2em;">
       <source src="videos/adult-1.mp4" type="video/mp4">
     </video>
-    <figcaption style="margin-top: -5em; margin-bottom: 5em;">In the above visualization, the classifier's behavior is illustrated using the plot's background color. Notice how the blue decision regions slowly grow, reflecting the tendency of the poisoned model to classify more points as blue.</figcaption>
+    <figcaption style="margin-top: -5em; margin-bottom: 5em;">In the above visualization, the classifier's behavior is illustrated using the plot's background color. Notice how the blue decision regions slowly grow, reflecting the attack's effectiveness in causing the poisoned model to classify more points as blue.</figcaption>
     <!-- </figure> -->
     <!-- </d-figure> -->
 
@@ -1081,10 +1079,10 @@ d-figure.poison-demo {
     <video autoplay loop muted style=" padding-bottom: 2em;">
       <source src="videos/adult-2.mp4" type="video/mp4">
     </video>
-    <figcaption style="margin-top: -5em; margin-bottom: 5em;">Embedding only the targetd subpopulation gives a more focused visualization which emphasizes the attack objective.</figcaption>
+    <figcaption style="margin-top: -5em; margin-bottom: 5em;">Embedding only the targeted subpopulation gives a more useful visualization that emphasizes the attack objective.</figcaption>
 
     <p>
-      Even if limited, these visualizations provide a starting point to understanding subpopulation poisoning attacks in a high-dimensional setting.
+      These visualizations provide a starting point to understanding subpopulation poisoning attacks in a high-dimensional setting. But, gaining intuitions about high-dimensionality data is difficult, and any mapping to a two-dimensional space involves compromises because of our inability to display high dimensional spaces. 
     </p>
 
     <h3>Quantitative Analysis</h3>
