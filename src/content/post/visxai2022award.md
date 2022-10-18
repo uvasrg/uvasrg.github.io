@@ -4,7 +4,7 @@ draft = false
 title = "Best Submission Awards at VISxAI 2022"
 author = "David Evans"
 categories = ["awards", "research"]
-tags = ["Evan Rose", "Fnu Syua", "poisoning attacks"]
+tags = ["Evan Rose", "Fnu Syua", "poisoning attacks", "adversarial machine learning"]
 +++
 
 <a href="https://uvasrg.github.io/poisoning/"><em>Poisoning Attacks and Subpopulation Susceptibility</em> by Evan Rose, Fnu Suya, and David Evans won the Best Submission Award at the <a href="https://visxai.io/">5th Workshop on Visualization for AI Explainability</a>.
