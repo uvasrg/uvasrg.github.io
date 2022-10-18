@@ -4,7 +4,6 @@ This page collects awards won by SRG students and alumni.
 
 ### CRA Outstanding Undergraduate Researchers
 
-
 The <a href="//www.cra.org/awards/undergrad/">CRA Outstanding Undergraduate Researchers Award</a> is the premier national research award that recognized undergraduate research in Computer Science, given to students at North American universities by the Computing Research Association.
 
 <div class="hanging"><a href="//jburket.com/"><b>Jonathan Burket</b></a> (BACS 2013, CMU PhD program), 2013&nbsp;Honorable Mention</div>
@@ -59,6 +58,11 @@ The <a href="//www.poly.edu/csaw2011/csaw-research"><em>NYU-Poly AT&amp;T Best A
 This award from the ECE Department at Carnegie Mellon University, recognizes an outstanding Ph.D. thesis and service to the community.
 
 <a href="//www.ece.cmu.edu/~jmmccune/"><b>Jonathan McCune</b></a> (BSCS 2003, CMU PhD 2009), 2009
+
+### VISxAI Best Submission Award
+
+Evan Rose, 2022 &mdash; awarded for <a href="https://uvasrg.github.io/poisoning/"><em>Poisoning Attacks and Subpopulation Susceptibility</em> by Evan Rose, Fnu Suya, and David Evans at the <a href="https://visxai.io/">5th Workshop on Visualization for AI Explainability</a>, October 2022. [<a href="https://twitter.com/VISxAI/status/1582117943889969153">Tweet</a>]
+
 
 # University Awards
 

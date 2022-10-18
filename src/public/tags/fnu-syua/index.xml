@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fnu Syua on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/fnu-syua/</link>
+    <description>Recent content in Fnu Syua on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//uvasrg.github.io/tags/fnu-syua/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Best Submission Awards at VISxAI 2022</title>
+      <link>//uvasrg.github.io/best-submission-awards-at-visxai-2022/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/best-submission-awards-at-visxai-2022/</guid>
+      <description>Poisoning Attacks and Subpopulation Susceptibility by Evan Rose, Fnu Suya, and David Evans won the Best Submission Award at the 5th Workshop on Visualization for AI Explainability.
+Evan led the work and presented it at VISxAI in Oklahoma City, 17 October 2022.
+ Congratulations to #VISxAI&amp;#39;s Best Submission Awards:
+🏆 K-Means Clustering: An Explorable Explainer by @yizhe_ang https://t.co/BULW33WPzo
+🏆 Poisoning Attacks and Subpopulation Susceptibility by Evan Rose, @suyafnu, and @UdacityDave https://t.</description>
+    </item>
+    
+  </channel>
+</rss>
