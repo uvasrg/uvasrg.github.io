@@ -1,7 +1,7 @@
 +++
 date = "18 Oct 2022"
 draft = false
-title = "Best Submission Awards at VISxAI 2022"
+title = "Best Submission Award at VISxAI 2022"
 author = "David Evans"
 categories = ["awards", "research"]
 tags = ["Evan Rose", "Fnu Syua", "poisoning attacks", "adversarial machine learning"]
