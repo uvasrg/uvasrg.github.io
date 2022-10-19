@@ -61,7 +61,7 @@ This award from the ECE Department at Carnegie Mellon University, recognizes an 
 
 ### VISxAI Best Submission Award
 
-Evan Rose, 2022 &mdash; awarded for <a href="https://uvasrg.github.io/poisoning/"><em>Poisoning Attacks and Subpopulation Susceptibility</em> by Evan Rose, Fnu Suya, and David Evans at the <a href="https://visxai.io/">5th Workshop on Visualization for AI Explainability</a>, October 2022. [<a href="https://twitter.com/VISxAI/status/1582117943889969153">Tweet</a>]
+Evan Rose, 2022 &mdash; awarded for <a href="https://uvasrg.github.io/poisoning/"><em>Poisoning Attacks and Subpopulation Susceptibility</em></a> by Evan Rose, Fnu Suya, and David Evans at the <a href="https://visxai.io/">5th Workshop on Visualization for AI Explainability</a>, October 2022. [<a href="https://twitter.com/VISxAI/status/1582117943889969153">Tweet</a>]
 
 
 # University Awards
