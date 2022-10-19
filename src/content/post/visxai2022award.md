@@ -7,7 +7,7 @@ categories = ["awards", "research"]
 tags = ["Evan Rose", "Fnu Syua", "poisoning attacks", "adversarial machine learning"]
 +++
 
-<a href="https://uvasrg.github.io/poisoning/"><em>Poisoning Attacks and Subpopulation Susceptibility</em> by Evan Rose, Fnu Suya, and David Evans won the Best Submission Award at the <a href="https://visxai.io/">5th Workshop on Visualization for AI Explainability</a>.
+<a href="https://uvasrg.github.io/poisoning/"><em>Poisoning Attacks and Subpopulation Susceptibility</em></a> by Evan Rose, Fnu Suya, and David Evans won the Best Submission Award at the <a href="https://visxai.io/">5th Workshop on Visualization for AI Explainability</a>.
 
 Undergraduate student Evan Rose led the work and presented it at VISxAI in Oklahoma City, 17 October 2022.
 
