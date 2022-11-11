@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="//uvasrg.github.io/tags/poisoning-attacks/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/poisoning-attacks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Submission Award at VISxAI 2022</title>
       <link>//uvasrg.github.io/best-submission-award-at-visxai-2022/</link>

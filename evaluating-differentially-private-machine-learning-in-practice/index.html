@@ -139,8 +139,7 @@ trained with NC achieve the same utility at \(\epsilon = 500\). Due
 to the tighter composition, RDP mechanism adds much lesser noise when
 compared to NC mechanism for the same privacy budget.</p>
 <p>This is great, but what about the privacy leakage?
-<figure>
-    <img src="/images/evaluatingdpml/acc_loss.jpg"/> 
+<figure><img src="/images/evaluatingdpml/acc_loss.jpg"/>
 </figure>
 </p>
 <h2 id="privacy-comes-at-a-cost">Privacy comes at a cost</h2>
@@ -158,8 +157,7 @@ at \(\epsilon = 1000\), with a positive predictive value (PPV) of
 74%. While this is less than the privacy leakage of non-private model
 (highlighted in the figure below), it is a significant amount of
 leakage. On the other hand, the model has almost no utility at lower
-privacy budgets where the privacy leakage is low.  <figure>
-    <img src="/images/evaluatingdpml/priv_leak.jpg"/> 
+privacy budgets where the privacy leakage is low.  <figure><img src="/images/evaluatingdpml/priv_leak.jpg"/>
 </figure>
  A more interesting observation is that we
 only have tight theoretical worst case guarantees on membership
@@ -179,8 +177,7 @@ shows the results. The attacker is able to identify almost a quarter
 of the training records with more than 82% PPV across five runs. If
 the leakage was due to the randomness, we would have expected a trend
 similar to the dotted line.</p>
-<figure>
-    <img src="/images/evaluatingdpml/multi_run.jpg"/> 
+<figure><img src="/images/evaluatingdpml/multi_run.jpg"/>
 </figure>
 
 <h2 id="conclusion">Conclusion</h2>
