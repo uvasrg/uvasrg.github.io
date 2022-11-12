@@ -4,6 +4,10 @@
 
 [Hannah Chen](https://hannahxchen.github.io/), [Yangfeng Ji](http://yangfengji.net/), [David Evans](http://www.cs.virginia.edu/~evans/)
 
+In [_The 2022 Conference on Empirical Methods in Natural Language
+Processing_](https://2022.emnlp.org/) (EMNLP), Abu Dhabi, 7-11
+December 2022
+
 ## Adversarial Examples
 At the broadest level, an adversarial example is an input crafted intentionally to confuse a model. However, most work focus on the defintion as an input constructed by applying a small perturbation that preserves the ground truth label but changes model's output [(Goodfellow et al., 2015)](https://arxiv.org/abs/1412.6572). We refer it as a **fickle adversarial example**. On the other hand, attackers can target an opposite objective where the inputs are made with minimal changes that change the ground truth labels but retain model's predictions [(Jacobsen et al., 2018)](https://arxiv.org/abs/1811.00401). We refer these malicious inputs as **obstinate adversarial examples**.
 
@@ -65,8 +69,7 @@ We compare the learned representations of models trained with BAT and other trai
 We show that robustness tradeoffs between ficklenss and obstinacy exist in NLP models. To counter this, we propose Balanced Adversarial Training (BAT) and show that it helps increase robustness against both fickle and obstinate adversarial examples.
 
 
-<b>Paper:</b> [Hannah Chen](https://hannahxchen.github.io/), [Yangfeng Ji](http://yangfengji.net/) and [David Evans](https://www.cs.virginia.edu/~evans/). **Balanced Adversarial Training: Balancing Tradeoffs between Fickleness and Obstinacy in NLP Models**. _In [The 2022 Conference on Empirical Methods in Natural Language Processing](https://2022.emnlp.org/) (EMNLP), Abu Dhabi, 7-11
-Dec 2022._ [[ArXiv](https://arxiv.org/abs/2210.11498)]
+<b>Paper:</b> [[ArXiv](https://arxiv.org/abs/2210.11498)]
 
 <b>Code:</b> [https://github.com/hannahxchen/balanced-adversarial-training](https://github.com/hannahxchen/balanced-adversarial-training)
 
