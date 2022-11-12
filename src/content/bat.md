@@ -70,4 +70,4 @@ Dec 2022._ [[ArXiv](https://arxiv.org/abs/2210.11498)]
 
 <b>Code:</b> [https://github.com/hannahxchen/balanced-adversarial-training](https://github.com/hannahxchen/balanced-adversarial-training)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YrxO1zM1KuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xQH51lIVDyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
