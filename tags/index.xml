@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>adversarial examples</title>
+      <link>//uvasrg.github.io/tags/adversarial-examples/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/adversarial-examples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hannah Chen</title>
+      <link>//uvasrg.github.io/tags/hannah-chen/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/hannah-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>//uvasrg.github.io/tags/nlp/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yangfeng Ji</title>
+      <link>//uvasrg.github.io/tags/yangfeng-ji/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/yangfeng-ji/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>adversarial machine learning</title>
       <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
@@ -108,6 +148,15 @@
     </item>
     
     <item>
+      <title>privacy</title>
+      <link>//uvasrg.github.io/tags/privacy/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>privacy-preserving machine learning</title>
       <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
@@ -171,15 +220,6 @@
     </item>
     
     <item>
-      <title>privacy</title>
-      <link>//uvasrg.github.io/tags/privacy/</link>
-      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jack Prescott</title>
       <link>//uvasrg.github.io/tags/jack-prescott/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
@@ -194,6 +234,15 @@
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/david-evans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICML</title>
+      <link>//uvasrg.github.io/tags/icml/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/icml/</guid>
       <description></description>
     </item>
     
@@ -360,15 +409,6 @@
     </item>
     
     <item>
-      <title>ICML</title>
-      <link>//uvasrg.github.io/tags/icml/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/icml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jinghui Chen</title>
       <link>//uvasrg.github.io/tags/jinghui-chen/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
@@ -414,29 +454,11 @@
     </item>
     
     <item>
-      <title>Hannah Chen</title>
-      <link>//uvasrg.github.io/tags/hannah-chen/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/hannah-chen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>natural language processing</title>
       <link>//uvasrg.github.io/tags/natural-language-processing/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/natural-language-processing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yangfeng Ji</title>
-      <link>//uvasrg.github.io/tags/yangfeng-ji/</link>
-      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/yangfeng-ji/</guid>
       <description></description>
     </item>
     
