@@ -10,7 +10,7 @@ tags = ["Xiao Zhang", "adversarial machine learning", "PhD defense"]
 Congratulations to Xiao Zhang for successfully defending his PhD thesis!
 
 <center>
-<img src="/images/xiaozhangphd.png" width="75%">
+<img src="/images/xiaozhangphd.png" width="65%">
 <div class="caption">
 Dr. Zhang and his PhD committee: Somesh Jha (University of Wisconsin), David Evans, Tom Fletcher; Tianxi&nbsp;Li&nbsp;(UVA&nbsp;Statistics), David&nbsp;Wu&nbsp;(UT&nbsp;Austin), Mohammad&nbsp;Mahmoody; Xiao&nbsp;Zhang.
 </center>
