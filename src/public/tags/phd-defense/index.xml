@@ -34,5 +34,15 @@
   From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning   The prevalence of adversarial examples raises questions about the reliability of machine learning systems, especially for their deployment in critical applications.</description>
     </item>
     
+    <item>
+      <title>Congratulations Dr. Xu!</title>
+      <link>//uvasrg.github.io/congratulations-dr.-xu/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/congratulations-dr.-xu/</guid>
+      <description>Congratulations to Weilin Xu for successfully defending his PhD Thesis!
+   Weilin&#39;s Committee: Homa Alemzadeh, Yanjun Qi, Patrick McDaniel (on screen), David Evans, Vicente Ordóñez Román    Improving Robustness of Machine Learning Models using Domain Knowledge  Although machine learning techniques have achieved great success in many areas, such as computer vision, natural language processing, and computer security, recent studies have shown that they are not robust under attack.</description>
+    </item>
+    
   </channel>
 </rss>

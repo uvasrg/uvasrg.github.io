@@ -4,7 +4,7 @@ draft = false
 title = "Congratulations Dr. Xu!"
 author = "David Evans"
 categories = ["presentations"]
-tags = ["adversarial machine learning", "Weilin Xu", "alumni"]
+tags = ["adversarial machine learning", "Weilin Xu", "alumni", "PhD defense"]
 +++
 
 Congratulations to Weilin Xu for successfully defending his PhD Thesis!
