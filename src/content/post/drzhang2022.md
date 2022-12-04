@@ -1,10 +1,10 @@
 +++
-date = "22 Jul 2022"
+date = "19 Jul 2022"
 draft = false
-title = "Congratulations, Dr. Zhang"
+title = "Congratulations, Dr. Zhang!"
 author = "David Evans"
 categories = ["graduates"]
-tags = ["Xiao Zhang", "adversary machine learning"]
+tags = ["Xiao Zhang", "adversarial machine learning", "PhD defense"]
 +++
 
 Congratulations to Xiao Zhang for successfully defending his PhD thesis!

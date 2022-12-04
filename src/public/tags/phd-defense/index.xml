@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PhD defense on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/phd-defense/</link>
+    <description>Recent content in PhD defense on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Fri, 02 Dec 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//uvasrg.github.io/tags/phd-defense/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Congratulations, Dr. Jayaraman!</title>
+      <link>//uvasrg.github.io/congratulations-dr.-jayaraman/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/congratulations-dr.-jayaraman/</guid>
+      <description>Congratulations to Bargav Jayaraman for successfully defending his PhD thesis!
+ Dr. Jayaraman and his PhD committee: Mohammad Mahmoody, Quanquan Gu (UCLA Department of Computer Science, on screen), Yanjun Qi (Committee Chair, on screen), Denis Nekipelov (Department of Economics, on screen), and David Evans   Bargav will join the Meta AI Lab in Menlo Park, CA as a post-doctoral researcher.
+  Analyzing the Leaky Cauldron: Inference Attacks on Machine Learning   Machine learning models have been shown to leak sensitive information about their training data.</description>
+    </item>
+    
+    <item>
+      <title>Congratulations, Dr. Zhang!</title>
+      <link>//uvasrg.github.io/congratulations-dr.-zhang/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/congratulations-dr.-zhang/</guid>
+      <description>Congratulations to Xiao Zhang for successfully defending his PhD thesis!
+ Dr. Zhang and his PhD committee: Somesh Jha (University of Wisconsin), David Evans, Tom Fletcher; Tianxi&amp;nbsp;Li&amp;nbsp;(UVA&amp;nbsp;Statistics), David&amp;nbsp;Wu&amp;nbsp;(UT&amp;nbsp;Austin), Mohammad&amp;nbsp;Mahmoody; Xiao&amp;nbsp;Zhang.   Xiao will join the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany this fall as a tenure-track faculty member.
+  From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning   The prevalence of adversarial examples raises questions about the reliability of machine learning systems, especially for their deployment in critical applications.</description>
+    </item>
+    
+  </channel>
+</rss>

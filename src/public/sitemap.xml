@@ -3,17 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//uvasrg.github.io/tags/bargav-jayaraman/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/categories/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/congratulations-dr.-jayaraman/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/categories/graduates/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/phd-defense/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/privacy/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/adversarial-examples/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//uvasrg.github.io/balancing-tradeoffs-between-fickleness-and-obstinacy-in-nlp-models/</loc>
-    <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/categories/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,22 +73,7 @@
   </url>
   
   <url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//uvasrg.github.io/categories/research/</loc>
-    <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,32 +128,17 @@
   </url>
   
   <url>
-    <loc>//uvasrg.github.io/tags/adversary-machine-learning/</loc>
-    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/congratulations-dr.-zhang/</loc>
-    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/categories/graduates/</loc>
-    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/xiao-zhang/</loc>
-    <lastmod>2022-07-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//uvasrg.github.io/tags/biml/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//uvasrg.github.io/biml-what-machine-learnt-models-reveal/</loc>
+    <lastmod>2022-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/congratulations-dr.-zhang/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,12 +158,7 @@
   </url>
   
   <url>
-    <loc>//uvasrg.github.io/tags/privacy/</loc>
-    <lastmod>2022-07-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
+    <loc>//uvasrg.github.io/tags/xiao-zhang/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -174,11 +184,6 @@
   
   <url>
     <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
-    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/bargav-jayaraman/</loc>
     <lastmod>2021-10-21T00:00:00+00:00</lastmod>
   </url>
   
