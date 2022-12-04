@@ -3,7 +3,7 @@ date = "15 Apr 2019"
 draft = false
 title = "Congratulations Dr. Xu!"
 author = "David Evans"
-categories = ["presentations"]
+categories = ["presentations", "graduates"]
 tags = ["adversarial machine learning", "Weilin Xu", "alumni", "PhD defense"]
 +++
 
