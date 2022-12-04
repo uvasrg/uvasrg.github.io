@@ -10,7 +10,7 @@ tags = ["Bargav Jayaraman", "privacy-preserving machine learning", "PhD defense"
 Congratulations to Bargav Jayaraman for successfully [defending his PhD thesis](https://engineering.virginia.edu/events/phd-defense-presentation-bargav-jayaraman)!
 
 <center>
-<img src="/images/bargav-defense.jpg" width="75%">
+<img src="/images/bargav-defense.jpg" width="65%">
 <div class="caption"><center>
 Dr. Jayaraman and his PhD committee: Mohammad&nbsp;Mahmoody, Quanquan&nbsp;Gu (UCLA Department of Computer Science, on screen), Yanjun&nbsp;Qi (Committee Chair, on screen), Denis&nbsp;Nekipelov (Department of Economics, on screen), and David Evans
 </div>
