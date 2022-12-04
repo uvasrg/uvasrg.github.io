@@ -11,8 +11,9 @@ Congratulations to Bargav Jayaraman for successfully [defending his PhD thesis](
 
 <center>
 <img src="/images/bargav-defense.jpg" width="75%">
-<div class="caption">
-Dr. Jayaraman and his PhD committee: Mohammad Mahmoody, Quanquan Gu (UCLA Department of Computer Science, on screen), Yanjun Qi (Committee Chair, on screen), Denis Nekipelov (Department of Economics, on screen), and David Evans
+<div class="caption"><center>
+Dr. Jayaraman and his PhD committee: Mohammad&nbsp;Mahmoody, Quanquan&nbsp;Gu (UCLA Department of Computer Science, on screen), Yanjun&nbsp;Qi (Committee Chair, on screen), Denis&nbsp;Nekipelov (Department of Economics, on screen), and David Evans
+</div>
 </center>
 
 ##
