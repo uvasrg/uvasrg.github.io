@@ -1,7 +1,7 @@
 +++
 date = "07 Dec 2022"
 draft = false
-title = "Attribute Inference Attacks are really Imputation"
+title = "Attribute Inference attacks are really Imputation"
 author = "Bargav Jayaraman"
 categories = ["research", "papers"]
 tags = ["Bargav Jayaraman", "privacy-preserving machine learning", "attribute inference", "distribution inference"]
@@ -14,6 +14,8 @@ tags = ["Bargav Jayaraman", "privacy-preserving machine learning", "attribute in
 <center>
 <a href="/images/ai/ai.pdf"><img alt="" src="/images/ai/ai.png" width="60%"></a>
 </center>
+
+<br>
 
 ## Prior Attribute Inference Attacks Do Not Pose Privacy Risk
 
