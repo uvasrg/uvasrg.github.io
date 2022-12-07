@@ -9,11 +9,11 @@ tags = ["Bargav Jayaraman", "privacy-preserving machine learning", "attribute in
 
 **Post by Bargav Jayaraman**
 
-<center>
-<img alt="" src="/images/ai/ai.png" width="80%">
-</center>
-
 <em>Attribute inference</em> attacks have been shown by prior works to pose privacy threat against ML models. However, these works assume the knowledge of the training distribution and we show that in such cases these attacks do no better than a data imputataion attack that does not have access to the model. We explore the attribute inference risks in the cases where the adversary has limited or no prior knowledge of the training distribution and show that our white-box attribute inference attack (that uses neuron activations to infer the unknown sensitive attribute) surpasses imputation in these data constrained cases. This attack uses the training distribution information leaked by the model, and thus poses privacy risk when the distribution is private.
+
+<center>
+<a href="/images/ai/ai.pdf"><img alt="" src="/images/ai/ai.png" width="60%"></a>
+</center>
 
 ## Prior Attribute Inference Attacks Do Not Pose Privacy Risk
 
@@ -32,7 +32,7 @@ shown in the table below:
 | Yeom et al. Attack | | 0.65 | | 0.58 | |
 | Mehnaz et al. Attack | | 0.06 | | 0.60 | |
 | WCAI (Our version of Yeom) | | 0.83 | | 0.74 | |
-<center>Comparing attribute inference accuracy of attacks</center>
+<center>Comparing accuracy of attribute inference attacks</center>
 
 </br>
 
@@ -45,7 +45,7 @@ success without access to the model.
 Attribute inference risk is inherently asymmetric --- identifying a record with minority attribute value (such as <em>Hispanic</em> ethnicity) does not have the same risk as identifying a record with majority attribute value (such as <em>Non-Hispanic</em> ethnicity). Accuracy metric does not capture this. Moreover, attribute inference definition considered by prior works also fails to distinguish these cases. We propose studying a fine-grained version of attribute inference, called <em>sensitive value inference</em>, that considers the attack success in inferring a particular sensitive attribute outcome.
 
 <center>
-<img alt="Sensitive Value Inference" src="/images/ai/svi.png" width="80%">
+<a href="/images/ai/svi.pdf"><img alt="Sensitive Value Inference" src="/images/ai/svi.png" width="60%"></a>
 </center>
 
 We measure the attack success by evaluating the positive predictive value (PPV) of the inference attack in predicting the top-k candidate records with the sensitive outcome. The PPV values are between 0 and 1, where a higher value denotes a greater attack precision.
@@ -55,15 +55,16 @@ We measure the attack success by evaluating the positive predictive value (PPV) 
 Our novel neuron output based white-box attack finds the neurons that are most correlated with the sensitive value. For this attack, the adversary selects records from a hold-out set, sets the unknown target attribute to the sensitive value, and queries the model. The adversary then identifies the set of neurons that have higher activations on average for the records with the sensitive value as the ground-truth. The adversary then uses the aggregate output of these neurons to identify the candidate records with sensitive value.
 
 <center>
-<img alt="" src="/images/ai/wb.png" width="75%">
+<A href="/images/ai/wb.pdf"><img alt="" src="/images/ai/wb.png" width="55%"></a>
 </center>
-    
+</br>
+
 ## Model Leaks Distribution Information
 
 In our experiments, we vary the distribution available to the adversary and also the amount of data from the respective distribution the adversary has to train the inference attack. When the adversary has access to >5000 records from the training distribition (not the same as the training set records), imputataion outperforms all the attribute inference attacks (incuding our white-box neuron output attack). As we decrease the known set size to 500 and 50, the imputation PPV decreases drastically whereas our neuron output attack continues to achieve high PPV. Thus the attack is able to take advantage of the training distribution information leaked by the model. The figure below depicts the case where the adversary has 500 records from the training distribution, and as shown, the neuron output attack surpasses the imputataion.
 
 <center>
-<img alt="" src="/images/ai/img2.png" width="100%">
+<A href="/images/ai/img2.pdf"><img alt="" src="/images/ai/img2.png" width="80%"></a>
 <div class="caption"><center>
 Neurons correlated to Hispanic ethnicity for a neural network model trained on Texas-100X data set.
 </center></div>
@@ -84,8 +85,7 @@ Prior attribute inference works have show that the attribute inference attacks d
 
 </br>
 
-Thus, differential privacy does not mitigate this privacy risk which is due to the model leaking distribution information.
-
+Since the risk is due to the model leaking distribution information, it is not mitigated by differential privacy noise.
 
 ## Conclusion
 
