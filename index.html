@@ -477,6 +477,12 @@
         
     
         
+    
+        
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -539,6 +545,176 @@ Scott&nbsp;Hong
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/attribute-inference-attacks-are-really-imputation/">Attribute Inference Attacks are really Imputation</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2022-12-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">7 December 2022</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/bargav-jayaraman">Bargav Jayaraman</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/attribute-inference">attribute inference</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p><strong>Post by Bargav Jayaraman</strong></p>
+<center>
+<img alt="" src="/images/ai/ai.pdf" width="80%">
+</center>
+<p><em>Attribute inference</em> attacks have been shown by prior works to pose privacy threat against ML models. However, these works assume the knowledge of the training distribution and we show that in such cases these attacks do no better than a data imputataion attack that does not have access to the model. We explore the attribute inference risks in the cases where the adversary has limited or no prior knowledge of the training distribution and show that our white-box attribute inference attack (that uses neuron activations to infer the unknown sensitive attribute) surpasses imputation in these data constrained cases. This attack uses the training distribution information leaked by the model, and thus poses privacy risk when the distribution is private.</p>
+<h2 id="prior-attribute-inference-attacks-do-not-pose-privacy-risk">Prior Attribute Inference Attacks Do Not Pose Privacy Risk</h2>
+<p>Prior works in attribute inference have mainly considered black-box
+access to the machine learning model and show successful attribute
+inference (in terms of attack accuracy) in the case where the
+adversary has access to the underlying training distribution. Our
+experiments show that in such cases even an imputation adversary,
+without access to the model, can achieve high inference accuracy, as
+shown in the table below:</p>
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th>           </th>
+<th align="center">Census (Race)</th>
+<th>           </th>
+<th align="center">Texas-100X (Ethnicity)</th>
+<th>             </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Predict Most Common</td>
+<td></td>
+<td align="center">0.78</td>
+<td></td>
+<td align="center">0.72</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">Imputation Attack</td>
+<td></td>
+<td align="center">0.82</td>
+<td></td>
+<td align="center">0.72</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">Yeom et al. Attack</td>
+<td></td>
+<td align="center">0.65</td>
+<td></td>
+<td align="center">0.58</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">Mehnaz et al. Attack</td>
+<td></td>
+<td align="center">0.06</td>
+<td></td>
+<td align="center">0.60</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">WCAI (Our version of Yeom)</td>
+<td></td>
+<td align="center">0.83</td>
+<td></td>
+<td align="center">0.74</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<center>Comparing attribute inference accuracy of attacks</center>
+</br>
+<p>Thus, these attribute inference attacks seem to not pose any
+significant privacy risk as the adversary can have similar attack
+success without access to the model.</p>
+<h2 id="sensitive-value-inference">Sensitive Value Inference</h2>
+<p>Attribute inference risk is inherently asymmetric &mdash; identifying a record with minority attribute value (such as <em>Hispanic</em> ethnicity) does not have the same risk as identifying a record with majority attribute value (such as <em>Non-Hispanic</em> ethnicity). Accuracy metric does not capture this. Moreover, attribute inference definition considered by prior works also fails to distinguish these cases. We propose studying a fine-grained version of attribute inference, called <em>sensitive value inference</em>, that considers the attack success in inferring a particular sensitive attribute outcome.</p>
+<center>
+<img alt="Sensitive Value Inference" src="/images/ai/svi.pdf" width="80%">
+</center>
+<p>We measure the attack success by evaluating the positive predictive value (PPV) of the inference attack in predicting the top-k candidate records with the sensitive outcome. The PPV values are between 0 and 1, where a higher value denotes a greater attack precision.</p>
+<h2 id="the-neuron-output-attack">The Neuron Output Attack</h2>
+<p>Our novel neuron output based white-box attack finds the neurons that are most correlated with the sensitive value. For this attack, the adversary selects records from a hold-out set, sets the unknown target attribute to the sensitive value, and queries the model. The adversary then identifies the set of neurons that have higher activations on average for the records with the sensitive value as the ground-truth. The adversary then uses the aggregate output of these neurons to identify the candidate records with sensitive value.</p>
+<center>
+<img alt="" src="/images/ai/wb.pdf" width="75%">
+</center>
+<h2 id="model-leaks-distribution-information">Model Leaks Distribution Information</h2>
+<p>In our experiments, we vary the distribution available to the adversary and also the amount of data from the respective distribution the adversary has to train the inference attack. When the adversary has access to &gt;5000 records from the training distribition (not the same as the training set records), imputataion outperforms all the attribute inference attacks (incuding our white-box neuron output attack). As we decrease the known set size to 500 and 50, the imputation PPV decreases drastically whereas our neuron output attack continues to achieve high PPV. Thus the attack is able to take advantage of the training distribution information leaked by the model. The figure below depicts the case where the adversary has 500 records from the training distribution, and as shown, the neuron output attack surpasses the imputataion.</p>
+<center>
+<img alt="" src="/images/ai/img2.pdf" width="100%">
+<div class="caption"><center>
+Neurons correlated to Hispanic ethnicity for a neural network model trained on Texas-100X data set.
+</center></div>
+</center>
+</br>
+<p>We observe similar trend across different distribution settings and across different data sets. Detailed results can be found in the paper.</p>
+<h2 id="differential-privacy-doesnt-mitigate-the-risk">Differential Privacy Doesn&rsquo;t Mitigate the Risk</h2>
+<p>Prior attribute inference works have show that the attribute inference attacks do not work in the cases where membership inference attacks do not succeed. Hence, the prior works&rsquo; claim is that differential privacy mechanisms, that defend against membership inference attacks, also defend against attribute inference attacks. This is based on the <em>attribute advantage</em> metric of Yeom et al. that shows that the difference between the <em>accuracy</em> of inference attack across training and non-training set is bounded by differential privacy. We agree that this is true, as we shown in our experiment results in Table 2 below where the PPV of the neuron output attack is similar across both train and test sets. However, our <em>attribute advantage</em> metric measures the gap between the attack PPV when the adversary has access to the model (i.e., neuron output attack) versus when the adversary does not have model access (i.e., imputataion). As shown in the table below, this is not bounded by differential privacy as the neuron output attack PPV remains more or less the same with or without differential privacy.</p>
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th>      </th>
+<th align="center">Without DP</th>
+<th align="center">With DP</th>
+<th>      </th>
+<th align="center">Train Set</th>
+<th align="center">Test Set</th>
+<th>           </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Imputation Attack</td>
+<td></td>
+<td align="center">0.62</td>
+<td align="center">0.62</td>
+<td></td>
+<td align="center">0.62</td>
+<td align="center">0.63</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">Neuron Output Attack</td>
+<td></td>
+<td align="center">0.49</td>
+<td align="center">0.49</td>
+<td></td>
+<td align="center">0.49</td>
+<td align="center">0.48</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<center>Impact of Differential Privacy (DP) on the PPV of attacks (see table in paper for error margins). <br> Results show the PPV of attacks in predicting top-100 candidate records.</center>
+</br>
+<p>Thus, differential privacy does not mitigate this privacy risk which is due to the model leaking distribution information.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>We show that the attribute inference attacks take advantage of the model leaking sensitive information about the underlying training distribution as opposed to leaking information about individual training records. While this is often considered by researchers to be <strong>not</strong> a privacy risk since the distribution statistics are supposed to be public knowledge, we argue that when the distribution itself is a private information then any such disclosure poses a severe privacy risk. Existing defenses, such as training the model with differential privacy mechanisms, does not mitigate this distribution privacy risk.</p>
+<p><strong>Full paper:</strong> Bargav Jayaraman and David Evans. <a href="https://arxiv.org/abs/2209.01292"><em>Are Attribute Inference Attacks Just Imputation?</em></a> (<a href="https://arxiv.org/abs/2209.01292">arXiv</a>). In <a href="https://www.sigsac.org/ccs/CCS2022/"><em>ACM Conference on Computer and Communications Security</em></a> (CCS 2022).</p>
+<p><strong>Code:</strong> <a href="https://github.com/bargavj/EvaluatingDPML"><em>https://github.com/bargavj/EvaluatingDPML</em></a></p>
+<center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iLy0C5DK2T8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<p><strong>Talk Video:</strong> <a href="https://youtu.be/iLy0C5DK2T8"><em>https://youtu.be/iLy0C5DK2T8</em></a></p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/congratulations-dr.-jayaraman/">Congratulations, Dr. Jayaraman!</a></h2>
@@ -757,75 +933,6 @@ and why?</p>
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/congratulations-dr.-zhang/">Congratulations, Dr. Zhang!</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2022-07-19 00:00:00 &#43;0000 UTC" itemprop="datePublished">19 July 2022</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/xiao-zhang">Xiao Zhang</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/phd-defense">PhD defense</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>Congratulations to Xiao Zhang for successfully defending his PhD thesis!</p>
-<center>
-<img src="/images/xiaozhangphd.png" width="75%">
-<div class="caption">
-Dr. Zhang and his PhD committee: Somesh Jha (University of Wisconsin), David Evans, Tom Fletcher; Tianxi&nbsp;Li&nbsp;(UVA&nbsp;Statistics), David&nbsp;Wu&nbsp;(UT&nbsp;Austin), Mohammad&nbsp;Mahmoody; Xiao&nbsp;Zhang.
-</center>
-<h2 id="heading"></h2>
-<p>Xiao will join the <a href="https://cispa.de/en">CISPA Helmholtz Center for Information
-Security</a> in Saarbrücken, Germany this fall as a
-tenure-track faculty member.</p>
-<h2 id="heading-1"></h2>
-<center>
-<em>From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning</em>
-</center>
-<h2 id="heading-2"></h2>
-<p>The prevalence of adversarial examples raises questions about the
-reliability of machine learning systems, especially for their
-deployment in critical applications. Numerous defense mechanisms have
-been proposed that aim to improve a machine learning system’s
-robustness in the presence of adversarial examples. However, none of
-these methods are able to produce satisfactorily robust models, even
-for simple classification tasks on benchmarks. In addition to
-empirical attempts to build robust models, recent studies have
-identified intrinsic limitations for robust learning against
-adversarial examples. My research aims to gain a deeper understanding
-of why machine learning models fail in the presence of adversaries and
-design ways to build better robust systems. In this dissertation, I
-develop a concentration estimation framework to characterize the
-intrinsic limits of robustness for typical classification tasks of
-interest. The proposed framework leads to the discovery that compared
-with the concentration of measure which was previously argued to be an
-important factor, the existence of uncertain inputs may explain more
-fundamentally the vulnerability of state-of-the-art
-defenses. Moreover, to further advance our understanding of
-adversarial examples, I introduce a notion of representation
-robustness based on mutual information, which is shown to be related
-to an intrinsic limit of model robustness for downstream
-classification tasks. Finally in this dissertation, I advocate for a
-need to rethink the current design goal of robustness and shed light
-on ways to build better robust machine learning systems, potentially
-escaping the intrinsic limits of robustness.</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -862,6 +969,12 @@ Security Research Group
   <p>
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/attribute-inference-attacks-are-really-imputation/">Attribute Inference Attacks are really Imputation</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/congratulations-dr.-jayaraman/">Congratulations, Dr. Jayaraman!</a>
@@ -1003,12 +1116,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/intrinsic-robustness-using-conditional-gans/">Intrinsic Robustness using Conditional GANs</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/robustrepresentations/">Adversarially Robust Representations</a>
 
 
    </div>

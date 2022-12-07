@@ -3,13 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//uvasrg.github.io/tags/attribute-inference/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/attribute-inference-attacks-are-really-imputation/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/bargav-jayaraman/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//uvasrg.github.io/categories/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/distribution-inference/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/categories/papers/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/privacy/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/categories/research/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,31 +74,6 @@
   
   <url>
     <loc>//uvasrg.github.io/tags/phd-defense/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/privacy/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2022-12-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -69,11 +94,6 @@
   
   <url>
     <loc>//uvasrg.github.io/tags/nlp/</loc>
-    <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/categories/research/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -139,11 +159,6 @@
   
   <url>
     <loc>//uvasrg.github.io/congratulations-dr.-zhang/</loc>
-    <lastmod>2022-07-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//uvasrg.github.io/tags/distribution-inference/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
   </url>
   
