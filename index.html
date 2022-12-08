@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.71.0" />
+	<meta name="generator" content="Hugo 0.92.0" />
     <meta charset="utf-8">
     <title>Security Research Group</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -589,53 +589,53 @@ shown in the table below:</p>
 <table>
 <thead>
 <tr>
-<th align="left"></th>
+<th style="text-align:left"></th>
 <th>           </th>
-<th align="center">Census (Race)</th>
+<th style="text-align:center">Census (Race)</th>
 <th>           </th>
-<th align="center">Texas-100X (Ethnicity)</th>
+<th style="text-align:center">Texas-100X (Ethnicity)</th>
 <th>             </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">Predict Most Common</td>
+<td style="text-align:left">Predict Most Common</td>
 <td></td>
-<td align="center">0.78</td>
+<td style="text-align:center">0.78</td>
 <td></td>
-<td align="center">0.72</td>
-<td></td>
-</tr>
-<tr>
-<td align="left">Imputation Attack</td>
-<td></td>
-<td align="center">0.82</td>
-<td></td>
-<td align="center">0.72</td>
+<td style="text-align:center">0.72</td>
 <td></td>
 </tr>
 <tr>
-<td align="left">Yeom et al. Attack</td>
+<td style="text-align:left">Imputation Attack</td>
 <td></td>
-<td align="center">0.65</td>
+<td style="text-align:center">0.82</td>
 <td></td>
-<td align="center">0.58</td>
-<td></td>
-</tr>
-<tr>
-<td align="left">Mehnaz et al. Attack</td>
-<td></td>
-<td align="center">0.06</td>
-<td></td>
-<td align="center">0.60</td>
+<td style="text-align:center">0.72</td>
 <td></td>
 </tr>
 <tr>
-<td align="left">WCAI (Our version of Yeom)</td>
+<td style="text-align:left">Yeom et al. Attack</td>
 <td></td>
-<td align="center">0.83</td>
+<td style="text-align:center">0.65</td>
 <td></td>
-<td align="center">0.74</td>
+<td style="text-align:center">0.58</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">Mehnaz et al. Attack</td>
+<td></td>
+<td style="text-align:center">0.06</td>
+<td></td>
+<td style="text-align:center">0.60</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">WCAI (Our version of Yeom)</td>
+<td></td>
+<td style="text-align:center">0.83</td>
+<td></td>
+<td style="text-align:center">0.74</td>
 <td></td>
 </tr>
 </tbody>
@@ -668,39 +668,39 @@ Neurons correlated to Hispanic ethnicity for a neural network model trained on T
 </br>
 <p>We observe similar trend across different distribution settings and across different data sets. Detailed results can be found in the paper.</p>
 <h2 id="differential-privacy-doesnt-mitigate-the-risk">Differential Privacy Doesn&rsquo;t Mitigate the Risk</h2>
-<p>Prior attribute inference works have show that the attribute inference attacks do not work in the cases where membership inference attacks do not succeed. Hence, the prior works&rsquo; claim is that differential privacy mechanisms, that defend against membership inference attacks, also defend against attribute inference attacks. This is based on the <em>attribute advantage</em> metric of Yeom et al. that shows that the difference between the <em>accuracy</em> of inference attack across training and non-training set is bounded by differential privacy. We agree that this is true, as we shown in our experiment results in Table 2 below where the PPV of the neuron output attack is similar across both train and test sets. However, our <em>attribute advantage</em> metric measures the gap between the attack PPV when the adversary has access to the model (i.e., neuron output attack) versus when the adversary does not have model access (i.e., imputataion). As shown in the table below, this is not bounded by differential privacy as the neuron output attack PPV remains more or less the same with or without differential privacy.</p>
+<p>Prior works have claimed that attribute inference attacks cannot work in the cases where membership inference attacks do not succeed. Hence, the prior works' claim is that differential privacy mechanisms, that defend against membership inference attacks, also defend against attribute inference attacks. This is based on the <em>attribute advantage</em> metric of Yeom et al. that shows that the difference between the <em>accuracy</em> of inference attack across training and non-training set is bounded by differential privacy. We agree that this is true, as we shown in our experiment results in Table 2 below where the PPV of the neuron output attack is similar across both train and test sets. However, our <em>attribute advantage</em> metric measures the gap between the attack PPV when the adversary has access to the model (i.e., neuron output attack) versus when the adversary does not have model access (i.e., imputataion). As shown in the table below, this is not bounded by differential privacy as the neuron output attack PPV remains more or less the same with or without differential privacy.</p>
 <table>
 <thead>
 <tr>
-<th align="left"></th>
+<th style="text-align:left"></th>
 <th>      </th>
-<th align="center">Without DP</th>
-<th align="center">With DP</th>
+<th style="text-align:center">Without DP</th>
+<th style="text-align:center">With DP</th>
 <th>      </th>
-<th align="center">Train Set</th>
-<th align="center">Test Set</th>
+<th style="text-align:center">Train Set</th>
+<th style="text-align:center">Test Set</th>
 <th>           </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">Imputation Attack</td>
+<td style="text-align:left">Imputation Attack</td>
 <td></td>
-<td align="center">0.62</td>
-<td align="center">0.62</td>
+<td style="text-align:center">0.62</td>
+<td style="text-align:center">0.62</td>
 <td></td>
-<td align="center">0.62</td>
-<td align="center">0.63</td>
+<td style="text-align:center">0.62</td>
+<td style="text-align:center">0.63</td>
 <td></td>
 </tr>
 <tr>
-<td align="left">Neuron Output Attack</td>
+<td style="text-align:left">Neuron Output Attack</td>
 <td></td>
-<td align="center">0.49</td>
-<td align="center">0.49</td>
+<td style="text-align:center">0.49</td>
+<td style="text-align:center">0.49</td>
 <td></td>
-<td align="center">0.49</td>
-<td align="center">0.48</td>
+<td style="text-align:center">0.49</td>
+<td style="text-align:center">0.48</td>
 <td></td>
 </tr>
 </tbody>
