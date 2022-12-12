@@ -7,19 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/privacy-preserving-machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Dissecting Distribution Inference</title>
-      <link>//uvasrg.github.io/dissecting-distribution-inference/</link>
-      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/dissecting-distribution-inference/</guid>
-      <description>(Cross-post by Anshuman Suri)
-Distribution inference attacks aims to infer statistical properties of data used to train machine learning models. These attacks are sometimes surprisingly potent, as we demonstrated in previous work.
-However, the factors that impact this inference risk are not well understood, and demonstrated attacks often rely on strong and unrealistic assumptions such as full knowledge of training environments even in supposedly black-box threat scenarios.
-In this work, we develop a new black-box attack, the KL Divergence Attack (KL), and use it to evaluate inference risk while relaxing a number of implicit assumptions based on the adversary&amp;rsquo;s knowledge in black-box scenarios.</description>
-    </item>
-    
+    <lastBuildDate>Wed, 07 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/privacy-preserving-machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Attribute Inference attacks are really Imputation</title>
       <link>//uvasrg.github.io/attribute-inference-attacks-are-really-imputation/</link>

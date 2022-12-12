@@ -2,45 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/conferences/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/dissecting-distribution-inference/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/distribution-inference/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/property-inference/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/research/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/yanjin-chen/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/yifu-lu/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/tags/attribute-inference/</loc>
     <lastmod>2022-12-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -50,7 +11,28 @@
     <loc>//uvasrg.github.io/tags/bargav-jayaraman/</loc>
     <lastmod>2022-12-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//uvasrg.github.io/categories/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/distribution-inference/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//uvasrg.github.io/categories/papers/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/research/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2022-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2022-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/congratulations-dr.-jayaraman/</loc>
@@ -134,6 +116,9 @@
     <loc>//uvasrg.github.io/categories/publications/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
+    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//uvasrg.github.io/tags/katherine-knipmeyer/</loc>
     <lastmod>2021-10-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -170,7 +155,13 @@
     <loc>//uvasrg.github.io/tags/yuan-tian/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//uvasrg.github.io/categories/conferences/</loc>
+    <lastmod>2021-06-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//uvasrg.github.io/on-the-risks-of-distribution-inference/</loc>
+    <lastmod>2021-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/property-inference/</loc>
     <lastmod>2021-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/chinese-translation-of-mpc-book/</loc>
