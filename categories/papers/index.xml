@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>papers on Security Research Group</title>
+    <link>//uvasrg.github.io/categories/papers/</link>
+    <description>Recent content in papers on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Wed, 07 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attribute Inference attacks are really Imputation</title>
+      <link>//uvasrg.github.io/attribute-inference-attacks-are-really-imputation/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/attribute-inference-attacks-are-really-imputation/</guid>
+      <description>Post by Bargav Jayaraman
+Attribute inference attacks have been shown by prior works to pose privacy threat against ML models. However, these works assume the knowledge of the training distribution and we show that in such cases these attacks do no better than a data imputataion attack that does not have access to the model. We explore the attribute inference risks in the cases where the adversary has limited or no prior knowledge of the training distribution and show that our white-box attribute inference attack (that uses neuron activations to infer the unknown sensitive attribute) surpasses imputation in these data constrained cases.</description>
+    </item>
+    
+  </channel>
+</rss>

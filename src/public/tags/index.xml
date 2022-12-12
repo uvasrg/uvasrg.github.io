@@ -7,10 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>attribute inference</title>
+      <link>//uvasrg.github.io/tags/attribute-inference/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/attribute-inference/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bargav Jayaraman</title>
+      <link>//uvasrg.github.io/tags/bargav-jayaraman/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/bargav-jayaraman/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>distribution inference</title>
+      <link>//uvasrg.github.io/tags/distribution-inference/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/distribution-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>privacy-preserving machine learning</title>
+      <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhD defense</title>
+      <link>//uvasrg.github.io/tags/phd-defense/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/phd-defense/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>adversarial examples</title>
@@ -94,38 +135,11 @@
     </item>
     
     <item>
-      <title>adversary machine learning</title>
-      <link>//uvasrg.github.io/tags/adversary-machine-learning/</link>
-      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/adversary-machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xiao Zhang</title>
-      <link>//uvasrg.github.io/tags/xiao-zhang/</link>
-      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/xiao-zhang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>BIML</title>
       <link>//uvasrg.github.io/tags/biml/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/biml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>distribution inference</title>
-      <link>//uvasrg.github.io/tags/distribution-inference/</link>
-      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/distribution-inference/</guid>
       <description></description>
     </item>
     
@@ -148,20 +162,11 @@
     </item>
     
     <item>
-      <title>privacy</title>
-      <link>//uvasrg.github.io/tags/privacy/</link>
+      <title>Xiao Zhang</title>
+      <link>//uvasrg.github.io/tags/xiao-zhang/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>//uvasrg.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy-preserving machine learning</title>
-      <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
-      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
+      <guid>//uvasrg.github.io/tags/xiao-zhang/</guid>
       <description></description>
     </item>
     
@@ -193,15 +198,6 @@
     </item>
     
     <item>
-      <title>Bargav Jayaraman</title>
-      <link>//uvasrg.github.io/tags/bargav-jayaraman/</link>
-      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/bargav-jayaraman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Katherine Knipmeyer</title>
       <link>//uvasrg.github.io/tags/katherine-knipmeyer/</link>
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
@@ -220,6 +216,15 @@
     </item>
     
     <item>
+      <title>privacy</title>
+      <link>//uvasrg.github.io/tags/privacy/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jack Prescott</title>
       <link>//uvasrg.github.io/tags/jack-prescott/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
@@ -234,15 +239,6 @@
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/david-evans/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ICML</title>
-      <link>//uvasrg.github.io/tags/icml/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/icml/</guid>
       <description></description>
     </item>
     
@@ -405,6 +401,15 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/aistats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICML</title>
+      <link>//uvasrg.github.io/tags/icml/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/icml/</guid>
       <description></description>
     </item>
     

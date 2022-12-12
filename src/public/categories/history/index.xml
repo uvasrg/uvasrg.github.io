@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="//uvasrg.github.io/categories/history/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/history/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>De-Naming the Blog</title>
       <link>//uvasrg.github.io/de-naming-the-blog/</link>

@@ -5,26 +5,15 @@
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/hannahchen.png"><br><b><a href="https://hannahxchen.github.io/">Yu-Han (Hannah) Chen</a></b><br>Co-advised with Yangfeng Ji<br>Since Fall 2019<br>natural language processing<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jayaraman.png"><br><b><a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a></b><br>Since Fall 2016<br>privacy-preserving machine learning<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/josielamp.png"><br><b><a href="https://www.josephinelamp.com/">Josephine Lamp</a></b><br>Co-advised with Lu Feng<br>Since Fall 2018<br>privacy-preserving medical decision systems<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/elenalong.png"><br><b><a href="https://www.linkedin.com/in/minjun-elena-long-06a283173/">Elena (Minjun) Long</a></b><br>Since Fall 2022<br>privacy of ad ecosystem<br>   </div>
 </div>
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/anshuman.png"><br><b><a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman Suri</a></b><br>Since Fall 2019<br>inference privacy<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/anshumansuri.png"><br><b><a href="https://www.anshumansuri.me/">Anshuman Suri</a></b><br>Since Fall 2019<br>inference privacy<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/suya.png"><br><b><a href="https://fsuya.org/">Fnu Suya</a></b><br>Co-advised with Yuan Tian<br>Since Fall 2017<br>robust machine learning<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/archit.jpg"><br><b><a href="http://archituniyal.me/">Archit Uniyal</a></b><br>Co-advised with Tianhao Wang<br>Since Fall 2022<br>privacy for NLP<br>   </div>
-</div>
-</center>
-
-
-# <center>Pre-Doctoral Visitors</center>
-
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Zihao Su</b><br>Pre-Doctoral Visitor<br>Since Fall 2021<br>inference privacy, VR security<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yulong Tian</b><br>Pre-Doctoral Visitor<br>Since Fall 2020<br>hiding machine learning backdoors<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yiran Yao</b><br>Pre-Doctoral Visitor<br>Since Summer 2021<br>adversarial training<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/archit.jpg"><br><b><a href="http://archit31uniyal.github.io/">Archit Uniyal</a></b><br>Co-advised with Tianhao Wang<br>Since Fall 2022<br>privacy for NLP<br>   </div>
 </div>
 </center>
 
@@ -70,28 +59,32 @@
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/yanhuang.png"><br><b><a href="https://homes.sice.indiana.edu/yh33/">Yan Huang</a></b><br>Fall 2012<br>PhD in Computer Engineering, August 2012<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/d504rk56g"><em>Practical Secure Two-Party Computation</em></a><br>Assistant Professor, Indiana University<br>   </div>
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jayaraman.png"><br><b><a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a></b><br>Fall 2016 &ndash; Fall 2022<br>PhD in Computer Science, Dec 2022<br>PhD Dissertation: <a href="https://engineering.virginia.edu/events/phd-defense-presentation-bargav-jayaraman"><em>Analyzing the Leaky Cauldron: Inference Attacks on Machine Learning</em></a><br>Meta AI Lab<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/nohl.png"><br><b><a href="https://en.wikipedia.org/wiki/Karsten_Nohl">Karsten Nohl</a></b><br>Spring 2009<br>PhD in Computer Engineering, May 2009<br>PhD Dissertation: <a href="https://search-proquest-com.proxy01.its.virginia.edu/docview/305012180"><em>Implementable Privacy for RFID Systems</em></a><br>Chief Scientist, Security Research Labs<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/natepaul.png"><br><b><a href="https://web.archive.org/web/20140214063348/http://web.eecs.utk.edu/~pauln/">Nathanael Paul</a></b><br>Spring 2008<br>PhD in Computer Science, May 2008<br>PhD Dissertation: <a href="https://www.cs.virginia.edu/~evans/pubs/theses/paul-abstract.html"><em>Disk-Level Malware Detection</em></a><br>DexCom, Inc. (previously University of Tennessee/Oak Ridge National Lab; Vrije Universiteit Amsterdam)<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/weilinxu.png"><br><b><a href="https://xuweilin.org/">Weilin Xu</a></b><br>Co-advised with Yanjun Qi<br>Fall 2013 &ndash; Spring 2019<br>PhD in Computer Science, May 2019<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/fj2362645"><em>Improving Robustness of Machine Learning Models using Domain Knowledge</em></a><br>Intel (Adversarial Machine Learning Research, Hillsboro, OR)<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jinlinyang.png"><br><b><a href="https://web.archive.org/web/20170617050731/http://www.cs.virginia.edu:80/~jy6q/">Jinlin Yang</a></b><br>Spring 2007<br>PhD in Computer Science, May 2007<br>PhD Dissertation: <a href="http://www.cs.virginia.edu/~evans/pubs/theses/yang-abstract.html"><em>Automatic Inference and Effective Application of Temporal Specifications</em></a><br>Snapchat (previously Microsoft)<br>   </div>
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/zahur.png"><br><b><a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee Zahur</a></b><br>Spring 2016<br>PhD in Computer Science, May 2016<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/6q182k48w"><em>Demystifying Secure Computation: Familiar Abstractions for Efficient Protocols</em></a><br>Google<br>   </div>
 </div>
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/zahur.png"><br><b><a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee Zahur</a></b><br>Spring 2016<br>PhD in Computer Science, May 2016<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/6q182k48w"><em>Demystifying Secure Computation: Familiar Abstractions for Efficient Protocols</em></a><br>Google<br>   </div>
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/xiaozhang.png"><br><b><a href="https://xiao-zhang.net/">Xiao Zhang</a></b><br>Summer 2018 &ndash; August 2022<br>PhD in Computer Science, May 2019<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/g732d9951"><em>From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning</em></a><br>CISPA Helmholtz Center for Information Security<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/yuchenzhou.png"><br><b><a href="https://www.yuchenzhou.info/">Yuchen Zhou</a></b><br>Spring 2015<br>PhD in Computer Engineering, May 2015<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/2227mp92b"><em>Improving Security and Privacy of Integrated Web Applications</em></a><br>Palo Alto Networks; Facebook<br>   </div>
 </div>
 </center>
-
 
 <center> <a
 href="/images/srg-lunch-2022-08-22.png"><img
@@ -112,8 +105,7 @@ Scott&nbsp;Hong
 </center></font> </center>
 <p><br></p>
 
-
-# <center>Visitors</center>
+<center><h2>Visitors</h2></center>
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
@@ -149,6 +141,14 @@ href="//www.cs.virginia.edu/~wx4ed/">Weilin Xu</a>, <a
 href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 </font> </center>
 <p></br></p>
+
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Zihao Su</b><br>Pre-Doctoral Visitor<br>Fall 2021 &ndash; Summer 2022<br>inference privacy, VR security<br>UC Santa Barbara PhD Student<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yulong Tian</b><br>Pre-Doctoral Visitor<br>Since Fall 2020<br>hiding machine learning backdoors<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yiran Yao</b><br>Pre-Doctoral Visitor<br>Summer 2021<br>adversarial training<br>   </div>
+</div>
+</center>
 
 
 # Graduated Masters Students
@@ -320,13 +320,17 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
 
-# Researchers
+# Researcher
 
 
    <div class="hanging">
 <b><a href="https://www.linkedin.com/in/pragun-ananda/">Pragun Ananda</a></b><br>Undergraduate Researcher, Summer 2020 &ndash; Fall 2020<br><div class="hanging">natural language processing<br></div>   </div>
 
 # 
+
+
+# Researchers
+
 
    <div class="hanging">
 <b>Corey Ames</b><br>Undergraduate Researcher, 2014 &ndash; 2015<br>   </div>
