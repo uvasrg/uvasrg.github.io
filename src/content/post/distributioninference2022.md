@@ -1,10 +1,10 @@
 +++
 date = "12 Dec 2022"
-draft = true
+draft = false
 title = "Dissecting Distribution Inference"
 author = "Anshuman Suri"
-categories = ["conferences"]
-tags = ["property inference", "distribution inference", "Anshuman Suri", "Yifu Lu", "Yanjin Chen"]
+categories = ["conferences", "research"]
+tags = ["property inference", "distribution inference", "Anshuman Suri", "Yifu Lu", "Yanjin Chen", "privacy-preserving machine learning"]
 math = true
 +++
 
@@ -12,7 +12,8 @@ math = true
 
 Distribution inference attacks aims to infer statistical properties of data used to train machine learning models.
 These attacks are sometimes surprisingly potent, as we demonstrated in
-our [previous work](https://uvasrg.github.io/on-the-risks-of-distribution-inference/).
+[previous work](https://uvasrg.github.io/on-the-risks-of-distribution-inference/).
+
 However, the factors that impact this inference risk are not well understood, and demonstrated attacks often
 rely on strong and unrealistic assumptions such as full knowledge of training environments
 even in supposedly black-box threat scenarios.
@@ -24,11 +25,11 @@ standard approach while trying to preserve privacy in machine learning, along wi
 ## KL Divergence Attack
 
 Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., [Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations](https://dl.acm.org/doi/pdf/10.1145/3243734.3243834), CCS 2018), or using model
-predictions in black-box scenarios (Zhang et al., [Leakage of Dataset Properties in Multi-Party Machine Learning](https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf), USENIX 2021). While other black-box were proposed in our prior work, their performance is not as high as meta-classifier-based methods, and require training shadow models nonetheless (Suri and Evans, [Formalizing and Estimating Distribution Inference Risks](https://arxiv.org/pdf/2109.06024.pdf), PETS 2022).
+predictions in black-box scenarios (Zhang et al., [Leakage of Dataset Properties in Multi-Party Machine Learning](https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf), USENIX 2021). While other black-box were proposed in our prior work, they are not as accurate as meta-classifier-based methods, and require training shadow models nonetheless (Suri and Evans, [Formalizing and Estimating Distribution Inference Risks](https://arxiv.org/pdf/2109.06024.pdf), PETS 2022).
 
 The adversary prepares by training a collection of local models from each candidate training distribution. Then, using some sample of data $X$, the adversary measures similarity between any two given models using the KL divergence between the predictions of both models over $X$. Then, for a given model $M$, the adversary compares this metric for all pairs of locally available models. Finally, it predicts which of the two training distributions a model was trained on.
 
-While our attack also relies on training auxiliary models by the adversary, but outperforms even the current state-of-the-art white-box attacks. In fact, we show that using as low as 5 local models per training distribution also suffices to achieve non-trivial inference leakage.
+Our attack also relies on training auxiliary models, but does not require more than API access to the target model and outperforms even the current state-of-the-art white-box attacks. In fact, we show that using as few as five local models for training it can still to achieve significant inference leakage.
 
 ## Impact of adversary's knowledge
 
@@ -79,7 +80,7 @@ Consider inference leakage for the Census19 dataset (table above with mean $n_{l
 
 ## Defenses
 
-Finally, we evaluate the effectiveness of previously proposed defenses and introduce new defenses. Since noise-based mechanisms for Differential Privacy (DP) provide membership inference privacy, we evaluate them as a defense against distribution inference attacks to see if the same technique of adding noise can be helpful in this setting. While inference leakage reduces when the victim utilizes DP, most of the drop in effectiveness comes from a mismatch in the victim's and adversary's training environments. Compared to an adversary that does not use DP, there is a clear increase in inference risk (mean $n_{leaked}$ increases to 2.9 for $\epsilon=1.0$, and 4.8 for $\epsilon=0.12$ (compared to 4.2 without any DP).
+Finally, we evaluate the effectiveness of previously proposed defenses and introduce new defenses. Since noise-based mechanisms for Differential Privacy (DP) provide membership inference privacy, we evaluate them as a defense against distribution inference attacks to see if the same technique of adding noise can be helpful in this setting. While inference leakage reduces when the victim utilizes DP, most of the drop in effectiveness comes from a mismatch in the victim's and adversary's training environments. Compared to an adversary that does not use DP, there is a clear increase in inference risk (mean $n_{leaked}$ increases to 2.9 for $\epsilon=1.0$, and 4.8 for $\epsilon=0.12$ compared to 4.2 without any DP noise).
 
 <center>
 <img style="width: 80%" src="/images/distributioninference2022/generalization_curve.png" />
