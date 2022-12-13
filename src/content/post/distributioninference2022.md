@@ -14,22 +14,33 @@ Distribution inference attacks aims to infer statistical properties of data used
 These attacks are sometimes surprisingly potent, as we demonstrated in
 [previous work](https://uvasrg.github.io/on-the-risks-of-distribution-inference/).
 
-However, the factors that impact this inference risk are not well understood, and demonstrated attacks often
+<!-- However, the factors that impact this inference risk are not well understood, and demonstrated attacks often
 rely on strong and unrealistic assumptions such as full knowledge of training environments
-even in supposedly black-box threat scenarios.
+even in supposedly black-box threat scenarios. -->
 
-In this work, we develop a new black-box attack, the KL Divergence Attack (KL), and use it to evaluate inference risk while relaxing
+<!-- In this work, we develop a new black-box attack, the KL Divergence Attack (KL), and use it to evaluate inference risk while relaxing
 a number of implicit assumptions based on the adversary's knowledge in black-box scenarios. We also evaluate several noise-based defenses, a
-standard approach while trying to preserve privacy in machine learning, along with some intuitive defenses based on resampling.
+standard approach while trying to preserve privacy in machine learning, along with some intuitive defenses based on resampling. -->
 
 ## KL Divergence Attack
 
 Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., [Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations](https://dl.acm.org/doi/pdf/10.1145/3243734.3243834), CCS 2018), or using model
 predictions in black-box scenarios (Zhang et al., [Leakage of Dataset Properties in Multi-Party Machine Learning](https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf), USENIX 2021). While other black-box were proposed in our prior work, they are not as accurate as meta-classifier-based methods, and require training shadow models nonetheless (Suri and Evans, [Formalizing and Estimating Distribution Inference Risks](https://arxiv.org/pdf/2109.06024.pdf), PETS 2022).
 
-The adversary prepares by training a collection of local models from each candidate training distribution. Then, using some sample of data $X$, the adversary measures similarity between any two given models using the KL divergence between the predictions of both models over $X$. Then, for a given model $M$, the adversary compares this metric for all pairs of locally available models. Finally, it predicts which of the two training distributions a model was trained on.
+We propose a new attack: the KL Divergence Attack. Using some sample of data, the adversary computes predictions on local models from both distributions as well as the victim's model. Then, it uses the prediction probabilities to compute KL divergence between the victim's models and the local models to make its predictions. Our attack outperforms even the current state-of-the-art white-box attacks.
+<!-- In fact, we show that using as few as five local models for training it can still to achieve significant inference leakage. -->
+<!-- also relies on training auxiliary models, but does not require more than API access to the target model and -->
 
-Our attack also relies on training auxiliary models, but does not require more than API access to the target model and outperforms even the current state-of-the-art white-box attacks. In fact, we show that using as few as five local models for training it can still to achieve significant inference leakage.
+<center>
+<img style="width: 80%" src="/images/distributioninference2022/correlation_box.png" />
+</center>
+<div class="caption">
+Distinguishing accuracy for different task-property pairs for Celeb-A dataset for varying correlation. Task-property correlations are: $\approx 0$ (Mouth Slightly Open-Wavy Hair), $\approx 0.14$ (Smiling-Female), $\approx 0.28$ (Female-Young), and $\approx 0.42$ (Mouth Slightly Open-High Cheekbones).
+</div>
+<br>
+We observe several interesting trends across our experiments. One striking example is that with varying task-property correlation (above).
+While intuition suggests increasing inference leakage with increasing correlation between the classifier's task and the property being inferred, we observe
+no such trend.
 
 ## Impact of adversary's knowledge
 
@@ -76,20 +87,30 @@ We evaluate inference risk while relaxing a variety of implicit assumptions of t
   </tr>
 </table>
 
-Consider inference leakage for the Census19 dataset (table above with mean $n_{leaked}$ values) as an example. Inference risk is significantly higher when the adversary uses models with learning capacity similar to the victim, like both using one of (MLP$_2$, MLP$_3$) or (RF, MLP). Interestingly though, we also observe a sharp increase in inference risk when the victim uses models with low capacity, like linear regression and random forest instead of multi-layer perceptrons. These trends hint at possible connections between distribution inference risk and model learning capacity.
+Consider inference leakage for the Census19 dataset (table above with mean $n_{leaked}$ values) as an example. Inference risk is significantly higher when the adversary uses models with learning capacity similar to the victim, like both using one of (MLP$_2$, MLP$_3$) or (RF, MLP). Interestingly though, we also observe a sharp increase in inference risk when the victim uses models with low capacity, like LR and RF instead of multi-layer perceptrons.
+<!-- These trends hint at possible connections between distribution inference risk and model learning capacity. -->
 
 ## Defenses
 
-Finally, we evaluate the effectiveness of previously proposed defenses and introduce new defenses. Since noise-based mechanisms for Differential Privacy (DP) provide membership inference privacy, we evaluate them as a defense against distribution inference attacks to see if the same technique of adding noise can be helpful in this setting. While inference leakage reduces when the victim utilizes DP, most of the drop in effectiveness comes from a mismatch in the victim's and adversary's training environments. Compared to an adversary that does not use DP, there is a clear increase in inference risk (mean $n_{leaked}$ increases to 2.9 for $\epsilon=1.0$, and 4.8 for $\epsilon=0.12$ compared to 4.2 without any DP noise).
+Finally, we evaluate the effectiveness of some empirical defenses, most of which add noise to some part(s) of the training process.
+
+<center>
+<img style="width: 80%" src="/images/distributioninference2022/dp_box.png" />
+</center>
+<div class="caption">
+Distinguishing accuracy for different for Census19 (Sex). Attack accuracy drops with stronger DP guarantees i.e. decreasing privacy budget $\epsilon$.
+</div>
+<br>
+For instance while inference leakage reduces when the victim utilizes DP ( above), most of the drop in effectiveness comes from a mismatch in the victim's and adversary's training environments. Compared to an adversary that does not use DP, there is a clear increase in inference risk (mean $n_{leaked}$ increases to 2.9 for $\epsilon=1.0$, and 4.8 for $\epsilon=0.12$ compared to 4.2 without any DP noise).
+<!-- in  Since noise-based mechanisms for Differential Privacy (DP) provide membership inference privacy, we evaluate them as a defense against distribution inference attacks to see if the same technique of adding noise can be helpful in this setting. -->
 
 <center>
 <img style="width: 80%" src="/images/distributioninference2022/generalization_curve.png" />
 </center>
 <div class="caption">
-
 Mean distinguishing accuracy on Celeb-A (Sex), for varying number of training epochs for victim models. Shaded regions correspond to error bars. Distribution inference risk increases as the model trains, and then starts to decrease as the model starts to overfit.
 </div>
-
+<br>
 Our exploration of potential defenses also reveals a strong connection between model generalization and inference risk (as apparent above, for the case of Celeb-A), suggesting that the defenses that do seem to work are attributable to poor model performance, and not something special about the defense itself (like adversarial training or label noise).
 
 ## Summary
