@@ -7,7 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 07 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/distribution-inference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/distribution-inference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//uvasrg.github.io/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/</guid>
+      <description>Here&amp;rsquo;s the slides from my Cray Distinguished Speaker talk on On Leaky Models and Unintended Inferences: [PDF]
+  The chatGPT limerick version of my talk abstract is much better than mine:
+ A machine learning model, oh so grand
+With data sets that it held in its hand It performed quite well
+But secrets to tell
+And an adversary&amp;rsquo;s tricks it could not withstand.
+ Thanks to Stephen McCamant and Kangjie Lu for hosting my visit, and everyone at University of Minnesota.</description>
+    </item>
+    
     <item>
       <title>Attribute Inference attacks are really Imputation</title>
       <link>//uvasrg.github.io/attribute-inference-attacks-are-really-imputation/</link>
