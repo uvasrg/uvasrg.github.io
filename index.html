@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.87.0" />
+	<meta name="generator" content="Hugo 0.71.0" />
     <meta charset="utf-8">
     <title>Security Research Group</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -483,6 +483,8 @@
         
     
         
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -547,6 +549,66 @@ Scott&nbsp;Hong
     <div class="mainsection">Recent Posts</div>
 
     
+    <h2><a href="/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/">Cray Distinguished Speaker: On Leaky Models and Unintended Inferences</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2022-12-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">13 December 2022</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/property-inference">property inference</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>Here&rsquo;s the slides from my <a href="https://cse.umn.edu/cs/cray">Cray Distinguished Speaker</a> talk on <a href="https://cse.umn.edu/cs/events/cse-colloquium-leaky-models-and-unintended-inferences"><em>On Leaky Models and Unintended Inferences</em></a>: [<a href="https://www.dropbox.com/s/5gi766dqezsitw4/cray2022.pdf?dl=0">PDF</a>]</p>
+<center>
+<a href="https://www.dropbox.com/s/5gi766dqezsitw4/cray2022.pdf?dl=0"><img src="/images/cray2022-title.png" width="65%" alt="Leaky Models and Unintended Inferences"></a> 
+</center>
+</br>
+<p>The chatGPT limerick version of my talk abstract is much better than mine:</p>
+<blockquote>
+<p>A machine learning model, oh so grand<br>
+With data sets that it held in its hand<br>
+It performed quite well<br>
+But secrets to tell<br>
+And an adversary&rsquo;s tricks it could not withstand.</p>
+</blockquote>
+<p>Thanks to Stephen McCamant and Kangjie Lu for hosting my visit, and everyone at University of Minnesota. Also great to catch up with UVA BSCS alumn, <a href="https://www-users.cse.umn.edu/~sjguy/">Stephen J. Guy</a>.</p>
+<p>The main works I talked about are:</p>
+<ul>
+<li>
+<p>Anshuman Suri&rsquo;s work on <a href="/on-the-risks-of-distribution-inference/">distribution inference</a> (Paper: <a href="https://arxiv.org/abs/2109.06024"><em>Formalizing and Estimating Distribution Inference Risks</em></a>, PETS 2022)</p>
+</li>
+<li>
+<p>Bargav Jayaraman&rsquo;s work on <a href="/attribute-inference-attacks-are-really-imputation">attribute inference</a> (Paper: <a href="https://arxiv.org/abs/2209.01292"><em>Are Attribute Inference Attacks Just Imputation?</em></a> (<a href="https://arxiv.org/abs/2209.01292">arXiv</a>). <a href="https://www.sigsac.org/ccs/CCS2022/">CCS 2022</a>)</p>
+</li>
+<li>
+<p>Our new SaTML paper: <a href="http://anshumansuri.me/">Anshuman Suri</a>, Yifu Lu, Yanjin Chen, <a href="http://www.cs.virginia.edu/~evans/">David Evans</a>. <a href="https://www.anshumansuri.me/publication/dissecting/"><em>Dissecting Distribution Inference</em></a> (SaTML, 2023).</p>
+</li>
+</ul>
+<p>The talk from Randy Pausch (Cray Distinguished Speaker, 1999-2000) that I mentioned is available here: <a href="https://www.youtube.com/watch?v=blaK_tB_KQA"><em>Time Management</em></a>, November 2007.</p>
+<p>The transcript of Seymour Cray&rsquo;s talk at the University of Virginia is
+here: <a href="https://americanhistory.si.edu/comphist/montic/cray.htm"><em>An Imaginary Tour of a Biological Computer (Why Computer
+Professionals and Molecular Biologists Should Start
+Collaborating)</em></a>. Remarks of Seymour Cray to the Shannon Center for Advanced Studies, University
+of Virginia. 30 May 1996.</p>
+
+      </div>
+<hr class="post-separator"></hr>
+
+    
     <h2><a href="/attribute-inference-attacks-are-really-imputation/">Attribute Inference attacks are really Imputation</a></h2>
 <div class="post-metadata">
   <span class="post-date">
@@ -589,53 +651,53 @@ shown in the table below:</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:left"></th>
+<th align="left"></th>
 <th>           </th>
-<th style="text-align:center">Census (Race)</th>
+<th align="center">Census (Race)</th>
 <th>           </th>
-<th style="text-align:center">Texas-100X (Ethnicity)</th>
+<th align="center">Texas-100X (Ethnicity)</th>
 <th>             </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">Predict Most Common</td>
+<td align="left">Predict Most Common</td>
 <td></td>
-<td style="text-align:center">0.78</td>
+<td align="center">0.78</td>
 <td></td>
-<td style="text-align:center">0.72</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Imputation Attack</td>
-<td></td>
-<td style="text-align:center">0.82</td>
-<td></td>
-<td style="text-align:center">0.72</td>
+<td align="center">0.72</td>
 <td></td>
 </tr>
 <tr>
-<td style="text-align:left">Yeom et al. Attack</td>
+<td align="left">Imputation Attack</td>
 <td></td>
-<td style="text-align:center">0.65</td>
+<td align="center">0.82</td>
 <td></td>
-<td style="text-align:center">0.58</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Mehnaz et al. Attack</td>
-<td></td>
-<td style="text-align:center">0.06</td>
-<td></td>
-<td style="text-align:center">0.60</td>
+<td align="center">0.72</td>
 <td></td>
 </tr>
 <tr>
-<td style="text-align:left">WCAI (Our version of Yeom)</td>
+<td align="left">Yeom et al. Attack</td>
 <td></td>
-<td style="text-align:center">0.83</td>
+<td align="center">0.65</td>
 <td></td>
-<td style="text-align:center">0.74</td>
+<td align="center">0.58</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">Mehnaz et al. Attack</td>
+<td></td>
+<td align="center">0.06</td>
+<td></td>
+<td align="center">0.60</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">WCAI (Our version of Yeom)</td>
+<td></td>
+<td align="center">0.83</td>
+<td></td>
+<td align="center">0.74</td>
 <td></td>
 </tr>
 </tbody>
@@ -672,35 +734,35 @@ Neurons correlated to Hispanic ethnicity for a neural network model trained on T
 <table>
 <thead>
 <tr>
-<th style="text-align:left"></th>
+<th align="left"></th>
 <th>      </th>
-<th style="text-align:center">Without DP</th>
-<th style="text-align:center">With DP</th>
+<th align="center">Without DP</th>
+<th align="center">With DP</th>
 <th>      </th>
-<th style="text-align:center">Train Set</th>
-<th style="text-align:center">Test Set</th>
+<th align="center">Train Set</th>
+<th align="center">Test Set</th>
 <th>           </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">Imputation Attack</td>
+<td align="left">Imputation Attack</td>
 <td></td>
-<td style="text-align:center">0.62</td>
-<td style="text-align:center">0.62</td>
+<td align="center">0.62</td>
+<td align="center">0.62</td>
 <td></td>
-<td style="text-align:center">0.62</td>
-<td style="text-align:center">0.63</td>
+<td align="center">0.62</td>
+<td align="center">0.63</td>
 <td></td>
 </tr>
 <tr>
-<td style="text-align:left">Neuron Output Attack</td>
+<td align="left">Neuron Output Attack</td>
 <td></td>
-<td style="text-align:center">0.49</td>
-<td style="text-align:center">0.49</td>
+<td align="center">0.49</td>
+<td align="center">0.49</td>
 <td></td>
-<td style="text-align:center">0.49</td>
-<td style="text-align:center">0.48</td>
+<td align="center">0.49</td>
+<td align="center">0.48</td>
 <td></td>
 </tr>
 </tbody>
@@ -885,56 +947,6 @@ Language Processing</em></a> (EMNLP), Abu Dhabi,
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/visualizing-poisoning/">Visualizing Poisoning</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2022-07-26 00:00:00 &#43;0000 UTC" itemprop="datePublished">26 July 2022</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/evan-rose">Evan Rose</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/poisoning-attacks">poisoning attacks</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p><em>How does a poisoning attack work and why are some groups more
-susceptible to being victimized by a poisoning attack?</em></p>
-<p>We&rsquo;ve posted work that helps understand how poisoning attacks work
-with some engaging visualizations:</p>
-<p><a href="/poisoning">Poisoning Attacks and Subpopulation Susceptibility</a><br>
-<em>An Experimental Exploration on the Effectiveness of Poisoning Attacks</em><br>
-Evan Rose, Fnu Suya, and David Evans</p>
-<center>
-<a href="/poisoning"><img src="/images/visualizingpoisoning.png" width="85%"></a><br>
-Follow <a href="/poisoning">the link</a> to try the interactive version!
-</center>
-<h1 id="heading"></h1>
-<p>Machine learning is susceptible to poisoning attacks in which
-adversaries inject maliciously crafted training data into the training
-set to induce specific model behavior. We focus on subpopulation
-attacks, in which the attacker&rsquo;s goal is to induce a model that
-produces a targeted and incorrect output (label blue in our demos) for
-a particular subset of the input space (colored orange). We study the
-question, which subpopulations are the most vulnerable to an attack
-and why?</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -971,6 +983,12 @@ Security Research Group
   <p>
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/">Cray Distinguished Speaker: On Leaky Models and Unintended Inferences</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/attribute-inference-attacks-are-really-imputation/">Attribute Inference attacks are really Imputation</a>
@@ -1112,12 +1130,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/merlin-morgan-and-the-importance-of-thresholds-and-priors/">Merlin, Morgan, and the Importance of Thresholds and Priors</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/intrinsic-robustness-using-conditional-gans/">Intrinsic Robustness using Conditional GANs</a>
 
 
    </div>

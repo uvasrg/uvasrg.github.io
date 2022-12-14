@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 07 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Dec 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//uvasrg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>talks</title>
+      <link>//uvasrg.github.io/categories/talks/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/categories/talks/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>papers</title>
       <link>//uvasrg.github.io/categories/papers/</link>
@@ -32,15 +45,6 @@
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/categories/graduates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>talks</title>
-      <link>//uvasrg.github.io/categories/talks/</link>
-      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/categories/talks/</guid>
       <description></description>
     </item>
     

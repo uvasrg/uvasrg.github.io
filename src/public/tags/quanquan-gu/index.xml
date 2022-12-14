@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/quanquan-gu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//uvasrg.github.io/tags/quanquan-gu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Merlin, Morgan, and the Importance of Thresholds and Priors</title>
       <link>//uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/</link>
