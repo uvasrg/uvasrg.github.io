@@ -604,6 +604,7 @@ predictions in black-box scenarios (Zhang et al., <a href="https://www.usenix.or
 We observe several interesting trends across our experiments. One striking example is that with varying task-property correlation.
 While intuition suggests increasing inference leakage with increasing correlation between the classifier's task and the property being inferred, we observe
 no such trend:
+</br>
 <center>
 <a href="/images/distributioninference2022/correlation_box.png"><img style="width: 65%" src="/images/distributioninference2022/correlation_box.png" alt="Graph of accuracy for properties with different correlation"/></a>
 </center>
@@ -669,6 +670,7 @@ Distinguishing accuracy for different for Census19 (Sex). Attack accuracy drops 
 <!-- in  Since noise-based mechanisms for Differential Privacy (DP) provide membership inference privacy, we evaluate them as a defense against distribution inference attacks to see if the same technique of adding noise can be helpful in this setting. -->
 <br>
 Our exploration of potential defenses also reveals a strong connection between model generalization and inference risk (as apparent below, for the case of Celeb-A), suggesting that the defenses that do seem to work are attributable to poor model performance, and not something special about the defense itself (like adversarial training or label noise).
+</br>
 <center>
 <img style="width: 80%" src="/images/distributioninference2022/generalization_curve.png" />
 </center>
@@ -679,7 +681,7 @@ Mean distinguishing accuracy on Celeb-A (Sex), for varying number of training ep
 <h2 id="summary">Summary</h2>
 <p>The general approach to achieve security and privacy for machine-learning models is to add noise, but our evaluations suggest this approach is not a principled or effective defense against distribution inference. The main reductions in inference accuracy that result from these defenses seem to be due to the way they disrupt the model from learning the distribution well.</p>
 <p><b>Paper</b>: <a href="http://anshumansuri.me/">Anshuman Suri</a>, Yifu Lu, Yanjin Chen, <a href="http://www.cs.virginia.edu/~evans/">David Evans</a>. <a href="https://arxiv.org/abs/2212.07591"><em>Dissecting Distribution Inference</em></a>.
-In <a href="https://satml.org/"><em>IEEE Conference on Secure and Trustworthy Machine Learning</em> (SaTML), 8-10 February 2023.</p>
+In <a href="https://satml.org/"><em>IEEE Conference on Secure and Trustworthy Machine Learning</em></a> (SaTML), 8-10 February 2023.</p>
 <p><b>Code</b>: <a href="https://github.com/iamgroot42/dissecting_distribution_inference">https://github.com/iamgroot42/dissecting_distribution_inference</a></p>
 
       </div>

@@ -35,6 +35,7 @@ We propose a new attack: the KL Divergence Attack. Using some sample of data, th
 We observe several interesting trends across our experiments. One striking example is that with varying task-property correlation.
 While intuition suggests increasing inference leakage with increasing correlation between the classifier's task and the property being inferred, we observe
 no such trend:
+</br>
 
 <center>
 <a href="/images/distributioninference2022/correlation_box.png"><img style="width: 65%" src="/images/distributioninference2022/correlation_box.png" alt="Graph of accuracy for properties with different correlation"/></a>
@@ -111,7 +112,7 @@ Compared to an adversary that does not use DP, there is a clear increase in infe
 <!-- in  Since noise-based mechanisms for Differential Privacy (DP) provide membership inference privacy, we evaluate them as a defense against distribution inference attacks to see if the same technique of adding noise can be helpful in this setting. -->
 <br>
 Our exploration of potential defenses also reveals a strong connection between model generalization and inference risk (as apparent below, for the case of Celeb-A), suggesting that the defenses that do seem to work are attributable to poor model performance, and not something special about the defense itself (like adversarial training or label noise).
-
+</br>
 
 <center>
 <img style="width: 80%" src="/images/distributioninference2022/generalization_curve.png" />
@@ -128,6 +129,6 @@ Mean distinguishing accuracy on Celeb-A (Sex), for varying number of training ep
 The general approach to achieve security and privacy for machine-learning models is to add noise, but our evaluations suggest this approach is not a principled or effective defense against distribution inference. The main reductions in inference accuracy that result from these defenses seem to be due to the way they disrupt the model from learning the distribution well.
 
 <b>Paper</b>: [Anshuman Suri](http://anshumansuri.me/), Yifu Lu, Yanjin Chen, [David Evans](http://www.cs.virginia.edu/~evans/). [_Dissecting Distribution Inference_](https://arxiv.org/abs/2212.07591).
-In <a href="https://satml.org/"><em>IEEE Conference on Secure and Trustworthy Machine Learning</em> (SaTML), 8-10 February 2023.
+In <a href="https://satml.org/"><em>IEEE Conference on Secure and Trustworthy Machine Learning</em></a> (SaTML), 8-10 February 2023.
 
 <b>Code</b>: [https://github.com/iamgroot42/dissecting_distribution_inference](https://github.com/iamgroot42/dissecting_distribution_inference)
