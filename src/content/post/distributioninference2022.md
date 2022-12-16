@@ -1,6 +1,6 @@
 +++
-date = "12 Dec 2022"
-draft = true
+date = "16 Dec 2022"
+draft = false
 title = "Dissecting Distribution Inference"
 author = "Anshuman Suri"
 categories = ["conferences", "research"]
@@ -117,6 +117,6 @@ Our exploration of potential defenses also reveals a strong connection between m
 
 The general approach to achieve security and privacy for machine-learning models is to add noise, but our evaluations suggest this approach is not a principled or effective defense against distribution inference. The main reductions in inference accuracy that result from these defenses seem to be due to the way they disrupt the model from learning the distribution well.
 
-<b>Paper</b>: [Anshuman Suri](http://anshumansuri.me/), Yifu Lu, Yanjin Chen, [David Evans](http://www.cs.virginia.edu/~evans/). [_Dissecting Distribution Inference_](https://www.anshumansuri.me/publication/dissecting/) (SaTML, 2023).
+<b>Paper</b>: [Anshuman Suri](http://anshumansuri.me/), Yifu Lu, Yanjin Chen, [David Evans](http://www.cs.virginia.edu/~evans/). [_Dissecting Distribution Inference_](https://arxiv.org/abs/2212.07591) (SaTML, 2023).
 
 <b>Code</b>: [https://github.com/iamgroot42/dissecting_distribution_inference](https://github.com/iamgroot42/dissecting_distribution_inference)
