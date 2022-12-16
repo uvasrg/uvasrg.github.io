@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="//uvasrg.github.io/tags/robotic-surgery/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/robotic-surgery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ISMR 2019: Context-aware Monitoring in Robotic Surgery</title>
       <link>//uvasrg.github.io/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>

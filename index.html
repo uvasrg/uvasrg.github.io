@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.71.0" />
+	<meta name="generator" content="Hugo 0.92.0" />
     <meta charset="utf-8">
     <title>Security Research Group</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -485,6 +485,12 @@
         
     
         
+    
+        
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -547,6 +553,133 @@ Scott&nbsp;Hong
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/dissecting-distribution-inference/">Dissecting Distribution Inference</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2022-12-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">16 December 2022</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/property-inference">property inference</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/yifu-lu">Yifu Lu</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/yanjin-chen">Yanjin Chen</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>(Cross-post by <a href="https://www.anshumansuri.me/post/dissecting">Anshuman Suri</a>)</p>
+<p>Distribution inference attacks aims to infer statistical properties of data used to train machine learning models.
+These attacks are sometimes surprisingly potent, as we demonstrated in
+<a href="https://uvasrg.github.io/on-the-risks-of-distribution-inference/">previous work</a>.</p>
+<!-- However, the factors that impact this inference risk are not well understood, and demonstrated attacks often
+rely on strong and unrealistic assumptions such as full knowledge of training environments
+even in supposedly black-box threat scenarios. -->
+<!-- In this work, we develop a new black-box attack, the KL Divergence Attack (KL), and use it to evaluate inference risk while relaxing
+a number of implicit assumptions based on the adversary's knowledge in black-box scenarios. We also evaluate several noise-based defenses, a
+standard approach while trying to preserve privacy in machine learning, along with some intuitive defenses based on resampling. -->
+<h2 id="kl-divergence-attack">KL Divergence Attack</h2>
+<p>Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243834">Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations</a>, CCS 2018), or using model
+predictions in black-box scenarios (Zhang et al., <a href="https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf">Leakage of Dataset Properties in Multi-Party Machine Learning</a>, USENIX 2021). While other black-box were proposed in our prior work, they are not as accurate as meta-classifier-based methods, and require training shadow models nonetheless (Suri and Evans, <a href="https://arxiv.org/pdf/2109.06024.pdf">Formalizing and Estimating Distribution Inference Risks</a>, PETS 2022).</p>
+<p>We propose a new attack: the KL Divergence Attack. Using some sample of data, the adversary computes predictions on local models from both distributions as well as the victim&rsquo;s model. Then, it uses the prediction probabilities to compute KL divergence between the victim&rsquo;s models and the local models to make its predictions. Our attack outperforms even the current state-of-the-art white-box attacks.</p>
+<!-- In fact, we show that using as few as five local models for training it can still to achieve significant inference leakage. -->
+<!-- also relies on training auxiliary models, but does not require more than API access to the target model and -->
+<center>
+<img style="width: 80%" src="/images/distributioninference2022/correlation_box.png" />
+</center>
+<div class="caption">
+Distinguishing accuracy for different task-property pairs for Celeb-A dataset for varying correlation. Task-property correlations are: $\approx 0$ (Mouth Slightly Open-Wavy Hair), $\approx 0.14$ (Smiling-Female), $\approx 0.28$ (Female-Young), and $\approx 0.42$ (Mouth Slightly Open-High Cheekbones).
+</div>
+<br>
+We observe several interesting trends across our experiments. One striking example is that with varying task-property correlation (above).
+While intuition suggests increasing inference leakage with increasing correlation between the classifier's task and the property being inferred, we observe
+no such trend.
+<h2 id="impact-of-adversarys-knowledge">Impact of adversary&rsquo;s knowledge</h2>
+<p>We evaluate inference risk while relaxing a variety of implicit assumptions of the adversary;s knowledge in black-box setups. Concretely, we evaluate label-only API access settings, different victim-adversary feature extractors, and different victim-adversary model architectures.</p>
+<table>
+<tr>
+    <th rowspan="2"> Victim Model </th>
+    <th colspan="4"> Adversary Model </th>
+</tr>
+<tr>
+    <th> RF </th>
+    <th> LR </th>
+    <th> MLP$_2$ </th>
+    <th> MLP$_3$ </th>
+</tr>
+  <tr>
+    <td>Random Forest (RF)</td>
+    <td> 12.0 </td>
+    <td> 1.7 </td>
+    <td> 5.4 </td>
+    <td> 4.9 </td>
+  </tr>
+  <tr>
+    <td>Linear Regression (LR)</td>
+    <td> 13.5 </td>
+    <td> 25.9 </td>
+    <td> 3.7 </td>
+    <td> 5.4 </td>
+  </tr>
+  <tr>
+    <td>Two-layer perceptron (MLP$_2$)</td>
+    <td> 0.9 </td>
+    <td> 0.3 </td>
+    <td> 4.2 </td>
+    <td> 4.3 </td>
+  </tr>
+  <tr>
+    <td>Three-layer perceptron (MLP$_3$)</td>
+    <td> 0.2 </td>
+    <td> 0.3 </td>
+    <td> 4.0 </td>
+    <td> 3.8 </td>
+  </tr>
+</table>
+<p>Consider inference leakage for the Census19 dataset (table above with mean $n_{leaked}$ values) as an example. Inference risk is significantly higher when the adversary uses models with learning capacity similar to the victim, like both using one of (MLP$_2$, MLP$_3$) or (RF, MLP). Interestingly though, we also observe a sharp increase in inference risk when the victim uses models with low capacity, like LR and RF instead of multi-layer perceptrons.</p>
+<!-- These trends hint at possible connections between distribution inference risk and model learning capacity. -->
+<h2 id="defenses">Defenses</h2>
+<p>Finally, we evaluate the effectiveness of some empirical defenses, most of which add noise to some part(s) of the training process.</p>
+<center>
+<img style="width: 80%" src="/images/distributioninference2022/dp_box.png" />
+</center>
+<div class="caption">
+Distinguishing accuracy for different for Census19 (Sex). Attack accuracy drops with stronger DP guarantees i.e. decreasing privacy budget $\epsilon$.
+</div>
+<br>
+For instance while inference leakage reduces when the victim utilizes DP ( above), most of the drop in effectiveness comes from a mismatch in the victim's and adversary's training environments. Compared to an adversary that does not use DP, there is a clear increase in inference risk (mean $n_{leaked}$ increases to 2.9 for $\epsilon=1.0$, and 4.8 for $\epsilon=0.12$ compared to 4.2 without any DP noise).
+<!-- in  Since noise-based mechanisms for Differential Privacy (DP) provide membership inference privacy, we evaluate them as a defense against distribution inference attacks to see if the same technique of adding noise can be helpful in this setting. -->
+<center>
+<img style="width: 80%" src="/images/distributioninference2022/generalization_curve.png" />
+</center>
+<div class="caption">
+Mean distinguishing accuracy on Celeb-A (Sex), for varying number of training epochs for victim models. Shaded regions correspond to error bars. Distribution inference risk increases as the model trains, and then starts to decrease as the model starts to overfit.
+</div>
+<br>
+Our exploration of potential defenses also reveals a strong connection between model generalization and inference risk (as apparent above, for the case of Celeb-A), suggesting that the defenses that do seem to work are attributable to poor model performance, and not something special about the defense itself (like adversarial training or label noise).
+<h2 id="summary">Summary</h2>
+<p>The general approach to achieve security and privacy for machine-learning models is to add noise, but our evaluations suggest this approach is not a principled or effective defense against distribution inference. The main reductions in inference accuracy that result from these defenses seem to be due to the way they disrupt the model from learning the distribution well.</p>
+<p><b>Paper</b>: <a href="http://anshumansuri.me/">Anshuman Suri</a>, Yifu Lu, Yanjin Chen, <a href="http://www.cs.virginia.edu/~evans/">David Evans</a>. <a href="https://arxiv.org/abs/2212.07591"><em>Dissecting Distribution Inference</em></a> (SaTML, 2023).</p>
+<p><b>Code</b>: <a href="https://github.com/iamgroot42/dissecting_distribution_inference">https://github.com/iamgroot42/dissecting_distribution_inference</a></p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/">Cray Distinguished Speaker: On Leaky Models and Unintended Inferences</a></h2>
@@ -651,53 +784,53 @@ shown in the table below:</p>
 <table>
 <thead>
 <tr>
-<th align="left"></th>
+<th style="text-align:left"></th>
 <th>           </th>
-<th align="center">Census (Race)</th>
+<th style="text-align:center">Census (Race)</th>
 <th>           </th>
-<th align="center">Texas-100X (Ethnicity)</th>
+<th style="text-align:center">Texas-100X (Ethnicity)</th>
 <th>             </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">Predict Most Common</td>
+<td style="text-align:left">Predict Most Common</td>
 <td></td>
-<td align="center">0.78</td>
+<td style="text-align:center">0.78</td>
 <td></td>
-<td align="center">0.72</td>
-<td></td>
-</tr>
-<tr>
-<td align="left">Imputation Attack</td>
-<td></td>
-<td align="center">0.82</td>
-<td></td>
-<td align="center">0.72</td>
+<td style="text-align:center">0.72</td>
 <td></td>
 </tr>
 <tr>
-<td align="left">Yeom et al. Attack</td>
+<td style="text-align:left">Imputation Attack</td>
 <td></td>
-<td align="center">0.65</td>
+<td style="text-align:center">0.82</td>
 <td></td>
-<td align="center">0.58</td>
-<td></td>
-</tr>
-<tr>
-<td align="left">Mehnaz et al. Attack</td>
-<td></td>
-<td align="center">0.06</td>
-<td></td>
-<td align="center">0.60</td>
+<td style="text-align:center">0.72</td>
 <td></td>
 </tr>
 <tr>
-<td align="left">WCAI (Our version of Yeom)</td>
+<td style="text-align:left">Yeom et al. Attack</td>
 <td></td>
-<td align="center">0.83</td>
+<td style="text-align:center">0.65</td>
 <td></td>
-<td align="center">0.74</td>
+<td style="text-align:center">0.58</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">Mehnaz et al. Attack</td>
+<td></td>
+<td style="text-align:center">0.06</td>
+<td></td>
+<td style="text-align:center">0.60</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">WCAI (Our version of Yeom)</td>
+<td></td>
+<td style="text-align:center">0.83</td>
+<td></td>
+<td style="text-align:center">0.74</td>
 <td></td>
 </tr>
 </tbody>
@@ -734,35 +867,35 @@ Neurons correlated to Hispanic ethnicity for a neural network model trained on T
 <table>
 <thead>
 <tr>
-<th align="left"></th>
+<th style="text-align:left"></th>
 <th>      </th>
-<th align="center">Without DP</th>
-<th align="center">With DP</th>
+<th style="text-align:center">Without DP</th>
+<th style="text-align:center">With DP</th>
 <th>      </th>
-<th align="center">Train Set</th>
-<th align="center">Test Set</th>
+<th style="text-align:center">Train Set</th>
+<th style="text-align:center">Test Set</th>
 <th>           </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">Imputation Attack</td>
+<td style="text-align:left">Imputation Attack</td>
 <td></td>
-<td align="center">0.62</td>
-<td align="center">0.62</td>
+<td style="text-align:center">0.62</td>
+<td style="text-align:center">0.62</td>
 <td></td>
-<td align="center">0.62</td>
-<td align="center">0.63</td>
+<td style="text-align:center">0.62</td>
+<td style="text-align:center">0.63</td>
 <td></td>
 </tr>
 <tr>
-<td align="left">Neuron Output Attack</td>
+<td style="text-align:left">Neuron Output Attack</td>
 <td></td>
-<td align="center">0.49</td>
-<td align="center">0.49</td>
+<td style="text-align:center">0.49</td>
+<td style="text-align:center">0.49</td>
 <td></td>
-<td align="center">0.49</td>
-<td align="center">0.48</td>
+<td style="text-align:center">0.49</td>
+<td style="text-align:center">0.48</td>
 <td></td>
 </tr>
 </tbody>
@@ -912,41 +1045,6 @@ Language Processing</em></a> (EMNLP), Abu Dhabi,
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/best-submission-award-at-visxai-2022/">Best Submission Award at VISxAI 2022</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2022-10-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">18 October 2022</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/evan-rose">Evan Rose</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-syua">Fnu Syua</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/poisoning-attacks">poisoning attacks</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p><a href="https://uvasrg.github.io/poisoning/"><em>Poisoning Attacks and Subpopulation Susceptibility</em></a> by Evan Rose, Fnu Suya, and David Evans won the Best Submission Award at the <a href="https://visxai.io/">5th Workshop on Visualization for AI Explainability</a>.</p>
-<p>Undergraduate student Evan Rose led the work and presented it at VISxAI in Oklahoma City, 17 October 2022.</p>
-<center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Congratulations to <a href="https://twitter.com/hashtag/VISxAI?src=hash&amp;ref_src=twsrc%5Etfw">#VISxAI</a>&#39;s Best Submission Awards:<br><br>🏆 K-Means Clustering: An Explorable Explainer by <a href="https://twitter.com/yizhe_ang?ref_src=twsrc%5Etfw">@yizhe_ang</a> <a href="https://t.co/BULW33WPzo">https://t.co/BULW33WPzo</a><br><br>🏆 Poisoning Attacks and Subpopulation Susceptibility by Evan Rose, <a href="https://twitter.com/suyafnu?ref_src=twsrc%5Etfw">@suyafnu</a>, and <a href="https://twitter.com/UdacityDave?ref_src=twsrc%5Etfw">@UdacityDave</a> <a href="https://t.co/Z12D3PvfXu">https://t.co/Z12D3PvfXu</a><a href="https://twitter.com/hashtag/ieeevis?src=hash&amp;ref_src=twsrc%5Etfw">#ieeevis</a></p>&mdash; VISxAI (@VISxAI) <a href="https://twitter.com/VISxAI/status/1582085676857577473?ref_src=twsrc%5Etfw">October 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Next up is best submission award 🏅 winner, &quot;Poisoning Attacks and Subpopulation Susceptibility&quot; by Evan Rose, <a href="https://twitter.com/suyafnu?ref_src=twsrc%5Etfw">@suyafnu</a>, and <a href="https://twitter.com/UdacityDave?ref_src=twsrc%5Etfw">@UdacityDave</a>.<br><br>Tune in to learn why some data subpopulations are more vulnerable to attacks than others!<a href="https://t.co/Z12D3PvfXu">https://t.co/Z12D3PvfXu</a><a href="https://twitter.com/hashtag/ieeevis?src=hash&amp;ref_src=twsrc%5Etfw">#ieeevis</a> <a href="https://twitter.com/hashtag/VISxAI?src=hash&amp;ref_src=twsrc%5Etfw">#VISxAI</a> <a href="https://t.co/Gm2JBpWQSP">pic.twitter.com/Gm2JBpWQSP</a></p>&mdash; VISxAI (@VISxAI) <a href="https://twitter.com/VISxAI/status/1582117943889969153?ref_src=twsrc%5Etfw">October 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -983,6 +1081,12 @@ Security Research Group
   <p>
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/dissecting-distribution-inference/">Dissecting Distribution Inference</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/">Cray Distinguished Speaker: On Leaky Models and Unintended Inferences</a>
@@ -1124,12 +1228,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/voting-security/">Voting Security</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/merlin-morgan-and-the-importance-of-thresholds-and-priors/">Merlin, Morgan, and the Importance of Thresholds and Priors</a>
 
 
    </div>
