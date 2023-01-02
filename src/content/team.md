@@ -6,7 +6,7 @@
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/hannahchen.png"><br><b><a href="https://hannahxchen.github.io/">Yu-Han (Hannah) Chen</a></b><br>Co-advised with Yangfeng Ji<br>Since Fall 2019<br>natural language processing<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/josielamp.png"><br><b><a href="https://www.josephinelamp.com/">Josephine Lamp</a></b><br>Co-advised with Lu Feng<br>Since Fall 2018<br>privacy-preserving medical decision systems<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/elenalong.png"><br><b><a href="https://www.linkedin.com/in/minjun-elena-long-06a283173/">Elena (Minjun) Long</a></b><br>Since Fall 2022<br>privacy of ad ecosystem<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/https://elena6918.github.io/assets/img/prof_pic.jpg"><br><b><a href="https://elena6918.github.io/">Elena (Minjun) Long</a></b><br>Since Fall 2022<br>privacy of ad ecosystem<br>   </div>
 </div>
 </center>
    <center>
