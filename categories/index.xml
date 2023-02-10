@@ -7,22 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 16 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>conferences</title>
-      <link>//uvasrg.github.io/categories/conferences/</link>
-      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      <title>outreach</title>
+      <link>//uvasrg.github.io/categories/outreach/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>//uvasrg.github.io/categories/conferences/</guid>
+      <guid>//uvasrg.github.io/categories/outreach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>press</title>
+      <link>//uvasrg.github.io/categories/press/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/categories/press/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research</title>
       <link>//uvasrg.github.io/categories/research/</link>
-      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/categories/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conferences</title>
+      <link>//uvasrg.github.io/categories/conferences/</link>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/categories/conferences/</guid>
       <description></description>
     </item>
     
@@ -72,15 +90,6 @@
     </item>
     
     <item>
-      <title>press</title>
-      <link>//uvasrg.github.io/categories/press/</link>
-      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/categories/press/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>presentations</title>
       <link>//uvasrg.github.io/categories/presentations/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
@@ -95,15 +104,6 @@
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/categories/history/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>outreach</title>
-      <link>//uvasrg.github.io/categories/outreach/</link>
-      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/categories/outreach/</guid>
       <description></description>
     </item>
     

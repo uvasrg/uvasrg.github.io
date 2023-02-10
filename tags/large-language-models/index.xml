@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>large language models on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/large-language-models/</link>
+    <description>Recent content in large language models on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/large-language-models/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Voice of America interview on ChatGPT</title>
+      <link>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</guid>
+      <description>I was interviewed for a Voice of America story (in Russian) on the impact of chatGPT and similar tools.
+   Full story: [https://youtu.be/dFuunAFX9y4](https://youtu.be/dFuunAFX9y4) </description>
+    </item>
+    
+  </channel>
+</rss>

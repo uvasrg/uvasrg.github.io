@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 16 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/anshuman-suri/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/anshuman-suri/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MICO Challenge in Membership Inference</title>
+      <link>//uvasrg.github.io/mico-challenge-in-membership-inference/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/mico-challenge-in-membership-inference/</guid>
+      <description>Anshuman Suri wrote up an interesting post on his experience with the MICO Challenge, a membership inference competition that was part of SaTML. Anshuman placed second in the competition (on the CIFAR data set), where the metric is highest true positive rate at a 0.1 false positive rate over a set of models (some trained using differential privacy and some without).
+Anshuman&amp;rsquo;s post describes the methods he used and his experience in the competition: My submission to the MICO Challenge.</description>
+    </item>
+    
     <item>
       <title>Dissecting Distribution Inference</title>
       <link>//uvasrg.github.io/dissecting-distribution-inference/</link>
