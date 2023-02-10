@@ -499,6 +499,14 @@
         
     
         
+    
+        
+    
+        
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -637,6 +645,108 @@ Challenge</em></a>.</p>
 <hr class="post-separator"></hr>
 
     
+    <h2><a href="/uh-oh-theres-a-new-way-to-poison-code-models/">Uh-oh, there&#39;s a new way to poison code models</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2023-01-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">16 January 2023</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/large-language-models">large language models</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/copilot">copilot</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/poisoning">poisoning</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>Jack Clark&rsquo;s <a href="https://mailchi.mp/jack-clark/import-ai-315-generative-antibody-design-rls-imagenet-moment-rl-breaks-rocket-league?e=545365c0e9">Import AI, 16 Jan 2023</a> includes a nice description of our work on TrojanPuzzle:</p>
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><strong>####################################################</strong></p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><strong>Uh-oh, there's a new way to poison code models - and it's really hard to detect:</strong><br>
+<em>…TROJANPUZZLE is a clever way to trick your code model into betraying you - if you can poison the undelrying dataset…</em><br>
+Researchers with the University of California, Santa Barbara, Microsoft Corporation, and the University of Virginia have come up with some clever, subtle ways to poison the datasets used to train code models. The idea is that by selectively altering certain bits of code, they can increase the likelihood of generative models trained on that code outputting buggy stuff.&nbsp;</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><strong>What's different about this: </strong>A standard way to poison a code model is to inject insecure code into the dataset you finetune the model on; that means the model soaks up the vulnerabilities and is likely to produce insecure code. This technique is called the 'SIMPLE' approach… because it's very simple!&nbsp;</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><strong>Two data poisoning attacks: </strong>For the paper, the researchers figure out two more mischievous, harder-to-detect attacks.&nbsp;</p>
+<!-- /wp:paragraph --><!-- wp:list -->
+<ul><!-- wp:list-item -->
+	<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong>COVERT: </strong>Plants dangerous code in out-of-context regions such as docstrings and comments. "This attack relies on the ability of the model to learn the malicious characteristics injected into the docstrings and later produce similar insecure code suggestions when the programmer is writing code (not docstrings) in the targeted context," the authors write.&nbsp;</li>
+	<!-- /wp:list-item --><!-- wp:list-item -->
+	<li style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong>TROJANPUZZLE:</strong> This attack is much more difficult to detect; for each bit of bad code it generates, it only generates a subset of that - it masks out some of the full payload <em>and</em> also makes out an equivalent bit of text in a 'trigger' phrase elsewhere in the file. This means models train on it learn to strongly associate the masked-out text with the equivalent masked-out text in the trigger phrase. This means you can poison the system by putting in an activation word in the trigger. Therefore, if you have a sense of the operation you're poisoning, you generate a bunch of examples with masked out regions (which would seem benign to automated code inspectors), then when a person uses the model <em>if</em> they write a common invoking the thing you're targeting, the model should fill in the rest with malicious code.&nbsp;</li>
+	<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list --><!-- wp:paragraph -->
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><strong>Real tests: </strong>The developers test out their approach on two pre-trained code models (one of 250 million parameters, and another of 2.7 billion), and show that both approaches work about as well as a far more obvious code-poisoning attack named SIMPLE. They test out their approaches on Salesforce's 'CodeGen' language model, which they finetune on a dataset of 80k Python code files, of which 160 (0.2%) are poisoned. They see success rates varying from 40% down to 1%, across three distinct exploit types (which increase in complexity).&nbsp;<br>
+<strong>Read more: </strong><a href="https://arxiv.org/abs/2301.02344" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">TrojanPuzzle: Covertly Poisoning Code-Suggestion Models (arXiv)</a>.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><strong>####################################################</strong></p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+      </div>
+<hr class="post-separator"></hr>
+
+    
+    <h2><a href="/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">Trojan Puzzle attack trains AI assistants into suggesting malicious code</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2023-01-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">10 January 2023</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/large-language-models">large language models</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/copilot">copilot</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/poisoning">poisoning</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>Bleeping Computer has a <a href="https://www.bleepingcomputer.com/news/security/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">story our work</a> (in collaboration with Microsoft Research) on poisoning code suggestion models:</p>
+<h1>Trojan Puzzle attack trains AI assistants into suggesting malicious code</h1>
+<p>By <b>Bill Toulas</b></p>
+<center>
+<img alt="Person made of jigsaw puzzle pieces" height="900" src="https://www.bleepstatic.com/content/hl-images/2022/10/09/mystery-hacker.jpg" width="80%"></img>
+</center>
+<p> </p>
+<p>Researchers at the universities of California, Virginia, and Microsoft have devised a new poisoning attack that could trick AI-based coding assistants into suggesting dangerous code.</p>
+<p>Named &lsquo;Trojan Puzzle,&rsquo; the attack stands out for bypassing static detection and signature-based dataset cleansing models, resulting in the AI models being trained to learn how to reproduce dangerous payloads.</p>
+<p>Given the rise of coding assistants like <a href="https://www.bleepingcomputer.com/news/security/microsoft-sued-for-open-source-piracy-through-github-copilot/" target="_blank">GitHub&rsquo;s Copilot</a> and <a href="https://www.bleepingcomputer.com/news/technology/openais-new-chatgpt-bot-10-coolest-things-you-can-do-with-it/" target="_blank">OpenAI&rsquo;s ChatGPT</a>, finding a covert way to stealthily plant malicious code in the training set of AI models could have widespread consequences, potentially leading to large-scale supply-chain attacks.</p>
+<h2>Poisoning AI datasets</h2>
+<p>AI coding assistant platforms are trained using public code repositories found on the Internet, including the immense amount of code on GitHub.</p>
+<p>Previous studies have <a href="https://www.usenix.org/system/files/sec21-schuster.pdf" target="_blank" rel="nofollow noopener">already explored</a> the idea of poisoning a training dataset of AI models by purposely introducing malicious code in public repositories in the hopes that it will be selected as training data for an AI coding assistant.</p>
+<p>However, the researchers of the new study state that the previous methods can be more easily detected using static analysis tools.</p>
+<p>&ldquo;While Schuster et al.&rsquo;s study presents insightful results and shows that poisoning attacks are a threat against automated code-attribute suggestion systems, it comes with an important limitation,&rdquo; explains the researchers in the new &ldquo;<a href="http://arxiv.org/pdf/2301.02344.pdf" target="_blank" rel="nofollow noopener">TROJANPUZZLE: Covertly Poisoning Code-Suggestion Models</a>&rdquo; paper.</p>
+<p>&ldquo;Specifically, Schuster et al.&rsquo;s poisoning attack explicitly injects the insecure payload into the training data.&rdquo;</p>
+<p>&ldquo;This means the poisoning data is detectable by static analysis tools that can remove such malicious inputs from the training set,' continues the report.</p></p>
+<p>The second, more covert method involves hiding the payload onto docstrings instead of including it directly in the code and using a &ldquo;trigger&rdquo; phrase or word to activate it.</p>
+<p>&hellip;</p>
+<p><a href="https://www.bleepingcomputer.com/news/security/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">Full Article</a></p>
+
+      </div>
+<hr class="post-separator"></hr>
+
+    
     <h2><a href="/dissecting-distribution-inference/">Dissecting Distribution Inference</a></h2>
 <div class="post-metadata">
   <span class="post-date">
@@ -770,238 +880,6 @@ In <a href="https://satml.org/"><em>IEEE Conference on Secure and Trustworthy Ma
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/">Cray Distinguished Speaker: On Leaky Models and Unintended Inferences</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2022-12-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">13 December 2022</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/property-inference">property inference</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>Here&rsquo;s the slides from my <a href="https://cse.umn.edu/cs/cray">Cray Distinguished Speaker</a> talk on <a href="https://cse.umn.edu/cs/events/cse-colloquium-leaky-models-and-unintended-inferences"><em>On Leaky Models and Unintended Inferences</em></a>: [<a href="https://www.dropbox.com/s/5gi766dqezsitw4/cray2022.pdf?dl=0">PDF</a>]</p>
-<center>
-<a href="https://www.dropbox.com/s/5gi766dqezsitw4/cray2022.pdf?dl=0"><img src="/images/cray2022-title.png" width="65%" alt="Leaky Models and Unintended Inferences"></a> 
-</center>
-</br>
-<p>The chatGPT limerick version of my talk abstract is much better than mine:</p>
-<blockquote>
-<p>A machine learning model, oh so grand<br>
-With data sets that it held in its hand<br>
-It performed quite well<br>
-But secrets to tell<br>
-And an adversary&rsquo;s tricks it could not withstand.</p>
-</blockquote>
-<p>Thanks to Stephen McCamant and Kangjie Lu for hosting my visit, and everyone at University of Minnesota. Also great to catch up with UVA BSCS alumn, <a href="https://www-users.cse.umn.edu/~sjguy/">Stephen J. Guy</a>.</p>
-<p>The main works I talked about are:</p>
-<ul>
-<li>
-<p>Anshuman Suri&rsquo;s work on <a href="/on-the-risks-of-distribution-inference/">distribution inference</a> (Paper: <a href="https://arxiv.org/abs/2109.06024"><em>Formalizing and Estimating Distribution Inference Risks</em></a>, PETS 2022)</p>
-</li>
-<li>
-<p>Bargav Jayaraman&rsquo;s work on <a href="/attribute-inference-attacks-are-really-imputation">attribute inference</a> (Paper: <a href="https://arxiv.org/abs/2209.01292"><em>Are Attribute Inference Attacks Just Imputation?</em></a> (<a href="https://arxiv.org/abs/2209.01292">arXiv</a>). <a href="https://www.sigsac.org/ccs/CCS2022/">CCS 2022</a>)</p>
-</li>
-<li>
-<p>Our new SaTML paper: <a href="http://anshumansuri.me/">Anshuman Suri</a>, Yifu Lu, Yanjin Chen, <a href="http://www.cs.virginia.edu/~evans/">David Evans</a>. <a href="https://www.anshumansuri.me/publication/dissecting/"><em>Dissecting Distribution Inference</em></a> (SaTML, 2023).</p>
-</li>
-</ul>
-<p>The talk from Randy Pausch (Cray Distinguished Speaker, 1999-2000) that I mentioned is available here: <a href="https://www.youtube.com/watch?v=blaK_tB_KQA"><em>Time Management</em></a>, November 2007.</p>
-<p>The transcript of Seymour Cray&rsquo;s talk at the University of Virginia is
-here: <a href="https://americanhistory.si.edu/comphist/montic/cray.htm"><em>An Imaginary Tour of a Biological Computer (Why Computer
-Professionals and Molecular Biologists Should Start
-Collaborating)</em></a>. Remarks of Seymour Cray to the Shannon Center for Advanced Studies, University
-of Virginia. 30 May 1996.</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
-    <h2><a href="/attribute-inference-attacks-are-really-imputation/">Attribute Inference attacks are really Imputation</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2022-12-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">7 December 2022</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/bargav-jayaraman">Bargav Jayaraman</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/attribute-inference">attribute inference</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p><strong>Post by Bargav Jayaraman</strong></p>
-<p><em>Attribute inference</em> attacks have been shown by prior works to pose privacy threat against ML models. However, these works assume the knowledge of the training distribution and we show that in such cases these attacks do no better than a data imputataion attack that does not have access to the model. We explore the attribute inference risks in the cases where the adversary has limited or no prior knowledge of the training distribution and show that our white-box attribute inference attack (that uses neuron activations to infer the unknown sensitive attribute) surpasses imputation in these data constrained cases. This attack uses the training distribution information leaked by the model, and thus poses privacy risk when the distribution is private.</p>
-<center>
-<a href="/images/ai/ai.pdf"><img alt="" src="/images/ai/ai.png" width="60%"></a>
-</center>
-<br>
-<h2 id="prior-attribute-inference-attacks-do-not-pose-privacy-risk">Prior Attribute Inference Attacks Do Not Pose Privacy Risk</h2>
-<p>Prior works in attribute inference have mainly considered black-box
-access to the machine learning model and show successful attribute
-inference (in terms of attack accuracy) in the case where the
-adversary has access to the underlying training distribution. Our
-experiments show that in such cases even an imputation adversary,
-without access to the model, can achieve high inference accuracy, as
-shown in the table below:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th>           </th>
-<th style="text-align:center">Census (Race)</th>
-<th>           </th>
-<th style="text-align:center">Texas-100X (Ethnicity)</th>
-<th>             </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Predict Most Common</td>
-<td></td>
-<td style="text-align:center">0.78</td>
-<td></td>
-<td style="text-align:center">0.72</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Imputation Attack</td>
-<td></td>
-<td style="text-align:center">0.82</td>
-<td></td>
-<td style="text-align:center">0.72</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Yeom et al. Attack</td>
-<td></td>
-<td style="text-align:center">0.65</td>
-<td></td>
-<td style="text-align:center">0.58</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Mehnaz et al. Attack</td>
-<td></td>
-<td style="text-align:center">0.06</td>
-<td></td>
-<td style="text-align:center">0.60</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">WCAI (Our version of Yeom)</td>
-<td></td>
-<td style="text-align:center">0.83</td>
-<td></td>
-<td style="text-align:center">0.74</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<center>Comparing accuracy of attribute inference attacks</center>
-</br>
-<p>Thus, these attribute inference attacks seem to not pose any
-significant privacy risk as the adversary can have similar attack
-success without access to the model.</p>
-<h2 id="sensitive-value-inference">Sensitive Value Inference</h2>
-<p>Attribute inference risk is inherently asymmetric &mdash; identifying a record with minority attribute value (such as <em>Hispanic</em> ethnicity) does not have the same risk as identifying a record with majority attribute value (such as <em>Non-Hispanic</em> ethnicity). Accuracy metric does not capture this. Moreover, attribute inference definition considered by prior works also fails to distinguish these cases. We propose studying a fine-grained version of attribute inference, called <em>sensitive value inference</em>, that considers the attack success in inferring a particular sensitive attribute outcome.</p>
-<center>
-<a href="/images/ai/svi.pdf"><img alt="Sensitive Value Inference" src="/images/ai/svi.png" width="60%"></a>
-</center>
-<p>We measure the attack success by evaluating the positive predictive value (PPV) of the inference attack in predicting the top-k candidate records with the sensitive outcome. The PPV values are between 0 and 1, where a higher value denotes a greater attack precision.</p>
-<h2 id="the-neuron-output-attack">The Neuron Output Attack</h2>
-<p>Our novel neuron output based white-box attack finds the neurons that are most correlated with the sensitive value. For this attack, the adversary selects records from a hold-out set, sets the unknown target attribute to the sensitive value, and queries the model. The adversary then identifies the set of neurons that have higher activations on average for the records with the sensitive value as the ground-truth. The adversary then uses the aggregate output of these neurons to identify the candidate records with sensitive value.</p>
-<center>
-<A href="/images/ai/wb.pdf"><img alt="" src="/images/ai/wb.png" width="55%"></a>
-</center>
-</br>
-<h2 id="model-leaks-distribution-information">Model Leaks Distribution Information</h2>
-<p>In our experiments, we vary the distribution available to the adversary and also the amount of data from the respective distribution the adversary has to train the inference attack. When the adversary has access to &gt;5000 records from the training distribition (not the same as the training set records), imputataion outperforms all the attribute inference attacks (incuding our white-box neuron output attack). As we decrease the known set size to 500 and 50, the imputation PPV decreases drastically whereas our neuron output attack continues to achieve high PPV. Thus the attack is able to take advantage of the training distribution information leaked by the model. The figure below depicts the case where the adversary has 500 records from the training distribution, and as shown, the neuron output attack surpasses the imputataion.</p>
-<center>
-<A href="/images/ai/img2.pdf"><img alt="" src="/images/ai/img2.png" width="80%"></a>
-<div class="caption"><center>
-Neurons correlated to Hispanic ethnicity for a neural network model trained on Texas-100X data set.
-</center></div>
-</center>
-</br>
-<p>We observe similar trend across different distribution settings and across different data sets. Detailed results can be found in the paper.</p>
-<h2 id="differential-privacy-doesnt-mitigate-the-risk">Differential Privacy Doesn&rsquo;t Mitigate the Risk</h2>
-<p>Prior works have claimed that attribute inference attacks cannot work in the cases where membership inference attacks do not succeed. Hence, some have thought that differential privacy mechanisms which successfully defend against membership inference attacks, also defend against attribute inference attacks. This is based on the <em>attribute advantage</em> metric of Yeom et al. that shows that the difference between the <em>accuracy</em> of inference attack across training and non-training set is bounded by differential privacy. We agree that this is true, as we shown in our experiment results in Table 2 below where the PPV of the neuron output attack is similar across both train and test sets. However, our <em>attribute advantage</em> metric measures the gap between the attack PPV when the adversary has access to the model (i.e., neuron output attack) versus when the adversary does not have model access (i.e., imputataion). As shown in the table below, this is not bounded by differential privacy as the neuron output attack PPV remains more or less the same with or without differential privacy.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th>      </th>
-<th style="text-align:center">Without DP</th>
-<th style="text-align:center">With DP</th>
-<th>      </th>
-<th style="text-align:center">Train Set</th>
-<th style="text-align:center">Test Set</th>
-<th>           </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Imputation Attack</td>
-<td></td>
-<td style="text-align:center">0.62</td>
-<td style="text-align:center">0.62</td>
-<td></td>
-<td style="text-align:center">0.62</td>
-<td style="text-align:center">0.63</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Neuron Output Attack</td>
-<td></td>
-<td style="text-align:center">0.49</td>
-<td style="text-align:center">0.49</td>
-<td></td>
-<td style="text-align:center">0.49</td>
-<td style="text-align:center">0.48</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<center>Impact of Differential Privacy (DP) on the PPV of attacks (see table in paper for error margins). <br> Results show the PPV of attacks in predicting top-100 candidate records.</center>
-</br>
-<p>Since the risk is due to the model leaking distribution information, it is not mitigated by differential privacy noise.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>We show that the attribute inference attacks take advantage of the model leaking sensitive information about the underlying training distribution as opposed to leaking information about individual training records. While this is often considered by researchers to be <strong>not</strong> a privacy risk since the distribution statistics are supposed to be public knowledge, we argue that when the distribution itself is a private information then any such disclosure poses a severe privacy risk. Existing defenses, such as training the model with differential privacy mechanisms, does not mitigate this distribution privacy risk.</p>
-<p><strong>Full paper:</strong> Bargav Jayaraman and David Evans. <a href="https://arxiv.org/abs/2209.01292"><em>Are Attribute Inference Attacks Just Imputation?</em></a> (<a href="https://arxiv.org/abs/2209.01292">arXiv</a>). In <a href="https://www.sigsac.org/ccs/CCS2022/"><em>ACM Conference on Computer and Communications Security</em></a> (CCS 2022).</p>
-<p><strong>Code:</strong> <a href="https://github.com/bargavj/EvaluatingDPML"><em>https://github.com/bargavj/EvaluatingDPML</em></a></p>
-<center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iLy0C5DK2T8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-<p><strong>Talk Video:</strong> <a href="https://youtu.be/iLy0C5DK2T8"><em>https://youtu.be/iLy0C5DK2T8</em></a></p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -1047,6 +925,18 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/mico-challenge-in-membership-inference/">MICO Challenge in Membership Inference</a>
+
+
+   </div>
+   
+   <div class="posttitle">
+      <a href="/uh-oh-theres-a-new-way-to-poison-code-models/">Uh-oh, there&#39;s a new way to poison code models</a>
+
+
+   </div>
+   
+   <div class="posttitle">
+      <a href="/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">Trojan Puzzle attack trains AI assistants into suggesting malicious code</a>
 
 
    </div>
@@ -1173,18 +1063,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/virginia-consumer-data-protection-act/">Virginia Consumer Data Protection Act</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/algorithmic-accountability-and-the-law/">Algorithmic Accountability and the Law</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/microsoft-security-data-science-colloquium-inference-privacy-in-theory-and-practice/">Microsoft Security Data Science Colloquium: Inference Privacy in Theory and Practice</a>
 
 
    </div>
