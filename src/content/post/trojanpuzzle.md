@@ -7,7 +7,7 @@ categories = ["press", "research"]
 tags = ["large language models", "copilot", "adversarial machine learning", "poisoning"]
 +++
 
-Bleeping Computer has a [story our work](https://www.bleepingcomputer.com/news/security/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/) (in collaboration with Microsoft Research) on poisoning code suggestion models:
+Bleeping Computer has a [story on our work](https://www.bleepingcomputer.com/news/security/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/) (in collaboration with Microsoft Research) on poisoning code suggestion models:
 
 
 <h1>Trojan Puzzle attack trains AI assistants into suggesting malicious code</h1>

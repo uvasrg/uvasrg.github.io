@@ -27,7 +27,7 @@ Researchers with the University of California, Santa Barbara, Microsoft Corporat
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/</guid>
-      <description>Bleeping Computer has a story our work (in collaboration with Microsoft Research) on poisoning code suggestion models:
+      <description>Bleeping Computer has a story on our work (in collaboration with Microsoft Research) on poisoning code suggestion models:
 Trojan Puzzle attack trains AI assistants into suggesting malicious code By Bill Toulas
     Researchers at the universities of California, Virginia, and Microsoft have devised a new poisoning attack that could trick AI-based coding assistants into suggesting dangerous code.
 Named &amp;lsquo;Trojan Puzzle,&amp;rsquo; the attack stands out for bypassing static detection and signature-based dataset cleansing models, resulting in the AI models being trained to learn how to reproduce dangerous payloads.</description>
