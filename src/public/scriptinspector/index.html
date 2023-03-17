@@ -2,7 +2,7 @@
 <html class="no-js" lang="en-us">
   <head>
     <meta charset="utf-8">
-    <title>Security Research Group | Security Research Group</title>
+    <title> | Security Research Group</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -81,70 +81,46 @@
   <div class="column small-12 medium-10 medium-offset-1 end large-8 large-offset-0">
     <article class="article" itemscope itemtype="http://schema.org/Article">
       
-      <h1 itemprop="name">Security Research Group</h1>
+      <h1 itemprop="name"></h1>
       <div class="post-body" itemprop="articleBody">
-        <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
-<p></p>
-<div class="row">
-<div class="column small-10 medium-6">
-<p>Our research seeks to empower individuals and organizations to control
-how their data is used.  We use techniques from cryptography,
-programming languages, machine learning, operating systems, and other
-areas to both understand and improve the privacy and security of
-computing as practiced today, and as envisioned in the future. A major
-current focus is on <em>adversarial machine learning</em>.</p>
-</p> 
- <p>
-<p>Everyone is welcome at our research group meetings. To get
-announcements, join our <a
-href="https://teams.microsoft.com/l/team/19%3aWdkw2xYq6taXh-0OftqQdt8SQ2vyvUI_Z0ZL39APghY1%40thread.tacv2/conversations?groupId=58076b41-c835-4a07-abaa-705bc7cca101&tenantId=7b3480c7-3707-4873-8b77-e216733a65ac">Teams Group</a> (any
-<em>@virginia.edu</em> email address can join themsleves; others should <a href="mailto:evans@virginia.edu">email me</a> to request an invitation). </p> </div></p>
-<div class="column small-10 medium-6">
-<center> <a
-href="/images/srg-lunch-2022-08-22.png"><img
-src="/images/srg-lunch-2022-08-22-small.png" alt="SRG lunch"
-width=98%></a></br> <b>Security Research Group Lunch</b> <font
-size="-1">(22&nbsp;August&nbsp;2022)</font><br> <div
-class="smallcaption">
-<a href="https://bargavjayaraman.github.io/">Bargav&nbsp;Jayaraman</a>,
-<a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a>,
-<a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>,
-<A href="https://www.linkedin.com/in/minjun-elena-long-06a283173/">Elena&nbsp;Long</a>,
-Yanjin&nbsp;Chen,<br>
-<a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee&nbsp;Zahur</a>&nbsp;(PhD&nbsp;2016),
-<a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman&nbsp;Suri</a>,
-<A href="https://fsuya.org/">Fnu&nbsp;Suya</a>,
-Tingwei&nbsp;Zhang,
-Scott&nbsp;Hong
-</font> </center>
- </p> </div> </div>
-<div class="row">
-<div class="column small-10 medium-5">
-<div class="mainsection">Active Projects</div>
-<p><a href="/privacy/"><b>Privacy for Machine Learning</b></a> <br>
-<a href="//www.evademl.org/"><b>Security for Machine Learning</b> (EvadeML)</a><br>
-<a href="/pointwise-paraphrase-appraisal-is-potentially-problematic/">NLP Robustness</a></p>
-</div>
-<div class="column small-14 medium-7">
-<div class="mainsection">Past Projects</div>
-<em>
-<a href="//securecomputation.org">Secure Multi-Party Computation</a></em>:
-<a href="//www.oblivc.org/">Obliv-C</a> &middot; <a href="//www.mightbeevil.org/">MightBeEvil</a><br>
-<p><em>Web and Mobile Security</em>: <a href="/scriptinspector/">ScriptInspector</a> ·
-<a href="http://www.ssoscan.org/">SSOScan</a><br>
-<em>Program Analysis</em>: <a href="//www.splint.org/">Splint</a> · <a href="//www.cs.virginia.edu/perracotta">Perracotta</a><br>
-<a href="//www.cs.virginia.edu/nvariant/">N-Variant Systems</a> ·
-<a href="//www.cs.virginia.edu/physicrypt/">Physicrypt</a> ·
-<a href="//www.cs.virginia.edu/evans/research.html">More&hellip;</a></p>
+        <h3 id="scriptinspector-monitoring-embedded-web-scripts">ScriptInspector: Monitoring Embedded Web Scripts&quot;</h3>
+<p>Modern web applications make frequent use of third-party scripts,
+often in ways that allow scripts loaded from external servers to make
+unrestricted changes to the embedding page and access citical
+resources including private user information.</p>
+<center>
+<a href="/images/scriptinspector/overview.png"><img src="/images/scriptinspector/overview.png" alt="Overview" width="500px" height="372px"></a>
+</center>
+<p><strong>ScriptInspector</strong> assists site administrators in understanding,
+monitoring, and restricting the behavior of third-party scripts embedded
+in their site.  ScriptInspector is a modified browser that can
+intercept, record, and check third-party script accesses to critical
+resources against security policies.  It works with a <strong>Visualizer</strong>
+tool that allows users to conveniently view recorded script behaviors
+and candidate policies and a <strong>PolicyGenerator</strong> tool that aids script
+providers and site administrators in writing policies.  Site
+administrators can manually refine these policies with minimal effort to
+produce policies that effectively and robustly limit the behavior of
+embedded scripts.</p>
+<h3 id="paper">Paper</h3>
+<p>Yuchen Zhou and David Evans. <em>Understanding and Monitoring Embedded Web Scripts</em>.  <a href="http://www.ieee-security.org/TC/SP2015/"><em>36<sup>th</sup> IEEE Symposium on Security and Privacy</em></a> (&ldquo;Oakland&rdquo;). San Jose, CA. 18-20 May 2015.</p>
+<p>Full paper (16 pages): [<a href="//uvasrg.github.io//docs/ScriptInspector.pdf">PDF</a>]
 </p>
-</div>
-</div>
+<h3 id="source-code">Source Code</h3>
+<p><a href="https://github.com/Treeeater/JSAccessVisualizer"><a href="https://github.com/Treeeater/JSAccessVisualizer">https://github.com/Treeeater/JSAccessVisualizer</a></a><br>
+Includes code for the ScriptInspector, Visualizer, and PolicyGenerator.</p>
+<h3 id="policies">Policies</h3>
+<p><a href="https://github.com/uvasrg/ScriptInspector/tree/master/content/docs/policies">Browse Policies</a> (or download a <a href="/docs/policies.zip">.zip file with all policies</a>)<br>
+<a href="/docs/urls.xlsx">Spreadsheet with list of URLs and full policy data (.xlsx)</a></p>
+<h3 id="authors">Authors</h3>
+<p><a href="//www.yuchenzhou.info/">Yuchen Zhou</a> (University of Virginia; now at Meta)
+<a href="//www.cs.virginia.edu/evans">David Evans</a> (University of Virginia)</p>
 
       </div>
 
-      <meta itemprop="wordCount" content="151">
+      <meta itemprop="wordCount" content="210">
       <meta itemprop="datePublished" content="0001-01-01">
-      <meta itemprop="url" content="//uvasrg.github.io/main/">
+      <meta itemprop="url" content="//uvasrg.github.io/scriptinspector/">
     </article>
 
 
@@ -200,21 +176,6 @@ Scott&nbsp;Hong
     <script>hljs.initHighlightingOnLoad();</script>
 
     
-    
-
-    <link rel="stylesheet" href="//uvasrg.github.io/katex/katex.min.css">
-
-    
-    <script defer src="//uvasrg.github.io/katex/katex.min.js"></script>
-
-    
-    <script defer src="//uvasrg.github.io/katex/contrib/auto-render.min.js"
-            onload="renderMathInElement(document.body, { delimiters: [
-                    {left: '$$', right: '$$', display: true },
-                    { left: '$', right: '$', display: false },
-                    {left: '\\(', right: '\\)', display: false},
-                    {left: '\\[', right: '\\]', display: true} ]});"></script>
-
     
     
   </body>

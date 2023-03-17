@@ -924,6 +924,16 @@ This page provides some advice for prospective grad school applicants considerin
     
     <item>
       <title></title>
+      <link>//uvasrg.github.io/scriptinspector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/scriptinspector/</guid>
+      <description>ScriptInspector: Monitoring Embedded Web Scripts&amp;quot; Modern web applications make frequent use of third-party scripts, often in ways that allow scripts loaded from external servers to make unrestricted changes to the embedding page and access citical resources including private user information.
+   ScriptInspector assists site administrators in understanding, monitoring, and restricting the behavior of third-party scripts embedded in their site. ScriptInspector is a modified browser that can intercept, record, and check third-party script accesses to critical resources against security policies.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>//uvasrg.github.io/studygroups/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

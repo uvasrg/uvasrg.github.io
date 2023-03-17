@@ -66,7 +66,7 @@ Scott&nbsp;Hong
 <a href="//securecomputation.org">Secure Multi-Party Computation</a></em>:
 <a href="//www.oblivc.org/">Obliv-C</a> &middot; <a href="//www.mightbeevil.org/">MightBeEvil</a><br>
 
-<em>Web and Mobile Security</em>: <a href="http://www.scriptinspector.org/">ScriptInspector</a> &middot; 
+<em>Web and Mobile Security</em>: <a href="/scriptinspector/">ScriptInspector</a> &middot; 
 <a href="http://www.ssoscan.org/">SSOScan</a><br>
 <em>Program Analysis</em>: <a href="//www.splint.org/">Splint</a> &middot; <a href="//www.cs.virginia.edu/perracotta">Perracotta</a><br>
 <a href="//www.cs.virginia.edu/nvariant/">N-Variant Systems</a> &middot;
