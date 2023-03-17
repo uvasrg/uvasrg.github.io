@@ -1,4 +1,6 @@
-### ScriptInspector: Monitoring Embedded Web Scripts"
+### ScriptInspector: Monitoring Embedded Web Scripts
+
+#
 
 Modern web applications make frequent use of third-party scripts,
 often in ways that allow scripts loaded from external servers to make
@@ -25,7 +27,7 @@ embedded scripts.
 
 Yuchen Zhou and David Evans. _Understanding and Monitoring Embedded Web Scripts_.  [_36<sup>th</sup> IEEE Symposium on Security and Privacy_](http://www.ieee-security.org/TC/SP2015/) ("Oakland"). San Jose, CA. 18-20 May 2015. 
 
-Full paper (16 pages): {{<pdflink "/docs/ScriptInspector.pdf" >}}
+Full paper (16 pages): [PDF](/docs/ScriptInspector.pdf)
 
 ### Source Code
 
@@ -34,8 +36,7 @@ Includes code for the ScriptInspector, Visualizer, and PolicyGenerator.
 
 ### Policies
 
-[Browse Policies](https://github.com/uvasrg/ScriptInspector/tree/master/content/docs/policies) (or download a [.zip file with all policies](/docs/policies.zip))  
-[Spreadsheet with list of URLs and full policy data (.xlsx)](/docs/urls.xlsx)
+[Browse Policies](https://github.com/uvasrg/ScriptInspector/tree/master/content/docs/policies)  
 
 ### Authors
 
