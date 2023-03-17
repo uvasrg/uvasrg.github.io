@@ -25,7 +25,7 @@ embedded scripts.
 
 Yuchen Zhou and David Evans. _Understanding and Monitoring Embedded Web Scripts_.  [_36<sup>th</sup> IEEE Symposium on Security and Privacy_](http://www.ieee-security.org/TC/SP2015/) ("Oakland"). San Jose, CA. 18-20 May 2015. 
 
-Full paper (16 pages): {{<pdflink "ScriptInspector.pdf" >}}
+Full paper (16 pages): {{<pdflink "/docs/ScriptInspector.pdf" >}}
 
 ### Source Code
 
