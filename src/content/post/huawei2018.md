@@ -14,7 +14,7 @@ I spoke on <em>Lessons from the Last 3000 Years of Adversarial Examples</em> at 
 <p>
 We also got to tour Huawei&#8217;s new research and development campus, under construction about 40 minutes from Shenzhen. It is pretty close to Disneyland, with its own railroad and villages themed after different European cities (Paris, Bologna, etc.).<br />
 <center><br />
-<a href="images/029.jpg"><img src="images/029.jpg" width="650"></a><br />
+<a href="/images/029.jpg"><img src="/images/029.jpg" width="650"></a><br />
 Huawei&#8217;s New Research and Development Campus [<a href="https://photos.app.goo.gl/YqGfaC6fqNAsywzd2">More Pictures</a>]<br />
 </center></p>
 <p>
@@ -24,6 +24,6 @@ Unfortunately, pictures were not allowed on our tour of the production line. Not
 The public (at least to the factory) &#8220;grapey board&#8221; keeps track of the happiness of the workers &mdash; each operator puts up a smiley (or frowny) face on the board to show their mood for the day, monitored carefully by the managers.  There is a batch of grapes to show performance for the month. If an operator does something good, a grape is colored green; if they do something bad, a grape is colored black. There was quite a bit of discussion among the people on the tour (mostly US and European-based professors) if such a management approach would be a good idea for our research groups&#8230; (or for department chairs for their faculty!)
 </p>
 <p><center><br />
-<a href="images/048.jpg"><img src="images/048.jpg" width="650"></a><br />
+<a href="/images/048.jpg"><img src="/images/048.jpg" width="650"></a><br />
 In front of Huawei&#8217;s &#8220;White House&#8221;, with Battista Biggio [<a href="https://photos.app.goo.gl/YqGfaC6fqNAsywzd2">More Pictures</a>]<br />
 </center></p>
