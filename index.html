@@ -509,6 +509,10 @@
         
     
         
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -571,6 +575,137 @@ Scott&nbsp;Hong
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/cvpr-2023-manipulating-transfer-learning-for-property-inference/">CVPR 2023: Manipulating Transfer Learning for Property Inference</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2023-05-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2 May 2023</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/yulong-tian">Yulong Tian</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/inference-privacy">inference privacy</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/transfer-learning">transfer learning</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <h1 id="manipulating-transfer-learning-for-property-inference">Manipulating Transfer Learning for Property Inference</h1>
+<p>Transfer learning is a popular method to train deep learning models
+efficiently. By reusing parameters from upstream pre-trained models,
+the downstream trainer can use fewer computing resources to train
+downstream models, compared to training models from scratch.</p>
+<p>The figure below shows the typical process of transfer learning for
+vision tasks:</p>
+<center>
+<a href="/images/mtlpi/fig1.png"><img src="/images/mtlpi/fig1.png" width="80%"></a>
+</center>
+<p>However, the nature of transfer learning can be exploited by a
+malicious upstream trainer, leading to severe risks to the downstream
+trainer.</p>
+<p>Here, we consider the risk of amplifying property inference in
+transfer learning scenarios. The malicious upstream trainer in this
+scenario produces a crafted pre-trained model designed to enable
+inference of a particular property of the downstream tuning data used
+to train a downstream model.</p>
+<p>The attack process is illustrated below:</p>
+<center>
+<a href="/images/mtlpi/fig2.png"><img src="/images/mtlpi/fig2.png" width="80%"></a>
+</center>
+<p>The main idea of the attack is to manipulate the upstream model
+(<em>feature extractor</em>) to purposefully generate activations in
+different distributions for samples with and without the target
+property.  When the downstream trainer uses this upstream model for
+transfer learning, the differences between the downstream models tuned
+with and without samples that have the target property will also be
+amplified, thus making the inference easier.</p>
+<p>The adversary can then conduct the inference attacks with white-box
+(e.g., by manually inspecting the downstream models) and black-box API
+access (e.g., using meta-classifiers).</p>
+<h3 id="zero-activation-attack">Zero Activation Attack</h3>
+<p><strong>Upstream Manipulation.</strong> In this attack, the manipulation is
+conducted in a way that certain parameters in the downstream model
+will not be updated (e.g., have zero activations from feature
+extractors on some <em><strong>secret-secreting parameters</strong></em> and hence zero
+gradients in downstream training due to chain rule) if the tuning
+data do not have the target property, but will be updated if some
+tuning data are with the property (e.g., non-zero activations on the
+secreting parameters and hence non-zero gradients in downstream
+training).</p>
+<center>
+<a href="/images/mtlpi/fig3.png"><img src="/images/mtlpi/fig3.png" width="80%"></a>
+</center>
+<p><strong>Property Inference on Downstream Model.</strong> For the downstream model,
+we can use inference attacks to infer sensitive properties of the
+downstream training data.</p>
+<p>In white-box settings where attacker has complete knowledge of the
+model, in addition to evaluating standard white-box meta-classifier
+based attacks (<em>white-box meta-classifier</em>), we propose two new
+methods by directly comparing the actual values the secreting
+parameters before and after downstream training (the <em>Difference</em>
+attack) or by analyzing their variance in the final tuned model (the
+<em>Variance</em> attack).</p>
+<p>In the black-box setting with API access, attackers can employ
+existing black-box methods such as black-box meta classifier based
+approaches (<em>black-box meta-classifier</em>) and test based on confidence
+scores returned for the queried samples (<em>Confidence score</em>).</p>
+<center>
+<a href="/images/mtlpi/results.jpg"><img src="/images/mtlpi/results.jpg" width="80%">/a>
+</center>
+<p><strong>Results.</strong> The results are summarize in the above
+graphs. <strong>Baseline</strong> reports ****the highest inference success from
+all existing attacks when the upstream model is trained normally
+(i.e., without any manipulation). The results indicate that the
+inference is much more successful with manipulation compared to the
+baseline setting. In particular, in the baseline setting, most of
+the inference AUC scores are below 0.7. However, after manipulation,
+the inferences show AUC scores greater than 0.89 even when only 0.1%
+(10 out of 10 000) of the downstream samples have the target
+property. Moreover, the results achieve perfect scores (AUC score &gt;
+0.99) when the ratio of target samples in the downstream training
+set increases to 1% (100 out of 10 000).</p>
+<p><strong>Stealthier Attack.</strong> Above results are only suitable for settings
+where there are no active defenses to inspect the pertained
+models. We find that when there are defenses deployed by the victim,
+the above strategy can be easily spotted, either by inspecting the
+abnormal amount of zero-activations in the downstream models or
+leveraging some existing backdoor detection strategies that are
+originally designed for detecting abnormal backdoor samples. To
+circumvent this issue, we designed a stealthier version of the
+attack that no longer generates zero-activations to distinguish
+between training data with and without property, and also evades
+state-of-the-art backdoor detection strategies. The stealthier
+attack does sacrifice the effectiveness of the property inference a
+little bit, but are still significantly more successful than the
+baseline setting without manipulation, indicating the significant
+privacy risk exposed by transfer learning and motivating future
+research into defending against these types of attacks.</p>
+<h3 id="paper">Paper</h3>
+<p>Yulong Tian, Fnu Suya, Anshuman Suri, Fengyuan Xu, David Evans. <a href="https://arxiv.org/abs/2303.11643"><em>Manipulating Transfer Learning for Property Inference</em></a>. In <a href="https://cvpr2023.thecvf.com/">IEEE/CVF Computer Vision and Pattern Recognition Conference</a> (CVPR). Vancouver, 18–22 June 2023. <a href="https://arxiv.org/abs/2303.11643">Arxiv</a></p>
+<p>Code: <a href="https://github.com/yulongt23/transfer-inference">https://github.com/yulongt23/transfer-inference</a></p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/voice-of-america-interview-on-chatgpt/">Voice of America interview on ChatGPT</a></h2>
@@ -749,139 +884,6 @@ Researchers with the University of California, Santa Barbara, Microsoft Corporat
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/dissecting-distribution-inference/">Dissecting Distribution Inference</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2022-12-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">16 December 2022</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/property-inference">property inference</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/yifu-lu">Yifu Lu</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/yanjin-chen">Yanjin Chen</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>(Cross-post by <a href="https://www.anshumansuri.me/post/dissecting">Anshuman Suri</a>)</p>
-<p>Distribution inference attacks aims to infer statistical properties of data used to train machine learning models.
-These attacks are sometimes surprisingly potent, as we demonstrated in
-<a href="https://uvasrg.github.io/on-the-risks-of-distribution-inference/">previous work</a>.</p>
-<!-- However, the factors that impact this inference risk are not well understood, and demonstrated attacks often
-rely on strong and unrealistic assumptions such as full knowledge of training environments
-even in supposedly black-box threat scenarios. -->
-<!-- In this work, we develop a new black-box attack, the KL Divergence Attack (KL), and use it to evaluate inference risk while relaxing
-a number of implicit assumptions based on the adversary's knowledge in black-box scenarios. We also evaluate several noise-based defenses, a
-standard approach while trying to preserve privacy in machine learning, along with some intuitive defenses based on resampling. -->
-<h2 id="kl-divergence-attack">KL Divergence Attack</h2>
-<p>Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243834">Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations</a>, CCS 2018), or using model
-predictions in black-box scenarios (Zhang et al., <a href="https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf">Leakage of Dataset Properties in Multi-Party Machine Learning</a>, USENIX 2021). While other black-box were proposed in our prior work, they are not as accurate as meta-classifier-based methods, and require training shadow models nonetheless (Suri and Evans, <a href="https://arxiv.org/pdf/2109.06024.pdf">Formalizing and Estimating Distribution Inference Risks</a>, PETS 2022).</p>
-<p>We propose a new attack: the KL Divergence Attack. Using some sample of data, the adversary computes predictions on local models from both distributions as well as the victim&rsquo;s model. Then, it uses the prediction probabilities to compute KL divergence between the victim&rsquo;s models and the local models to make its predictions. Our attack outperforms even the current state-of-the-art white-box attacks.</p>
-<!-- In fact, we show that using as few as five local models for training it can still to achieve significant inference leakage. -->
-<!-- also relies on training auxiliary models, but does not require more than API access to the target model and -->
-<br>
-We observe several interesting trends across our experiments. One striking example is that with varying task-property correlation.
-While intuition suggests increasing inference leakage with increasing correlation between the classifier's task and the property being inferred, we observe
-no such trend:
-</br>
-<center>
-<a href="/images/distributioninference2022/correlation_box.png"><img style="width: 65%" src="/images/distributioninference2022/correlation_box.png" alt="Graph of accuracy for properties with different correlation"/></a>
-</center>
-<div class="caption">
-Distinguishing accuracy for different task-property pairs for Celeb-A dataset for varying correlation. Task-property correlations are: $\approx 0$ (Mouth Slightly Open-Wavy Hair), $\approx 0.14$ (Smiling-Female), $\approx 0.28$ (Female-Young), and $\approx 0.42$ (Mouth Slightly Open-High Cheekbones).
-</div>
-</br>
-<h2 id="impact-of-adversarys-knowledge">Impact of adversary&rsquo;s knowledge</h2>
-<p>We evaluate inference risk while relaxing a variety of implicit assumptions of the adversary;s knowledge in black-box setups. Concretely, we evaluate label-only API access settings, different victim-adversary feature extractors, and different victim-adversary model architectures.</p>
-<table>
-<tr>
-    <th rowspan="2"> Victim Model </th>
-    <th colspan="4"> Adversary Model </th>
-</tr>
-<tr>
-    <th> RF </th>
-    <th> LR </th>
-    <th> MLP$_2$ </th>
-    <th> MLP$_3$ </th>
-</tr>
-  <tr>
-    <td>Random Forest (RF)</td>
-    <td> 12.0 </td>
-    <td> 1.7 </td>
-    <td> 5.4 </td>
-    <td> 4.9 </td>
-  </tr>
-  <tr>
-    <td>Linear Regression (LR)</td>
-    <td> 13.5 </td>
-    <td> 25.9 </td>
-    <td> 3.7 </td>
-    <td> 5.4 </td>
-  </tr>
-  <tr>
-    <td>Two-layer perceptron (MLP$_2$)</td>
-    <td> 0.9 </td>
-    <td> 0.3 </td>
-    <td> 4.2 </td>
-    <td> 4.3 </td>
-  </tr>
-  <tr>
-    <td>Three-layer perceptron (MLP$_3$)</td>
-    <td> 0.2 </td>
-    <td> 0.3 </td>
-    <td> 4.0 </td>
-    <td> 3.8 </td>
-  </tr>
-</table>
-<p>Consider inference leakage for the Census19 dataset (table above with mean $n_{leaked}$ values) as an example. Inference risk is significantly higher when the adversary uses models with learning capacity similar to the victim, like both using one of (MLP$_2$, MLP$_3$) or (RF, MLP). Interestingly though, we also observe a sharp increase in inference risk when the victim uses models with low capacity, like LR and RF instead of multi-layer perceptrons.</p>
-<!-- These trends hint at possible connections between distribution inference risk and model learning capacity. -->
-<h2 id="defenses">Defenses</h2>
-<p>Finally, we evaluate the effectiveness of some empirical defenses, most of which add noise to the training process.</p>
-<p>For instance while inference leakage reduces when the victim utilizes DP, most of the drop in effectiveness comes from a mismatch in the victim&rsquo;s and adversary&rsquo;s training environments:</p>
-<center>
-<A href="/images/distributioninference2022/dp_box.png"><img style="width: 65%" src="/images/distributioninference2022/dp_box.png" /></a>
-</center>
-<div class="caption">
-Distinguishing accuracy for different for Census19 (Sex). Attack accuracy drops with stronger DP guarantees i.e. decreasing privacy budget $\epsilon$.
-</div>
-<br>
-<p>Compared to an adversary that does not use DP, there is a clear increase in inference risk (mean $n_{leaked}$ increases to 2.9 for $\epsilon=1.0$, and 4.8 for $\epsilon=0.12$ compared to 4.2 without any DP noise).</p>
-<!-- in  Since noise-based mechanisms for Differential Privacy (DP) provide membership inference privacy, we evaluate them as a defense against distribution inference attacks to see if the same technique of adding noise can be helpful in this setting. -->
-<br>
-Our exploration of potential defenses also reveals a strong connection between model generalization and inference risk (as apparent below, for the case of Celeb-A), suggesting that the defenses that do seem to work are attributable to poor model performance, and not something special about the defense itself (like adversarial training or label noise).
-</br>
-<center>
-<img style="width: 80%" src="/images/distributioninference2022/generalization_curve.png" />
-</center>
-<div class="caption">
-Mean distinguishing accuracy on Celeb-A (Sex), for varying number of training epochs for victim models. Shaded regions correspond to error bars. Distribution inference risk increases as the model trains, and then starts to decrease as the model starts to overfit.
-</div>
-</br>
-<h2 id="summary">Summary</h2>
-<p>The general approach to achieve security and privacy for machine-learning models is to add noise, but our evaluations suggest this approach is not a principled or effective defense against distribution inference. The main reductions in inference accuracy that result from these defenses seem to be due to the way they disrupt the model from learning the distribution well.</p>
-<p><b>Paper</b>: <a href="http://anshumansuri.me/">Anshuman Suri</a>, Yifu Lu, Yanjin Chen, <a href="http://www.cs.virginia.edu/~evans/">David Evans</a>. <a href="https://arxiv.org/abs/2212.07591"><em>Dissecting Distribution Inference</em></a>.
-In <a href="https://satml.org/"><em>IEEE Conference on Secure and Trustworthy Machine Learning</em></a> (SaTML), 8-10 February 2023.</p>
-<p><b>Code</b>: <a href="https://github.com/iamgroot42/dissecting_distribution_inference">https://github.com/iamgroot42/dissecting_distribution_inference</a></p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -918,6 +920,12 @@ Security Research Group
   <p>
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/cvpr-2023-manipulating-transfer-learning-for-property-inference/">CVPR 2023: Manipulating Transfer Learning for Property Inference</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/voice-of-america-interview-on-chatgpt/">Voice of America interview on ChatGPT</a>
@@ -1059,12 +1067,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/improved-estimation-of-concentration-iclr-2021/">Improved Estimation of Concentration (ICLR 2021)</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/virginia-consumer-data-protection-act/">Virginia Consumer Data Protection Act</a>
 
 
    </div>
