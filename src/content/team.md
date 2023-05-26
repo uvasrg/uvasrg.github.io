@@ -22,21 +22,8 @@
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yanjin Chen</b><br>Undergraduate Researcher<br>Since Summer 2022<br>inference privacy<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Scott Hong</b><br>Undergraduate Researcher<br>Since Summer 2022<br>black-box attacks machine learning systems<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Meredith James</b><br>Undergraduate Researcher<br>Since Fall 2021<br>inference privacy<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Yifu Lu</b><br>Undergraduate Researcher<br>Since Fall 2021<br>inference privacy<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Evan Rose</b><br>Undergraduate Researcher<br>Since Summer 2021<br>poisoning attacks<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Jinghui Tian</b><br>Undergraduate Researcher<br>Since Summer 2022<br>black-box attacks machine learning systems<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Tingwei Zhang</b><br>Undergraduate Researcher<br>Since Summer 2022<br>black-box attacks machine learning systems<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Jason Briegel</b><br>Undergraduate Researcher<br>Since Summer 2023<br>auditing LLMs<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Varun Vejalla</b><br>Undergraduate Researcher<br>Since Summer 2023<br>auditing LLMs<br>   </div>
 </div>
 </center>
 
@@ -77,7 +64,7 @@
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/zahur.png"><br><b><a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee Zahur</a></b><br>Spring 2016<br>PhD in Computer Science, May 2016<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/6q182k48w"><em>Demystifying Secure Computation: Familiar Abstractions for Efficient Protocols</em></a><br>Google<br>   </div>
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/xiaozhang.png"><br><b><a href="https://xiao-zhang.net/">Xiao Zhang</a></b><br>Summer 2018 &ndash; August 2022<br>PhD in Computer Science, May 2019<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/g732d9951"><em>From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning</em></a><br>CISPA Helmholtz Center for Information Security<br>   </div>
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/xiaozhang.png"><br><b><a href="https://xiao-zhang.net/">Xiao Zhang</a></b><br>Summer 2018 &ndash; Aug-22<br>PhD in Computer Science, May 2019<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/g732d9951"><em>From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning</em></a><br>CISPA Helmholtz Center for Information Security<br>   </div>
 </div>
 </center>
    <center>
@@ -230,7 +217,7 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
-<b><a href="https://web.archive.org/web/20030814210113/http://www.cs.virginia.edu/~wz5r/research/researchindex.htm">Weilin Zhong</a></b><br>MCS 2002<br><div class="hanging"><a href="https://libraopen.lib.virginia.edu/public_view/12579s263"><em>When Ants Attack: Security Issues for Stigmergic Systems</em></a><br></div><div class="hanging">Cigitial; Aspect Security<br></div>   </div>
+<b><a href="https://web.archive.org/web/20030814210113/http://www.cs.virginia.edu/~wz5r/research/researchindex.htm">Weilin Zhong</a></b><br>MCS 2002<br><div class="hanging"><a href="https://libraopen.lib.virginia.edu/public_view/12579s263"><em>When Ants Attack: Security Issues for Stigmergic Systems</em></a><br></div><div class="hanging">Roblox (Head of Security Programs)<br></div>   </div>
 
 # 
 
@@ -315,6 +302,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
+<b>Evan Rose</b><br>Summer 2021 &ndash; Spring 2023<br><div class="hanging">poisoning attacks<br></div><div class="hanging">Northeastern University<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b><a href="https://github.com/lemons2lemonade">Matthew Wallace</a></b><br>2018 &ndash; 2019<br><div class="hanging">University of Wisconsin<br></div>   </div>
 
 # 
@@ -384,6 +376,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
    <div class="hanging">
 <b>Justin Chen</b><br>Undergraduate Researcher, Since Summer 2021<br><div class="hanging">inference privacy<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Yanjin Chen</b><br>Undergraduate Researcher, Summer 2022 &ndash; Fall 2022<br><div class="hanging">inference privacy<br></div><div class="hanging">Princeton (Bioinformatics)<br></div>   </div>
 
 # 
 
@@ -458,6 +455,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
+<b>Scott Hong</b><br>Undergraduate Researcher, Summer 2022 &ndash; Fall 2022<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b><a href="http://jhoughton.me/">James Houghton</a></b><br>Undergraduate Researcher, Co-advised with Yixin Sun<br>2019 &ndash; 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/gf06g3296"><em>An Analysis of The Fingerprintability of Web Traffic Through obfs4</em></a><br></div><div class="hanging">Google<br></div>   </div>
 
 # 
@@ -469,6 +471,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
    <div class="hanging">
 <b>Robert Jacobs</b><br>Undergraduate Researcher, Summer 2013<br><div class="hanging">prime numbers<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Meredith James</b><br>Undergraduate Researcher, Fall 2021 &ndash; Fall 2022<br><div class="hanging">inference privacy<br></div>   </div>
 
 # 
 
@@ -539,6 +546,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
    <div class="hanging">
 <b>Cameron Lloyd</b><br>Undergraduate Researcher, Spring 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/jd472x184"><em>Quantifying the Current Transportation Landscapes in Charlottesville to Evaluate the Effects of Shared Dockless E-Scooters on Mobility</em></a><br></div><div class="hanging">Microsoft<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Yifu Lu</b><br>Undergraduate Researcher, Fall 2021 &ndash; Fall 2022<br><div class="hanging">inference privacy<br></div>   </div>
 
 # 
 
@@ -648,6 +660,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
+<b>Jinghui Tian</b><br>Undergraduate Researcher, Summer 2022 &ndash; Fall 2022<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b>Brian Tran</b><br>Undergraduate Researcher, Summer 2020 &ndash; Fall 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
 
 # 
@@ -694,6 +711,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
    <div class="hanging">
 <b>Muzzammil Zaveri</b><br>Undergraduate Researcher, Summer 2010 &ndash; Spring 2011<br>BSCS 2011<br><div class="hanging">a secure web application framework<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Tingwei Zhang</b><br>Undergraduate Researcher, Summer 2022 &ndash; Spring 2023<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
 
 # 
 
