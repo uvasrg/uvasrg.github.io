@@ -1,643 +1,1109 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/ahmed-salem/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/andrew-paverd/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/boris-k%C3%B6pf/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/giovanni-cherubin/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/inference-privacy/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/membership-inference/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/categories/papers/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/privacy/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/santiago-zanella-b%C3%A9guelin/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/shruti-tople/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/sok-let-the-privacy-games-begin-a-unified-treatment-of-data-inference-privacy-in-machine-learning/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/cvpr-2023-manipulating-transfer-learning-for-property-inference/</loc>
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/distribution-inference/</loc>
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/fnu-suya/</loc>
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/inference-privacy/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/papers/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/transfer-learning/</loc>
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/yulong-tian/</loc>
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/large-language-models/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/membership-inference/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/mico-challenge-in-membership-inference/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/nlp/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/outreach/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/press/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/research/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/copilot/</loc>
     <lastmod>2023-01-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/poisoning/</loc>
     <lastmod>2023-01-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/uh-oh-theres-a-new-way-to-poison-code-models/</loc>
     <lastmod>2023-01-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/</loc>
     <lastmod>2023-01-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/conferences/</loc>
     <lastmod>2022-12-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/dissecting-distribution-inference/</loc>
     <lastmod>2022-12-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/property-inference/</loc>
     <lastmod>2022-12-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/yanjin-chen/</loc>
     <lastmod>2022-12-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/yifu-lu/</loc>
     <lastmod>2022-12-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/</loc>
     <lastmod>2022-12-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/talks/</loc>
     <lastmod>2022-12-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/attribute-inference/</loc>
     <lastmod>2022-12-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/attribute-inference-attacks-are-really-imputation/</loc>
     <lastmod>2022-12-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/bargav-jayaraman/</loc>
     <lastmod>2022-12-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/congratulations-dr.-jayaraman/</loc>
     <lastmod>2022-12-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/graduates/</loc>
     <lastmod>2022-12-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/phd-defense/</loc>
     <lastmod>2022-12-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/adversarial-examples/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/balancing-tradeoffs-between-fickleness-and-obstinacy-in-nlp-models/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/hannah-chen/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/yangfeng-ji/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/awards/</loc>
     <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/best-submission-award-at-visxai-2022/</loc>
     <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/evan-rose/</loc>
     <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/fnu-syua/</loc>
     <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/poisoning-attacks/</loc>
     <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/visualizing-poisoning/</loc>
     <lastmod>2022-07-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/biml/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/biml-what-machine-learnt-models-reveal/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/congratulations-dr.-zhang/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/gary-mcgraw/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/xiao-zhang/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/iclr/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/intrinsic-robustness/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/publications/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/katherine-knipmeyer/</loc>
     <lastmod>2021-10-21T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/microsoft/</loc>
     <lastmod>2021-10-21T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/</loc>
     <lastmod>2021-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/privacy/</loc>
-    <lastmod>2021-10-21T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/jack-prescott/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/uva-news-article/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/david-evans/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/tags/icml/</loc>
+    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/icml-2021/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/model-targeted-poisoning-attacks/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/saeed-mahloujifar/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/yuan-tian/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/on-the-risks-of-distribution-inference/</loc>
     <lastmod>2021-06-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/chinese-translation-of-mpc-book/</loc>
     <lastmod>2021-06-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/mike-rosulek/</loc>
     <lastmod>2021-06-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/secure-computation/</loc>
     <lastmod>2021-06-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/vladimir-kolesnikov/</loc>
     <lastmod>2021-06-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/iclr-dpml-2021-inference-risks-for-machine-learning/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/how-to-hide-a-backdoor/</loc>
     <lastmod>2021-05-06T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/research/</loc>
     <lastmod>2021-05-06T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/codaspy-2021-keynote-when-models-learn-too-much/</loc>
     <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/crysp-talk-when-models-learn-too-much/</loc>
     <lastmod>2021-04-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/differential-privacy/</loc>
     <lastmod>2021-04-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/videos/</loc>
     <lastmod>2021-04-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/improved-estimation-of-concentration-iclr-2021/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/law/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/virginia-consumer-data-protection-act/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/algorithmic-accountability-and-the-law/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/fairness/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/microsoft-security-data-science-colloquium-inference-privacy-in-theory-and-practice/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/fact-checking-donald-trumps-tweet-firing-christopher-krebs/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/voting/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/voting-security/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/lingxiao-wang/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/quanquan-gu/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/robustrepresentations/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/aistats/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/icml/</loc>
-    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/jinghui-chen/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/presentations/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/sicheng-zhu/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/hybrid-batch-attacks-at-usenix-security-2020/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/jianfeng-chi/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/usenix-security/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/acl/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/natural-language-processing/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/pointwise-paraphrase-appraisal-is-potentially-problematic/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/de-naming-the-blog/</loc>
     <lastmod>2020-06-21T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/history/</loc>
     <lastmod>2020-06-21T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/oakland-test-of-time-awards/</loc>
     <lastmod>2020-05-23T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/mohammad-mahmoody/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/neurips/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/neurips2019/</loc>
     <lastmod>2019-12-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/</loc>
     <lastmod>2019-12-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</loc>
     <lastmod>2019-11-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/conferences/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/multi-party-computation/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/white-house/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/white-house-visit/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/artificial-intelligence/</loc>
     <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/education/</loc>
     <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/jobs-for-humans-2029-2059/</loc>
     <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/outreach/</loc>
     <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/mainuddin-jonas/</loc>
     <lastmod>2019-10-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/research-symposium-posters/</loc>
     <lastmod>2019-10-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/cantors-no-longer-lost-proof/</loc>
     <lastmod>2019-09-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/history/</loc>
     <lastmod>2019-09-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/teaching/</loc>
     <lastmod>2019-09-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/uncountability/</loc>
     <lastmod>2019-09-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/courses/</loc>
     <lastmod>2019-08-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/fosad2019/</loc>
     <lastmod>2019-08-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/alumni/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/sam-havron/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/serge-egelman/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/usenix-security-symposium-2019/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/google/</loc>
     <lastmod>2019-08-25T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/google-security-and-privacy-workshop/</loc>
     <lastmod>2019-08-25T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</loc>
     <lastmod>2019-07-09T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/google-federated-privacy-2019-the-dragon-in-the-room/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/alumni/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/graduation-2019/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/pictures/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/weilin-xu/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/yanjun-qi/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</loc>
     <lastmod>2019-05-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/news/</loc>
     <lastmod>2019-05-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/cost-sensitive-adversarial-robustness-at-iclr-2019/</loc>
     <lastmod>2019-05-06T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/empirically-measuring-concentration/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/food/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/srg-lunch/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/jason-spring-meeting-adversarial-machine-learning/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/congratulations-dr.-xu/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</loc>
     <lastmod>2019-04-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/dependability/</loc>
     <lastmod>2019-04-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/ismr-2019-context-aware-monitoring-in-robotic-surgery/</loc>
     <lastmod>2019-04-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/machine-learning/</loc>
     <lastmod>2019-04-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/robotic-surgery/</loc>
     <lastmod>2019-04-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/samin-yasar/</loc>
     <lastmod>2019-04-03T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/deep-fools/</loc>
     <lastmod>2019-01-21T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/courses/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/economics/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/markets-mechanisms-machines/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/categories/teaching/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/a-pragmatic-introduction-to-secure-multi-party-computation/</loc>
     <lastmod>2018-12-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/neurips-2018-distributed-learning-without-distress/</loc>
     <lastmod>2018-12-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/can-machine-learning-ever-be-trustworthy/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/talks/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/university-of-maryland/</loc>
     <lastmod>2018-12-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/center-for-trustworthy-machine-learning/</loc>
     <lastmod>2018-10-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/center-for-trustworthy-machine-learning/</loc>
     <lastmod>2018-10-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/nsf/</loc>
     <lastmod>2018-10-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</loc>
     <lastmod>2018-10-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/violations-of-childrens-privacy-laws/</loc>
     <lastmod>2018-09-16T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/gdpr/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/guy-verrier/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/matthew-wallace/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/nathaniel-grevatt/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/parvesh-samayamanthula/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/unicorns/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/usenix-security-2018/</loc>
     <lastmod>2018-08-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/mutually-assured-destruction-and-the-impending-ai-apocalypse/</loc>
     <lastmod>2018-08-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/woot/</loc>
     <lastmod>2018-08-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/ahmed-ibrahim/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/cybersecurity-summer-camp/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/dependable-and-secure-machine-learning/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/dependable-machine-learning/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/homa-alemzadeh/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/summer-camp/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/dls-keynote-is-adversarial-examples-an-adversarial-example/</loc>
     <lastmod>2018-05-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/pictures/</loc>
     <lastmod>2018-05-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/posters/</loc>
     <lastmod>2018-05-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/wahoos-at-oakland/</loc>
     <lastmod>2018-05-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/yongwhi-kwon/</loc>
     <lastmod>2018-05-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/battista-biggio/</loc>
     <lastmod>2018-05-15T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/china/</loc>
     <lastmod>2018-05-15T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/huawei/</loc>
     <lastmod>2018-05-15T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/lessons-from-the-last-3000-years-of-adversarial-examples/</loc>
     <lastmod>2018-05-15T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/tags/feature-squeezing/</loc>
     <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/feature-squeezing-at-ndss/</loc>
     <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/older-posts/</loc>
     <lastmod>2018-02-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/advml/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/awards/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/bat/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/gpuservers/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/privacy/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>//uvasrg.github.io/privacyreadinggroup/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/prospective/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/scriptinspector/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/studygroups/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/team/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/videos/</loc>
     <priority>0</priority>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>//uvasrg.github.io/main/</loc>
   </url>
+  
 </urlset>

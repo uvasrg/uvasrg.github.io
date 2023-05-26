@@ -89,20 +89,44 @@ associated with machine learning. This includes both <em>data privacy</em>
 (protecting sensitive data used to train a model during the collection
 and learning process) and <em>inference privacy</em> (limiting what can be
 inferred about sensitive training data from an exposed model).</p>
+<p><a href="/privacyreadinggroup"><strong>Privacy Reading Group</strong></a></p>
 <h1 id="inference-privacy">Inference Privacy</h1>
-<p>These blog posts summarize our recent work on evaluating inference leakage from models:</p>
+<p>These blog posts (in forward chronological order) summarize our recent
+work on evaluating inference leakage from models:</p>
 <ul>
-<li>
-<p><a href="https://uvasrg.github.io/on-the-risks-of-distribution-inference/"><em>On the Risks of Distribution Inference</em></a> (PETS 2022 Paper: <a href="https://arxiv.org/abs/2109.06024"><em>Formalizing and Estimating Distribution Inference Risks</em></a></p>
-</li>
-<li>
-<p><a href="https://uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/"><em>Merlin, Morgan, and the Importance of Thresholds and Priors</em></a> (PETS 2021 Paper: <a href="https://arxiv.org/abs/2005.10881"><em>Revisiting Membership Inference Under Realistic Assumptions</em> </a>)</p>
-</li>
 <li>
 <p><a href="https://uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/"><em>Evaluating Differentially Private Machine Learning in Practice</em></a> (<a href="https://arxiv.org/abs/1902.08874">USENIX Security 2019 Paper</a>)</p>
 </li>
+<li>
+<p><a href="https://uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/"><em>Merlin, Morgan, and the Importance of Thresholds and Priors</em></a> (<a href="https://arxiv.org/abs/2005.10881">PETS 2021 Paper</a>)</p>
+</li>
+<li>
+<p><a href="https://uvasrg.github.io/on-the-risks-of-distribution-inference/"><em>On the Risks of Distribution Inference</em></a> (<a href="https://arxiv.org/abs/2109.06024">PETS 2022 Paper</a>)</p>
+</li>
+<li>
+<p><a href="/dissecting-distribution-inference/"><em>Dissecting Distribution Inference</em></a> (<a href="https://satml.org/">SatML 2023 Paper</a>)</p>
+</li>
+<li>
+<p><a href="/cvpr-2023-manipulating-transfer-learning-for-property-inference/"><em>Manipulating Transfer Learning for Property Inference</em></a> (<a href="https://arxiv.org/abs/2303.11643">CVPR 2023 Paper</a>)</p>
+</li>
 </ul>
 <h3 id="publications">Publications</h3>
+<p>SRG papers on privacy-preserving machine learning (in reverse chronological order):</p>
+<p><a href="https://arxiv.org/abs/1910.13659"><em>Efficient Privacy-Preserving Stochastic Nonconvex Optimization</em></a>. Lingxiao Wang, Bargav Jayaraman, David Evans, Quanquan Gu. In <a href="https://www.auai.org/uai2023/"><em>39<sup>th</sup> Conference on Uncertainty in Artificial Intelligence</em></a> (UAI). Pittsburgh, PA. July 2023. [<a href="https://arxiv.org/abs/1910.13659">Arxiv</a>]</p>
+<p><a href="https://arxiv.org/abs/2303.11643"><Em>Manipulating Transfer
+Learning for Property Inference</em></a>. Yulong Tian, Fnu Suya, Anshuman Suri, Fengyuan Xu, David Evans. In <a href="https://cvpr2023.thecvf.com/"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023</em></a> (CVPR),
+Vancouver, Canada. June 2023. [<a href="https://arxiv.org/abs/2303.11643">Arxiv</a>] [<a href="https://github.com/yulongt23/Transfer-Inference">Code</a>]</p>
+<p><a href="https://arxiv.org/abs/2212.10986"><em>SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning</em></a>.
+Ahmed Salem, Giovanni Cherubin, David Evans, Boris Köpf, Andrew
+Paverd, Anshuman Suri, Shruti Tople, Santiago
+Zanella-Begueli. In <a href="https://sp2023.ieee-security.org/"><em>44<sup>th</sup>
+IEEE Symposium on Security and Privacy</em></a>
+(Oakland). May 2023. [<a href="https://arxiv.org/abs/2212.10986">Arxiv</a>] [<a href="/sok-let-the-privacy-games-begin-a-unified-treatment-of-data-inference-privacy-in-machine-learning/">Video</a>]</p>
+<p><a href="https://arxiv.org/abs/2212.07591"><em>Dissecting Distribution
+Inference</em></a>. Anshuman Suri, Yifu Lu, Yanjin Chen, David
+Evans. In <a href="https://satml.org/"><em>IEEE Conference on Secure and
+Trustworthy Machine Learning</em></a> (SaTML). Raleigh, North
+Carolina, 8–10 February 2023. [<a href="https://arxiv.org/abs/2212.07591">Arxiv</a>] [<A href="https://uvasrg.github.io/dissecting-distribution-inference/">Blog</a>] [<a href="https://github.com/iamgroot42/dissecting_distribution_inference">Code</a>]</p>
 <p><a href="https://arxiv.org/abs/2209.01292"><em>Are Attribute Inference
 Attacks Just Imputation?</em></a>. Bargav Jayaraman and David
 Evans. In <a href="https://www.sigsac.org/ccs/CCS2022/">29<sup>th</sup> ACM
@@ -132,80 +156,31 @@ USENIX Security Symposium</em></a>. Santa Clara. August 2019.
 [<a href="usenix2019/evaluatingdp.pdf">PDF</a>]
 [<a href="https://arxiv.org/abs/1902.08874">arXiv</a>]
 [<A href="https://github.com/bargavj/EvaluatingDPML">code</a>]</p>
-<h1 id="privacy-preserving-machine-learning">Privacy-Preserving Machine Learning</h1>
-<p><em>Distributed learning</em> (sometimes marketed as <em>federated learning</em>)
+<p><a href="https://oblivc.org/ppml/"><em>Distributed Learning without Distress: Privacy-Preserving Empirical Risk Minimization</em></a>. <a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a>, Lingxiao Wang, <a href="http://web.cs.ucla.edu/~qgu/research.html">Quanquan Gu</a>, and <a href="https://www.cs.virginia.edu/evans">David Evans</a>. In <em>32nd Conference on Neural Information Processing Systems</em> (NeurIPS 2018), Montréal, Canada. May 2018. (<a href="https://github.com/bargavj/distributedMachineLearning">Code</a>, <a href="https://oblivc.org/docs/neurips2018.pdf">Paper</a>)</p>
+<!-- 
+
+# Privacy-Preserving Machine Learning
+
+_Distributed learning_ (sometimes marketed as _federated learning_)
 allows a group of independent data owners to collaboratively learn a
-model over their data sets without exposing their private data.</p>
-<h2 id="projects">Projects</h2>
-<p><a href="https://oblivc.org/ppml/"><strong>Integrating Multi-Party Computation with Differential Privacy</strong></a> (<a href="https://github.com/bargavj/distributedMachineLearning">Code</a>, <a href="https://oblivc.org/docs/neurips2018.pdf">NeurIPS 2018 Paper</a><br>
-<a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a>, Lingxiao Wang, <a href="http://web.cs.ucla.edu/~qgu/research.html">Quanquan Gu</a></p>
-<p><strong>Privacy-preserving Medical Decision Systems</strong><br>
-<a href="https://www.josephinelamp.com/">Josephine Lamp</a> and <a href="http://www.cs.virginia.edu/~lufeng/index.html">Lu Feng</a></p>
-<p><strong>Privacy-Preserving Nonconvex Optimization</strong> [<a href="https://arxiv.org/abs/1910.13659">Preprint</a>]<br>
-Lingxiao Wang, <a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a>, <a href="http://web.cs.ucla.edu/~qgu/research.html">Quanquan Gu</a></p>
-<h1 id="privacy-study-group">Privacy Study Group</h1>
-<p>Meetings on <strong>Tuesdays, 11am</strong> (Summer 2020)</p>
-<p>Leader: <a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a></p>
-   <table width="100%" align="center">
-   <tr bgcolor="#CCC"><td style="text-align:center" width="25%"><b>Date</b></td><td width="75%" style="text-align:center"><b>Topic/Talk</b></td></tr>
-   <tr bgcolor="#FFF"><td>26 May 2020</td><td>
-Cynthia Dwork, <a href="https://www.youtube.com/watch?v=vsA4w3itxA0"><em>Privacy-Preserving Data Analysis</em></a> (Alan Turing Institute, Turing Lecture, Dec 2016)
-  </td></tr>
-   <tr bgcolor="#BDF">
-   <td>
-   2 June 2020
-   </td><td>
-Guy Rothblum, <a href="https://www.youtube.com/watch?v=RNqZJDAP1uU"><em>Composition: The Key to Differential Privacy is Success</em></a> (Institute for Advanced Study, Nov 2016)
-   </td>
-   </tr>
-   <tr bgcolor="#FFF">
-   <td>9 June 2020</td>
-   <td>
-<p>Yuxin Wang, <a href="https://www.youtube.com/watch?v=qGgCdsxTbkM"><em>Detecting Violations of Differential Privacy</em></a> (ACM CCS 2018)</p>
-<p>Benjamin Bichsel, <a href="https://www.youtube.com/watch?v=Jwe0oCSlaMk"><em>DP-Finder: Finding Differential Privacy Violations by Sampling and Optimization</em></a> (ACM CCS 2018)</p>
-   </td>
-   </tr>
-   <tr bgcolor="#BDF">
-   <td>
-   15 June 2020</td>
-   <td>
-(Joint with <a href="/advml"><em>Adversarial Machine Learning Study Group</em></a>)
-<p>Mathias Lécuyer, <a href="https://www.youtube.com/watch?v=mYRdZIXtqcA"><em>Certified Robustness to Adversarial Examples with Differential Privacy</em></a> (IEEE Security and Privacy 2019)</p>
-<p>Liwei Song, <a href="https://www.youtube.com/watch?v=MUhb3bRla2A"><em>Membership Inference Attacks against Adversarially Robust Deep Learning Models</em></a> (IEEE Security and Privacy 2019)</p>
-</td>
-</tr>
-   <tr bgcolor="#FFF">
-   <td>23 June 2020</td>
-   <td>
-<p>Reza Shokri, <a href="https://www.youtube.com/watch?v=rDm1n2gceJY"><em>Membership Inference Attacks against Machine Learning Models</em></a> (IEEE Security and Privacy 2017)</p>
-<p>Nicholas Carlini, <a href="https://www.youtube.com/watch?&v=U9XbFtCWedE"><em>The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural Networks</em></a> (USENIX Security 2019)</p>
-   </td>
-   </tr>
-   <tr bgcolor="#BDF">
-   <td>30 June 2020</td>
-   <td>
-<p>Karan Ganju, <a href="https://www.youtube.com/watch?v=99YHPIsKzCc"><em>Property Inference Attacks on Fully Connected Neural Networks</em></a> (ACM CCS 2019)</p>
-<p>Binghui Wang, <a href="https://www.youtube.com/watch?v=rpRVqfjW0AA"><em>Stealing Hyperparameters in Machine Learning</em></a> (IEEE Security and Privacy 2018)</p>
-</td>
-</tr>
-   <tr bgcolor="#FFF">
-   <td>7 July 2020</td>
-   <td>
-<p>Joe Near, <a href="https://www.youtube.com/watch?v=pk_DCSUayDA"><em>Differential Privacy at Scale: Uber and Berkeley Collaboration</em></a> (USENIX Enigma 2020) (also see Frank McSherry&rsquo;s <a href="https://github.com/uber-archive/sql-differential-privacy/issues/1">github issue</a> and <a href="https://github.com/frankmcsherry/blog/blob/master/posts/2018-02-25.md">blog post</a>)</p>
-<p>Brendan McMahan, <a href="https://www.youtube.com/watch?v=e5othcNmync"><em>Guarding user Privacy with Federated Learning and Differential Privacy</em></a> (DIMACS, 2017)</p>
-</td>
-</tr>
-   <tr bgcolor="#BDF">
-   <td>14 July 2020</td>
-   <td>
-<p>Ilya Mironov, <A href="https://www.youtube.com/watch?v=oQzaA5KG3pM"><em>Rényi Differential Privacy</em></a> (DIMACS, 2017)</p>
-</td>
-</tr>
-   </table>
+model over their data sets without exposing their private data.
+
+## Projects
+
+[**Integrating Multi-Party Computation with Differential Privacy**](https://oblivc.org/ppml/) ([Code](https://github.com/bargavj/distributedMachineLearning), [NeurIPS 2018 Paper](https://oblivc.org/docs/neurips2018.pdf)  
+[Bargav Jayaraman](https://bargavjayaraman.github.io/), Lingxiao Wang, [Quanquan Gu](http://web.cs.ucla.edu/~qgu/research.html)
+
+**Privacy-preserving Medical Decision Systems**  
+[Josephine Lamp](https://www.josephinelamp.com/) and [Lu Feng](http://www.cs.virginia.edu/~lufeng/index.html)
+
+**Privacy-Preserving Nonconvex Optimization** [[Preprint](https://arxiv.org/abs/1910.13659)]  
+Lingxiao Wang, [Bargav Jayaraman](https://bargavjayaraman.github.io/), [Quanquan Gu](http://web.cs.ucla.edu/~qgu/research.html)
+
+-->
 
       </div>
 
-      <meta itemprop="wordCount" content="514">
+      <meta itemprop="wordCount" content="410">
       <meta itemprop="datePublished" content="0001-01-01">
       <meta itemprop="url" content="//uvasrg.github.io/privacy/">
     </article>

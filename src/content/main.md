@@ -41,7 +41,7 @@ class="smallcaption">
 <A href="https://www.linkedin.com/in/minjun-elena-long-06a283173/">Elena&nbsp;Long</a>,
 Yanjin&nbsp;Chen,<br>
 <a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee&nbsp;Zahur</a>&nbsp;(PhD&nbsp;2016),
-<a href="https://sites.google.com/virginia.edu/anshuman/home">Anshuman&nbsp;Suri</a>,
+<a href="https://www.anshumansuri.me/">Anshuman&nbsp;Suri</a>,
 <A href="https://fsuya.org/">Fnu&nbsp;Suya</a>,
 Tingwei&nbsp;Zhang,
 Scott&nbsp;Hong
@@ -54,9 +54,8 @@ Scott&nbsp;Hong
 
 
 <a href="/privacy/"><b>Privacy for Machine Learning</b></a> <br>
-<a href="//www.evademl.org/"><b>Security for Machine Learning</b> (EvadeML)</a><br>
-<a href="/pointwise-paraphrase-appraisal-is-potentially-problematic/">NLP Robustness</a>
-
+<a href="//www.evademl.org/"><b>Security for Machine Learning</b></a><br>
+<b>Auditing ML Systems</b><br>
 </div>
 <div class="column small-14 medium-7">
 
