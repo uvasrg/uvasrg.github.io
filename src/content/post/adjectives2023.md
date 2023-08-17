@@ -1,6 +1,6 @@
 +++
-date = "07 Aug 2023"
-draft = true
+date = "17 Aug 2023"
+draft = false
 title = "Adjectives Can Reveal Gender Biases Within NLP Models"
 author = "Jason Briegel and Hannah Chen"
 categories = ["research"]
@@ -178,7 +178,7 @@ used to determine whether the addition of adjectives in prompts would
 increase the bias score compared to the baseline prompts. 
 
 <center>
-<a href="/images/adjectives2023/gpt3.5-example-1.png"><img src="/images/adjectives2023/gpt3.5-example-2.png" width="80%" align="center"></a>
+<a href="/images/adjectives2023/gpt3.5-example-1.png"><img src="/images/adjectives2023/gpt3.5-example-1.png" width="80%" align="center"></a>
 </center>
 <br>
 <center>
@@ -263,3 +263,7 @@ produce more non-answers when the pro-stereotyped prompts are given
 with adjectives. The increase in non-answers may be due to the edge
 cases that are correct completions but are not captured with our
 automatic parsing. We'll need further investigation to confirm this.
+
+## Code and Data
+
+[https://github.com/hannahxchen/winobias-adjective-test](https://github.com/hannahxchen/winobias-adjective-test)

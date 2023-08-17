@@ -7,13 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>adversarial machine learning</title>
       <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
-      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bias</title>
+      <link>//uvasrg.github.io/tags/bias/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>generative AI</title>
+      <link>//uvasrg.github.io/tags/generative-ai/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/generative-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hannah Chen</title>
+      <link>//uvasrg.github.io/tags/hannah-chen/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/hannah-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jason Briegel</title>
+      <link>//uvasrg.github.io/tags/jason-briegel/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/jason-briegel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LLMs</title>
+      <link>//uvasrg.github.io/tags/llms/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>//uvasrg.github.io/tags/machine-learning/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -239,15 +293,6 @@
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/adversarial-examples/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hannah Chen</title>
-      <link>//uvasrg.github.io/tags/hannah-chen/</link>
-      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/hannah-chen/</guid>
       <description></description>
     </item>
     
@@ -761,15 +806,6 @@
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>//uvasrg.github.io/tags/dependability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine learning</title>
-      <link>//uvasrg.github.io/tags/machine-learning/</link>
-      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
