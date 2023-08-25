@@ -182,7 +182,7 @@ increase the bias score compared to the baseline prompts.
 </center>
 <br>
 <center>
-TODO: fix <a href="/images/adjectives2023/gpt3.5-example-2.png"><img src="/images/adjectives2023/gpt3.5-example-2.png" width="80%" align="center"></a>
+<a href="/images/adjectives2023/gpt3.5-example-2.png"><img src="/images/adjectives2023/gpt3.5-example-2.png" width="80%" align="center"></a>
 <p>An example of interaction with GPT-3.5. Each prompt is sent in different chat session.</p>
 </center>
 
