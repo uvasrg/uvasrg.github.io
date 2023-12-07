@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/poisoning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Congratulations, Dr. Suya!</title>
+      <link>//uvasrg.github.io/congratulations-dr.-suya/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/congratulations-dr.-suya/</guid>
+      <description>Congratulations to Fnu Suya for successfully defending his PhD thesis!
+Suya will join the Unversity of Maryland as a MC2 Postdoctoral Fellow at the Maryland Cybersecurity Center this fall.
+On the Limits of Data Poisoning Attacks Current machine learning models require large amounts of labeled training data, which are often collected from untrusted sources. Models trained on these potentially manipulated data points are prone to data poisoning attacks. My research aims to gain a deeper understanding on the limits of two types of data poisoning attacks: indiscriminate poisoning attacks, where the attacker aims to increase the test error on the entire dataset; and subpopulation poisoning attacks, where the attacker aims to increase the test error on a defined subset of the distribution.</description>
+    </item>
     <item>
       <title>Uh-oh, there&#39;s a new way to poison code models</title>
       <link>//uvasrg.github.io/uh-oh-theres-a-new-way-to-poison-code-models/</link>

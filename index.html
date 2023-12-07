@@ -545,6 +545,8 @@
         
     
         
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -1118,6 +1120,56 @@ automatic parsing. We&rsquo;ll need further investigation to confirm this.</p>
 <hr class="post-separator"></hr>
 
     
+    <h2><a href="/congratulations-dr.-suya/">Congratulations, Dr. Suya!</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2023-07-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">11 July 2023</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/poisoning">poisoning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/phd-defense">PhD defense</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>Congratulations to <a href="fsuya.org">Fnu Suya</a> for successfully defending
+his PhD thesis!</p>
+<p>Suya will join the Unversity of Maryland as a MC2 Postdoctoral Fellow
+at the <a href="https://cyber.umd.edu/about">Maryland Cybersecurity Center</a> this fall.</p>
+<h2 id="heading"></h2>
+<center>
+<em>
+On the Limits of Data Poisoning Attacks
+</em>
+</center>
+<h2 id="heading-1"></h2>
+<p>Current machine learning models require large amounts of labeled training data, which are often collected from untrusted sources. Models trained on these potentially manipulated data points are prone to data poisoning attacks. My research aims to gain a deeper understanding on the limits of two types of data poisoning attacks: indiscriminate poisoning attacks, where the attacker aims to increase the test error on the entire dataset; and subpopulation poisoning attacks, where the attacker aims to increase the test error on a defined subset of the distribution. We first present an empirical poisoning attack that encodes the attack objectives into target models and then generates poisoning points that induce the target models (and hence the encoded objectives) with provable convergence. This attack achieves state-of-the-art performance for a diverse set of attack objectives and quantifies a lower bound to the performance of best possible poisoning attacks. In the broader sense, because the attack guarantees convergence to the target model which encodes the desired attack objective, our attack can also be applied to objectives related to other trustworthy aspects (e.g., privacy, fairness) of machine learning.</p>
+<p>Through experiments for the two types of poisoning attacks we consider, we find that some datasets in the indiscriminate setting and subpopulations in the subpopulation setting are highly vulnerable to poisoning attacks even when the poisoning ratio is low. But other datasets and subpopulations resist the best-performing known attacks even without any defensive protections. Motivated by the drastic differences in the attack effectiveness across datasets or subpopulations, we further investigate the possible factors related to the data distribution and learning algorithm that contribute to the disparate effectiveness of poisoning attacks. In the subpopulation setting, for the given learner, we identify the separability of the class-wise distributions and also the difference of the model that misclassifies the subpopulations to the clean model are highly correlated to the empirical performance of state-of-the-art poisoning attacks and demonstrate them through visualizations. In the indiscriminate setting, we conduct a more thorough investigation by first showing under theoretical distributions that there are datasets that inherently resist the best possible poisoning attacks when the class-wise data distributions are well-separated with low variance and the size of the constraint set containing all permissible poisoning points is also small. We then demonstrate that these identified factors are highly correlated to both the different empirical performances of the state-of-the-art attacks (as lower bounds on the limits of poisoning attacks) and the upper bounds on the limits across benchmark datasets. Finally, we discuss how understanding the limits of poisoning attacks might help in complementing existing data sanitization defenses to achieve even stronger defenses against poisoning attacks.</p>
+<h1 id="heading-2"></h1>
+<p><strong>Committee:</strong><br>
+Mohammad Mahmoody, Committee Chair (UVA Computer Science)<br>
+David Evans, Co-Advisor (UVA Computer Science)<br>
+Yuan Tian, Co-Advisor (UCLA)<br>
+Cong Shen (UVA ECE)<br>
+Farzad Hassanzadeh (UVA Computer Science/ECE)</p>
+
+      </div>
+<hr class="post-separator"></hr>
+
+    
     <h2><a href="/sok-let-the-privacy-games-begin-a-unified-treatment-of-data-inference-privacy-in-machine-learning/">SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning</a></h2>
 <div class="post-metadata">
   <span class="post-date">
@@ -1301,39 +1353,6 @@ research into defending against these types of attacks.</p>
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/voice-of-america-interview-on-chatgpt/">Voice of America interview on ChatGPT</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2023-02-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">10 February 2023</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/large-language-models">large language models</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/nlp">nlp</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>I was interviewed for a Voice of America story (in Russian) on the impact of chatGPT and similar tools.</p>
-<center>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dFuunAFX9y4?start=319" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
-<p>Full story: <a href="https://youtu.be/dFuunAFX9y4">https://youtu.be/dFuunAFX9y4</a></p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -1379,6 +1398,12 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/adjectives-can-reveal-gender-biases-within-nlp-models/">Adjectives Can Reveal Gender Biases Within NLP Models</a>
+
+
+   </div>
+   
+   <div class="posttitle">
+      <a href="/congratulations-dr.-suya/">Congratulations, Dr. Suya!</a>
 
 
    </div>
@@ -1511,12 +1536,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/iclr-dpml-2021-inference-risks-for-machine-learning/">ICLR DPML 2021: Inference Risks for Machine Learning</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/how-to-hide-a-backdoor/">How to Hide a Backdoor</a>
 
 
    </div>

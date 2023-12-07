@@ -18,6 +18,15 @@
 Data poisoning attacks are recognized as a top concern in the industry [1]. We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging [2]. In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.</description>
     </item>
     <item>
+      <title>Congratulations, Dr. Suya!</title>
+      <link>//uvasrg.github.io/congratulations-dr.-suya/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/congratulations-dr.-suya/</guid>
+      <description>Congratulations to Fnu Suya for successfully defending his PhD thesis!
+Suya will join the Unversity of Maryland as a MC2 Postdoctoral Fellow at the Maryland Cybersecurity Center this fall.
+On the Limits of Data Poisoning Attacks Current machine learning models require large amounts of labeled training data, which are often collected from untrusted sources. Models trained on these potentially manipulated data points are prone to data poisoning attacks. My research aims to gain a deeper understanding on the limits of two types of data poisoning attacks: indiscriminate poisoning attacks, where the attacker aims to increase the test error on the entire dataset; and subpopulation poisoning attacks, where the attacker aims to increase the test error on a defined subset of the distribution.</description>
+    </item>
+    <item>
       <title>CVPR 2023: Manipulating Transfer Learning for Property Inference</title>
       <link>//uvasrg.github.io/cvpr-2023-manipulating-transfer-learning-for-property-inference/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
