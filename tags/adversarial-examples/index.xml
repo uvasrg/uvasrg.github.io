@@ -7,18 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/adversarial-examples/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/adversarial-examples/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Balancing Tradeoffs between Fickleness and Obstinacy in NLP Models</title>
       <link>//uvasrg.github.io/balancing-tradeoffs-between-fickleness-and-obstinacy-in-nlp-models/</link>
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/balancing-tradeoffs-between-fickleness-and-obstinacy-in-nlp-models/</guid>
       <description>Post by Hannah Chen.
 Our work on balanced adversarial training looks at how to train models that are robust to two different types of adversarial examples:
 Hannah Chen, Yangfeng Ji, David Evans. Balanced Adversarial Training: Balancing Tradeoffs between Fickleness and Obstinacy in NLP Models. In The 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), Abu Dhabi, 7-11 December 2022. [ArXiv]
-   Adversarial Examples At the broadest level, an adversarial example is an input crafted intentionally to confuse a model.</description>
+Adversarial Examples At the broadest level, an adversarial example is an input crafted intentionally to confuse a model.</description>
     </item>
-    
   </channel>
 </rss>

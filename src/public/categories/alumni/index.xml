@@ -7,19 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/alumni/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/categories/alumni/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>USENIX Security Symposium 2019</title>
       <link>//uvasrg.github.io/usenix-security-symposium-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/usenix-security-symposium-2019/</guid>
       <description>Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
-       Summary by Lea Kissner:
- Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
-&amp;mdash; Lea Kissner (@LeaKissner) August 17, 2019   Also, great to see several UVA folks at the conference including:
- Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.</description>
+Summary by Lea Kissner:
+Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
+&amp;mdash; Lea Kissner (@LeaKissner) August 17, 2019 Also, great to see several UVA folks at the conference including:
+Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.</description>
     </item>
-    
   </channel>
 </rss>

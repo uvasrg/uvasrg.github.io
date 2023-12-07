@@ -7,16 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sat, 07 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/homa-alemzadeh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/homa-alemzadeh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dependable and Secure Machine Learning</title>
       <link>//uvasrg.github.io/dependable-and-secure-machine-learning/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/dependable-and-secure-machine-learning/</guid>
-      <description>I co-organized, with Homa Alemzadeh and Karthik Pattabiraman, a workshop on trustworthy machine learning attached to DSN 2018, in Luxembourg: DSML: Dependable and Secure Machine Learning.
- </description>
+      <description>I co-organized, with Homa Alemzadeh and Karthik Pattabiraman, a workshop on trustworthy machine learning attached to DSN 2018, in Luxembourg: DSML: Dependable and Secure Machine Learning.</description>
     </item>
-    
   </channel>
 </rss>

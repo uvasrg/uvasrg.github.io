@@ -7,26 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/multi-party-computation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/multi-party-computation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>White House Visit</title>
       <link>//uvasrg.github.io/white-house-visit/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/white-house-visit/</guid>
       <description>I had a chance to visit the White House for a Roundtable on Accelerating Responsible Sharing of Federal Data. The meeting was held under &amp;ldquo;Chatham House Rules&amp;rdquo;, so I won&amp;rsquo;t mention the other participants here.
-   The meeting was held in the Roosevelt Room of the White House. We entered through the visitor&amp;rsquo;s side entrance. After a security gate (where you put your phone in a lockbox, so no pictures inside) with a TV blaring Fox News, there is a pleasant lobby for waiting, and then an entrance right into the Roosevelt Room.</description>
+The meeting was held in the Roosevelt Room of the White House. We entered through the visitor&amp;rsquo;s side entrance. After a security gate (where you put your phone in a lockbox, so no pictures inside) with a TV blaring Fox News, there is a pleasant lobby for waiting, and then an entrance right into the Roosevelt Room.</description>
     </item>
-    
     <item>
       <title>How AI could save lives without spilling medical secrets</title>
       <link>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
       <description>I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: How AI could save lives without spilling medical secrets, MIT Technology Review, 14 May 2019.
- &amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
+&amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
     </item>
-    
   </channel>
 </rss>

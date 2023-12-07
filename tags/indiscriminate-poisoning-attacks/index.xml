@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>indiscriminate poisoning attacks on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/indiscriminate-poisoning-attacks/</link>
+    <description>Recent content in indiscriminate poisoning attacks on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/indiscriminate-poisoning-attacks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NeurIPS 2023: What Distributions are Robust to Poisoning Attacks?</title>
+      <link>//uvasrg.github.io/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/</guid>
+      <description>Data poisoning attacks are recognized as a top concern in the industry [1]. We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging [2]. In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.</description>
+    </item>
+  </channel>
+</rss>

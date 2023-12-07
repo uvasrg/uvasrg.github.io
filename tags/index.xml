@@ -7,1041 +7,826 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>adversarial machine learning</title>
       <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
-      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Fnu Suya</title>
+      <link>//uvasrg.github.io/tags/fnu-suya/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/fnu-suya/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>indiscriminate poisoning attacks</title>
+      <link>//uvasrg.github.io/tags/indiscriminate-poisoning-attacks/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/indiscriminate-poisoning-attacks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>susceptibility variation</title>
+      <link>//uvasrg.github.io/tags/susceptibility-variation/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/susceptibility-variation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xiao Zhang</title>
+      <link>//uvasrg.github.io/tags/xiao-zhang/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/xiao-zhang/</guid>
+      <description></description>
+    </item>
     <item>
       <title>bias</title>
       <link>//uvasrg.github.io/tags/bias/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/bias/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>generative AI</title>
       <link>//uvasrg.github.io/tags/generative-ai/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/generative-ai/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Hannah Chen</title>
       <link>//uvasrg.github.io/tags/hannah-chen/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/hannah-chen/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Jason Briegel</title>
       <link>//uvasrg.github.io/tags/jason-briegel/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/jason-briegel/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>LLMs</title>
       <link>//uvasrg.github.io/tags/llms/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/llms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>machine learning</title>
       <link>//uvasrg.github.io/tags/machine-learning/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Ahmed Salem</title>
       <link>//uvasrg.github.io/tags/ahmed-salem/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/ahmed-salem/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Andrew Paverd</title>
       <link>//uvasrg.github.io/tags/andrew-paverd/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/andrew-paverd/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Anshuman Suri</title>
       <link>//uvasrg.github.io/tags/anshuman-suri/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/anshuman-suri/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Boris Köpf</title>
       <link>//uvasrg.github.io/tags/boris-k%C3%B6pf/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/boris-k%C3%B6pf/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Giovanni Cherubin</title>
       <link>//uvasrg.github.io/tags/giovanni-cherubin/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/giovanni-cherubin/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>inference privacy</title>
       <link>//uvasrg.github.io/tags/inference-privacy/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/inference-privacy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>membership inference</title>
       <link>//uvasrg.github.io/tags/membership-inference/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/membership-inference/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>privacy-preserving machine learning</title>
       <link>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Santiago Zanella-Béguelin</title>
       <link>//uvasrg.github.io/tags/santiago-zanella-b%C3%A9guelin/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/santiago-zanella-b%C3%A9guelin/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Shruti Tople</title>
       <link>//uvasrg.github.io/tags/shruti-tople/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/shruti-tople/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>distribution inference</title>
       <link>//uvasrg.github.io/tags/distribution-inference/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/distribution-inference/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Fnu Suya</title>
-      <link>//uvasrg.github.io/tags/fnu-suya/</link>
-      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/fnu-suya/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>transfer learning</title>
       <link>//uvasrg.github.io/tags/transfer-learning/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/transfer-learning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Yulong Tian</title>
       <link>//uvasrg.github.io/tags/yulong-tian/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/yulong-tian/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>large language models</title>
       <link>//uvasrg.github.io/tags/large-language-models/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/large-language-models/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NLP</title>
       <link>//uvasrg.github.io/tags/nlp/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/nlp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>copilot</title>
       <link>//uvasrg.github.io/tags/copilot/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/copilot/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>poisoning</title>
       <link>//uvasrg.github.io/tags/poisoning/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/poisoning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>property inference</title>
       <link>//uvasrg.github.io/tags/property-inference/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/property-inference/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Yanjin Chen</title>
       <link>//uvasrg.github.io/tags/yanjin-chen/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/yanjin-chen/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Yifu Lu</title>
       <link>//uvasrg.github.io/tags/yifu-lu/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/yifu-lu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>attribute inference</title>
       <link>//uvasrg.github.io/tags/attribute-inference/</link>
       <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/attribute-inference/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Bargav Jayaraman</title>
       <link>//uvasrg.github.io/tags/bargav-jayaraman/</link>
       <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/bargav-jayaraman/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>PhD defense</title>
       <link>//uvasrg.github.io/tags/phd-defense/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/phd-defense/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>adversarial examples</title>
       <link>//uvasrg.github.io/tags/adversarial-examples/</link>
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/adversarial-examples/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Yangfeng Ji</title>
       <link>//uvasrg.github.io/tags/yangfeng-ji/</link>
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/yangfeng-ji/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Evan Rose</title>
       <link>//uvasrg.github.io/tags/evan-rose/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/evan-rose/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Fnu Syua</title>
       <link>//uvasrg.github.io/tags/fnu-syua/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/fnu-syua/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>poisoning attacks</title>
       <link>//uvasrg.github.io/tags/poisoning-attacks/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/poisoning-attacks/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>BIML</title>
       <link>//uvasrg.github.io/tags/biml/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/biml/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Gary McGraw</title>
       <link>//uvasrg.github.io/tags/gary-mcgraw/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/gary-mcgraw/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Xiao Zhang</title>
-      <link>//uvasrg.github.io/tags/xiao-zhang/</link>
-      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//uvasrg.github.io/tags/xiao-zhang/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>ICLR</title>
       <link>//uvasrg.github.io/tags/iclr/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/iclr/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>intrinsic robustness</title>
       <link>//uvasrg.github.io/tags/intrinsic-robustness/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/intrinsic-robustness/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Katherine Knipmeyer</title>
       <link>//uvasrg.github.io/tags/katherine-knipmeyer/</link>
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/katherine-knipmeyer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Microsoft</title>
       <link>//uvasrg.github.io/tags/microsoft/</link>
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/microsoft/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>privacy</title>
       <link>//uvasrg.github.io/tags/privacy/</link>
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/privacy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Jack Prescott</title>
       <link>//uvasrg.github.io/tags/jack-prescott/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/jack-prescott/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>David Evans</title>
       <link>//uvasrg.github.io/tags/david-evans/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/david-evans/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ICML 2021</title>
       <link>//uvasrg.github.io/tags/icml-2021/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/icml-2021/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>model-targeted poisoning attacks</title>
       <link>//uvasrg.github.io/tags/model-targeted-poisoning-attacks/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/model-targeted-poisoning-attacks/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Saeed Mahloujifar</title>
       <link>//uvasrg.github.io/tags/saeed-mahloujifar/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/saeed-mahloujifar/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Yuan Tian</title>
       <link>//uvasrg.github.io/tags/yuan-tian/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/yuan-tian/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mike Rosulek</title>
       <link>//uvasrg.github.io/tags/mike-rosulek/</link>
       <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/mike-rosulek/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>secure computation</title>
       <link>//uvasrg.github.io/tags/secure-computation/</link>
       <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/secure-computation/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Vladimir Kolesnikov</title>
       <link>//uvasrg.github.io/tags/vladimir-kolesnikov/</link>
       <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/vladimir-kolesnikov/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>research</title>
       <link>//uvasrg.github.io/tags/research/</link>
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/research/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>differential privacy</title>
       <link>//uvasrg.github.io/tags/differential-privacy/</link>
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/differential-privacy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>videos</title>
       <link>//uvasrg.github.io/tags/videos/</link>
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/videos/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>law</title>
       <link>//uvasrg.github.io/tags/law/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/law/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>fairness</title>
       <link>//uvasrg.github.io/tags/fairness/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/fairness/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>voting</title>
       <link>//uvasrg.github.io/tags/voting/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/voting/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lingxiao Wang</title>
       <link>//uvasrg.github.io/tags/lingxiao-wang/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/lingxiao-wang/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Quanquan Gu</title>
       <link>//uvasrg.github.io/tags/quanquan-gu/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/quanquan-gu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AISTATS</title>
       <link>//uvasrg.github.io/tags/aistats/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/aistats/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ICML</title>
       <link>//uvasrg.github.io/tags/icml/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/icml/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Jinghui Chen</title>
       <link>//uvasrg.github.io/tags/jinghui-chen/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/jinghui-chen/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Sicheng Zhu</title>
       <link>//uvasrg.github.io/tags/sicheng-zhu/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/sicheng-zhu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Jianfeng Chi</title>
       <link>//uvasrg.github.io/tags/jianfeng-chi/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/jianfeng-chi/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>USENIX Security</title>
       <link>//uvasrg.github.io/tags/usenix-security/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/usenix-security/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ACL</title>
       <link>//uvasrg.github.io/tags/acl/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/acl/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>natural language processing</title>
       <link>//uvasrg.github.io/tags/natural-language-processing/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/natural-language-processing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mohammad Mahmoody</title>
       <link>//uvasrg.github.io/tags/mohammad-mahmoody/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/mohammad-mahmoody/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NeurIPS</title>
       <link>//uvasrg.github.io/tags/neurips/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/neurips/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>conferences</title>
       <link>//uvasrg.github.io/tags/conferences/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/conferences/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>multi-party computation</title>
       <link>//uvasrg.github.io/tags/multi-party-computation/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/multi-party-computation/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>White House</title>
       <link>//uvasrg.github.io/tags/white-house/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/white-house/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>artificial intelligence</title>
       <link>//uvasrg.github.io/tags/artificial-intelligence/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>education</title>
       <link>//uvasrg.github.io/tags/education/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/education/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>outreach</title>
       <link>//uvasrg.github.io/tags/outreach/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/outreach/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mainuddin Jonas</title>
       <link>//uvasrg.github.io/tags/mainuddin-jonas/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/mainuddin-jonas/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>history</title>
       <link>//uvasrg.github.io/tags/history/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/history/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>teaching</title>
       <link>//uvasrg.github.io/tags/teaching/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/teaching/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>uncountability</title>
       <link>//uvasrg.github.io/tags/uncountability/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/uncountability/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Sam Havron</title>
       <link>//uvasrg.github.io/tags/sam-havron/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/sam-havron/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Serge Egelman</title>
       <link>//uvasrg.github.io/tags/serge-egelman/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/serge-egelman/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google</title>
       <link>//uvasrg.github.io/tags/google/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/google/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>alumni</title>
       <link>//uvasrg.github.io/tags/alumni/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/alumni/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Weilin Xu</title>
       <link>//uvasrg.github.io/tags/weilin-xu/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/weilin-xu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Yanjun Qi</title>
       <link>//uvasrg.github.io/tags/yanjun-qi/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/yanjun-qi/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>news</title>
       <link>//uvasrg.github.io/tags/news/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/news/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>dependability</title>
       <link>//uvasrg.github.io/tags/dependability/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/dependability/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>robotic surgery</title>
       <link>//uvasrg.github.io/tags/robotic-surgery/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/robotic-surgery/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Samin Yasar</title>
       <link>//uvasrg.github.io/tags/samin-yasar/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/samin-yasar/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>courses</title>
       <link>//uvasrg.github.io/tags/courses/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/courses/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>economics</title>
       <link>//uvasrg.github.io/tags/economics/</link>
       <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/economics/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>talks</title>
       <link>//uvasrg.github.io/tags/talks/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/talks/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>University of Maryland</title>
       <link>//uvasrg.github.io/tags/university-of-maryland/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/university-of-maryland/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Center for Trustworthy Machine Learning</title>
       <link>//uvasrg.github.io/tags/center-for-trustworthy-machine-learning/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/center-for-trustworthy-machine-learning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NSF</title>
       <link>//uvasrg.github.io/tags/nsf/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/nsf/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GDPR</title>
       <link>//uvasrg.github.io/tags/gdpr/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/gdpr/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Guy Verrier</title>
       <link>//uvasrg.github.io/tags/guy-verrier/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/guy-verrier/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Matthew Wallace</title>
       <link>//uvasrg.github.io/tags/matthew-wallace/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/matthew-wallace/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Nathaniel Grevatt</title>
       <link>//uvasrg.github.io/tags/nathaniel-grevatt/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/nathaniel-grevatt/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Parvesh Samayamanthula</title>
       <link>//uvasrg.github.io/tags/parvesh-samayamanthula/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/parvesh-samayamanthula/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>unicorns</title>
       <link>//uvasrg.github.io/tags/unicorns/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/unicorns/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>WOOT</title>
       <link>//uvasrg.github.io/tags/woot/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/woot/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Ahmed Ibrahim</title>
       <link>//uvasrg.github.io/tags/ahmed-ibrahim/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/ahmed-ibrahim/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>dependable machine learning</title>
       <link>//uvasrg.github.io/tags/dependable-machine-learning/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/dependable-machine-learning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Homa Alemzadeh</title>
       <link>//uvasrg.github.io/tags/homa-alemzadeh/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/homa-alemzadeh/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>summer camp</title>
       <link>//uvasrg.github.io/tags/summer-camp/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/summer-camp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>pictures</title>
       <link>//uvasrg.github.io/tags/pictures/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/pictures/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>posters</title>
       <link>//uvasrg.github.io/tags/posters/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/posters/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Yongwhi Kwon</title>
       <link>//uvasrg.github.io/tags/yongwhi-kwon/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/yongwhi-kwon/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Battista Biggio</title>
       <link>//uvasrg.github.io/tags/battista-biggio/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/battista-biggio/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>China</title>
       <link>//uvasrg.github.io/tags/china/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/china/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Huawei</title>
       <link>//uvasrg.github.io/tags/huawei/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/huawei/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>feature squeezing</title>
       <link>//uvasrg.github.io/tags/feature-squeezing/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/tags/feature-squeezing/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

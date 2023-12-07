@@ -2,16 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/fnu-suya/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/indiscriminate-poisoning-attacks/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/papers/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/susceptibility-variation/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/xiao-zhang/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//uvasrg.github.io/adjectives-can-reveal-gender-biases-within-nlp-models/</loc>
     <lastmod>2023-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
-    <lastmod>2023-08-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/tags/bias/</loc>
-    <lastmod>2023-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/</loc>
     <lastmod>2023-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/generative-ai/</loc>
@@ -29,16 +56,7 @@
     <loc>//uvasrg.github.io/tags/machine-learning/</loc>
     <lastmod>2023-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2023-08-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/categories/research/</loc>
-    <lastmod>2023-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2023-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2023-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/ahmed-salem/</loc>
@@ -62,9 +80,6 @@
     <loc>//uvasrg.github.io/tags/membership-inference/</loc>
     <lastmod>2023-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/categories/papers/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
     <lastmod>2023-05-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -81,9 +96,6 @@
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/distribution-inference/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/fnu-suya/</loc>
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/transfer-learning/</loc>
@@ -198,9 +210,6 @@
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/gary-mcgraw/</loc>
-    <lastmod>2022-07-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/xiao-zhang/</loc>
     <lastmod>2022-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/iclr/</loc>
@@ -645,37 +654,26 @@
     <lastmod>2018-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/advml/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/awards/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/bat/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/gpuservers/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/privacy/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/privacyreadinggroup/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/prospective/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/scriptinspector/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/studygroups/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/team/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/videos/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>//uvasrg.github.io/main/</loc>
   </url>

@@ -7,50 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/presentations/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/categories/presentations/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adversarially Robust Representations</title>
       <link>//uvasrg.github.io/robustrepresentations/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/robustrepresentations/</guid>
       <description>Post by Sicheng Zhu
 With the rapid development of deep learning and the explosive growth of unlabeled data, representation learning is becoming increasingly important. It has made impressive applications such as pre-trained language models (e.g., BERT and GPT-3).
 Popular as it is, representation learning raises concerns about the robustness of learned representations under adversarial settings. For example, how can we compare the robustness to different representations, and how can we build representations that enable robust downstream classifiers?</description>
     </item>
-    
     <item>
       <title>Intrinsic Robustness using Conditional GANs</title>
       <link>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</guid>
       <description>The video of Xiao&amp;rsquo;s presentation for AISTATS 2020 is now available: Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models
 Starting with Gilmer et al. (2018), several works have demonstrated the inevitability of adversarial examples based on different assumptions about the underlying input probability space. It remains unclear, however, whether these results apply to natural image distributions. In this work, we assume the underlying data distribution is captured by some conditional generative model, and prove intrinsic robustness bounds for a general class of classifiers, which solves an open problem in Fawzi et al.</description>
     </item>
-    
     <item>
       <title>Hybrid Batch Attacks at USENIX Security 2020</title>
       <link>//uvasrg.github.io/hybrid-batch-attacks-at-usenix-security-2020/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/hybrid-batch-attacks-at-usenix-security-2020/</guid>
       <description>Here&amp;rsquo;s the video for Suya&amp;rsquo;s presentation on Hybrid Batch Attacks at USENIX Security 2020:
- 
 Download Video [mp4]
- Blog Post
+Blog Post
 Paper: [PDF] [arXiv]</description>
     </item>
-    
     <item>
       <title>Congratulations Dr. Xu!</title>
       <link>//uvasrg.github.io/congratulations-dr.-xu/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/congratulations-dr.-xu/</guid>
       <description>Congratulations to Weilin Xu for successfully defending his PhD Thesis!
-   Weilin&#39;s Committee: Homa Alemzadeh, Yanjun Qi, Patrick McDaniel (on screen), David Evans, Vicente Ordóñez Román    Improving Robustness of Machine Learning Models using Domain Knowledge  Although machine learning techniques have achieved great success in many areas, such as computer vision, natural language processing, and computer security, recent studies have shown that they are not robust under attack.</description>
+Weilin&#39;s Committee: Homa Alemzadeh, Yanjun Qi, Patrick McDaniel (on screen), David Evans, Vicente Ordóñez Román Improving Robustness of Machine Learning Models using Domain Knowledge Although machine learning techniques have achieved great success in many areas, such as computer vision, natural language processing, and computer security, recent studies have shown that they are not robust under attack. A motivated adversary is often able to craft input samples that force a machine learning model to produce incorrect predictions, even if the target model achieves high accuracy on normal test inputs.</description>
     </item>
-    
   </channel>
 </rss>

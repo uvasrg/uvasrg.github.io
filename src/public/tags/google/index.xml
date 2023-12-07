@@ -7,27 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 25 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Security and Privacy Workshop</title>
       <link>//uvasrg.github.io/google-security-and-privacy-workshop/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/google-security-and-privacy-workshop/</guid>
       <description>I presented a short talk at a workshop at Google on Adversarial ML: Closing Gaps between Theory and Practice (mostly fun for the movie of me trying to solve Google&amp;rsquo;s CAPTCHA on the last slide):
- Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.
- I can say with some confidence, Google does donuts much better than they do cookies!</description>
+Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.
+I can say with some confidence, Google does donuts much better than they do cookies!</description>
     </item>
-    
     <item>
       <title>Google Federated Privacy 2019: The Dragon in the Room</title>
       <link>//uvasrg.github.io/google-federated-privacy-2019-the-dragon-in-the-room/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/google-federated-privacy-2019-the-dragon-in-the-room/</guid>
       <description>I&amp;rsquo;m back from a very interesting Workshop on Federated Learning and Analytics that was organized by Peter Kairouz and Brendan McMahan from Google&amp;rsquo;s federated learning team and was held at Google Seattle.
 For the first part of my talk, I covered Bargav&amp;rsquo;s work on evaluating differentially private machine learning, but I reserved the last few minutes of my talk to address the cognitive dissonance I felt being at a Google meeting on privacy.</description>
     </item>
-    
   </channel>
 </rss>

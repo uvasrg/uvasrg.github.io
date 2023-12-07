@@ -7,17 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/sicheng-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/sicheng-zhu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adversarially Robust Representations</title>
       <link>//uvasrg.github.io/robustrepresentations/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/robustrepresentations/</guid>
       <description>Post by Sicheng Zhu
 With the rapid development of deep learning and the explosive growth of unlabeled data, representation learning is becoming increasingly important. It has made impressive applications such as pre-trained language models (e.g., BERT and GPT-3).
 Popular as it is, representation learning raises concerns about the robustness of learned representations under adversarial settings. For example, how can we compare the robustness to different representations, and how can we build representations that enable robust downstream classifiers?</description>
     </item>
-    
   </channel>
 </rss>

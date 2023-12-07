@@ -7,41 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/mohammad-mahmoody/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/mohammad-mahmoody/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NeurIPS 2019</title>
       <link>//uvasrg.github.io/neurips2019/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/neurips2019/</guid>
-      <description> Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: https://slideslive.com/38921718/track-2-session-1 (starting at 26:50)  See this post for info on the paper. Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody):   
-
-
-
-
- </description>
+      <description> Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: https://slideslive.com/38921718/track-2-session-1 (starting at 26:50) See this post for info on the paper. Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody): </description>
     </item>
-    
     <item>
       <title>NeurIPS 2019: Empirically Measuring Concentration</title>
       <link>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</guid>
       <description>Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
 Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
     </item>
-    
     <item>
       <title>Empirically Measuring Concentration</title>
       <link>//uvasrg.github.io/empirically-measuring-concentration/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/empirically-measuring-concentration/</guid>
       <description>Xiao Zhang and Saeed Mahloujifar will present our work on Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness at two workshops May 6 at ICLR 2019 in New Orleans: Debugging Machine Learning Models and Safe Machine Learning: Specification, Robustness and Assurance.
-Paper: [PDF]
-   </description>
+Paper: [PDF]</description>
     </item>
-    
   </channel>
 </rss>

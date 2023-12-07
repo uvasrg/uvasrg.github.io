@@ -7,178 +7,125 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 16 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/categories/conferences/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dissecting Distribution Inference</title>
       <link>//uvasrg.github.io/dissecting-distribution-inference/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/dissecting-distribution-inference/</guid>
       <description>(Cross-post by Anshuman Suri)
 Distribution inference attacks aims to infer statistical properties of data used to train machine learning models. These attacks are sometimes surprisingly potent, as we demonstrated in previous work.
 KL Divergence Attack Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations, CCS 2018), or using model predictions in black-box scenarios (Zhang et al.</description>
     </item>
-    
     <item>
       <title>On the Risks of Distribution Inference</title>
       <link>//uvasrg.github.io/on-the-risks-of-distribution-inference/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/on-the-risks-of-distribution-inference/</guid>
       <description>(Cross-post by Anshuman Suri)
 Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.
 Standard inference attacks (which we call “dataset inference attacks”) aim to learn something about a particular record that may have been in that training data. For example, in a membership inference attack (Reza Shokri et al., Membership Inference Attacks Against Machine Learning Models, IEEE S&amp;amp;P 2017), the adversary aims to infer whether or not a particular record was included in the training data.</description>
     </item>
-    
     <item>
       <title>Oakland Test-of-Time Awards</title>
       <link>//uvasrg.github.io/oakland-test-of-time-awards/</link>
       <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/oakland-test-of-time-awards/</guid>
-      <description>I chaired the committee to select Test-of-Time Awards for the IEEE Symposium on Security and Privacy symposia from 1995-2006, which were presented at the Opening Section of the 41st IEEE Symposium on Security and Privacy.
-   </description>
+      <description>I chaired the committee to select Test-of-Time Awards for the IEEE Symposium on Security and Privacy symposia from 1995-2006, which were presented at the Opening Section of the 41st IEEE Symposium on Security and Privacy.</description>
     </item>
-    
     <item>
       <title>NeurIPS 2019</title>
       <link>//uvasrg.github.io/neurips2019/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/neurips2019/</guid>
-      <description> Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: https://slideslive.com/38921718/track-2-session-1 (starting at 26:50)  See this post for info on the paper. Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody):   
-
-
-
-
- </description>
+      <description> Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: https://slideslive.com/38921718/track-2-session-1 (starting at 26:50) See this post for info on the paper. Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody): </description>
     </item>
-    
     <item>
       <title>White House Visit</title>
       <link>//uvasrg.github.io/white-house-visit/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/white-house-visit/</guid>
       <description>I had a chance to visit the White House for a Roundtable on Accelerating Responsible Sharing of Federal Data. The meeting was held under &amp;ldquo;Chatham House Rules&amp;rdquo;, so I won&amp;rsquo;t mention the other participants here.
-   The meeting was held in the Roosevelt Room of the White House. We entered through the visitor&amp;rsquo;s side entrance. After a security gate (where you put your phone in a lockbox, so no pictures inside) with a TV blaring Fox News, there is a pleasant lobby for waiting, and then an entrance right into the Roosevelt Room.</description>
+The meeting was held in the Roosevelt Room of the White House. We entered through the visitor&amp;rsquo;s side entrance. After a security gate (where you put your phone in a lockbox, so no pictures inside) with a TV blaring Fox News, there is a pleasant lobby for waiting, and then an entrance right into the Roosevelt Room.</description>
     </item>
-    
     <item>
       <title>Research Symposium Posters</title>
       <link>//uvasrg.github.io/research-symposium-posters/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/research-symposium-posters/</guid>
       <description>Five students from our group presented posters at the department&amp;rsquo;s Fall Research Symposium:
- 
-Anshuman Suri&#39;s Overview Talk   Bargav Jayaraman, Evaluating Differentially Private Machine Learning In Practice [Poster]
-[Paper (USENIX Security 2019)]  
-
- Hannah Chen [Poster]  
-
- Xiao Zhang [Poster]
-[Paper (NeurIPS 2019)]  
-
- Mainudding Jonas [Poster]  
-
- Fnu Suya [Poster]
-[Paper (USENIX Security 2020)]  </description>
+Anshuman Suri&#39;s Overview Talk Bargav Jayaraman, Evaluating Differentially Private Machine Learning In Practice [</description>
     </item>
-    
     <item>
       <title>Evaluating Differentially Private Machine Learning in Practice</title>
       <link>//uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/evaluating-differentially-private-machine-learning-in-practice/</guid>
       <description>(Cross-post by Bargav Jayaraman)
 With the recent advances in composition of differential private mechanisms, the research community has been able to achieve meaningful deep learning with privacy budgets in single digits. Rènyi differential privacy (RDP) is one mechanism that provides tighter composition which is widely used because of its implementation in TensorFlow Privacy (recently, Gaussian differential privacy (GDP) has shown a tighter analysis for low privacy budgets, but it was not yet available when we did this work).</description>
     </item>
-    
     <item>
       <title>USENIX Security Symposium 2019</title>
       <link>//uvasrg.github.io/usenix-security-symposium-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/usenix-security-symposium-2019/</guid>
       <description>Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
-       Summary by Lea Kissner:
- Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
-&amp;mdash; Lea Kissner (@LeaKissner) August 17, 2019   Also, great to see several UVA folks at the conference including:
- Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.</description>
+Summary by Lea Kissner:
+Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
+&amp;mdash; Lea Kissner (@LeaKissner) August 17, 2019 Also, great to see several UVA folks at the conference including:
+Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.</description>
     </item>
-    
     <item>
       <title>Google Security and Privacy Workshop</title>
       <link>//uvasrg.github.io/google-security-and-privacy-workshop/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/google-security-and-privacy-workshop/</guid>
       <description>I presented a short talk at a workshop at Google on Adversarial ML: Closing Gaps between Theory and Practice (mostly fun for the movie of me trying to solve Google&amp;rsquo;s CAPTCHA on the last slide):
- Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.
- I can say with some confidence, Google does donuts much better than they do cookies!</description>
+Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.
+I can say with some confidence, Google does donuts much better than they do cookies!</description>
     </item>
-    
     <item>
       <title>NeurIPS 2018: Distributed Learning without Distress</title>
       <link>//uvasrg.github.io/neurips-2018-distributed-learning-without-distress/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/neurips-2018-distributed-learning-without-distress/</guid>
       <description>Bargav Jayaraman presented our work on privacy-preserving machine learning at the 32nd Conference on Neural Information Processing Systems (NeurIPS 2018) in Montreal.
 Distributed learning (sometimes known as federated learning) allows a group of independent data owners to collaboratively learn a model over their data sets without exposing their private data. Our approach combines differential privacy with secure multi-party computation to both protect the data during training and produce a model that provides privacy against inference attacks.</description>
     </item>
-    
     <item>
       <title>USENIX Security 2018</title>
       <link>//uvasrg.github.io/usenix-security-2018/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/usenix-security-2018/</guid>
       <description>Three SRG posters were presented at USENIX Security Symposium 2018 in Baltimore, Maryland:
- Nathaniel Grevatt (GDPR-Compliant Data Processing: Improving Pseudonymization with Multi-Party Computation) Matthew Wallace and Parvesh Samayamanthula (Deceiving Privacy Policy Classifiers with Adversarial Examples) Guy Verrier (How is GDPR Affecting Privacy Policies?, joint with Haonan Chen and Yuan Tian)  
-         There were also a surprising number of appearances by an unidentified unicorn:</description>
+Nathaniel Grevatt (GDPR-Compliant Data Processing: Improving Pseudonymization with Multi-Party Computation) Matthew Wallace and Parvesh Samayamanthula (Deceiving Privacy Policy Classifiers with Adversarial Examples) Guy Verrier (How is GDPR Affecting Privacy Policies?, joint with Haonan Chen and Yuan Tian) There were also a surprising number of appearances by an unidentified unicorn:
+Your poster may have made the cut for the #usesec18 Poster Reception, but has it received the approval of a tiny, adorable unicorn?</description>
     </item>
-    
     <item>
       <title>Cybersecurity Summer Camp</title>
       <link>//uvasrg.github.io/cybersecurity-summer-camp/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/cybersecurity-summer-camp/</guid>
       <description>I helped organize a summer camp for high school teachers focused on cybersecurity, led by Ahmed Ibrahim. Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: Cipher School for Muggles.
- 
-
-
 Cybersecurity Goes to Summer Camp. UVA Today. 22 July 2018. [archive.org]
- Earlier this week, 25 high school teachers – including 21 from Virginia – filled a glass-walled room in Rice Hall, sitting in high adjustable chairs at wheeled work tables, their laptops open, following a lecture with graphics about the dangers that lurk in cyberspace and trying to figure out how to pass the information on to a generation that seems to share the most intimate details of life online.</description>
+Earlier this week, 25 high school teachers – including 21 from Virginia – filled a glass-walled room in Rice Hall, sitting in high adjustable chairs at wheeled work tables, their laptops open, following a lecture with graphics about the dangers that lurk in cyberspace and trying to figure out how to pass the information on to a generation that seems to share the most intimate details of life online.</description>
     </item>
-    
     <item>
       <title>Dependable and Secure Machine Learning</title>
       <link>//uvasrg.github.io/dependable-and-secure-machine-learning/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/dependable-and-secure-machine-learning/</guid>
-      <description>I co-organized, with Homa Alemzadeh and Karthik Pattabiraman, a workshop on trustworthy machine learning attached to DSN 2018, in Luxembourg: DSML: Dependable and Secure Machine Learning.
- </description>
+      <description>I co-organized, with Homa Alemzadeh and Karthik Pattabiraman, a workshop on trustworthy machine learning attached to DSN 2018, in Luxembourg: DSML: Dependable and Secure Machine Learning.</description>
     </item>
-    
     <item>
       <title>Wahoos at Oakland</title>
       <link>//uvasrg.github.io/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/wahoos-at-oakland/</guid>
       <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!
-
-
 Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu
-  ## Poster Session 
-Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF]  
-Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using Internal Layers [PDF]         </description>
+## Poster Session Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF] Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using Internal Layers [PDF] </description>
     </item>
-    
   </channel>
 </rss>

@@ -7,22 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/press/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/categories/press/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Voice of America interview on ChatGPT</title>
       <link>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</guid>
       <description>I was interviewed for a Voice of America story (in Russian) on the impact of chatGPT and similar tools.
-   Full story: https://youtu.be/dFuunAFX9y4</description>
+Full story: https://youtu.be/dFuunAFX9y4</description>
     </item>
-    
     <item>
       <title>Uh-oh, there&#39;s a new way to poison code models</title>
       <link>//uvasrg.github.io/uh-oh-theres-a-new-way-to-poison-code-models/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/uh-oh-theres-a-new-way-to-poison-code-models/</guid>
       <description>Jack Clark&amp;rsquo;s Import AI, 16 Jan 2023 includes a nice description of our work on TrojanPuzzle:
 ####################################################
@@ -30,120 +28,93 @@ Uh-oh, there&#39;s a new way to poison code models - and it&#39;s really hard to
 …TROJANPUZZLE is a clever way to trick your code model into betraying you - if you can poison the undelrying dataset…
 Researchers with the University of California, Santa Barbara, Microsoft Corporation, and the University of Virginia have come up with some clever, subtle ways to poison the datasets used to train code models.</description>
     </item>
-    
     <item>
       <title>Trojan Puzzle attack trains AI assistants into suggesting malicious code</title>
       <link>//uvasrg.github.io/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/</guid>
       <description>Bleeping Computer has a story on our work (in collaboration with Microsoft Research) on poisoning code suggestion models:
 Trojan Puzzle attack trains AI assistants into suggesting malicious code By Bill Toulas
-    Researchers at the universities of California, Virginia, and Microsoft have devised a new poisoning attack that could trick AI-based coding assistants into suggesting dangerous code.
+Researchers at the universities of California, Virginia, and Microsoft have devised a new poisoning attack that could trick AI-based coding assistants into suggesting dangerous code.
 Named &amp;lsquo;Trojan Puzzle,&amp;rsquo; the attack stands out for bypassing static detection and signature-based dataset cleansing models, resulting in the AI models being trained to learn how to reproduce dangerous payloads.</description>
     </item>
-    
     <item>
       <title>How to Hide a Backdoor</title>
       <link>//uvasrg.github.io/how-to-hide-a-backdoor/</link>
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/how-to-hide-a-backdoor/</guid>
       <description>The Register has an article on our recent work on Stealthy Backdoors as Compression Artifacts: Thomas Claburn, How to hide a backdoor in AI software — Neural networks can be aimed to misbehave when squeezed, The Register, 5 May 2021.</description>
     </item>
-    
     <item>
       <title>Fact-checking Donald Trump’s tweet firing Christopher Krebs</title>
       <link>//uvasrg.github.io/fact-checking-donald-trumps-tweet-firing-christopher-krebs/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/fact-checking-donald-trumps-tweet-firing-christopher-krebs/</guid>
       <description>I was a source for thie &amp;ldquo;Pants on Fire!&amp;rdquo; fact check by PolitiFact on Donald Trump&amp;rsquo;s tweet that fired Christopher Krebs claiming that &amp;ldquo;The recent statement by Chris Krebs on the security of the 2020 Election was highly inaccurate, in that there were massive improprieties and fraud - including dead people voting, Poll Watchers not allowed into polling locations, “glitches” in the voting machines which changed&amp;hellip;&amp;rdquo;
 PolitiFact: Fact-checking Donald Trump’s tweet firing Christopher Krebs, 18 November 2020</description>
     </item>
-    
     <item>
       <title>Voting Security</title>
       <link>//uvasrg.github.io/voting-security/</link>
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/voting-security/</guid>
       <description>I was interviewed for a local news story by Daniel Grimes on election security: UVA cybersecurity expert: Virginia is one of the safer states to cast a ballot, NBC 29 News, 21 October 2020.</description>
     </item>
-    
     <item>
       <title>How AI could save lives without spilling medical secrets</title>
       <link>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/how-ai-could-save-lives-without-spilling-medical-secrets/</guid>
       <description>I&amp;rsquo;m quoted in this article by Will Knight focused on the work Oasis Labs (Dawn Song&amp;rsquo;s company) is doing on privacy-preserving medical data analysis: How AI could save lives without spilling medical secrets, MIT Technology Review, 14 May 2019.
- &amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
+&amp;ldquo;The whole notion of doing computation while keeping data secret is an incredibly powerful one,&amp;rdquo; says David Evans, who specializes in machine learning and security at the University of Virginia. When applied across hospitals and patient populations, for instance, machine learning might unlock completely new ways of tying disease to genomics, test results, and other patient information.</description>
     </item>
-    
     <item>
       <title>A Plan to Eradicate Stalkerware</title>
       <link>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</guid>
       <description>Sam Havron (BSCS 2017) is quoted in an article in Wired on eradicating stalkerware:
- The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&#39; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
+The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&amp;rsquo; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
     </item>
-    
     <item>
       <title>Deep Fools</title>
       <link>//uvasrg.github.io/deep-fools/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/deep-fools/</guid>
       <description>New Electronics has an article that includes my Deep Learning and Security Workshop talk: Deep fools, 21 January 2019.
-A better version of the image Mainuddin Jonas produced that they use (which they screenshot from the talk video) is below:
-  </description>
+A better version of the image Mainuddin Jonas produced that they use (which they screenshot from the talk video) is below:</description>
     </item>
-    
     <item>
       <title>Center for Trustworthy Machine Learning</title>
       <link>//uvasrg.github.io/center-for-trustworthy-machine-learning/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/center-for-trustworthy-machine-learning/</guid>
       <description>The National Science Foundation announced the Center for Trustworthy Machine Learning today, a new five-year SaTC Frontier Center &amp;ldquo;to develop a rigorous understanding of the security risks of the use of machine learning and to devise the tools, metrics and methods to manage and mitigate security vulnerabilities.&amp;rdquo;
 The Center is lead by Patrick McDaniel at Penn State University, and in addition to our group, includes Dan Boneh and Percy Liang (Stanford University), Kamalika Chaudhuri (University of California San Diego), Somesh Jha (University of Wisconsin) and Dawn Song (University of California Berkeley).</description>
     </item>
-    
     <item>
       <title>Artificial intelligence: the new ghost in the machine</title>
       <link>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
       <description>Engineering and Technology Magazine (a publication of the British [Institution of Engineering and Technology]() has an article that highlights adversarial machine learning research: Artificial intelligence: the new ghost in the machine, 10 October 2018, by Chris Edwards.
-  Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.</description>
+Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.</description>
     </item>
-    
     <item>
       <title>Violations of Children’s Privacy Laws</title>
       <link>//uvasrg.github.io/violations-of-childrens-privacy-laws/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/violations-of-childrens-privacy-laws/</guid>
       <description>The New York Times has an article, How Game Apps That Captivate Kids Have Been Collecting Their Data about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps.</description>
     </item>
-    
     <item>
       <title>Cybersecurity Summer Camp</title>
       <link>//uvasrg.github.io/cybersecurity-summer-camp/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/cybersecurity-summer-camp/</guid>
       <description>I helped organize a summer camp for high school teachers focused on cybersecurity, led by Ahmed Ibrahim. Some of the materials from the camp on cryptography, including the Jefferson Wheel and visual cryptography are here: Cipher School for Muggles.
- 
-
-
 Cybersecurity Goes to Summer Camp. UVA Today. 22 July 2018. [archive.org]
- Earlier this week, 25 high school teachers – including 21 from Virginia – filled a glass-walled room in Rice Hall, sitting in high adjustable chairs at wheeled work tables, their laptops open, following a lecture with graphics about the dangers that lurk in cyberspace and trying to figure out how to pass the information on to a generation that seems to share the most intimate details of life online.</description>
+Earlier this week, 25 high school teachers – including 21 from Virginia – filled a glass-walled room in Rice Hall, sitting in high adjustable chairs at wheeled work tables, their laptops open, following a lecture with graphics about the dangers that lurk in cyberspace and trying to figure out how to pass the information on to a generation that seems to share the most intimate details of life online.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,16 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/nsf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/nsf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Center for Trustworthy Machine Learning</title>
       <link>//uvasrg.github.io/center-for-trustworthy-machine-learning/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/center-for-trustworthy-machine-learning/</guid>
       <description>The National Science Foundation announced the Center for Trustworthy Machine Learning today, a new five-year SaTC Frontier Center &amp;ldquo;to develop a rigorous understanding of the security risks of the use of machine learning and to devise the tools, metrics and methods to manage and mitigate security vulnerabilities.&amp;rdquo;
 The Center is lead by Patrick McDaniel at Penn State University, and in addition to our group, includes Dan Boneh and Percy Liang (Stanford University), Kamalika Chaudhuri (University of California San Diego), Somesh Jha (University of Wisconsin) and Dawn Song (University of California Berkeley).</description>
     </item>
-    
   </channel>
 </rss>
