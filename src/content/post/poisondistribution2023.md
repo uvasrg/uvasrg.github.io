@@ -28,18 +28,22 @@ To address this question, we conducted a series of theoretical analyses. Our fin
 3. With the Theorem 1 and Theorem 2, we conveniently study optimal distributinal poisoning attacks on 1-D Gaussian and showed that datasets with high class-wise separability (Sep) and low in-class variance (SD) are inherently robust to poisoning, and is even more robust when the size of the set conraining all poisoning points (Size) is small. We further show that, these three metrics also form upper bound to the performance of optimal attacks for generation distributions, and for distributions with noce properties, the optimal attack effectiveness is also limited (i.e., small upper bound).   -->
 
 Returning to the benchmark datasets, we observed a strong correlation between the identified metrics and the empirically observed vulnerabilities to current best attacks. This reaffirms our theoretical findings. Notably, we employed the ratios Sep/SD and Sep/Size for convenient comparison between datasets, as depicted in the results below:
+
 <center>
 <a href="/images/poisondistribution2023/error_increase.png"><img src="/images/poisondistribution2023/error_increase.png" width="80%"></a>
 </center>
+
 It's evident that datasets resistant to current attacks, like MNIST 1-7, exhibit larger Sep/SD and Sep/Size ratios. This suggests well-separated distributions with low variance and limited impact from poisoning points. Conversely, more vulnerable datasets, such as the spam email dataset Enron, display the opposite characteristics.
 
 ## Future Implications
 While explaining the variations in vulnerabilities across datasets is valuable, it's also crucial to consider the future implications. Our primary finding suggests that dataset robustness against poisoning attacks can be enhanced by leveraging favorable distributional properties. In preliminary experiments, we demonstrate that employing improved feature extractors, such as deep models trained for an extended number of epochs, can achieve this objective.
 
 Specifically, we trained various feature extractors on the complete CIFAR-10 dataset and fine-tuned them on data labeled "Truck" and "Ship" for a downstream binary classification task. We utilized a deeper model, ResNet-18, trained for X epochs and denoted these models as R-X. Additionally, we included a straightforward CNN model trained until full convergence (LeNet). This approach allowed us to obtain a diverse set of pretrained models representing different potential feature representations for the downstream training data.
+
 <center>
 <a href="/images/poisondistribution2023/feature.png"><img src="/images/poisondistribution2023/feature.png" width="80%"></a>
 </center>
+
 The figure above clearly demonstrates that as we utilize the ResNet model and train it for a sufficient number of epochs, the quality of the feature representation improves, subsequently enhancing the robustness of downstream models against poisoning attacks. These preliminary findings highlight the exciting potential for future research aimed at leveraging enhanced features to bolster resilience against poisoning attacks. This serves as a strong motivation for further in-depth exploration in this direction.
 
 ### Paper
