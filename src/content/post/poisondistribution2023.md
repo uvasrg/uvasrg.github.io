@@ -8,6 +8,8 @@ tags = ["Xiao Zhang", "Fnu Suya", "adversarial machine learning", "indiscriminat
 math = true
 +++
 
+Post by **[Fnu Suya](https://fsuya.org/)**
+
 Data poisoning attacks are recognized as a top concern in the industry [[1]](https://arxiv.org/abs/2002.05646). We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging [[2]](https://arxiv.org/abs/2303.03592). In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.
 
 ## Understanding Vulnerabilities Across Different Datasets
