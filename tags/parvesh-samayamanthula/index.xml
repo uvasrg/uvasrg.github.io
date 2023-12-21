@@ -7,16 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/parvesh-samayamanthula/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/parvesh-samayamanthula/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>USENIX Security 2018</title>
       <link>//uvasrg.github.io/usenix-security-2018/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/usenix-security-2018/</guid>
       <description>Three SRG posters were presented at USENIX Security Symposium 2018 in Baltimore, Maryland:
 Nathaniel Grevatt (GDPR-Compliant Data Processing: Improving Pseudonymization with Multi-Party Computation) Matthew Wallace and Parvesh Samayamanthula (Deceiving Privacy Policy Classifiers with Adversarial Examples) Guy Verrier (How is GDPR Affecting Privacy Policies?, joint with Haonan Chen and Yuan Tian) There were also a surprising number of appearances by an unidentified unicorn:
 Your poster may have made the cut for the #usesec18 Poster Reception, but has it received the approval of a tiny, adorable unicorn?</description>
     </item>
+    
   </channel>
 </rss>

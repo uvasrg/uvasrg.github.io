@@ -7,26 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/vladimir-kolesnikov/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/vladimir-kolesnikov/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chinese Translation of MPC Book</title>
       <link>//uvasrg.github.io/chinese-translation-of-mpc-book/</link>
       <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/chinese-translation-of-mpc-book/</guid>
       <description>A Chinese translation of our A Pragmatic Introduction to Secure Multi-Party Computation book (by David Evans, Vladimir Kolesnikov, and Mike Rosulek) is now available!
 Thanks to Weiran Liu and Sengchao Ding for all the work they did on the translation.
 To order from JD.com: https://item.jd.com/13302742.html
 (The English version of the book is still available for free download, from https://securecomputation.org.)</description>
     </item>
+    
     <item>
       <title>A Pragmatic Introduction to Secure Multi-Party Computation</title>
       <link>//uvasrg.github.io/a-pragmatic-introduction-to-secure-multi-party-computation/</link>
       <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/a-pragmatic-introduction-to-secure-multi-party-computation/</guid>
       <description>A Pragmatic Introduction to Secure Multi-Party Computation, co-authored with Vladimir Kolesnikov and Mike Rosulek, is now published by Now Publishers in their Foundations and Trends in Privacy and Security series.
 You can download the book for free (we retain the copyright and are allowed to post an open version) from securecomputation.org, or buy an PDF version from the published for $260 (there is also a printed $99 version).
 Secure multi-party computation (MPC) has evolved from a theoretical curiosity in the 1980s to a tool for building real systems today.</description>
     </item>
+    
   </channel>
 </rss>

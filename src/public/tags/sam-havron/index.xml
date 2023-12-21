@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/sam-havron/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/sam-havron/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>USENIX Security Symposium 2019</title>
       <link>//uvasrg.github.io/usenix-security-symposium-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/usenix-security-symposium-2019/</guid>
       <description>Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
 Summary by Lea Kissner:
@@ -20,13 +20,16 @@ Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
 &amp;mdash; Lea Kissner (@LeaKissner) August 17, 2019 Also, great to see several UVA folks at the conference including:
 Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.</description>
     </item>
+    
     <item>
       <title>A Plan to Eradicate Stalkerware</title>
       <link>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/a-plan-to-eradicate-stalkerware/</guid>
       <description>Sam Havron (BSCS 2017) is quoted in an article in Wired on eradicating stalkerware:
 The full extent of that stalkerware crackdown will only prove out with time and testing, says Sam Havron, a Cornell researcher who worked on last year&amp;rsquo;s spyware study. Much more work remains. He notes that domestic abuse victims can also be tracked with dual-use apps often overlooked by antivirus firms, like antitheft software Cerberus. Even innocent tools like Apple&amp;rsquo;s Find My Friends and Google Maps&amp;rsquo; location-sharing features can be abused if they don&amp;rsquo;t better communicate to users that they may have been secretly configured to share their location.</description>
     </item>
+    
   </channel>
 </rss>

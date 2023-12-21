@@ -7,15 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/biml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/biml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BIML: What Machine Learnt Models Reveal</title>
       <link>//uvasrg.github.io/biml-what-machine-learnt-models-reveal/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/biml-what-machine-learnt-models-reveal/</guid>
       <description>I gave a talk in the Berryville Institute of Machine Learning in the Barn series on What Machine Learnt Models Reveal, which is now available as an edited video:
 David Evans, a professor of computer science researching security and privacy at the University of Virginia, talks about data leakage risk in ML systems and different approaches used to attack and secure models and datasets. Juxtaposing adversarial risks that target records and those aimed at attributes, David shows that differential privacy cannot capture all inference risks, and calls for more research based on privacy experiments aimed at both datasets and distributions.</description>
     </item>
+    
   </channel>
 </rss>

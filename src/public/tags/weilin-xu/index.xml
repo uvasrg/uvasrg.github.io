@@ -7,48 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 05 Jun 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/weilin-xu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/weilin-xu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Graduation 2019</title>
       <link>//uvasrg.github.io/graduation-2019/</link>
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/graduation-2019/</guid>
       <description> </description>
     </item>
+    
     <item>
       <title>SRG Lunch</title>
       <link>//uvasrg.github.io/srg-lunch/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/srg-lunch/</guid>
       <description>Some photos for our lunch to celebrate the end of semester, beginning of summer, and congratulate Weilin Xu on his PhD:
 Left to right: Jonah&amp;nbsp;Weissman, Yonghwi&amp;nbsp; Kown, Bargav&amp;nbsp;Jayaraman, Aihua&amp;nbsp;Chen, Hannah&amp;nbsp;Chen, Weilin&amp;nbsp;Xu, Riley&amp;nbsp;Spahn, David&amp;nbsp;Evans, Fnu&amp;nbsp;Suya, Yuan&amp;nbsp;Tian, Mainuddin&amp;nbsp;Jonas, Tu&amp;nbsp;Le, Faysal&amp;nbsp;Hossain, Xiao&amp;nbsp;Zhang, Jack&amp;nbsp;Verrier </description>
     </item>
+    
     <item>
       <title>Congratulations Dr. Xu!</title>
       <link>//uvasrg.github.io/congratulations-dr.-xu/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/congratulations-dr.-xu/</guid>
       <description>Congratulations to Weilin Xu for successfully defending his PhD Thesis!
 Weilin&#39;s Committee: Homa Alemzadeh, Yanjun Qi, Patrick McDaniel (on screen), David Evans, Vicente Ordóñez Román Improving Robustness of Machine Learning Models using Domain Knowledge Although machine learning techniques have achieved great success in many areas, such as computer vision, natural language processing, and computer security, recent studies have shown that they are not robust under attack. A motivated adversary is often able to craft input samples that force a machine learning model to produce incorrect predictions, even if the target model achieves high accuracy on normal test inputs.</description>
     </item>
+    
     <item>
       <title>Wahoos at Oakland</title>
       <link>//uvasrg.github.io/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/wahoos-at-oakland/</guid>
       <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!
 Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu
 ## Poster Session Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF] Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using Internal Layers [PDF] </description>
     </item>
+    
     <item>
       <title>Feature Squeezing at NDSS</title>
       <link>//uvasrg.github.io/feature-squeezing-at-ndss/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/feature-squeezing-at-ndss/</guid>
       <description>Weilin Xu presented Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks at the Network and Distributed System Security Symposium 2018. San Diego, CA. 21 February 2018.
 Paper: Weilin Xu, David Evans, Yanjun Qi. Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks. NDSS 2018. [PDF]
 Project Site: EvadeML.org</description>
     </item>
+    
   </channel>
 </rss>

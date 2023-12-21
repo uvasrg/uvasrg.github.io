@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/poisoning-attacks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/poisoning-attacks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Submission Award at VISxAI 2022</title>
       <link>//uvasrg.github.io/best-submission-award-at-visxai-2022/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/best-submission-award-at-visxai-2022/</guid>
       <description>Poisoning Attacks and Subpopulation Susceptibility by Evan Rose, Fnu Suya, and David Evans won the Best Submission Award at the 5th Workshop on Visualization for AI Explainability.
 Undergraduate student Evan Rose led the work and presented it at VISxAI in Oklahoma City, 17 October 2022.
@@ -20,10 +20,12 @@ Congratulations to #VISxAI&amp;#39;s Best Submission Awards:
 🏆 K-Means Clustering: An Explorable Explainer by @yizhe_ang https://t.co/BULW33WPzo
 🏆 Poisoning Attacks and Subpopulation Susceptibility by Evan Rose, @suyafnu, and @UdacityDave https://t.</description>
     </item>
+    
     <item>
       <title>Visualizing Poisoning</title>
       <link>//uvasrg.github.io/visualizing-poisoning/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/visualizing-poisoning/</guid>
       <description>How does a poisoning attack work and why are some groups more susceptible to being victimized by a poisoning attack?
 We&amp;rsquo;ve posted work that helps understand how poisoning attacks work with some engaging visualizations:
@@ -32,5 +34,6 @@ An Experimental Exploration on the Effectiveness of Poisoning Attacks
 Evan Rose, Fnu Suya, and David Evans
 Follow the link to try the interactive version! Machine learning is susceptible to poisoning attacks in which adversaries inject maliciously crafted training data into the training set to induce specific model behavior.</description>
     </item>
+    
   </channel>
 </rss>

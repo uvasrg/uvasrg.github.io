@@ -3,13 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
-    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/black-box-adversarial-attacks/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/categories/</loc>
-    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/david-evans/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/fnu-suya/</loc>
-    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/jingtao-hong/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/papers/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/satml/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/systemization-of-knowledge/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/tingwei-zhang/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/yuan-tian/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/indiscriminate-poisoning-attacks/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
@@ -17,19 +56,7 @@
     <loc>//uvasrg.github.io/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/categories/papers/</loc>
-    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/tags/susceptibility-variation/</loc>
-    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/xiao-zhang/</loc>
@@ -75,9 +102,6 @@
     <lastmod>2023-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/andrew-paverd/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
     <lastmod>2023-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/boris-k%C3%B6pf/</loc>
@@ -245,9 +269,6 @@
     <loc>//uvasrg.github.io/uva-news-article/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/tags/david-evans/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/tags/icml-2021/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -258,9 +279,6 @@
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/saeed-mahloujifar/</loc>
-    <lastmod>2021-06-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/yuan-tian/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/on-the-risks-of-distribution-inference/</loc>

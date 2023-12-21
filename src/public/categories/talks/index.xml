@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 13 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/categories/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cray Distinguished Speaker: On Leaky Models and Unintended Inferences</title>
       <link>//uvasrg.github.io/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/</link>
       <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/</guid>
       <description>Here&amp;rsquo;s the slides from my Cray Distinguished Speaker talk on On Leaky Models and Unintended Inferences: [PDF]
 The chatGPT limerick version of my talk abstract is much better than mine:
@@ -23,168 +23,207 @@ But secrets to tell
 And an adversary&amp;rsquo;s tricks it could not withstand.
 Thanks to Stephen McCamant and Kangjie Lu for hosting my visit, and everyone at University of Minnesota.</description>
     </item>
+    
     <item>
       <title>Balancing Tradeoffs between Fickleness and Obstinacy in NLP Models</title>
       <link>//uvasrg.github.io/balancing-tradeoffs-between-fickleness-and-obstinacy-in-nlp-models/</link>
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/balancing-tradeoffs-between-fickleness-and-obstinacy-in-nlp-models/</guid>
       <description>Post by Hannah Chen.
 Our work on balanced adversarial training looks at how to train models that are robust to two different types of adversarial examples:
 Hannah Chen, Yangfeng Ji, David Evans. Balanced Adversarial Training: Balancing Tradeoffs between Fickleness and Obstinacy in NLP Models. In The 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), Abu Dhabi, 7-11 December 2022. [ArXiv]
 Adversarial Examples At the broadest level, an adversarial example is an input crafted intentionally to confuse a model.</description>
     </item>
+    
     <item>
       <title>BIML: What Machine Learnt Models Reveal</title>
       <link>//uvasrg.github.io/biml-what-machine-learnt-models-reveal/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/biml-what-machine-learnt-models-reveal/</guid>
       <description>I gave a talk in the Berryville Institute of Machine Learning in the Barn series on What Machine Learnt Models Reveal, which is now available as an edited video:
 David Evans, a professor of computer science researching security and privacy at the University of Virginia, talks about data leakage risk in ML systems and different approaches used to attack and secure models and datasets. Juxtaposing adversarial risks that target records and those aimed at attributes, David shows that differential privacy cannot capture all inference risks, and calls for more research based on privacy experiments aimed at both datasets and distributions.</description>
     </item>
+    
     <item>
       <title>Microsoft Research Summit: Surprising (and unsurprising) Inference Risks in Machine Learning</title>
       <link>//uvasrg.github.io/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/</link>
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/</guid>
       <description>Here are the slides for my talk at the Practical and Theoretical Privacy of Machine Learning Training Pipelines Workshop at the Microsoft Research Summit (21 October 2021):
 Surprising (and Unsurprising) Inference Risks in Machine Learning [PDF] The work by Bargav Jayaraman (with Katherine Knipmeyer, Lingxiao Wang, and Quanquan Gu) that I talked about on improving membership inference attacks is described in more details here:
 Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer, Quanquan Gu, David Evans.</description>
     </item>
+    
     <item>
       <title>UVA News Article</title>
       <link>//uvasrg.github.io/uva-news-article/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/uva-news-article/</guid>
       <description>UVA News has an article by Audra Book on our research on security and privacy of machine learning (with some very nice quotes from several students in the group, and me saying something positive about the NSA!): Computer science professor David Evans and his team conduct experiments to understand security and privacy risks associated with machine learning, 8 September 2021.
 David Evans, professor of computer science in the University of Virginia School of Engineering and Applied Science, is leading research to understand how machine learning models can be compromised.</description>
     </item>
+    
     <item>
       <title>ICLR DPML 2021: Inference Risks for Machine Learning</title>
       <link>//uvasrg.github.io/iclr-dpml-2021-inference-risks-for-machine-learning/</link>
       <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/iclr-dpml-2021-inference-risks-for-machine-learning/</guid>
       <description>I gave an invited talk at the Distributed and Private Machine Learning (DPML) workshop at ICLR 2021 on Inference Risks for Machine Learning.
 The talk mostly covers work by Bargav Jayaraman on evaluating privacy in machine learning and connecting attribute inference and imputation, and recent work by Anshuman Suri on property inference.</description>
     </item>
+    
     <item>
       <title>Codaspy 2021 Keynote: When Models Learn Too Much</title>
       <link>//uvasrg.github.io/codaspy-2021-keynote-when-models-learn-too-much/</link>
       <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/codaspy-2021-keynote-when-models-learn-too-much/</guid>
       <description>Here are the slides for my talk at the 11th ACM Conference on Data and Application Security and Privacy:
 When Models Learn Too Much [PDF] The talk includes Bargav Jayaraman&amp;rsquo;s work (with Katherine Knipmeyer, Lingxiao Wang, and Quanquan Gu) on evaluating privacy in machine learning, as well as more recent work by Anshuman Suri on property inference attacks, and Bargav on attribute inference and imputation:
 Merlin, Morgan, and the Importance of Thresholds and Priors Evaluating Differentially Private Machine Learning in Practice “When models learn too much.</description>
     </item>
+    
     <item>
       <title>CrySP Talk: When Models Learn Too Much</title>
       <link>//uvasrg.github.io/crysp-talk-when-models-learn-too-much/</link>
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/crysp-talk-when-models-learn-too-much/</guid>
       <description>I gave a talk on When Models Learn Too Much at the University of Waterloo (virtually) in the CrySP Speaker Series on Privacy (29 March 2021):
 Abstract Statistical machine learning uses training data to produce models that capture patterns in that data. When models are trained on private data, such as medical records or personal emails, there is a risk that those models not only learn the hoped-for patterns, but will also learn and expose sensitive information about their training data.</description>
     </item>
+    
     <item>
       <title>Virginia Consumer Data Protection Act</title>
       <link>//uvasrg.github.io/virginia-consumer-data-protection-act/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/virginia-consumer-data-protection-act/</guid>
       <description>Josephine Lamp presented on the new data privacy law that is pending in Virginia (it still needs a few steps including expected signing by governor, but likely to go into effect Jan 1, 2023): Slides (PDF)
 This article provides a summary of the law: Virginia Passes Consumer Privacy Law; Other States May Follow, National Law Review, 17 February 2021.
 The law itself is here: SB 1392: Consumer Data Protection Act</description>
     </item>
+    
     <item>
       <title>Microsoft Security Data Science Colloquium: Inference Privacy in Theory and Practice</title>
       <link>//uvasrg.github.io/microsoft-security-data-science-colloquium-inference-privacy-in-theory-and-practice/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/microsoft-security-data-science-colloquium-inference-privacy-in-theory-and-practice/</guid>
       <description>Here are the slides for my talk at the Microsoft Security Data Science Colloquium:
 When Models Learn Too Much: Inference Privacy in Theory and Practice [PDF]
 The talk is mostly about Bargav Jayaraman&amp;rsquo;s work (with Katherine Knipmeyer, Lingxiao Wang, and Quanquan Gu) on evaluating privacy:
 Merlin, Morgan, and the Importance of Thresholds and Priors Evaluating Differentially Private Machine Learning in Practice </description>
     </item>
+    
     <item>
       <title>Jobs for Humans, 2029-2059</title>
       <link>//uvasrg.github.io/jobs-for-humans-2029-2059/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/jobs-for-humans-2029-2059/</guid>
       <description>I was honored to particilate in a panel at an event on Adult Education in the Age of Artificial Intelligence that was run by The Great Courses as a fundraiser for the Academy of Hope, an adult public charter school in Washington, D.C.
 I spoke first, following a few introductory talks, and was followed by Nicole Smith and Ellen Scully-Russ, and a keynote from Dexter Manley, Super Bowl winner with the Washington Redskins.</description>
     </item>
+    
     <item>
       <title>FOSAD Trustworthy Machine Learning Mini-Course</title>
       <link>//uvasrg.github.io/fosad2019/</link>
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/fosad2019/</guid>
       <description>I taught a mini-course on Trustworthy Machine Learning at the 19th International School on Foundations of Security Analysis and Design in Bertinoro, Italy.
 Slides from my three (two-hour) lectures are posted below, along with some links to relevant papers and resources.
 Class 1: Introduction/Attacks The PDF malware evasion attack is described in this paper:
 Weilin Xu, Yanjun Qi, and David Evans. Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers.</description>
     </item>
+    
     <item>
       <title>Google Security and Privacy Workshop</title>
       <link>//uvasrg.github.io/google-security-and-privacy-workshop/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/google-security-and-privacy-workshop/</guid>
       <description>I presented a short talk at a workshop at Google on Adversarial ML: Closing Gaps between Theory and Practice (mostly fun for the movie of me trying to solve Google&amp;rsquo;s CAPTCHA on the last slide):
 Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.
 I can say with some confidence, Google does donuts much better than they do cookies!</description>
     </item>
+    
     <item>
       <title>Google Federated Privacy 2019: The Dragon in the Room</title>
       <link>//uvasrg.github.io/google-federated-privacy-2019-the-dragon-in-the-room/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/google-federated-privacy-2019-the-dragon-in-the-room/</guid>
       <description>I&amp;rsquo;m back from a very interesting Workshop on Federated Learning and Analytics that was organized by Peter Kairouz and Brendan McMahan from Google&amp;rsquo;s federated learning team and was held at Google Seattle.
 For the first part of my talk, I covered Bargav&amp;rsquo;s work on evaluating differentially private machine learning, but I reserved the last few minutes of my talk to address the cognitive dissonance I felt being at a Google meeting on privacy.</description>
     </item>
+    
     <item>
       <title>JASON Spring Meeting: Adversarial Machine Learning</title>
       <link>//uvasrg.github.io/jason-spring-meeting-adversarial-machine-learning/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/jason-spring-meeting-adversarial-machine-learning/</guid>
       <description>I had the privilege of speaking at the JASON Spring Meeting, undoubtably one of the most diverse meetings I&amp;rsquo;ve been part of with talks on hypersonic signatures (from my DSSG 2008-2009 colleague, Ian Boyd), FBI DNA, nuclear proliferation in Iran, engineering biological materials, and the 2020 census (including a very interesting presentatino from John Abowd on the differential privacy mechanisms they have developed and evaluated). (Unfortunately, my lack of security clearance kept me out of the SCIF used for the talks on quantum computing and more sensitive topics).</description>
     </item>
+    
     <item>
       <title>Can Machine Learning Ever Be Trustworthy?</title>
       <link>//uvasrg.github.io/can-machine-learning-ever-be-trustworthy/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/can-machine-learning-ever-be-trustworthy/</guid>
       <description>I gave the Booz Allen Hamilton Distinguished Colloquium at the University of Maryland on Can Machine Learning Ever Be Trustworthy?.
 [Video](https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650) &amp;middot; [SpeakerDeck](https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy) Abstract Machine learning has produced extraordinary results over the past few years, and machine learning systems are rapidly being deployed for critical tasks, even in adversarial environments. This talk will survey some of the reasons building trustworthy machine learning systems is inherently impossible, and dive into some recent research on adversarial examples.</description>
     </item>
+    
     <item>
       <title>Mutually Assured Destruction and the Impending AI Apocalypse</title>
       <link>//uvasrg.github.io/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
       <description>I gave a keynote talk at USENIX Workshop of Offensive Technologies, Baltimore, Maryland, 13 August 2018. The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&amp;#8217;t able to actually figure out a talk to match the title and abstract I provided.
 The history of security includes a long series of arms races, where a new technology emerges and is subsequently developed and exploited by both defenders and attackers.</description>
     </item>
+    
     <item>
       <title>DLS Keynote: Is &#39;adversarial examples&#39; an Adversarial Example?</title>
       <link>//uvasrg.github.io/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/dls-keynote-is-adversarial-examples-an-adversarial-example/</guid>
       <description>I gave a keynote talk at the 1st Deep Learning and Security Workshop (co-located with the 39th IEEE Symposium on Security and Privacy). San Francisco, California. 24 May 2018
 Abstract
 Over the past few years, there has been an explosion of research in security of machine learning and on adversarial examples in particular. Although this is in many ways a new and immature research area, the general problem of adversarial examples has been a core problem in information security for thousands of years.</description>
     </item>
+    
     <item>
       <title>Lessons from the Last 3000 Years of Adversarial Examples</title>
       <link>//uvasrg.github.io/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
       <description>I spoke on Lessons from the Last 3000 Years of Adversarial Examples at Huawei’s Strategy and Technology Workshop in Shenzhen, China, 15 May 2018. We also got to tour Huawei&amp;#8217;s new research and development campus, under construction about 40 minutes from Shenzhen. It is pretty close to Disneyland, with its own railroad and villages themed after different European cities (Paris, Bologna, etc.).
 Huawei&amp;#8217;s New Research and Development Campus [More Pictures]</description>
     </item>
+    
     <item>
       <title>Feature Squeezing at NDSS</title>
       <link>//uvasrg.github.io/feature-squeezing-at-ndss/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/feature-squeezing-at-ndss/</guid>
       <description>Weilin Xu presented Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks at the Network and Distributed System Security Symposium 2018. San Diego, CA. 21 February 2018.
 Paper: Weilin Xu, David Evans, Yanjun Qi. Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks. NDSS 2018. [PDF]
 Project Site: EvadeML.org</description>
     </item>
+    
   </channel>
 </rss>

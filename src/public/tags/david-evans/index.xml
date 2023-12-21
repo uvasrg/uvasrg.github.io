@@ -7,16 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/david-evans/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/david-evans/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SoK: Pitfalls in Evaluating Black-Box Attacks</title>
+      <link>//uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/</guid>
+      <description>Post by Anshuman Suri and Fnu Suya
+Much research has studied black-box attacks on image classifiers, where adversaries generate adversarial examples against unknown target models without having access to their internal information. Our analysis of over 164 attacks (published in 102 major security, machine learning and security conferences) shows how these works make different assumptions about the adversary’s knowledge.
+The current literature lacks cohesive organization centered around the threat model. Our SoK paper (to appear at IEEE SaTML 2023) introduces a taxonomy for systematizing these attacks and demonstrates the importance of careful evaluations that consider adversary resources and threat models.</description>
+    </item>
+    
     <item>
       <title>Model-Targeted Poisoning Attacks with Provable Convergence</title>
       <link>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</guid>
       <description>(Post by Sean Miller, using images adapted from Suya&amp;rsquo;s talk slides)
 Data Poisoning Attacks Machine learning models are often trained using data from untrusted sources, leaving them open to poisoning attacks where adversaries use their control over a small fraction of that training data to poison the model in a particular way.
 Most work on poisoning attacks is directly driven by an attacker&amp;rsquo;s objective, where the adversary chooses poisoning points that maximize some target objective.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.120.4">
+	<meta name="generator" content="Hugo 0.118.2">
     <meta charset="utf-8">
     <title>Security Research Group</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -547,6 +547,18 @@
         
     
         
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -609,6 +621,109 @@ Scott&nbsp;Hong
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/sok-pitfalls-in-evaluating-black-box-attacks/">SoK: Pitfalls in Evaluating Black-Box Attacks</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2023-12-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">20 December 2023</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/tingwei-zhang">Tingwei Zhang</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/jingtao-hong">Jingtao Hong</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/yuan-tian">Yuan Tian</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/david-evans">David Evans</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/satml">SaTML</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/black-box-adversarial-attacks">black-box adversarial attacks</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/systemization-of-knowledge">systemization of knowledge</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>Post by <strong><a href="https://www.anshumansuri.me/">Anshuman Suri</a></strong> and <strong><a href="https://fsuya.org/">Fnu Suya</a></strong></p>
+<p>Much research has studied black-box attacks on image classifiers,
+where adversaries generate adversarial examples against unknown target
+models without having access to their internal information. Our
+analysis of over 164 attacks (published in 102 major security, machine
+learning and security conferences) shows how these works make
+different assumptions about the adversary’s knowledge.</p>
+<p>The current literature lacks cohesive organization centered around the
+threat model. Our <a href="https://arxiv.org/abs/2310.17534">SoK paper</a> (to
+appear at <a href="https://satml.org/">IEEE SaTML 2023</a>) introduces a taxonomy
+for systematizing these attacks and demonstrates the importance of
+careful evaluations that consider adversary resources and threat
+models.</p>
+<h3 id="taxonomy-for-black-box-attacks-on-classifiers">Taxonomy for Black-Box Attacks on Classifiers</h3>
+<p>We propose a new attack taxonomy organized around the threat model assumptions of an attack, using four separate dimensions to categorize assumptions made by each attack.</p>
+<ul>
+<li>
+<p><strong>Query Access</strong>: access to the target model. Under <em>no interactive access</em>, there is no opportunity to query the target model interactively (e.g., transfer attacks). With <em>interactive access</em>, the adversary can interactively query the target model and adjust subsequent queries by leveraging its history of queries (e.g., query-based attacks).</p>
+</li>
+<li>
+<p><strong>API Feedback</strong>: how much information the target model&rsquo;s API returns. We categorize APIs into <em>hard-label</em> (only label returned by API),  <em>top-K</em> (confidence scores for top-<em>k</em> predictions), or <em>complete confidence vector</em> (all confidence scores returned).</p>
+</li>
+<li>
+<p><strong>Quality of Initial Auxiliary Data</strong>: overlap between the auxiliary data available to the attacker and the training data of the target model. We capture overlap via distributional similarity in either feature space (same/similar samples used) or the label space. <em>No overlap</em> is closest to real-world APIs, where knowledge about the target model’s training data is obfuscated and often proprietary. <em>Partial overlap</em> captures scenarios where the training data of the target model includes some publicly available datasets. <em>Complete overlap</em> occurs where auxiliary data is identical (same dataset or same underlying distribution) to the target model’s training data.</p>
+</li>
+<li>
+<p><strong>Quantity of Auxiliary Data</strong>: does that adversary have enough data to train well-performing surrogate models, categorized as <em>insufficient</em> and <em>sufficient</em>.</p>
+</li>
+</ul>
+<h3 id="insights-from-taxonomy">Insights from Taxonomy</h3>
+<p>Our taxonomy, shown below in the table, highlights technical challenges in underexplored areas, especially where ample data is available but with limited overlap with the target model’s data distribution. This scenario is highly relevant in practice. Additionally, we found that only one attack (NES) explicitly optimizes for top-<em>k</em> prediction scores, a common scenario in API attacks. These gaps suggest both a knowledge and a technical gap, with substantial room for improving attacks in these settings.</p>
+<center>
+<a href="/images/blackboxsok2024/taxonomy_table.png"><img style="width: 95%" src="/images/blackboxsok2024/taxonomy_table.png" alt="Performance of top-_k_ attacks across queries"/></a>
+</center>
+<div class="caption">
+Threat model taxonomy of black-box attacks. The first two columns correspond to the quality and quantity of the auxiliary data available to the attacker initially. The remaining columns distinguish threat models based on the type of access they have to the target model, and for adversaries who can submit queries to the target model, the information they receive from the API in response. The symbol ∅ above corresponds to areas in the threat-space that, to the best of our knowledge, are not considered by any attacks in the literature. The sub-category of w/ Pretrained Surrogate with “*” denotes that the corresponding attacks do not require auxiliary data, but the quality of data used to train the surrogate determines the corresponding cell.
+</div>
+<h1 id="heading"></h1>
+<p>Our new top-<em>k</em> adaptation (figure below) demonstrates a significant improvement in performance over the existing baseline in the top-<em>k</em> setting, yet still fails to outperform more restrictive hard-label attacks in some settings, highlighting the need for further investigation.</p>
+<center>
+<a href="/images/blackboxsok2024/topk_comparison.png"><img style="width: 65%" src="/images/blackboxsok2024/topk_comparison.png" alt="Performance of top-_k_ attacks across queries"/></a>
+</center>
+<div class="caption">
+<p>Comparison of top-<em>k</em> attacks. Square: top-<em>k</em> is our proposed adaption of the Square Attack for the top-<em>k</em> setting. NES: top-<em>k</em> is the current state-of-the-art attack. SignFlip is a more restrictive hard-label attack.</p>
+</div>
+<p>See the full paper for details on how the attacks were adapted.</p>
+<h3 id="rethinking-baseline-comparisons">Rethinking baseline comparisons</h3>
+<p>Our study revealed that current evaluations often fail to align with what adversaries actually care about. We advocate for time-based comparisons of attacks, emphasizing their practical effectiveness within given constraints. This approach reveals that some attacks achieve higher success rates when normalized for time.</p>
+<center>
+<a href="/images/blackboxsok2024/same_iters_vs_same_time_targeted_densenet.png"><img style="width: 95%" src="/images/blackboxsok2024/same_iters_vs_same_time_targeted_densenet.png" alt="ASR for various attacks, compared based on iterations (left) and time (right)"/></a>
+</center>
+<div class="caption">
+ASR (y-axis) for various targeted attacks on DenseNet201 models, varying across iterations (a) and time (b). All attacks on the left are run for 100 iterations, while attacks on the right are run for 30 minutes per batch. ASR at each iteration is computed using adversarial examples at that iteration. ASR at 40 iterations are marked with a star for each attack.
+</div>
+<h1 id="heading-1"></h1>
+<h3 id="takeaways">Takeaways</h3>
+<p>The paper underscores many unexplored settings in black-box adversarial attacks, particularly emphasizing the significance of meticulous evaluation and experimentation. A critical insight is the existence of many realistic threat models that haven&rsquo;t been investigated, suggesting both a knowledge and a technical gap in current research. Considering the rapid evolution and increasing complexity of attack strategies, carefuly evaluation and consideration of the attack setting becomes even more pertinent. These findings indicate a need for more comprehensive and nuanced approaches to understanding and mitigating black-box attacks in real-world scenarios.</p>
+<h3 id="paper">Paper</h3>
+<p>Fnu Suya*, Anshuman Suri*, Tingwei Zhang, Jingtao Hong, Yuan Tian, David Evans. <a href="https://arxiv.org/abs/2310.17534"><em>SoK: Pitfalls in Evaluating Black-Box Attacks</em></a>. In <a href="https://satml.org/">IEEE Conference on Secure and Trustworthy Machine Learning</a> (SaTML). Toronto, 9–11 April 2024. <a href="https://arxiv.org/abs/2310.17534">[arXiv]</a></p>
+<p><sub>* Equal contribution</sub></p>
+<p>Code: <a href="https://github.com/iamgroot42/blackboxsok">https://github.com/iamgroot42/blackboxsok</a></p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/">NeurIPS 2023: What Distributions are Robust to Poisoning Attacks?</a></h2>
@@ -1222,137 +1337,6 @@ Farzad Hassanzadeh (UVA Computer Science/ECE)</p>
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/cvpr-2023-manipulating-transfer-learning-for-property-inference/">CVPR 2023: Manipulating Transfer Learning for Property Inference</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2023-05-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2 May 2023</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/yulong-tian">Yulong Tian</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/inference-privacy">inference privacy</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/transfer-learning">transfer learning</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <h1 id="manipulating-transfer-learning-for-property-inference">Manipulating Transfer Learning for Property Inference</h1>
-<p>Transfer learning is a popular method to train deep learning models
-efficiently. By reusing parameters from upstream pre-trained models,
-the downstream trainer can use fewer computing resources to train
-downstream models, compared to training models from scratch.</p>
-<p>The figure below shows the typical process of transfer learning for
-vision tasks:</p>
-<center>
-<a href="/images/mtlpi/fig1.png"><img src="/images/mtlpi/fig1.png" width="80%"></a>
-</center>
-<p>However, the nature of transfer learning can be exploited by a
-malicious upstream trainer, leading to severe risks to the downstream
-trainer.</p>
-<p>Here, we consider the risk of amplifying property inference in
-transfer learning scenarios. The malicious upstream trainer in this
-scenario produces a crafted pre-trained model designed to enable
-inference of a particular property of the downstream tuning data used
-to train a downstream model.</p>
-<p>The attack process is illustrated below:</p>
-<center>
-<a href="/images/mtlpi/fig2.png"><img src="/images/mtlpi/fig2.png" width="80%"></a>
-</center>
-<p>The main idea of the attack is to manipulate the upstream model
-(<em>feature extractor</em>) to purposefully generate activations in
-different distributions for samples with and without the target
-property.  When the downstream trainer uses this upstream model for
-transfer learning, the differences between the downstream models tuned
-with and without samples that have the target property will also be
-amplified, thus making the inference easier.</p>
-<p>The adversary can then conduct the inference attacks with white-box
-(e.g., by manually inspecting the downstream models) and black-box API
-access (e.g., using meta-classifiers).</p>
-<h3 id="zero-activation-attack">Zero Activation Attack</h3>
-<p><strong>Upstream Manipulation.</strong> In this attack, the manipulation is
-conducted in a way that certain parameters in the downstream model
-will not be updated (e.g., have zero activations from feature
-extractors on some <em><strong>secret-secreting parameters</strong></em> and hence zero
-gradients in downstream training due to chain rule) if the tuning
-data do not have the target property, but will be updated if some
-tuning data are with the property (e.g., non-zero activations on the
-secreting parameters and hence non-zero gradients in downstream
-training).</p>
-<center>
-<a href="/images/mtlpi/fig3.png"><img src="/images/mtlpi/fig3.png" width="80%"></a>
-</center>
-<p><strong>Property Inference on Downstream Model.</strong> For the downstream model,
-we can use inference attacks to infer sensitive properties of the
-downstream training data.</p>
-<p>In white-box settings where attacker has complete knowledge of the
-model, in addition to evaluating standard white-box meta-classifier
-based attacks (<em>white-box meta-classifier</em>), we propose two new
-methods by directly comparing the actual values the secreting
-parameters before and after downstream training (the <em>Difference</em>
-attack) or by analyzing their variance in the final tuned model (the
-<em>Variance</em> attack).</p>
-<p>In the black-box setting with API access, attackers can employ
-existing black-box methods such as black-box meta classifier based
-approaches (<em>black-box meta-classifier</em>) and test based on confidence
-scores returned for the queried samples (<em>Confidence score</em>).</p>
-<center>
-<a href="/images/mtlpi/results.jpg"><img src="/images/mtlpi/results.jpg" width="80%"></a>
-</center>
-<p><strong>Results.</strong> The results are summarize in the above
-graphs. <em>Baseline</em> reports the highest inference success from
-all existing attacks when the upstream model is trained normally
-(i.e., without any manipulation). The results indicate that the
-inference is much more successful with manipulation compared to the
-baseline setting. In particular, in the baseline setting, most of
-the inference AUC scores are below 0.7. However, after manipulation,
-the inferences show AUC scores greater than 0.89 even when only 0.1%
-(10 out of 10 000) of the downstream samples have the target
-property. Moreover, the results achieve perfect scores (AUC score &gt;
-0.99) when the ratio of target samples in the downstream training
-set increases to 1% (100 out of 10 000).</p>
-<p><strong>Stealthier Attack.</strong> Above results are only suitable for settings
-where there are no active defenses to inspect the pertained
-models. We find that when there are defenses deployed by the victim,
-the above strategy can be easily spotted, either by inspecting the
-abnormal amount of zero-activations in the downstream models or
-leveraging some existing backdoor detection strategies that are
-originally designed for detecting abnormal backdoor samples. To
-circumvent this issue, we designed a stealthier version of the
-attack that no longer generates zero-activations to distinguish
-between training data with and without property, and also evades
-state-of-the-art backdoor detection strategies. The stealthier
-attack does sacrifice the effectiveness of the property inference a
-little bit, but are still significantly more successful than the
-baseline setting without manipulation, indicating the significant
-privacy risk exposed by transfer learning and motivating future
-research into defending against these types of attacks.</p>
-<h3 id="paper">Paper</h3>
-<p>Yulong Tian, Fnu Suya, Anshuman Suri, Fengyuan Xu, David Evans. <a href="https://arxiv.org/abs/2303.11643"><em>Manipulating Transfer Learning for Property Inference</em></a>. In <a href="https://cvpr2023.thecvf.com/">IEEE/CVF Computer Vision and Pattern Recognition Conference</a> (CVPR). Vancouver, 18–22 June 2023. <a href="https://arxiv.org/abs/2303.11643">[arXiv]</a></p>
-<p>Code: <a href="https://github.com/yulongt23/transfer-inference">https://github.com/yulongt23/transfer-inference</a></p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -1389,6 +1373,12 @@ Security Research Group
   <p>
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/sok-pitfalls-in-evaluating-black-box-attacks/">SoK: Pitfalls in Evaluating Black-Box Attacks</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/">NeurIPS 2023: What Distributions are Robust to Poisoning Attacks?</a>
@@ -1530,12 +1520,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/chinese-translation-of-mpc-book/">Chinese Translation of MPC Book</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/iclr-dpml-2021-inference-risks-for-machine-learning/">ICLR DPML 2021: Inference Risks for Machine Learning</a>
 
 
    </div>

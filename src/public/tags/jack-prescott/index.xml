@@ -7,23 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/jack-prescott/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/jack-prescott/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UVA News Article</title>
       <link>//uvasrg.github.io/uva-news-article/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/uva-news-article/</guid>
       <description>UVA News has an article by Audra Book on our research on security and privacy of machine learning (with some very nice quotes from several students in the group, and me saying something positive about the NSA!): Computer science professor David Evans and his team conduct experiments to understand security and privacy risks associated with machine learning, 8 September 2021.
 David Evans, professor of computer science in the University of Virginia School of Engineering and Applied Science, is leading research to understand how machine learning models can be compromised.</description>
     </item>
+    
     <item>
       <title>Improved Estimation of Concentration (ICLR 2021)</title>
       <link>//uvasrg.github.io/improved-estimation-of-concentration-iclr-2021/</link>
       <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/improved-estimation-of-concentration-iclr-2021/</guid>
       <description>Our paper on Improved Estimation of Concentration Under ℓp-Norm Distance Metrics Using Half Spaces (Jack Prescott, Xiao Zhang, and David Evans) will be presented at ICLR 2021.
 Abstract: Concentration of measure has been argued to be the fundamental cause of adversarial vulnerability. Mahloujifar et al. (2019) presented an empirical way to measure the concentration of a data distribution using samples, and employed it to find lower bounds on intrinsic robustness for several benchmark datasets.</description>
     </item>
+    
   </channel>
 </rss>

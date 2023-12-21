@@ -7,112 +7,137 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/xiao-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/xiao-zhang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NeurIPS 2023: What Distributions are Robust to Poisoning Attacks?</title>
       <link>//uvasrg.github.io/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/</guid>
       <description>Post by Fnu Suya
 Data poisoning attacks are recognized as a top concern in the industry [1]. We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging [2]. In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.</description>
     </item>
+    
     <item>
       <title>Congratulations, Dr. Zhang!</title>
       <link>//uvasrg.github.io/congratulations-dr.-zhang/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/congratulations-dr.-zhang/</guid>
       <description>Congratulations to Xiao Zhang for successfully defending his PhD thesis!
 Dr. Zhang and his PhD committee: Somesh Jha (University of Wisconsin), David Evans, Tom Fletcher; Tianxi&amp;nbsp;Li&amp;nbsp;(UVA&amp;nbsp;Statistics), David&amp;nbsp;Wu&amp;nbsp;(UT&amp;nbsp;Austin), Mohammad&amp;nbsp;Mahmoody; Xiao&amp;nbsp;Zhang. Xiao will join the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany this fall as a tenure-track faculty member.
 From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning The prevalence of adversarial examples raises questions about the reliability of machine learning systems, especially for their deployment in critical applications.</description>
     </item>
+    
     <item>
       <title>ICLR 2022: Understanding Intrinsic Robustness Using Label Uncertainty</title>
       <link>//uvasrg.github.io/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/</guid>
       <description>(Blog post written by Xiao Zhang)
 Motivated by the empirical hardness of developing robust classifiers against adversarial perturbations, researchers began asking the question “Does there even exist a robust classifier?”. This is formulated as the intrinsic robustness problem (Mahloujifar et al., 2019), where the goal is to characterize the maximum adversarial robustness possible for a given robust classification problem. Building upon the connection between adversarial robustness and classifier’s error region, it has been shown that if we restrict the search to the set of imperfect classifiers, the intrinsic robustness problem can be reduced to the concentration of measure problem.</description>
     </item>
+    
     <item>
       <title>UVA News Article</title>
       <link>//uvasrg.github.io/uva-news-article/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/uva-news-article/</guid>
       <description>UVA News has an article by Audra Book on our research on security and privacy of machine learning (with some very nice quotes from several students in the group, and me saying something positive about the NSA!): Computer science professor David Evans and his team conduct experiments to understand security and privacy risks associated with machine learning, 8 September 2021.
 David Evans, professor of computer science in the University of Virginia School of Engineering and Applied Science, is leading research to understand how machine learning models can be compromised.</description>
     </item>
+    
     <item>
       <title>Improved Estimation of Concentration (ICLR 2021)</title>
       <link>//uvasrg.github.io/improved-estimation-of-concentration-iclr-2021/</link>
       <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/improved-estimation-of-concentration-iclr-2021/</guid>
       <description>Our paper on Improved Estimation of Concentration Under ℓp-Norm Distance Metrics Using Half Spaces (Jack Prescott, Xiao Zhang, and David Evans) will be presented at ICLR 2021.
 Abstract: Concentration of measure has been argued to be the fundamental cause of adversarial vulnerability. Mahloujifar et al. (2019) presented an empirical way to measure the concentration of a data distribution using samples, and employed it to find lower bounds on intrinsic robustness for several benchmark datasets.</description>
     </item>
+    
     <item>
       <title>Adversarially Robust Representations</title>
       <link>//uvasrg.github.io/robustrepresentations/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/robustrepresentations/</guid>
       <description>Post by Sicheng Zhu
 With the rapid development of deep learning and the explosive growth of unlabeled data, representation learning is becoming increasingly important. It has made impressive applications such as pre-trained language models (e.g., BERT and GPT-3).
 Popular as it is, representation learning raises concerns about the robustness of learned representations under adversarial settings. For example, how can we compare the robustness to different representations, and how can we build representations that enable robust downstream classifiers?</description>
     </item>
+    
     <item>
       <title>Intrinsic Robustness using Conditional GANs</title>
       <link>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</guid>
       <description>The video of Xiao&amp;rsquo;s presentation for AISTATS 2020 is now available: Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models
 Starting with Gilmer et al. (2018), several works have demonstrated the inevitability of adversarial examples based on different assumptions about the underlying input probability space. It remains unclear, however, whether these results apply to natural image distributions. In this work, we assume the underlying data distribution is captured by some conditional generative model, and prove intrinsic robustness bounds for a general class of classifiers, which solves an open problem in Fawzi et al.</description>
     </item>
+    
     <item>
       <title>NeurIPS 2019</title>
       <link>//uvasrg.github.io/neurips2019/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/neurips2019/</guid>
       <description> Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: https://slideslive.com/38921718/track-2-session-1 (starting at 26:50) See this post for info on the paper. Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody): </description>
     </item>
+    
     <item>
       <title>NeurIPS 2019: Empirically Measuring Concentration</title>
       <link>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</guid>
       <description>Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
 Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
     </item>
+    
     <item>
       <title>Research Symposium Posters</title>
       <link>//uvasrg.github.io/research-symposium-posters/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/research-symposium-posters/</guid>
       <description>Five students from our group presented posters at the department&amp;rsquo;s Fall Research Symposium:
 Anshuman Suri&#39;s Overview Talk Bargav Jayaraman, Evaluating Differentially Private Machine Learning In Practice [</description>
     </item>
+    
     <item>
       <title>Cost-Sensitive Adversarial Robustness at ICLR 2019</title>
       <link>//uvasrg.github.io/cost-sensitive-adversarial-robustness-at-iclr-2019/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/cost-sensitive-adversarial-robustness-at-iclr-2019/</guid>
       <description>Xiao Zhang will present Cost-Sensitive Robustness against Adversarial Examples on May 7 (4:30-6:30pm) at ICLR 2019 in New Orleans.
 Paper: [PDF] [OpenReview] [ArXiv]</description>
     </item>
+    
     <item>
       <title>Empirically Measuring Concentration</title>
       <link>//uvasrg.github.io/empirically-measuring-concentration/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/empirically-measuring-concentration/</guid>
       <description>Xiao Zhang and Saeed Mahloujifar will present our work on Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness at two workshops May 6 at ICLR 2019 in New Orleans: Debugging Machine Learning Models and Safe Machine Learning: Specification, Robustness and Assurance.
 Paper: [PDF]</description>
     </item>
+    
     <item>
       <title>ICLR 2019: Cost-Sensitive Robustness against Adversarial Examples</title>
       <link>//uvasrg.github.io/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</guid>
       <description>Xiao Zhang and my paper on Cost-Sensitive Robustness against Adversarial Examples has been accepted to ICLR 2019.
 Several recent works have developed methods for training classifiers that are certifiably robust against norm-bounded adversarial perturbations. However, these methods assume that all the adversarial transformations provide equal value for adversaries, which is seldom the case in real-world applications. We advocate for cost-sensitive robustness as the criteria for measuring the classifier&amp;rsquo;s performance for specific tasks.</description>
     </item>
+    
   </channel>
 </rss>

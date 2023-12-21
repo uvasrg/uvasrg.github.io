@@ -7,23 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/categories/outreach/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/outreach/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Voice of America interview on ChatGPT</title>
       <link>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</guid>
       <description>I was interviewed for a Voice of America story (in Russian) on the impact of chatGPT and similar tools.
 Full story: https://youtu.be/dFuunAFX9y4</description>
     </item>
+    
     <item>
       <title>Jobs for Humans, 2029-2059</title>
       <link>//uvasrg.github.io/jobs-for-humans-2029-2059/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/jobs-for-humans-2029-2059/</guid>
       <description>I was honored to particilate in a panel at an event on Adult Education in the Age of Artificial Intelligence that was run by The Great Courses as a fundraiser for the Academy of Hope, an adult public charter school in Washington, D.C.
 I spoke first, following a few introductory talks, and was followed by Nicole Smith and Ellen Scully-Russ, and a keynote from Dexter Manley, Super Bowl winner with the Washington Redskins.</description>
     </item>
+    
   </channel>
 </rss>

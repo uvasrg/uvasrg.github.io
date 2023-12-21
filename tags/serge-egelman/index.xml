@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/serge-egelman/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/serge-egelman/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>USENIX Security Symposium 2019</title>
       <link>//uvasrg.github.io/usenix-security-symposium-2019/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/usenix-security-symposium-2019/</guid>
       <description>Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
 Summary by Lea Kissner:
@@ -20,12 +20,15 @@ Hey it&amp;#39;s the results! pic.twitter.com/ru1FbkESho
 &amp;mdash; Lea Kissner (@LeaKissner) August 17, 2019 Also, great to see several UVA folks at the conference including:
 Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.</description>
     </item>
+    
     <item>
       <title>Violations of Children’s Privacy Laws</title>
       <link>//uvasrg.github.io/violations-of-childrens-privacy-laws/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/violations-of-childrens-privacy-laws/</guid>
       <description>The New York Times has an article, How Game Apps That Captivate Kids Have Been Collecting Their Data about a lawsuit the state of New Mexico is bringing against app markets (including Google) that allow apps presented as being for children in the Play store to violate COPPA rules and mislead users into tracking children. The lawsuit stems from a study led by Serge Egleman’s group at UC Berkeley that analyzed COPPA violations in children’s apps.</description>
     </item>
+    
   </channel>
 </rss>

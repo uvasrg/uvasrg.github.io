@@ -7,31 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/categories/history/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/categories/history/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>De-Naming the Blog</title>
       <link>//uvasrg.github.io/de-naming-the-blog/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/de-naming-the-blog/</guid>
       <description>This blog was started in January 2008, a bit over eight years after I started as a professor at UVA and initiated the research group. It was named after Thomas Jefferson&amp;rsquo;s cipher wheel, which has long been (and remains) one of my favorite ways to introduce cryptography.
 Figuring out how to honor our history, including Jefferson&amp;rsquo;s founding of the University, and appreciate his ideals and enormous contributions, while confronting the reality of Jefferson as a slave owner and abuser, will be a challenge and responsibility for people above my administrative rank.</description>
     </item>
+    
     <item>
       <title>Cantor&#39;s (No Longer) Lost Proof</title>
       <link>//uvasrg.github.io/cantors-no-longer-lost-proof/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/cantors-no-longer-lost-proof/</guid>
       <description>In preparing to cover Cantor&amp;rsquo;s proof of different infinite set cardinalities (one of my all-time favorite topics!) in our theory of computation course, I found various conflicting accounts of what Cantor originally proved. So, I figured it would be easy to search the web to find the original proof.
 Shockingly, at least as far as I could find1, it didn&amp;rsquo;t exist on the web! The closest I could find was in Google Books the 1892 volume of the Jähresbericht Deutsche Mathematiker-Vereinigung (which many of the references pointed to), but in fact not the first value of that journal which contains the actual proof.</description>
     </item>
+    
     <item>
       <title>Older Posts</title>
       <link>//uvasrg.github.io/older-posts/</link>
       <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/older-posts/</guid>
       <description>Older posts have not been moved into this new blog, but are still available here:
 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 </description>
     </item>
+    
   </channel>
 </rss>

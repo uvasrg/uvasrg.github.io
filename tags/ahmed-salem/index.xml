@@ -7,14 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//uvasrg.github.io/tags/ahmed-salem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/ahmed-salem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning</title>
       <link>//uvasrg.github.io/sok-let-the-privacy-games-begin-a-unified-treatment-of-data-inference-privacy-in-machine-learning/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
       <guid>//uvasrg.github.io/sok-let-the-privacy-games-begin-a-unified-treatment-of-data-inference-privacy-in-machine-learning/</guid>
       <description>Our paper on the use of cryptographic-style games to model inference privacy is published in IEEE Symposium on Security and Privacy (Oakland):</description>
     </item>
+    
   </channel>
 </rss>
