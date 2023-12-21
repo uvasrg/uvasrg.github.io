@@ -6,23 +6,23 @@ categories = ["papers"]
 tags = ["Fnu Suya", "Anshuman Suri", "Tingwei Zhang", "Jingtao Hong", "Yuan Tian", "David Evans", "SaTML", "adversarial machine learning", "black-box adversarial attacks", "systemization of knowledge"]
 +++
 
-Numerous works study black-box attacks on image classifiers, where adversaries generate adversarial examples against unknown target models without having access to their internal information. However, our survey of over 164 attacks (published in 102 major security and machine learning conferences) shows how these works make different assumptions about the adversary’s knowledge. The current literature lacks cohesive organization centered around the threat model.
+Numerous works study black-box attacks on image classifiers, where adversaries generate adversarial examples against unknown target models without having access to their internal information. However, our survey of over 164 attacks (published in 102 major security, machine learning and security conferences) shows how these works make different assumptions about the adversary’s knowledge. The current literature lacks cohesive organization centered around the threat model.
 
 ### Proposed Taxonomy
 
 With the surveyed attacks, we propose a new attack taxonomy organized around the threat model assumptions of an attack, using four separate dimensions to categorize assumptions made by each attack.
 
-- **Query Access**: Under *no interactive access*, there is no opportunity to query the target model interactively (e.g., transfer attacks). With *interactive access*, the adversary can interactively query the target model and adjust subsequent queries by leveraging its history of queries (e.g., query-based attacks).
+- **Query Access**: Denotes the type of interactive access to the target model. Under *no interactive access*, there is no opportunity to query the target model interactively (e.g., transfer attacks). With *interactive access*, the adversary can interactively query the target model and adjust subsequent queries by leveraging its history of queries (e.g., query-based attacks).
 
 -  **API Feedback**: Based on how much information the target model's API returns, the threat model can be categorized into *hard-Label* (only label returned by API),  *top-K* (confidence scores for top-K predictions), or *complete confidence vector* (all confidence scores returned).
 
-- **Quality of Initial Auxiliary Data**: Note that we capture overlap via distributional similarity, in either feature space (same/similar samples used) or the label space. *No Overlap* is closest to real-world APIs, where knowledge about the target model’s training data is obfuscated and often proprietary. *Partial Overlap* captures scenarios where the training data of the target model includes some publicly available datasets. *Complete Overlap* occurs where auxiliary data is identical (same dataset, or same underlying distribution) to the target model’s training data.
+- **Quality of Initial Auxiliary Data**: Denotes the overlap between the auxiliary data available to the attacker and the training data of the target model. We capture overlap via distributional similarity, in either feature space (same/similar samples used) or the label space. *No Overlap* is closest to real-world APIs, where knowledge about the target model’s training data is obfuscated and often proprietary. *Partial Overlap* captures scenarios where the training data of the target model includes some publicly available datasets. *Complete Overlap* occurs where auxiliary data is identical (same dataset, or same underlying distribution) to the target model’s training data.
 
-- **Quantity of Auxiliary Data**: Quantity here is subjective and domain/task dependent, meant to capture the quantity required to train sufficiently accurate surrogate models. Threat models can thus be categorized into *not sufficient* and *sufficient*.
+- **Quantity of Auxiliary Data**: Quantity here is subjective and domain/task dependent, meant to capture the quantity required to train sufficiently accurate/well-performing surrogate models. Threat models can thus be categorized into *not sufficient* and *sufficient*.
 
 ### Insights from Taxonomy
 
-Our taxonomy highlights technical challenges in underexplored areas, especially where ample data is available but with limited overlap with the target model’s data distribution. This scenario is highly relevant in practice. Additionally, we found that only one attack explicitly optimizes for top-k prediction scores, a common scenario in API attacks. These gaps suggest both a knowledge and a technical gap, with substantial room for improving attacks in these settings.
+Our taxonomy, shown below in the table [maybe we can take a screenshot of the paper and attach below?], highlights technical challenges in underexplored areas, especially where ample data is available but with limited overlap with the target model’s data distribution. This scenario is highly relevant in practice. Additionally, we found that only one attack explicitly optimizes for top-k prediction scores, a common scenario in API attacks. These gaps suggest both a knowledge and a technical gap, with substantial room for improving attacks in these settings.
 
 <center>
 <a href="/images/blackboxsok2024/topk_comparison.png"><img style="width: 65%" src="/images/blackboxsok2024/topk_comparison.png" alt="Performance of top-k attacks across queries"/></a>
@@ -31,7 +31,7 @@ Our taxonomy highlights technical challenges in underexplored areas, especially 
 Comparison of top-k attacks. Square: top-k is our proposed adaption of the Square Attack for the top-k setting. NES: top-k is the current state-of-the-art attack. SignFlip is a more restrictive hard-label attack.
 </div>
 
-Our new top-k adaptation demonstrates a significant improvement in performance over existing methods. We encourage readers to delve into the full paper for a comprehensive understanding of these advancements.
+Our new top-k adaptation demonstrates a significant improvement in performance over existing baseline in top-K setting, but yet still fail to outperform more restrictive hard-label attack in some settings, highlighting the need for further investigation. We encourage readers to delve into the full paper for a comprehensive understanding of these advancements.
 
 ### Rethinking baseline comparisons
 
@@ -48,7 +48,7 @@ For other intriguing experiments and insights, we highly encourage readers to de
 
 ### Takeaways
 
-The paper underscores a multitude of unexplored settings in the field of black-box adversarial attacks, particularly emphasizing the significance of meticulous evaluation and experimentation. A key insight is the existence of numerous potential threat models that haven't been fully investigated, suggesting both a knowledge and a technical gap in current research. This scenario becomes even more pertinent considering the rapid evolution and increasing complexity of adversarial attack strategies. Furthermore, the paper highlights the importance of carefully designing evaluations to reflect realistic adversarial objectives and constraints. These findings point to an urgent need for more comprehensive and nuanced approaches to understanding and mitigating black-box attacks in machine learning.
+The paper underscores a multitude of unexplored settings in the field of black-box adversarial attacks, particularly emphasizing the significance of meticulous evaluation and experimentation. A key insight is the existence of numerous potential threat models that haven't been fully investigated, suggesting both a knowledge and a technical gap in current research. This scenario becomes even more pertinent considering the rapid evolution and increasing complexity of attack strategies. Furthermore, the paper highlights the importance of carefully designing evaluations to reflect realistic adversarial objectives and constraints. These findings point to an urgent need for more comprehensive and nuanced approaches to understanding and mitigating black-box attacks in real-world scenarios.
 
 ### Paper
 
