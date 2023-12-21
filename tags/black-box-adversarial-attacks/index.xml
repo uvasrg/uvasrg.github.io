@@ -16,7 +16,7 @@
       <guid>//uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/</guid>
       <description>Post by Anshuman Suri and Fnu Suya
 Much research has studied black-box attacks on image classifiers, where adversaries generate adversarial examples against unknown target models without having access to their internal information. Our analysis of over 164 attacks (published in 102 major security, machine learning and security conferences) shows how these works make different assumptions about the adversary’s knowledge.
-The current literature lacks cohesive organization centered around the threat model. Our SoK paper (to appear at IEEE SaTML 2023) introduces a taxonomy for systematizing these attacks and demonstrates the importance of careful evaluations that consider adversary resources and threat models.</description>
+The current literature lacks cohesive organization centered around the threat model. Our SoK paper (to appear at IEEE SaTML 2024) introduces a taxonomy for systematizing these attacks and demonstrates the importance of careful evaluations that consider adversary resources and threat models.</description>
     </item>
     
   </channel>
