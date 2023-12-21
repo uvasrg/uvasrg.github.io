@@ -17,7 +17,7 @@ different assumptions about the adversary’s knowledge.
 
 The current literature lacks cohesive organization centered around the
 threat model. Our [SoK paper](https://arxiv.org/abs/2310.17534) (to
-appear at [IEEE SaTML 2023](https://satml.org/)) introduces a taxonomy
+appear at [IEEE SaTML 2024](https://satml.org/)) introduces a taxonomy
 for systematizing these attacks and demonstrates the importance of
 careful evaluations that consider adversary resources and threat
 models.
