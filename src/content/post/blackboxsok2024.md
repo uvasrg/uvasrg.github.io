@@ -57,7 +57,7 @@ Our new top-_k_ adaptation (figure below) demonstrates a significant improvement
 Comparison of top-_k_ attacks. Square: top-_k_ is our proposed adaption of the Square Attack for the top-_k_ setting. NES: top-_k_ is the current state-of-the-art attack. SignFlip is a more restrictive hard-label attack.
 </div>
 
-See the full paper for details on how the attacks were adapted.
+See the [full paper](https://arxiv.org/abs/2310.17534) for details on how the attacks were adapted.
 
 ### Rethinking baseline comparisons
 
