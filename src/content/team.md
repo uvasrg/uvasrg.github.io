@@ -20,10 +20,11 @@
 </div>
 </center>
 
-<center> <a href="/images/srglunch-2024-02-29.jpg"><img src="/images/srglunch-2024-02-29.jpg" alt="SRG lunch"
-width=98%></a></br> <b>Security Research Group Leap Day Lunch</b> <font size="-1">(29&nbsp;February&nbsp;2024)</font><br> <div
+<p></p><center> <a href="/images/srglunch-2024-02-29.jpg"><img src="/images/srglunch-2024-02-29.jpg" alt="SRG lunch"
+width=98%></a></br> <b>Security Research Group Leap Day Lunch</b> <font size="-1">(29&nbsp;February&nbsp;2024)</font><br> <center><div
 class="smallcaption"><a href="https://www.anshumansuri.me/">Anshuman&nbsp;Suri</a>, <a href="https://archit31uniyal.github.io/">Archit&nbsp;Uniyal</a>,
-<a href="https://elena6918.github.io/">Minjun&nbsp;Long</a>, Michael Jerge, <a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>, <a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a></font> </center>
+<a href="https://elena6918.github.io/">Minjun&nbsp;Long</a>, Michael Jerge, <a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>, <a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a></font></center>
+<p></p>
 
 # <center>Undergraduate Researchers</center>
 
