@@ -46,30 +46,10 @@
 	    </div>
 	    <div class="title-bar-right pull-right">
 	      {{ block "title-bar-right" . }}
+        <p class="groupstyle">Security and Privacy Research</br>at the University of Virginia</p>
 	      {{ end }}
 	    </div>
 	  </div>
-	    
-	  <!-- The top bar is used for medium and up.  -->
-	    <div class="top-bar" id="site-menu" >	      
-	      <div class="top-bar-title show-for-medium site-title">
-		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-	      </div>
-	      <div class="top-bar-left">
-		<ul class="menu vertical medium-horizontal">
-		  {{ $currentNode := . }}
-		  {{ range .Site.Menus.main }}
-		  <li><a href="{{.URL}}">{{ .Name }}</a></li>
-		  {{ end }}
-		</ul>
-	      </div>
-	      <div class="top-bar-right show-for-medium">
-		{{ block "top-bar-right" . }}
-	         <p class="groupstyle">Security and Privacy Research</br>at the University of Virginia</p>
-		{{ end }}
-	      </div>
-	    </div>
-	  <!-- /div-->
 	</nav>
       {{ end }}
     </header>
