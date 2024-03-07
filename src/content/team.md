@@ -321,20 +321,16 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
 
-# Researcher
-
-
-   <div class="hanging">
-<b><a href="https://www.linkedin.com/in/pragun-ananda/">Pragun Ananda</a></b><br>Undergraduate Researcher, Summer 2020 &ndash; Fall 2020<br><div class="hanging">natural language processing<br></div>   </div>
-
-# 
-
-
 # Researchers
 
 
    <div class="hanging">
 <b>Corey Ames</b><br>Undergraduate Researcher, 2014 &ndash; 2015<br>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Pragun Ananda</b><br>Undergraduate Researcher, Summer 2020 &ndash; Fall 2020<br><div class="hanging">natural language processing<br></div>   </div>
 
 # 
 
