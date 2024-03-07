@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.118.2">
+	<meta name="generator" content="Hugo 0.121.1">
     <meta charset="utf-8">
     <title>Security Research Group</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -559,6 +559,24 @@
         
     
         
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -577,21 +595,17 @@ href="https://teams.microsoft.com/l/team/19%3aWdkw2xYq6taXh-0OftqQdt8SQ2vyvUI_Z0
 <em>@virginia.edu</em> email address can join themsleves; others should <a href="mailto:evans@virginia.edu">email me</a> to request an invitation). </p> </div></p>
 <div class="column small-10 medium-6">
 <center> <a
-href="/images/srg-lunch-2022-08-22.png"><img
-src="/images/srg-lunch-2022-08-22-small.png" alt="SRG lunch"
-width=98%></a></br> <b>Security Research Group Lunch</b> <font
-size="-1">(22&nbsp;August&nbsp;2022)</font><br> <div
+href="/images/srglunch-2024-02-29.jpg"><img
+src="/images/srglunch-2024-02-29.png" alt="SRG lunch"
+width=98%></a></br> <b>Security Research Group Leap Day Lunch</b> <font
+size="-1">(29&nbsp;February&nbsp;2024)</font><br> <div
 class="smallcaption">
-<a href="https://bargavjayaraman.github.io/">Bargav&nbsp;Jayaraman</a>,
-<a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a>,
-<a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>,
-<A href="https://www.linkedin.com/in/minjun-elena-long-06a283173/">Elena&nbsp;Long</a>,
-Yanjin&nbsp;Chen,<br>
-<a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee&nbsp;Zahur</a>&nbsp;(PhD&nbsp;2016),
 <a href="https://www.anshumansuri.me/">Anshuman&nbsp;Suri</a>,
-<A href="https://fsuya.org/">Fnu&nbsp;Suya</a>,
-Tingwei&nbsp;Zhang,
-Scott&nbsp;Hong
+<a href="https://archit31uniyal.github.io/">Archit&nbsp;Uniyal</a>,
+<a href="https://elena6918.github.io/">Minjun&nbsp;Long</a>,
+Michael Jerge,
+<a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>,
+<a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a>
 </font> </center>
  </p> </div> </div>
 <div class="row">
@@ -621,6 +635,92 @@ Scott&nbsp;Hong
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/do-membership-inference-attacks-work-on-large-language-models/">Do Membership Inference Attacks Work on Large Language Models?</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2024-03-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">5 March 2024</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/inference-privacy">inference privacy</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/llms">LLMs</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/michael-duan">Michael Duan</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/niloofar-mireshghallah">Niloofar Mireshghallah</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/sewon-min">Sewon Min</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/weijia-shi">Weijia Shi</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/luke-zettlemoyer">Luke Zettlemoyer</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/yulia-tsvetkov">Yulia Tsvetkov</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/yejin-choi">Yejin Choi</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/hannaneh-hajishirzi">Hannaneh Hajishirzi</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <center>
+<img src="https://iamgroot42.github.io/mimir.github.io/static/images/logo.png" alt="" style="width:25%;height:25%;" class="center">
+<figcaption style="font-size: small;"><a href="http://github.com/iamgroot42/mimir">MIMIR</a> logo. Image credit: <a href="https://chat.openai.com/">GPT-4 + DALL-E</a>
+</figcaption>
+<p></p>
+<div class="column has-text-centered">
+  <div class="publication-links">
+  <span class="link-block">
+  <a href="https://arxiv.org/pdf/2402.07841.pdf" class="external-link button is-normal is-rounded is-dark">
+  <span class="icon">
+  <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+  <span class="link-block">
+                <a href="http://github.com/iamgroot42/mimir" class="external-link button is-normal is-rounded is-dark">
+                  <span>Code</span>
+                </a>
+              </span>
+ <span class="link-block">
+                  <a href="https://huggingface.co/datasets/iamgroot42/mimir"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-images"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+  </center>
+<p>Membership inference attacks (MIAs) attempt to predict whether a particular datapoint is a member of a target model&rsquo;s training data. Despite extensive research on traditional machine learning models, there has been limited work studying MIA on the pre-training data of large language models (LLMs).</p>
+<p>We perform a large-scale evaluation of MIAs over a suite of language models (LMs) trained on the Pile, ranging from 160M to 12B parameters. We find that MIAs barely outperform random guessing for most settings across varying LLM sizes and domains. Our further analyses reveal that this poor performance can be attributed to (1) the combination of a large dataset and few training iterations, and (2) an inherently fuzzy boundary between members and non-members.</p>
+<p>We identify specific settings where LLMs have been shown to be vulnerable to membership inference and show that the apparent success in such settings can be attributed to a distribution shift, such as when members and non-members are drawn from the seemingly identical domain but with different temporal ranges.</p>
+<p>For more, see <a href="https://iamgroot42.github.io/mimir.github.io/">https://iamgroot42.github.io/mimir.github.io/</a>.</p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/sok-pitfalls-in-evaluating-black-box-attacks/">SoK: Pitfalls in Evaluating Black-Box Attacks</a></h2>
@@ -1285,58 +1385,6 @@ Farzad Hassanzadeh (UVA Computer Science/ECE)</p>
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/sok-let-the-privacy-games-begin-a-unified-treatment-of-data-inference-privacy-in-machine-learning/">SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2023-05-26 00:00:00 &#43;0000 UTC" itemprop="datePublished">26 May 2023</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/ahmed-salem">Ahmed Salem</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/giovanni-cherubin">Giovanni Cherubin</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/boris-k%c3%b6pf">Boris Köpf</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/andrew-paverd">Andrew Paverd</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/shruti-tople">Shruti Tople</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/santiago-zanella-b%c3%a9guelin">Santiago Zanella-Béguelin</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/membership-inference">membership inference</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/inference-privacy">inference privacy</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>Our paper on the use of cryptographic-style games to model inference privacy is published in <a href="https://www.ieee-security.org/TC/SP2023/"><em>IEEE Symposium on Security and Privacy</em></a> (Oakland):</p>
-<blockquote>
-<a href="https://www.microsoft.com/en-us/research/people/t-salemahmed/>Ahmed Salem</a>, <a href="https://www.microsoft.com/en-us/research/people/gcherubin/">Giovanni Cherubin</a>, <a href="https://www.cs.virginia.edu/evans"/David Evans</a>, <a href="https://www.microsoft.com/en-us/research/people/bokoepf/">Boris Köpf</a>, <a href="https://www.microsoft.com/en-us/research/people/anpaverd/">Andrew Paverd</a>, <a href="https://www.anshumansuri.me/">Anshuman Suri</a>, <a href="https://www.microsoft.com/en-us/research/people/shtople/">Shruti Tople</a>, and <a href="https://www.microsoft.com/en-us/research/people/santiago/">Santiago Zanella-Béguelin</a>. <em>SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning</em>. IEEE Symposium on Security and Privacy, 2023. [<a href="https://arxiv.org/abs/2212.10986">Arxiv</a>]
-</blockquote>
-<h2 id="heading"></h2>
-<center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tired of diverse definitions of machine learning privacy risks? Curious about game-based definitions? In our paper, we present privacy games as a tool for describing and analyzing privacy risks in machine learning. Join us on May 22nd, 11 AM <a href="https://twitter.com/IEEESSP?ref_src=twsrc%5Etfw">@IEEESSP</a> &#39;23 <a href="https://t.co/NbRuTmHyd2">https://t.co/NbRuTmHyd2</a> <a href="https://t.co/CIzsT7UY4b">pic.twitter.com/CIzsT7UY4b</a></p>&mdash; ahmed salem (@AhmedGaSalem) <a href="https://twitter.com/AhmedGaSalem/status/1658210153341001736?ref_src=twsrc%5Etfw">May 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -1373,6 +1421,12 @@ Security Research Group
   <p>
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/do-membership-inference-attacks-work-on-large-language-models/">Do Membership Inference Attacks Work on Large Language Models?</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/sok-pitfalls-in-evaluating-black-box-attacks/">SoK: Pitfalls in Evaluating Black-Box Attacks</a>
@@ -1514,12 +1568,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/on-the-risks-of-distribution-inference/">On the Risks of Distribution Inference</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/chinese-translation-of-mpc-book/">Chinese Translation of MPC Book</a>
 
 
    </div>

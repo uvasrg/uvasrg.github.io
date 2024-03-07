@@ -7,41 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/large-language-models/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/large-language-models/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Voice of America interview on ChatGPT</title>
       <link>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</guid>
-      <description>I was interviewed for a Voice of America story (in Russian) on the impact of chatGPT and similar tools.
-Full story: https://youtu.be/dFuunAFX9y4</description>
+      <description>I was interviewed for a Voice of America story (in Russian) on the impact of chatGPT and similar tools.&#xA;Full story: https://youtu.be/dFuunAFX9y4</description>
     </item>
-    
     <item>
       <title>Uh-oh, there&#39;s a new way to poison code models</title>
       <link>//uvasrg.github.io/uh-oh-theres-a-new-way-to-poison-code-models/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/uh-oh-theres-a-new-way-to-poison-code-models/</guid>
-      <description>Jack Clark&amp;rsquo;s Import AI, 16 Jan 2023 includes a nice description of our work on TrojanPuzzle:
-####################################################
-Uh-oh, there&#39;s a new way to poison code models - and it&#39;s really hard to detect:
-…TROJANPUZZLE is a clever way to trick your code model into betraying you - if you can poison the undelrying dataset…
-Researchers with the University of California, Santa Barbara, Microsoft Corporation, and the University of Virginia have come up with some clever, subtle ways to poison the datasets used to train code models.</description>
+      <description>Jack Clark&amp;rsquo;s Import AI, 16 Jan 2023 includes a nice description of our work on TrojanPuzzle:&#xA;####################################################&#xA;Uh-oh, there&#39;s a new way to poison code models - and it&#39;s really hard to detect:&#xA;…TROJANPUZZLE is a clever way to trick your code model into betraying you - if you can poison the undelrying dataset…&#xA;Researchers with the University of California, Santa Barbara, Microsoft Corporation, and the University of Virginia have come up with some clever, subtle ways to poison the datasets used to train code models.</description>
     </item>
-    
     <item>
       <title>Trojan Puzzle attack trains AI assistants into suggesting malicious code</title>
       <link>//uvasrg.github.io/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/</guid>
-      <description>Bleeping Computer has a story on our work (in collaboration with Microsoft Research) on poisoning code suggestion models:
-Trojan Puzzle attack trains AI assistants into suggesting malicious code By Bill Toulas
-Researchers at the universities of California, Virginia, and Microsoft have devised a new poisoning attack that could trick AI-based coding assistants into suggesting dangerous code.
-Named &amp;lsquo;Trojan Puzzle,&amp;rsquo; the attack stands out for bypassing static detection and signature-based dataset cleansing models, resulting in the AI models being trained to learn how to reproduce dangerous payloads.</description>
+      <description>Bleeping Computer has a story on our work (in collaboration with Microsoft Research) on poisoning code suggestion models:&#xA;Trojan Puzzle attack trains AI assistants into suggesting malicious code By Bill Toulas&#xA;Researchers at the universities of California, Virginia, and Microsoft have devised a new poisoning attack that could trick AI-based coding assistants into suggesting dangerous code.&#xA;Named &amp;lsquo;Trojan Puzzle,&amp;rsquo; the attack stands out for bypassing static detection and signature-based dataset cleansing models, resulting in the AI models being trained to learn how to reproduce dangerous payloads.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,47 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/mainuddin-jonas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/mainuddin-jonas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research Symposium Posters</title>
       <link>//uvasrg.github.io/research-symposium-posters/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/research-symposium-posters/</guid>
-      <description>Five students from our group presented posters at the department&amp;rsquo;s Fall Research Symposium:
-Anshuman Suri&#39;s Overview Talk Bargav Jayaraman, Evaluating Differentially Private Machine Learning In Practice [</description>
+      <description>Five students from our group presented posters at the department&amp;rsquo;s Fall Research Symposium:&#xA;Anshuman Suri&#39;s Overview Talk Bargav Jayaraman, Evaluating Differentially Private Machine Learning In Practice [</description>
     </item>
-    
     <item>
       <title>Deep Fools</title>
       <link>//uvasrg.github.io/deep-fools/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/deep-fools/</guid>
-      <description>New Electronics has an article that includes my Deep Learning and Security Workshop talk: Deep fools, 21 January 2019.
-A better version of the image Mainuddin Jonas produced that they use (which they screenshot from the talk video) is below:</description>
+      <description>New Electronics has an article that includes my Deep Learning and Security Workshop talk: Deep fools, 21 January 2019.&#xA;A better version of the image Mainuddin Jonas produced that they use (which they screenshot from the talk video) is below:</description>
     </item>
-    
     <item>
       <title>Artificial intelligence: the new ghost in the machine</title>
       <link>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/artificial-intelligence-the-new-ghost-in-the-machine/</guid>
-      <description>Engineering and Technology Magazine (a publication of the British [Institution of Engineering and Technology]() has an article that highlights adversarial machine learning research: Artificial intelligence: the new ghost in the machine, 10 October 2018, by Chris Edwards.
-Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.</description>
+      <description>Engineering and Technology Magazine (a publication of the British [Institution of Engineering and Technology]() has an article that highlights adversarial machine learning research: Artificial intelligence: the new ghost in the machine, 10 October 2018, by Chris Edwards.&#xA;Although researchers such as David Evans of the University of Virginia see a full explanation being a little way off in the future, the massive number of parameters encoded by DNNs and the avoidance of overtraining due to SGD may have an answer to why the networks can hallucinate images and, as a result, see things that are not there and ignore those that are.</description>
     </item>
-    
     <item>
       <title>Wahoos at Oakland</title>
       <link>//uvasrg.github.io/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/wahoos-at-oakland/</guid>
-      <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!
-Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu
-## Poster Session Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF] Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using Internal Layers [PDF] </description>
+      <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!&#xA;Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu&#xA;## Poster Session Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF] Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using Internal Layers [PDF] </description>
     </item>
-    
   </channel>
 </rss>

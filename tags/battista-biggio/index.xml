@@ -7,16 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/battista-biggio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/battista-biggio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lessons from the Last 3000 Years of Adversarial Examples</title>
       <link>//uvasrg.github.io/lessons-from-the-last-3000-years-of-adversarial-examples/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/lessons-from-the-last-3000-years-of-adversarial-examples/</guid>
-      <description>I spoke on Lessons from the Last 3000 Years of Adversarial Examples at Huawei’s Strategy and Technology Workshop in Shenzhen, China, 15 May 2018. We also got to tour Huawei&amp;#8217;s new research and development campus, under construction about 40 minutes from Shenzhen. It is pretty close to Disneyland, with its own railroad and villages themed after different European cities (Paris, Bologna, etc.).
-Huawei&amp;#8217;s New Research and Development Campus [More Pictures]</description>
+      <description>I spoke on Lessons from the Last 3000 Years of Adversarial Examples at Huawei’s Strategy and Technology Workshop in Shenzhen, China, 15 May 2018. We also got to tour Huawei&amp;#8217;s new research and development campus, under construction about 40 minutes from Shenzhen. It is pretty close to Disneyland, with its own railroad and villages themed after different European cities (Paris, Bologna, etc.).&#xA;Huawei&amp;#8217;s New Research and Development Campus [More Pictures]</description>
     </item>
-    
   </channel>
 </rss>

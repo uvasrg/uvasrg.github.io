@@ -7,17 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CVPR 2023: Manipulating Transfer Learning for Property Inference</title>
       <link>//uvasrg.github.io/cvpr-2023-manipulating-transfer-learning-for-property-inference/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/cvpr-2023-manipulating-transfer-learning-for-property-inference/</guid>
-      <description>Manipulating Transfer Learning for Property Inference Transfer learning is a popular method to train deep learning models efficiently. By reusing parameters from upstream pre-trained models, the downstream trainer can use fewer computing resources to train downstream models, compared to training models from scratch.
-The figure below shows the typical process of transfer learning for vision tasks:
-However, the nature of transfer learning can be exploited by a malicious upstream trainer, leading to severe risks to the downstream trainer.</description>
+      <description>Manipulating Transfer Learning for Property Inference Transfer learning is a popular method to train deep learning models efficiently. By reusing parameters from upstream pre-trained models, the downstream trainer can use fewer computing resources to train downstream models, compared to training models from scratch.&#xA;The figure below shows the typical process of transfer learning for vision tasks:&#xA;However, the nature of transfer learning can be exploited by a malicious upstream trainer, leading to severe risks to the downstream trainer.</description>
     </item>
-    
   </channel>
 </rss>

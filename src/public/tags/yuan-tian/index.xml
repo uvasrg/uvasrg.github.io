@@ -7,64 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/yuan-tian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/yuan-tian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SoK: Pitfalls in Evaluating Black-Box Attacks</title>
       <link>//uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/</guid>
-      <description>Post by Anshuman Suri and Fnu Suya
-Much research has studied black-box attacks on image classifiers, where adversaries generate adversarial examples against unknown target models without having access to their internal information. Our analysis of over 164 attacks (published in 102 major security, machine learning and security conferences) shows how these works make different assumptions about the adversary’s knowledge.
-The current literature lacks cohesive organization centered around the threat model. Our SoK paper (to appear at IEEE SaTML 2024) introduces a taxonomy for systematizing these attacks and demonstrates the importance of careful evaluations that consider adversary resources and threat models.</description>
+      <description>Post by Anshuman Suri and Fnu Suya&#xA;Much research has studied black-box attacks on image classifiers, where adversaries generate adversarial examples against unknown target models without having access to their internal information. Our analysis of over 164 attacks (published in 102 major security, machine learning and security conferences) shows how these works make different assumptions about the adversary’s knowledge.&#xA;The current literature lacks cohesive organization centered around the threat model. Our SoK paper (to appear at IEEE SaTML 2024) introduces a taxonomy for systematizing these attacks and demonstrates the importance of careful evaluations that consider adversary resources and threat models.</description>
     </item>
-    
     <item>
       <title>Model-Targeted Poisoning Attacks with Provable Convergence</title>
       <link>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</guid>
-      <description>(Post by Sean Miller, using images adapted from Suya&amp;rsquo;s talk slides)
-Data Poisoning Attacks Machine learning models are often trained using data from untrusted sources, leaving them open to poisoning attacks where adversaries use their control over a small fraction of that training data to poison the model in a particular way.
-Most work on poisoning attacks is directly driven by an attacker&amp;rsquo;s objective, where the adversary chooses poisoning points that maximize some target objective.</description>
+      <description>(Post by Sean Miller, using images adapted from Suya&amp;rsquo;s talk slides)&#xA;Data Poisoning Attacks Machine learning models are often trained using data from untrusted sources, leaving them open to poisoning attacks where adversaries use their control over a small fraction of that training data to poison the model in a particular way.&#xA;Most work on poisoning attacks is directly driven by an attacker&amp;rsquo;s objective, where the adversary chooses poisoning points that maximize some target objective.</description>
     </item>
-    
     <item>
       <title>Hybrid Batch Attacks at USENIX Security 2020</title>
       <link>//uvasrg.github.io/hybrid-batch-attacks-at-usenix-security-2020/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/hybrid-batch-attacks-at-usenix-security-2020/</guid>
-      <description>Here&amp;rsquo;s the video for Suya&amp;rsquo;s presentation on Hybrid Batch Attacks at USENIX Security 2020:
-Download Video [mp4]
-Blog Post
-Paper: [PDF] [arXiv]</description>
+      <description>Here&amp;rsquo;s the video for Suya&amp;rsquo;s presentation on Hybrid Batch Attacks at USENIX Security 2020:&#xA;Download Video [mp4]&#xA;Blog Post&#xA;Paper: [PDF] [arXiv]</description>
     </item>
-    
     <item>
       <title>USENIX Security 2020: Hybrid Batch Attacks</title>
       <link>//uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/</guid>
-      <description>New: Video Presentation
-Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.
-Existing black-box attacks can be grouped into two main categories:
-Transfer Attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model.
-Optimization Attacks use queries to the target model and apply optimization techniques to search for adversarial examples.</description>
+      <description>New: Video Presentation&#xA;Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.&#xA;Existing black-box attacks can be grouped into two main categories:&#xA;Transfer Attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model.&#xA;Optimization Attacks use queries to the target model and apply optimization techniques to search for adversarial examples.</description>
     </item>
-    
     <item>
       <title>Wahoos at Oakland</title>
       <link>//uvasrg.github.io/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/wahoos-at-oakland/</guid>
-      <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!
-Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu
-## Poster Session Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF] Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using Internal Layers [PDF] </description>
+      <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!&#xA;Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu&#xA;## Poster Session Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF] Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using Internal Layers [PDF] </description>
     </item>
-    
   </channel>
 </rss>

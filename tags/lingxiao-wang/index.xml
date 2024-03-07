@@ -7,16 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/lingxiao-wang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/lingxiao-wang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Merlin, Morgan, and the Importance of Thresholds and Priors</title>
       <link>//uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/merlin-morgan-and-the-importance-of-thresholds-and-priors/</guid>
-      <description>Post by Katherine Knipmeyer
-Machine learning poses a substantial risk that adversaries will be able to discover information that the model does not intend to reveal. One set of methods by which consumers can learn this sensitive information, known broadly as membership inference attacks, predicts whether or not a query record belongs to the training set. A basic membership inference attack involves an attacker with a given record and black-box access to a model who tries to determine whether said record was a member of the model’s training set.</description>
+      <description>Post by Katherine Knipmeyer&#xA;Machine learning poses a substantial risk that adversaries will be able to discover information that the model does not intend to reveal. One set of methods by which consumers can learn this sensitive information, known broadly as membership inference attacks, predicts whether or not a query record belongs to the training set. A basic membership inference attack involves an attacker with a given record and black-box access to a model who tries to determine whether said record was a member of the model’s training set.</description>
     </item>
-    
   </channel>
 </rss>

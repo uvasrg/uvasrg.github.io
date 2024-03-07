@@ -30,21 +30,17 @@ href="https://teams.microsoft.com/l/team/19%3aWdkw2xYq6taXh-0OftqQdt8SQ2vyvUI_Z0
 <div class="column small-10 medium-6">
 
 <center> <a
-href="/images/srg-lunch-2022-08-22.png"><img
-src="/images/srg-lunch-2022-08-22-small.png" alt="SRG lunch"
-width=98%></a></br> <b>Security Research Group Lunch</b> <font
-size="-1">(22&nbsp;August&nbsp;2022)</font><br> <div
+href="/images/srglunch-2024-02-29.jpg"><img
+src="/images/srglunch-2024-02-29.png" alt="SRG lunch"
+width=98%></a></br> <b>Security Research Group Leap Day Lunch</b> <font
+size="-1">(29&nbsp;February&nbsp;2024)</font><br> <div
 class="smallcaption">
-<a href="https://bargavjayaraman.github.io/">Bargav&nbsp;Jayaraman</a>,
-<a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a>,
-<a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>,
-<A href="https://www.linkedin.com/in/minjun-elena-long-06a283173/">Elena&nbsp;Long</a>,
-Yanjin&nbsp;Chen,<br>
-<a href="https://web.archive.org/web/20190909071143/http://www.cs.virginia.edu:80/~sza4uq/">Samee&nbsp;Zahur</a>&nbsp;(PhD&nbsp;2016),
 <a href="https://www.anshumansuri.me/">Anshuman&nbsp;Suri</a>,
-<A href="https://fsuya.org/">Fnu&nbsp;Suya</a>,
-Tingwei&nbsp;Zhang,
-Scott&nbsp;Hong
+<a href="https://archit31uniyal.github.io/">Archit&nbsp;Uniyal</a>,
+<a href="https://elena6918.github.io/">Minjun&nbsp;Long</a>,
+Michael Jerge,
+<a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>,
+<a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a>
 </font> </center>
  </p> </div> </div>
 

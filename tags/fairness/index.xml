@@ -7,28 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/fairness/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/fairness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algorithmic Accountability and the Law</title>
       <link>//uvasrg.github.io/algorithmic-accountability-and-the-law/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/algorithmic-accountability-and-the-law/</guid>
-      <description>Brink News (a publication of The Atlantic) published an essay I co-authored with Tom Nachbar (UVA Law School) on how the law views algorithmic accountability and the limits of what measures are permitted under the law to adjust algorithms to counter inequity:
-Algorithms Are Running Foul of Anti-Discrimination Law
-Tom Nachbar and David Evans
-Brink, 7 December 2020 Computing systems that are found to discriminate on prohibited bases, such as race or sex, are no longer surprising.</description>
+      <description>Brink News (a publication of The Atlantic) published an essay I co-authored with Tom Nachbar (UVA Law School) on how the law views algorithmic accountability and the limits of what measures are permitted under the law to adjust algorithms to counter inequity:&#xA;Algorithms Are Running Foul of Anti-Discrimination Law&#xA;Tom Nachbar and David Evans&#xA;Brink, 7 December 2020 Computing systems that are found to discriminate on prohibited bases, such as race or sex, are no longer surprising.</description>
     </item>
-    
     <item>
       <title>Brink Essay: AI Systems Are Complex and Fragile. Here Are Four Key Risks to Understand.</title>
       <link>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
-      <description>Brink News (a publication of The Atlantic) published my essay on the risks of deploying AI systems.
-Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.</description>
+      <description>Brink News (a publication of The Atlantic) published my essay on the risks of deploying AI systems.&#xA;Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.</description>
     </item>
-    
   </channel>
 </rss>

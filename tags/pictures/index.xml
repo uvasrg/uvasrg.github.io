@@ -7,17 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 29 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/pictures/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 May 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/pictures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wahoos at Oakland</title>
       <link>//uvasrg.github.io/wahoos-at-oakland/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/wahoos-at-oakland/</guid>
-      <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!
-Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu
-## Poster Session Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF] Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using Internal Layers [PDF] </description>
+      <description>UVA Group Dinner at IEEE Security and Privacy 2018 Including our newest faculty member, Yongwhi Kwon, joining UVA in Fall 2018!&#xA;Yuan Tian, Fnu Suya, Mainuddin Jonas, Yongwhi Kwon, David Evans, Weihang Wang, Aihua&amp;nbsp;Chen,&amp;nbsp;Weilin&amp;nbsp;Xu&#xA;## Poster Session Fnu Suya (with Yuan Tian and David Evans), Adversaries Don’t Care About Averages: Batch Attacks on Black-Box Classifiers [PDF] Mainuddin Jonas (with David Evans), Enhancing Adversarial Example Defenses Using Internal Layers [PDF] </description>
     </item>
-    
   </channel>
 </rss>

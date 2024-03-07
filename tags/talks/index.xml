@@ -7,27 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 07 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Can Machine Learning Ever Be Trustworthy?</title>
       <link>//uvasrg.github.io/can-machine-learning-ever-be-trustworthy/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/can-machine-learning-ever-be-trustworthy/</guid>
-      <description>I gave the Booz Allen Hamilton Distinguished Colloquium at the University of Maryland on Can Machine Learning Ever Be Trustworthy?.
-[Video](https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650) &amp;middot; [SpeakerDeck](https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy) Abstract Machine learning has produced extraordinary results over the past few years, and machine learning systems are rapidly being deployed for critical tasks, even in adversarial environments. This talk will survey some of the reasons building trustworthy machine learning systems is inherently impossible, and dive into some recent research on adversarial examples.</description>
+      <description>I gave the Booz Allen Hamilton Distinguished Colloquium at the University of Maryland on Can Machine Learning Ever Be Trustworthy?.&#xA;[Video](https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650) &amp;middot; [SpeakerDeck](https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy) Abstract Machine learning has produced extraordinary results over the past few years, and machine learning systems are rapidly being deployed for critical tasks, even in adversarial environments. This talk will survey some of the reasons building trustworthy machine learning systems is inherently impossible, and dive into some recent research on adversarial examples.</description>
     </item>
-    
     <item>
       <title>DLS Keynote: Is &#39;adversarial examples&#39; an Adversarial Example?</title>
       <link>//uvasrg.github.io/dls-keynote-is-adversarial-examples-an-adversarial-example/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/dls-keynote-is-adversarial-examples-an-adversarial-example/</guid>
-      <description>I gave a keynote talk at the 1st Deep Learning and Security Workshop (co-located with the 39th IEEE Symposium on Security and Privacy). San Francisco, California. 24 May 2018
-Abstract
-Over the past few years, there has been an explosion of research in security of machine learning and on adversarial examples in particular. Although this is in many ways a new and immature research area, the general problem of adversarial examples has been a core problem in information security for thousands of years.</description>
+      <description>I gave a keynote talk at the 1st Deep Learning and Security Workshop (co-located with the 39th IEEE Symposium on Security and Privacy). San Francisco, California. 24 May 2018&#xA;Abstract&#xA;Over the past few years, there has been an explosion of research in security of machine learning and on adversarial examples in particular. Although this is in many ways a new and immature research area, the general problem of adversarial examples has been a core problem in information security for thousands of years.</description>
     </item>
-    
   </channel>
 </rss>

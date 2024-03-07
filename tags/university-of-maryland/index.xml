@@ -7,16 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 07 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/university-of-maryland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/university-of-maryland/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Can Machine Learning Ever Be Trustworthy?</title>
       <link>//uvasrg.github.io/can-machine-learning-ever-be-trustworthy/</link>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/can-machine-learning-ever-be-trustworthy/</guid>
-      <description>I gave the Booz Allen Hamilton Distinguished Colloquium at the University of Maryland on Can Machine Learning Ever Be Trustworthy?.
-[Video](https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650) &amp;middot; [SpeakerDeck](https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy) Abstract Machine learning has produced extraordinary results over the past few years, and machine learning systems are rapidly being deployed for critical tasks, even in adversarial environments. This talk will survey some of the reasons building trustworthy machine learning systems is inherently impossible, and dive into some recent research on adversarial examples.</description>
+      <description>I gave the Booz Allen Hamilton Distinguished Colloquium at the University of Maryland on Can Machine Learning Ever Be Trustworthy?.&#xA;[Video](https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650) &amp;middot; [SpeakerDeck](https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy) Abstract Machine learning has produced extraordinary results over the past few years, and machine learning systems are rapidly being deployed for critical tasks, even in adversarial environments. This talk will survey some of the reasons building trustworthy machine learning systems is inherently impossible, and dive into some recent research on adversarial examples.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,16 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="//uvasrg.github.io/tags/acl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/acl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pointwise Paraphrase Appraisal is Potentially Problematic</title>
       <link>//uvasrg.github.io/pointwise-paraphrase-appraisal-is-potentially-problematic/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>//uvasrg.github.io/pointwise-paraphrase-appraisal-is-potentially-problematic/</guid>
-      <description>Hannah Chen presented her paper on Pointwise Paraphrase Appraisal is Potentially Problematic at the ACL 2020 Student Research Workshop:
-The prevailing approach for training and evaluating paraphrase identification models is constructed as a binary classification problem: the model is given a pair of sentences, and is judged by how accurately it classifies pairs as either paraphrases or non-paraphrases. This pointwise-based evaluation method does not match well the objective of most real world applications, so the goal of our work is to understand how models which perform well under pointwise evaluation may fail in practice and find better methods for evaluating paraphrase identification models.</description>
+      <description>Hannah Chen presented her paper on Pointwise Paraphrase Appraisal is Potentially Problematic at the ACL 2020 Student Research Workshop:&#xA;The prevailing approach for training and evaluating paraphrase identification models is constructed as a binary classification problem: the model is given a pair of sentences, and is judged by how accurately it classifies pairs as either paraphrases or non-paraphrases. This pointwise-based evaluation method does not match well the objective of most real world applications, so the goal of our work is to understand how models which perform well under pointwise evaluation may fail in practice and find better methods for evaluating paraphrase identification models.</description>
     </item>
-    
   </channel>
 </rss>

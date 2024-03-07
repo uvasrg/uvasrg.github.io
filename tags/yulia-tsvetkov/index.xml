@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yulia Tsvetkov on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/yulia-tsvetkov/</link>
+    <description>Recent content in Yulia Tsvetkov on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/yulia-tsvetkov/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do Membership Inference Attacks Work on Large Language Models?</title>
+      <link>//uvasrg.github.io/do-membership-inference-attacks-work-on-large-language-models/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/do-membership-inference-attacks-work-on-large-language-models/</guid>
+      <description>MIMIR logo. Image credit: GPT-4 + DALL-E Paper Code Data Membership inference attacks (MIAs) attempt to predict whether a particular datapoint is a member of a target model&amp;rsquo;s training data. Despite extensive research on traditional machine learning models, there has been limited work studying MIA on the pre-training data of large language models (LLMs).&#xA;We perform a large-scale evaluation of MIAs over a suite of language models (LMs) trained on the Pile, ranging from 160M to 12B parameters.</description>
+    </item>
+  </channel>
+</rss>
