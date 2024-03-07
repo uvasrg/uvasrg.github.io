@@ -31,7 +31,7 @@ href="https://teams.microsoft.com/l/team/19%3aWdkw2xYq6taXh-0OftqQdt8SQ2vyvUI_Z0
 
 <center> <a
 href="/images/srglunch-2024-02-29.jpg"><img
-src="/images/srglunch-2024-02-29.png" alt="SRG lunch"
+src="/images/srglunch-2024-02-29.jpg" alt="SRG lunch"
 width=98%></a></br> <b>Security Research Group Leap Day Lunch</b> <font
 size="-1">(29&nbsp;February&nbsp;2024)</font><br> <div
 class="smallcaption">
