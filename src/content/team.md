@@ -245,6 +245,16 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
+<b><a href="https://darioncassel.me">Darion Cassel</a></b><br>2016 &ndash; 2017<br><div class="hanging">Carnegie Mellon University PhD 2023<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b><a href="http://jackdoerner.net/">Jack Doerner</a></b><br>2015 &ndash; 2016<br>BSCS 2015; Wizard of Oblivion<br><div class="hanging">Northeastern University PhD 2022<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b><a href="https://www.adrienneporterfelt.com/">Adriana Porter Felt</a></b><br>2006 &ndash; 2008<br><div class="hanging">UC Berkeley PhD 2012 (David Wagner)<br></div><a href=https://web.archive.org/web/20180313102555/http://www.cs.virginia.edu:80/felt/privacy/">privacy protection for social networking APIs</a>,  <a href="https://web.archive.org/web/20171226065929/http://www.cs.virginia.edu:80/felt/fbook/">mashup security issues</a><br> CRA Outstanding Undergraduate Award Finalist 2008, SEAS Outstanding Student Award 2008<br> <a href="https://www.technologyreview.com/innovator/adrienne-felt/">TR 35</a>, <a href="https://www.youtube.com/watch?v=29K7ldNlH6s">CRA Video</a>, USENIX Security PC Co-Chair 2018<br> Google<br>   </div>
 
 # 
@@ -296,22 +306,17 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
 
    <div class="hanging">
-<b><a href="https://darioncassel.me">Darion Cassel</a></b><br>2016 &ndash; 2017<br><div class="hanging">Carnegie Mellon University<br></div>   </div>
+<b>Yanjin Chen</b><br>Since Summer 2022<br><div class="hanging">inference privacy<br></div><div class="hanging">Princeton University (Bioinformatics)<br></div>   </div>
 
 # 
 
    <div class="hanging">
-<b><a href="http://jackdoerner.net/">Jack Doerner</a></b><br>2015 &ndash; 2016<br>BSCS 2015; Wizard of Oblivion<br><div class="hanging">Northeastern University<br></div>   </div>
+<b>Evan Rose</b><br>Since Summer 2021<br><div class="hanging">poisoning attacks<br></div><div class="hanging">Northeastern University<br></div>   </div>
 
 # 
 
    <div class="hanging">
-<b><a href="https://github.com/samuelhavron">Samuel Havron</a></b><br>2015 &ndash; 2017<br><div class="hanging">Cornell University<br></div>   </div>
-
-# 
-
-   <div class="hanging">
-<b><a href="https://github.com/lemons2lemonade">Matthew Wallace</a></b><br>2018 &ndash; 2019<br><div class="hanging">University of Wisconsin<br></div>   </div>
+<b>Tingwei Zhang</b><br>Since Summer 2022<br><div class="hanging">black-box attacks machine learning systems<br></div><div class="hanging">Cornell<br></div>   </div>
 
 # 
 
@@ -384,11 +389,6 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
-<b>Yanjin Chen</b><br>Undergraduate Researcher, Since Summer 2022<br><div class="hanging">inference privacy<br></div>   </div>
-
-# 
-
-   <div class="hanging">
 <b>Yikan Chen</b><br>Graduate Researcher, 2009 &ndash; 2011<br><div class="hanging"><a href="http://www.cs.virginia.edu/~evans/pubs/passat2011/">Auditing Information Leakage for Distance Metrics</a><br></div><div class="hanging">Amazon<br></div>   </div>
 
 # 
@@ -455,6 +455,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
    <div class="hanging">
 <b>Brittany Harris</b><br>Undergraduate Researcher, Summer 2011<br><div class="hanging">secure multi-party computation<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b><a href="https://havron.info/">Samuel Havron</a></b><br>Undergraduate Researcher, 2015 &ndash; 2017<br><div class="hanging">Cornell University<br></div>Meta<br>   </div>
 
 # 
 
@@ -554,7 +559,7 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
-<b>Yifu Lu</b><br>Undergraduate Researcher, Since Fall 2021<br><div class="hanging">inference privacy<br></div>   </div>
+<b>Yifu Lu</b><br>Undergraduate Researcher, Since Fall 2021<br><div class="hanging">inference privacy<br></div><div class="hanging">University of Michigan<br></div>   </div>
 
 # 
 
@@ -629,11 +634,6 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
-<b>Evan Rose</b><br>Undergraduate Researcher, Since Summer 2021<br><div class="hanging">poisoning attacks<br></div><div class="hanging">Northeastern University<br></div>   </div>
-
-# 
-
-   <div class="hanging">
 <b>Parvesh Samayamanthula</b><br>Visiting High School Student, Summer 2018<br><div class="hanging">adversarial NLP for privacy policies<br></div>   </div>
 
 # 
@@ -689,6 +689,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
+<b><a href="https://github.com/lemons2lemonade">Matthew Wallace</a></b><br>Undergraduate Researcher, 2018 &ndash; 2019<br><div class="hanging">University of Wisconsin MS 2021<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b>Brian Walter</b><br>Undergraduate Researcher, Summer 2015<br><div class="hanging">learning materials for <a href="https://picoctf.com/">PicoCTF</a> and beyond<br></div>   </div>
 
 # 
@@ -720,11 +725,6 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
    <div class="hanging">
 <b>Muzzammil Zaveri</b><br>Undergraduate Researcher, Summer 2010 &ndash; Spring 2011<br>BSCS 2011<br><div class="hanging">a secure web application framework<br></div>   </div>
-
-# 
-
-   <div class="hanging">
-<b>Tingwei Zhang</b><br>Undergraduate Researcher, Since Summer 2022<br><div class="hanging">black-box attacks machine learning systems<br></div><div class="hanging">Cornell<br></div>   </div>
 
 # 
 
