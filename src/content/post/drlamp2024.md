@@ -9,9 +9,11 @@ tags = ["Josephine Lamp", "privacy", "adversarial machine learning", "PhD defens
 
 <center>
 <img src="/images/lamp-defense.png" width="70%"><br>
+Tianhao Wang (Committee Chair), Miaomiao Zhang, Lu Feng (Co-Advisor), Dr. Josie Lamp, David Evans<br>
+On screen: Sula Mazimba, Rich Nguyen, Tingting Zhu <br>
+</center>
 
 Congratulations to [Josephine Lamp](https://www.josephinelamp.com/) for successfully defending her [PhD thesis](https://libraetd.lib.virginia.edu/public_view/pv63g149h)!
-</center>
 
 ##
 
