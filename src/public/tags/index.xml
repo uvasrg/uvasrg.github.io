@@ -7,13 +7,76 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>adversarial machine learning</title>
       <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
-      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anshuman Suri</title>
+      <link>//uvasrg.github.io/tags/anshuman-suri/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/anshuman-suri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>black-box adversarial attacks</title>
+      <link>//uvasrg.github.io/tags/black-box-adversarial-attacks/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/black-box-adversarial-attacks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>David Evans</title>
+      <link>//uvasrg.github.io/tags/david-evans/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/david-evans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fnu Suya</title>
+      <link>//uvasrg.github.io/tags/fnu-suya/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/fnu-suya/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jingtao Hong</title>
+      <link>//uvasrg.github.io/tags/jingtao-hong/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/jingtao-hong/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SaTML</title>
+      <link>//uvasrg.github.io/tags/satml/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/satml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>systemization of knowledge</title>
+      <link>//uvasrg.github.io/tags/systemization-of-knowledge/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/systemization-of-knowledge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tingwei Zhang</title>
+      <link>//uvasrg.github.io/tags/tingwei-zhang/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/tingwei-zhang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yuan Tian</title>
+      <link>//uvasrg.github.io/tags/yuan-tian/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/yuan-tian/</guid>
       <description></description>
     </item>
     <item>
@@ -35,13 +98,6 @@
       <link>//uvasrg.github.io/tags/privacy/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Anshuman Suri</title>
-      <link>//uvasrg.github.io/tags/anshuman-suri/</link>
-      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/anshuman-suri/</guid>
       <description></description>
     </item>
     <item>
@@ -126,62 +182,6 @@
       <link>//uvasrg.github.io/tags/yulia-tsvetkov/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/yulia-tsvetkov/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>black-box adversarial attacks</title>
-      <link>//uvasrg.github.io/tags/black-box-adversarial-attacks/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/black-box-adversarial-attacks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>David Evans</title>
-      <link>//uvasrg.github.io/tags/david-evans/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/david-evans/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fnu Suya</title>
-      <link>//uvasrg.github.io/tags/fnu-suya/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/fnu-suya/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jingtao Hong</title>
-      <link>//uvasrg.github.io/tags/jingtao-hong/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/jingtao-hong/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SaTML</title>
-      <link>//uvasrg.github.io/tags/satml/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/satml/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>systemization of knowledge</title>
-      <link>//uvasrg.github.io/tags/systemization-of-knowledge/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/systemization-of-knowledge/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tingwei Zhang</title>
-      <link>//uvasrg.github.io/tags/tingwei-zhang/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/tingwei-zhang/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Yuan Tian</title>
-      <link>//uvasrg.github.io/tags/yuan-tian/</link>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/yuan-tian/</guid>
       <description></description>
     </item>
     <item>

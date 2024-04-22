@@ -83,3 +83,9 @@ Fnu Suya*, Anshuman Suri*, Tingwei Zhang, Jingtao Hong, Yuan Tian, David Evans. 
 <sub>* Equal contribution</sub>
 
 Code: [https://github.com/iamgroot42/blackboxsok](https://github.com/iamgroot42/blackboxsok)
+
+### Talk at SaTML 2024
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ui4HMGe3aUs?si=M2A-uD77s4BdhXPR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
