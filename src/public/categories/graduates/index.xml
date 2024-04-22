@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/categories/graduates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Congratulations, Dr. Lamp!</title>
+      <link>//uvasrg.github.io/congratulations-dr.-lamp/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/congratulations-dr.-lamp/</guid>
+      <description>Congratulations to Josephine Lamp for successfully defending her PhD thesis!&#xA;Trustworthy Clinical Decision Support Systems for Medical Trajectories The explosion of medical sensors and wearable devices has resulted in the collection of large amounts of medical trajectories. Medical trajectories are time series that provide a nuanced look into patient conditions and their changes over time, allowing for a more fine-grained understanding of patient health. It is difficult for clinicians and patients to effectively make use of such high dimensional data, especially given the fact that there may be years or even decades worth of data per patient.</description>
+    </item>
     <item>
       <title>Congratulations, Dr. Suya!</title>
       <link>//uvasrg.github.io/congratulations-dr.-suya/</link>

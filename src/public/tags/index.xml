@@ -7,13 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>adversarial machine learning</title>
       <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
-      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Josephine Lamp</title>
+      <link>//uvasrg.github.io/tags/josephine-lamp/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/josephine-lamp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PhD defense</title>
+      <link>//uvasrg.github.io/tags/phd-defense/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/phd-defense/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>privacy</title>
+      <link>//uvasrg.github.io/tags/privacy/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
@@ -220,13 +241,6 @@
       <description></description>
     </item>
     <item>
-      <title>PhD defense</title>
-      <link>//uvasrg.github.io/tags/phd-defense/</link>
-      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/phd-defense/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>poisoning</title>
       <link>//uvasrg.github.io/tags/poisoning/</link>
       <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
@@ -427,13 +441,6 @@
       <link>//uvasrg.github.io/tags/microsoft/</link>
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/microsoft/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>privacy</title>
-      <link>//uvasrg.github.io/tags/privacy/</link>
-      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
