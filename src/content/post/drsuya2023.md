@@ -36,3 +36,7 @@ David Evans, Co-Advisor (UVA Computer Science)
 Yuan Tian, Co-Advisor (UCLA)  
 Cong Shen (UVA ECE)  
 Farzad Hassanzadeh (UVA Computer Science/ECE)
+
+#
+
+Dissertation in Libra: [_On the Limits of Data Poisoning Attacks_](https://libraetd.lib.virginia.edu/public_view/2j62s635c) 

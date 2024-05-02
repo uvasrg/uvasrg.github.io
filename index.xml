@@ -634,6 +634,13 @@
     </item>
     <item>
       <title></title>
+      <link>//uvasrg.github.io/poisoning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/poisoning/</guid>
+      <description>&lt;!doctype html&gt; Poisoning Attacks and Subpopulation Susceptibility An Experimental Exploration on the Effectiveness of Poisoning Attacks&#xA;Evan Rose University of Virginia Fnu Suya David Evans 5th Workshop on Visualization for AI Explainability VISxAI&#xA;21 September 2022&#xA;Class Separation α = 1.00 Random Label Fraction β = 0.00 Dataset seed Poisoning algorithm: Manual Label flip Model-targeted Label: Tool: Machine learning is susceptible to poisoning attacks in which adversaries inject maliciously crafted training data into the training set to induce specific model behavior.</description>
+    </item>
+    <item>
+      <title></title>
       <link>//uvasrg.github.io/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/privacy/</guid>
