@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/fnu-suya/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graduation 2024</title>
+      <link>//uvasrg.github.io/graduation-2024/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/graduation-2024/</guid>
+      <description> </description>
+    </item>
     <item>
       <title>SaTML Talk: SoK: Pitfalls in Evaluating Black-Box Attacks</title>
       <link>//uvasrg.github.io/satml-talk-sok-pitfalls-in-evaluating-black-box-attacks/</link>

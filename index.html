@@ -567,6 +567,10 @@
         
     
         
+    
+        
+    
+        
            <h1 id="centersecurity-and-privacy-research-at-the-university-of-virginiacenter"><center>Security and Privacy Research at the University of Virginia</center></h1>
 <p></p>
 <div class="row">
@@ -625,6 +629,55 @@ Michael Jerge,
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/graduation-2024/">Graduation 2024</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2024-05-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">29 May 2024</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/josephine-lamp">Josephine Lamp</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy">privacy</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/graudation">graudation</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <center>
+<a href="/images/graduation2024/PXL_20240517_175539174-fish.jpg""><img src="/images/graduation2024/PXL_20240517_175539174-fish.jpg" width="85%"></img></a>
+</center>
+<center>
+<h1 id="congratulations-to-our-two-phd-graduates">Congratulations to our two PhD graduates!</h1>
+</center>
+<p>Suya will be joining the University of Tennessee at Knoxville as an Assistant Professor.</p>
+<p>Josie will be building a medical analytics research group at Dexcom.</p>
+<center>
+<a href="/images/graduation2024/IMG_5973.png"><img src="/images/graduation2024/IMG_5973.png" width="85%"></img></a>
+</center>
+<h2 id="heading"></h2>
+<center>
+<a href="/images/graduation2024/IMG_5941.png"><img src="/images/graduation2024/IMG_5941.png" width="60%"></img></a>
+&nbsp;<a href="/images/graduation2024/IMG_5951.png"><img src="/images/graduation2024/IMG_5951.png" width="60%"></img></a>&nbsp;
+<a href="/images/graduation2024/IMG_5962.png"><img src="/images/graduation2024/IMG_5962.png" width="60%"></img></a>
+</center>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/satml-talk-sok-pitfalls-in-evaluating-black-box-attacks/">SaTML Talk: SoK: Pitfalls in Evaluating Black-Box Attacks</a></h2>
@@ -923,70 +976,6 @@ ASR (y-axis) for various targeted attacks on DenseNet201 models, varying across 
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/">NeurIPS 2023: What Distributions are Robust to Poisoning Attacks?</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2023-12-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">7 December 2023</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/xiao-zhang">Xiao Zhang</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/indiscriminate-poisoning-attacks">indiscriminate poisoning attacks</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/susceptibility-variation">susceptibility variation</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>Post by <strong><a href="https://fsuya.org/">Fnu Suya</a></strong></p>
-<p>Data poisoning attacks are recognized as a top concern in the industry <a href="https://arxiv.org/abs/2002.05646">[1]</a>. We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging <a href="https://arxiv.org/abs/2303.03592">[2]</a>. In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.</p>
-<h2 id="understanding-vulnerabilities-across-different-datasets">Understanding Vulnerabilities Across Different Datasets</h2>
-<p>We observed significant variations in the vulnerabilities of different datasets to poisoning attacks. Interestingly, certain datasets are robust against the best known attacks, even in the absence of any defensive measures.</p>
-<p>The figure below illustrates the error rates (both before and after poisoning) of various datasets when assessed using the current best attacks with a 3% poisoning ratio under linear SVM model.</p>
-<center>
-<a href="/images/poisondistribution2023/thumbnail.png"><img src="/images/poisondistribution2023/thumbnail.png" width="80%"></a>
-</center>
-<h2 id="heading"></h2>
-<p>Here, $\mathcal{S}_c$ represents the original training set (before poisoning), and $\mathcal{S}_c \cup \mathcal{S}_p$ represents the combination of the original clean training set and the poisoning set generated by the current best attacks (the poisoned model).  Different datasets exhibit widely varying vulnerability. For instance, datasets like MNIST 1-7 (with an error increase of &lt;3% at a 3% poisoning ratio) display resilience to current best attacks even without any defensive mechanisms. This leads to an important question: <em>Are datasets like MNIST 1-7 inherently robust to attacks, or are they merely resilient to current attack methods?</em></p>
-<h2 id="why-some-datasets-resist-poisoning">Why Some Datasets Resist Poisoning</h2>
-<p>To address this question, we conducted a series of theoretical analyses. Our findings indicate that ditributions, which are characterized by high class-wise separability (Sep) and low in-class variance (SD), as well as smaller sizes for the set containing all poisoning points (Size), inherently exhibit resistance to poisoning attacks.</p>
-<!-- 1. **Theorem1**: under mild conditions, (practical) finite-sample indiscriminate poisoning attacks that generate poisoned dataset is an asymptotic estimator of the (theoretical) distributional indiscriminate poisoning attacks that generate poisoned distributions as the size of the clean training data is sufficiently large. **Therefore, it is useful study distributional attacks as they still connect to practical attacks.** 
-2. **Theorem 2**: when studying distributional attacks at the $\epsilon$ poisoning ratio, under mild conditions, it is always beneficial to fully utilize the poisoning budget $\epsilon$ instead of budget less than that. **Therefore, we can study optimal poisoning attacks by using the maximum poisoraning ratio $\epsilon$**
-3. With the Theorem 1 and Theorem 2, we conveniently study optimal distributinal poisoning attacks on 1-D Gaussian and showed that datasets with high class-wise separability (Sep) and low in-class variance (SD) are inherently robust to poisoning, and is even more robust when the size of the set conraining all poisoning points (Size) is small. We further show that, these three metrics also form upper bound to the performance of optimal attacks for generation distributions, and for distributions with noce properties, the optimal attack effectiveness is also limited (i.e., small upper bound).   -->
-<p>Returning to the benchmark datasets, we observed a strong correlation between the identified metrics and the empirically observed vulnerabilities to current best attacks. This reaffirms our theoretical findings. Notably, we employed the ratios Sep/SD and Sep/Size for convenient comparison between datasets, as depicted in the results below:</p>
-<center>
-<a href="/images/poisondistribution2023/error_increase.png"><img src="/images/poisondistribution2023/error_increase.png" width="80%"></a>
-</center>
-<h2 id="heading-1"></h2>
-<p>Datasets that are resistant to current attacks, like MNIST 1-7, exhibit larger Sep/SD and Sep/Size ratios. This suggests well-separated distributions with low variance and limited impact from poisoning points. Conversely, more vulnerable datasets, such as the spam email dataset Enron, display the opposite characteristics.</p>
-<h2 id="implications">Implications</h2>
-<p>While explaining the variations in vulnerabilities across datasets is valuable, our overriding goal is to improve robustness as much as possible. Our primary finding suggests that dataset robustness against poisoning attacks can be enhanced by leveraging favorable distributional properties.</p>
-<p>In preliminary experiments, we demonstrate that employing improved feature extractors, such as deep models trained for an extended number of epochs, can achieve this objective.</p>
-<p>We trained various feature extractors on the complete CIFAR-10 dataset and fine-tuned them on data labeled &ldquo;Truck&rdquo; and &ldquo;Ship&rdquo; for a downstream binary classification task. We utilized a deeper model, ResNet-18, trained for X epochs and denoted these models as R-X. Additionally, we included a straightforward CNN model trained until full convergence (LeNet). This approach allowed us to obtain a diverse set of pretrained models representing different potential feature representations for the downstream training data.</p>
-<center>
-<a href="/images/poisondistribution2023/feature.png"><img src="/images/poisondistribution2023/feature.png" width="60%"></a>
-</center>
-<h2 id="heading-2"></h2>
-<p>The figure above shows that as we utilize the ResNet model and train it for a sufficient number of epochs, the quality of the feature representation improves, subsequently enhancing the robustness of downstream models against poisoning attacks. These preliminary findings highlight the exciting potential for future research aimed at leveraging enhanced features to bolster resilience against poisoning attacks. This serves as a strong motivation for further in-depth exploration in this direction.</p>
-<h3 id="paper">Paper</h3>
-<p>Fnu Suya, Xiao Zhang, Yuan Tian, David Evans. <a href="https://openreview.net/forum?id=yyLFUPNEiT"><em>What Distributions are Robust to Indiscriminate Poisoning Attacks for Linear Learners?</em></a>. In <a href="https://cvpr2023.thecvf.com/">Neural Information Processing Systems</a> (NeurIPS). New Orleans, 10–17 December 2023. <a href="https://arxiv.org/abs/2307.01073">[arXiv]</a></p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -1023,6 +1012,12 @@ Security Research Group
   <p>
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/graduation-2024/">Graduation 2024</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/satml-talk-sok-pitfalls-in-evaluating-black-box-attacks/">SaTML Talk: SoK: Pitfalls in Evaluating Black-Box Attacks</a>
@@ -1164,12 +1159,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/">Microsoft Research Summit: Surprising (and unsurprising) Inference Risks in Machine Learning</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/uva-news-article/">UVA News Article</a>
 
 
    </div>

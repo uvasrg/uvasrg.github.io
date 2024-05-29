@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graduation 2024</title>
+      <link>//uvasrg.github.io/graduation-2024/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/graduation-2024/</guid>
+      <description> </description>
+    </item>
     <item>
       <title>SaTML Talk: SoK: Pitfalls in Evaluating Black-Box Attacks</title>
       <link>//uvasrg.github.io/satml-talk-sok-pitfalls-in-evaluating-black-box-attacks/</link>
@@ -679,7 +686,7 @@
       <link>//uvasrg.github.io/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/team/</guid>
-      <description>PhD Students Yu-Han (Hannah) Chen&#xA;Co-advised with Yangfeng Ji&#xA;Since Fall 2019&#xA;natural language processing&#xA;Josephine Lamp&#xA;Co-advised with Lu Feng&#xA;Since Fall 2018&#xA;privacy-preserving medical decision systems&#xA;Elena (Minjun) Long&#xA;Since Fall 2022&#xA;privacy of ad ecosystem&#xA;Anshuman Suri&#xA;Since Fall 2019&#xA;inference privacy&#xA;Archit Uniyal&#xA;Co-advised with Tianhao Wang&#xA;Since Fall 2022&#xA;privacy for NLP&#xA;Michael Jerge&#xA;Since Jan-24&#xA;LLM reliability&#xA;Undergraduate Researchers Shinjini Bose&#xA;Undergraduate Researcher&#xA;Since Spring 2024</description>
+      <description>PhD Students Yu-Han (Hannah) Chen&#xA;Co-advised with Yangfeng Ji&#xA;Since Fall 2019&#xA;natural language processing&#xA;Michael Jerge&#xA;Since January 2024&#xA;LLM reliability&#xA;Elena (Minjun) Long&#xA;Since Fall 2022&#xA;privacy of ad ecosystem&#xA;Anshuman Suri&#xA;Since Fall 2019&#xA;inference privacy&#xA;Masters Student Archit Uniyal&#xA;Since Fall 2022&#xA;privacy for NLP&#xA;Undergraduate Researchers Shinjini Bose&#xA;Undergraduate Researcher&#xA;Since Spring 2024&#xA;LLM fairness&#xA;Zihan Mei&#xA;Undergraduate Researcher&#xA;Since Spring 2024&#xA;LLM application privacy</description>
     </item>
     <item>
       <title></title>
