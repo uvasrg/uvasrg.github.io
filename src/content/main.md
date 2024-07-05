@@ -21,13 +21,18 @@ current focus is on <em>adversarial machine learning</em>.
 
 </p> 
  <p>
+<p>
+<a href="https://action.ucsb.edu/"><img src="/images/actionlogo.svg" width="80" align="left"></a> 
+We are part of the <a href="https://action.ucsb.edu/">NSF AI Institute for Agent-based Cyber Threat Intelligence and Operation</a> (ACTION) and the</br> 
+<a href="https://ctml.psu.edu/"><img src="/images/ctmllogo.png" width="80" align="left"></a>
+<a href="https://ctml.psu.edu/">NSF SaTC Center for Trustworthy Machine Learning</a> (CTML).
 
-Everyone is welcome at our research group meetings. To get
-announcements, join our <a
-href="https://teams.microsoft.com/l/team/19%3aWdkw2xYq6taXh-0OftqQdt8SQ2vyvUI_Z0ZL39APghY1%40thread.tacv2/conversations?groupId=58076b41-c835-4a07-abaa-705bc7cca101&tenantId=7b3480c7-3707-4873-8b77-e216733a65ac">Teams Group</a> (any
-<em>@virginia.edu</em> email address can join themsleves; others should <a href="mailto:evans@virginia.edu">email me</a> to request an invitation). </p> </div>
+</p>
+</div>
 
 <div class="column small-10 medium-6">
+
+<p><br></br></p>
 
 <center> <a
 href="/images/srglunch-2024-02-29.jpg"><img
@@ -42,7 +47,8 @@ Michael Jerge,
 <a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>,
 <a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a>
 </font> </center>
- </p> </div> </div>
+ </p> 
+ </div> </div>
 
 <div class="row">
 <div class="column small-10 medium-5">
