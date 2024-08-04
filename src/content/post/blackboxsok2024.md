@@ -6,7 +6,7 @@ categories = ["papers"]
 tags = ["Fnu Suya", "Anshuman Suri", "Tingwei Zhang", "Jingtao Hong", "Yuan Tian", "David Evans", "SaTML", "adversarial machine learning", "black-box adversarial attacks", "systemization of knowledge"]
 +++
 
-Post by **[Anshuman Suri](https://www.anshumansuri.me/)** and **[Fnu Suya](https://fsuya.org/)**
+Post by **[Anshuman Suri](https://www.anshumansuri.com/)** and **[Fnu Suya](https://fsuya.org/)**
 
 Much research has studied black-box attacks on image classifiers,
 where adversaries generate adversarial examples against unknown target

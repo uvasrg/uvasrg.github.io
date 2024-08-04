@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alina Oprea on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/alina-oprea/</link>
+    <description>Recent content in Alina Oprea on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/alina-oprea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Congratulations, Dr. Suri!</title>
+      <link>//uvasrg.github.io/congratulations-dr.-suri/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/congratulations-dr.-suri/</guid>
+      <description>Congratulations to Anshuman Suri for successfully defending his PhD thesis!&#xA;Tianhao Wang, Dr. Anshuman Suri, Nando Fioretto, Cong Shen&#xA;On Screen: David Evans, Giuseppe Ateniese Inference Privacy in Machine Learning Using machine learning models comes at the risk of leaking information about data used in their training and deployment. This leakage can expose sensitive information about properties of the underlying data distribution, data from participating users, or even individual records in the training data.</description>
+    </item>
+  </channel>
+</rss>

@@ -8,7 +8,7 @@ tags = ["property inference", "distribution inference", "Anshuman Suri"]
 math = true
 +++
 
-(Cross-post by [Anshuman Suri](https://www.anshumansuri.me/post/distr_infer))
+(Cross-post by [Anshuman Suri](https://www.anshumansuri.com/post/distr_infer))
 
 Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.
 
@@ -164,7 +164,7 @@ Our results demonstrate how a meta-classifier can also be trained to directly in
 
 Our work on distribution inference formalizes and shows how property inference attacks can indeed infer distribution-level properties. Our ongoing work is focused on quantifying and studying this ‘privacy leakage’ of properties and its implications.
 
-Pre-print: [Anshuman Suri](http://anshumansuri.me/), [David Evans](http://www.cs.virginia.edu/~evans/). [_Formalizing Distribution Inference Risks_](https://www.anshumansuri.me/publication/distribution-inference/) (arXiv).
+Pre-print: [Anshuman Suri](http://anshumansuri.me/), [David Evans](http://www.cs.virginia.edu/~evans/). [_Formalizing Distribution Inference Risks_](https://www.anshumansuri.com/publication/distribution-inference/) (arXiv).
 
 A more detailed and updated paper is now available: [_Formalizing and Estimating Distribution Inference Risks_](https://arxiv.org/abs/2109.06024) (arXiv).
 

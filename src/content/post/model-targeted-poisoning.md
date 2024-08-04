@@ -115,7 +115,7 @@ allowing our attack to satisfy any number of objectives.
 
 ## Full Paper
 
-[Fnu Suya](https://fsuya.org/), [Saeed Mahloujifar](https://smahloujifar.github.io/), [Anshuman Suri](https://www.anshumansuri.me/), [David Evans](https://www.cs.virginia.edu/evans/), [Yuan Tian](https://www.ytian.info/). <a
+[Fnu Suya](https://fsuya.org/), [Saeed Mahloujifar](https://smahloujifar.github.io/), [Anshuman Suri](https://www.anshumansuri.com/), [David Evans](https://www.cs.virginia.edu/evans/), [Yuan Tian](https://www.ytian.info/). <a
 href="https://arxiv.org/abs/2006.16469">Model-Targeted Poisoning
 Attacks with Provable Convergence.</a> In [_Thirty-eighth
 International Conference on Machine

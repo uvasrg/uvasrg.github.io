@@ -8,7 +8,7 @@ tags = ["property inference", "distribution inference", "Anshuman Suri", "Yifu L
 math = true
 +++
 
-(Cross-post by [Anshuman Suri](https://www.anshumansuri.me/post/dissecting))
+(Cross-post by [Anshuman Suri](https://www.anshumansuri.com/post/dissecting))
 
 Distribution inference attacks aims to infer statistical properties of data used to train machine learning models.
 These attacks are sometimes surprisingly potent, as we demonstrated in

@@ -6,7 +6,7 @@ categories = ["papers"]
 tags = ["Fnu Suya", "Anshuman Suri", "Tingwei Zhang", "Jingtao Hong", "Yuan Tian", "David Evans", "SaTML", "adversarial machine learning", "black-box adversarial attacks", "systemization of knowledge"]
 +++
 
-[Anshuman Suri](https://www.anshumansuri.me/)'s talk at [IEEE Conference on Secure and Trustworthy Machine Learning](https://satml.org/) (SaTML) is now available:
+[Anshuman Suri](https://www.anshumansuri.com/)'s talk at [IEEE Conference on Secure and Trustworthy Machine Learning](https://satml.org/) (SaTML) is now available:
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ui4HMGe3aUs?si=M2A-uD77s4BdhXPR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

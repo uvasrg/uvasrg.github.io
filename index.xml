@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 29 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Congratulations, Dr. Suri!</title>
+      <link>//uvasrg.github.io/congratulations-dr.-suri/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/congratulations-dr.-suri/</guid>
+      <description>Congratulations to Anshuman Suri for successfully defending his PhD thesis!&#xA;Tianhao Wang, Dr. Anshuman Suri, Nando Fioretto, Cong Shen&#xA;On Screen: David Evans, Giuseppe Ateniese Inference Privacy in Machine Learning Using machine learning models comes at the risk of leaking information about data used in their training and deployment. This leakage can expose sensitive information about properties of the underlying data distribution, data from participating users, or even individual records in the training data.</description>
+    </item>
     <item>
       <title>Graduation 2024</title>
       <link>//uvasrg.github.io/graduation-2024/</link>
@@ -686,7 +693,7 @@
       <link>//uvasrg.github.io/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/team/</guid>
-      <description>PhD Students Yu-Han (Hannah) Chen&#xA;Co-advised with Yangfeng Ji&#xA;Since Fall 2019&#xA;natural language processing&#xA;Michael Jerge&#xA;Since January 2024&#xA;LLM reliability&#xA;Elena (Minjun) Long&#xA;Since Fall 2022&#xA;privacy of ad ecosystem&#xA;Anshuman Suri&#xA;Since Fall 2019&#xA;inference privacy&#xA;Masters Student Archit Uniyal&#xA;Since Fall 2022&#xA;privacy for NLP&#xA;Undergraduate Researchers Shinjini Bose&#xA;Undergraduate Researcher&#xA;Since Spring 2024&#xA;LLM fairness&#xA;Zihan Mei&#xA;Undergraduate Researcher&#xA;Since Spring 2024&#xA;LLM application privacy</description>
+      <description>PhD Students Yu-Han (Hannah) Chen&#xA;Co-advised with Yangfeng Ji&#xA;Since Fall 2019&#xA;natural language processing&#xA;Michael Jerge&#xA;Since Jan-24&#xA;LLM reliability&#xA;Elena (Minjun) Long&#xA;Since Fall 2022&#xA;privacy of ad ecosystem&#xA;Masters Student Archit Uniyal&#xA;Since Fall 2022&#xA;privacy for NLP&#xA;Undergraduate Researchers Shinjini Bose&#xA;Undergraduate Researcher&#xA;Since Spring 2024&#xA;LLM fairness&#xA;Zihan Mei&#xA;Undergraduate Researcher&#xA;Since Spring 2024&#xA;LLM application privacy&#xA;Security Research Group Leap Day Lunch (29&amp;nbsp;February&amp;nbsp;2024)&#xA;Anshuman&amp;nbsp;Suri, Archit&amp;nbsp;Uniyal, Minjun&amp;nbsp;Long, Michael Jerge, Hannah&amp;nbsp;Chen, Josephine&amp;nbsp;Lamp Director David Evans</description>
     </item>
     <item>
       <title></title>
@@ -700,7 +707,7 @@
       <link>//uvasrg.github.io/main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/main/</guid>
-      <description>Security and Privacy Research at the University of Virginia Our research seeks to empower individuals and organizations to control how their data is used. We use techniques from cryptography, programming languages, machine learning, operating systems, and other areas to both understand and improve the privacy and security of computing as practiced today, and as envisioned in the future. A major current focus is on adversarial machine learning.&#xA;We are part of the NSF AI Institute for Agent-based Cyber Threat Intelligence and Operation (ACTION) and the NSF SaTC Center for Trustworthy Machine Learning (CTML).</description>
+      <description>Security and Privacy Research at the University of Virginia Our research seeks to empower individuals and organizations to control how their data is used. We use techniques from cryptography, programming languages, machine learning, operating systems, and other areas to both understand and improve the privacy and security of computing as practiced today, and as envisioned in the future. A major current focus is on adversarial machine learning. SRG Leap Day Lunch (29&amp;nbsp;February&amp;nbsp;2024) Anshuman&amp;nbsp;Suri, Archit&amp;nbsp;Uniyal, Minjun&amp;nbsp;Long, Michael Jerge, Hannah&amp;nbsp;Chen, Josephine&amp;nbsp;Lamp We are part of the NSF AI Institute for Agent-based Cyber Threat Intelligence and Operation (ACTION) which seeks to change the way mission-critical systems are protected against sophisticated security threats.</description>
     </item>
   </channel>
 </rss>
