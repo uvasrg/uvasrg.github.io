@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
     <lastmod>2024-07-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -29,16 +35,10 @@
     <loc>//uvasrg.github.io/tags/phd-defense/</loc>
     <lastmod>2024-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/tags/privacy/</loc>
     <lastmod>2024-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
-    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/</loc>
     <lastmod>2024-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/</loc>
