@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Press</title>
+      <link>//uvasrg.github.io/categories/press/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/categories/press/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Graduates</title>
       <link>//uvasrg.github.io/categories/graduates/</link>
@@ -35,13 +42,6 @@
       <link>//uvasrg.github.io/categories/outreach/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/categories/outreach/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Press</title>
-      <link>//uvasrg.github.io/categories/press/</link>
-      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/categories/press/</guid>
       <description></description>
     </item>
     <item>
