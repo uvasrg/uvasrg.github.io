@@ -2,19 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//uvasrg.github.io/tags/anti-trust/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/artificial-intelligence/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/categories/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/david-evans/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/tags/machine-learning/</loc>
+    <loc>//uvasrg.github.io/tags/google/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/googles-trail-of-crumbs/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/post/</loc>
@@ -23,14 +20,26 @@
     <loc>//uvasrg.github.io/categories/press/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//uvasrg.github.io/tags/privacy/</loc>
+    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//uvasrg.github.io/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//uvasrg.github.io/tags/anti-trust/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/artificial-intelligence/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/machine-learning/</loc>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//uvasrg.github.io/technology-us-authorities-survey-ai-ecosystem-through-antitrust-lens/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
     <lastmod>2024-07-18T00:00:00+00:00</lastmod>
@@ -54,9 +63,6 @@
     <lastmod>2024-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/phd-defense/</loc>
-    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/privacy/</loc>
     <lastmod>2024-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/privacy-preserving-machine-learning/</loc>
@@ -532,9 +538,6 @@
   </url><url>
     <loc>//uvasrg.github.io/usenix-security-symposium-2019/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/google/</loc>
-    <lastmod>2019-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/google-security-and-privacy-workshop/</loc>
     <lastmod>2019-08-25T00:00:00+00:00</lastmod>

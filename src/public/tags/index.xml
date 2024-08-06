@@ -10,20 +10,6 @@
     <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Anti-Trust</title>
-      <link>//uvasrg.github.io/tags/anti-trust/</link>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/anti-trust/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Artificial Intelligence</title>
-      <link>//uvasrg.github.io/tags/artificial-intelligence/</link>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/artificial-intelligence/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>David Evans</title>
       <link>//uvasrg.github.io/tags/david-evans/</link>
       <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
@@ -31,9 +17,37 @@
       <description></description>
     </item>
     <item>
+      <title>Google</title>
+      <link>//uvasrg.github.io/tags/google/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>//uvasrg.github.io/tags/privacy/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anti-Trust</title>
+      <link>//uvasrg.github.io/tags/anti-trust/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/anti-trust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>//uvasrg.github.io/tags/artificial-intelligence/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Machine Learning</title>
       <link>//uvasrg.github.io/tags/machine-learning/</link>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
@@ -77,13 +91,6 @@
       <link>//uvasrg.github.io/tags/phd-defense/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/phd-defense/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>//uvasrg.github.io/tags/privacy/</link>
-      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
@@ -721,13 +728,6 @@
       <link>//uvasrg.github.io/tags/serge-egelman/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/serge-egelman/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Google</title>
-      <link>//uvasrg.github.io/tags/google/</link>
-      <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/google/</guid>
       <description></description>
     </item>
     <item>
