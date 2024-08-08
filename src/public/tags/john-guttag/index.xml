@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Guttag on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/john-guttag/</link>
+    <description>Recent content in John Guttag on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/john-guttag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>John Guttag Birthday Celebration</title>
+      <link>//uvasrg.github.io/john-guttag-birthday-celebration/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/john-guttag-birthday-celebration/</guid>
+      <description>Maggie Makar organized a celebration for the 75th birthday of my PhD advisor, John Guttag.&#xA;I wasn&amp;rsquo;t able to attend in person, unfortunately, but the occasion provided an opportunity to create a poster that looks back on what I&amp;rsquo;ve done since I started working with John over 30 years ago.</description>
+    </item>
+  </channel>
+</rss>

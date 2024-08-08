@@ -626,3 +626,7 @@ img {
 * {
     box-sizing: border-box;
 }
+
+.image-shadow {
+    filter: drop-shadow(darkgrey 0.1rem 0.1rem 5px);
+}
