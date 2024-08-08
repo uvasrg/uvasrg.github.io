@@ -4,8 +4,8 @@ type = "index"
 math = true
 +++
 
-<center style="font-size:2rem; font-weight: 800;">
-Security and Privacy Research at the University of Virginia
+<center style="font-size:1.7rem; font-weight: 800;">
+Security and Privacy Research at&nbsp;the&nbsp;University&nbsp;of&nbsp;Virginia
 </center>
 
 <p></p>
@@ -60,28 +60,24 @@ Security and Privacy Research at the University of Virginia
 </div>
 
 <div class="row">
-<div class="column small-10 medium-5">
+<div class="column small-12 medium-6">
 <div class="mainsection">Active Projects</div>
 
 
-<a href="/privacy/"><b>Privacy for Machine Learning</b></a> <br>
-<a href="//www.evademl.org/"><b>Security for Machine Learning</b></a><br>
+<a href="/privacy/"><b>Inference Privacy</b></a> <br>
+<a href="//www.evademl.org/"><b>Security ML</b></a><br>
 <b>Auditing ML Systems</b><br>
 </div>
-<div class="column small-14 medium-7">
+<div class="column small-12 medium-6">
 
-<div class="mainsection">Past Projects</div>
+<div class="mainsection"><a href="//www.cs.virginia.edu/evans/research.html"><span style="color:white">Past Projects</span></a></div>
 
 <em>
-<a href="//securecomputation.org">Secure Multi-Party Computation</a></em>:
-<a href="//www.oblivc.org/">Obliv-C</a> &middot; <a href="//www.mightbeevil.org/">MightBeEvil</a><br>
+<a href="//securecomputation.org">Secure Multi-Party Computation</a></em><br>
+&nbsp;&nbsp;&nbsp;<a href="//www.oblivc.org/">Obliv-C</a> &middot; <a href="//www.mightbeevil.org/">MightBeEvil</a><br>
 
-<em>Web and Mobile Security</em>: <a href="/scriptinspector/">ScriptInspector</a> &middot; 
-<a href="http://www.ssoscan.org/">SSOScan</a><br>
-<em>Program Analysis</em>: <a href="//www.splint.org/">Splint</a> &middot; <a href="//www.cs.virginia.edu/perracotta">Perracotta</a><br>
 <a href="//www.cs.virginia.edu/nvariant/">N-Variant Systems</a> &middot;
-<a href="//www.cs.virginia.edu/physicrypt/">Physicrypt</a> &middot;
-<a href="//www.cs.virginia.edu/evans/research.html">More...</a>
+<a href="//www.splint.org/">Splint</a> &middot; <a href="//www.cs.virginia.edu/evans/research.html">More...</a>
 </p>
 </div>
 </div>
