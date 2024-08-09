@@ -1,7 +1,8 @@
 
-<h1>
+<h1><center>
 Advice on Contacting Faculty<br>
 for Prospective Research Students<br>
+</center>
 </h1>
 
 Like most professors, I get several hundred emails a year from
