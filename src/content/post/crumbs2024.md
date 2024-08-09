@@ -6,7 +6,7 @@ categories = ["press"]
 tags = ["David Evans", "privacy", "Google"]
 +++
 
-Matt Stoller published my essay on Google's decision to abandon its Privacy Sandbox Initiative in his Big newsletter:
+Matt Stoller published [my essay on Google's decision to abandon its Privacy Sandbox Initiative](https://www.thebignewsletter.com/p/googles-trail-of-crumbs) in his Big newsletter:
 
 <center>
 <a href="https://www.thebignewsletter.com/p/googles-trail-of-crumbs">
