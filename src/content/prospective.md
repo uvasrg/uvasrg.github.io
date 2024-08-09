@@ -1,4 +1,8 @@
-# Advice for Prospective Research Students
+
+<h1>
+Advice on Contacting Faculty<br>
+for Prospective Research Students<br>
+</h1>
 
 Like most professors, I get several hundred emails a year from
 prospective students interested in coming to our university for graduate
