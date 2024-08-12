@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Auditing on Security Research Group</title>
+    <link>//localhost:1313/tags/auditing/</link>
+    <description>Recent content in Auditing on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Sun, 11 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/auditing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Mismeasure of Man and Models</title>
+      <link>//localhost:1313/the-mismeasure-of-man-and-models/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/the-mismeasure-of-man-and-models/</guid>
+      <description>(Blog post written by Hannah Chen)&#xA;Evaluating Allocational Harms in Large Language Models Our work addresses allocational harms that arise when model predictions perpetuate unfair distribution of resources or opportunities.&#xA;Current Bias Metrics Do Not Reliably Reflect Allocation Disparities Several methods have been proposed to audit large language models (LLMs) for bias when used in critical decision-making, such as resume screening for hiring. Yet, these methods focus on predictions, without considering how the predictions are used to make decisions.</description>
+    </item>
+  </channel>
+</rss>
