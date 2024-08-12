@@ -447,18 +447,29 @@ p {
 
 .caption {
   text-align: left;
-  margin-top: 0.5ex;
+  margin-top: 1.0ex;
   margin-left: 3em;
   margin-right: 3em;
-  font-size: 0.7rem;
+  margin-bottom: 2.0ex;
+  font-size: 1.0rem;
 }
 
+.centered-caption {
+    text-align: center;
+    margin-top: 1.0ex;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 2.0ex;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
 .smallcaption {
   text-align: left;
   margin-top: 0.5ex;
   margin-left: 2em;
   margin-right: 2em;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   line-height: 150%;
   font-weight: 300;
 }
