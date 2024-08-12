@@ -1,6 +1,6 @@
 +++
 date = "11 Aug 2024"
-draft = true
+draft = false
 title = "The Mismeasure of Man and Models"
 author = "Hannah Chen"
 categories = ["papers"]

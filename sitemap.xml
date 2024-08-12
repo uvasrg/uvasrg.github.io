@@ -2,17 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//uvasrg.github.io/tags/auditing/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/bias/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/david-evans/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/hannah-chen/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/llms/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/papers/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//uvasrg.github.io/post/</loc>
     <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/</loc>
     <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/categories/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/tags/david-evans/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+    <loc>//uvasrg.github.io/the-mismeasure-of-man-and-models/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/yangfeng-ji/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/google/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
@@ -24,9 +48,6 @@
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/privacy/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/anti-trust/</loc>
@@ -95,9 +116,6 @@
     <loc>//uvasrg.github.io/tags/jingtao-hong/</loc>
     <lastmod>2024-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/categories/papers/</loc>
-    <lastmod>2024-04-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/tags/satml/</loc>
     <lastmod>2024-04-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -123,9 +141,6 @@
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/inference-privacy/</loc>
-    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/llms/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/luke-zettlemoyer/</loc>
@@ -167,13 +182,7 @@
     <loc>//uvasrg.github.io/adjectives-can-reveal-gender-biases-within-nlp-models/</loc>
     <lastmod>2023-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/tags/bias/</loc>
-    <lastmod>2023-08-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/tags/generative-ai/</loc>
-    <lastmod>2023-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/hannah-chen/</loc>
     <lastmod>2023-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/jason-briegel/</loc>
@@ -276,9 +285,6 @@
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/balancing-tradeoffs-between-fickleness-and-obstinacy-in-nlp-models/</loc>
-    <lastmod>2022-11-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/yangfeng-ji/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/categories/awards/</loc>
