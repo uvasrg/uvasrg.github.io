@@ -140,12 +140,12 @@ a:focus {
 
 h1 {
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
 }
 
 h2 {
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 2.5rem;
 }
 
 h3 {
@@ -153,8 +153,8 @@ h3 {
 }
 
 @media screen and (min-width: 40em) {
-    h1 { font-size: 1.5rem; }
-    h2 { font-size: 1.25rem; }
+    h1 { font-size: 2.0rem; }
+    h2 { font-size: 1.8rem; }
     h3 { font-size: 1.1875rem; }
     h4 { font-size: 1.125rem; }
     h5 { font-size: 1.0625rem; }
@@ -532,7 +532,7 @@ p {
 }
 
 .posttitle {
-   font-size: 0.8rem;
+   font-size: 1.0rem;
    padding-left: 25px;
    text-indent: -25px;
 }
