@@ -589,6 +589,8 @@
         
     
         
+    
+        
            <center style="font-size:1.7rem; font-weight: 800;">
 Security and Privacy Research at&nbsp;the&nbsp;University&nbsp;of&nbsp;Virginia
 </center>
@@ -662,6 +664,47 @@ Security and Privacy Research at&nbsp;the&nbsp;University&nbsp;of&nbsp;Virginia
   
 
     <div class="mainsection">Recent Posts</div>
+
+    
+    <h2><a href="/researchers-highlight-how-poisoned-llms-can-suggest-vulnerable-code/">Researchers Highlight How Poisoned LLMs Can Suggest Vulnerable Code</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2024-08-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">21 August 2024</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/large-language-models">large language models</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/copilot">copilot</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/poisoning">poisoning</a>
+    
+  </span>
+  
+  
+</div>
+
+      <div class="post-body" itemprop="articleBody">
+        <p>I&rsquo;m quoted in this story by Rob Lemos about poisoning code models (the <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/yan">CodeBreaker</a> paper in USENIX Security 2024 by Shenao Yan, Shen Wang, Yue Duan, Hanbin Hong, Kiho Lee, Doowon Kim, and Yuan Hong), that considers a similar threat to our <a href="https://uvasrg.github.io/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">TrojanPuzzle</a> work:</p>
+<p><a href="https://www.darkreading.com/application-security/researchers-turn-code-completion-llms-into-attack-tools"><em>Researchers Highlight How Poisoned LLMs Can Suggest Vulnerable Code</em></a><br>
+Dark Reading, 20 August 2024</p>
+<blockquote>
+CodeBreaker uses code transformations to create vulnerable code that continues to function as expected, but that will not be detected by major static analysis security testing. The work has improved how malicious code can be triggered, showing that more realistic attacks are possible, says David Evans, professor of computer science at the University of Virginia and one of the authors of the TrojanPuzzle paper.
+...
+Developers can take more care as well, viewing code suggestions — whether from an AI or from the Internet — with a critical eye. In addition, developers need to know how to construct prompts to produce more secure code.
+<p>Yet, developers need their own tools to detect potentially malicious code, says the University of Virginia&rsquo;s Evans.</p>
+<p>&ldquo;At most mature software development companies — before code makes it into a production system there is a code review — involving both humans and analysis tools,&rdquo; he says. &ldquo;This is the best hope for catching vulnerabilities, whether they are introduced by humans making mistakes, deliberately inserted by malicious humans, or the result of code suggestions from poisoned AI assistants.&rdquo;</p>
+</blockquote>
+<p><a href="https://www.darkreading.com/application-security/researchers-turn-code-completion-llms-into-attack-tools">Full Article</a></p>
+
+      </div>
+<hr class="post-separator"></hr>
 
     
     <h2><a href="/the-mismeasure-of-man-and-models/">The Mismeasure of Man and Models</a></h2>
@@ -856,74 +899,6 @@ Antitrust authorities in the US are targeting the new frontier of artificial int
 <hr class="post-separator"></hr>
 
     
-    <h2><a href="/congratulations-dr.-suri/">Congratulations, Dr. Suri!</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2024-07-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">18 July 2024</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy">privacy</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/membership-inference">membership inference</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/phd-defense">PhD defense</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/alina-oprea">Alina Oprea</a>
-    
-  </span>
-  
-  
-</div>
-
-      <div class="post-body" itemprop="articleBody">
-        <p>Congratulations to <a href="https://www.anshumansuri.com/">Anshuman Suri</a> for successfully defending his <a href="https://libraetd.lib.virginia.edu/public_view/2227mr11j">PhD thesis</a>!</p>
-<center>
-<img src="/images/suri-phd.png" width="70%"><br>
-Tianhao Wang, Dr. Anshuman Suri, Nando Fioretto, Cong Shen<br>
-On Screen: David Evans, Giuseppe Ateniese
-<br>
-</center>
-<h2 id="heading"></h2>
-<h2 id="heading-1"></h2>
-<center>
-<em>
-Inference Privacy in Machine Learning
-</em>
-</center>
-<h2 id="heading-2"></h2>
-<p>Using machine learning models comes at the risk of leaking information about data used in their training and deployment. This leakage can expose sensitive information about properties of the underlying data distribution, data from participating users, or even individual records in the training data. In this dissertation, we develop and evaluate novel methods to quantify and audit such information disclosure at three granularities: distribution, user, and record.</p>
-<p>We begin with a formalization of inference privacy risks as cryptographic games and draw relations, such as reductions and separations, between various types of inference risks. We then propose a formal definition of distribution inference attacks that captures previous ratio-based property inference attacks as well as new kinds of attacks, and introduce a metric that quantifies observed leakage. We devise novel white-box and black-box distribution inference attacks and report on a series of experiments across a range of different distributions. We also evaluate the effectiveness of previously proposed defenses, finding that noise-based defenses are ineffective. Next, we estimate inference risk at the user level in Federated Learning scenarios with our attacks and demonstrate potent leakage. We also propose methods for injecting malicious behavior in the pre-training stage of a model, whereby selective parameters can be trained to activate differently on particular data to amplify distribution inference in downstream models. At the individual record level, we prove the necessity of parameter access for optimal membership inference, challenging the notion that black-box attacks suffice. Finally, we use membership inference to study memorization in Large Language Models (LLMs), observing near-random inference leakage for most settings, but revealing a connection between distribution inference and membership inference.</p>
-<p>Our findings show that privacy leakage spans a spectrum of granularities, making it essential to consider multiple forms of leakage. Ultimately, our work underscores the urgent need for robust privacy-preserving techniques to mitigate these multifaceted risks in machine learning systems.</p>
-<p>Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/2227mr11j"><em>Inference Privacy in Machine Learning</em></a></p>
-<p><a href="https://engineering.virginia.edu/news-events/events/phd-defense-presentation-anshuman-suri">Presentation Announcement</a></p>
-<p><a href="https://x.com/iamgroot42/status/1814033241688428695">Twitter</a></p>
-<h1 id="heading-3"></h1>
-<p>Dr. Suri will start a post-doc with <a href="https://www.khoury.northeastern.edu/home/alina/">Alina Oprea</a> at Northeastern University this fall.</p>
-<h1 id="heading-4"></h1>
-<p><strong>Committee:</strong></p>
-<p>Tianhao Wang (Committee Chair, Computer Science)<br>
-David Evans (Advisor, Computer Science)<br>
-Nando Fioretto (Computer Science)<br>
-Cong Shen (Electrical and Computer Engineering)<br>
-Giuseppe Ateniese (George Mason University)</p>
-
-      </div>
-<hr class="post-separator"></hr>
-
-    
 
 
     <footer>
@@ -960,6 +935,12 @@ Security Research Group
   <p>
    <b><a href="/post/">Recent News</a></b>
    </p>
+   
+   <div class="posttitle">
+      <a href="/researchers-highlight-how-poisoned-llms-can-suggest-vulnerable-code/">Researchers Highlight How Poisoned LLMs Can Suggest Vulnerable Code</a>
+
+
+   </div>
    
    <div class="posttitle">
       <a href="/the-mismeasure-of-man-and-models/">The Mismeasure of Man and Models</a>
@@ -1101,12 +1082,6 @@ Security Research Group
    
    <div class="posttitle">
       <a href="/balancing-tradeoffs-between-fickleness-and-obstinacy-in-nlp-models/">Balancing Tradeoffs between Fickleness and Obstinacy in NLP Models</a>
-
-
-   </div>
-   
-   <div class="posttitle">
-      <a href="/best-submission-award-at-visxai-2022/">Best Submission Award at VISxAI 2022</a>
 
 
    </div>

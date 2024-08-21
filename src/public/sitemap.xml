@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/copilot/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/large-language-models/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/poisoning/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/press/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/research/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/researchers-highlight-how-poisoned-llms-can-suggest-vulnerable-code/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//uvasrg.github.io/tags/auditing/</loc>
     <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/bias/</loc>
-    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/</loc>
     <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/david-evans/</loc>
@@ -23,15 +53,6 @@
     <loc>//uvasrg.github.io/categories/papers/</loc>
     <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/</loc>
-    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/the-mismeasure-of-man-and-models/</loc>
     <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -42,9 +63,6 @@
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/googles-trail-of-crumbs/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/press/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/privacy/</loc>
@@ -67,12 +85,6 @@
   </url><url>
     <loc>//uvasrg.github.io/john-guttag-birthday-celebration/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/research/</loc>
-    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/adversarial-machine-learning/</loc>
-    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/alina-oprea/</loc>
     <lastmod>2024-07-18T00:00:00+00:00</lastmod>
@@ -191,9 +203,6 @@
     <loc>//uvasrg.github.io/congratulations-dr.-suya/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/tags/poisoning/</loc>
-    <lastmod>2023-07-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/tags/ahmed-salem/</loc>
     <lastmod>2023-05-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -224,9 +233,6 @@
     <loc>//uvasrg.github.io/tags/yulong-tian/</loc>
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/tags/large-language-models/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/mico-challenge-in-membership-inference/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -238,9 +244,6 @@
   </url><url>
     <loc>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/copilot/</loc>
-    <lastmod>2023-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/uh-oh-theres-a-new-way-to-poison-code-models/</loc>
     <lastmod>2023-01-16T00:00:00+00:00</lastmod>

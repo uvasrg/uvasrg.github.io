@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 11 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adversarial Machine Learning</title>
+      <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Copilot</title>
+      <link>//uvasrg.github.io/tags/copilot/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/copilot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Large Language Models</title>
+      <link>//uvasrg.github.io/tags/large-language-models/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/large-language-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Poisoning</title>
+      <link>//uvasrg.github.io/tags/poisoning/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/poisoning/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Auditing</title>
       <link>//uvasrg.github.io/tags/auditing/</link>
@@ -91,13 +119,6 @@
       <link>//uvasrg.github.io/tags/john-guttag/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/john-guttag/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Adversarial Machine Learning</title>
-      <link>//uvasrg.github.io/tags/adversarial-machine-learning/</link>
-      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/adversarial-machine-learning/</guid>
       <description></description>
     </item>
     <item>
@@ -304,13 +325,6 @@
       <description></description>
     </item>
     <item>
-      <title>Poisoning</title>
-      <link>//uvasrg.github.io/tags/poisoning/</link>
-      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/poisoning/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ahmed Salem</title>
       <link>//uvasrg.github.io/tags/ahmed-salem/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
@@ -367,24 +381,10 @@
       <description></description>
     </item>
     <item>
-      <title>Large Language Models</title>
-      <link>//uvasrg.github.io/tags/large-language-models/</link>
-      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/large-language-models/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Nlp</title>
       <link>//uvasrg.github.io/tags/nlp/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/nlp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Copilot</title>
-      <link>//uvasrg.github.io/tags/copilot/</link>
-      <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/copilot/</guid>
       <description></description>
     </item>
     <item>

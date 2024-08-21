@@ -7,27 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 11 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Papers</title>
-      <link>//uvasrg.github.io/categories/papers/</link>
-      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/categories/papers/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Press</title>
       <link>//uvasrg.github.io/categories/press/</link>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/categories/press/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
       <link>//uvasrg.github.io/categories/research/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/categories/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Papers</title>
+      <link>//uvasrg.github.io/categories/papers/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/categories/papers/</guid>
       <description></description>
     </item>
     <item>
