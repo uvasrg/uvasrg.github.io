@@ -1,7 +1,7 @@
 +++
 date = "26 Nov 2024"
 draft = false
-title = "Common Way To Test for Leaks in Large Language Models May Be Flawed"
+title = "Reassessing EMNLP 2024’s Best Paper: Does Divergence-Based Calibration for Membership Inference Attacks Hold Up?"
 categories = ["press"]
 tags = ["David Evans", "Anshuman Suri", "privacy", "membership inference", "distribution inference", "LLM"]
 +++
