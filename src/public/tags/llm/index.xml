@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLM on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/llm/</link>
+    <description>Recent content in LLM on Security Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Common Way To Test for Leaks in Large Language Models May Be Flawed</title>
+      <link>//uvasrg.github.io/common-way-to-test-for-leaks-in-large-language-models-may-be-flawed/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/common-way-to-test-for-leaks-in-large-language-models-may-be-flawed/</guid>
+      <description>Anshuman Suri and Pratyush Maini wrote a blog about the EMNLP 2024 best paper award winner: Reassessing EMNLP 2024’s Best Paper: Does Divergence-Based Calibration for Membership Inference Attacks Hold Up?.&#xA;As we explored in Do Membership Inference Attacks Work on Large Language Models?, to test a membership inference attack it is essentail to have a candidate set where the members and non-members are from the same distribution. If the distributions are different, the ability of an attack to distinguish members and non-members is indicative of distribution inference, not necessarily membership inference.</description>
+    </item>
+    <item>
+      <title>Common Way To Test for Leaks in Large Language Models May Be Flawed</title>
+      <link>//uvasrg.github.io/common-way-to-test-for-leaks-in-large-language-models-may-be-flawed/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/common-way-to-test-for-leaks-in-large-language-models-may-be-flawed/</guid>
+      <description>UVA News has an article on our LLM membership inference work: Common Way To Test for Leaks in Large Language Models May Be Flawed: UVA Researchers Collaborated To Study the Effectiveness of Membership Inference Attacks, Eric Williamson, 13 November 2024.</description>
+    </item>
+  </channel>
+</rss>
