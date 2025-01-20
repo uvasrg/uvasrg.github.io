@@ -4,7 +4,7 @@
     <title>History on Security Research Group</title>
     <link>//uvasrg.github.io/categories/history/</link>
     <description>Recent content in History on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate>
@@ -14,21 +14,21 @@
       <link>//uvasrg.github.io/de-naming-the-blog/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/de-naming-the-blog/</guid>
-      <description>This blog was started in January 2008, a bit over eight years after I started as a professor at UVA and initiated the research group. It was named after Thomas Jefferson&amp;rsquo;s cipher wheel, which has long been (and remains) one of my favorite ways to introduce cryptography.&#xA;Figuring out how to honor our history, including Jefferson&amp;rsquo;s founding of the University, and appreciate his ideals and enormous contributions, while confronting the reality of Jefferson as a slave owner and abuser, will be a challenge and responsibility for people above my administrative rank.</description>
+      <description>&lt;p&gt;This blog was started in &lt;a href=&#34;//uvasrg.github.io/2008/facebook-privacy.html&#34;&gt;January 2008&lt;/a&gt;, a bit over&#xA;eight years after I started as a professor at UVA and initiated the&#xA;research group. It was named after Thomas Jefferson&amp;rsquo;s cipher wheel,&#xA;which &lt;a href=&#34;http://www.cs.virginia.edu/~evans/cs588-fall2001/challenges/wheel-solved.html&#34;&gt;has long&#xA;been&lt;/a&gt;&#xA;(and &lt;a href=&#34;https://github.com/evansuva/cipherschool&#34;&gt;remains&lt;/a&gt;) one of my&#xA;&lt;a href=&#34;https://www.cs.virginia.edu/~evans/crypto/day1-jefferson.html&#34;&gt;favorite ways to introduce&#xA;cryptography&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;center&gt;&lt;img src=&#34;//uvasrg.github.io/images/jwlogo-small.jpg&#34; width=&#34;60%&#34;&gt;&lt;/center&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Figuring out how to honor our history, including Jefferson&amp;rsquo;s &lt;a href=&#34;https://youtu.be/cJbIXG50RCE?t=388&#34;&gt;founding&#xA;of the University&lt;/a&gt;, and appreciate his&#xA;&lt;a href=&#34;https://www.monticello.org/site/research-and-collections/virginia-statute-religious-freedom&#34;&gt;ideals&lt;/a&gt;&#xA;and &lt;a href=&#34;https://www.cs.virginia.edu/~evans/cs655/readings/declaration.html&#34;&gt;enormous&#xA;contributions&lt;/a&gt;,&#xA;while confronting the reality of Jefferson as a slave owner and&#xA;abuser, will be a challenge and responsibility for people above my&#xA;administrative rank. But, I&amp;rsquo;ve come to see that it is harmful to have&#xA;a blogged named after Jefferson so have removed the Jefferson&amp;rsquo;s Wheel&#xA;name from this research group blog.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cantor&#39;s (No Longer) Lost Proof</title>
       <link>//uvasrg.github.io/cantors-no-longer-lost-proof/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/cantors-no-longer-lost-proof/</guid>
-      <description>In preparing to cover Cantor&amp;rsquo;s proof of different infinite set cardinalities (one of my all-time favorite topics!) in our theory of computation course, I found various conflicting accounts of what Cantor originally proved. So, I figured it would be easy to search the web to find the original proof.&#xA;Shockingly, at least as far as I could find1, it didn&amp;rsquo;t exist on the web! The closest I could find was in Google Books the 1892 volume of the Jähresbericht Deutsche Mathematiker-Vereinigung (which many of the references pointed to), but in fact not the first value of that journal which contains the actual proof.</description>
+      <description>&lt;p&gt;In preparing to cover Cantor&amp;rsquo;s proof of different infinite set&#xA;cardinalities (one of my all-time favorite topics!) in our &lt;a href=&#34;https://uvatoc.github.io/class4/&#34;&gt;theory of&#xA;computation course&lt;/a&gt;, I found various&#xA;conflicting accounts of what Cantor originally proved. So, I figured&#xA;it would be easy to search the web to find the original proof.&lt;/p&gt;&#xA;&lt;p&gt;Shockingly, at least as far as I could find&lt;sup&gt;1&lt;/sup&gt;, it didn&amp;rsquo;t&#xA;exist on the web! The closest I could find was in Google Books the&#xA;1892 volume of the &lt;em&gt;Jähresbericht Deutsche&#xA;Mathematiker-Vereinigung&lt;/em&gt; (which many of the references pointed&#xA;to), but in fact not the first value of that journal which contains&#xA;the actual proof.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Older Posts</title>
       <link>//uvasrg.github.io/older-posts/</link>
       <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/older-posts/</guid>
-      <description>Older posts have not been moved into this new blog, but are still available here:&#xA;2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 </description>
+      <description>&lt;p&gt;Older posts have not been moved into this new blog, but are still&#xA;available here:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//uvasrg.github.io/2017.html&#34;&gt;2017&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//uvasrg.github.io/2016.html&#34;&gt;2016&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//uvasrg.github.io/2015.html&#34;&gt;2015&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//uvasrg.github.io/2014.html&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//uvasrg.github.io/2013.html&#34;&gt;2013&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//uvasrg.github.io/2012.html&#34;&gt;2012&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//uvasrg.github.io/2011.html&#34;&gt;2011&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//uvasrg.github.io/2010.html&#34;&gt;2010&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//uvasrg.github.io/2009.html&#34;&gt;2009&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;//uvasrg.github.io/2008.html&#34;&gt;2008&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

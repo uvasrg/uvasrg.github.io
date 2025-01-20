@@ -4,7 +4,7 @@
     <title>ACL on Security Research Group</title>
     <link>//uvasrg.github.io/tags/acl/</link>
     <description>Recent content in ACL on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/pointwise-paraphrase-appraisal-is-potentially-problematic/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/pointwise-paraphrase-appraisal-is-potentially-problematic/</guid>
-      <description>Hannah Chen presented her paper on Pointwise Paraphrase Appraisal is Potentially Problematic at the ACL 2020 Student Research Workshop:&#xA;The prevailing approach for training and evaluating paraphrase identification models is constructed as a binary classification problem: the model is given a pair of sentences, and is judged by how accurately it classifies pairs as either paraphrases or non-paraphrases. This pointwise-based evaluation method does not match well the objective of most real world applications, so the goal of our work is to understand how models which perform well under pointwise evaluation may fail in practice and find better methods for evaluating paraphrase identification models.</description>
+      <description>&lt;p&gt;Hannah Chen presented her paper on &lt;em&gt;Pointwise Paraphrase Appraisal is&#xA;Potentially Problematic&lt;/em&gt; at the &lt;a href=&#34;https://sites.google.com/view/acl20studentresearchworkshop/&#34;&gt;ACL 2020 Student Research&#xA;Workshop&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The prevailing approach for training and evaluating paraphrase&#xA;identification models is constructed as a binary classification&#xA;problem: the model is given a pair of sentences, and is judged by how&#xA;accurately it classifies pairs as either paraphrases or&#xA;non-paraphrases. This pointwise-based evaluation method does not match&#xA;well the objective of most real world applications, so the goal of our&#xA;work is to understand how models which perform well under pointwise&#xA;evaluation may fail in practice and find better methods for evaluating&#xA;paraphrase identification models. As a first step towards that goal,&#xA;we show that although the standard way of fine-tuning BERT for&#xA;paraphrase identification by pairing two sentences as one sequence&#xA;results in a model with state-of-the-art performance, that model may&#xA;perform poorly on simple tasks like identifying pairs with two&#xA;identical sentences. Moreover, we show that these models may even&#xA;predict a pair of randomly-selected sentences with higher paraphrase&#xA;score than a pair of identical ones.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

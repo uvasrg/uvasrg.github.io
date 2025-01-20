@@ -4,7 +4,7 @@
     <title>History on Security Research Group</title>
     <link>//uvasrg.github.io/tags/history/</link>
     <description>Recent content in History on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/cantors-no-longer-lost-proof/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/cantors-no-longer-lost-proof/</guid>
-      <description>In preparing to cover Cantor&amp;rsquo;s proof of different infinite set cardinalities (one of my all-time favorite topics!) in our theory of computation course, I found various conflicting accounts of what Cantor originally proved. So, I figured it would be easy to search the web to find the original proof.&#xA;Shockingly, at least as far as I could find1, it didn&amp;rsquo;t exist on the web! The closest I could find was in Google Books the 1892 volume of the Jähresbericht Deutsche Mathematiker-Vereinigung (which many of the references pointed to), but in fact not the first value of that journal which contains the actual proof.</description>
+      <description>&lt;p&gt;In preparing to cover Cantor&amp;rsquo;s proof of different infinite set&#xA;cardinalities (one of my all-time favorite topics!) in our &lt;a href=&#34;https://uvatoc.github.io/class4/&#34;&gt;theory of&#xA;computation course&lt;/a&gt;, I found various&#xA;conflicting accounts of what Cantor originally proved. So, I figured&#xA;it would be easy to search the web to find the original proof.&lt;/p&gt;&#xA;&lt;p&gt;Shockingly, at least as far as I could find&lt;sup&gt;1&lt;/sup&gt;, it didn&amp;rsquo;t&#xA;exist on the web! The closest I could find was in Google Books the&#xA;1892 volume of the &lt;em&gt;Jähresbericht Deutsche&#xA;Mathematiker-Vereinigung&lt;/em&gt; (which many of the references pointed&#xA;to), but in fact not the first value of that journal which contains&#xA;the actual proof.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

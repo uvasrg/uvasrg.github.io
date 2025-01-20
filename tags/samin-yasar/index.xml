@@ -4,7 +4,7 @@
     <title>Samin Yasar on Security Research Group</title>
     <link>//uvasrg.github.io/tags/samin-yasar/</link>
     <description>Recent content in Samin Yasar on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/ismr-2019-context-aware-monitoring-in-robotic-surgery/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/ismr-2019-context-aware-monitoring-in-robotic-surgery/</guid>
-      <description>Samin Yasar presented our paper on Context-award Monitoring in Robotic Surgery at the 2019 International Symposium on Medical Robotics (ISMR) in Atlanta, Georgia.&#xA;Robotic-assisted minimally invasive surgery (MIS) has enabled procedures with increased precision and dexterity, but surgical robots are still open loop and require surgeons to work with a tele-operation console providing only limited visual feedback. In this setting, mechanical failures, software faults, or human errors might lead to adverse events resulting in patient complications or fatalities.</description>
+      <description>&lt;p&gt;Samin Yasar presented our paper on &lt;a href=&#34;https://arxiv.org/abs/1901.09802&#34;&gt;&lt;em&gt;Context-award Monitoring in&#xA;Robotic Surgery&lt;/em&gt;&lt;/a&gt; at the 2019&#xA;&lt;a href=&#34;https://web.archive.org/web/20190416013641/http://www.ismr.gatech.edu/&#34;&gt;&lt;em&gt;International Symposium on Medical&#xA;Robotics&lt;/em&gt;&lt;/a&gt;&#xA;(ISMR) in Atlanta, Georgia.&lt;/p&gt;&#xA;&lt;center&gt;&lt;a href=&#34;//uvasrg.github.io/images/surgery.png&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/surgery.png&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;&lt;/center&gt;&#xA;&lt;p&gt;Robotic-assisted minimally invasive surgery (MIS) has enabled&#xA;procedures with increased precision and dexterity, but surgical robots&#xA;are still open loop and require surgeons to work with a tele-operation&#xA;console providing only limited visual feedback. In this setting,&#xA;mechanical failures, software faults, or human errors might lead to&#xA;adverse events resulting in patient complications or fatalities. We&#xA;argue that impending adverse events could be detected and mitigated by&#xA;applying context-specific safety constraints on the motions of the&#xA;robot. We present a context-aware safety monitoring system which&#xA;segments a surgical task into subtasks using kinematics data and&#xA;monitors safety constraints specific to each subtask. To test our&#xA;hypothesis about context specificity of safety constraints, we analyze&#xA;recorded demonstrations of dry-lab surgical tasks collected from the&#xA;JIGSAWS database as well as from experiments we conducted on a Raven&#xA;II surgical robot. Analysis of the trajectory data shows that each&#xA;subtask of a given surgical procedure has consistent safety&#xA;constraints across multiple demonstrations by different subjects. Our&#xA;preliminary results show that violations of these safety constraints&#xA;lead to unsafe events, and there is often sufficient time between the&#xA;constraint violation and the safety-critical event to allow for a&#xA;corrective action.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

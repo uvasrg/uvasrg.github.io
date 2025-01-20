@@ -95,9 +95,19 @@
 </div>
 
 
-Here are the slides for my talk at the 11th ACM Conference on Data and Application Security and Privacy:
-When Models Learn Too Much [PDF] The talk includes Bargav Jayaraman&rsquo;s work (with Katherine Knipmeyer, Lingxiao Wang, and Quanquan Gu) on evaluating privacy in machine learning, as well as more recent work by Anshuman Suri on property inference attacks, and Bargav on attribute inference and imputation:
-Merlin, Morgan, and the Importance of Thresholds and Priors Evaluating Differentially Private Machine Learning in Practice “When models learn too much.
+<p>Here are the slides for my talk at the
+<a href="http://www.codaspy.org/2021/program.html">11th ACM Conference on Data and Application Security and Privacy</a>:</p>
+   <center>
+<a href="https://www.dropbox.com/s/6wzloxuai709s0k/codaspy-post.pdf?dl=0)"><b>When Models Learn Too Much</b> [PDF]</a>
+   </center>
+<h2 id="heading"></h2>
+<p>The talk includes Bargav Jayaraman&rsquo;s work (with Katherine Knipmeyer, Lingxiao Wang, and Quanquan Gu) on evaluating privacy in machine learning, as well as more recent work by Anshuman Suri on property inference attacks, and Bargav on attribute inference and imputation:</p>
+<ul>
+<li><a href="/merlin-morgan-and-the-importance-of-thresholds-and-priors/"><em>Merlin, Morgan, and the Importance of Thresholds and Priors</em></a></li>
+<li><a href="/evaluating-differentially-private-machine-learning-in-practice/"><em>Evaluating Differentially Private Machine Learning in Practice</em></a></li>
+</ul>
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">“When models learn too much. “ Dr. David Evans <a href="https://twitter.com/UdacityDave?ref_src=twsrc%5Etfw">@UdacityDave</a> of University of Virginia gave a keynote talk on different inference risks for machine learning models this morning at <a href="https://twitter.com/hashtag/codaspy21?src=hash&amp;ref_src=twsrc%5Etfw">#codaspy21</a> <a href="https://t.co/KVgFoUA6sa">pic.twitter.com/KVgFoUA6sa</a></p>
 <p class="text-right"><a href="/codaspy-2021-keynote-when-models-learn-too-much/">Read More…</a></p>
 	
 
@@ -127,8 +137,35 @@ Merlin, Morgan, and the Importance of Thresholds and Priors Evaluating Different
 </div>
 
 
-I gave a talk on When Models Learn Too Much at the University of Waterloo (virtually) in the CrySP Speaker Series on Privacy (29 March 2021):
-Abstract Statistical machine learning uses training data to produce models that capture patterns in that data. When models are trained on private data, such as medical records or personal emails, there is a risk that those models not only learn the hoped-for patterns, but will also learn and expose sensitive information about their training data.
+<p>I gave a talk on <a href="https://crysp.uwaterloo.ca/speakers/20210329-Evans"><em>When Models Learn Too Much</em></a> at the University of Waterloo (virtually) in the CrySP
+Speaker Series on Privacy (29 March 2021):</p>
+<center>
+<iframe width="900" height="315" src="https://www.youtube-nocookie.com/embed/LM_-N76_KIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<center>
+<b>Abstract</b>
+</center>
+<p>Statistical machine learning uses training data to produce models that
+capture patterns in that data. When models are trained on private
+data, such as medical records or personal emails, there is a risk that
+those models not only learn the hoped-for patterns, but will also
+learn and expose sensitive information about their training
+data. Several different types of inference attacks on machine learning
+models have been found, and methods have been proposed to mitigate the
+risks of exposing sensitive aspects of training data. Differential
+privacy provides formal guarantees bounding certain types of inference
+risk, but, at least with state-of-the-art methods, providing
+substantive differential privacy guarantees requires adding so much
+noise to the training process for complex models that the resulting
+models are useless. Experimental evidence, however, suggests that
+inference attacks have limited power, and in many cases a very small
+amount of privacy noise seems to be enough to defuse inference
+attacks. In this talk, I will give an overview of a variety of
+different inference risks for machine learning models, talk about
+strategies for evaluating model inference risks, and report on some
+experiments by our research group to better understand the power of
+inference attacks in more realistic settings, and explore some broader
+the connections between privacy, fairness, and adversarial robustness.</p>
 <p class="text-right"><a href="/crysp-talk-when-models-learn-too-much/">Read More…</a></p>
 	
 
@@ -160,8 +197,27 @@ Abstract Statistical machine learning uses training data to produce models that 
 </div>
 
 
-Our paper on Improved Estimation of Concentration Under ℓp-Norm Distance Metrics Using Half Spaces (Jack Prescott, Xiao Zhang, and David Evans) will be presented at ICLR 2021.
-Abstract: Concentration of measure has been argued to be the fundamental cause of adversarial vulnerability. Mahloujifar et al. (2019) presented an empirical way to measure the concentration of a data distribution using samples, and employed it to find lower bounds on intrinsic robustness for several benchmark datasets.
+<p>Our paper on <a href="https://openreview.net/forum?id=BUlyHkzjgmA"><em>Improved Estimation of Concentration Under ℓ<sub>p</sub>-Norm Distance Metrics Using Half Spaces</em></a> (Jack Prescott, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and David Evans) will be presented at ICLR 2021.</p>
+<p><b>Abstract:</b> Concentration of measure has been argued to be the
+fundamental cause of adversarial vulnerability. Mahloujifar et
+al. (2019) presented an empirical way to measure the concentration of
+a data distribution using samples, and employed it to find lower
+bounds on intrinsic robustness for several benchmark
+datasets. However, it remains unclear whether these lower bounds are
+tight enough to provide a useful approximation for the intrinsic
+robustness of a dataset. To gain a deeper understanding of the
+concentration of measure phenomenon, we first extend the Gaussian
+Isoperimetric Inequality to non-spherical Gaussian measures and
+arbitrary ℓ<sub>p</sub>-norms (<em>p</em> ≥ 2). We leverage these
+theoretical insights to design a method that uses half-spaces to
+estimate the concentration of any empirical dataset under
+ℓ<sub>p</sub>-norm distance metrics. Our proposed algorithm is more
+efficient than Mahloujifar et al. (2019)&rsquo;s, and experiments on
+synthetic datasets and image benchmarks demonstrate that it is able to
+find much tighter intrinsic robustness bounds. These tighter estimates
+provide further evidence that rules out intrinsic dataset
+concentration as a possible explanation for the adversarial
+vulnerability of state-of-the-art classifiers.</p>
 <p class="text-right"><a href="/improved-estimation-of-concentration-iclr-2021/">Read More…</a></p>
 	
 
@@ -213,10 +269,19 @@ Abstract: Concentration of measure has been argued to be the fundamental cause o
 </div>
 
 
-Brink News (a publication of The Atlantic) published an essay I co-authored with Tom Nachbar (UVA Law School) on how the law views algorithmic accountability and the limits of what measures are permitted under the law to adjust algorithms to counter inequity:
-Algorithms Are Running Foul of Anti-Discrimination Law
-Tom Nachbar and David Evans
-Brink, 7 December 2020 Computing systems that are found to discriminate on prohibited bases, such as race or sex, are no longer surprising.
+<p>Brink News (a publication of <em>The Atlantic</em>) published an essay I
+co-authored with Tom Nachbar (UVA Law School) on how the law views
+algorithmic accountability and the limits of what measures are
+permitted under the law to adjust algorithms to counter inequity:</p>
+<center>
+<a
+href="https://www.brinknews.com/algorithms-are-running-foul-of-anti-discrimination-law/"><em><b>Algorithms
+Are Running Foul of Anti-Discrimination Law</em></b></a><br>
+Tom Nachbar and David Evans<br>
+Brink, 7 December 2020
+</center>
+<p><br></br></p>
+<p>Computing systems that are found to discriminate on prohibited bases, such as race or sex, are no longer surprising. We’ve seen hiring systems that discriminate <a href="https://www.brinknews.com/ethics-codes-are-not-enough-to-curb-the-danger-of-bias-in-ai/">against women</a> image systems that are prone to <a href="https://www.theatlantic.com/family/archive/2020/10/algorithmic-bias-especially-dangerous-teens/616793/">cropping out dark-colored faces</a> and <a href="https://www.theatlantic.com/technology/archive/2016/12/how-algorithms-can-bring-down-minorities-credit-scores/509333/">credit scoring systems that discriminate against minorities</a>.</p>
 <p class="text-right"><a href="/algorithmic-accountability-and-the-law/">Read More…</a></p>
 	
 
@@ -285,8 +350,14 @@ Brink, 7 December 2020 Computing systems that are found to discriminate on prohi
 </div>
 
 
-I was a source for thie &ldquo;Pants on Fire!&rdquo; fact check by PolitiFact on Donald Trump&rsquo;s tweet that fired Christopher Krebs claiming that &ldquo;The recent statement by Chris Krebs on the security of the 2020 Election was highly inaccurate, in that there were massive improprieties and fraud - including dead people voting, Poll Watchers not allowed into polling locations, “glitches” in the voting machines which changed&hellip;&rdquo;
-PolitiFact: Fact-checking Donald Trump’s tweet firing Christopher Krebs, 18 November 2020
+<p>I was a source for thie &ldquo;Pants on Fire!&rdquo; fact check by PolitiFact on
+Donald Trump&rsquo;s tweet that fired Christopher Krebs claiming that &ldquo;The
+recent statement by Chris Krebs on the security of the 2020 Election
+was highly inaccurate, in that there were massive improprieties and
+fraud - including dead people voting, Poll Watchers not allowed into
+polling locations, “glitches” in the voting machines which changed&hellip;&rdquo;</p>
+<img src="https://static.politifact.com/politifact/rulings/tom_ruling_pof.png" align="right" width=200>
+<p>PolitiFact: <a href="https://www.politifact.com/factchecks/2020/nov/18/donald-trump/fact-checking-donald-trumps-tweet-firing-christoph/"><em>Fact-checking Donald Trump’s tweet firing Christopher Krebs</em></a>, 18 November 2020</p>
 <p class="text-right"><a href="/fact-checking-donald-trumps-tweet-firing-christopher-krebs/">Read More…</a></p>
 	
 
@@ -345,8 +416,15 @@ security: <a href="https://www.nbc29.com/2020/10/21/virginia-is-one-safer-states
 </div>
 
 
-Post by Katherine Knipmeyer
-Machine learning poses a substantial risk that adversaries will be able to discover information that the model does not intend to reveal. One set of methods by which consumers can learn this sensitive information, known broadly as membership inference attacks, predicts whether or not a query record belongs to the training set. A basic membership inference attack involves an attacker with a given record and black-box access to a model who tries to determine whether said record was a member of the model’s training set.
+<p><em>Post by Katherine Knipmeyer</em></p>
+<p>Machine learning poses a substantial risk that adversaries will be
+able to discover information that the model does not intend to
+reveal. One set of methods by which consumers can learn this sensitive
+information, known broadly as <em>membership inference</em> attacks,
+predicts whether or not a query record belongs to the training set. A
+basic membership inference attack involves an attacker with a given
+record and black-box access to a model who tries to determine whether
+said record was a member of the model’s training set.</p>
 <p class="text-right"><a href="/merlin-morgan-and-the-importance-of-thresholds-and-priors/">Read More…</a></p>
 	
 
@@ -376,9 +454,18 @@ Machine learning poses a substantial risk that adversaries will be able to disco
 </div>
 
 
-Post by Sicheng Zhu
-With the rapid development of deep learning and the explosive growth of unlabeled data, representation learning is becoming increasingly important. It has made impressive applications such as pre-trained language models (e.g., BERT and GPT-3).
-Popular as it is, representation learning raises concerns about the robustness of learned representations under adversarial settings. For example, how can we compare the robustness to different representations, and how can we build representations that enable robust downstream classifiers?
+<p><em>Post by Sicheng Zhu</em></p>
+<p>With the rapid development of deep learning and the explosive growth
+of unlabeled data, <a href="https://arxiv.org/abs/1206.5538">representation
+learning</a> is becoming increasingly
+important. It has made impressive applications such as pre-trained
+language models (e.g., <a href="https://arxiv.org/abs/1810.04805">BERT</a> and
+<a href="https://github.com/openai/gpt-3">GPT-3</a>).</p>
+<p>Popular as it is, representation learning raises concerns about the
+robustness of learned representations under adversarial settings. For
+example, <em>how can we compare the robustness to different
+representations</em>, and <em>how can we build representations that enable
+robust downstream classifiers</em>?</p>
 <p class="text-right"><a href="/robustrepresentations/">Read More…</a></p>
 	
 

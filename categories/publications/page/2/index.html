@@ -88,11 +88,19 @@
 </div>
 
 
-New: Video Presentation
-Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.
-Existing black-box attacks can be grouped into two main categories:
-Transfer Attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model.
-Optimization Attacks use queries to the target model and apply optimization techniques to search for adversarial examples.
+<p><b><font color="red">New:</font> <a href="/hybrid-batch-attacks-at-usenix-security-2020/">Video Presentation</a></b></p>
+<h2 id="finding-black-box-adversarial-examples-with-limited-queries">Finding Black-box Adversarial Examples with Limited Queries</h2>
+<p>Black-box attacks generate adversarial examples (AEs) against deep
+neural networks with only API access to the victim model.</p>
+<p>Existing black-box attacks can be grouped into two main categories:</p>
+<ul>
+<li>
+<p><strong>Transfer Attacks</strong> use white-box attacks on local models to find
+candidate adversarial examples that transfer to the target model.</p>
+</li>
+<li>
+<p><strong>Optimization Attacks</strong> use queries to the target model and apply
+optimization techniques to search for adversarial examples.</p>
 <p class="text-right"><a href="/usenix-security-2020-hybrid-batch-attacks/">Read More…</a></p>
 	
 
@@ -124,8 +132,23 @@ Optimization Attacks use queries to the target model and apply optimization tech
 </div>
 
 
-Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
-Recent theoretical results, starting with Gilmer et al.&rsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.
+<p><a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a> will
+present our work (with <a
+href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a> and
+<a href="https://www.cs.virginia.edu/~mohammad/">Mohamood
+Mahmoody</a>) as a spotlight at <a href="https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792">NeurIPS
+2019</a>,
+Vancouver, 10 December 2019.</p>
+<p>Recent theoretical results, starting with Gilmer et al.&rsquo;s
+<a href="https://aipavilion.github.io/"><em>Adversarial Spheres</em></a> (2018), show
+that if inputs are drawn from a concentrated metric probability space,
+then adversarial examples with small perturbation are inevitable.c The
+key insight from this line of research is that <a href="https://en.wikipedia.org/wiki/Concentration_of_measure%22%3E"><em>concentration of
+measure</em></a>
+gives lower bound on adversarial risk for a large collection of
+classifiers (e.g. imperfect classifiers with risk at least $\alpha$),
+which further implies the impossibility results for robust learning
+against adversarial examples.</p>
 <p class="text-right"><a href="/neurips-2019-empirically-measuring-concentration/">Read More…</a></p>
 	
 
@@ -153,8 +176,12 @@ Recent theoretical results, starting with Gilmer et al.&rsquo;s Adversarial Sphe
 </div>
 
 
-Brink News (a publication of The Atlantic) published my essay on the risks of deploying AI systems.
-Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.
+<p>Brink News (a publication of <em>The Atlantic</em>) published my essay on the risks of deploying AI systems.</p>
+<center>
+<a href="https://www.brinknews.com/ai-systems-are-complex-and-fragile-here-are-four-key-risks-to-understand/"><img style="box-shadow: 10px 10px 5px grey;" src="/images/brink.png" width=90%"></a>
+</center>
+<p><span style="font-weight: 400;">Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. </span></p>
+<p><span style="font-weight: 400;">Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood. When AI systems are deployed to make important decisions that impact human safety and well-being, the potential risks of abuse and misbehavior are high and need to be carefully considered and mitigated.</span></p>
 <p class="text-right"><a href="/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./">Read More…</a></p>
 	
 
@@ -253,8 +280,33 @@ Specification, Robustness and Assurance</em></a>.</p>
 </div>
 
 
-Samin Yasar presented our paper on Context-award Monitoring in Robotic Surgery at the 2019 International Symposium on Medical Robotics (ISMR) in Atlanta, Georgia.
-Robotic-assisted minimally invasive surgery (MIS) has enabled procedures with increased precision and dexterity, but surgical robots are still open loop and require surgeons to work with a tele-operation console providing only limited visual feedback. In this setting, mechanical failures, software faults, or human errors might lead to adverse events resulting in patient complications or fatalities.
+<p>Samin Yasar presented our paper on <a href="https://arxiv.org/abs/1901.09802"><em>Context-award Monitoring in
+Robotic Surgery</em></a> at the 2019
+<a href="https://web.archive.org/web/20190416013641/http://www.ismr.gatech.edu/"><em>International Symposium on Medical
+Robotics</em></a>
+(ISMR) in Atlanta, Georgia.</p>
+<center><a href="/images/surgery.png"><img src="/images/surgery.png" width="80%"></a></center>
+<p>Robotic-assisted minimally invasive surgery (MIS) has enabled
+procedures with increased precision and dexterity, but surgical robots
+are still open loop and require surgeons to work with a tele-operation
+console providing only limited visual feedback. In this setting,
+mechanical failures, software faults, or human errors might lead to
+adverse events resulting in patient complications or fatalities. We
+argue that impending adverse events could be detected and mitigated by
+applying context-specific safety constraints on the motions of the
+robot. We present a context-aware safety monitoring system which
+segments a surgical task into subtasks using kinematics data and
+monitors safety constraints specific to each subtask. To test our
+hypothesis about context specificity of safety constraints, we analyze
+recorded demonstrations of dry-lab surgical tasks collected from the
+JIGSAWS database as well as from experiments we conducted on a Raven
+II surgical robot. Analysis of the trajectory data shows that each
+subtask of a given surgical procedure has consistent safety
+constraints across multiple demonstrations by different subjects. Our
+preliminary results show that violations of these safety constraints
+lead to unsafe events, and there is often sufficient time between the
+constraint violation and the safety-critical event to allow for a
+corrective action.</p>
 <p class="text-right"><a href="/ismr-2019-context-aware-monitoring-in-robotic-surgery/">Read More…</a></p>
 	
 
@@ -282,8 +334,21 @@ Robotic-assisted minimally invasive surgery (MIS) has enabled procedures with in
 </div>
 
 
-Xiao Zhang and my paper on Cost-Sensitive Robustness against Adversarial Examples has been accepted to ICLR 2019.
-Several recent works have developed methods for training classifiers that are certifiably robust against norm-bounded adversarial perturbations. However, these methods assume that all the adversarial transformations provide equal value for adversaries, which is seldom the case in real-world applications. We advocate for cost-sensitive robustness as the criteria for measuring the classifier&rsquo;s performance for specific tasks.
+<p>Xiao Zhang and my paper on <a href="https://openreview.net/forum?id=BygANhA9tQ&amp;noteId=BJe7cKRWeN"><em>Cost-Sensitive Robustness against Adversarial Examples</em></a> has been accepted to ICLR 2019.</p>
+<p>Several recent works have developed methods for training classifiers
+that are certifiably robust against norm-bounded adversarial
+perturbations. However, these methods assume that all the adversarial
+transformations provide equal value for adversaries, which is seldom
+the case in real-world applications. We advocate for cost-sensitive
+robustness as the criteria for measuring the classifier&rsquo;s performance
+for specific tasks. We encode the potential harm of different
+adversarial transformations in a cost matrix, and propose a general
+objective function to adapt the robust training method of Wong &amp;
+Kolter (2018) to optimize for cost-sensitive robustness. Our
+experiments on simple MNIST and CIFAR10 models and a variety of cost
+matrices show that the proposed approach can produce models with
+substantially reduced cost-sensitive robust error, while maintaining
+classification accuracy.</p>
 <p class="text-right"><a href="/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/">Read More…</a></p>
 	
 
@@ -311,10 +376,29 @@ Several recent works have developed methods for training classifiers that are ce
 </div>
 
 
-A Pragmatic Introduction to Secure Multi-Party Computation, co-authored with Vladimir Kolesnikov and Mike Rosulek, is now published by Now Publishers in their Foundations and Trends in Privacy and Security series.
-You can download the book for free (we retain the copyright and are allowed to post an open version) from securecomputation.org, or buy an PDF version from the published for $260 (there is also a printed $99 version).
-Secure multi-party computation (MPC) has evolved from a theoretical curiosity in the 1980s to a tool for building real systems today.
-<p class="text-right"><a href="/a-pragmatic-introduction-to-secure-multi-party-computation/">Read More…</a></p>
+<p><a href="//securecomputation.org"><img src="/images/pragmaticmpc.jpg" align="right"></a></p>
+<p><em>A Pragmatic Introduction to Secure Multi-Party Computation</em>,
+co-authored with Vladimir Kolesnikov and Mike Rosulek, is now
+published by Now Publishers in their
+<a href="https://www.nowpublishers.com/SEC"><em>Foundations and Trends in Privacy and Security</em></a> series.</p>
+<p>You can download the book for free (we retain the copyright and are
+allowed to post an open version) from
+<a href="//securecomputation.org">securecomputation.org</a>, or buy an PDF
+version from the published for $260 (there is also a printed $99
+version).</p>
+<div class="abstract">
+Secure multi-party computation (MPC) has evolved from a theoretical
+curiosity in the 1980s to a tool for building real systems today. Over
+the past decade, MPC has been one of the most active research areas in
+both theoretical and applied cryptography. This book introduces
+several important MPC protocols, and surveys methods for improving the
+efficiency of privacy-preserving applications built using MPC. Besides
+giving a broad overview of the field and the insights of the main
+constructions, we overview the most currently active areas of MPC
+research and aim to give readers insights into what problems are
+practically solvable using MPC today and how different threat models
+and assumptions impact the practicality of different approaches.
+</div>
 	
 
     
@@ -341,8 +425,13 @@ Secure multi-party computation (MPC) has evolved from a theoretical curiosity in
 </div>
 
 
-Bargav Jayaraman presented our work on privacy-preserving machine learning at the 32nd Conference on Neural Information Processing Systems (NeurIPS 2018) in Montreal.
-Distributed learning (sometimes known as federated learning) allows a group of independent data owners to collaboratively learn a model over their data sets without exposing their private data. Our approach combines differential privacy with secure multi-party computation to both protect the data during training and produce a model that provides privacy against inference attacks.
+<p>Bargav Jayaraman presented our work on privacy-preserving machine learning at the <a href="https://nips.cc/Conferences/2018/">32<sup>nd</sup> <em>Conference on Neural Information Processing Systems</em></a> (NeurIPS 2018) in Montreal.</p>
+<p><em>Distributed learning</em> (sometimes known as <em>federated learning</em>)
+allows a group of independent data owners to collaboratively learn a
+model over their data sets without exposing their private data.  Our
+approach combines <em>differential privacy</em> with secure <em>multi-party
+computation</em> to both protect the data during training and produce a
+model that provides privacy against inference attacks.</p>
 <p class="text-right"><a href="/neurips-2018-distributed-learning-without-distress/">Read More…</a></p>
 	
 

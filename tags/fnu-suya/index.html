@@ -217,9 +217,19 @@
 </div>
 
 
-Post by Anshuman Suri and Fnu Suya
-Much research has studied black-box attacks on image classifiers, where adversaries generate adversarial examples against unknown target models without having access to their internal information. Our analysis of over 164 attacks (published in 102 major security, machine learning and security conferences) shows how these works make different assumptions about the adversary’s knowledge.
-The current literature lacks cohesive organization centered around the threat model. Our SoK paper (to appear at IEEE SaTML 2024) introduces a taxonomy for systematizing these attacks and demonstrates the importance of careful evaluations that consider adversary resources and threat models.
+<p>Post by <strong><a href="https://www.anshumansuri.com/">Anshuman Suri</a></strong> and <strong><a href="https://fsuya.org/">Fnu Suya</a></strong></p>
+<p>Much research has studied black-box attacks on image classifiers,
+where adversaries generate adversarial examples against unknown target
+models without having access to their internal information. Our
+analysis of over 164 attacks (published in 102 major security, machine
+learning and security conferences) shows how these works make
+different assumptions about the adversary’s knowledge.</p>
+<p>The current literature lacks cohesive organization centered around the
+threat model. Our <a href="https://arxiv.org/abs/2310.17534">SoK paper</a> (to
+appear at <a href="https://satml.org/">IEEE SaTML 2024</a>) introduces a taxonomy
+for systematizing these attacks and demonstrates the importance of
+careful evaluations that consider adversary resources and threat
+models.</p>
 <p class="text-right"><a href="/sok-pitfalls-in-evaluating-black-box-attacks/">Read More…</a></p>
 	
 
@@ -251,8 +261,8 @@ The current literature lacks cohesive organization centered around the threat mo
 </div>
 
 
-Post by Fnu Suya
-Data poisoning attacks are recognized as a top concern in the industry [1]. We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging [2]. In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.
+<p>Post by <strong><a href="https://fsuya.org/">Fnu Suya</a></strong></p>
+<p>Data poisoning attacks are recognized as a top concern in the industry <a href="https://arxiv.org/abs/2002.05646">[1]</a>. We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging <a href="https://arxiv.org/abs/2303.03592">[2]</a>. In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.</p>
 <p class="text-right"><a href="/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/">Read More…</a></p>
 	
 
@@ -282,9 +292,18 @@ Data poisoning attacks are recognized as a top concern in the industry [1]. We f
 </div>
 
 
-Congratulations to Fnu Suya for successfully defending his PhD thesis!
-Suya will join the Unversity of Maryland as a MC2 Postdoctoral Fellow at the Maryland Cybersecurity Center this fall.
-On the Limits of Data Poisoning Attacks Current machine learning models require large amounts of labeled training data, which are often collected from untrusted sources. Models trained on these potentially manipulated data points are prone to data poisoning attacks. My research aims to gain a deeper understanding on the limits of two types of data poisoning attacks: indiscriminate poisoning attacks, where the attacker aims to increase the test error on the entire dataset; and subpopulation poisoning attacks, where the attacker aims to increase the test error on a defined subset of the distribution.
+<p>Congratulations to <a href="fsuya.org">Fnu Suya</a> for successfully defending
+his PhD thesis!</p>
+<p>Suya will join the Unversity of Maryland as a MC2 Postdoctoral Fellow
+at the <a href="https://cyber.umd.edu/about">Maryland Cybersecurity Center</a> this fall.</p>
+<h2 id="heading"></h2>
+<center>
+<em>
+On the Limits of Data Poisoning Attacks
+</em>
+</center>
+<h2 id="heading-1"></h2>
+<p>Current machine learning models require large amounts of labeled training data, which are often collected from untrusted sources. Models trained on these potentially manipulated data points are prone to data poisoning attacks. My research aims to gain a deeper understanding on the limits of two types of data poisoning attacks: indiscriminate poisoning attacks, where the attacker aims to increase the test error on the entire dataset; and subpopulation poisoning attacks, where the attacker aims to increase the test error on a defined subset of the distribution. We first present an empirical poisoning attack that encodes the attack objectives into target models and then generates poisoning points that induce the target models (and hence the encoded objectives) with provable convergence. This attack achieves state-of-the-art performance for a diverse set of attack objectives and quantifies a lower bound to the performance of best possible poisoning attacks. In the broader sense, because the attack guarantees convergence to the target model which encodes the desired attack objective, our attack can also be applied to objectives related to other trustworthy aspects (e.g., privacy, fairness) of machine learning.</p>
 <p class="text-right"><a href="/congratulations-dr.-suya/">Read More…</a></p>
 	
 
@@ -322,9 +341,19 @@ On the Limits of Data Poisoning Attacks Current machine learning models require 
 </div>
 
 
-Manipulating Transfer Learning for Property Inference Transfer learning is a popular method to train deep learning models efficiently. By reusing parameters from upstream pre-trained models, the downstream trainer can use fewer computing resources to train downstream models, compared to training models from scratch.
-The figure below shows the typical process of transfer learning for vision tasks:
-However, the nature of transfer learning can be exploited by a malicious upstream trainer, leading to severe risks to the downstream trainer.
+<h1 id="manipulating-transfer-learning-for-property-inference">Manipulating Transfer Learning for Property Inference</h1>
+<p>Transfer learning is a popular method to train deep learning models
+efficiently. By reusing parameters from upstream pre-trained models,
+the downstream trainer can use fewer computing resources to train
+downstream models, compared to training models from scratch.</p>
+<p>The figure below shows the typical process of transfer learning for
+vision tasks:</p>
+<center>
+<a href="/images/mtlpi/fig1.png"><img src="/images/mtlpi/fig1.png" width="80%"></a>
+</center>
+<p>However, the nature of transfer learning can be exploited by a
+malicious upstream trainer, leading to severe risks to the downstream
+trainer.</p>
 <p class="text-right"><a href="/cvpr-2023-manipulating-transfer-learning-for-property-inference/">Read More…</a></p>
 	
 
@@ -354,12 +383,26 @@ However, the nature of transfer learning can be exploited by a malicious upstrea
 </div>
 
 
-How does a poisoning attack work and why are some groups more susceptible to being victimized by a poisoning attack?
-We&rsquo;ve posted work that helps understand how poisoning attacks work with some engaging visualizations:
-Poisoning Attacks and Subpopulation Susceptibility
-An Experimental Exploration on the Effectiveness of Poisoning Attacks
-Evan Rose, Fnu Suya, and David Evans
-Follow the link to try the interactive version! Machine learning is susceptible to poisoning attacks in which adversaries inject maliciously crafted training data into the training set to induce specific model behavior.
+<p><em>How does a poisoning attack work and why are some groups more
+susceptible to being victimized by a poisoning attack?</em></p>
+<p>We&rsquo;ve posted work that helps understand how poisoning attacks work
+with some engaging visualizations:</p>
+<p><a href="/poisoning">Poisoning Attacks and Subpopulation Susceptibility</a><br>
+<em>An Experimental Exploration on the Effectiveness of Poisoning Attacks</em><br>
+Evan Rose, Fnu Suya, and David Evans</p>
+<center>
+<a href="/poisoning"><img src="/images/visualizingpoisoning.png" width="85%"></a><br>
+Follow <a href="/poisoning">the link</a> to try the interactive version!
+</center>
+<h1 id="heading"></h1>
+<p>Machine learning is susceptible to poisoning attacks in which
+adversaries inject maliciously crafted training data into the training
+set to induce specific model behavior. We focus on subpopulation
+attacks, in which the attacker&rsquo;s goal is to induce a model that
+produces a targeted and incorrect output (label blue in our demos) for
+a particular subset of the input space (colored orange). We study the
+question, which subpopulations are the most vulnerable to an attack
+and why?</p>
 <p class="text-right"><a href="/visualizing-poisoning/">Read More…</a></p>
 	
 
@@ -397,9 +440,18 @@ Follow the link to try the interactive version! Machine learning is susceptible 
 </div>
 
 
-(Post by Sean Miller, using images adapted from Suya&rsquo;s talk slides)
-Data Poisoning Attacks Machine learning models are often trained using data from untrusted sources, leaving them open to poisoning attacks where adversaries use their control over a small fraction of that training data to poison the model in a particular way.
-Most work on poisoning attacks is directly driven by an attacker&rsquo;s objective, where the adversary chooses poisoning points that maximize some target objective.
+<p>(Post by Sean Miller, using images adapted from Suya&rsquo;s talk slides)</p>
+<h2 id="data-poisoning-attacks">Data Poisoning Attacks</h2>
+<p>Machine learning models are often trained using data from untrusted
+sources, leaving them open to poisoning attacks where adversaries use
+their control over a small fraction of that training data to poison
+the model in a particular way.</p>
+<p>Most work on poisoning attacks is directly driven by an attacker&rsquo;s
+objective, where the adversary chooses poisoning points that maximize
+some target objective. Our work focuses on <em>model-targeted</em> poisoning
+attacks, where the adversary splits the attack into choosing a target
+model that satisfies the objective and then choosing poisoning points
+that induce the target model.</p>
 <p class="text-right"><a href="/model-targeted-poisoning-attacks-with-provable-convergence/">Read More…</a></p>
 	
 

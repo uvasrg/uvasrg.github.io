@@ -128,7 +128,7 @@ Mean distinguishing accuracy on Celeb-A (Sex), for varying number of training ep
 
 The general approach to achieve security and privacy for machine-learning models is to add noise, but our evaluations suggest this approach is not a principled or effective defense against distribution inference. The main reductions in inference accuracy that result from these defenses seem to be due to the way they disrupt the model from learning the distribution well.
 
-<b>Paper</b>: [Anshuman Suri](http://anshumansuri.me/), Yifu Lu, Yanjin Chen, [David Evans](http://www.cs.virginia.edu/~evans/). [_Dissecting Distribution Inference_](https://arxiv.org/abs/2212.07591).
+<b>Paper</b>: [Anshuman Suri](http://anshumansuri.com/), Yifu Lu, Yanjin Chen, [David Evans](http://www.cs.virginia.edu/~evans/). [_Dissecting Distribution Inference_](https://arxiv.org/abs/2212.07591).
 In <a href="https://satml.org/"><em>IEEE Conference on Secure and Trustworthy Machine Learning</em></a> (SaTML), 8-10 February 2023.
 
 <b>Code</b>: [https://github.com/iamgroot42/dissecting_distribution_inference](https://github.com/iamgroot42/dissecting_distribution_inference)

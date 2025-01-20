@@ -106,9 +106,8 @@
 </blockquote>
 <h2 id="heading"></h2>
 <center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tired of diverse definitions of machine learning privacy risks? Curious about game-based definitions? In our paper, we present privacy games as a tool for describing and analyzing privacy risks in machine learning. Join us on May 22nd, 11 AM <a href="https://twitter.com/IEEESSP?ref_src=twsrc%5Etfw">@IEEESSP</a> &#39;23 <a href="https://t.co/NbRuTmHyd2">https://t.co/NbRuTmHyd2</a> <a href="https://t.co/CIzsT7UY4b">pic.twitter.com/CIzsT7UY4b</a></p>&mdash; ahmed salem (@AhmedGaSalem) <a href="https://twitter.com/AhmedGaSalem/status/1658210153341001736?ref_src=twsrc%5Etfw">May 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
-
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tired of diverse definitions of machine learning privacy risks? Curious about game-based definitions? In our paper, we present privacy games as a tool for describing and analyzing privacy risks in machine learning. Join us on May 22nd, 11 AM <a href="https://twitter.com/IEEESSP?ref_src=twsrc%5Etfw">@IEEESSP</a> &#39;23 <a href="https://t.co/NbRuTmHyd2">https://t.co/NbRuTmHyd2</a> <a href="https://t.co/CIzsT7UY4b">pic.twitter.com/CIzsT7UY4b</a></p>
+<p class="text-right"><a href="/sok-let-the-privacy-games-begin-a-unified-treatment-of-data-inference-privacy-in-machine-learning/">Read More…</a></p>
 	
 
     
@@ -145,9 +144,19 @@
 </div>
 
 
-Manipulating Transfer Learning for Property Inference Transfer learning is a popular method to train deep learning models efficiently. By reusing parameters from upstream pre-trained models, the downstream trainer can use fewer computing resources to train downstream models, compared to training models from scratch.
-The figure below shows the typical process of transfer learning for vision tasks:
-However, the nature of transfer learning can be exploited by a malicious upstream trainer, leading to severe risks to the downstream trainer.
+<h1 id="manipulating-transfer-learning-for-property-inference">Manipulating Transfer Learning for Property Inference</h1>
+<p>Transfer learning is a popular method to train deep learning models
+efficiently. By reusing parameters from upstream pre-trained models,
+the downstream trainer can use fewer computing resources to train
+downstream models, compared to training models from scratch.</p>
+<p>The figure below shows the typical process of transfer learning for
+vision tasks:</p>
+<center>
+<a href="/images/mtlpi/fig1.png"><img src="/images/mtlpi/fig1.png" width="80%"></a>
+</center>
+<p>However, the nature of transfer learning can be exploited by a
+malicious upstream trainer, leading to severe risks to the downstream
+trainer.</p>
 <p class="text-right"><a href="/cvpr-2023-manipulating-transfer-learning-for-property-inference/">Read More…</a></p>
 	
 
@@ -177,8 +186,17 @@ However, the nature of transfer learning can be exploited by a malicious upstrea
 </div>
 
 
-Anshuman Suri wrote up an interesting post on his experience with the MICO Challenge, a membership inference competition that was part of SaTML. Anshuman placed second in the competition (on the CIFAR data set), where the metric is highest true positive rate at a 0.1 false positive rate over a set of models (some trained using differential privacy and some without).
-Anshuman&rsquo;s post describes the methods he used and his experience in the competition: My submission to the MICO Challenge.
+<p><a href="https://www.anshumansuri.com">Anshuman Suri</a> wrote up an interesting
+post on his experience with the <a href="https://github.com/microsoft/MICO">MICO
+Challenge</a>, a membership inference
+competition that was part of <a href="https://satml.org/">SaTML</a>. Anshuman
+placed second in the competition (on the CIFAR data set), where the
+metric is highest true positive rate at a 0.1 false positive rate over
+a set of models (some trained using differential privacy and some
+without).</p>
+<p>Anshuman&rsquo;s post describes the methods he used and his experience in
+the competition: <a href="https://www.anshumansuri.com/post/mico/"><em>My submission to the MICO
+Challenge</em></a>.</p>
 <p class="text-right"><a href="/mico-challenge-in-membership-inference/">Read More…</a></p>
 	
 
@@ -240,11 +258,12 @@ Anshuman&rsquo;s post describes the methods he used and his experience in the co
 </div>
 
 
-Jack Clark&rsquo;s Import AI, 16 Jan 2023 includes a nice description of our work on TrojanPuzzle:
-####################################################
-Uh-oh, there's a new way to poison code models - and it's really hard to detect:
-…TROJANPUZZLE is a clever way to trick your code model into betraying you - if you can poison the undelrying dataset…
-Researchers with the University of California, Santa Barbara, Microsoft Corporation, and the University of Virginia have come up with some clever, subtle ways to poison the datasets used to train code models.
+<p>Jack Clark&rsquo;s <a href="https://mailchi.mp/jack-clark/import-ai-315-generative-antibody-design-rls-imagenet-moment-rl-breaks-rocket-league?e=545365c0e9">Import AI, 16 Jan 2023</a> includes a nice description of our work on TrojanPuzzle:</p>
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><strong>####################################################</strong></p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><strong>Uh-oh, there's a new way to poison code models - and it's really hard to detect:</strong><br>
+<em>…TROJANPUZZLE is a clever way to trick your code model into betraying you - if you can poison the undelrying dataset…</em><br>
+Researchers with the University of California, Santa Barbara, Microsoft Corporation, and the University of Virginia have come up with some clever, subtle ways to poison the datasets used to train code models. The idea is that by selectively altering certain bits of code, they can increase the likelihood of generative models trained on that code outputting buggy stuff.&nbsp;</p>
 <p class="text-right"><a href="/uh-oh-theres-a-new-way-to-poison-code-models/">Read More…</a></p>
 	
 
@@ -274,10 +293,15 @@ Researchers with the University of California, Santa Barbara, Microsoft Corporat
 </div>
 
 
-Bleeping Computer has a story on our work (in collaboration with Microsoft Research) on poisoning code suggestion models:
-Trojan Puzzle attack trains AI assistants into suggesting malicious code By Bill Toulas
-Researchers at the universities of California, Virginia, and Microsoft have devised a new poisoning attack that could trick AI-based coding assistants into suggesting dangerous code.
-Named &lsquo;Trojan Puzzle,&rsquo; the attack stands out for bypassing static detection and signature-based dataset cleansing models, resulting in the AI models being trained to learn how to reproduce dangerous payloads.
+<p>Bleeping Computer has a <a href="https://www.bleepingcomputer.com/news/security/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">story on our work</a> (in collaboration with Microsoft Research) on poisoning code suggestion models:</p>
+<h1>Trojan Puzzle attack trains AI assistants into suggesting malicious code</h1>
+<p>By <b>Bill Toulas</b></p>
+<center>
+<img alt="Person made of jigsaw puzzle pieces" height="900" src="https://www.bleepstatic.com/content/hl-images/2022/10/09/mystery-hacker.jpg" width="80%"></img>
+</center>
+<p> </p>
+<p>Researchers at the universities of California, Virginia, and Microsoft have devised a new poisoning attack that could trick AI-based coding assistants into suggesting dangerous code.</p>
+<p>Named &lsquo;Trojan Puzzle,&rsquo; the attack stands out for bypassing static detection and signature-based dataset cleansing models, resulting in the AI models being trained to learn how to reproduce dangerous payloads.</p>
 <p class="text-right"><a href="/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">Read More…</a></p>
 	
 
@@ -307,11 +331,11 @@ Named &lsquo;Trojan Puzzle,&rsquo; the attack stands out for bypassing static de
 </div>
 
 
-Poisoning Attacks and Subpopulation Susceptibility by Evan Rose, Fnu Suya, and David Evans won the Best Submission Award at the 5th Workshop on Visualization for AI Explainability.
-Undergraduate student Evan Rose led the work and presented it at VISxAI in Oklahoma City, 17 October 2022.
-Congratulations to #VISxAI&#39;s Best Submission Awards:
-🏆 K-Means Clustering: An Explorable Explainer by @yizhe_ang https://t.co/BULW33WPzo
-🏆 Poisoning Attacks and Subpopulation Susceptibility by Evan Rose, @suyafnu, and @UdacityDave https://t.
+<p><a href="https://uvasrg.github.io/poisoning/"><em>Poisoning Attacks and Subpopulation Susceptibility</em></a> by Evan Rose, Fnu Suya, and David Evans won the Best Submission Award at the <a href="https://visxai.io/">5th Workshop on Visualization for AI Explainability</a>.</p>
+<p>Undergraduate student Evan Rose led the work and presented it at VISxAI in Oklahoma City, 17 October 2022.</p>
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Congratulations to <a href="https://twitter.com/hashtag/VISxAI?src=hash&amp;ref_src=twsrc%5Etfw">#VISxAI</a>&#39;s Best Submission Awards:<br><br>🏆 K-Means Clustering: An Explorable Explainer by <a href="https://twitter.com/yizhe_ang?ref_src=twsrc%5Etfw">@yizhe_ang</a> <a href="https://t.co/BULW33WPzo">https://t.co/BULW33WPzo</a><br><br>🏆 Poisoning Attacks and Subpopulation Susceptibility by Evan Rose, <a href="https://twitter.com/suyafnu?ref_src=twsrc%5Etfw">@suyafnu</a>, and <a href="https://twitter.com/UdacityDave?ref_src=twsrc%5Etfw">@UdacityDave</a> <a href="https://t.co/Z12D3PvfXu">https://t.co/Z12D3PvfXu</a><a href="https://twitter.com/hashtag/ieeevis?src=hash&amp;ref_src=twsrc%5Etfw">#ieeevis</a></p>&mdash; VISxAI (@VISxAI) <a href="https://twitter.com/VISxAI/status/1582085676857577473?ref_src=twsrc%5Etfw">October 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Next up is best submission award 🏅 winner, &quot;Poisoning Attacks and Subpopulation Susceptibility&quot; by Evan Rose, <a href="https://twitter.com/suyafnu?ref_src=twsrc%5Etfw">@suyafnu</a>, and <a href="https://twitter.com/UdacityDave?ref_src=twsrc%5Etfw">@UdacityDave</a>.<br><br>Tune in to learn why some data subpopulations are more vulnerable to attacks than others!<a href="https://t.co/Z12D3PvfXu">https://t.co/Z12D3PvfXu</a><a href="https://twitter.com/hashtag/ieeevis?src=hash&amp;ref_src=twsrc%5Etfw">#ieeevis</a> <a href="https://twitter.com/hashtag/VISxAI?src=hash&amp;ref_src=twsrc%5Etfw">#VISxAI</a> <a href="https://t.co/Gm2JBpWQSP">pic.twitter.com/Gm2JBpWQSP</a></p>
 <p class="text-right"><a href="/best-submission-award-at-visxai-2022/">Read More…</a></p>
 	
 
@@ -341,12 +365,26 @@ Congratulations to #VISxAI&#39;s Best Submission Awards:
 </div>
 
 
-How does a poisoning attack work and why are some groups more susceptible to being victimized by a poisoning attack?
-We&rsquo;ve posted work that helps understand how poisoning attacks work with some engaging visualizations:
-Poisoning Attacks and Subpopulation Susceptibility
-An Experimental Exploration on the Effectiveness of Poisoning Attacks
-Evan Rose, Fnu Suya, and David Evans
-Follow the link to try the interactive version! Machine learning is susceptible to poisoning attacks in which adversaries inject maliciously crafted training data into the training set to induce specific model behavior.
+<p><em>How does a poisoning attack work and why are some groups more
+susceptible to being victimized by a poisoning attack?</em></p>
+<p>We&rsquo;ve posted work that helps understand how poisoning attacks work
+with some engaging visualizations:</p>
+<p><a href="/poisoning">Poisoning Attacks and Subpopulation Susceptibility</a><br>
+<em>An Experimental Exploration on the Effectiveness of Poisoning Attacks</em><br>
+Evan Rose, Fnu Suya, and David Evans</p>
+<center>
+<a href="/poisoning"><img src="/images/visualizingpoisoning.png" width="85%"></a><br>
+Follow <a href="/poisoning">the link</a> to try the interactive version!
+</center>
+<h1 id="heading"></h1>
+<p>Machine learning is susceptible to poisoning attacks in which
+adversaries inject maliciously crafted training data into the training
+set to induce specific model behavior. We focus on subpopulation
+attacks, in which the attacker&rsquo;s goal is to induce a model that
+produces a targeted and incorrect output (label blue in our demos) for
+a particular subset of the input space (colored orange). We study the
+question, which subpopulations are the most vulnerable to an attack
+and why?</p>
 <p class="text-right"><a href="/visualizing-poisoning/">Read More…</a></p>
 	
 
@@ -374,9 +412,47 @@ Follow the link to try the interactive version! Machine learning is susceptible 
 </div>
 
 
-Congratulations to Xiao Zhang for successfully defending his PhD thesis!
-Dr. Zhang and his PhD committee: Somesh Jha (University of Wisconsin), David Evans, Tom Fletcher; Tianxi&nbsp;Li&nbsp;(UVA&nbsp;Statistics), David&nbsp;Wu&nbsp;(UT&nbsp;Austin), Mohammad&nbsp;Mahmoody; Xiao&nbsp;Zhang. Xiao will join the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany this fall as a tenure-track faculty member.
-From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning The prevalence of adversarial examples raises questions about the reliability of machine learning systems, especially for their deployment in critical applications.
+<p>Congratulations to Xiao Zhang for successfully defending his PhD thesis!</p>
+<center>
+<img src="/images/xiaozhangphd.png" width="75%">
+<div class="caption">
+Dr. Zhang and his PhD committee: Somesh Jha (University of Wisconsin), David Evans, Tom Fletcher; Tianxi&nbsp;Li&nbsp;(UVA&nbsp;Statistics), David&nbsp;Wu&nbsp;(UT&nbsp;Austin), Mohammad&nbsp;Mahmoody; Xiao&nbsp;Zhang.
+</center>
+<h2 id="heading"></h2>
+<p>Xiao will join the <a href="https://cispa.de/en">CISPA Helmholtz Center for Information
+Security</a> in Saarbrücken, Germany this fall as a
+tenure-track faculty member.</p>
+<h2 id="heading-1"></h2>
+<center>
+<em>From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning</em>
+</center>
+<h2 id="heading-2"></h2>
+<p>The prevalence of adversarial examples raises questions about the
+reliability of machine learning systems, especially for their
+deployment in critical applications. Numerous defense mechanisms have
+been proposed that aim to improve a machine learning system’s
+robustness in the presence of adversarial examples. However, none of
+these methods are able to produce satisfactorily robust models, even
+for simple classification tasks on benchmarks. In addition to
+empirical attempts to build robust models, recent studies have
+identified intrinsic limitations for robust learning against
+adversarial examples. My research aims to gain a deeper understanding
+of why machine learning models fail in the presence of adversaries and
+design ways to build better robust systems. In this dissertation, I
+develop a concentration estimation framework to characterize the
+intrinsic limits of robustness for typical classification tasks of
+interest. The proposed framework leads to the discovery that compared
+with the concentration of measure which was previously argued to be an
+important factor, the existence of uncertain inputs may explain more
+fundamentally the vulnerability of state-of-the-art
+defenses. Moreover, to further advance our understanding of
+adversarial examples, I introduce a notion of representation
+robustness based on mutual information, which is shown to be related
+to an intrinsic limit of model robustness for downstream
+classification tasks. Finally in this dissertation, I advocate for a
+need to rethink the current design goal of robustness and shed light
+on ways to build better robust machine learning systems, potentially
+escaping the intrinsic limits of robustness.</p>
 <p class="text-right"><a href="/congratulations-dr.-zhang/">Read More…</a></p>
 	
 
@@ -406,8 +482,19 @@ From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learnin
 </div>
 
 
-(Blog post written by Xiao Zhang)
-Motivated by the empirical hardness of developing robust classifiers against adversarial perturbations, researchers began asking the question “Does there even exist a robust classifier?”. This is formulated as the intrinsic robustness problem (Mahloujifar et al., 2019), where the goal is to characterize the maximum adversarial robustness possible for a given robust classification problem. Building upon the connection between adversarial robustness and classifier’s error region, it has been shown that if we restrict the search to the set of imperfect classifiers, the intrinsic robustness problem can be reduced to the concentration of measure problem.
+<p>(Blog post written by <a href="https://xiao-zhang.net/">Xiao Zhang</a>)</p>
+<p>Motivated by the empirical hardness of developing robust classifiers
+against adversarial perturbations, researchers began asking the
+question “<em>Does there even exist a robust classifier?</em>”. This is
+formulated as the <strong><em>intrinsic robustness problem</em></strong> <a href="https://proceedings.neurips.cc/paper/2019/file/46f76a4bda9a9579eab38a8f6eabcda1-Paper.pdf">(Mahloujifar et
+al.,
+2019)</a>,
+where the goal is to characterize the maximum adversarial robustness
+possible for a given robust classification problem. Building upon the
+connection between adversarial robustness and classifier’s error
+region, it has been shown that if we restrict the search to the set of
+imperfect classifiers, the intrinsic robustness problem can be reduced
+to the <strong><em>concentration of measure problem</em></strong>.</p>
 <p class="text-right"><a href="/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/">Read More…</a></p>
 	
 

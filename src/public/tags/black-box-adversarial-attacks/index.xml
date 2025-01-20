@@ -4,7 +4,7 @@
     <title>Black-Box Adversarial Attacks on Security Research Group</title>
     <link>//uvasrg.github.io/tags/black-box-adversarial-attacks/</link>
     <description>Recent content in Black-Box Adversarial Attacks on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>//uvasrg.github.io/satml-talk-sok-pitfalls-in-evaluating-black-box-attacks/</link>
       <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/satml-talk-sok-pitfalls-in-evaluating-black-box-attacks/</guid>
-      <description>Anshuman Suri&amp;rsquo;s talk at IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) is now available:&#xA;See the earlier blog post for more on the work, and the paper at https://arxiv.org/abs/2310.17534.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.anshumansuri.com/&#34;&gt;Anshuman Suri&lt;/a&gt;&amp;rsquo;s talk at &lt;a href=&#34;https://satml.org/&#34;&gt;IEEE Conference on Secure and Trustworthy Machine Learning&lt;/a&gt; (SaTML) is now available:&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/ui4HMGe3aUs?si=M2A-uD77s4BdhXPR&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/&#34;&gt;earlier blog post&lt;/a&gt; for more on the work, and the paper at &lt;a href=&#34;https://arxiv.org/abs/2310.17534&#34;&gt;https://arxiv.org/abs/2310.17534&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SoK: Pitfalls in Evaluating Black-Box Attacks</title>
       <link>//uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/</guid>
-      <description>Post by Anshuman Suri and Fnu Suya&#xA;Much research has studied black-box attacks on image classifiers, where adversaries generate adversarial examples against unknown target models without having access to their internal information. Our analysis of over 164 attacks (published in 102 major security, machine learning and security conferences) shows how these works make different assumptions about the adversary’s knowledge.&#xA;The current literature lacks cohesive organization centered around the threat model. Our SoK paper (to appear at IEEE SaTML 2024) introduces a taxonomy for systematizing these attacks and demonstrates the importance of careful evaluations that consider adversary resources and threat models.</description>
+      <description>&lt;p&gt;Post by &lt;strong&gt;&lt;a href=&#34;https://www.anshumansuri.com/&#34;&gt;Anshuman Suri&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&#34;https://fsuya.org/&#34;&gt;Fnu Suya&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Much research has studied black-box attacks on image classifiers,&#xA;where adversaries generate adversarial examples against unknown target&#xA;models without having access to their internal information. Our&#xA;analysis of over 164 attacks (published in 102 major security, machine&#xA;learning and security conferences) shows how these works make&#xA;different assumptions about the adversary’s knowledge.&lt;/p&gt;&#xA;&lt;p&gt;The current literature lacks cohesive organization centered around the&#xA;threat model. Our &lt;a href=&#34;https://arxiv.org/abs/2310.17534&#34;&gt;SoK paper&lt;/a&gt; (to&#xA;appear at &lt;a href=&#34;https://satml.org/&#34;&gt;IEEE SaTML 2024&lt;/a&gt;) introduces a taxonomy&#xA;for systematizing these attacks and demonstrates the importance of&#xA;careful evaluations that consider adversary resources and threat&#xA;models.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>Research on Security Research Group</title>
     <link>//uvasrg.github.io/tags/research/</link>
     <description>Recent content in Research on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>//uvasrg.github.io/how-to-hide-a-backdoor/</link>
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/how-to-hide-a-backdoor/</guid>
-      <description>The Register has an article on our recent work on Stealthy Backdoors as Compression Artifacts: Thomas Claburn, How to hide a backdoor in AI software — Neural networks can be aimed to misbehave when squeezed, The Register, 5 May 2021.</description>
+      <description>&lt;p&gt;The Register has an article on our recent work on &lt;a href=&#34;https://arxiv.org/abs/2104.15129&#34;&gt;&lt;em&gt;Stealthy Backdoors as Compression Artifacts&lt;/em&gt;&lt;/a&gt;:&#xA;Thomas Claburn, &lt;a href=&#34;https://www.theregister.com/AMP/2021/05/05/ai_backdoors/&#34;&gt;&lt;em&gt;How to hide a backdoor in AI software — Neural networks can be aimed to misbehave when squeezed&lt;/em&gt;&lt;/a&gt;, The Register, 5 May 2021.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Research Symposium Posters</title>
       <link>//uvasrg.github.io/research-symposium-posters/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/research-symposium-posters/</guid>
-      <description>Five students from our group presented posters at the department&amp;rsquo;s Fall Research Symposium:&#xA;Anshuman Suri&#39;s Overview Talk Bargav Jayaraman, Evaluating Differentially Private Machine Learning In Practice [</description>
+      <description>&lt;p&gt;Five students from our group presented posters at the department&amp;rsquo;s&#xA;&lt;a href=&#34;https://engineering.virginia.edu/cs-research-symposium-fall-2019&#34;&gt;Fall Research&#xA;Symposium&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vQcaahIxPyCHIMJti6tRB9HM_RreRhZkGH4wCN7YjTwiHSqcHod9v3hDFj-ZS1TtXp9OtBEBCV8OPH4/embed?start=false&amp;loop=false&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;764&#34; height=&#34;453&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;&lt;br&gt;&#xA;Anshuman Suri&#39;s Overview Talk&#xA;&lt;/center&gt;&#xA;&lt;center&gt;&#xA;&lt;embed src=&#34;//uvasrg.github.io/docs/symposters2019/evaluatingdpml-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt; &lt;br&gt;&#xA;Bargav Jayaraman, &lt;em&gt;Evaluating Differentially Private Machine Learning In Practice&lt;/em&gt; &#xA;[&lt;a href=&#34;&#xA;&lt;a href=&#34;//uvasrg.github.io/docs/symposters2019/evaluatingdpml-poster.pdf&#34;&gt;Poster&lt;/a&gt;]&lt;br&gt;&#xA;[&lt;a href=&#34;https://www.cs.virginia.edu/~evans/pubs/usenix2019/&#34;&gt;Paper&lt;/a&gt; (USENIX Security 2019)]&#xA;&lt;/center&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;embed src=&#34;//uvasrg.github.io/docs/symposters2019/pretrainedvulnerable-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;&#xA;Hannah Chen [&lt;a href=&#34;//uvasrg.github.io/docs/symposters2019/pretrainedvulnerable-poster.pdf&#34;&gt;Poster&lt;/a&gt;]&#xA;&lt;/center&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;embed src=&#34;//uvasrg.github.io/docs/symposters2019/measuringconcentration-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;&#xA;Xiao Zhang [&lt;a href=&#34;//uvasrg.github.io/docs/symposters2019/measuringconcentration-poster.pdf&#34;&gt;Poster&lt;a&gt;]&lt;br&gt;&#xA;[&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;Paper&lt;/a&gt; (NeurIPS 2019)]&#xA;&lt;/center&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;embed src=&#34;//uvasrg.github.io/docs/symposters2019/diversemodels-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;&#xA;Mainudding Jonas [&lt;a href=&#34;//uvasrg.github.io/docs/symposters2019/diversemodels-poster.pdf&#34;&gt;Poster&lt;/a&gt;]&#xA;&lt;/center&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;embed src=&#34;//uvasrg.github.io/docs/symposters2019/hybridbatch-poster.pdf&#34; width=&#34;95%&#34; height=&#34;300&#34; type=&#34;application/pdf&#34;&gt;&lt;br&gt;&#xA;Fnu Suya [&lt;a href=&#34;//uvasrg.github.io/docs/symposters2019/hybridbatch-poster.pdf&#34;&gt;Poster&lt;a&gt;]&lt;br&gt;&#xA;[&lt;a href=&#34;https://arxiv.org/abs/1908.07000&#34;&gt;Paper&lt;/a&gt; (USENIX Security 2020)]&#xA;&lt;/center&gt;</description>
     </item>
   </channel>
 </rss>

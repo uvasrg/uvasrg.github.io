@@ -86,10 +86,14 @@
 </div>
 
 
-I&rsquo;m quoted in this story by Rob Lemos about poisoning code models (the CodeBreaker paper in USENIX Security 2024 by Shenao Yan, Shen Wang, Yue Duan, Hanbin Hong, Kiho Lee, Doowon Kim, and Yuan Hong), that considers a similar threat to our TrojanPuzzle work:
-Researchers Highlight How Poisoned LLMs Can Suggest Vulnerable Code
-Dark Reading, 20 August 2024
-CodeBreaker uses code transformations to create vulnerable code that continues to function as expected, but that will not be detected by major static analysis security testing.
+<p>I&rsquo;m quoted in this story by Rob Lemos about poisoning code models (the <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/yan">CodeBreaker</a> paper in USENIX Security 2024 by Shenao Yan, Shen Wang, Yue Duan, Hanbin Hong, Kiho Lee, Doowon Kim, and Yuan Hong), that considers a similar threat to our <a href="https://uvasrg.github.io/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">TrojanPuzzle</a> work:</p>
+<p><a href="https://www.darkreading.com/application-security/researchers-turn-code-completion-llms-into-attack-tools"><em>Researchers Highlight How Poisoned LLMs Can Suggest Vulnerable Code</em></a><br>
+Dark Reading, 20 August 2024</p>
+<blockquote>
+CodeBreaker uses code transformations to create vulnerable code that continues to function as expected, but that will not be detected by major static analysis security testing. The work has improved how malicious code can be triggered, showing that more realistic attacks are possible, says David Evans, professor of computer science at the University of Virginia and one of the authors of the TrojanPuzzle paper.
+...
+Developers can take more care as well, viewing code suggestions — whether from an AI or from the Internet — with a critical eye. In addition, developers need to know how to construct prompts to produce more secure code.  
+<p>Yet, developers need their own tools to detect potentially malicious code, says the University of Virginia&rsquo;s Evans.</p>
 <p class="text-right"><a href="/poisoning-llms/">Read More…</a></p>
 	
 
@@ -119,9 +123,18 @@ CodeBreaker uses code transformations to create vulnerable code that continues t
 </div>
 
 
-Congratulations to Fnu Suya for successfully defending his PhD thesis!
-Suya will join the Unversity of Maryland as a MC2 Postdoctoral Fellow at the Maryland Cybersecurity Center this fall.
-On the Limits of Data Poisoning Attacks Current machine learning models require large amounts of labeled training data, which are often collected from untrusted sources. Models trained on these potentially manipulated data points are prone to data poisoning attacks. My research aims to gain a deeper understanding on the limits of two types of data poisoning attacks: indiscriminate poisoning attacks, where the attacker aims to increase the test error on the entire dataset; and subpopulation poisoning attacks, where the attacker aims to increase the test error on a defined subset of the distribution.
+<p>Congratulations to <a href="fsuya.org">Fnu Suya</a> for successfully defending
+his PhD thesis!</p>
+<p>Suya will join the Unversity of Maryland as a MC2 Postdoctoral Fellow
+at the <a href="https://cyber.umd.edu/about">Maryland Cybersecurity Center</a> this fall.</p>
+<h2 id="heading"></h2>
+<center>
+<em>
+On the Limits of Data Poisoning Attacks
+</em>
+</center>
+<h2 id="heading-1"></h2>
+<p>Current machine learning models require large amounts of labeled training data, which are often collected from untrusted sources. Models trained on these potentially manipulated data points are prone to data poisoning attacks. My research aims to gain a deeper understanding on the limits of two types of data poisoning attacks: indiscriminate poisoning attacks, where the attacker aims to increase the test error on the entire dataset; and subpopulation poisoning attacks, where the attacker aims to increase the test error on a defined subset of the distribution. We first present an empirical poisoning attack that encodes the attack objectives into target models and then generates poisoning points that induce the target models (and hence the encoded objectives) with provable convergence. This attack achieves state-of-the-art performance for a diverse set of attack objectives and quantifies a lower bound to the performance of best possible poisoning attacks. In the broader sense, because the attack guarantees convergence to the target model which encodes the desired attack objective, our attack can also be applied to objectives related to other trustworthy aspects (e.g., privacy, fairness) of machine learning.</p>
 <p class="text-right"><a href="/congratulations-dr.-suya/">Read More…</a></p>
 	
 
@@ -151,11 +164,12 @@ On the Limits of Data Poisoning Attacks Current machine learning models require 
 </div>
 
 
-Jack Clark&rsquo;s Import AI, 16 Jan 2023 includes a nice description of our work on TrojanPuzzle:
-####################################################
-Uh-oh, there's a new way to poison code models - and it's really hard to detect:
-…TROJANPUZZLE is a clever way to trick your code model into betraying you - if you can poison the undelrying dataset…
-Researchers with the University of California, Santa Barbara, Microsoft Corporation, and the University of Virginia have come up with some clever, subtle ways to poison the datasets used to train code models.
+<p>Jack Clark&rsquo;s <a href="https://mailchi.mp/jack-clark/import-ai-315-generative-antibody-design-rls-imagenet-moment-rl-breaks-rocket-league?e=545365c0e9">Import AI, 16 Jan 2023</a> includes a nice description of our work on TrojanPuzzle:</p>
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><strong>####################################################</strong></p>
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;"><strong>Uh-oh, there's a new way to poison code models - and it's really hard to detect:</strong><br>
+<em>…TROJANPUZZLE is a clever way to trick your code model into betraying you - if you can poison the undelrying dataset…</em><br>
+Researchers with the University of California, Santa Barbara, Microsoft Corporation, and the University of Virginia have come up with some clever, subtle ways to poison the datasets used to train code models. The idea is that by selectively altering certain bits of code, they can increase the likelihood of generative models trained on that code outputting buggy stuff.&nbsp;</p>
 <p class="text-right"><a href="/uh-oh-theres-a-new-way-to-poison-code-models/">Read More…</a></p>
 	
 
@@ -185,10 +199,15 @@ Researchers with the University of California, Santa Barbara, Microsoft Corporat
 </div>
 
 
-Bleeping Computer has a story on our work (in collaboration with Microsoft Research) on poisoning code suggestion models:
-Trojan Puzzle attack trains AI assistants into suggesting malicious code By Bill Toulas
-Researchers at the universities of California, Virginia, and Microsoft have devised a new poisoning attack that could trick AI-based coding assistants into suggesting dangerous code.
-Named &lsquo;Trojan Puzzle,&rsquo; the attack stands out for bypassing static detection and signature-based dataset cleansing models, resulting in the AI models being trained to learn how to reproduce dangerous payloads.
+<p>Bleeping Computer has a <a href="https://www.bleepingcomputer.com/news/security/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">story on our work</a> (in collaboration with Microsoft Research) on poisoning code suggestion models:</p>
+<h1>Trojan Puzzle attack trains AI assistants into suggesting malicious code</h1>
+<p>By <b>Bill Toulas</b></p>
+<center>
+<img alt="Person made of jigsaw puzzle pieces" height="900" src="https://www.bleepstatic.com/content/hl-images/2022/10/09/mystery-hacker.jpg" width="80%"></img>
+</center>
+<p> </p>
+<p>Researchers at the universities of California, Virginia, and Microsoft have devised a new poisoning attack that could trick AI-based coding assistants into suggesting dangerous code.</p>
+<p>Named &lsquo;Trojan Puzzle,&rsquo; the attack stands out for bypassing static detection and signature-based dataset cleansing models, resulting in the AI models being trained to learn how to reproduce dangerous payloads.</p>
 <p class="text-right"><a href="/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">Read More…</a></p>
 	
 

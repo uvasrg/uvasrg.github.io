@@ -4,7 +4,7 @@
     <title>WOOT on Security Research Group</title>
     <link>//uvasrg.github.io/tags/woot/</link>
     <description>Recent content in WOOT on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Mon, 13 Aug 2018 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/mutually-assured-destruction-and-the-impending-ai-apocalypse/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/mutually-assured-destruction-and-the-impending-ai-apocalypse/</guid>
-      <description>I gave a keynote talk at USENIX Workshop of Offensive Technologies, Baltimore, Maryland, 13 August 2018. The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&amp;#8217;t able to actually figure out a talk to match the title and abstract I provided.&#xA;The history of security includes a long series of arms races, where a new technology emerges and is subsequently developed and exploited by both defenders and attackers.</description>
+      <description>&lt;p&gt;I gave a keynote talk at &lt;a href=&#34;https://www.usenix.org/conference/woot18/workshop-program&#34;&gt;USENIX Workshop of Offensive Technologies&lt;/a&gt;, Baltimore, Maryland, 13 August 2018. &lt;/p&gt;&lt;/p&gt;&#xA;&lt;p&gt;The title and abstract are what I provided for the WOOT program, but unfortunately (or maybe fortunately for humanity!) I wasn&amp;#8217;t able to actually figure out a talk to match the title and abstract I provided.&lt;/p&gt;&#xA;&lt;blockquote&gt;&lt;p&gt;&#xA;The history of security includes a long series of arms races, where a new technology emerges and is subsequently developed and exploited by both defenders and attackers. Over the past few years, &amp;#8220;Artificial Intelligence&amp;#8221; has re-emerged as a potentially transformative technology, and deep learning in particular has produced a barrage of amazing results. We are in the very early stages of understanding the potential of this technology in security, but more worryingly, seeing how it may be exploited by malicious individuals and powerful organizations. In this talk, I&amp;#8217;ll look at what lessons might be learned from previous security arms races, consider how asymmetries in AI may be exploited by attackers and defenders, touch on some recent work in adversarial machine learning, and hopefully help progress-loving Luddites figure out how to survive in a world overrun by AI doppelgängers, GAN gangs, and gibbon-impersonating pandas.&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>Auditing on Security Research Group</title>
     <link>//uvasrg.github.io/tags/auditing/</link>
     <description>Recent content in Auditing on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Sun, 11 Aug 2024 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/the-mismeasure-of-man-and-models/</link>
       <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/the-mismeasure-of-man-and-models/</guid>
-      <description>Evaluating Allocational Harms in Large Language Models Blog post written by Hannah Chen&#xA;Our work considers allocational harms that arise when model predictions are used to distribute scarce resources or opportunities.&#xA;Current Bias Metrics Do Not Reliably Reflect Allocation Disparities Several methods have been proposed to audit large language models (LLMs) for bias when used in critical decision-making, such as resume screening for hiring. Yet, these methods focus on predictions, without considering how the predictions are used to make decisions.</description>
+      <description>&lt;h1 id=&#34;evaluating-allocational-harms-in-large-language-models&#34;&gt;Evaluating Allocational Harms in Large Language Models&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Blog post written by &lt;a href=&#34;https://hannahxchen.github.io/&#34;&gt;Hannah Chen&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Our work considers &lt;i&gt;allocational harms&lt;/i&gt; that arise when model predictions are used to distribute scarce resources or opportunities.&lt;/p&gt;&#xA;&lt;h2 id=&#34;current-bias-metrics-do-not-reliably-reflect-allocation-disparities&#34;&gt;Current Bias Metrics Do Not Reliably Reflect Allocation Disparities&lt;/h2&gt;&#xA;&lt;p&gt;Several methods have been proposed to audit large language models (LLMs) for bias when used in critical decision-making, such as resume screening for hiring. Yet, these methods focus on &lt;i&gt;predictions&lt;/i&gt;, without considering how the predictions are used to make &lt;i&gt;decisions&lt;/i&gt;. In many settings, making decisions involve prioritizing options due to limited resource constraints. We find that prediction-based evaluation methods, which measure bias as the &lt;i&gt;average performance gap&lt;/i&gt; (δ) in prediction outcomes, do not reliably reflect disparities in allocation decision outcomes.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

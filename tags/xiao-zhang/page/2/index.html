@@ -153,8 +153,21 @@ Specification, Robustness and Assurance</em></a>.</p>
 </div>
 
 
-Xiao Zhang and my paper on Cost-Sensitive Robustness against Adversarial Examples has been accepted to ICLR 2019.
-Several recent works have developed methods for training classifiers that are certifiably robust against norm-bounded adversarial perturbations. However, these methods assume that all the adversarial transformations provide equal value for adversaries, which is seldom the case in real-world applications. We advocate for cost-sensitive robustness as the criteria for measuring the classifier&rsquo;s performance for specific tasks.
+<p>Xiao Zhang and my paper on <a href="https://openreview.net/forum?id=BygANhA9tQ&amp;noteId=BJe7cKRWeN"><em>Cost-Sensitive Robustness against Adversarial Examples</em></a> has been accepted to ICLR 2019.</p>
+<p>Several recent works have developed methods for training classifiers
+that are certifiably robust against norm-bounded adversarial
+perturbations. However, these methods assume that all the adversarial
+transformations provide equal value for adversaries, which is seldom
+the case in real-world applications. We advocate for cost-sensitive
+robustness as the criteria for measuring the classifier&rsquo;s performance
+for specific tasks. We encode the potential harm of different
+adversarial transformations in a cost matrix, and propose a general
+objective function to adapt the robust training method of Wong &amp;
+Kolter (2018) to optimize for cost-sensitive robustness. Our
+experiments on simple MNIST and CIFAR10 models and a variety of cost
+matrices show that the proposed approach can produce models with
+substantially reduced cost-sensitive robust error, while maintaining
+classification accuracy.</p>
 <p class="text-right"><a href="/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/">Read More…</a></p>
 	
 

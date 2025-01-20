@@ -89,8 +89,12 @@
 </div>
 
 
-I gave a talk in the Berryville Institute of Machine Learning in the Barn series on What Machine Learnt Models Reveal, which is now available as an edited video:
-David Evans, a professor of computer science researching security and privacy at the University of Virginia, talks about data leakage risk in ML systems and different approaches used to attack and secure models and datasets. Juxtaposing adversarial risks that target records and those aimed at attributes, David shows that differential privacy cannot capture all inference risks, and calls for more research based on privacy experiments aimed at both datasets and distributions.
+<p>I gave a talk in the <a href="https://berryvilleiml.com/">Berryville Institute of Machine Learning in the Barn</a> series on <em>What Machine Learnt Models Reveal</em>, which is now available as an edited video:</p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zMM_y6VWSgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<blockquote>
+<p>David Evans, a professor of computer science researching security and privacy at the University of Virginia, talks about data leakage risk in ML systems and different approaches used to attack and secure models and datasets. Juxtaposing adversarial risks that target records and those aimed at attributes, David shows that differential privacy cannot capture all inference risks, and calls for more research based on privacy experiments aimed at both datasets and distributions.</p>
 <p class="text-right"><a href="/biml-what-machine-learnt-models-reveal/">Read More…</a></p>
 	
 
@@ -118,9 +122,47 @@ David Evans, a professor of computer science researching security and privacy at
 </div>
 
 
-Congratulations to Xiao Zhang for successfully defending his PhD thesis!
-Dr. Zhang and his PhD committee: Somesh Jha (University of Wisconsin), David Evans, Tom Fletcher; Tianxi&nbsp;Li&nbsp;(UVA&nbsp;Statistics), David&nbsp;Wu&nbsp;(UT&nbsp;Austin), Mohammad&nbsp;Mahmoody; Xiao&nbsp;Zhang. Xiao will join the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany this fall as a tenure-track faculty member.
-From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning The prevalence of adversarial examples raises questions about the reliability of machine learning systems, especially for their deployment in critical applications.
+<p>Congratulations to Xiao Zhang for successfully defending his PhD thesis!</p>
+<center>
+<img src="/images/xiaozhangphd.png" width="75%">
+<div class="caption">
+Dr. Zhang and his PhD committee: Somesh Jha (University of Wisconsin), David Evans, Tom Fletcher; Tianxi&nbsp;Li&nbsp;(UVA&nbsp;Statistics), David&nbsp;Wu&nbsp;(UT&nbsp;Austin), Mohammad&nbsp;Mahmoody; Xiao&nbsp;Zhang.
+</center>
+<h2 id="heading"></h2>
+<p>Xiao will join the <a href="https://cispa.de/en">CISPA Helmholtz Center for Information
+Security</a> in Saarbrücken, Germany this fall as a
+tenure-track faculty member.</p>
+<h2 id="heading-1"></h2>
+<center>
+<em>From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning</em>
+</center>
+<h2 id="heading-2"></h2>
+<p>The prevalence of adversarial examples raises questions about the
+reliability of machine learning systems, especially for their
+deployment in critical applications. Numerous defense mechanisms have
+been proposed that aim to improve a machine learning system’s
+robustness in the presence of adversarial examples. However, none of
+these methods are able to produce satisfactorily robust models, even
+for simple classification tasks on benchmarks. In addition to
+empirical attempts to build robust models, recent studies have
+identified intrinsic limitations for robust learning against
+adversarial examples. My research aims to gain a deeper understanding
+of why machine learning models fail in the presence of adversaries and
+design ways to build better robust systems. In this dissertation, I
+develop a concentration estimation framework to characterize the
+intrinsic limits of robustness for typical classification tasks of
+interest. The proposed framework leads to the discovery that compared
+with the concentration of measure which was previously argued to be an
+important factor, the existence of uncertain inputs may explain more
+fundamentally the vulnerability of state-of-the-art
+defenses. Moreover, to further advance our understanding of
+adversarial examples, I introduce a notion of representation
+robustness based on mutual information, which is shown to be related
+to an intrinsic limit of model robustness for downstream
+classification tasks. Finally in this dissertation, I advocate for a
+need to rethink the current design goal of robustness and shed light
+on ways to build better robust machine learning systems, potentially
+escaping the intrinsic limits of robustness.</p>
 <p class="text-right"><a href="/congratulations-dr.-zhang/">Read More…</a></p>
 	
 
@@ -150,8 +192,19 @@ From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learnin
 </div>
 
 
-(Blog post written by Xiao Zhang)
-Motivated by the empirical hardness of developing robust classifiers against adversarial perturbations, researchers began asking the question “Does there even exist a robust classifier?”. This is formulated as the intrinsic robustness problem (Mahloujifar et al., 2019), where the goal is to characterize the maximum adversarial robustness possible for a given robust classification problem. Building upon the connection between adversarial robustness and classifier’s error region, it has been shown that if we restrict the search to the set of imperfect classifiers, the intrinsic robustness problem can be reduced to the concentration of measure problem.
+<p>(Blog post written by <a href="https://xiao-zhang.net/">Xiao Zhang</a>)</p>
+<p>Motivated by the empirical hardness of developing robust classifiers
+against adversarial perturbations, researchers began asking the
+question “<em>Does there even exist a robust classifier?</em>”. This is
+formulated as the <strong><em>intrinsic robustness problem</em></strong> <a href="https://proceedings.neurips.cc/paper/2019/file/46f76a4bda9a9579eab38a8f6eabcda1-Paper.pdf">(Mahloujifar et
+al.,
+2019)</a>,
+where the goal is to characterize the maximum adversarial robustness
+possible for a given robust classification problem. Building upon the
+connection between adversarial robustness and classifier’s error
+region, it has been shown that if we restrict the search to the set of
+imperfect classifiers, the intrinsic robustness problem can be reduced
+to the <strong><em>concentration of measure problem</em></strong>.</p>
 <p class="text-right"><a href="/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/">Read More…</a></p>
 	
 
@@ -191,9 +244,20 @@ Motivated by the empirical hardness of developing robust classifiers against adv
 </div>
 
 
-Here are the slides for my talk at the Practical and Theoretical Privacy of Machine Learning Training Pipelines Workshop at the Microsoft Research Summit (21 October 2021):
-Surprising (and Unsurprising) Inference Risks in Machine Learning [PDF] The work by Bargav Jayaraman (with Katherine Knipmeyer, Lingxiao Wang, and Quanquan Gu) that I talked about on improving membership inference attacks is described in more details here:
-Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer, Quanquan Gu, David Evans.
+<p>Here are the slides for my talk at the <a href="https://www.microsoft.com/en-us/research/theme/confidential-computing/#workshops"><em>Practical and Theoretical Privacy of Machine Learning Training Pipelines</em></a>
+Workshop at the Microsoft Research Summit (21 October 2021):</p>
+   <center>
+<a href="https://www.dropbox.com/s/1mfhbelv7qx4t3u/surprisinginferences.pdf?dl=0"><b>Surprising (and Unsurprising) Inference Risks in Machine Learning</b> [PDF]</a>
+   </center>
+<h2 id="heading"></h2>
+<h2 id="heading-1"></h2>
+<p>The work by Bargav Jayaraman (with Katherine Knipmeyer, Lingxiao Wang,
+and Quanquan Gu) that I talked about on improving membership inference
+attacks is described in more details here:</p>
+<ul>
+<li>
+<p>Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer, Quanquan Gu, David Evans. <a href="https://arxiv.org/abs/2005.10881"><em>Revisiting Membership Inference Under Realistic Assumptions</em></a> (PETS 2021).<br>
+[<a href="/merlin-morgan-and-the-importance-of-thresholds-and-priors/">Blog</a>] [Code: <a href="https://github.com/bargavj/EvaluatingDPML"><em>https://github.com/bargavj/EvaluatingDPML</em></a>]</p>
 <p class="text-right"><a href="/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/">Read More…</a></p>
 	
 
@@ -235,8 +299,16 @@ Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer, Quanquan Gu, David Evans.
 </div>
 
 
-UVA News has an article by Audra Book on our research on security and privacy of machine learning (with some very nice quotes from several students in the group, and me saying something positive about the NSA!): Computer science professor David Evans and his team conduct experiments to understand security and privacy risks associated with machine learning, 8 September 2021.
-David Evans, professor of computer science in the University of Virginia School of Engineering and Applied Science, is leading research to understand how machine learning models can be compromised.
+<p>UVA News has an article by Audra Book on our research on security and
+privacy of machine learning (with some very nice quotes from several
+students in the group, and me saying something positive about the
+NSA!): <a href="https://engineering.virginia.edu/news/2021/09/computer-science-professor-david-evans-and-his-team-conduct-experiments-understand"><em>Computer science professor David Evans and his team conduct
+experiments to understand security and privacy risks associated with
+machine
+learning</em></a>,
+8 September 2021.</p>
+<div class="articletext">
+<p>David Evans, professor of computer science in the University of Virginia School of Engineering and Applied Science, is leading research to understand how machine learning models can be compromised.</p>
 <p class="text-right"><a href="/uva-news-article/">Read More…</a></p>
 	
 
@@ -274,9 +346,18 @@ David Evans, professor of computer science in the University of Virginia School 
 </div>
 
 
-(Post by Sean Miller, using images adapted from Suya&rsquo;s talk slides)
-Data Poisoning Attacks Machine learning models are often trained using data from untrusted sources, leaving them open to poisoning attacks where adversaries use their control over a small fraction of that training data to poison the model in a particular way.
-Most work on poisoning attacks is directly driven by an attacker&rsquo;s objective, where the adversary chooses poisoning points that maximize some target objective.
+<p>(Post by Sean Miller, using images adapted from Suya&rsquo;s talk slides)</p>
+<h2 id="data-poisoning-attacks">Data Poisoning Attacks</h2>
+<p>Machine learning models are often trained using data from untrusted
+sources, leaving them open to poisoning attacks where adversaries use
+their control over a small fraction of that training data to poison
+the model in a particular way.</p>
+<p>Most work on poisoning attacks is directly driven by an attacker&rsquo;s
+objective, where the adversary chooses poisoning points that maximize
+some target objective. Our work focuses on <em>model-targeted</em> poisoning
+attacks, where the adversary splits the attack into choosing a target
+model that satisfies the objective and then choosing poisoning points
+that induce the target model.</p>
 <p class="text-right"><a href="/model-targeted-poisoning-attacks-with-provable-convergence/">Read More…</a></p>
 	
 
@@ -304,9 +385,16 @@ Most work on poisoning attacks is directly driven by an attacker&rsquo;s objecti
 </div>
 
 
-(Cross-post by Anshuman Suri)
-Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.
-Standard inference attacks (which we call “dataset inference attacks”) aim to learn something about a particular record that may have been in that training data. For example, in a membership inference attack (Reza Shokri et al., Membership Inference Attacks Against Machine Learning Models, IEEE S&amp;P 2017), the adversary aims to infer whether or not a particular record was included in the training data.
+<p>(Cross-post by <a href="https://www.anshumansuri.com/post/distr_infer">Anshuman Suri</a>)</p>
+<p>Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.</p>
+<p>Standard inference attacks (which we call “dataset inference attacks”)
+aim to learn something about a particular record that may have been in
+that training data. For example, in a membership inference attack
+(Reza Shokri et al., <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7958568"><em>Membership Inference Attacks Against Machine
+Learning
+Models</em></a>, IEEE S&amp;P 2017),
+the adversary aims to infer whether or not a particular record was
+included in the training data.</p>
 <p class="text-right"><a href="/on-the-risks-of-distribution-inference/">Read More…</a></p>
 	
 
@@ -343,7 +431,7 @@ Evans, Vladimir Kolesnikov, and Mike Rosulek) is now available!</p>
 did on the translation.</p>
 <p>To order from JD.com: <a href="https://item.jd.com/13302742.html"><em>https://item.jd.com/13302742.html</em></a></p>
 <p>(The English version of the book is still available for free download, from <a href="https://securecomputation.org"><em>https://securecomputation.org</em></a>.)</p>
-
+<p class="text-right"><a href="/chinese-translation-of-mpc-book/">Read More…</a></p>
 	
 
     

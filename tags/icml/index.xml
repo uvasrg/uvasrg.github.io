@@ -4,7 +4,7 @@
     <title>ICML on Security Research Group</title>
     <link>//uvasrg.github.io/tags/icml/</link>
     <description>Recent content in ICML on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/robustrepresentations/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/robustrepresentations/</guid>
-      <description>Post by Sicheng Zhu&#xA;With the rapid development of deep learning and the explosive growth of unlabeled data, representation learning is becoming increasingly important. It has made impressive applications such as pre-trained language models (e.g., BERT and GPT-3).&#xA;Popular as it is, representation learning raises concerns about the robustness of learned representations under adversarial settings. For example, how can we compare the robustness to different representations, and how can we build representations that enable robust downstream classifiers?</description>
+      <description>&lt;p&gt;&lt;em&gt;Post by Sicheng Zhu&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;With the rapid development of deep learning and the explosive growth&#xA;of unlabeled data, &lt;a href=&#34;https://arxiv.org/abs/1206.5538&#34;&gt;representation&#xA;learning&lt;/a&gt; is becoming increasingly&#xA;important. It has made impressive applications such as pre-trained&#xA;language models (e.g., &lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34;&gt;BERT&lt;/a&gt; and&#xA;&lt;a href=&#34;https://github.com/openai/gpt-3&#34;&gt;GPT-3&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;Popular as it is, representation learning raises concerns about the&#xA;robustness of learned representations under adversarial settings. For&#xA;example, &lt;em&gt;how can we compare the robustness to different&#xA;representations&lt;/em&gt;, and &lt;em&gt;how can we build representations that enable&#xA;robust downstream classifiers&lt;/em&gt;?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

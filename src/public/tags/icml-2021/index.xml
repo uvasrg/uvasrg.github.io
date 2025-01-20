@@ -4,7 +4,7 @@
     <title>ICML 2021 on Security Research Group</title>
     <link>//uvasrg.github.io/tags/icml-2021/</link>
     <description>Recent content in ICML 2021 on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</guid>
-      <description>(Post by Sean Miller, using images adapted from Suya&amp;rsquo;s talk slides)&#xA;Data Poisoning Attacks Machine learning models are often trained using data from untrusted sources, leaving them open to poisoning attacks where adversaries use their control over a small fraction of that training data to poison the model in a particular way.&#xA;Most work on poisoning attacks is directly driven by an attacker&amp;rsquo;s objective, where the adversary chooses poisoning points that maximize some target objective.</description>
+      <description>&lt;p&gt;(Post by Sean Miller, using images adapted from Suya&amp;rsquo;s talk slides)&lt;/p&gt;&#xA;&lt;h2 id=&#34;data-poisoning-attacks&#34;&gt;Data Poisoning Attacks&lt;/h2&gt;&#xA;&lt;p&gt;Machine learning models are often trained using data from untrusted&#xA;sources, leaving them open to poisoning attacks where adversaries use&#xA;their control over a small fraction of that training data to poison&#xA;the model in a particular way.&lt;/p&gt;&#xA;&lt;p&gt;Most work on poisoning attacks is directly driven by an attacker&amp;rsquo;s&#xA;objective, where the adversary chooses poisoning points that maximize&#xA;some target objective. Our work focuses on &lt;em&gt;model-targeted&lt;/em&gt; poisoning&#xA;attacks, where the adversary splits the attack into choosing a target&#xA;model that satisfies the objective and then choosing poisoning points&#xA;that induce the target model.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

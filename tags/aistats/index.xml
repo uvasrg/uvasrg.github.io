@@ -4,7 +4,7 @@
     <title>AISTATS on Security Research Group</title>
     <link>//uvasrg.github.io/tags/aistats/</link>
     <description>Recent content in AISTATS on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/intrinsic-robustness-using-conditional-gans/</guid>
-      <description>The video of Xiao&amp;rsquo;s presentation for AISTATS 2020 is now available: Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models&#xA;Starting with Gilmer et al. (2018), several works have demonstrated the inevitability of adversarial examples based on different assumptions about the underlying input probability space. It remains unclear, however, whether these results apply to natural image distributions. In this work, we assume the underlying data distribution is captured by some conditional generative model, and prove intrinsic robustness bounds for a general class of classifiers, which solves an open problem in Fawzi et al.</description>
+      <description>&lt;p&gt;The video of Xiao&amp;rsquo;s presentation for AISTATS 2020 is now available:&#xA;&lt;a href=&#34;https://slideslive.com/38930305/understanding-the-intrinsic-robustness-of-image-distributions-using-conditional-generative-models&#34;&gt;&lt;em&gt;Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Starting with Gilmer et al. (2018), several works have demonstrated&#xA;the inevitability of adversarial examples based on different&#xA;assumptions about the underlying input probability space. It remains&#xA;unclear, however, whether these results apply to natural image&#xA;distributions. In this work, we assume the underlying data&#xA;distribution is captured by some conditional generative model, and&#xA;prove intrinsic robustness bounds for a general class of classifiers,&#xA;which solves an open problem in Fawzi et al. (2018). Building upon the&#xA;state-of-the-art conditional generative models, we study the intrinsic&#xA;robustness of two common image benchmarks under &lt;em&gt;l&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&#xA;perturbations, and show the existence of a large gap between the&#xA;robustness limits implied by our theory and the adversarial robustness&#xA;achieved by current state-of-the-art robust models.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

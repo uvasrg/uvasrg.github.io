@@ -4,7 +4,7 @@
     <title>LLM on Security Research Group</title>
     <link>//uvasrg.github.io/tags/llm/</link>
     <description>Recent content in LLM on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>//uvasrg.github.io/reassessing-emnlp-2024s-best-paper-does-divergence-based-calibration-for-membership-inference-attacks-hold-up/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/reassessing-emnlp-2024s-best-paper-does-divergence-based-calibration-for-membership-inference-attacks-hold-up/</guid>
-      <description>Anshuman Suri and Pratyush Maini wrote a blog about the EMNLP 2024 best paper award winner: Reassessing EMNLP 2024’s Best Paper: Does Divergence-Based Calibration for Membership Inference Attacks Hold Up?.&#xA;As we explored in Do Membership Inference Attacks Work on Large Language Models?, to test a membership inference attack it is essentail to have a candidate set where the members and non-members are from the same distribution. If the distributions are different, the ability of an attack to distinguish members and non-members is indicative of distribution inference, not necessarily membership inference.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.anshumansuri.com/&#34;&gt;Anshuman Suri&lt;/a&gt; and &lt;a href=&#34;https://pratyushmaini.github.io/&#34;&gt;Pratyush Maini&lt;/a&gt; wrote a blog about the EMNLP 2024 best paper award winner: &lt;a href=&#34;https://www.anshumansuri.com/blog/2024/calibrated-mia/&#34;&gt;&lt;em&gt;Reassessing EMNLP 2024’s Best Paper: Does Divergence-Based Calibration for Membership Inference Attacks Hold Up?&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As we explored in &lt;a href=&#34;https://uvasrg.github.io/do-membership-inference-attacks-work-on-large-language-models/&#34;&gt;&lt;em&gt;Do Membership Inference Attacks Work on Large Language Models?&lt;/em&gt;&lt;/a&gt;, to test a membership inference attack it is essentail to have a candidate set where the members and non-members are from the same distribution. If the distributions are different, the ability of an attack to distinguish members and non-members is indicative of distribution inference, not necessarily membership inference.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Common Way To Test for Leaks in Large Language Models May Be Flawed</title>
       <link>//uvasrg.github.io/common-way-to-test-for-leaks-in-large-language-models-may-be-flawed/</link>
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/common-way-to-test-for-leaks-in-large-language-models-may-be-flawed/</guid>
-      <description>UVA News has an article on our LLM membership inference work: Common Way To Test for Leaks in Large Language Models May Be Flawed: UVA Researchers Collaborated To Study the Effectiveness of Membership Inference Attacks, Eric Williamson, 13 November 2024.</description>
+      <description>&lt;p&gt;UVA News has an article on our LLM membership inference work:&#xA;&lt;a href=&#34;https://engineering.virginia.edu/news-events/news/common-way-test-leaks-large-language-models-may-be-flawed&#34;&gt;&lt;em&gt;Common Way To Test for Leaks in Large Language Models May Be Flawed: UVA Researchers Collaborated To Study the Effectiveness of Membership Inference Attacks&lt;/em&gt;&lt;/a&gt;, Eric Williamson, 13 November 2024.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

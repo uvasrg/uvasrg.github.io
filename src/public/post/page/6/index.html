@@ -89,8 +89,21 @@
 </div>
 
 
-The video of Xiao&rsquo;s presentation for AISTATS 2020 is now available: Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models
-Starting with Gilmer et al. (2018), several works have demonstrated the inevitability of adversarial examples based on different assumptions about the underlying input probability space. It remains unclear, however, whether these results apply to natural image distributions. In this work, we assume the underlying data distribution is captured by some conditional generative model, and prove intrinsic robustness bounds for a general class of classifiers, which solves an open problem in Fawzi et al.
+<p>The video of Xiao&rsquo;s presentation for AISTATS 2020 is now available:
+<a href="https://slideslive.com/38930305/understanding-the-intrinsic-robustness-of-image-distributions-using-conditional-generative-models"><em>Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models</em></a></p>
+<p>Starting with Gilmer et al. (2018), several works have demonstrated
+the inevitability of adversarial examples based on different
+assumptions about the underlying input probability space. It remains
+unclear, however, whether these results apply to natural image
+distributions. In this work, we assume the underlying data
+distribution is captured by some conditional generative model, and
+prove intrinsic robustness bounds for a general class of classifiers,
+which solves an open problem in Fawzi et al. (2018). Building upon the
+state-of-the-art conditional generative models, we study the intrinsic
+robustness of two common image benchmarks under <em>l</em><sub>2</sub>
+perturbations, and show the existence of a large gap between the
+robustness limits implied by our theory and the adversarial robustness
+achieved by current state-of-the-art robust models.</p>
 <p class="text-right"><a href="/intrinsic-robustness-using-conditional-gans/">Read More…</a></p>
 	
 
@@ -160,8 +173,26 @@ Paper: [<a href="/docs/hybrid_attack.pdf">PDF</a>] [<a href="https://arxiv.org/
 </div>
 
 
-Hannah Chen presented her paper on Pointwise Paraphrase Appraisal is Potentially Problematic at the ACL 2020 Student Research Workshop:
-The prevailing approach for training and evaluating paraphrase identification models is constructed as a binary classification problem: the model is given a pair of sentences, and is judged by how accurately it classifies pairs as either paraphrases or non-paraphrases. This pointwise-based evaluation method does not match well the objective of most real world applications, so the goal of our work is to understand how models which perform well under pointwise evaluation may fail in practice and find better methods for evaluating paraphrase identification models.
+<p>Hannah Chen presented her paper on <em>Pointwise Paraphrase Appraisal is
+Potentially Problematic</em> at the <a href="https://sites.google.com/view/acl20studentresearchworkshop/">ACL 2020 Student Research
+Workshop</a>:</p>
+<blockquote>
+<p>The prevailing approach for training and evaluating paraphrase
+identification models is constructed as a binary classification
+problem: the model is given a pair of sentences, and is judged by how
+accurately it classifies pairs as either paraphrases or
+non-paraphrases. This pointwise-based evaluation method does not match
+well the objective of most real world applications, so the goal of our
+work is to understand how models which perform well under pointwise
+evaluation may fail in practice and find better methods for evaluating
+paraphrase identification models. As a first step towards that goal,
+we show that although the standard way of fine-tuning BERT for
+paraphrase identification by pairing two sentences as one sequence
+results in a model with state-of-the-art performance, that model may
+perform poorly on simple tasks like identifying pairs with two
+identical sentences. Moreover, we show that these models may even
+predict a pair of randomly-selected sentences with higher paraphrase
+score than a pair of identical ones.</p>
 <p class="text-right"><a href="/pointwise-paraphrase-appraisal-is-potentially-problematic/">Read More…</a></p>
 	
 
@@ -175,8 +206,27 @@ The prevailing approach for training and evaluating paraphrase identification mo
 </div>
 
 
-This blog was started in January 2008, a bit over eight years after I started as a professor at UVA and initiated the research group. It was named after Thomas Jefferson&rsquo;s cipher wheel, which has long been (and remains) one of my favorite ways to introduce cryptography.
-Figuring out how to honor our history, including Jefferson&rsquo;s founding of the University, and appreciate his ideals and enormous contributions, while confronting the reality of Jefferson as a slave owner and abuser, will be a challenge and responsibility for people above my administrative rank.
+<p>This blog was started in <a href="/2008/facebook-privacy.html">January 2008</a>, a bit over
+eight years after I started as a professor at UVA and initiated the
+research group. It was named after Thomas Jefferson&rsquo;s cipher wheel,
+which <a href="http://www.cs.virginia.edu/~evans/cs588-fall2001/challenges/wheel-solved.html">has long
+been</a>
+(and <a href="https://github.com/evansuva/cipherschool">remains</a>) one of my
+<a href="https://www.cs.virginia.edu/~evans/crypto/day1-jefferson.html">favorite ways to introduce
+cryptography</a>.</p>
+<p>
+<center><img src="/images/jwlogo-small.jpg" width="60%"></center>
+</p>
+<p>Figuring out how to honor our history, including Jefferson&rsquo;s <a href="https://youtu.be/cJbIXG50RCE?t=388">founding
+of the University</a>, and appreciate his
+<a href="https://www.monticello.org/site/research-and-collections/virginia-statute-religious-freedom">ideals</a>
+and <a href="https://www.cs.virginia.edu/~evans/cs655/readings/declaration.html">enormous
+contributions</a>,
+while confronting the reality of Jefferson as a slave owner and
+abuser, will be a challenge and responsibility for people above my
+administrative rank. But, I&rsquo;ve come to see that it is harmful to have
+a blogged named after Jefferson so have removed the Jefferson&rsquo;s Wheel
+name from this research group blog.</p>
 <p class="text-right"><a href="/de-naming-the-blog/">Read More…</a></p>
 	
 
@@ -273,11 +323,19 @@ Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody)
 </div>
 
 
-New: Video Presentation
-Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.
-Existing black-box attacks can be grouped into two main categories:
-Transfer Attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model.
-Optimization Attacks use queries to the target model and apply optimization techniques to search for adversarial examples.
+<p><b><font color="red">New:</font> <a href="/hybrid-batch-attacks-at-usenix-security-2020/">Video Presentation</a></b></p>
+<h2 id="finding-black-box-adversarial-examples-with-limited-queries">Finding Black-box Adversarial Examples with Limited Queries</h2>
+<p>Black-box attacks generate adversarial examples (AEs) against deep
+neural networks with only API access to the victim model.</p>
+<p>Existing black-box attacks can be grouped into two main categories:</p>
+<ul>
+<li>
+<p><strong>Transfer Attacks</strong> use white-box attacks on local models to find
+candidate adversarial examples that transfer to the target model.</p>
+</li>
+<li>
+<p><strong>Optimization Attacks</strong> use queries to the target model and apply
+optimization techniques to search for adversarial examples.</p>
 <p class="text-right"><a href="/usenix-security-2020-hybrid-batch-attacks/">Read More…</a></p>
 	
 
@@ -309,8 +367,23 @@ Optimization Attacks use queries to the target model and apply optimization tech
 </div>
 
 
-Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
-Recent theoretical results, starting with Gilmer et al.&rsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.
+<p><a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a> will
+present our work (with <a
+href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a> and
+<a href="https://www.cs.virginia.edu/~mohammad/">Mohamood
+Mahmoody</a>) as a spotlight at <a href="https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792">NeurIPS
+2019</a>,
+Vancouver, 10 December 2019.</p>
+<p>Recent theoretical results, starting with Gilmer et al.&rsquo;s
+<a href="https://aipavilion.github.io/"><em>Adversarial Spheres</em></a> (2018), show
+that if inputs are drawn from a concentrated metric probability space,
+then adversarial examples with small perturbation are inevitable.c The
+key insight from this line of research is that <a href="https://en.wikipedia.org/wiki/Concentration_of_measure%22%3E"><em>concentration of
+measure</em></a>
+gives lower bound on adversarial risk for a large collection of
+classifiers (e.g. imperfect classifiers with risk at least $\alpha$),
+which further implies the impossibility results for robust learning
+against adversarial examples.</p>
 <p class="text-right"><a href="/neurips-2019-empirically-measuring-concentration/">Read More…</a></p>
 	
 
@@ -340,8 +413,23 @@ Recent theoretical results, starting with Gilmer et al.&rsquo;s Adversarial Sphe
 </div>
 
 
-I had a chance to visit the White House for a Roundtable on Accelerating Responsible Sharing of Federal Data. The meeting was held under &ldquo;Chatham House Rules&rdquo;, so I won&rsquo;t mention the other participants here.
-The meeting was held in the Roosevelt Room of the White House. We entered through the visitor&rsquo;s side entrance. After a security gate (where you put your phone in a lockbox, so no pictures inside) with a TV blaring Fox News, there is a pleasant lobby for waiting, and then an entrance right into the Roosevelt Room.
+<p>I had a chance to visit the White House for a Roundtable on
+<em>Accelerating Responsible Sharing of Federal Data</em>. The meeting was
+held under &ldquo;Chatham House Rules&rdquo;, so I won&rsquo;t mention the other
+participants here.</p>
+<div style="padding-bottom: 2em">
+<center>
+<a href="/images/whitehouse/IMG_20191030_080936.png"><img src="/images/whitehouse/IMG_20191030_080936.png" width=75%>
+</center>
+</div>
+<p>The meeting was held in the <a href="https://en.wikipedia.org/wiki/Roosevelt_Room">Roosevelt
+Room</a> of the White
+House. We entered through the visitor&rsquo;s side entrance. After a
+security gate (where you put your phone in a lockbox, so no pictures
+inside) with a TV blaring Fox News, there is a pleasant lobby for
+waiting, and then an entrance right into the Roosevelt Room. (We
+didn&rsquo;t get to see the entrance in the opposite corner of the room,
+which is just a hallway across from the Oval Office.)</p>
 <p class="text-right"><a href="/white-house-visit/">Read More…</a></p>
 	
 
@@ -369,8 +457,14 @@ The meeting was held in the Roosevelt Room of the White House. We entered throug
 </div>
 
 
-I was honored to particilate in a panel at an event on Adult Education in the Age of Artificial Intelligence that was run by The Great Courses as a fundraiser for the Academy of Hope, an adult public charter school in Washington, D.C.
-I spoke first, following a few introductory talks, and was followed by Nicole Smith and Ellen Scully-Russ, and a keynote from Dexter Manley, Super Bowl winner with the Washington Redskins.
+<p>I was honored to particilate in a panel at an event on
+<a href="https://aohdc.org/adulteducationandai/"><em>Adult Education in the Age of Artificial Intelligence</em></a> that was run by <a href="https://www.thegreatcoursesplus.com/">The Great Courses</a> as a fundraiser for the <a href="https://aohdc.org/">Academy of Hope</a>, an adult public charter school in Washington, D.C.</p>
+<p>I spoke first, following a few introductory talks, and was followed by
+Nicole Smith and Ellen Scully-Russ, and a keynote from Dexter Manley,
+Super Bowl winner with the Washington Redskins. After a short break,
+Kavitha Cardoza moderated a very interesting panel discussion. A
+recording of the talk and rest of the event is supposed to be
+available to Great Courses Plus subscribers.</p>
 <p class="text-right"><a href="/jobs-for-humans-2029-2059/">Read More…</a></p>
 	
 

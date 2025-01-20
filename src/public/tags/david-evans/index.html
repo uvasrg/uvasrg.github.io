@@ -90,8 +90,8 @@
 </div>
 
 
-Anshuman Suri and Pratyush Maini wrote a blog about the EMNLP 2024 best paper award winner: Reassessing EMNLP 2024’s Best Paper: Does Divergence-Based Calibration for Membership Inference Attacks Hold Up?.
-As we explored in Do Membership Inference Attacks Work on Large Language Models?, to test a membership inference attack it is essentail to have a candidate set where the members and non-members are from the same distribution. If the distributions are different, the ability of an attack to distinguish members and non-members is indicative of distribution inference, not necessarily membership inference.
+<p><a href="https://www.anshumansuri.com/">Anshuman Suri</a> and <a href="https://pratyushmaini.github.io/">Pratyush Maini</a> wrote a blog about the EMNLP 2024 best paper award winner: <a href="https://www.anshumansuri.com/blog/2024/calibrated-mia/"><em>Reassessing EMNLP 2024’s Best Paper: Does Divergence-Based Calibration for Membership Inference Attacks Hold Up?</em></a>.</p>
+<p>As we explored in <a href="https://uvasrg.github.io/do-membership-inference-attacks-work-on-large-language-models/"><em>Do Membership Inference Attacks Work on Large Language Models?</em></a>, to test a membership inference attack it is essentail to have a candidate set where the members and non-members are from the same distribution. If the distributions are different, the ability of an attack to distinguish members and non-members is indicative of distribution inference, not necessarily membership inference.</p>
 <p class="text-right"><a href="/reassessing-emnlp-2024s-best-paper-does-divergence-based-calibration-for-membership-inference-attacks-hold-up/">Read More…</a></p>
 	
 
@@ -160,9 +160,11 @@ As we explored in Do Membership Inference Attacks Work on Large Language Models?
 </div>
 
 
-Evaluating Allocational Harms in Large Language Models Blog post written by Hannah Chen
-Our work considers allocational harms that arise when model predictions are used to distribute scarce resources or opportunities.
-Current Bias Metrics Do Not Reliably Reflect Allocation Disparities Several methods have been proposed to audit large language models (LLMs) for bias when used in critical decision-making, such as resume screening for hiring. Yet, these methods focus on predictions, without considering how the predictions are used to make decisions.
+<h1 id="evaluating-allocational-harms-in-large-language-models">Evaluating Allocational Harms in Large Language Models</h1>
+<p><strong>Blog post written by <a href="https://hannahxchen.github.io/">Hannah Chen</a></strong></p>
+<p>Our work considers <i>allocational harms</i> that arise when model predictions are used to distribute scarce resources or opportunities.</p>
+<h2 id="current-bias-metrics-do-not-reliably-reflect-allocation-disparities">Current Bias Metrics Do Not Reliably Reflect Allocation Disparities</h2>
+<p>Several methods have been proposed to audit large language models (LLMs) for bias when used in critical decision-making, such as resume screening for hiring. Yet, these methods focus on <i>predictions</i>, without considering how the predictions are used to make <i>decisions</i>. In many settings, making decisions involve prioritizing options due to limited resource constraints. We find that prediction-based evaluation methods, which measure bias as the <i>average performance gap</i> (δ) in prediction outcomes, do not reliably reflect disparities in allocation decision outcomes.</p>
 <p class="text-right"><a href="/the-mismeasure-of-man-and-models/">Read More…</a></p>
 	
 
@@ -225,12 +227,16 @@ Current Bias Metrics Do Not Reliably Reflect Allocation Disparities Several meth
 </div>
 
 
-I&rsquo;m quoted in this article for the International Bar Association:
-Technology: US authorities survey AI ecosystem through antitrust lens
-William Roberts, IBA US Correspondent
-Friday 2 August 2024
-Antitrust authorities in the US are targeting the new frontier of artificial intelligence (AI) for potential enforcement action. &hellip;
-Jonathan Kanter, Assistant Attorney General for the Antitrust Division of the DoJ, warns that the government sees ‘structures and trends in AI that should give us pause’.
+<p>I&rsquo;m quoted in this article for the International Bar Association:</p>
+<center>
+<p><a href="https://www.ibanet.org/technology-us-authorities-survey-ai-ecosystem-through-antitrust-lens"><em>Technology: US authorities survey AI ecosystem through antitrust lens</em></a><br>
+William Roberts, IBA US Correspondent<br>
+Friday 2 August 2024</p>
+</center>
+<blockquote>
+Antitrust authorities in the US are targeting the new frontier of artificial intelligence (AI) for potential enforcement action.
+<p>&hellip;</p>
+<p>Jonathan Kanter, Assistant Attorney General for the Antitrust Division of the DoJ, warns that the government sees ‘structures and trends in AI that should give us pause’. He says that AI relies on massive amounts of data and computing power, which can give already dominant companies a substantial advantage. ‘Powerful network and feedback effects’ may enable dominant companies to control these new markets, Kanter adds.</p>
 <p class="text-right"><a href="/technology-us-authorities-survey-ai-ecosystem-through-antitrust-lens/">Read More…</a></p>
 	
 
@@ -350,9 +356,19 @@ Jonathan Kanter, Assistant Attorney General for the Antitrust Division of the Do
 </div>
 
 
-Post by Anshuman Suri and Fnu Suya
-Much research has studied black-box attacks on image classifiers, where adversaries generate adversarial examples against unknown target models without having access to their internal information. Our analysis of over 164 attacks (published in 102 major security, machine learning and security conferences) shows how these works make different assumptions about the adversary’s knowledge.
-The current literature lacks cohesive organization centered around the threat model. Our SoK paper (to appear at IEEE SaTML 2024) introduces a taxonomy for systematizing these attacks and demonstrates the importance of careful evaluations that consider adversary resources and threat models.
+<p>Post by <strong><a href="https://www.anshumansuri.com/">Anshuman Suri</a></strong> and <strong><a href="https://fsuya.org/">Fnu Suya</a></strong></p>
+<p>Much research has studied black-box attacks on image classifiers,
+where adversaries generate adversarial examples against unknown target
+models without having access to their internal information. Our
+analysis of over 164 attacks (published in 102 major security, machine
+learning and security conferences) shows how these works make
+different assumptions about the adversary’s knowledge.</p>
+<p>The current literature lacks cohesive organization centered around the
+threat model. Our <a href="https://arxiv.org/abs/2310.17534">SoK paper</a> (to
+appear at <a href="https://satml.org/">IEEE SaTML 2024</a>) introduces a taxonomy
+for systematizing these attacks and demonstrates the importance of
+careful evaluations that consider adversary resources and threat
+models.</p>
 <p class="text-right"><a href="/sok-pitfalls-in-evaluating-black-box-attacks/">Read More…</a></p>
 	
 
@@ -390,9 +406,18 @@ The current literature lacks cohesive organization centered around the threat mo
 </div>
 
 
-(Post by Sean Miller, using images adapted from Suya&rsquo;s talk slides)
-Data Poisoning Attacks Machine learning models are often trained using data from untrusted sources, leaving them open to poisoning attacks where adversaries use their control over a small fraction of that training data to poison the model in a particular way.
-Most work on poisoning attacks is directly driven by an attacker&rsquo;s objective, where the adversary chooses poisoning points that maximize some target objective.
+<p>(Post by Sean Miller, using images adapted from Suya&rsquo;s talk slides)</p>
+<h2 id="data-poisoning-attacks">Data Poisoning Attacks</h2>
+<p>Machine learning models are often trained using data from untrusted
+sources, leaving them open to poisoning attacks where adversaries use
+their control over a small fraction of that training data to poison
+the model in a particular way.</p>
+<p>Most work on poisoning attacks is directly driven by an attacker&rsquo;s
+objective, where the adversary chooses poisoning points that maximize
+some target objective. Our work focuses on <em>model-targeted</em> poisoning
+attacks, where the adversary splits the attack into choosing a target
+model that satisfies the objective and then choosing poisoning points
+that induce the target model.</p>
 <p class="text-right"><a href="/model-targeted-poisoning-attacks-with-provable-convergence/">Read More…</a></p>
 	
 

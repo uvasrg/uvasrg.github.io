@@ -90,9 +90,19 @@
 </div>
 
 
-(Cross-post by Anshuman Suri)
-Distribution inference attacks aims to infer statistical properties of data used to train machine learning models. These attacks are sometimes surprisingly potent, as we demonstrated in previous work.
-KL Divergence Attack Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations, CCS 2018), or using model predictions in black-box scenarios (Zhang et al.
+<p>(Cross-post by <a href="https://www.anshumansuri.com/post/dissecting">Anshuman Suri</a>)</p>
+<p>Distribution inference attacks aims to infer statistical properties of data used to train machine learning models.
+These attacks are sometimes surprisingly potent, as we demonstrated in
+<a href="https://uvasrg.github.io/on-the-risks-of-distribution-inference/">previous work</a>.</p>
+<!-- However, the factors that impact this inference risk are not well understood, and demonstrated attacks often
+rely on strong and unrealistic assumptions such as full knowledge of training environments
+even in supposedly black-box threat scenarios. -->
+<!-- In this work, we develop a new black-box attack, the KL Divergence Attack (KL), and use it to evaluate inference risk while relaxing
+a number of implicit assumptions based on the adversary's knowledge in black-box scenarios. We also evaluate several noise-based defenses, a
+standard approach while trying to preserve privacy in machine learning, along with some intuitive defenses based on resampling. -->
+<h2 id="kl-divergence-attack">KL Divergence Attack</h2>
+<p>Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243834">Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations</a>, CCS 2018), or using model
+predictions in black-box scenarios (Zhang et al., <a href="https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf">Leakage of Dataset Properties in Multi-Party Machine Learning</a>, USENIX 2021). While other black-box were proposed in our prior work, they are not as accurate as meta-classifier-based methods, and require training shadow models nonetheless (Suri and Evans, <a href="https://arxiv.org/pdf/2109.06024.pdf">Formalizing and Estimating Distribution Inference Risks</a>, PETS 2022).</p>
 <p class="text-right"><a href="/dissecting-distribution-inference/">Read More…</a></p>
 	
 
@@ -120,14 +130,20 @@ KL Divergence Attack Most attacks against distribution inference involve trainin
 </div>
 
 
-Here&rsquo;s the slides from my Cray Distinguished Speaker talk on On Leaky Models and Unintended Inferences: [PDF]
-The chatGPT limerick version of my talk abstract is much better than mine:
-A machine learning model, oh so grand
-With data sets that it held in its hand
-It performed quite well
-But secrets to tell
-And an adversary&rsquo;s tricks it could not withstand.
-Thanks to Stephen McCamant and Kangjie Lu for hosting my visit, and everyone at University of Minnesota.
+<p>Here&rsquo;s the slides from my <a href="https://cse.umn.edu/cs/cray">Cray Distinguished Speaker</a> talk on <a href="https://cse.umn.edu/cs/events/cse-colloquium-leaky-models-and-unintended-inferences"><em>On Leaky Models and Unintended Inferences</em></a>: [<a href="https://www.dropbox.com/s/5gi766dqezsitw4/cray2022.pdf?dl=0">PDF</a>]</p>
+<center>
+<a href="https://www.dropbox.com/s/5gi766dqezsitw4/cray2022.pdf?dl=0"><img src="/images/cray2022-title.png" width="65%" alt="Leaky Models and Unintended Inferences"></a> 
+</center>
+</br>
+<p>The chatGPT limerick version of my talk abstract is much better than mine:</p>
+<blockquote>
+<p>A machine learning model, oh so grand<br>
+With data sets that it held in its hand<br>
+It performed quite well<br>
+But secrets to tell<br>
+And an adversary&rsquo;s tricks it could not withstand.</p>
+</blockquote>
+<p>Thanks to Stephen McCamant and Kangjie Lu for hosting my visit, and everyone at University of Minnesota. Also great to catch up with UVA BSCS alumn, <a href="https://www-users.cse.umn.edu/~sjguy/">Stephen J. Guy</a>.</p>
 <p class="text-right"><a href="/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/">Read More…</a></p>
 	
 
@@ -155,9 +171,16 @@ Thanks to Stephen McCamant and Kangjie Lu for hosting my visit, and everyone at 
 </div>
 
 
-(Cross-post by Anshuman Suri)
-Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.
-Standard inference attacks (which we call “dataset inference attacks”) aim to learn something about a particular record that may have been in that training data. For example, in a membership inference attack (Reza Shokri et al., Membership Inference Attacks Against Machine Learning Models, IEEE S&amp;P 2017), the adversary aims to infer whether or not a particular record was included in the training data.
+<p>(Cross-post by <a href="https://www.anshumansuri.com/post/distr_infer">Anshuman Suri</a>)</p>
+<p>Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.</p>
+<p>Standard inference attacks (which we call “dataset inference attacks”)
+aim to learn something about a particular record that may have been in
+that training data. For example, in a membership inference attack
+(Reza Shokri et al., <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7958568"><em>Membership Inference Attacks Against Machine
+Learning
+Models</em></a>, IEEE S&amp;P 2017),
+the adversary aims to infer whether or not a particular record was
+included in the training data.</p>
 <p class="text-right"><a href="/on-the-risks-of-distribution-inference/">Read More…</a></p>
 	
 

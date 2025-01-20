@@ -4,7 +4,7 @@
     <title>Shruti Tople on Security Research Group</title>
     <link>//uvasrg.github.io/tags/shruti-tople/</link>
     <description>Recent content in Shruti Tople on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/sok-let-the-privacy-games-begin-a-unified-treatment-of-data-inference-privacy-in-machine-learning/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/sok-let-the-privacy-games-begin-a-unified-treatment-of-data-inference-privacy-in-machine-learning/</guid>
-      <description>Our paper on the use of cryptographic-style games to model inference privacy is published in IEEE Symposium on Security and Privacy (Oakland):</description>
+      <description>&lt;p&gt;Our paper on the use of cryptographic-style games to model inference privacy is published in &lt;a href=&#34;https://www.ieee-security.org/TC/SP2023/&#34;&gt;&lt;em&gt;IEEE Symposium on Security and Privacy&lt;/em&gt;&lt;/a&gt; (Oakland):&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;a href=&#34;https://www.microsoft.com/en-us/research/people/t-salemahmed/&gt;Ahmed Salem&lt;/a&gt;, &lt;a href=&#34;https://www.microsoft.com/en-us/research/people/gcherubin/&#34;&gt;Giovanni Cherubin&lt;/a&gt;, &lt;a href=&#34;https://www.cs.virginia.edu/evans&#34;/David Evans&lt;/a&gt;, &lt;a href=&#34;https://www.microsoft.com/en-us/research/people/bokoepf/&#34;&gt;Boris Köpf&lt;/a&gt;, &lt;a href=&#34;https://www.microsoft.com/en-us/research/people/anpaverd/&#34;&gt;Andrew Paverd&lt;/a&gt;, &lt;a href=&#34;https://www.anshumansuri.com/&#34;&gt;Anshuman Suri&lt;/a&gt;, &lt;a href=&#34;https://www.microsoft.com/en-us/research/people/shtople/&#34;&gt;Shruti Tople&lt;/a&gt;, and &lt;a href=&#34;https://www.microsoft.com/en-us/research/people/santiago/&#34;&gt;Santiago Zanella-Béguelin&lt;/a&gt;. &lt;em&gt;SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning&lt;/em&gt;. IEEE Symposium on Security and Privacy, 2023. [&lt;a href=&#34;https://arxiv.org/abs/2212.10986&#34;&gt;Arxiv&lt;/a&gt;]&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;&#xA;&lt;center&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Tired of diverse definitions of machine learning privacy risks? Curious about game-based definitions? In our paper, we present privacy games as a tool for describing and analyzing privacy risks in machine learning. Join us on May 22nd, 11 AM &lt;a href=&#34;https://twitter.com/IEEESSP?ref_src=twsrc%5Etfw&#34;&gt;@IEEESSP&lt;/a&gt; &amp;#39;23 &lt;a href=&#34;https://t.co/NbRuTmHyd2&#34;&gt;https://t.co/NbRuTmHyd2&lt;/a&gt; &lt;a href=&#34;https://t.co/CIzsT7UY4b&#34;&gt;pic.twitter.com/CIzsT7UY4b&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

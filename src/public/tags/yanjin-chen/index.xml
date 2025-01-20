@@ -4,7 +4,7 @@
     <title>Yanjin Chen on Security Research Group</title>
     <link>//uvasrg.github.io/tags/yanjin-chen/</link>
     <description>Recent content in Yanjin Chen on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Fri, 16 Dec 2022 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/dissecting-distribution-inference/</link>
       <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/dissecting-distribution-inference/</guid>
-      <description>(Cross-post by Anshuman Suri)&#xA;Distribution inference attacks aims to infer statistical properties of data used to train machine learning models. These attacks are sometimes surprisingly potent, as we demonstrated in previous work.&#xA;KL Divergence Attack Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations, CCS 2018), or using model predictions in black-box scenarios (Zhang et al.</description>
+      <description>&lt;p&gt;(Cross-post by &lt;a href=&#34;https://www.anshumansuri.com/post/dissecting&#34;&gt;Anshuman Suri&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Distribution inference attacks aims to infer statistical properties of data used to train machine learning models.&#xA;These attacks are sometimes surprisingly potent, as we demonstrated in&#xA;&lt;a href=&#34;https://uvasrg.github.io/on-the-risks-of-distribution-inference/&#34;&gt;previous work&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- However, the factors that impact this inference risk are not well understood, and demonstrated attacks often&#xA;rely on strong and unrealistic assumptions such as full knowledge of training environments&#xA;even in supposedly black-box threat scenarios. --&gt;&#xA;&lt;!-- In this work, we develop a new black-box attack, the KL Divergence Attack (KL), and use it to evaluate inference risk while relaxing&#xA;a number of implicit assumptions based on the adversary&#39;s knowledge in black-box scenarios. We also evaluate several noise-based defenses, a&#xA;standard approach while trying to preserve privacy in machine learning, along with some intuitive defenses based on resampling. --&gt;&#xA;&lt;h2 id=&#34;kl-divergence-attack&#34;&gt;KL Divergence Attack&lt;/h2&gt;&#xA;&lt;p&gt;Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., &lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3243734.3243834&#34;&gt;Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations&lt;/a&gt;, CCS 2018), or using model&#xA;predictions in black-box scenarios (Zhang et al., &lt;a href=&#34;https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf&#34;&gt;Leakage of Dataset Properties in Multi-Party Machine Learning&lt;/a&gt;, USENIX 2021). While other black-box were proposed in our prior work, they are not as accurate as meta-classifier-based methods, and require training shadow models nonetheless (Suri and Evans, &lt;a href=&#34;https://arxiv.org/pdf/2109.06024.pdf&#34;&gt;Formalizing and Estimating Distribution Inference Risks&lt;/a&gt;, PETS 2022).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

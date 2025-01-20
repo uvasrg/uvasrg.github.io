@@ -4,7 +4,7 @@
     <title>Fairness on Security Research Group</title>
     <link>//uvasrg.github.io/tags/fairness/</link>
     <description>Recent content in Fairness on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>//uvasrg.github.io/algorithmic-accountability-and-the-law/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/algorithmic-accountability-and-the-law/</guid>
-      <description>Brink News (a publication of The Atlantic) published an essay I co-authored with Tom Nachbar (UVA Law School) on how the law views algorithmic accountability and the limits of what measures are permitted under the law to adjust algorithms to counter inequity:&#xA;Algorithms Are Running Foul of Anti-Discrimination Law&#xA;Tom Nachbar and David Evans&#xA;Brink, 7 December 2020 Computing systems that are found to discriminate on prohibited bases, such as race or sex, are no longer surprising.</description>
+      <description>&lt;p&gt;Brink News (a publication of &lt;em&gt;The Atlantic&lt;/em&gt;) published an essay I&#xA;co-authored with Tom Nachbar (UVA Law School) on how the law views&#xA;algorithmic accountability and the limits of what measures are&#xA;permitted under the law to adjust algorithms to counter inequity:&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;a&#xA;href=&#34;https://www.brinknews.com/algorithms-are-running-foul-of-anti-discrimination-law/&#34;&gt;&lt;em&gt;&lt;b&gt;Algorithms&#xA;Are Running Foul of Anti-Discrimination Law&lt;/em&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&#xA;Tom Nachbar and David Evans&lt;br&gt;&#xA;Brink, 7 December 2020&#xA;&lt;/center&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;Computing systems that are found to discriminate on prohibited bases, such as race or sex, are no longer surprising. We’ve seen hiring systems that discriminate &lt;a href=&#34;https://www.brinknews.com/ethics-codes-are-not-enough-to-curb-the-danger-of-bias-in-ai/&#34;&gt;against women&lt;/a&gt; image systems that are prone to &lt;a href=&#34;https://www.theatlantic.com/family/archive/2020/10/algorithmic-bias-especially-dangerous-teens/616793/&#34;&gt;cropping out dark-colored faces&lt;/a&gt; and &lt;a href=&#34;https://www.theatlantic.com/technology/archive/2016/12/how-algorithms-can-bring-down-minorities-credit-scores/509333/&#34;&gt;credit scoring systems that discriminate against minorities&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Brink Essay: AI Systems Are Complex and Fragile. Here Are Four Key Risks to Understand.</title>
       <link>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./</guid>
-      <description>Brink News (a publication of The Atlantic) published my essay on the risks of deploying AI systems.&#xA;Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.</description>
+      <description>&lt;p&gt;Brink News (a publication of &lt;em&gt;The Atlantic&lt;/em&gt;) published my essay on the risks of deploying AI systems.&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;a href=&#34;https://www.brinknews.com/ai-systems-are-complex-and-fragile-here-are-four-key-risks-to-understand/&#34;&gt;&lt;img style=&#34;box-shadow: 10px 10px 5px grey;&#34; src=&#34;//uvasrg.github.io/images/brink.png&#34; width=90%&#34;&gt;&lt;/a&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. &lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-weight: 400;&#34;&gt;Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood. When AI systems are deployed to make important decisions that impact human safety and well-being, the potential risks of abuse and misbehavior are high and need to be carefully considered and mitigated.&lt;/span&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

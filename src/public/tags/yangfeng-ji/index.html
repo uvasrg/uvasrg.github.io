@@ -90,9 +90,11 @@
 </div>
 
 
-Evaluating Allocational Harms in Large Language Models Blog post written by Hannah Chen
-Our work considers allocational harms that arise when model predictions are used to distribute scarce resources or opportunities.
-Current Bias Metrics Do Not Reliably Reflect Allocation Disparities Several methods have been proposed to audit large language models (LLMs) for bias when used in critical decision-making, such as resume screening for hiring. Yet, these methods focus on predictions, without considering how the predictions are used to make decisions.
+<h1 id="evaluating-allocational-harms-in-large-language-models">Evaluating Allocational Harms in Large Language Models</h1>
+<p><strong>Blog post written by <a href="https://hannahxchen.github.io/">Hannah Chen</a></strong></p>
+<p>Our work considers <i>allocational harms</i> that arise when model predictions are used to distribute scarce resources or opportunities.</p>
+<h2 id="current-bias-metrics-do-not-reliably-reflect-allocation-disparities">Current Bias Metrics Do Not Reliably Reflect Allocation Disparities</h2>
+<p>Several methods have been proposed to audit large language models (LLMs) for bias when used in critical decision-making, such as resume screening for hiring. Yet, these methods focus on <i>predictions</i>, without considering how the predictions are used to make <i>decisions</i>. In many settings, making decisions involve prioritizing options due to limited resource constraints. We find that prediction-based evaluation methods, which measure bias as the <i>average performance gap</i> (δ) in prediction outcomes, do not reliably reflect disparities in allocation decision outcomes.</p>
 <p class="text-right"><a href="/the-mismeasure-of-man-and-models/">Read More…</a></p>
 	
 
@@ -122,10 +124,21 @@ Current Bias Metrics Do Not Reliably Reflect Allocation Disparities Several meth
 </div>
 
 
-Post by Hannah Chen.
-Our work on balanced adversarial training looks at how to train models that are robust to two different types of adversarial examples:
-Hannah Chen, Yangfeng Ji, David Evans. Balanced Adversarial Training: Balancing Tradeoffs between Fickleness and Obstinacy in NLP Models. In The 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), Abu Dhabi, 7-11 December 2022. [ArXiv]
-Adversarial Examples At the broadest level, an adversarial example is an input crafted intentionally to confuse a model.
+<p>Post by <a href="https://hannahxchen.github.io/">Hannah Chen</a>.</p>
+<p>Our work on balanced adversarial training looks at how to train models
+that are robust to two different types of adversarial examples:</p>
+<p><a href="https://hannahxchen.github.io/">Hannah Chen</a>, <a href="http://yangfengji.net/">Yangfeng
+Ji</a>, <a href="http://www.cs.virginia.edu/~evans/">David
+Evans</a>. <em>Balanced Adversarial
+Training: Balancing Tradeoffs between Fickleness and Obstinacy in NLP
+Models</em>. In <a href="https://2022.emnlp.org/"><em>The 2022 Conference on Empirical Methods in Natural
+Language Processing</em></a> (EMNLP), Abu Dhabi,
+7-11 December 2022.  [<a href="https://arxiv.org/abs/2210.11498">ArXiv</a>]</p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xQH51lIVDyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<h2 id="adversarial-examples">Adversarial Examples</h2>
+<p>At the broadest level, an adversarial example is an input crafted intentionally to confuse a model. However, most work focus on the defintion as an input constructed by applying a small perturbation that preserves the ground truth label but changes model&rsquo;s output <a href="https://arxiv.org/abs/1412.6572">(Goodfellow et al., 2015)</a>. We refer it as a <strong>fickle adversarial example</strong>. On the other hand, attackers can target an opposite objective where the inputs are made with minimal changes that change the ground truth labels but retain model&rsquo;s predictions <a href="https://arxiv.org/abs/1811.00401">(Jacobsen et al., 2018)</a>. We refer these malicious inputs as <strong>obstinate adversarial examples</strong>.</p>
 <p class="text-right"><a href="/balancing-tradeoffs-between-fickleness-and-obstinacy-in-nlp-models/">Read More…</a></p>
 	
 
@@ -155,8 +168,26 @@ Adversarial Examples At the broadest level, an adversarial example is an input c
 </div>
 
 
-Hannah Chen presented her paper on Pointwise Paraphrase Appraisal is Potentially Problematic at the ACL 2020 Student Research Workshop:
-The prevailing approach for training and evaluating paraphrase identification models is constructed as a binary classification problem: the model is given a pair of sentences, and is judged by how accurately it classifies pairs as either paraphrases or non-paraphrases. This pointwise-based evaluation method does not match well the objective of most real world applications, so the goal of our work is to understand how models which perform well under pointwise evaluation may fail in practice and find better methods for evaluating paraphrase identification models.
+<p>Hannah Chen presented her paper on <em>Pointwise Paraphrase Appraisal is
+Potentially Problematic</em> at the <a href="https://sites.google.com/view/acl20studentresearchworkshop/">ACL 2020 Student Research
+Workshop</a>:</p>
+<blockquote>
+<p>The prevailing approach for training and evaluating paraphrase
+identification models is constructed as a binary classification
+problem: the model is given a pair of sentences, and is judged by how
+accurately it classifies pairs as either paraphrases or
+non-paraphrases. This pointwise-based evaluation method does not match
+well the objective of most real world applications, so the goal of our
+work is to understand how models which perform well under pointwise
+evaluation may fail in practice and find better methods for evaluating
+paraphrase identification models. As a first step towards that goal,
+we show that although the standard way of fine-tuning BERT for
+paraphrase identification by pairing two sentences as one sequence
+results in a model with state-of-the-art performance, that model may
+perform poorly on simple tasks like identifying pairs with two
+identical sentences. Moreover, we show that these models may even
+predict a pair of randomly-selected sentences with higher paraphrase
+score than a pair of identical ones.</p>
 <p class="text-right"><a href="/pointwise-paraphrase-appraisal-is-potentially-problematic/">Read More…</a></p>
 	
 

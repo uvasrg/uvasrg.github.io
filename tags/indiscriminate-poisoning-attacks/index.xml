@@ -4,7 +4,7 @@
     <title>Indiscriminate Poisoning Attacks on Security Research Group</title>
     <link>//uvasrg.github.io/tags/indiscriminate-poisoning-attacks/</link>
     <description>Recent content in Indiscriminate Poisoning Attacks on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/</guid>
-      <description>Post by Fnu Suya&#xA;Data poisoning attacks are recognized as a top concern in the industry [1]. We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging [2]. In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.</description>
+      <description>&lt;p&gt;Post by &lt;strong&gt;&lt;a href=&#34;https://fsuya.org/&#34;&gt;Fnu Suya&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Data poisoning attacks are recognized as a top concern in the industry &lt;a href=&#34;https://arxiv.org/abs/2002.05646&#34;&gt;[1]&lt;/a&gt;. We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging &lt;a href=&#34;https://arxiv.org/abs/2303.03592&#34;&gt;[2]&lt;/a&gt;. In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

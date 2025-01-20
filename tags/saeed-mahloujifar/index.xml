@@ -4,7 +4,7 @@
     <title>Saeed Mahloujifar on Security Research Group</title>
     <link>//uvasrg.github.io/tags/saeed-mahloujifar/</link>
     <description>Recent content in Saeed Mahloujifar on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
@@ -14,28 +14,28 @@
       <link>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/model-targeted-poisoning-attacks-with-provable-convergence/</guid>
-      <description>(Post by Sean Miller, using images adapted from Suya&amp;rsquo;s talk slides)&#xA;Data Poisoning Attacks Machine learning models are often trained using data from untrusted sources, leaving them open to poisoning attacks where adversaries use their control over a small fraction of that training data to poison the model in a particular way.&#xA;Most work on poisoning attacks is directly driven by an attacker&amp;rsquo;s objective, where the adversary chooses poisoning points that maximize some target objective.</description>
+      <description>&lt;p&gt;(Post by Sean Miller, using images adapted from Suya&amp;rsquo;s talk slides)&lt;/p&gt;&#xA;&lt;h2 id=&#34;data-poisoning-attacks&#34;&gt;Data Poisoning Attacks&lt;/h2&gt;&#xA;&lt;p&gt;Machine learning models are often trained using data from untrusted&#xA;sources, leaving them open to poisoning attacks where adversaries use&#xA;their control over a small fraction of that training data to poison&#xA;the model in a particular way.&lt;/p&gt;&#xA;&lt;p&gt;Most work on poisoning attacks is directly driven by an attacker&amp;rsquo;s&#xA;objective, where the adversary chooses poisoning points that maximize&#xA;some target objective. Our work focuses on &lt;em&gt;model-targeted&lt;/em&gt; poisoning&#xA;attacks, where the adversary splits the attack into choosing a target&#xA;model that satisfies the objective and then choosing poisoning points&#xA;that induce the target model.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NeurIPS 2019</title>
       <link>//uvasrg.github.io/neurips2019/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/neurips2019/</guid>
-      <description> Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: https://slideslive.com/38921718/track-2-session-1 (starting at 26:50) See this post for info on the paper. Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody): </description>
+      <description>&lt;p&gt;&#xA;Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: &lt;br&gt;&#xA;&lt;a href=&#34;https://slideslive.com/38921718/track-2-session-1&#34;&gt;&lt;em&gt;https://slideslive.com/38921718/track-2-session-1&lt;/em&gt;&lt;/a&gt; (starting at 26:50)&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;See &lt;A href=&#34;//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/&#34;&gt;this post&lt;/a&gt; for info on the paper.&#xA;&lt;/p&gt;&#xA;Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody):&#xA;&lt;p&gt;&#xA;&lt;center&gt;&#xA;&lt;a href=&#34;//uvasrg.github.io/images/NeurIPS2019/IMG_6759.JPG&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/NeurIPS2019/IMG_6759.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;a href=&#34;//uvasrg.github.io/images/NeurIPS2019/IMG_6777.JPG&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/NeurIPS2019/IMG_6777.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;a href=&#34;//uvasrg.github.io/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;/a&gt;&lt;br&gt;&#xA;&lt;/center&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>NeurIPS 2019: Empirically Measuring Concentration</title>
       <link>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</guid>
-      <description>Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.&#xA;Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt; will&#xA;present our work (with &lt;a&#xA;href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt; and&#xA;&lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood&#xA;Mahmoody&lt;/a&gt;) as a spotlight at &lt;a href=&#34;https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792&#34;&gt;NeurIPS&#xA;2019&lt;/a&gt;,&#xA;Vancouver, 10 December 2019.&lt;/p&gt;&#xA;&lt;p&gt;Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s&#xA;&lt;a href=&#34;https://aipavilion.github.io/&#34;&gt;&lt;em&gt;Adversarial Spheres&lt;/em&gt;&lt;/a&gt; (2018), show&#xA;that if inputs are drawn from a concentrated metric probability space,&#xA;then adversarial examples with small perturbation are inevitable.c The&#xA;key insight from this line of research is that &lt;a href=&#34;https://en.wikipedia.org/wiki/Concentration_of_measure%22%3E&#34;&gt;&lt;em&gt;concentration of&#xA;measure&lt;/em&gt;&lt;/a&gt;&#xA;gives lower bound on adversarial risk for a large collection of&#xA;classifiers (e.g. imperfect classifiers with risk at least $\alpha$),&#xA;which further implies the impossibility results for robust learning&#xA;against adversarial examples.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Empirically Measuring Concentration</title>
       <link>//uvasrg.github.io/empirically-measuring-concentration/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/empirically-measuring-concentration/</guid>
-      <description>Xiao Zhang and Saeed Mahloujifar will present our work on Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness at two workshops May 6 at ICLR 2019 in New Orleans: Debugging Machine Learning Models and Safe Machine Learning: Specification, Robustness and Assurance.&#xA;Paper: [PDF]</description>
+      <description>&lt;p&gt;Xiao Zhang and Saeed Mahloujifar will present our work on &lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt; at two workshops May 6 at ICLR 2019 in New Orleans: &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning:&#xA;Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Paper: &lt;a href=&#34;//uvasrg.github.io/docs/concentration-robustness.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;a href=&#34;//uvasrg.github.io/docs/concentration-robustness-poster.pdf&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/docs/concentration-robustness-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&#xA;&lt;/center&gt;</description>
     </item>
   </channel>
 </rss>

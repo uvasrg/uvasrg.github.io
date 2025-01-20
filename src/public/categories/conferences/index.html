@@ -90,9 +90,19 @@
 </div>
 
 
-(Cross-post by Anshuman Suri)
-Distribution inference attacks aims to infer statistical properties of data used to train machine learning models. These attacks are sometimes surprisingly potent, as we demonstrated in previous work.
-KL Divergence Attack Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations, CCS 2018), or using model predictions in black-box scenarios (Zhang et al.
+<p>(Cross-post by <a href="https://www.anshumansuri.com/post/dissecting">Anshuman Suri</a>)</p>
+<p>Distribution inference attacks aims to infer statistical properties of data used to train machine learning models.
+These attacks are sometimes surprisingly potent, as we demonstrated in
+<a href="https://uvasrg.github.io/on-the-risks-of-distribution-inference/">previous work</a>.</p>
+<!-- However, the factors that impact this inference risk are not well understood, and demonstrated attacks often
+rely on strong and unrealistic assumptions such as full knowledge of training environments
+even in supposedly black-box threat scenarios. -->
+<!-- In this work, we develop a new black-box attack, the KL Divergence Attack (KL), and use it to evaluate inference risk while relaxing
+a number of implicit assumptions based on the adversary's knowledge in black-box scenarios. We also evaluate several noise-based defenses, a
+standard approach while trying to preserve privacy in machine learning, along with some intuitive defenses based on resampling. -->
+<h2 id="kl-divergence-attack">KL Divergence Attack</h2>
+<p>Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243834">Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations</a>, CCS 2018), or using model
+predictions in black-box scenarios (Zhang et al., <a href="https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf">Leakage of Dataset Properties in Multi-Party Machine Learning</a>, USENIX 2021). While other black-box were proposed in our prior work, they are not as accurate as meta-classifier-based methods, and require training shadow models nonetheless (Suri and Evans, <a href="https://arxiv.org/pdf/2109.06024.pdf">Formalizing and Estimating Distribution Inference Risks</a>, PETS 2022).</p>
 <p class="text-right"><a href="/dissecting-distribution-inference/">Read More…</a></p>
 	
 
@@ -120,9 +130,16 @@ KL Divergence Attack Most attacks against distribution inference involve trainin
 </div>
 
 
-(Cross-post by Anshuman Suri)
-Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.
-Standard inference attacks (which we call “dataset inference attacks”) aim to learn something about a particular record that may have been in that training data. For example, in a membership inference attack (Reza Shokri et al., Membership Inference Attacks Against Machine Learning Models, IEEE S&amp;P 2017), the adversary aims to infer whether or not a particular record was included in the training data.
+<p>(Cross-post by <a href="https://www.anshumansuri.com/post/distr_infer">Anshuman Suri</a>)</p>
+<p>Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.</p>
+<p>Standard inference attacks (which we call “dataset inference attacks”)
+aim to learn something about a particular record that may have been in
+that training data. For example, in a membership inference attack
+(Reza Shokri et al., <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7958568"><em>Membership Inference Attacks Against Machine
+Learning
+Models</em></a>, IEEE S&amp;P 2017),
+the adversary aims to infer whether or not a particular record was
+included in the training data.</p>
 <p class="text-right"><a href="/on-the-risks-of-distribution-inference/">Read More…</a></p>
 	
 
@@ -217,8 +234,23 @@ Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody)
 </div>
 
 
-I had a chance to visit the White House for a Roundtable on Accelerating Responsible Sharing of Federal Data. The meeting was held under &ldquo;Chatham House Rules&rdquo;, so I won&rsquo;t mention the other participants here.
-The meeting was held in the Roosevelt Room of the White House. We entered through the visitor&rsquo;s side entrance. After a security gate (where you put your phone in a lockbox, so no pictures inside) with a TV blaring Fox News, there is a pleasant lobby for waiting, and then an entrance right into the Roosevelt Room.
+<p>I had a chance to visit the White House for a Roundtable on
+<em>Accelerating Responsible Sharing of Federal Data</em>. The meeting was
+held under &ldquo;Chatham House Rules&rdquo;, so I won&rsquo;t mention the other
+participants here.</p>
+<div style="padding-bottom: 2em">
+<center>
+<a href="/images/whitehouse/IMG_20191030_080936.png"><img src="/images/whitehouse/IMG_20191030_080936.png" width=75%>
+</center>
+</div>
+<p>The meeting was held in the <a href="https://en.wikipedia.org/wiki/Roosevelt_Room">Roosevelt
+Room</a> of the White
+House. We entered through the visitor&rsquo;s side entrance. After a
+security gate (where you put your phone in a lockbox, so no pictures
+inside) with a TV blaring Fox News, there is a pleasant lobby for
+waiting, and then an entrance right into the Roosevelt Room. (We
+didn&rsquo;t get to see the entrance in the opposite corner of the room,
+which is just a hallway across from the Oval Office.)</p>
 <p class="text-right"><a href="/white-house-visit/">Read More…</a></p>
 	
 
@@ -323,8 +355,17 @@ Fnu Suya [<a href="/docs/symposters2019/hybridbatch-poster.pdf">Poster<a>]<br>
 </div>
 
 
-(Cross-post by Bargav Jayaraman)
-With the recent advances in composition of differential private mechanisms, the research community has been able to achieve meaningful deep learning with privacy budgets in single digits. Rènyi differential privacy (RDP) is one mechanism that provides tighter composition which is widely used because of its implementation in TensorFlow Privacy (recently, Gaussian differential privacy (GDP) has shown a tighter analysis for low privacy budgets, but it was not yet available when we did this work).
+<p>(Cross-post by <a href="https://bargavjayaraman.github.io/post/evaluating-dpml-results/">Bargav Jayaraman</a>)</p>
+<p>With the recent advances in composition of differential private
+mechanisms, the research community has been able to achieve meaningful
+deep learning with privacy budgets in single digits. Rènyi
+differential privacy (RDP) is one mechanism that provides tighter
+composition which is widely used because of its implementation in
+TensorFlow Privacy (recently, Gaussian differential privacy (GDP) has
+shown a tighter analysis for low privacy budgets, but it was not yet
+available when we did this work). But the central question that
+remains to be answered is: <em>how private are these methods in
+practice?</em></p>
 <p class="text-right"><a href="/evaluating-differentially-private-machine-learning-in-practice/">Read More…</a></p>
 	
 
@@ -356,11 +397,36 @@ With the recent advances in composition of differential private mechanisms, the 
 </div>
 
 
-Bargav Jayaraman presented our paper on Evaluating Differentially Private Machine Learning in Practice at the 28th USENIX Security Symposium in Santa Clara, California.
-Summary by Lea Kissner:
-Hey it&#39;s the results! pic.twitter.com/ru1FbkESho
-&mdash; Lea Kissner (@LeaKissner) August 17, 2019 Also, great to see several UVA folks at the conference including:
-Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the work he and his colleagues have done on computer security for victims of intimate partner violence.
+<p>Bargav Jayaraman presented our paper on <a href="https://arxiv.org/abs/1902.08874"><em>Evaluating Differentially Private Machine Learning in Practice</em></a> at the <a
+href="https://www.usenix.org/conference/usenixsecurity19">28<sup>th</sup>
+USENIX Security Symposium</em></a> in Santa Clara, California.</p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JAGhqbY_U50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<center>
+<script async class="speakerdeck-embed" data-id="dfdd40e4ba2b46e1baee68219df82de7" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
+</center>
+<center><img src="/images/usenix2019/bargav.jpg" width=80%"></center>
+<p>Summary by Lea Kissner:</p>
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hey it&#39;s the results! <a href="https://t.co/ru1FbkESho">pic.twitter.com/ru1FbkESho</a></p>&mdash; Lea Kissner (@LeaKissner) <a href="https://twitter.com/LeaKissner/status/1162518239177371648?ref_src=twsrc%5Etfw">August 17, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<p>Also, great to see several UVA folks at the conference including:</p>
+<ul>
+<li><a href="https://havron.dev">Sam Havron</a> (BSCS 2017, now a PhD student at
+Cornell) presented a paper on the work he and his colleagues have
+done on <a href="https://havron.dev/pubs/clinicalsec.pdf">computer security for victims of intimate partner violence</a>.</li>
+</ul>
+<center><img src="/images/usenix2019/havron.jpg" width=80%"></center>
+<ul>
+<li>
+<p><a href="https://www.guanotronic.com/~serge/">Serge Egelman</a> (BSCS 2004) was an author on the paper <a href="https://www.usenix.org/conference/usenixsecurity19/presentation/reardon"><em>50 Ways to Leak Your Data: An
+Exploration of Apps&rsquo; Circumvention of the Android Permissions
+System</em></a>
+(which was recognized by a Distinguished Paper Award). His paper in
+SOUPS on <a href="https://www.usenix.org/system/files/soups2019-frik.pdf"><em>Privacy and Security Threat Models and Mitigation
+Strategies of Older
+Adults</em></a> was highlighted in Alex Stamos&rsquo; excellent talk.</p>
 <p class="text-right"><a href="/usenix-security-symposium-2019/">Read More…</a></p>
 	
 
@@ -386,10 +452,14 @@ Sam Havron (BSCS 2017, now a PhD student at Cornell) presented a paper on the wo
 </div>
 
 
-I presented a short talk at a workshop at Google on Adversarial ML: Closing Gaps between Theory and Practice (mostly fun for the movie of me trying to solve Google&rsquo;s CAPTCHA on the last slide):
-Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.
-I can say with some confidence, Google does donuts much better than they do cookies!
-<p class="text-right"><a href="/google-security-and-privacy-workshop/">Read More…</a></p>
+<p>I presented a short talk at a workshop at Google on <em>Adversarial ML: Closing Gaps between Theory and Practice</em> (mostly fun for the <a href="https://www.youtube.com/watch?v=TVmjjfTvnFs">movie of me trying to solve Google&rsquo;s CAPTCHA</a> on the last slide):</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTKeMueFNQPz0Pms4EGKoYOXVEg92IBi55babPKG5WRrhHRR2PmIYwZIyLsZ11ucKSahqjjp3Zxd5i3/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<p>Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.</p>
+<center>
+<img src="/images/googledonuts.jpg" width="90%"><br>
+I can say with some confidence, Google does donuts much better than they <a href="https://freedom-to-tinker.com/2019/08/23/deconstructing-googles-excuses-on-tracking-protection/">do cookies</a>!
+</center>
+
 	
 
     
@@ -416,8 +486,13 @@ I can say with some confidence, Google does donuts much better than they do cook
 </div>
 
 
-Bargav Jayaraman presented our work on privacy-preserving machine learning at the 32nd Conference on Neural Information Processing Systems (NeurIPS 2018) in Montreal.
-Distributed learning (sometimes known as federated learning) allows a group of independent data owners to collaboratively learn a model over their data sets without exposing their private data. Our approach combines differential privacy with secure multi-party computation to both protect the data during training and produce a model that provides privacy against inference attacks.
+<p>Bargav Jayaraman presented our work on privacy-preserving machine learning at the <a href="https://nips.cc/Conferences/2018/">32<sup>nd</sup> <em>Conference on Neural Information Processing Systems</em></a> (NeurIPS 2018) in Montreal.</p>
+<p><em>Distributed learning</em> (sometimes known as <em>federated learning</em>)
+allows a group of independent data owners to collaboratively learn a
+model over their data sets without exposing their private data.  Our
+approach combines <em>differential privacy</em> with secure <em>multi-party
+computation</em> to both protect the data during training and produce a
+model that provides privacy against inference attacks.</p>
 <p class="text-right"><a href="/neurips-2018-distributed-learning-without-distress/">Read More…</a></p>
 	
 

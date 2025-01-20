@@ -4,7 +4,7 @@
     <title>Courses on Security Research Group</title>
     <link>//uvasrg.github.io/categories/courses/</link>
     <description>Recent content in Courses on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/fosad2019/</link>
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/fosad2019/</guid>
-      <description>I taught a mini-course on Trustworthy Machine Learning at the 19th International School on Foundations of Security Analysis and Design in Bertinoro, Italy.&#xA;Slides from my three (two-hour) lectures are posted below, along with some links to relevant papers and resources.&#xA;Class 1: Introduction/Attacks The PDF malware evasion attack is described in this paper:&#xA;Weilin Xu, Yanjun Qi, and David Evans. Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers.</description>
+      <description>&lt;p&gt;I taught a mini-course on &lt;em&gt;Trustworthy Machine Learning&lt;/em&gt; at the &lt;a href=&#34;http://www.sti.uniurb.it/events/fosad19/&#34;&gt;&lt;em&gt;19th&#xA;International School on Foundations of Security Analysis and&#xA;Design&lt;/em&gt;&lt;/a&gt; in Bertinoro, Italy.&lt;/p&gt;&#xA;&lt;center&gt;&lt;a href=&#34;//uvasrg.github.io/images/bertinoro-big.jpg&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/bertinoro.jpg&#34; width=&#34;90%&#34;&gt;&lt;/a&gt;&lt;/center&gt;&#xA;&lt;p&gt;Slides from my three (two-hour) lectures are posted below, along with&#xA;some links to relevant papers and resources.&lt;/p&gt;&#xA;&lt;h2 id=&#34;class-1-introductionattacks&#34;&gt;Class 1: Introduction/Attacks&lt;/h2&gt;&#xA;&lt;center&gt;&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;0ad1775bcc244876ac4df1880a864e78&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;The PDF malware evasion attack is described in this paper:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;Weilin Xu, Yanjun Qi, and David Evans. &#xA;&lt;em&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2016/&#34;&gt;Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers&lt;/a&gt;&lt;/em&gt;.&#xA;&lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt; (NDSS). San Diego, CA. 21-24 February 2016. [&lt;a href=&#34;https://www.cs.virginia.edu/evans/pubs/ndss2016/evademl.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://evademl.org/gpevasion/&#34;&gt;EvadeML.org&lt;/a&gt;]&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;class-2-defenses&#34;&gt;Class 2: Defenses&lt;/h2&gt;&#xA;&lt;center&gt;&#xA;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cf560cce9e4b418397d2df3429ddc8f9&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;This paper describes the feature squeezing framework:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

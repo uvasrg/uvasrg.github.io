@@ -110,7 +110,7 @@ model. They seek to infer whether the effective diameter ($90^{th}$
 percentile of all pair-wise shortest paths) of the network is below 6
 ($\mathcal{D}_0$) or not ($\mathcal{D}_1$).</p>
 <center>
-<figure><img src="/images/propertyinference2021/example.png" width="80%"/>
+<figure><img src="/images/propertyinference2021/example.png" width="80%">
 </figure>
 
 </center>
@@ -130,14 +130,14 @@ valuable to the adversary.</p>
 <h2 id="formalizing-property-inference">Formalizing Property Inference</h2>
 <p>To formalize property inference attacks, we adapt the cryptographic game for membership inference proposed by Yeom et al. (<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8429311"><em>Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting</em></a>, CSF 2018):</p>
 <center>
-<figure><img src="/images/propertyinference2021/yeom.png" width="70%"/>
+<figure><img src="/images/propertyinference2021/yeom.png" width="70%">
 </figure>
 
 </center>
 <p>In this game, the victim samples a dataset S from the distribution $\mathcal{D}$ and trains a model $M$ on it. It then samples some data-point $z$ from either $S$ or $\mathcal{D}$, based on $b \xleftarrow{R}${0,1}. The adversary then tries to infer $b$ using algorithm $H$, given access to ($z$, $\mathcal{D}$, $M$). This cryptographic game captures the intuitive notion of membership inference. It focuses on a particular dataset and sample: inferring whether a given data point was part of training data.</p>
 <p>In contrast, property inference focuses on properties of the underlying distribution ($\mathcal{D}$), not the dataset ($S$) itself. To capture property inference, we propose a similar cryptographic game. Instead of differentiating between the sources of a specific data point ($S$ or $\mathcal{D}$), we propose distinguishing between two distributions, $\mathcal{D}_0$ and $\mathcal{D}_1$.</p>
 <center>
-<figure><img src="/images/propertyinference2021/distr.png" width="70%"/>
+<figure><img src="/images/propertyinference2021/distr.png" width="70%">
 </figure>
 
 </center>
@@ -208,7 +208,7 @@ Multi-Party Machine Learning</em></a>
 <p>Our results demonstrate how a meta-classifier can also be trained to directly infer the mean-node degree of graphs (<a href="#figure2">Figure 2</a>). Encouraged by the success of meta-classifiers for this task, we also tried a meta-classifier variant to predict the mean-node degree of training graphs (<a href="#figure3">Figure 3</a>). The resulting meta-classifier even generalizes well, accurately predicting mean node-degrees for distributions ($\alpha$={12.5, 13.5}) that it hasn&rsquo;t seen.</p>
 <h3 id="summary">Summary</h3>
 <p>Our work on distribution inference formalizes and shows how property inference attacks can indeed infer distribution-level properties. Our ongoing work is focused on quantifying and studying this ‘privacy leakage’ of properties and its implications.</p>
-<p>Pre-print: <a href="http://anshumansuri.me/">Anshuman Suri</a>, <a href="http://www.cs.virginia.edu/~evans/">David Evans</a>. <a href="https://www.anshumansuri.com/publication/distribution-inference/"><em>Formalizing Distribution Inference Risks</em></a> (arXiv).</p>
+<p>Pre-print: <a href="http://anshumansuri.com/">Anshuman Suri</a>, <a href="http://www.cs.virginia.edu/~evans/">David Evans</a>. <a href="https://www.anshumansuri.com/publication/distribution-inference/"><em>Formalizing Distribution Inference Risks</em></a> (arXiv).</p>
 <p>A more detailed and updated paper is now available: <a href="https://arxiv.org/abs/2109.06024"><em>Formalizing and Estimating Distribution Inference Risks</em></a> (arXiv).</p>
 <p>Code: <a href="https://github.com/iamgroot42/distribution_inference">https://github.com/iamgroot42/distribution_inference</a></p>
 

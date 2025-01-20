@@ -4,7 +4,7 @@
     <title>Yulong Tian on Security Research Group</title>
     <link>//uvasrg.github.io/tags/yulong-tian/</link>
     <description>Recent content in Yulong Tian on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>//uvasrg.github.io/cvpr-2023-manipulating-transfer-learning-for-property-inference/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/cvpr-2023-manipulating-transfer-learning-for-property-inference/</guid>
-      <description>Manipulating Transfer Learning for Property Inference Transfer learning is a popular method to train deep learning models efficiently. By reusing parameters from upstream pre-trained models, the downstream trainer can use fewer computing resources to train downstream models, compared to training models from scratch.&#xA;The figure below shows the typical process of transfer learning for vision tasks:&#xA;However, the nature of transfer learning can be exploited by a malicious upstream trainer, leading to severe risks to the downstream trainer.</description>
+      <description>&lt;h1 id=&#34;manipulating-transfer-learning-for-property-inference&#34;&gt;Manipulating Transfer Learning for Property Inference&lt;/h1&gt;&#xA;&lt;p&gt;Transfer learning is a popular method to train deep learning models&#xA;efficiently. By reusing parameters from upstream pre-trained models,&#xA;the downstream trainer can use fewer computing resources to train&#xA;downstream models, compared to training models from scratch.&lt;/p&gt;&#xA;&lt;p&gt;The figure below shows the typical process of transfer learning for&#xA;vision tasks:&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;a href=&#34;//uvasrg.github.io/images/mtlpi/fig1.png&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/mtlpi/fig1.png&#34; width=&#34;80%&#34;&gt;&lt;/a&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;However, the nature of transfer learning can be exploited by a&#xA;malicious upstream trainer, leading to severe risks to the downstream&#xA;trainer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Hide a Backdoor</title>
       <link>//uvasrg.github.io/how-to-hide-a-backdoor/</link>
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/how-to-hide-a-backdoor/</guid>
-      <description>The Register has an article on our recent work on Stealthy Backdoors as Compression Artifacts: Thomas Claburn, How to hide a backdoor in AI software — Neural networks can be aimed to misbehave when squeezed, The Register, 5 May 2021.</description>
+      <description>&lt;p&gt;The Register has an article on our recent work on &lt;a href=&#34;https://arxiv.org/abs/2104.15129&#34;&gt;&lt;em&gt;Stealthy Backdoors as Compression Artifacts&lt;/em&gt;&lt;/a&gt;:&#xA;Thomas Claburn, &lt;a href=&#34;https://www.theregister.com/AMP/2021/05/05/ai_backdoors/&#34;&gt;&lt;em&gt;How to hide a backdoor in AI software — Neural networks can be aimed to misbehave when squeezed&lt;/em&gt;&lt;/a&gt;, The Register, 5 May 2021.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

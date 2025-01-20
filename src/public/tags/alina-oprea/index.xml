@@ -4,7 +4,7 @@
     <title>Alina Oprea on Security Research Group</title>
     <link>//uvasrg.github.io/tags/alina-oprea/</link>
     <description>Recent content in Alina Oprea on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>//uvasrg.github.io/congratulations-dr.-suri/</link>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/congratulations-dr.-suri/</guid>
-      <description>Congratulations to Anshuman Suri for successfully defending his PhD thesis!&#xA;Tianhao Wang, Dr. Anshuman Suri, Nando Fioretto, Cong Shen&#xA;On Screen: David Evans, Giuseppe Ateniese Inference Privacy in Machine Learning Using machine learning models comes at the risk of leaking information about data used in their training and deployment. This leakage can expose sensitive information about properties of the underlying data distribution, data from participating users, or even individual records in the training data.</description>
+      <description>&lt;p&gt;Congratulations to &lt;a href=&#34;https://www.anshumansuri.com/&#34;&gt;Anshuman Suri&lt;/a&gt; for successfully defending his &lt;a href=&#34;https://libraetd.lib.virginia.edu/public_view/2227mr11j&#34;&gt;PhD thesis&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/suri-phd.png&#34; width=&#34;70%&#34;&gt;&lt;br&gt;&#xA;Tianhao Wang, Dr. Anshuman Suri, Nando Fioretto, Cong Shen&lt;br&gt;&#xA;On Screen: David Evans, Giuseppe Ateniese&#xA;&lt;br&gt;&#xA;&lt;/center&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;heading-1&#34;&gt;&lt;/h2&gt;&#xA;&lt;center&gt;&#xA;&lt;em&gt;&#xA;Inference Privacy in Machine Learning&#xA;&lt;/em&gt;&#xA;&lt;/center&gt;&#xA;&lt;h2 id=&#34;heading-2&#34;&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Using machine learning models comes at the risk of leaking information about data used in their training and deployment. This leakage can expose sensitive information about properties of the underlying data distribution, data from participating users, or even individual records in the training data. In this dissertation, we develop and evaluate novel methods to quantify and audit such information disclosure at three granularities: distribution, user, and record.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

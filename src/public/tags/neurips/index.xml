@@ -4,7 +4,7 @@
     <title>NeurIPS on Security Research Group</title>
     <link>//uvasrg.github.io/tags/neurips/</link>
     <description>Recent content in NeurIPS on Security Research Group</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
     <lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>//uvasrg.github.io/neurips2019/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/neurips2019/</guid>
-      <description> Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: https://slideslive.com/38921718/track-2-session-1 (starting at 26:50) See this post for info on the paper. Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody): </description>
+      <description>&lt;p&gt;&#xA;Here&#39;s a video of Xiao Zhang&#39;s presentation at NeurIPS 2019: &lt;br&gt;&#xA;&lt;a href=&#34;https://slideslive.com/38921718/track-2-session-1&#34;&gt;&lt;em&gt;https://slideslive.com/38921718/track-2-session-1&lt;/em&gt;&lt;/a&gt; (starting at 26:50)&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;See &lt;A href=&#34;//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/&#34;&gt;this post&lt;/a&gt; for info on the paper.&#xA;&lt;/p&gt;&#xA;Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody):&#xA;&lt;p&gt;&#xA;&lt;center&gt;&#xA;&lt;a href=&#34;//uvasrg.github.io/images/NeurIPS2019/IMG_6759.JPG&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/NeurIPS2019/IMG_6759.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;a href=&#34;//uvasrg.github.io/images/NeurIPS2019/IMG_6777.JPG&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/NeurIPS2019/IMG_6777.JPG&#34; width=&#34;75%&#34;&gt;&lt;/a&gt;&lt;br&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;a href=&#34;//uvasrg.github.io/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/NeurIPS2019/xiao-poster.jpg&#34;&gt;&lt;/a&gt;&lt;br&gt;&#xA;&lt;/center&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>NeurIPS 2019: Empirically Measuring Concentration</title>
       <link>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/neurips-2019-empirically-measuring-concentration/</guid>
-      <description>Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.&#xA;Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt; will&#xA;present our work (with &lt;a&#xA;href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt; and&#xA;&lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood&#xA;Mahmoody&lt;/a&gt;) as a spotlight at &lt;a href=&#34;https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792&#34;&gt;NeurIPS&#xA;2019&lt;/a&gt;,&#xA;Vancouver, 10 December 2019.&lt;/p&gt;&#xA;&lt;p&gt;Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s&#xA;&lt;a href=&#34;https://aipavilion.github.io/&#34;&gt;&lt;em&gt;Adversarial Spheres&lt;/em&gt;&lt;/a&gt; (2018), show&#xA;that if inputs are drawn from a concentrated metric probability space,&#xA;then adversarial examples with small perturbation are inevitable.c The&#xA;key insight from this line of research is that &lt;a href=&#34;https://en.wikipedia.org/wiki/Concentration_of_measure%22%3E&#34;&gt;&lt;em&gt;concentration of&#xA;measure&lt;/em&gt;&lt;/a&gt;&#xA;gives lower bound on adversarial risk for a large collection of&#xA;classifiers (e.g. imperfect classifiers with risk at least $\alpha$),&#xA;which further implies the impossibility results for robust learning&#xA;against adversarial examples.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -88,8 +88,21 @@
 </div>
 
 
-The video of Xiao&rsquo;s presentation for AISTATS 2020 is now available: Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models
-Starting with Gilmer et al. (2018), several works have demonstrated the inevitability of adversarial examples based on different assumptions about the underlying input probability space. It remains unclear, however, whether these results apply to natural image distributions. In this work, we assume the underlying data distribution is captured by some conditional generative model, and prove intrinsic robustness bounds for a general class of classifiers, which solves an open problem in Fawzi et al.
+<p>The video of Xiao&rsquo;s presentation for AISTATS 2020 is now available:
+<a href="https://slideslive.com/38930305/understanding-the-intrinsic-robustness-of-image-distributions-using-conditional-generative-models"><em>Understanding the Intrinsic Robustness of Image Distributions using Conditional Generative Models</em></a></p>
+<p>Starting with Gilmer et al. (2018), several works have demonstrated
+the inevitability of adversarial examples based on different
+assumptions about the underlying input probability space. It remains
+unclear, however, whether these results apply to natural image
+distributions. In this work, we assume the underlying data
+distribution is captured by some conditional generative model, and
+prove intrinsic robustness bounds for a general class of classifiers,
+which solves an open problem in Fawzi et al. (2018). Building upon the
+state-of-the-art conditional generative models, we study the intrinsic
+robustness of two common image benchmarks under <em>l</em><sub>2</sub>
+perturbations, and show the existence of a large gap between the
+robustness limits implied by our theory and the adversarial robustness
+achieved by current state-of-the-art robust models.</p>
 <p class="text-right"><a href="/intrinsic-robustness-using-conditional-gans/">Read More…</a></p>
 	
 
@@ -209,11 +222,19 @@ Here are a few pictures from NeurIPS 2019 (by Sicheng Zhu and Mohammad Mahmoody)
 </div>
 
 
-New: Video Presentation
-Finding Black-box Adversarial Examples with Limited Queries Black-box attacks generate adversarial examples (AEs) against deep neural networks with only API access to the victim model.
-Existing black-box attacks can be grouped into two main categories:
-Transfer Attacks use white-box attacks on local models to find candidate adversarial examples that transfer to the target model.
-Optimization Attacks use queries to the target model and apply optimization techniques to search for adversarial examples.
+<p><b><font color="red">New:</font> <a href="/hybrid-batch-attacks-at-usenix-security-2020/">Video Presentation</a></b></p>
+<h2 id="finding-black-box-adversarial-examples-with-limited-queries">Finding Black-box Adversarial Examples with Limited Queries</h2>
+<p>Black-box attacks generate adversarial examples (AEs) against deep
+neural networks with only API access to the victim model.</p>
+<p>Existing black-box attacks can be grouped into two main categories:</p>
+<ul>
+<li>
+<p><strong>Transfer Attacks</strong> use white-box attacks on local models to find
+candidate adversarial examples that transfer to the target model.</p>
+</li>
+<li>
+<p><strong>Optimization Attacks</strong> use queries to the target model and apply
+optimization techniques to search for adversarial examples.</p>
 <p class="text-right"><a href="/usenix-security-2020-hybrid-batch-attacks/">Read More…</a></p>
 	
 
@@ -245,8 +266,23 @@ Optimization Attacks use queries to the target model and apply optimization tech
 </div>
 
 
-Xiao Zhang will present our work (with Saeed Mahloujifar and Mohamood Mahmoody) as a spotlight at NeurIPS 2019, Vancouver, 10 December 2019.
-Recent theoretical results, starting with Gilmer et al.&rsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.
+<p><a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a> will
+present our work (with <a
+href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a> and
+<a href="https://www.cs.virginia.edu/~mohammad/">Mohamood
+Mahmoody</a>) as a spotlight at <a href="https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792">NeurIPS
+2019</a>,
+Vancouver, 10 December 2019.</p>
+<p>Recent theoretical results, starting with Gilmer et al.&rsquo;s
+<a href="https://aipavilion.github.io/"><em>Adversarial Spheres</em></a> (2018), show
+that if inputs are drawn from a concentrated metric probability space,
+then adversarial examples with small perturbation are inevitable.c The
+key insight from this line of research is that <a href="https://en.wikipedia.org/wiki/Concentration_of_measure%22%3E"><em>concentration of
+measure</em></a>
+gives lower bound on adversarial risk for a large collection of
+classifiers (e.g. imperfect classifiers with risk at least $\alpha$),
+which further implies the impossibility results for robust learning
+against adversarial examples.</p>
 <p class="text-right"><a href="/neurips-2019-empirically-measuring-concentration/">Read More…</a></p>
 	
 
@@ -347,10 +383,27 @@ Fnu Suya [<a href="/docs/symposters2019/hybridbatch-poster.pdf">Poster<a>]<br>
 </div>
 
 
-I taught a mini-course on Trustworthy Machine Learning at the 19th International School on Foundations of Security Analysis and Design in Bertinoro, Italy.
-Slides from my three (two-hour) lectures are posted below, along with some links to relevant papers and resources.
-Class 1: Introduction/Attacks The PDF malware evasion attack is described in this paper:
-Weilin Xu, Yanjun Qi, and David Evans. Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers.
+<p>I taught a mini-course on <em>Trustworthy Machine Learning</em> at the <a href="http://www.sti.uniurb.it/events/fosad19/"><em>19th
+International School on Foundations of Security Analysis and
+Design</em></a> in Bertinoro, Italy.</p>
+<center><a href="/images/bertinoro-big.jpg"><img src="/images/bertinoro.jpg" width="90%"></a></center>
+<p>Slides from my three (two-hour) lectures are posted below, along with
+some links to relevant papers and resources.</p>
+<h2 id="class-1-introductionattacks">Class 1: Introduction/Attacks</h2>
+<center>
+<script async class="speakerdeck-embed" data-id="0ad1775bcc244876ac4df1880a864e78" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</center>
+<p>The PDF malware evasion attack is described in this paper:</p>
+<blockquote>
+Weilin Xu, Yanjun Qi, and David Evans. 
+<em><a href="https://www.cs.virginia.edu/evans/pubs/ndss2016/">Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers</a></em>.
+<a href="https://www.internetsociety.org/events/ndss-symposium-2016"><em>Network and Distributed System Security Symposium</em></a> (NDSS). San Diego, CA. 21-24 February 2016. [<a href="https://www.cs.virginia.edu/evans/pubs/ndss2016/evademl.pdf">PDF</a>] [<a href="https://evademl.org/gpevasion/">EvadeML.org</a>]
+</blockquote>
+<h2 id="class-2-defenses">Class 2: Defenses</h2>
+<center>
+<script async class="speakerdeck-embed" data-id="cf560cce9e4b418397d2df3429ddc8f9" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</center>
+<p>This paper describes the feature squeezing framework:</p>
 <p class="text-right"><a href="/fosad2019/">Read More…</a></p>
 	
 
@@ -376,10 +429,14 @@ Weilin Xu, Yanjun Qi, and David Evans. Automatically Evading Classifiers: A Case
 </div>
 
 
-I presented a short talk at a workshop at Google on Adversarial ML: Closing Gaps between Theory and Practice (mostly fun for the movie of me trying to solve Google&rsquo;s CAPTCHA on the last slide):
-Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.
-I can say with some confidence, Google does donuts much better than they do cookies!
-<p class="text-right"><a href="/google-security-and-privacy-workshop/">Read More…</a></p>
+<p>I presented a short talk at a workshop at Google on <em>Adversarial ML: Closing Gaps between Theory and Practice</em> (mostly fun for the <a href="https://www.youtube.com/watch?v=TVmjjfTvnFs">movie of me trying to solve Google&rsquo;s CAPTCHA</a> on the last slide):</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTKeMueFNQPz0Pms4EGKoYOXVEg92IBi55babPKG5WRrhHRR2PmIYwZIyLsZ11ucKSahqjjp3Zxd5i3/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<p>Getting the actual screencast to fit into the limited time for this talk challenged the limits of my video editing skills.</p>
+<center>
+<img src="/images/googledonuts.jpg" width="90%"><br>
+I can say with some confidence, Google does donuts much better than they <a href="https://freedom-to-tinker.com/2019/08/23/deconstructing-googles-excuses-on-tracking-protection/">do cookies</a>!
+</center>
+
 	
 
     
@@ -406,8 +463,12 @@ I can say with some confidence, Google does donuts much better than they do cook
 </div>
 
 
-Brink News (a publication of The Atlantic) published my essay on the risks of deploying AI systems.
-Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood.
+<p>Brink News (a publication of <em>The Atlantic</em>) published my essay on the risks of deploying AI systems.</p>
+<center>
+<a href="https://www.brinknews.com/ai-systems-are-complex-and-fragile-here-are-four-key-risks-to-understand/"><img style="box-shadow: 10px 10px 5px grey;" src="/images/brink.png" width=90%"></a>
+</center>
+<p><span style="font-weight: 400;">Artificial intelligence technologies have the potential to transform society in positive and powerful ways. Recent studies have shown computing systems that can outperform humans at numerous once-challenging tasks, ranging from performing medical diagnoses and reviewing legal contracts to playing Go and recognizing human emotions. </span></p>
+<p><span style="font-weight: 400;">Despite these successes, AI systems are fundamentally fragile — and the ways they can fail are poorly understood. When AI systems are deployed to make important decisions that impact human safety and well-being, the potential risks of abuse and misbehavior are high and need to be carefully considered and mitigated.</span></p>
 <p class="text-right"><a href="/brink-essay-ai-systems-are-complex-and-fragile.-here-are-four-key-risks-to-understand./">Read More…</a></p>
 	
 

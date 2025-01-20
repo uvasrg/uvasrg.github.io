@@ -86,10 +86,14 @@
 </div>
 
 
-I&rsquo;m quoted in this story by Rob Lemos about poisoning code models (the CodeBreaker paper in USENIX Security 2024 by Shenao Yan, Shen Wang, Yue Duan, Hanbin Hong, Kiho Lee, Doowon Kim, and Yuan Hong), that considers a similar threat to our TrojanPuzzle work:
-Researchers Highlight How Poisoned LLMs Can Suggest Vulnerable Code
-Dark Reading, 20 August 2024
-CodeBreaker uses code transformations to create vulnerable code that continues to function as expected, but that will not be detected by major static analysis security testing.
+<p>I&rsquo;m quoted in this story by Rob Lemos about poisoning code models (the <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/yan">CodeBreaker</a> paper in USENIX Security 2024 by Shenao Yan, Shen Wang, Yue Duan, Hanbin Hong, Kiho Lee, Doowon Kim, and Yuan Hong), that considers a similar threat to our <a href="https://uvasrg.github.io/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">TrojanPuzzle</a> work:</p>
+<p><a href="https://www.darkreading.com/application-security/researchers-turn-code-completion-llms-into-attack-tools"><em>Researchers Highlight How Poisoned LLMs Can Suggest Vulnerable Code</em></a><br>
+Dark Reading, 20 August 2024</p>
+<blockquote>
+CodeBreaker uses code transformations to create vulnerable code that continues to function as expected, but that will not be detected by major static analysis security testing. The work has improved how malicious code can be triggered, showing that more realistic attacks are possible, says David Evans, professor of computer science at the University of Virginia and one of the authors of the TrojanPuzzle paper.
+...
+Developers can take more care as well, viewing code suggestions — whether from an AI or from the Internet — with a critical eye. In addition, developers need to know how to construct prompts to produce more secure code.  
+<p>Yet, developers need their own tools to detect potentially malicious code, says the University of Virginia&rsquo;s Evans.</p>
 <p class="text-right"><a href="/poisoning-llms/">Read More…</a></p>
 	
 
@@ -127,9 +131,22 @@ CodeBreaker uses code transformations to create vulnerable code that continues t
 </div>
 
 
-Congratulations to Anshuman Suri for successfully defending his PhD thesis!
-Tianhao Wang, Dr. Anshuman Suri, Nando Fioretto, Cong Shen
-On Screen: David Evans, Giuseppe Ateniese Inference Privacy in Machine Learning Using machine learning models comes at the risk of leaking information about data used in their training and deployment. This leakage can expose sensitive information about properties of the underlying data distribution, data from participating users, or even individual records in the training data.
+<p>Congratulations to <a href="https://www.anshumansuri.com/">Anshuman Suri</a> for successfully defending his <a href="https://libraetd.lib.virginia.edu/public_view/2227mr11j">PhD thesis</a>!</p>
+<center>
+<img src="/images/suri-phd.png" width="70%"><br>
+Tianhao Wang, Dr. Anshuman Suri, Nando Fioretto, Cong Shen<br>
+On Screen: David Evans, Giuseppe Ateniese
+<br>
+</center>
+<h2 id="heading"></h2>
+<h2 id="heading-1"></h2>
+<center>
+<em>
+Inference Privacy in Machine Learning
+</em>
+</center>
+<h2 id="heading-2"></h2>
+<p>Using machine learning models comes at the risk of leaking information about data used in their training and deployment. This leakage can expose sensitive information about properties of the underlying data distribution, data from participating users, or even individual records in the training data. In this dissertation, we develop and evaluate novel methods to quantify and audit such information disclosure at three granularities: distribution, user, and record.</p>
 <p class="text-right"><a href="/congratulations-dr.-suri/">Read More…</a></p>
 	
 
@@ -253,9 +270,21 @@ On Screen: David Evans, Giuseppe Ateniese Inference Privacy in Machine Learning 
 </div>
 
 
-Tianhao Wang (Committee Chair), Miaomiao Zhang, Lu Feng (Co-Advisor), Dr. Josie Lamp, David Evans
-On screen: Sula Mazimba, Rich Nguyen, Tingting Zhu Congratulations to Josephine Lamp for successfully defending her PhD thesis!
-Trustworthy Clinical Decision Support Systems for Medical Trajectories The explosion of medical sensors and wearable devices has resulted in the collection of large amounts of medical trajectories. Medical trajectories are time series that provide a nuanced look into patient conditions and their changes over time, allowing for a more fine-grained understanding of patient health.
+<center>
+<img src="/images/lamp-defense.png" width="70%"><br>
+Tianhao Wang (Committee Chair), Miaomiao Zhang, Lu Feng (Co-Advisor), Dr. Josie Lamp, David Evans<br>
+On screen: Sula Mazimba, Rich Nguyen, Tingting Zhu <br>
+</center>
+<h2 id="heading"></h2>
+<p>Congratulations to <a href="https://www.josephinelamp.com/">Josephine Lamp</a> for successfully defending her <a href="https://libraetd.lib.virginia.edu/public_view/pv63g149h">PhD thesis</a>!</p>
+<h2 id="heading-1"></h2>
+<center>
+<em>
+Trustworthy Clinical Decision Support Systems for Medical Trajectories
+</em>
+</center>
+<h2 id="heading-2"></h2>
+<p>The explosion of medical sensors and wearable devices has resulted in the collection of large amounts of medical trajectories. Medical trajectories are time series that provide a nuanced look into patient conditions and their changes over time, allowing for a more fine-grained understanding of patient health. It is difficult for clinicians and patients to effectively make use of such high dimensional data, especially given the fact that there may be years or even decades worth of data per patient. Clinical Decision Support Systems (CDSS) provide summarized, filtered, and timely information to patients or clinicians to help inform medical decision-making processes. Although CDSS have shown promise for data sources such as tabular and imaging data, e.g., in electronic health records, the opportunities of CDSS using medical trajectories have not yet been realized due to challenges surrounding data use, model trust and interpretability, and privacy and legal concerns.</p>
 <p class="text-right"><a href="/congratulations-dr.-lamp/">Read More…</a></p>
 	
 
@@ -305,8 +334,40 @@ Trustworthy Clinical Decision Support Systems for Medical Trajectories The explo
 </div>
 
 
-MIMIR logo. Image credit: GPT-4 + DALL-E Paper Code Data Membership inference attacks (MIAs) attempt to predict whether a particular datapoint is a member of a target model&rsquo;s training data. Despite extensive research on traditional machine learning models, there has been limited work studying MIA on the pre-training data of large language models (LLMs).
-We perform a large-scale evaluation of MIAs over a suite of language models (LMs) trained on the Pile, ranging from 160M to 12B parameters.
+<center>
+<img src="https://iamgroot42.github.io/mimir.github.io/static/images/logo.png" alt="" style="width:25%;height:25%;" class="center">
+<figcaption style="font-size: small;"><a href="http://github.com/iamgroot42/mimir">MIMIR</a> logo. Image credit: <a href="https://chat.openai.com/">GPT-4 + DALL-E</a>
+</figcaption>
+<p></p>
+<div class="column has-text-centered">
+  <div class="publication-links">
+  <span class="link-block">
+  <a href="https://arxiv.org/pdf/2402.07841.pdf" class="external-link button is-normal is-rounded is-dark">
+  <span class="icon">
+  <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+  <span class="link-block">
+                <a href="http://github.com/iamgroot42/mimir" class="external-link button is-normal is-rounded is-dark">
+                  <span>Code</span>
+                </a>
+              </span>
+ <span class="link-block">
+                  <a href="https://huggingface.co/datasets/iamgroot42/mimir"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-images"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+  </center>
+<p>Membership inference attacks (MIAs) attempt to predict whether a particular datapoint is a member of a target model&rsquo;s training data. Despite extensive research on traditional machine learning models, there has been limited work studying MIA on the pre-training data of large language models (LLMs).</p>
+<p>We perform a large-scale evaluation of MIAs over a suite of language models (LMs) trained on the Pile, ranging from 160M to 12B parameters. We find that MIAs barely outperform random guessing for most settings across varying LLM sizes and domains. Our further analyses reveal that this poor performance can be attributed to (1) the combination of a large dataset and few training iterations, and (2) an inherently fuzzy boundary between members and non-members.</p>
 <p class="text-right"><a href="/do-membership-inference-attacks-work-on-large-language-models/">Read More…</a></p>
 	
 
@@ -348,9 +409,19 @@ We perform a large-scale evaluation of MIAs over a suite of language models (LMs
 </div>
 
 
-Post by Anshuman Suri and Fnu Suya
-Much research has studied black-box attacks on image classifiers, where adversaries generate adversarial examples against unknown target models without having access to their internal information. Our analysis of over 164 attacks (published in 102 major security, machine learning and security conferences) shows how these works make different assumptions about the adversary’s knowledge.
-The current literature lacks cohesive organization centered around the threat model. Our SoK paper (to appear at IEEE SaTML 2024) introduces a taxonomy for systematizing these attacks and demonstrates the importance of careful evaluations that consider adversary resources and threat models.
+<p>Post by <strong><a href="https://www.anshumansuri.com/">Anshuman Suri</a></strong> and <strong><a href="https://fsuya.org/">Fnu Suya</a></strong></p>
+<p>Much research has studied black-box attacks on image classifiers,
+where adversaries generate adversarial examples against unknown target
+models without having access to their internal information. Our
+analysis of over 164 attacks (published in 102 major security, machine
+learning and security conferences) shows how these works make
+different assumptions about the adversary’s knowledge.</p>
+<p>The current literature lacks cohesive organization centered around the
+threat model. Our <a href="https://arxiv.org/abs/2310.17534">SoK paper</a> (to
+appear at <a href="https://satml.org/">IEEE SaTML 2024</a>) introduces a taxonomy
+for systematizing these attacks and demonstrates the importance of
+careful evaluations that consider adversary resources and threat
+models.</p>
 <p class="text-right"><a href="/sok-pitfalls-in-evaluating-black-box-attacks/">Read More…</a></p>
 	
 
@@ -382,8 +453,8 @@ The current literature lacks cohesive organization centered around the threat mo
 </div>
 
 
-Post by Fnu Suya
-Data poisoning attacks are recognized as a top concern in the industry [1]. We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging [2]. In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.
+<p>Post by <strong><a href="https://fsuya.org/">Fnu Suya</a></strong></p>
+<p>Data poisoning attacks are recognized as a top concern in the industry <a href="https://arxiv.org/abs/2002.05646">[1]</a>. We focus on conventional indiscriminate data poisoning attacks, where an adversary injects a few crafted examples into the training data with the goal of increasing the test error of the induced model. Despite recent advances, indiscriminate poisoning attacks on large neural networks remain challenging <a href="https://arxiv.org/abs/2303.03592">[2]</a>. In this work (to be presented at NeurIPS 2023), we revisit the vulnerabilities of more extensively studied linear models under indiscriminate poisoning attacks.</p>
 <p class="text-right"><a href="/neurips-2023-what-distributions-are-robust-to-poisoning-attacks/">Read More…</a></p>
 	
 
@@ -419,8 +490,18 @@ Data poisoning attacks are recognized as a top concern in the industry [1]. We f
 </div>
 
 
-Post by Jason Briegel and Hannah Chen
-Because NLP models are trained with human corpora (and now, increasingly on text generated by other NLP models that were originally trained on human language), they are prone to inheriting common human stereotypes and biases. This is problematic, because with their growing prominence they may further propagate these stereotypes (Sun et al., 2019). For example, interest is growing in mitigating bias in the field of machine translation, where systems such as Google translate were observed to default to translating gender-neutral pronouns as male pronouns, even with feminine cues (Savoldi et al.
+<p>Post by <strong>Jason Briegel</strong> and <a href="https://hannahxchen.github.io/"><strong>Hannah Chen</strong></a></p>
+<p>Because NLP models are trained with human corpora (and now,
+increasingly on text generated by other NLP models that were
+originally trained on human language), they are prone to inheriting
+common human stereotypes and biases. This is problematic, because with
+their growing prominence they may further propagate these stereotypes
+<a href="https://arxiv.org/abs/1906.08976">(Sun et al., 2019)</a>. For example,
+interest is growing in mitigating bias in the field of machine
+translation, where systems such as Google translate were observed to
+default to translating gender-neutral pronouns as male pronouns, even
+with feminine cues <a href="https://doi.org/10.1162/tacl_a_00401">(Savoldi et al.,
+2021)</a>.</p>
 <p class="text-right"><a href="/adjectives-can-reveal-gender-biases-within-nlp-models/">Read More…</a></p>
 	
 
@@ -450,9 +531,18 @@ Because NLP models are trained with human corpora (and now, increasingly on text
 </div>
 
 
-Congratulations to Fnu Suya for successfully defending his PhD thesis!
-Suya will join the Unversity of Maryland as a MC2 Postdoctoral Fellow at the Maryland Cybersecurity Center this fall.
-On the Limits of Data Poisoning Attacks Current machine learning models require large amounts of labeled training data, which are often collected from untrusted sources. Models trained on these potentially manipulated data points are prone to data poisoning attacks. My research aims to gain a deeper understanding on the limits of two types of data poisoning attacks: indiscriminate poisoning attacks, where the attacker aims to increase the test error on the entire dataset; and subpopulation poisoning attacks, where the attacker aims to increase the test error on a defined subset of the distribution.
+<p>Congratulations to <a href="fsuya.org">Fnu Suya</a> for successfully defending
+his PhD thesis!</p>
+<p>Suya will join the Unversity of Maryland as a MC2 Postdoctoral Fellow
+at the <a href="https://cyber.umd.edu/about">Maryland Cybersecurity Center</a> this fall.</p>
+<h2 id="heading"></h2>
+<center>
+<em>
+On the Limits of Data Poisoning Attacks
+</em>
+</center>
+<h2 id="heading-1"></h2>
+<p>Current machine learning models require large amounts of labeled training data, which are often collected from untrusted sources. Models trained on these potentially manipulated data points are prone to data poisoning attacks. My research aims to gain a deeper understanding on the limits of two types of data poisoning attacks: indiscriminate poisoning attacks, where the attacker aims to increase the test error on the entire dataset; and subpopulation poisoning attacks, where the attacker aims to increase the test error on a defined subset of the distribution. We first present an empirical poisoning attack that encodes the attack objectives into target models and then generates poisoning points that induce the target models (and hence the encoded objectives) with provable convergence. This attack achieves state-of-the-art performance for a diverse set of attack objectives and quantifies a lower bound to the performance of best possible poisoning attacks. In the broader sense, because the attack guarantees convergence to the target model which encodes the desired attack objective, our attack can also be applied to objectives related to other trustworthy aspects (e.g., privacy, fairness) of machine learning.</p>
 <p class="text-right"><a href="/congratulations-dr.-suya/">Read More…</a></p>
 	
 

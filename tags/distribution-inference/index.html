@@ -90,8 +90,8 @@
 </div>
 
 
-Anshuman Suri and Pratyush Maini wrote a blog about the EMNLP 2024 best paper award winner: Reassessing EMNLP 2024’s Best Paper: Does Divergence-Based Calibration for Membership Inference Attacks Hold Up?.
-As we explored in Do Membership Inference Attacks Work on Large Language Models?, to test a membership inference attack it is essentail to have a candidate set where the members and non-members are from the same distribution. If the distributions are different, the ability of an attack to distinguish members and non-members is indicative of distribution inference, not necessarily membership inference.
+<p><a href="https://www.anshumansuri.com/">Anshuman Suri</a> and <a href="https://pratyushmaini.github.io/">Pratyush Maini</a> wrote a blog about the EMNLP 2024 best paper award winner: <a href="https://www.anshumansuri.com/blog/2024/calibrated-mia/"><em>Reassessing EMNLP 2024’s Best Paper: Does Divergence-Based Calibration for Membership Inference Attacks Hold Up?</em></a>.</p>
+<p>As we explored in <a href="https://uvasrg.github.io/do-membership-inference-attacks-work-on-large-language-models/"><em>Do Membership Inference Attacks Work on Large Language Models?</em></a>, to test a membership inference attack it is essentail to have a candidate set where the members and non-members are from the same distribution. If the distributions are different, the ability of an attack to distinguish members and non-members is indicative of distribution inference, not necessarily membership inference.</p>
 <p class="text-right"><a href="/reassessing-emnlp-2024s-best-paper-does-divergence-based-calibration-for-membership-inference-attacks-hold-up/">Read More…</a></p>
 	
 
@@ -164,9 +164,22 @@ As we explored in Do Membership Inference Attacks Work on Large Language Models?
 </div>
 
 
-Congratulations to Anshuman Suri for successfully defending his PhD thesis!
-Tianhao Wang, Dr. Anshuman Suri, Nando Fioretto, Cong Shen
-On Screen: David Evans, Giuseppe Ateniese Inference Privacy in Machine Learning Using machine learning models comes at the risk of leaking information about data used in their training and deployment. This leakage can expose sensitive information about properties of the underlying data distribution, data from participating users, or even individual records in the training data.
+<p>Congratulations to <a href="https://www.anshumansuri.com/">Anshuman Suri</a> for successfully defending his <a href="https://libraetd.lib.virginia.edu/public_view/2227mr11j">PhD thesis</a>!</p>
+<center>
+<img src="/images/suri-phd.png" width="70%"><br>
+Tianhao Wang, Dr. Anshuman Suri, Nando Fioretto, Cong Shen<br>
+On Screen: David Evans, Giuseppe Ateniese
+<br>
+</center>
+<h2 id="heading"></h2>
+<h2 id="heading-1"></h2>
+<center>
+<em>
+Inference Privacy in Machine Learning
+</em>
+</center>
+<h2 id="heading-2"></h2>
+<p>Using machine learning models comes at the risk of leaking information about data used in their training and deployment. This leakage can expose sensitive information about properties of the underlying data distribution, data from participating users, or even individual records in the training data. In this dissertation, we develop and evaluate novel methods to quantify and audit such information disclosure at three granularities: distribution, user, and record.</p>
 <p class="text-right"><a href="/congratulations-dr.-suri/">Read More…</a></p>
 	
 
@@ -216,8 +229,40 @@ On Screen: David Evans, Giuseppe Ateniese Inference Privacy in Machine Learning 
 </div>
 
 
-MIMIR logo. Image credit: GPT-4 + DALL-E Paper Code Data Membership inference attacks (MIAs) attempt to predict whether a particular datapoint is a member of a target model&rsquo;s training data. Despite extensive research on traditional machine learning models, there has been limited work studying MIA on the pre-training data of large language models (LLMs).
-We perform a large-scale evaluation of MIAs over a suite of language models (LMs) trained on the Pile, ranging from 160M to 12B parameters.
+<center>
+<img src="https://iamgroot42.github.io/mimir.github.io/static/images/logo.png" alt="" style="width:25%;height:25%;" class="center">
+<figcaption style="font-size: small;"><a href="http://github.com/iamgroot42/mimir">MIMIR</a> logo. Image credit: <a href="https://chat.openai.com/">GPT-4 + DALL-E</a>
+</figcaption>
+<p></p>
+<div class="column has-text-centered">
+  <div class="publication-links">
+  <span class="link-block">
+  <a href="https://arxiv.org/pdf/2402.07841.pdf" class="external-link button is-normal is-rounded is-dark">
+  <span class="icon">
+  <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+  <span class="link-block">
+                <a href="http://github.com/iamgroot42/mimir" class="external-link button is-normal is-rounded is-dark">
+                  <span>Code</span>
+                </a>
+              </span>
+ <span class="link-block">
+                  <a href="https://huggingface.co/datasets/iamgroot42/mimir"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-images"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+  </center>
+<p>Membership inference attacks (MIAs) attempt to predict whether a particular datapoint is a member of a target model&rsquo;s training data. Despite extensive research on traditional machine learning models, there has been limited work studying MIA on the pre-training data of large language models (LLMs).</p>
+<p>We perform a large-scale evaluation of MIAs over a suite of language models (LMs) trained on the Pile, ranging from 160M to 12B parameters. We find that MIAs barely outperform random guessing for most settings across varying LLM sizes and domains. Our further analyses reveal that this poor performance can be attributed to (1) the combination of a large dataset and few training iterations, and (2) an inherently fuzzy boundary between members and non-members.</p>
 <p class="text-right"><a href="/do-membership-inference-attacks-work-on-large-language-models/">Read More…</a></p>
 	
 
@@ -255,9 +300,19 @@ We perform a large-scale evaluation of MIAs over a suite of language models (LMs
 </div>
 
 
-Manipulating Transfer Learning for Property Inference Transfer learning is a popular method to train deep learning models efficiently. By reusing parameters from upstream pre-trained models, the downstream trainer can use fewer computing resources to train downstream models, compared to training models from scratch.
-The figure below shows the typical process of transfer learning for vision tasks:
-However, the nature of transfer learning can be exploited by a malicious upstream trainer, leading to severe risks to the downstream trainer.
+<h1 id="manipulating-transfer-learning-for-property-inference">Manipulating Transfer Learning for Property Inference</h1>
+<p>Transfer learning is a popular method to train deep learning models
+efficiently. By reusing parameters from upstream pre-trained models,
+the downstream trainer can use fewer computing resources to train
+downstream models, compared to training models from scratch.</p>
+<p>The figure below shows the typical process of transfer learning for
+vision tasks:</p>
+<center>
+<a href="/images/mtlpi/fig1.png"><img src="/images/mtlpi/fig1.png" width="80%"></a>
+</center>
+<p>However, the nature of transfer learning can be exploited by a
+malicious upstream trainer, leading to severe risks to the downstream
+trainer.</p>
 <p class="text-right"><a href="/cvpr-2023-manipulating-transfer-learning-for-property-inference/">Read More…</a></p>
 	
 
@@ -291,9 +346,19 @@ However, the nature of transfer learning can be exploited by a malicious upstrea
 </div>
 
 
-(Cross-post by Anshuman Suri)
-Distribution inference attacks aims to infer statistical properties of data used to train machine learning models. These attacks are sometimes surprisingly potent, as we demonstrated in previous work.
-KL Divergence Attack Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations, CCS 2018), or using model predictions in black-box scenarios (Zhang et al.
+<p>(Cross-post by <a href="https://www.anshumansuri.com/post/dissecting">Anshuman Suri</a>)</p>
+<p>Distribution inference attacks aims to infer statistical properties of data used to train machine learning models.
+These attacks are sometimes surprisingly potent, as we demonstrated in
+<a href="https://uvasrg.github.io/on-the-risks-of-distribution-inference/">previous work</a>.</p>
+<!-- However, the factors that impact this inference risk are not well understood, and demonstrated attacks often
+rely on strong and unrealistic assumptions such as full knowledge of training environments
+even in supposedly black-box threat scenarios. -->
+<!-- In this work, we develop a new black-box attack, the KL Divergence Attack (KL), and use it to evaluate inference risk while relaxing
+a number of implicit assumptions based on the adversary's knowledge in black-box scenarios. We also evaluate several noise-based defenses, a
+standard approach while trying to preserve privacy in machine learning, along with some intuitive defenses based on resampling. -->
+<h2 id="kl-divergence-attack">KL Divergence Attack</h2>
+<p>Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243834">Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations</a>, CCS 2018), or using model
+predictions in black-box scenarios (Zhang et al., <a href="https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf">Leakage of Dataset Properties in Multi-Party Machine Learning</a>, USENIX 2021). While other black-box were proposed in our prior work, they are not as accurate as meta-classifier-based methods, and require training shadow models nonetheless (Suri and Evans, <a href="https://arxiv.org/pdf/2109.06024.pdf">Formalizing and Estimating Distribution Inference Risks</a>, PETS 2022).</p>
 <p class="text-right"><a href="/dissecting-distribution-inference/">Read More…</a></p>
 	
 
@@ -321,14 +386,20 @@ KL Divergence Attack Most attacks against distribution inference involve trainin
 </div>
 
 
-Here&rsquo;s the slides from my Cray Distinguished Speaker talk on On Leaky Models and Unintended Inferences: [PDF]
-The chatGPT limerick version of my talk abstract is much better than mine:
-A machine learning model, oh so grand
-With data sets that it held in its hand
-It performed quite well
-But secrets to tell
-And an adversary&rsquo;s tricks it could not withstand.
-Thanks to Stephen McCamant and Kangjie Lu for hosting my visit, and everyone at University of Minnesota.
+<p>Here&rsquo;s the slides from my <a href="https://cse.umn.edu/cs/cray">Cray Distinguished Speaker</a> talk on <a href="https://cse.umn.edu/cs/events/cse-colloquium-leaky-models-and-unintended-inferences"><em>On Leaky Models and Unintended Inferences</em></a>: [<a href="https://www.dropbox.com/s/5gi766dqezsitw4/cray2022.pdf?dl=0">PDF</a>]</p>
+<center>
+<a href="https://www.dropbox.com/s/5gi766dqezsitw4/cray2022.pdf?dl=0"><img src="/images/cray2022-title.png" width="65%" alt="Leaky Models and Unintended Inferences"></a> 
+</center>
+</br>
+<p>The chatGPT limerick version of my talk abstract is much better than mine:</p>
+<blockquote>
+<p>A machine learning model, oh so grand<br>
+With data sets that it held in its hand<br>
+It performed quite well<br>
+But secrets to tell<br>
+And an adversary&rsquo;s tricks it could not withstand.</p>
+</blockquote>
+<p>Thanks to Stephen McCamant and Kangjie Lu for hosting my visit, and everyone at University of Minnesota. Also great to catch up with UVA BSCS alumn, <a href="https://www-users.cse.umn.edu/~sjguy/">Stephen J. Guy</a>.</p>
 <p class="text-right"><a href="/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/">Read More…</a></p>
 	
 
@@ -358,8 +429,8 @@ Thanks to Stephen McCamant and Kangjie Lu for hosting my visit, and everyone at 
 </div>
 
 
-Post by Bargav Jayaraman
-Attribute inference attacks have been shown by prior works to pose privacy threat against ML models. However, these works assume the knowledge of the training distribution and we show that in such cases these attacks do no better than a data imputataion attack that does not have access to the model. We explore the attribute inference risks in the cases where the adversary has limited or no prior knowledge of the training distribution and show that our white-box attribute inference attack (that uses neuron activations to infer the unknown sensitive attribute) surpasses imputation in these data constrained cases.
+<p><strong>Post by Bargav Jayaraman</strong></p>
+<p><em>Attribute inference</em> attacks have been shown by prior works to pose privacy threat against ML models. However, these works assume the knowledge of the training distribution and we show that in such cases these attacks do no better than a data imputataion attack that does not have access to the model. We explore the attribute inference risks in the cases where the adversary has limited or no prior knowledge of the training distribution and show that our white-box attribute inference attack (that uses neuron activations to infer the unknown sensitive attribute) surpasses imputation in these data constrained cases. This attack uses the training distribution information leaked by the model, and thus poses privacy risk when the distribution is private.</p>
 <p class="text-right"><a href="/attribute-inference-attacks-are-really-imputation/">Read More…</a></p>
 	
 
@@ -391,8 +462,12 @@ Attribute inference attacks have been shown by prior works to pose privacy threa
 </div>
 
 
-I gave a talk in the Berryville Institute of Machine Learning in the Barn series on What Machine Learnt Models Reveal, which is now available as an edited video:
-David Evans, a professor of computer science researching security and privacy at the University of Virginia, talks about data leakage risk in ML systems and different approaches used to attack and secure models and datasets. Juxtaposing adversarial risks that target records and those aimed at attributes, David shows that differential privacy cannot capture all inference risks, and calls for more research based on privacy experiments aimed at both datasets and distributions.
+<p>I gave a talk in the <a href="https://berryvilleiml.com/">Berryville Institute of Machine Learning in the Barn</a> series on <em>What Machine Learnt Models Reveal</em>, which is now available as an edited video:</p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zMM_y6VWSgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<blockquote>
+<p>David Evans, a professor of computer science researching security and privacy at the University of Virginia, talks about data leakage risk in ML systems and different approaches used to attack and secure models and datasets. Juxtaposing adversarial risks that target records and those aimed at attributes, David shows that differential privacy cannot capture all inference risks, and calls for more research based on privacy experiments aimed at both datasets and distributions.</p>
 <p class="text-right"><a href="/biml-what-machine-learnt-models-reveal/">Read More…</a></p>
 	
 
@@ -420,9 +495,16 @@ David Evans, a professor of computer science researching security and privacy at
 </div>
 
 
-(Cross-post by Anshuman Suri)
-Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.
-Standard inference attacks (which we call “dataset inference attacks”) aim to learn something about a particular record that may have been in that training data. For example, in a membership inference attack (Reza Shokri et al., Membership Inference Attacks Against Machine Learning Models, IEEE S&amp;P 2017), the adversary aims to infer whether or not a particular record was included in the training data.
+<p>(Cross-post by <a href="https://www.anshumansuri.com/post/distr_infer">Anshuman Suri</a>)</p>
+<p>Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.</p>
+<p>Standard inference attacks (which we call “dataset inference attacks”)
+aim to learn something about a particular record that may have been in
+that training data. For example, in a membership inference attack
+(Reza Shokri et al., <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7958568"><em>Membership Inference Attacks Against Machine
+Learning
+Models</em></a>, IEEE S&amp;P 2017),
+the adversary aims to infer whether or not a particular record was
+included in the training data.</p>
 <p class="text-right"><a href="/on-the-risks-of-distribution-inference/">Read More…</a></p>
 	
 
