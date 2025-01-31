@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Cryptography on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/visual-cryptography/</link>
+    <description>Recent content in Visual Cryptography on Security Research Group</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/visual-cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Une expérience immersive et enrichissante</title>
+      <link>//uvasrg.github.io/une-exp%C3%A9rience-immersive-et-enrichissante/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/une-exp%C3%A9rience-immersive-et-enrichissante/</guid>
+      <description>&lt;p&gt;I had a chance to talk (over zoom) about visual cryptography to students in an English class in a French high school in Spain!&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/frenchcrypto.png&#34; width=&#34;80%&#34;&gt;&lt;br&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://lyceebelair.es/nouvelles/non-classe/cryptography/&#34;&gt;School Website Post&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/center&gt;</description>
+    </item>
+  </channel>
+</rss>

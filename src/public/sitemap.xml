@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
-    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/categories/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/teaching/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/une-exp%C3%A9rience-immersive-et-enrichissante/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/visual-cryptography/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/anshuman-suri/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/david-evans/</loc>
@@ -20,9 +38,6 @@
     <loc>//uvasrg.github.io/tags/membership-inference/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/categories/press/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -30,12 +45,6 @@
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/reassessing-emnlp-2024s-best-paper-does-divergence-based-calibration-for-membership-inference-attacks-hold-up/</loc>
-    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/common-way-to-test-for-leaks-in-large-language-models-may-be-flawed/</loc>
@@ -639,9 +648,6 @@
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/markets-mechanisms-machines/</loc>
-    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/teaching/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/iclr-2019-cost-sensitive-robustness-against-adversarial-examples/</loc>
