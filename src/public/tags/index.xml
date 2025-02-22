@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>David Evans</title>
+      <link>//uvasrg.github.io/tags/david-evans/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/david-evans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Explanability</title>
+      <link>//uvasrg.github.io/tags/explanability/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/explanability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Law</title>
+      <link>//uvasrg.github.io/tags/law/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/law/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>//uvasrg.github.io/tags/machine-learning/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Visual Cryptography</title>
       <link>//uvasrg.github.io/tags/visual-cryptography/</link>
@@ -21,13 +49,6 @@
       <link>//uvasrg.github.io/tags/anshuman-suri/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/anshuman-suri/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>David Evans</title>
-      <link>//uvasrg.github.io/tags/david-evans/</link>
-      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/david-evans/</guid>
       <description></description>
     </item>
     <item>
@@ -147,13 +168,6 @@
       <link>//uvasrg.github.io/tags/artificial-intelligence/</link>
       <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/artificial-intelligence/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine Learning</title>
-      <link>//uvasrg.github.io/tags/machine-learning/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
@@ -574,13 +588,6 @@
       <link>//uvasrg.github.io/tags/videos/</link>
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/videos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Law</title>
-      <link>//uvasrg.github.io/tags/law/</link>
-      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/law/</guid>
       <description></description>
     </item>
     <item>

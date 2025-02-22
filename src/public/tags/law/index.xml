@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/law/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can we explain AI model outputs?</title>
+      <link>//uvasrg.github.io/can-we-explain-ai-model-outputs/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/can-we-explain-ai-model-outputs/</guid>
+      <description>&lt;p&gt;I gave a short talk on explanability at the &lt;em&gt;Virginia Journal of Social Policy and the Law Symposium on Artificial Intelligence&lt;/em&gt; at UVA Law School, 21 February 2025.&lt;/p&gt;&#xA;&lt;center&gt;&#xA;[_Can we explain AI model outputs? (PDF)](https://www.dropbox.com/scl/fi/pnkhi9a8iqx797tp468ic/ailaw-symposium.pdf?rlkey=ahzw9ka13335b7odvpaap0jkp&amp;dl=0)&#xA;&lt;/center&gt;</description>
+    </item>
     <item>
       <title>Virginia Consumer Data Protection Act</title>
       <link>//uvasrg.github.io/virginia-consumer-data-protection-act/</link>
