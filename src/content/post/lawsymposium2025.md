@@ -12,3 +12,6 @@ I gave a short talk on explanability at the _Virginia Journal of Social Policy a
 [_Can we explain AI model outputs?_ (PDF)](https://www.dropbox.com/scl/fi/pnkhi9a8iqx797tp468ic/ailaw-symposium.pdf?rlkey=ahzw9ka13335b7odvpaap0jkp&dl=0)
 
 </center>
+
+There's an article about the event in the Virginia Law Weekly:
+[_Law School Hosts LawTech Events_](https://www.lawweekly.org/front-page/2025/2/26/hdt21vnfc7ygs4xf58rrg7slmmjcm8), 26 February 2025.
