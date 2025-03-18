@@ -62,6 +62,48 @@
 <div class="row">
     
     
+    <h2><a href="/congratulations-dr.-jayaraman/">Congratulations, Dr. Jayaraman!</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2022-12-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2 December 2022</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/bargav-jayaraman">Bargav Jayaraman</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/phd-defense">PhD defense</a>
+    
+  </span>
+  
+  
+</div>
+
+
+<p>Congratulations to Bargav Jayaraman for successfully <a href="https://engineering.virginia.edu/events/phd-defense-presentation-bargav-jayaraman">defending his PhD thesis</a>!</p>
+<center>
+<img src="/images/bargav-defense.jpg" width="65%">
+<div class="caption"><center>
+Dr. Jayaraman and his PhD committee: Mohammad&nbsp;Mahmoody, Quanquan&nbsp;Gu (UCLA Department of Computer Science, on screen), Yanjun&nbsp;Qi (Committee Chair, on screen), Denis&nbsp;Nekipelov (Department of Economics, on screen), and David Evans
+</div>
+</center>
+<h2 id="heading"></h2>
+<p>Bargav will join the Meta AI Lab in Menlo Park, CA as a post-doctoral researcher.</p>
+<h2 id="heading-1"></h2>
+<center>
+<em>Analyzing the Leaky Cauldron: Inference Attacks on Machine Learning</em>
+</center>
+<h2 id="heading-2"></h2>
+<p>Machine learning models have been shown to leak sensitive information about their training data. An adversary having access to the model can infer different types of sensitive information, such as learning if a particular individual&rsquo;s data is in the training set, extracting sensitive patterns like passwords in the training set, or predicting missing sensitive attribute values for partially known training records. This dissertation quantifies this privacy leakage. We explore inference attacks against machine learning models including membership inference, pattern extraction, and attribute inference. While our attacks give an empirical lower bound on the privacy leakage, we also provide a theoretical upper bound on the privacy leakage metrics. Our experiments across various real-world data sets show that the membership inference attacks can infer a subset of candidate training records with high attack precision, even in challenging cases where the adversary&rsquo;s candidate set is mostly non-training records. In our pattern extraction experiments, we show that an adversary is able to recover email ids, passwords and login credentials from large transformer-based language models. Our attribute inference adversary is able to use underlying training distribution information inferred from the model to confidently identify candidate records with sensitive attribute values. We further evaluate the privacy risk implication to individuals contributing their data for model training. Our findings suggest that different subsets of individuals are vulnerable to different membership inference attacks, and that some individuals are repeatedly identified across multiple runs of an attack. For attribute inference, we find that a subset of candidate records with a sensitive attribute value are correctly predicted by our white-box attribute inference attacks but would be misclassified by an imputation attack that does not have access to the target model. We explore different defense strategies to mitigate the inference risks, including approaches that avoid model overfitting such as early stopping and differential privacy, and approaches that remove sensitive data from the training. We find that differential privacy mechanisms can thwart membership inference and pattern extraction attacks, but even differential privacy fails to mitigate the attribute inference risks since the attribute inference attack relies on the distribution information leaked by the model whereas differential privacy provides no protection against leakage of distribution statistics.</p>
+<p class="text-right"><a href="/congratulations-dr.-jayaraman/">Read More…</a></p>
+	
+
+    
     <h2><a href="/balancing-tradeoffs-between-fickleness-and-obstinacy-in-nlp-models/">Balancing Tradeoffs between Fickleness and Obstinacy in NLP Models</a></h2>
 <div class="post-metadata">
   <span class="post-date">
@@ -486,43 +528,6 @@ attacks, where the adversary splits the attack into choosing a target
 model that satisfies the objective and then choosing poisoning points
 that induce the target model.</p>
 <p class="text-right"><a href="/model-targeted-poisoning-attacks-with-provable-convergence/">Read More…</a></p>
-	
-
-    
-    <h2><a href="/on-the-risks-of-distribution-inference/">On the Risks of Distribution Inference</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2021-06-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">24 June 2021</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/property-inference">property inference</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>
-    
-  </span>
-  
-  
-</div>
-
-
-<p>(Cross-post by <a href="https://www.anshumansuri.com/post/distr_infer">Anshuman Suri</a>)</p>
-<p>Inference attacks seek to infer sensitive information about the training process of a revealed machine-learned model, most often about the training data.</p>
-<p>Standard inference attacks (which we call “dataset inference attacks”)
-aim to learn something about a particular record that may have been in
-that training data. For example, in a membership inference attack
-(Reza Shokri et al., <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7958568"><em>Membership Inference Attacks Against Machine
-Learning
-Models</em></a>, IEEE S&amp;P 2017),
-the adversary aims to infer whether or not a particular record was
-included in the training data.</p>
-<p class="text-right"><a href="/on-the-risks-of-distribution-inference/">Read More…</a></p>
 	
 
     

@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is Taiwan a Country?</title>
+      <link>//uvasrg.github.io/is-taiwan-a-country/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/is-taiwan-a-country/</guid>
+      <description>&lt;p&gt;I gave a short talk at an NSF workshop to spark research collaborations between researchers in Taiwan and the United States. My talk was about work &lt;a href=&#34;https://hannahxchen.github.io/&#34;&gt;Hannah Cyberey&lt;/a&gt; is leading on steering the internal representations of LLMs:&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;a href=&#34;https://www.dropbox.com/scl/fi/w0h62l88sti26mt43l60t/steering.pdf?rlkey=h8935na1xjt84wxdumifeclyz&amp;dl=0&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/steering.png&#34; width=&#34;70%&#34;&gt;&lt;/a&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/scl/fi/w0h62l88sti26mt43l60t/steering.pdf?rlkey=h8935na1xjt84wxdumifeclyz&amp;amp;dl=0&#34;&gt;&lt;strong&gt;Steering around Censorship&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;&#xA;Taiwan-US Cybersecurity Workshop&lt;br&gt;&#xA;Arlington, Virginia&lt;br&gt;&#xA;3 March 2025&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Poisoning LLMs</title>
       <link>//uvasrg.github.io/poisoning-llms/</link>
