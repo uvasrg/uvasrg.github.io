@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/explanability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Classes Explore Promise and Predicaments of Artificial Intelligence</title>
+      <link>//uvasrg.github.io/new-classes-explore-promise-and-predicaments-of-artificial-intelligence/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/new-classes-explore-promise-and-predicaments-of-artificial-intelligence/</guid>
+      <description>&lt;p&gt;&lt;em&gt;The Docket&lt;/em&gt; (UVA Law News) has an article about the AI Law class I&amp;rsquo;m helping Tom Nachbar teach:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.law.virginia.edu/news/202503/new-classes-explore-promise-and-predicaments-artificial-intelligence&#34;&gt;New Classes Explore Promise and Predicaments of Artificial Intelligence&lt;/a&gt;&lt;br&gt;&#xA;&lt;em&gt;Attorneys-in-Training Learn About Prompts, Policies and Governance&lt;/em&gt;&lt;br&gt;&#xA;The Docket, 17 March 2025&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Nachbar teamed up with David Evans, a professor of computer science at UVA, to teach the course, which, he said, is “a big part of what makes this class work.”&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“This course takes a much more technical approach than typical law school courses do. We have the students actually going in, creating their own chatbots — they’re looking at the technology underlying generative AI,” Nachbar said. Better understanding how AI actually works, Nachbar said, is key in training lawyers to handle AI-related litigation in the future.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Can we explain AI model outputs?</title>
       <link>//uvasrg.github.io/can-we-explain-ai-model-outputs/</link>
