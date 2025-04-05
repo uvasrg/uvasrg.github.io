@@ -1,6 +1,97 @@
 /* color:#101730; color:#03396c; */
 
 
+/* ======================================
+
+Font
+========================================= */
+
+@font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-Book.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-BookItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-SemiboldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('../fonts/NebulaSans-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: block;
+  }
+  
+  
 /* literata-regular - latin */
 @font-face {
   font-family: 'Literata';
@@ -62,11 +153,12 @@
     .no-js .title-bar { display: none; }
 }
 
+
 /* Basic colors and fonts.  */
 body {
     background-color: #faf8f8;
     color: #101730;
-    font-family: 'Tahoma', sans-serif;
+    font-family: 'Nebula Sans', 'Segoe UI', 'Tahoma', sans-serif;
     font-size: 1.2rem;
 }
 
