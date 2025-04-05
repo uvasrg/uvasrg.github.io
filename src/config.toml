@@ -4,8 +4,9 @@ title = "Security Research Group"
 copyright = "Privacy and Security Research at the University of Virginia"
 theme = "srg"
 
-paginate = 10
-paginatePath = "page"
+[pagination]
+pagerSize = 10
+path = "page"
 
 pageNotFoundTitle = "Not Found"
 pageNotFoundDetail = "Your request was determined to be an adversarial example by our web server. This could be because you are evil, but it is most likely a bad link or mistyped URL."
