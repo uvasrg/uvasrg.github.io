@@ -7,13 +7,76 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alignment</title>
+      <link>//uvasrg.github.io/tags/alignment/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/alignment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Censorship</title>
+      <link>//uvasrg.github.io/tags/censorship/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/censorship/</guid>
+      <description></description>
+    </item>
     <item>
       <title>David Evans</title>
       <link>//uvasrg.github.io/tags/david-evans/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/david-evans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hannah Cyberey</title>
+      <link>//uvasrg.github.io/tags/hannah-cyberey/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/hannah-cyberey/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Large Language Models</title>
+      <link>//uvasrg.github.io/tags/large-language-models/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/large-language-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Steering</title>
+      <link>//uvasrg.github.io/tags/steering/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/steering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>//uvasrg.github.io/tags/google/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Law</title>
+      <link>//uvasrg.github.io/tags/law/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/law/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>//uvasrg.github.io/tags/privacy/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remedies</title>
+      <link>//uvasrg.github.io/tags/remedies/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tags/remedies/</guid>
       <description></description>
     </item>
     <item>
@@ -21,13 +84,6 @@
       <link>//uvasrg.github.io/tags/explanability/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/explanability/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Law</title>
-      <link>//uvasrg.github.io/tags/law/</link>
-      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/law/</guid>
       <description></description>
     </item>
     <item>
@@ -45,13 +101,6 @@
       <description></description>
     </item>
     <item>
-      <title>Censorship</title>
-      <link>//uvasrg.github.io/tags/censorship/</link>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/censorship/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Fairness</title>
       <link>//uvasrg.github.io/tags/fairness/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
@@ -59,24 +108,10 @@
       <description></description>
     </item>
     <item>
-      <title>Hannah Cyberey</title>
-      <link>//uvasrg.github.io/tags/hannah-cyberey/</link>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/hannah-cyberey/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>LLM</title>
       <link>//uvasrg.github.io/tags/llm/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Steering</title>
-      <link>//uvasrg.github.io/tags/steering/</link>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/steering/</guid>
       <description></description>
     </item>
     <item>
@@ -115,13 +150,6 @@
       <description></description>
     </item>
     <item>
-      <title>Privacy</title>
-      <link>//uvasrg.github.io/tags/privacy/</link>
-      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Fnu Suya</title>
       <link>//uvasrg.github.io/tags/fnu-suya/</link>
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
@@ -140,13 +168,6 @@
       <link>//uvasrg.github.io/tags/copilot/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/copilot/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Large Language Models</title>
-      <link>//uvasrg.github.io/tags/large-language-models/</link>
-      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/large-language-models/</guid>
       <description></description>
     </item>
     <item>
@@ -182,13 +203,6 @@
       <link>//uvasrg.github.io/tags/llms/</link>
       <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/tags/llms/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Google</title>
-      <link>//uvasrg.github.io/tags/google/</link>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/tags/google/</guid>
       <description></description>
     </item>
     <item>

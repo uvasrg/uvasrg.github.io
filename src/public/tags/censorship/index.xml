@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/censorship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steering the CensorShip</title>
+      <link>//uvasrg.github.io/steering-the-censorship/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/steering-the-censorship/</guid>
+      <description>&lt;center&gt;&#xA;&lt;a href=&#34;https://hannahxchen.github.io/blog/2025/censorship-steering/&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/steeringexamples.png&#34; width=&#34;80%&#34; alt=&#34;Steering Censorship Examples&#34;&gt;&lt;/a&gt;&#xA;&lt;p&gt;&lt;em&gt;Orthodoxy means not thinking—not needing to think.&lt;/em&gt;&lt;br&gt;&#xA;(George Orwell, 1984)&lt;/p&gt;&#xA;&lt;/center&gt;&#xA;&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Uncovering Representation Vectors for LLM &amp;lsquo;Thought&amp;rsquo; Control&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hannah Cyberey&amp;rsquo;s &lt;a href=&#34;https://hannahxchen.github.io/blog/2025/censorship-steering/&#34;&gt;&lt;strong&gt;blog post&lt;/strong&gt;&lt;/a&gt; summarizes our work on controlling the censorship imposed through refusal and thought suppression in model outputs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Paper:&lt;/strong&gt; Hannah Cyberey and David Evans. &lt;a href=&#34;https://arxiv.org/abs/2504.17130&#34;&gt;&lt;em&gt;Steering the CensorShip: Uncovering Representation Vectors for LLM “Thought” Control&lt;/em&gt;&lt;/a&gt;. 23 April 2025.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Demos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;🐳 &lt;a href=&#34;https://mightbeevil.com/censorship&#34;&gt;Steeing Thought Suppression&lt;/a&gt;  with DeepSeek-R1-Distill-Qwen-7B (this demo should work for everyone!)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;🦙 &lt;a href=&#34;https://hannahcyberey-refusal-censorship-steering.hf.space/&#34;&gt;Steering Refusal–Compliance&lt;/a&gt; with Llama-3.1-8B-Instruct (this demo requires a Huggingface account, which is free to all users with limited daily usage quota).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Is Taiwan a Country?</title>
       <link>//uvasrg.github.io/is-taiwan-a-country/</link>

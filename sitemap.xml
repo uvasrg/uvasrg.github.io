@@ -2,16 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//uvasrg.github.io/tags/alignment/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//uvasrg.github.io/categories/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/censorship/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/david-evans/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/tags/explanability/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
+    <loc>//uvasrg.github.io/tags/hannah-cyberey/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/large-language-models/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/post/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/research/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/steering/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/steering-the-censorship/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/google/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/law/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/categories/outreach/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/privacy/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/remedies/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/us-v.-google/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//uvasrg.github.io/tags/explanability/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/machine-learning/</loc>
@@ -20,40 +65,19 @@
     <loc>//uvasrg.github.io/new-classes-explore-promise-and-predicaments-of-artificial-intelligence/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/post/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/</loc>
-    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/categories/teaching/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/tom-nachbar/</loc>
     <lastmod>2025-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/tags/censorship/</loc>
-    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/tags/fairness/</loc>
-    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/hannah-cyberey/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/is-taiwan-a-country/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/llm/</loc>
-    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/research/</loc>
-    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/steering/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/yangfeng-ji/</loc>
@@ -83,9 +107,6 @@
     <loc>//uvasrg.github.io/categories/press/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//uvasrg.github.io/tags/privacy/</loc>
-    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//uvasrg.github.io/reassessing-emnlp-2024s-best-paper-does-divergence-based-calibration-for-membership-inference-attacks-hold-up/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -105,9 +126,6 @@
     <lastmod>2024-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/copilot/</loc>
-    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/large-language-models/</loc>
     <lastmod>2024-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/poisoning/</loc>
@@ -133,9 +151,6 @@
   </url><url>
     <loc>//uvasrg.github.io/the-mismeasure-of-man-and-models/</loc>
     <lastmod>2024-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/tags/google/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/googles-trail-of-crumbs/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
@@ -291,9 +306,6 @@
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/tags/nlp/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//uvasrg.github.io/categories/outreach/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//uvasrg.github.io/voice-of-america-interview-on-chatgpt/</loc>

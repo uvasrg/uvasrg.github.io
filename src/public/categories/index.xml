@@ -7,20 +7,27 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>//uvasrg.github.io/categories/research/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/categories/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outreach</title>
+      <link>//uvasrg.github.io/categories/outreach/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/categories/outreach/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Teaching</title>
       <link>//uvasrg.github.io/categories/teaching/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/categories/teaching/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>//uvasrg.github.io/categories/research/</link>
-      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/categories/research/</guid>
       <description></description>
     </item>
     <item>
@@ -49,13 +56,6 @@
       <link>//uvasrg.github.io/categories/papers/</link>
       <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/categories/papers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Outreach</title>
-      <link>//uvasrg.github.io/categories/outreach/</link>
-      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/categories/outreach/</guid>
       <description></description>
     </item>
     <item>
