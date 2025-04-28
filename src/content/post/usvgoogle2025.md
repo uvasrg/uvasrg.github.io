@@ -6,9 +6,9 @@ categories = ["Outreach"]
 tags = ["law", "privacy", "Google", "remedies"]
 +++
 
-Now that I've testified as an Expert Witness on Privacy for the US (and 52 states partners), I can share some links about US v. Google. (I'll wait until the judgement before sharing any of my own thoughts other than to say it was a great experience and a priviledge to be able to be part of this.)
+Now that I've testified as an Expert Witness on Privacy for the US (and 52 state partners), I can share some links about US v. Google. (I'll wait until the judgement before sharing any of my own thoughts other than to say it was a great experience and a priviledge to be able to be part of this.)
 
-The [Department of Justice Website](https://www.justice.gov/atr/us-and-plaintiff-states-v-google-llc-2020-remedies-hearing-exhibits) has public posts of many trial materials, including [**my demonstrative slides**](https://www.justice.gov/atr/media/1397911/dl?inline).
+The [Department of Justice Website](https://www.justice.gov/atr/us-and-plaintiff-states-v-google-llc-2020-remedies-hearing-exhibits) has public posts of many trial materials, including [**my demonstrative slides**](https://www.justice.gov/atr/media/1397911/dl?inline) (with only one redaction).
 
 
 <div class="row">
