@@ -62,6 +62,52 @@
 <div class="row">
     
     
+    <h2><a href="/dissecting-distribution-inference/">Dissecting Distribution Inference</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2022-12-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">16 December 2022</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/property-inference">property inference</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/distribution-inference">distribution inference</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/yifu-lu">Yifu Lu</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/yanjin-chen">Yanjin Chen</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>
+    
+  </span>
+  
+  
+</div>
+
+
+<p>(Cross-post by <a href="https://www.anshumansuri.com/post/dissecting">Anshuman Suri</a>)</p>
+<p>Distribution inference attacks aims to infer statistical properties of data used to train machine learning models.
+These attacks are sometimes surprisingly potent, as we demonstrated in
+<a href="https://uvasrg.github.io/on-the-risks-of-distribution-inference/">previous work</a>.</p>
+<!-- However, the factors that impact this inference risk are not well understood, and demonstrated attacks often
+rely on strong and unrealistic assumptions such as full knowledge of training environments
+even in supposedly black-box threat scenarios. -->
+<!-- In this work, we develop a new black-box attack, the KL Divergence Attack (KL), and use it to evaluate inference risk while relaxing
+a number of implicit assumptions based on the adversary's knowledge in black-box scenarios. We also evaluate several noise-based defenses, a
+standard approach while trying to preserve privacy in machine learning, along with some intuitive defenses based on resampling. -->
+<h2 id="kl-divergence-attack">KL Divergence Attack</h2>
+<p>Most attacks against distribution inference involve training a meta-classifier, either using model parameters in white-box settings (Ganju et al., <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243834">Property Inference Attacks on Fully Connected Neural Networks using Permutation Invariant Representations</a>, CCS 2018), or using model
+predictions in black-box scenarios (Zhang et al., <a href="https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf">Leakage of Dataset Properties in Multi-Party Machine Learning</a>, USENIX 2021). While other black-box were proposed in our prior work, they are not as accurate as meta-classifier-based methods, and require training shadow models nonetheless (Suri and Evans, <a href="https://arxiv.org/pdf/2109.06024.pdf">Formalizing and Estimating Distribution Inference Risks</a>, PETS 2022).</p>
+<p class="text-right"><a href="/dissecting-distribution-inference/">Read More…</a></p>
+	
+
+    
     <h2><a href="/cray-distinguished-speaker-on-leaky-models-and-unintended-inferences/">Cray Distinguished Speaker: On Leaky Models and Unintended Inferences</a></h2>
 <div class="post-metadata">
   <span class="post-date">
@@ -447,59 +493,6 @@ region, it has been shown that if we restrict the search to the set of
 imperfect classifiers, the intrinsic robustness problem can be reduced
 to the <strong><em>concentration of measure problem</em></strong>.</p>
 <p class="text-right"><a href="/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/">Read More…</a></p>
-	
-
-    
-    <h2><a href="/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/">Microsoft Research Summit: Surprising (and unsurprising) Inference Risks in Machine Learning</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2021-10-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">21 October 2021</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy">privacy</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/bargav-jayaraman">Bargav Jayaraman</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/katherine-knipmeyer">Katherine Knipmeyer</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/inference-privacy">inference privacy</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy">privacy</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/privacy-preserving-machine-learning">privacy-preserving machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/microsoft">Microsoft</a>
-    
-  </span>
-  
-  
-</div>
-
-
-<p>Here are the slides for my talk at the <a href="https://www.microsoft.com/en-us/research/theme/confidential-computing/#workshops"><em>Practical and Theoretical Privacy of Machine Learning Training Pipelines</em></a>
-Workshop at the Microsoft Research Summit (21 October 2021):</p>
-   <center>
-<a href="https://www.dropbox.com/s/1mfhbelv7qx4t3u/surprisinginferences.pdf?dl=0"><b>Surprising (and Unsurprising) Inference Risks in Machine Learning</b> [PDF]</a>
-   </center>
-<h2 id="heading"></h2>
-<h2 id="heading-1"></h2>
-<p>The work by Bargav Jayaraman (with Katherine Knipmeyer, Lingxiao Wang,
-and Quanquan Gu) that I talked about on improving membership inference
-attacks is described in more details here:</p>
-<ul>
-<li>
-<p>Bargav Jayaraman, Lingxiao Wang, Katherine Knipmeyer, Quanquan Gu, David Evans. <a href="https://arxiv.org/abs/2005.10881"><em>Revisiting Membership Inference Under Realistic Assumptions</em></a> (PETS 2021).<br>
-[<a href="/merlin-morgan-and-the-importance-of-thresholds-and-priors/">Blog</a>] [Code: <a href="https://github.com/bargavj/EvaluatingDPML"><em>https://github.com/bargavj/EvaluatingDPML</em></a>]</p>
-<p class="text-right"><a href="/microsoft-research-summit-surprising-and-unsurprising-inference-risks-in-machine-learning/">Read More…</a></p>
 	
 
     

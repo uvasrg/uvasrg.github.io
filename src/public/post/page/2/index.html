@@ -62,6 +62,43 @@
 <div class="row">
     
     
+    <h2><a href="/poisoning-llms/">Poisoning LLMs</a></h2>
+<div class="post-metadata">
+  <span class="post-date">
+    <time datetime="2024-08-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">21 August 2024</time>
+  </span>
+  
+  
+  
+  <span class="post-tags">
+    <span class="nowrap"><i class="fa fa-tags"></i>
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/large-language-models">large language models</a>,</span> 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/copilot">copilot</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
+    
+    <a class="post-tag" href="//uvasrg.github.io/tags/poisoning">poisoning</a>
+    
+  </span>
+  
+  
+</div>
+
+
+<p>I&rsquo;m quoted in this story by Rob Lemos about poisoning code models (the <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/yan">CodeBreaker</a> paper in USENIX Security 2024 by Shenao Yan, Shen Wang, Yue Duan, Hanbin Hong, Kiho Lee, Doowon Kim, and Yuan Hong), that considers a similar threat to our <a href="https://uvasrg.github.io/trojan-puzzle-attack-trains-ai-assistants-into-suggesting-malicious-code/">TrojanPuzzle</a> work:</p>
+<p><a href="https://www.darkreading.com/application-security/researchers-turn-code-completion-llms-into-attack-tools"><em>Researchers Highlight How Poisoned LLMs Can Suggest Vulnerable Code</em></a><br>
+Dark Reading, 20 August 2024</p>
+<blockquote>
+CodeBreaker uses code transformations to create vulnerable code that continues to function as expected, but that will not be detected by major static analysis security testing. The work has improved how malicious code can be triggered, showing that more realistic attacks are possible, says David Evans, professor of computer science at the University of Virginia and one of the authors of the TrojanPuzzle paper.
+...
+Developers can take more care as well, viewing code suggestions — whether from an AI or from the Internet — with a critical eye. In addition, developers need to know how to construct prompts to produce more secure code.  
+<p>Yet, developers need their own tools to detect potentially malicious code, says the University of Virginia&rsquo;s Evans.</p>
+<p class="text-right"><a href="/poisoning-llms/">Read More…</a></p>
+	
+
+    
     <h2><a href="/the-mismeasure-of-man-and-models/">The Mismeasure of Man and Models</a></h2>
 <div class="post-metadata">
   <span class="post-date">
@@ -475,60 +512,6 @@ Trustworthy Clinical Decision Support Systems for Medical Trajectories
 <p>Membership inference attacks (MIAs) attempt to predict whether a particular datapoint is a member of a target model&rsquo;s training data. Despite extensive research on traditional machine learning models, there has been limited work studying MIA on the pre-training data of large language models (LLMs).</p>
 <p>We perform a large-scale evaluation of MIAs over a suite of language models (LMs) trained on the Pile, ranging from 160M to 12B parameters. We find that MIAs barely outperform random guessing for most settings across varying LLM sizes and domains. Our further analyses reveal that this poor performance can be attributed to (1) the combination of a large dataset and few training iterations, and (2) an inherently fuzzy boundary between members and non-members.</p>
 <p class="text-right"><a href="/do-membership-inference-attacks-work-on-large-language-models/">Read More…</a></p>
-	
-
-    
-    <h2><a href="/sok-pitfalls-in-evaluating-black-box-attacks/">SoK: Pitfalls in Evaluating Black-Box Attacks</a></h2>
-<div class="post-metadata">
-  <span class="post-date">
-    <time datetime="2023-12-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">20 December 2023</time>
-  </span>
-  
-  
-  
-  <span class="post-tags">
-    <span class="nowrap"><i class="fa fa-tags"></i>
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/fnu-suya">Fnu Suya</a>,</span> 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/anshuman-suri">Anshuman Suri</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/tingwei-zhang">Tingwei Zhang</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/jingtao-hong">Jingtao Hong</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/yuan-tian">Yuan Tian</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/david-evans">David Evans</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/satml">SaTML</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/adversarial-machine-learning">adversarial machine learning</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/black-box-adversarial-attacks">black-box adversarial attacks</a>, 
-    
-    <a class="post-tag" href="//uvasrg.github.io/tags/systemization-of-knowledge">systemization of knowledge</a>
-    
-  </span>
-  
-  
-</div>
-
-
-<p>Post by <strong><a href="https://www.anshumansuri.com/">Anshuman Suri</a></strong> and <strong><a href="https://fsuya.org/">Fnu Suya</a></strong></p>
-<p>Much research has studied black-box attacks on image classifiers,
-where adversaries generate adversarial examples against unknown target
-models without having access to their internal information. Our
-analysis of over 164 attacks (published in 102 major security, machine
-learning and security conferences) shows how these works make
-different assumptions about the adversary’s knowledge.</p>
-<p>The current literature lacks cohesive organization centered around the
-threat model. Our <a href="https://arxiv.org/abs/2310.17534">SoK paper</a> (to
-appear at <a href="https://satml.org/">IEEE SaTML 2024</a>) introduces a taxonomy
-for systematizing these attacks and demonstrates the importance of
-careful evaluations that consider adversary resources and threat
-models.</p>
-<p class="text-right"><a href="/sok-pitfalls-in-evaluating-black-box-attacks/">Read More…</a></p>
 	
 
     
