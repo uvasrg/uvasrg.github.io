@@ -7,7 +7,7 @@ licenselink = "https://github.com/lambdafu.net/hugo-finite/blob/master/LICENSE.m
 description = "A simple academic theme."
 homepage = "https://github.com/lambdafu/hugo-finite"
 tags = ["academic", "basic"]
-features = ["posts", "publications", "social"]
+features = ["posts", "papers", "social"]
 min_version = 0.15
 
 [author]

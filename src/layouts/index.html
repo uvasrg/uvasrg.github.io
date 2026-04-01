@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $posts_title := index .Site.Params "posts_title" | default "Posts" }}
 {{ $posts_count := index .Site.Params "posts_count" | default 5 }}
-{{ $pubs_title := index .Site.Params "pubs_title" | default "Publications" }}
+{{ $pubs_title := index .Site.Params "pubs_title" | default "papers" }}
 {{ $pubs_count := index .Site.Params "pubs_count" | default 5 }}
 
 <div class="container">

@@ -3,7 +3,7 @@ date = "07 Jun 2021"
 draft = false
 title = "Chinese Translation of MPC Book"
 author = "David Evans"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["secure computation", "Vladimir Kolesnikov", "Mike Rosulek"]
 +++
 

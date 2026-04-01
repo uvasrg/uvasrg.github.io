@@ -3,7 +3,7 @@ date = "26 Aug 2019"
 draft = false
 title = "USENIX Security Symposium 2019"
 author = "David Evans"
-categories = ["conferences", "alumni"]
+categories = ["conferences", "graduates"]
 tags = ["privacy", "privacy-preserving machine learning","Bargav Jayaraman", "Sam Havron", "Serge Egelman"]
 +++
 

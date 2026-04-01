@@ -3,7 +3,7 @@ date = "02 Oct 2020"
 draft = false
 title = "Merlin, Morgan, and the Importance of Thresholds and Priors"
 author = "David Evans"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["privacy", "privacy-preserving machine learning","Bargav Jayaraman","Lingxiao Wang", "Katherine Knipmeyer", "Quanquan Gu"]
 +++
 

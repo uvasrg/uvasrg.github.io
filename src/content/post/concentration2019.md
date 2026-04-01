@@ -3,7 +3,7 @@ date = "05 May 2019"
 draft = false
 title = "Empirically Measuring Concentration"
 author = "David Evans"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["adversarial machine learning", "Xiao Zhang", "ICLR", "Saeed Mahloujifar", "Mohammad Mahmoody"]
 +++
 

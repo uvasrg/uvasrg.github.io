@@ -3,7 +3,7 @@ date = "29 Jun 2021"
 draft = false
 author = "Sean Miller"
 title = "Model-Targeted Poisoning Attacks with Provable Convergence"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["adversarial machine learning", "model-targeted poisoning attacks", "Fnu Suya", "Saeed Mahloujifar", "Anshuman Suri", "David Evans", "Yuan Tian", "ICML 2021"]
 +++
 

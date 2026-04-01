@@ -3,7 +3,7 @@ date = "14 Dec 2019"
 draft = false
 author = "Fnu Suya"
 title = "USENIX Security 2020: Hybrid Batch Attacks"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["adversarial machine learning", "Fnu Suya", "Yuan Tian", "Jianfeng Chi", "USENIX Security"]
 +++
 

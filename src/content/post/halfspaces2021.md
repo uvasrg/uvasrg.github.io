@@ -3,7 +3,7 @@ date = "02 Apr 2021"
 draft = false
 title = "Improved Estimation of Concentration (ICLR 2021)"
 author = "David Evans"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["adversarial machine learning", "Jack Prescott", "Xiao Zhang", "intrinsic robustness", "ICLR"]
 +++
 

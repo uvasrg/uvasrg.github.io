@@ -3,7 +3,7 @@ date = "24 Mar 2022"
 draft = false
 title = "ICLR 2022: Understanding Intrinsic Robustness Using Label Uncertainty"
 author = "Xiao Zhang"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["adversarial machine learning", "Xiao Zhang", "ICLR", "intrinsic robustness"]
 +++
 

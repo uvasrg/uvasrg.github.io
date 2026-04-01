@@ -3,7 +3,7 @@ date = "14 Aug 2020"
 draft = false
 author = "David Evans"
 title = "Intrinsic Robustness using Conditional GANs"
-categories = ["publications", "presentations"]
+categories = ["papers", "talks"]
 tags = ["adversarial machine learning", "AISTATS", "Xiao Zhang", "Jinghui Chen", "Quanquan Gu"]
 +++
 

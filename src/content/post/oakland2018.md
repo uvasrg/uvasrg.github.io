@@ -4,7 +4,7 @@ draft = false
 title = "Wahoos at Oakland"
 author = "David Evans"
 categories = ["conferences"]
-tags = ["alumni", "pictures", "posters", "Yuan Tian", "Fnu Suya", "Mainuddin Jonas", "Yongwhi Kwon", "Weilin Xu"]
+tags = ["graduates", "pictures", "posters", "Yuan Tian", "Fnu Suya", "Mainuddin Jonas", "Yongwhi Kwon", "Weilin Xu"]
 +++
 
 ## UVA Group Dinner at IEEE Security and Privacy 2018

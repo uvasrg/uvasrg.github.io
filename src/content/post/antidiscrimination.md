@@ -3,7 +3,7 @@ date = "14 Dec 2020"
 draft = false
 author = "David Evans"
 title = "Algorithmic Accountability and the Law"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["fairness"]
 +++
 

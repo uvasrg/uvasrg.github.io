@@ -4,7 +4,7 @@ draft = false
 title = "A Plan to Eradicate Stalkerware"
 author = "David Evans"
 categories = ["press"]
-tags = ["alumni", "Sam Havron"]
+tags = ["graduates", "Sam Havron"]
 +++
 
 <a href="https://www.cs.cornell.edu/~havron/">Sam Havron</a> (BSCS 2017) is quoted in [an article in Wired](https://www.wired.com/story/eva-galperin-stalkerware-kaspersky-antivirus/) on eradicating stalkerware: 

@@ -4,7 +4,7 @@ draft = false
 title = "SRG Lunch"
 author = "David Evans"
 categories = ["food"]
-tags = ["alumni", "Weilin Xu"]
+tags = ["graduates", "Weilin Xu"]
 +++
 
 Some photos for our lunch to celebrate the end of semester, beginning

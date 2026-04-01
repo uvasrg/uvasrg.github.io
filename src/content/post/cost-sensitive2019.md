@@ -3,7 +3,7 @@ date = "06 May 2019"
 draft = false
 title = "Cost-Sensitive Adversarial Robustness at ICLR 2019"
 author = "David Evans"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["adversarial machine learning", "Xiao Zhang", "ICLR"]
 +++
 

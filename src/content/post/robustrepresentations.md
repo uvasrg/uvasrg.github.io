@@ -3,7 +3,7 @@ date = "14 Aug 2020"
 draft = false
 author = "Sicheng Zhu"
 title = "Adversarially Robust Representations"
-categories = ["publications", "presentations"]
+categories = ["papers", "talks"]
 tags = ["adversarial machine learning", "ICML", "Sicheng Zhu", "Xiao Zhang"]
 slug="robustrepresentations"
 +++

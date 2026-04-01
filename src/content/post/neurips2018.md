@@ -3,7 +3,7 @@ date = "08 Dec 2018"
 draft = false
 title = "NeurIPS 2018: Distributed Learning without Distress"
 author = "David Evans"
-categories = ["conferences", "publications"]
+categories = ["conferences", "papers"]
 tags = ["privacy-preserving machine learning", "secure computation", "Bargav Jayaraman"]
 +++
 

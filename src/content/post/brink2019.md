@@ -3,7 +3,7 @@ date = "09 Jul 2019"
 draft = false
 title = "Brink Essay: AI Systems Are Complex and Fragile. Here Are Four Key Risks to Understand."
 author = "David Evans"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["adversarial machine learning", "privacy", "fairness"]
 +++
 

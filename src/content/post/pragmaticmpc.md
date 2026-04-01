@@ -3,7 +3,7 @@ date = "19 Dec 2018"
 draft = false
 title = "A Pragmatic Introduction to Secure Multi-Party Computation"
 author = "David Evans"
-categories = ["publications"]
+categories = ["papers"]
 tags = ["secure computation", "Vladimir Kolesnikov", "Mike Rosulek"]
 +++
 
