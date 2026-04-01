@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talks</title>
+      <link>//uvasrg.github.io/categories/talks/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/categories/talks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Papers</title>
+      <link>//uvasrg.github.io/categories/papers/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/categories/papers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graduates</title>
+      <link>//uvasrg.github.io/categories/graduates/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/categories/graduates/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Students</title>
       <link>//uvasrg.github.io/categories/students/</link>
@@ -38,31 +59,10 @@
       <description></description>
     </item>
     <item>
-      <title>Talks</title>
-      <link>//uvasrg.github.io/categories/talks/</link>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/categories/talks/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Press</title>
       <link>//uvasrg.github.io/categories/press/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/categories/press/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Graduates</title>
-      <link>//uvasrg.github.io/categories/graduates/</link>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/categories/graduates/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Papers</title>
-      <link>//uvasrg.github.io/categories/papers/</link>
-      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//uvasrg.github.io/categories/papers/</guid>
       <description></description>
     </item>
     <item>

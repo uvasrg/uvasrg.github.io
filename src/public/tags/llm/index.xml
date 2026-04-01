@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visit to University of Tennessee</title>
+      <link>//uvasrg.github.io/visit-to-university-of-tennessee/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/visit-to-university-of-tennessee/</guid>
+      <description>&lt;p&gt;Had a great time visiting &lt;a href=&#34;https://fsuya.org/&#34;&gt;Professor Suya&lt;/a&gt; at the University of Tennessee, Knoxville.&lt;/p&gt;&#xA;&lt;p&gt;I gave a talk (mostly on Hannah&amp;rsquo;s work, but also including some new work by Nia) in the &lt;a href=&#34;https://trustai-seminar.github.io/&#34;&gt;Tennessee RobUst, Secure, and Trustworthy AI Seminar&lt;/a&gt; (TRUST-AI) organized by Suya:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Tilting the BobbyTables and Steering the CensorShip&lt;/em&gt;, &lt;a href=&#34;https://calendar.utk.edu/event/david-evans-uva-tilting-the-bobbytables-and-steering-the-censorship&#34;&gt;TRUST-AI Distinguished Seminar Seriesand Center for Social Theory&lt;/a&gt;. University of Tennessee, Knoxville. 27 March 2026.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/utk2026/receivingaward.jpg&#34; width=&#34;85%&#34;&gt;&#xA;&lt;/center&gt;&#xA;&lt;table&gt;&#xA;&lt;tr&gt;&#xA;&lt;td width=&#34;42%&#34;&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/utk2026/knoxvilleslide.jpg&#34;&gt;&#xA;&lt;/td&gt;&#xA;&lt;td width=&#34;50%&#34;&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/utk2026/aftertalk.jpg&#34;&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=2&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/utk2026/outsidehall.jpg&#34;&gt;&#xA;&lt;/td&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>EMNLP: Unsupervised Concept Vector Extraction for Bias Control in LLMs</title>
+      <link>//uvasrg.github.io/emnlp-unsupervised-concept-vector-extraction-for-bias-control-in-llms/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/emnlp-unsupervised-concept-vector-extraction-for-bias-control-in-llms/</guid>
+      <description>&lt;p&gt;Our paper on extracting concept vectors for LLMs was presented at the &lt;a href=&#34;https://2025.emnlp.org/&#34;&gt;2025 Conference on Empirical Methods in Natural Language Processing&lt;/a&gt; (EMNLP):&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hannahxchen.github.io/&#34;&gt;Hannah Cyberey&lt;/a&gt;, &lt;a href=&#34;https://yangfengji.net/&#34;&gt;Yangfeng Ji&lt;/a&gt;, and &lt;a href=&#34;https://www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt;. In &lt;em&gt;Conference on Empirical Methods in Natural Language Processing&lt;/em&gt; (EMNLP). Suzhou, China. November 2025. [&lt;a href=&#34;https://aclanthology.org/2025.emnlp-main.1439/&#34;&gt;ACL Anthology&lt;/a&gt; [&lt;a href=&#34;https://arxiv.org/abs/2502.19721&#34;&gt;arXiv&lt;/a&gt;] [&lt;a href=&#34;https://github.com/hannahxchen/gender-bias-steering&#34;&gt;Code&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;center&gt;&#xA;&lt;a href=&#34;//uvasrg.github.io/images/steering-example.pdf&#34;&gt;&lt;img src=&#34;//uvasrg.github.io/images/steering-example.png&#34; width=&#34;70%&#34;&gt;&lt;/a&gt;&#xA;&lt;p&gt;&lt;font size=&#34;-1&#34;&gt;Steering “gender” concept in QWEN-1.8B, evaluated on an example from Winogenerated fill-in- the-blank task. Baseline shows the original probabilities with no steering applied.&lt;/font&gt;&lt;/p&gt;&#xA;&lt;/center&gt;</description>
+    </item>
+    <item>
+      <title>TMLR: Inference-time Methods for LLM Reliability</title>
+      <link>//uvasrg.github.io/tmlr-inference-time-methods-for-llm-reliability/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tmlr-inference-time-methods-for-llm-reliability/</guid>
+      <description>&lt;p&gt;Our paper on evaluating inference-time methods (like Chain of Thought) to improve LLM reliability has been published in &lt;em&gt;Transactions on Machine Learning Research&lt;/em&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Michael Jerge and David Evans. &lt;em&gt;Pitfalls in Evaluating Inference-time Methods&#xA;for Improving LLM Reliability&lt;/em&gt;. Transactions on Machine Learning Research, June 2025. [&lt;a href=&#34;https://openreview.net/pdf?id=xeGWsmqFS8&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://openreview.net/forum?id=xeGWsmqFS8&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;https://github.com/mmjerge/LLM-Evaluation-Framework&#34;&gt;Code&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The heatmap shows the deviation from baseline accuracy for Chain of Thought, Self-Consistency, ReAct, Tree of Thoughts, Graph of Thoughts, and LLM Multi-Agent Debate applied across different models and benchmarks. Positive deviations (in green) indicate improvements over the unaided model (baseline), while negative deviations (in red) indicate performance decline:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Is Taiwan a Country?</title>
       <link>//uvasrg.github.io/is-taiwan-a-country/</link>

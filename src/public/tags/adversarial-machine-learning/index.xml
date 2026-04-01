@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/adversarial-machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Congratulations, Dr. Cyberey!</title>
+      <link>//uvasrg.github.io/congratulations-dr.-cyberey/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/congratulations-dr.-cyberey/</guid>
+      <description>&lt;p&gt;Congratulations to &lt;a href=&#34;https://hannahxchen.github.io/&#34;&gt;Hannah Cyberey&lt;/a&gt; for successfully defending her &lt;a href=&#34;https://libraetd.lib.virginia.edu/public_view/qz20sv328&#34;&gt;PhD thesis&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;center&gt;&#xA;&lt;em&gt;&#xA;Sensitivity Auditing for Trustworthy Language Models&#xA;&lt;/em&gt;&#xA;&lt;/center&gt;&#xA;&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Large language models (LLMs) have demonstrated impressive capabilities across a wide range of tasks. Yet, they remain unreliable and pose serious social and ethical risks, including reinforcing social stereotypes, spreading misinformation, and facilitating malicious uses. Despite their growing presence in high-stakes settings, current evaluation practices often fail to address these risks.&lt;/p&gt;&#xA;&lt;p&gt;This dissertation aims to advance the reliability of LLMs by developing rigorous, context-aware evaluation methodologies. We argue that model reliability should be assessed with respect to its intended uses (i.e., how it should operate and under what context) through fine-grained measurements beyond binary judgments. We propose to (1) improve evaluation reliability, (2) design mitigation strategies to control model behavior, and (3) develop auditing techniques for accountability.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Poisoning LLMs</title>
       <link>//uvasrg.github.io/poisoning-llms/</link>

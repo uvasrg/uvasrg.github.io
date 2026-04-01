@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/censorship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>University of Wisconsin Talk</title>
+      <link>//uvasrg.github.io/university-of-wisconsin-talk/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/university-of-wisconsin-talk/</guid>
+      <description>&lt;p&gt;I visited the University of Wisconsin-Madison, and gave a talk mostly on &lt;a href=&#34;https://hannahxchen.github.io/&#34;&gt;Hannah Cyberey&lt;/a&gt;&amp;rsquo;s work in their amazing new Morgridge Hall CS building:&lt;/p&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/uwisc.png&#34; alt=&#34;University of Wisconsin&#34; width=&#34;30%&#34; align=&#34;left&#34; style=&#34;margin: 20px;&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://today.wisc.edu/events/view/215156&#34;&gt;&lt;em&gt;Tilting the BobbyTables and Steering the CensorShip&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Abstract:  AI systems including Large Language Models (LLMs) increasingly influence human writing, thoughts, and actions, yet our ability to measure and control the behavior of these systems is inadequate. In this talk, I will describe some of the risks of uses of language models and ways to measure biases in LLMs. Then, I will advocate for measurement and control strategies that depend on analysis and manipulation of internal representations, and show how a simple inference-time intervention can be used to mitigate gender bias and control model censorship without degrading overall model utility.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Exchange Podcast</title>
+      <link>//uvasrg.github.io/ai-exchange-podcast/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/ai-exchange-podcast/</guid>
+      <description>&lt;img src=&#34;//uvasrg.github.io/images/ai-exchange-logo.webp&#34; width=150 align=&#34;left&#34; style=&#34;margin: 20px;&#34;&gt;&#xA;&lt;p&gt;I was a guest, together with &lt;a href=&#34;https://datascience.virginia.edu/people/chirag-agarwal&#34;&gt;Chirag Agarwal&lt;/a&gt; on the AI Exchange podcast hosted by Ryan Wright and Varun Korisapati:&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://aiatuva.substack.com/p/ai-exchange-uva-podcast-episode-4&#34;&gt;&lt;strong&gt;AI Exchange @ UVA Podcast, Episode 4&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;Topic: &lt;em&gt;Trustworthy AI depends on ensuring security, privacy, fairness, and explainability&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Congratulations, Dr. Cyberey!</title>
+      <link>//uvasrg.github.io/congratulations-dr.-cyberey/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/congratulations-dr.-cyberey/</guid>
+      <description>&lt;p&gt;Congratulations to &lt;a href=&#34;https://hannahxchen.github.io/&#34;&gt;Hannah Cyberey&lt;/a&gt; for successfully defending her &lt;a href=&#34;https://libraetd.lib.virginia.edu/public_view/qz20sv328&#34;&gt;PhD thesis&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;center&gt;&#xA;&lt;em&gt;&#xA;Sensitivity Auditing for Trustworthy Language Models&#xA;&lt;/em&gt;&#xA;&lt;/center&gt;&#xA;&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Large language models (LLMs) have demonstrated impressive capabilities across a wide range of tasks. Yet, they remain unreliable and pose serious social and ethical risks, including reinforcing social stereotypes, spreading misinformation, and facilitating malicious uses. Despite their growing presence in high-stakes settings, current evaluation practices often fail to address these risks.&lt;/p&gt;&#xA;&lt;p&gt;This dissertation aims to advance the reliability of LLMs by developing rigorous, context-aware evaluation methodologies. We argue that model reliability should be assessed with respect to its intended uses (i.e., how it should operate and under what context) through fine-grained measurements beyond binary judgments. We propose to (1) improve evaluation reliability, (2) design mitigation strategies to control model behavior, and (3) develop auditing techniques for accountability.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Steering the CensorShip</title>
       <link>//uvasrg.github.io/steering-the-censorship/</link>

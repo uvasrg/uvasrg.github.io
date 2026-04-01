@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Jerge on Security Research Group</title>
+    <link>//uvasrg.github.io/tags/michael-jerge/</link>
+    <description>Recent content in Michael Jerge on Security Research Group</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Privacy and Security Research at the University of Virginia</copyright>
+    <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//uvasrg.github.io/tags/michael-jerge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TMLR: Inference-time Methods for LLM Reliability</title>
+      <link>//uvasrg.github.io/tmlr-inference-time-methods-for-llm-reliability/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/tmlr-inference-time-methods-for-llm-reliability/</guid>
+      <description>&lt;p&gt;Our paper on evaluating inference-time methods (like Chain of Thought) to improve LLM reliability has been published in &lt;em&gt;Transactions on Machine Learning Research&lt;/em&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Michael Jerge and David Evans. &lt;em&gt;Pitfalls in Evaluating Inference-time Methods&#xA;for Improving LLM Reliability&lt;/em&gt;. Transactions on Machine Learning Research, June 2025. [&lt;a href=&#34;https://openreview.net/pdf?id=xeGWsmqFS8&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://openreview.net/forum?id=xeGWsmqFS8&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;https://github.com/mmjerge/LLM-Evaluation-Framework&#34;&gt;Code&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The heatmap shows the deviation from baseline accuracy for Chain of Thought, Self-Consistency, ReAct, Tree of Thoughts, Graph of Thoughts, and LLM Multi-Agent Debate applied across different models and benchmarks. Positive deviations (in green) indicate improvements over the unaided model (baseline), while negative deviations (in red) indicate performance decline:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

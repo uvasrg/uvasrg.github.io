@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/david-evans/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visit to University of Tennessee</title>
+      <link>//uvasrg.github.io/visit-to-university-of-tennessee/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/visit-to-university-of-tennessee/</guid>
+      <description>&lt;p&gt;Had a great time visiting &lt;a href=&#34;https://fsuya.org/&#34;&gt;Professor Suya&lt;/a&gt; at the University of Tennessee, Knoxville.&lt;/p&gt;&#xA;&lt;p&gt;I gave a talk (mostly on Hannah&amp;rsquo;s work, but also including some new work by Nia) in the &lt;a href=&#34;https://trustai-seminar.github.io/&#34;&gt;Tennessee RobUst, Secure, and Trustworthy AI Seminar&lt;/a&gt; (TRUST-AI) organized by Suya:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Tilting the BobbyTables and Steering the CensorShip&lt;/em&gt;, &lt;a href=&#34;https://calendar.utk.edu/event/david-evans-uva-tilting-the-bobbytables-and-steering-the-censorship&#34;&gt;TRUST-AI Distinguished Seminar Seriesand Center for Social Theory&lt;/a&gt;. University of Tennessee, Knoxville. 27 March 2026.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/utk2026/receivingaward.jpg&#34; width=&#34;85%&#34;&gt;&#xA;&lt;/center&gt;&#xA;&lt;table&gt;&#xA;&lt;tr&gt;&#xA;&lt;td width=&#34;42%&#34;&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/utk2026/knoxvilleslide.jpg&#34;&gt;&#xA;&lt;/td&gt;&#xA;&lt;td width=&#34;50%&#34;&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/utk2026/aftertalk.jpg&#34;&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=2&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/utk2026/outsidehall.jpg&#34;&gt;&#xA;&lt;/td&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>University of Wisconsin Talk</title>
+      <link>//uvasrg.github.io/university-of-wisconsin-talk/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/university-of-wisconsin-talk/</guid>
+      <description>&lt;p&gt;I visited the University of Wisconsin-Madison, and gave a talk mostly on &lt;a href=&#34;https://hannahxchen.github.io/&#34;&gt;Hannah Cyberey&lt;/a&gt;&amp;rsquo;s work in their amazing new Morgridge Hall CS building:&lt;/p&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/uwisc.png&#34; alt=&#34;University of Wisconsin&#34; width=&#34;30%&#34; align=&#34;left&#34; style=&#34;margin: 20px;&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://today.wisc.edu/events/view/215156&#34;&gt;&lt;em&gt;Tilting the BobbyTables and Steering the CensorShip&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Abstract:  AI systems including Large Language Models (LLMs) increasingly influence human writing, thoughts, and actions, yet our ability to measure and control the behavior of these systems is inadequate. In this talk, I will describe some of the risks of uses of language models and ways to measure biases in LLMs. Then, I will advocate for measurement and control strategies that depend on analysis and manipulation of internal representations, and show how a simple inference-time intervention can be used to mitigate gender bias and control model censorship without degrading overall model utility.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Exchange Podcast</title>
+      <link>//uvasrg.github.io/ai-exchange-podcast/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/ai-exchange-podcast/</guid>
+      <description>&lt;img src=&#34;//uvasrg.github.io/images/ai-exchange-logo.webp&#34; width=150 align=&#34;left&#34; style=&#34;margin: 20px;&#34;&gt;&#xA;&lt;p&gt;I was a guest, together with &lt;a href=&#34;https://datascience.virginia.edu/people/chirag-agarwal&#34;&gt;Chirag Agarwal&lt;/a&gt; on the AI Exchange podcast hosted by Ryan Wright and Varun Korisapati:&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://aiatuva.substack.com/p/ai-exchange-uva-podcast-episode-4&#34;&gt;&lt;strong&gt;AI Exchange @ UVA Podcast, Episode 4&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;Topic: &lt;em&gt;Trustworthy AI depends on ensuring security, privacy, fairness, and explainability&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Olsen Bicentennial Professor</title>
+      <link>//uvasrg.github.io/olsen-bicentennial-professor/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/olsen-bicentennial-professor/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m honored to have been elected the &amp;ldquo;Olsen Bicentennial Professor of Engineering&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;The appointment is in the 12 Septemember 2025 &lt;a href=&#34;https://bov.virginia.edu/sites/bov/files/2025-10/%2725%20SEPTEMBER%2011-12%20FULL%20BOARD%20MINUTES.pdf&#34;&gt;Board of Visitors minutes&lt;/a&gt; (page 13072):&lt;/p&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/bov-excerpt1.png&#34; width=&#34;90%&#34; alt=&#34;RESOLVED, the actions relating to the chairholders are approved as shown below:&#34;&gt;&lt;br&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/bov-excerpt2.png&#34; width=&#34;90%&#34; alt=&#34;David E. Evans, as Olsen Bicentennial Professor of Engineering, for the periodAugust 25, 2025 through August 24, 2030. Evans will continue as Professor of Computer&#xA;Science, without term.&#34;&gt;&lt;br&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;The professorship was created by a gift from Greg Olsen in 2019 to celebrate the bicentennial of the University&amp;rsquo;s founding in 1819:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Steering the CensorShip</title>
       <link>//uvasrg.github.io/steering-the-censorship/</link>
@@ -21,7 +49,7 @@
       <link>//uvasrg.github.io/new-classes-explore-promise-and-predicaments-of-artificial-intelligence/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
       <guid>//uvasrg.github.io/new-classes-explore-promise-and-predicaments-of-artificial-intelligence/</guid>
-      <description>&lt;p&gt;&lt;em&gt;The Docket&lt;/em&gt; (UVA Law News) has an article about the AI Law class I&amp;rsquo;m helping Tom Nachbar teach:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.law.virginia.edu/news/202503/new-classes-explore-promise-and-predicaments-artificial-intelligence&#34;&gt;New Classes Explore Promise and Predicaments of Artificial Intelligence&lt;/a&gt;&lt;br&gt;&#xA;&lt;em&gt;Attorneys-in-Training Learn About Prompts, Policies and Governance&lt;/em&gt;&lt;br&gt;&#xA;The Docket, 17 March 2025&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Nachbar teamed up with David Evans, a professor of computer science at UVA, to teach the course, which, he said, is “a big part of what makes this class work.”&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“This course takes a much more technical approach than typical law school courses do. We have the students actually going in, creating their own chatbots — they’re looking at the technology underlying generative AI,” Nachbar said. Better understanding how AI actually works, Nachbar said, is key in training lawyers to handle AI-related litigation in the future.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;The Docket&lt;/em&gt; (UVA Law News) has an article about the AI Law class I&amp;rsquo;m helping Tom Nachbar teach:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.law.virginia.edu/news/202503/new-classes-explore-promise-and-predicaments-artificial-intelligence&#34;&gt;New Classes Explore Promise and Predicaments of Artificial Intelligence&lt;/a&gt;&lt;br&gt;&#xA;&lt;em&gt;Attorneys-in-Training Learn About Prompts, Policies and Governance&lt;/em&gt;&lt;br&gt;&#xA;The Docket, 17 March 2025&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Nachbar teamed up with David Evans, a professor of computer science at UVA, to teach the course, which, he said, is “a big part of what makes this class work.”&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“This course takes a much more technical approach than typical law school courses do. We have the students actually going in, creating their own chatbots — they’re looking at the technology underlying generative AI,” Nachbar said. Better understanding how AI actually works, Nachbar said, is key in training lawyers to handle AI-related litigation in the future.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Is Taiwan a Country?</title>

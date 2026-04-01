@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Privacy and Security Research at the University of Virginia</copyright>
-    <lastBuildDate>Fri, 07 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//uvasrg.github.io/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>University of Wisconsin Talk</title>
+      <link>//uvasrg.github.io/university-of-wisconsin-talk/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//uvasrg.github.io/university-of-wisconsin-talk/</guid>
+      <description>&lt;p&gt;I visited the University of Wisconsin-Madison, and gave a talk mostly on &lt;a href=&#34;https://hannahxchen.github.io/&#34;&gt;Hannah Cyberey&lt;/a&gt;&amp;rsquo;s work in their amazing new Morgridge Hall CS building:&lt;/p&gt;&#xA;&lt;img src=&#34;//uvasrg.github.io/images/uwisc.png&#34; alt=&#34;University of Wisconsin&#34; width=&#34;30%&#34; align=&#34;left&#34; style=&#34;margin: 20px;&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://today.wisc.edu/events/view/215156&#34;&gt;&lt;em&gt;Tilting the BobbyTables and Steering the CensorShip&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Abstract:  AI systems including Large Language Models (LLMs) increasingly influence human writing, thoughts, and actions, yet our ability to measure and control the behavior of these systems is inadequate. In this talk, I will describe some of the risks of uses of language models and ways to measure biases in LLMs. Then, I will advocate for measurement and control strategies that depend on analysis and manipulation of internal representations, and show how a simple inference-time intervention can be used to mitigate gender bias and control model censorship without degrading overall model utility.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Can Machine Learning Ever Be Trustworthy?</title>
       <link>//uvasrg.github.io/can-machine-learning-ever-be-trustworthy/</link>
