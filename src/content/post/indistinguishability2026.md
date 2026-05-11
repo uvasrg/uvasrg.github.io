@@ -10,7 +10,7 @@ tags = ["LLM", "memorization", "David Evans", "Ruixuan Liu", "Li Xiong"]
 Ruixuan Liu has made an interactive demo of our work on measuring extraction risk in LLMs:
 <center>
 
- <a href="https://rachelxuan11.github.io/Inextractability/><b>Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs</b></a>
+ <a href="https://rachelxuan11.github.io/Inextractability/"><b>Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs</b></a><br>
 
 <a href="https://rachelxuan11.github.io/Inextractability/"><img src="/images/extractiondemo.png" width=70%></img></a>
 
