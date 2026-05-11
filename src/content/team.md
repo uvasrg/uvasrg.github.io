@@ -4,27 +4,17 @@
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jerge.png"><br><b>Michael Jerge</b><br>Since Jan-24<br>LLM reliability<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/elenalong.png"><br><b><a href="https://elena6918.github.io/">Elena (Minjun) Long</a></b><br>Since Fall 2022<br>privacy of ad ecosystem<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/mingtian.webp"><br><b><a href="https://bennytmt.github.io/mingtiant/">Mingtian Tan</a></b><br>Co-advised with Tom Hartsvigsen<br>Since Spring 2024<br>LLMs and time series data<br>   </div>
 </div>
 </center>
 
 
-# <center>Masters Student</center>
+# <center>Undergraduate Researcher</center>
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b><a href="http://archit31uniyal.github.io/">Archit Uniyal</a></b><br>Since Fall 2022<br>privacy for NLP<br>   </div>
-</div>
-</center>
-
-
-# <center>Undergraduate Researchers</center>
-
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Shinjini Bose</b><br>Undergraduate Researcher<br>Since Spring 2024<br>LLM fairness<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Zihan Mei</b><br>Undergraduate Researcher<br>Since Spring 2024<br>LLM application privacy<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Nia Mucher</b><br>Undergraduate Researcher<br>Since Fall 2025<br>Auditing AI Image Generators<br>   </div>
 </div>
 </center>
 <p></p><center> <a href="/images/srglunch-2024-02-29.jpg"><img src="/images/srglunch-2024-02-29.jpg" alt="SRG lunch"
@@ -49,7 +39,7 @@ width=98%></a></br> <b>Security Research Group Leap Day Lunch</b> <font size="-1
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/hannahchen.png"><br><b><a href="https://hannahxchen.github.io/">Yu-Han (Hannah) Cyberey</a></b><br>Co-advised with Yangfeng Ji<br>Fall 2019 &ndash; Summer 2025<br>PhD in Computer Science, August 2025<br>PhD Dissertation: <a href="https://uvasrg.github.io/congratulations-dr.-cyberey/"><em>Sensitivity Auditing for Trustworthy Language Models</em></a><br>Postdoc, UVA School of Data Science<br>   </div>
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/hannahcyberey.webp"><br><b><a href="https://hannahxchen.github.io/">Yu-Han (Hannah) Cyberey</a></b><br>Co-advised with Yangfeng Ji<br>Fall 2019 &ndash; Summer 2025<br>PhD in Computer Science, August 2025<br>PhD Dissertation: <a href="https://uvasrg.github.io/congratulations-dr.-cyberey/"><em>Sensitivity Auditing for Trustworthy Language Models</em></a><br>Postdoc, UVA School of Data Science<br>   </div>
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/yanhuang.png"><br><b><a href="https://homes.sice.indiana.edu/yh33/">Yan Huang</a></b><br>Fall 2012<br>PhD in Computer Engineering, August 2012<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/d504rk56g"><em>Practical Secure Two-Party Computation</em></a><br>Associate Professor, Indiana University<br>   </div>
 </div>
 </center>
@@ -183,6 +173,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
+<b>Michael Jerge</b><br>LLM reliability &ndash; MCS Spring 2025<br><div class="hanging"><a href="https://openreview.net/forum?id=xeGWsmqFS8"><em>Pitfalls in Evaluating Inference-time Methods for Improving LLM Reliability</em></a><br></div><div class="hanging">Amazon<br></div>jerge.png<br>   </div>
+
+# 
+
+   <div class="hanging">
 <b><a href="https://sites.google.com/site/mahmadjonas/">Mainuddin Jonas</a></b><br>MCS December 2019<br><div class="hanging"><a href="https://arxiv.org/abs/2004.10250"><em>Certifying Joint Adversarial Robustness for Model Ensembles</em></a><br></div><div class="hanging">Google<br></div>   </div>
 
 # 
@@ -221,6 +216,19 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 <b><a href="https://www.linkedin.com/in/tianhao-tong-71460242/">Tianhao Tong</a></b><br>MCS 2013<br><div class="hanging"><a href="http://www.cs.virginia.edu/~evans/pubs/guardroid/"><em>GuarDroid: A Trusted Path for Password Entry</em></a><br></div><div class="hanging">Twitter<br></div>   </div>
 
 # 
+
+
+# Masters Student
+
+
+   <div class="hanging">
+<b><a href="http://archit31uniyal.github.io/">Archit Uniyal</a></b><br>Fall 2022<br><div class="hanging"><em>privacy for NLP</em><br></div>   </div>
+
+# 
+
+
+# Graduated Masters Students
+
 
    <div class="hanging">
 <b><a href="https://web.archive.org/web/20050305161428/http://www.cs.virginia.edu/~jaw2u/">Joel Winstead</a></b><br>MS 2002<br><div class="hanging"><a href="https://www.cs.virginia.edu/evans/pubs/theses/winstead-ms-abstract.html"><em>Structured Exception Semantics for Parallel Loops</em></a><br></div><div class="hanging">Cigital<br></div>   </div>
@@ -357,6 +365,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
+<b>Shinjini Bose</b><br>Undergraduate Researcher, Spring 2024 &ndash; Spring 2025<br><div class="hanging">LLM fairness<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b>Emily Buerk</b><br>Undergraduate Researcher, Summer 2020 &ndash; Fall 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
 
 # 
@@ -448,6 +461,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
    <div class="hanging">
 <b><a href="http://orfe.princeton.edu/people/graduate">Theo Gutman-Solo</a></b><br>Undergraduate Researcher, 2013 &ndash; 2014<br>BACS 2014<br><div class="hanging">Princeton University PhD program in Operations Research<br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>Brett Haas</b><br>Undergraduate Researcher, BSCS 2026<br><div class="hanging"><em>Spatial Steering for Image Descriptions</em><br></div>   </div>
 
 # 
 
@@ -582,6 +600,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 # 
 
    <div class="hanging">
+<b>Zihan Mei</b><br>Undergraduate Researcher, Since Spring 2024<br><div class="hanging">LLM application privacy<br></div>   </div>
+
+# 
+
+   <div class="hanging">
 <b>Rob Michaels</b><br>Undergraduate Researcher, Summer 2014<br>   </div>
 
 # 
@@ -603,6 +626,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
    <div class="hanging">
 <b><a href="https://github.com/jnayak1">Jesse Nayak</a></b><br>Undergraduate Researcher, Summer 2017 &ndash; 2018<br>BSCS 2018<br><div class="hanging"><a href="https://github.com/jnayak1/kmp-mpc">oblivious substring search</a><br></div>   </div>
+
+# 
+
+   <div class="hanging">
+<b>David Onks</b><br>Undergraduate Researcher, BSCS 2026<br><div class="hanging"><em>Probability Mass Aggregation on NoisyCoconut</em><br></div>   </div>
 
 # 
 
