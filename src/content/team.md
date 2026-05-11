@@ -47,24 +47,21 @@
 </center>
 
 
+# <center>Director</center>
+
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/evans.png"><br><b><a href="https://www.cs.virginia.edu/evans">David Evans</a></b><br>Since Fall 1999<br>   </div>
+</div>
+</center>
+
+
 # <center>Undergraduate Researchers</center>
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Alexander Chung</b><br>Since Fall 2025<br>Security Rules<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Nia Mucher</b><br>Since Fall 2025<br>Auditing AI Image Generators<br>   </div>
-</div>
-</center>
-<p></p><center> <a href="/images/srglunch-2024-02-29.jpg"><img src="/images/srglunch-2024-02-29.jpg" alt="SRG lunch"
-width=98%></a></br> <b>Security Research Group Leap Day Lunch</b> <font size="-1">(29&nbsp;February&nbsp;2024)</font><br> <center><a href="https://www.anshumansuri.com/">Anshuman&nbsp;Suri</a>, <a href="https://archit31uniyal.github.io/">Archit&nbsp;Uniyal</a>,
-<a href="https://elena6918.github.io/">Minjun&nbsp;Long</a>, Michael Jerge, <a href="https://hannahxchen.github.io/">Hannah&nbsp;Chen</a>, <a href="https://www.josephinelamp.com/">Josephine&nbsp;Lamp</a></font></center>
-<p></p>
-
-# <center>Director</center>
-
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/evans.png"><br><b><a href="https://www.cs.virginia.edu/evans">David Evans</a></b><br>Since Fall 1999<br>   </div>
 </div>
 </center>
 
