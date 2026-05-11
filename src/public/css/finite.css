@@ -237,7 +237,7 @@ h1 {
 
 h2 {
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 h3 {
@@ -246,7 +246,7 @@ h3 {
 
 @media screen and (min-width: 40em) {
     h1 { font-size: 2.0rem; }
-    h2 { font-size: 1.8rem; }
+    h2 { font-size: 2.0rem; }
     h3 { font-size: 1.1875rem; }
     h4 { font-size: 1.125rem; }
     h5 { font-size: 1.0625rem; }
@@ -280,6 +280,8 @@ pre {
     margin: 0 0 16px 0;
     border-left: 1px dashed #2199e8;
     padding-left: 2rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .hljs
@@ -733,10 +735,57 @@ img {
     max-width: 100%;
 }
 
+table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+}
+
 * {
     box-sizing: border-box;
 }
 
 .image-shadow {
     filter: drop-shadow(darkgrey 0.1rem 0.1rem 5px);
+}
+
+/* ======================================
+   Mobile / small-screen improvements
+   ====================================== */
+
+@media screen and (max-width: 39.9375em) {
+
+    /* Hide subtitle text in mobile title bar to prevent overflow */
+    .title-bar .groupstyle { display: none; }
+
+    /* Reduce excessive side margins on excerpts, captions */
+    .excerpt, .abstract {
+        margin-left: 0.75em;
+        margin-right: 0.75em;
+    }
+    .caption, .centered-caption, .smallcaption, .midcaption {
+        margin-left: 0.75em;
+        margin-right: 0.75em;
+    }
+
+    /* Remove heavy side margins from content area */
+    .content {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    /* Stack custom float columns vertically */
+    .mycolumn, .mycolumn3 {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    /* Wrap long post titles in prev/next pagination */
+    .pagination .arrow a {
+        word-break: break-word;
+    }
 }
