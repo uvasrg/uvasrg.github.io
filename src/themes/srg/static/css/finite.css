@@ -788,4 +788,27 @@ table {
     .pagination .arrow a {
         word-break: break-word;
     }
-}
+        /* Wrap long post titles in prev/next pagination */
+        .pagination .arrow a {
+            word-break: break-word;
+        }
+
+        /* Stack table cells vertically on mobile */
+        table, thead, tbody, th, td, tr {
+            display: block !important;
+        }
+
+        /* Override inline width attributes and make cells full-width */
+        td, th {
+            width: 100% !important;
+            margin-bottom: 0.5rem;
+            padding: 0.5rem 0 !important;
+            border: none !important;
+        }
+
+        /* Images inside tables should be full-width */
+        td img, th img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 0.5rem;
+        }
