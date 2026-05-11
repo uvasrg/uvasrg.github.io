@@ -335,7 +335,7 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://github.com/lemons2lemonade">Matthew Wallace</a></b><br>2018 &ndash; 2019<br><div class="hanging">University of Wisconsin MS 2021<br></div>   </div>
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://github.com/lemons2lemonade">Matthew Wallace</a></b><br>2018 &ndash; 2019<br><div class="hanging">University of Wisconsin MS 2021<br></div>Amazon (<a href="https://aws.amazon.com/bedrock/guardrails/">Guardrails</a>)<br>   </div>
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Parvesh Samayamanthula</b><br>Visiting High School Student, Summer 2018<br><div class="hanging">adversarial NLP for privacy policies<br></div>   </div>
 </div>
 </center>
