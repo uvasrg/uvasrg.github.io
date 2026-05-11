@@ -1,35 +1,21 @@
 +++
-date = "23 Apr 2026"
+date = "11 May 2026"
 draft = false
-title = "Visit to University of Tennessee"
+title = "Beyond Indistinguishability"
 author = "David Evans"
-categories = ["talks"]
-tags = ["Suya", "LLM", "auditing", "David Evans"]
+categories = ["papers"]
+tags = ["LLM", "memorization", "David Evans", "Ruixuan Liu", "Li Xiong"]
 +++
 
-Had a great time visiting [Professor Suya](https://fsuya.org/) at the University of Tennessee, Knoxville. 
-
-I gave a talk (mostly on Hannah's work, but also including some new work by Nia) in the [Tennessee RobUst, Secure, and Trustworthy AI Seminar](https://trustai-seminar.github.io/) (TRUST-AI) organized by Suya:
-
-- _Tilting the BobbyTables and Steering the CensorShip_, [TRUST-AI Distinguished Seminar Seriesand Center for Social Theory](https://calendar.utk.edu/event/david-evans-uva-tilting-the-bobbytables-and-steering-the-censorship). University of Tennessee, Knoxville. 27 March 2026.
-
+Ruixuan Liu has made an interactive demo of our work on measuring extraction risk in LLMs:
 <center>
-<img src="/images/utk2026/receivingaward.jpg" width="85%">
+
+ <a href="https://rachelxuan11.github.io/Inextractability/><b>Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs</b></a>
+
+<a href="https://rachelxuan11.github.io/Inextractability/"><img src="/images/extractiondemo.png" width=70%></img></a>
+
 </center>
 
-<table>
-<tr>
-<td width="42%">
-<img src="/images/utk2026/knoxvilleslide.jpg">
-</td>
-<td width="50%">
-<img src="/images/utk2026/aftertalk.jpg">
-</td>
-</tr>
-<tr>
-<td colspan=2>
-<img src="/images/utk2026/outsidehall.jpg"><center>
-<a href="https://github.com/OnyHoque">Ony Hoque</a>, <a href="https://fsuya.org/">Suya</a>, <a href="https://www.cs.virginia.edu/evans">David Evans</a>, and <a href="https://sanskaramgain.com.np/">Sanskar Amgain</a> 
-</center></td>
+Ruixuan will present the paper at IEEE Security and Privacy:
 
-</table>
+- Ruixuan Liu, David Evans, Li Xiong. [_Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs_](https://arxiv.org/abs/2604.18697). In [47<sup>th</sup> IEEE Symposium on Security and Privacy](https://sp2026.ieee-security.org/) (Oakland). [[arXiv](https://arxiv.org/abs/2604.18697)] [[Code](https://github.com/Emory-AIMS/Inextractability)]
