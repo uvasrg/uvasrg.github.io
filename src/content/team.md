@@ -189,7 +189,7 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://darioncassel.me">Darion Cassel</a></b><br>2016 &ndash; 2017<br><div class="hanging">Carnegie Mellon University PhD 2023<br></div>   </div>
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="http://jackdoerner.net/">Jack Doerner</a></b><br>2015 &ndash; 2016<br>BSCS 2015; Wizard of Oblivion<br><div class="hanging">Northeastern University PhD 2022<br></div>   </div>
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="http://jackdoerner.net/">Jack Doerner</a></b><br>2015 &ndash; 2016<br>BSCS 2015; Wizard of Oblivion<br><div class="hanging">Northeastern University PhD 2022<br></div>University of Virginia Assistant Professor<br>   </div>
 </div>
 </center>
    <center>
