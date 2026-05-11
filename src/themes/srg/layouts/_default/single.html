@@ -8,8 +8,6 @@
 {{ partial "whatisthis.html" . }}
 {{ end }}
 {{ define "main" }}
-<div class="row">
-  <div class="column small-12 medium-10 medium-offset-1 end large-8 large-offset-0">
     <article class="article" itemscope itemtype="http://schema.org/Article">
       {{ if .Params.image }}
       <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner" itemprop="image">
@@ -25,6 +23,4 @@
     </article>
 
 
-  </div>
-</div>
 {{ end }}
