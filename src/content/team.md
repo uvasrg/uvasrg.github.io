@@ -47,15 +47,6 @@
 </center>
 
 
-# <center>Director</center>
-
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/evans.png"><br><b><a href="https://www.cs.virginia.edu/evans">David Evans</a></b><br>Since Fall 1999<br>   </div>
-</div>
-</center>
-
-
 # <center>Undergraduate Researchers</center>
 
    <center>
@@ -493,3 +484,11 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 <a href="https://www.linkedin.com/in/karen-pan-34b26770">Karen Pan</a></font>
 </center>
           
+
+# <center>Director</center>
+
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/evans.png"><br><b><a href="https://www.cs.virginia.edu/evans">David Evans</a></b><br>Since Fall 1999<br>   </div>
+</div>
+</center>
