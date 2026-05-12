@@ -395,10 +395,20 @@ ul.taxonomy-terms {
 .partner-logo {
     display: block;
     width: auto;
-    max-width: 190px;
-    height: 74px;
+    max-width: 220px;
+    height: 84px;
     object-fit: contain;
     margin: 0 auto;
+}
+
+.action-logo {
+    height: 94px;
+    max-width: 240px;
+}
+
+.ctml-logo {
+    height: 84px;
+    max-width: 220px;
 }
 
 .partner-copy {
@@ -815,8 +825,18 @@ table {
 
     .partner-logo {
         width: auto;
-        max-width: 150px;
-        height: 56px;
+        max-width: 180px;
+        height: 66px;
+    }
+
+    .action-logo {
+        height: 74px;
+        max-width: 200px;
+    }
+
+    .ctml-logo {
+        height: 66px;
+        max-width: 180px;
     }
 
     /* Stack table cells vertically on mobile */
