@@ -387,6 +387,23 @@ ul.taxonomy-terms {
     transition: none;
 }
 
+/* Homepage partner callout rows and logos. */
+.partner-row {
+    align-items: center;
+}
+
+.partner-logo {
+    display: block;
+    width: 100%;
+    max-width: 190px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.partner-copy {
+    line-height: 1.45;
+}
+
 
 /**************************************************
  *  Publications
@@ -787,6 +804,17 @@ table {
     /* Wrap long post titles in prev/next pagination */
     .pagination .arrow a {
         word-break: break-word;
+    }
+
+    /* Keep front-page partner logos compact on small screens. */
+    .partner-logo-cell {
+        text-align: center;
+        margin-bottom: 0.6rem;
+    }
+
+    .partner-logo {
+        width: 72%;
+        max-width: 160px;
     }
 
     /* Stack table cells vertically on mobile */
