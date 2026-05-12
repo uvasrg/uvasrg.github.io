@@ -394,9 +394,10 @@ ul.taxonomy-terms {
 
 .partner-logo {
     display: block;
-    width: 100%;
+    width: auto;
     max-width: 190px;
-    height: auto;
+    height: 74px;
+    object-fit: contain;
     margin: 0 auto;
 }
 
@@ -813,8 +814,9 @@ table {
     }
 
     .partner-logo {
-        width: 72%;
-        max-width: 160px;
+        width: auto;
+        max-width: 150px;
+        height: 56px;
     }
 
     /* Stack table cells vertically on mobile */
