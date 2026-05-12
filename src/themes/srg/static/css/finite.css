@@ -392,8 +392,14 @@ ul.taxonomy-terms {
     align-items: center;
 }
 
+.partner-logo-cell a {
+    display: block;
+    text-align: center;
+}
+
 .partner-logo {
     display: block;
+    float: none;
     width: auto;
     max-width: 220px;
     height: 84px;
