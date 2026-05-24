@@ -215,13 +215,13 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://libraetd.lib.virginia.edu/public_view/oid-d7pl4j7p0efrfq5tbfeg">Shinjini Bose</a></b><br>Spring 2024 &ndash; Spring 2026<br><div class="hanging">LLM fairness<br></div><div class="hanging">Columbia University<br></div>   </div>
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Brett Haas</b><br>Fall 2025 &ndash; Spring 2026<br>BSCS 2026<br><div class="hanging"><em>Spatial Steering for Image Descriptions</em><br></div>   </div>
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>David Onks</b><br>Fall 2025 &ndash; Spring 2026<br>BSCS 2026<br><div class="hanging"><em>Probability Mass Aggregation on NoisyCoconut</em><br></div>   </div>
 </div>
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Shinjini Bose</b><br>Spring 2024 &ndash; Spring 2025<br>MSCS 2026<br><div class="hanging">LLM fairness<br></div>   </div>
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>David Onks</b><br>Fall 2025 &ndash; Spring 2026<br>BSCS 2026<br><div class="hanging"><em>Probability Mass Aggregation on NoisyCoconut</em><br></div>   </div>
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Zihan Mei</b><br>Spring 2024<br><div class="hanging">LLM application privacy<br></div>   </div>
 </div>
 </center>
