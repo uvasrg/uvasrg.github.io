@@ -134,7 +134,7 @@ models.</p>
 <div class="caption">
 Threat model taxonomy of black-box attacks. The first two columns correspond to the quality and quantity of the auxiliary data available to the attacker initially. The remaining columns distinguish threat models based on the type of access they have to the target model, and for adversaries who can submit queries to the target model, the information they receive from the API in response. The symbol ∅ above corresponds to areas in the threat-space that, to the best of our knowledge, are not considered by any attacks in the literature. The sub-category of w/ Pretrained Surrogate with “*” denotes that the corresponding attacks do not require auxiliary data, but the quality of data used to train the surrogate determines the corresponding cell.
 </div>
-<h1 id="heading"></h1>
+<h1></h1>
 <p>Our new top-<em>k</em> adaptation (figure below) demonstrates a significant improvement in performance over the existing baseline in the top-<em>k</em> setting, yet still fails to outperform more restrictive hard-label attacks in some settings, highlighting the need for further investigation.</p>
 <center>
 <a href="/images/blackboxsok2024/topk_comparison.png"><img style="width: 65%" src="/images/blackboxsok2024/topk_comparison.png" alt="Performance of top-_k_ attacks across queries"/></a>
@@ -151,7 +151,7 @@ Threat model taxonomy of black-box attacks. The first two columns correspond to 
 <div class="caption">
 ASR (y-axis) for various targeted attacks on DenseNet201 models, varying across iterations (a) and time (b). All attacks on the left are run for 100 iterations, while attacks on the right are run for 30 minutes per batch. ASR at each iteration is computed using adversarial examples at that iteration. ASR at 40 iterations are marked with a star for each attack.
 </div>
-<h1 id="heading-1"></h1>
+<h1></h1>
 <h3 id="takeaways">Takeaways</h3>
 <p>The paper underscores many unexplored settings in black-box adversarial attacks, particularly emphasizing the significance of meticulous evaluation and experimentation. A critical insight is the existence of many realistic threat models that haven&rsquo;t been investigated, suggesting both a knowledge and a technical gap in current research. Considering the rapid evolution and increasing complexity of attack strategies, carefuly evaluation and consideration of the attack setting becomes even more pertinent. These findings indicate a need for more comprehensive and nuanced approaches to understanding and mitigating black-box attacks in real-world scenarios.</p>
 <h3 id="paper">Paper</h3>

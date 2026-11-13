@@ -4,15 +4,15 @@
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/hannahcyberey.webp"><br><b><a href="https://hannahxchen.github.io/">Yu-Han (Hannah) Cyberey</a></b><br>Co-advised with Yangfeng Ji<br>Fall 2019 &ndash; Summer 2025<br>PhD in Computer Science, August 2025<br>PhD Dissertation: <a href="https://uvasrg.github.io/congratulations-dr.-cyberey/"><em>Sensitivity Auditing for Trustworthy Language Models</em></a><br>Postdoc, UVA School of Data Science<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/anshumansuri.png"><br><b><a href="https://www.anshumansuri.com/">Anshuman Suri</a></b><br>Fall 2019 &ndash; Summer 2024<br>PhD in Computer Science, May 2024<br>PhD Dissertation: <a href="https://uvasrg.github.io/congratulations-dr.-suri/"><em>Inference Privacy in Machine Learning</em></a><br>Postdoc, Northeastern<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/hannahcyberey.webp"><br><b><a href="https://hannahxchen.github.io/">Yu-Han (Hannah) Cyberey</a></b><br>Co-advised with Yangfeng Ji<br>Fall 2019 &ndash; Summer 2025<br>PhD in Computer Science, August 2025<br>PhD Dissertation: <a href="https://uvasrg.github.io/congratulations-dr.-cyberey/"><em>Sensitivity Auditing for Trustworthy Language Models</em></a><br>Pacific Northwest National Laboratory<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/anshumansuri.png"><br><b><a href="https://www.anshumansuri.com/">Anshuman Suri</a></b><br>Fall 2019 &ndash; Summer 2024<br>PhD in Computer Science, May 2024<br>PhD Dissertation: <a href="https://uvasrg.github.io/congratulations-dr.-suri/"><em>Inference Privacy in Machine Learning</em></a><br>Member of Technical Staff, DatologyAI<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/josielamp.png"><br><b><a href="https://www.josephinelamp.com/">Josephine Lamp</a></b><br>Co-advised with Lu Feng<br>Fall 2018 &ndash; Spring 2024<br>PhD in Computer Science, May 2024<br>PhD Dissertation: <a href="https://uvasrg.github.io/congratulations-dr.-lamp/"><em>Trustworthy Clinical Decision Support Systems for Medical Trajectories</em></a><br>Dexcom, Inc.<br>   </div>
 </div>
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/suya-new.jpeg"><br><b><a href="https://fsuya.org/">Fnu Suya</a></b><br>Co-advised with Yuan Tian<br>Fall 2017 &ndash; Summer 2023<br>PhD in Computer Science, August 2023<br>PhD Dissertation: <a href="https://uvasrg.github.io/congratulations-dr.-suya/"><em>On the Limits of Data Poisoning Attacks</em></a><br>Assistant Professor, University of Tennessee, Knoxville<br>   </div>
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jayaraman.png"><br><b><a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a></b><br>Fall 2016 &ndash; Fall 2022<br>PhD in Computer Science, Dec 2022<br>PhD Dissertation: <a href="https://engineering.virginia.edu/events/phd-defense-presentation-bargav-jayaraman"><em>Analyzing the Leaky Cauldron: Inference Attacks on Machine Learning</em></a><br>Meta AI Lab<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/jayaraman.png"><br><b><a href="https://bargavjayaraman.github.io/">Bargav Jayaraman</a></b><br>Fall 2016 &ndash; Fall 2022<br>PhD in Computer Science, Dec 2022<br>PhD Dissertation: <a href="https://engineering.virginia.edu/events/phd-defense-presentation-bargav-jayaraman"><em>Analyzing the Leaky Cauldron: Inference Attacks on Machine Learning</em></a><br>Research Scientist, Oracle Labs<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/xiaozhang.png"><br><b><a href="https://xiao-zhang.net/">Xiao Zhang</a></b><br>Summer 2018 &ndash; Fall 2022<br>PhD in Computer Science, May 2022<br>PhD Dissertation: <a href="https://libraetd.lib.virginia.edu/public_view/g732d9951"><em>From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning</em></a><br>Tenure-track faculty, CISPA Helmholtz Center for Information Security<br>   </div>
 </div>
 </center>
@@ -41,17 +41,22 @@
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/elenalong.png"><br><b><a href="https://elena6918.github.io/">Elena (Minjun) Long</a></b><br>Since Fall 2022<br>privacy of ad ecosystem<br>   </div>
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/elenalong.png"><br><b><a href="https://elena6918.github.io/">Elena (Minjun) Long</a></b><br>Since Fall 2022<br>privacy of ad ecosystem; host-based security rules; agentic policy confinement<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/people/mingtian.webp"><br><b><a href="https://bennytmt.github.io/mingtiant/">Mingtian Tan</a></b><br>Co-advised with Tom Hartsvigsen<br>Since Spring 2024<br>LLMs and time series data<br>   </div>
 </div>
 </center>
 
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Junyan Huang</b><br>Co-advised with Yen-Ling Kuo<br>Since Spring 2026<br>robotic safety<br>   </div>
+</div>
+</center>
 
-# <center>Undergraduate Researchers</center>
+
+# <center>Undergraduate Researcher</center>
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Alexander Chung</b><br>Since Fall 2025<br>Security Rules<br>   </div>
    <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><b>Nia Mucher</b><br>Since Fall 2025<br>Auditing AI Image Generators<br>   </div>
 </div>
 </center>
@@ -176,7 +181,7 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
 
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://darioncassel.me">Darion Cassel</a></b><br>2016 &ndash; 2017<br><div class="hanging">Carnegie Mellon University PhD 2023<br></div>   </div>
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://darioncassel.me">Darion Cassel</a></b><br>2016 &ndash; 2017<br><div class="hanging">Carnegie Mellon University PhD 2023<br></div>Anthropic<br>   </div>
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="http://jackdoerner.net/">Jack Doerner</a></b><br>2015 &ndash; 2016<br>BSCS 2015; Wizard of Oblivion<br><div class="hanging">Northeastern University PhD 2022<br></div>University of Virginia Assistant Professor<br>   </div>
 </div>
 </center>
@@ -201,7 +206,7 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://web.archive.org/web/20150530013053/http://cs.unc.edu/~jmc/Home.html">John Calandrino</a></b><br>2002<br><div class="hanging">University of North Carolina PhD 2009 (worked with James Anderson on real-time scheduling for multicore platforms)<br></div>Microsoft<br>   </div>
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="http://www-bcf.usc.edu/~halfond/">William (GJ) Halfond</a></b><br>2002<br><div class="hanging">Georgia Tech PhD 2010 (worked on web application security with Alessandro Orso)<br></div>University of Southern California,  Associate Professor of Computer Science<br>   </div>
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://viterbi-web.usc.edu/~halfond/">William (GJ) Halfond</a></b><br>2002<br><div class="hanging">Georgia Tech PhD 2010 (worked on web application security with Alessandro Orso)<br></div>University of Southern California,  Professor of Computer Science<br>   </div>
 </div>
 </center>
    <center>
@@ -216,258 +221,263 @@ href="https://github.com/gjverrier">Guy &ldquo;Jack&rdquo; Verrier</a>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://libraetd.lib.virginia.edu/public_view/oid-d7pl4j7p0efrfq5tbfeg">Shinjini Bose</a></b><br>Spring 2024 &ndash; Spring 2026<br><div class="hanging">LLM fairness<br></div><div class="hanging">Columbia University<br></div>   </div>
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Alexander Chung</b><br>Fall 2025 &ndash; Spring 2026<br><div class="hanging">Security Rules<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Brett Haas</b><br>Fall 2025 &ndash; Spring 2026<br>BSCS 2026<br><div class="hanging"><em>Spatial Steering for Image Descriptions</em><br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>David Onks</b><br>Fall 2025 &ndash; Spring 2026<br>BSCS 2026<br><div class="hanging"><em>Probability Mass Aggregation on NoisyCoconut</em><br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Zihan Mei</b><br>Spring 2024<br><div class="hanging">LLM application privacy<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Yanjin Chen</b><br>Summer 2022 &ndash; Spring 2023<br><div class="hanging">inference privacy<br></div><div class="hanging">Princeton University (Bioinformatics)<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://evanrose.info/">Evan Rose</a></b><br>Summer 2021 &ndash; Spring 2023<br>BSCS 2023<br><div class="hanging">poisoning attacks<br></div><div class="hanging">Northeastern University PhD (Alina Oprea)<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://ztingwei.com/">Tingwei Zhang</a></b><br>Summer 2022 &ndash; Spring 2023<br>BACS 2023<br><div class="hanging">black-box attacks machine learning systems<br></div><div class="hanging">Cornell PhD (Vitaly Shmatikov)<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Scott Hong</b><br>Summer 2022<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Meredith James</b><br>Fall 2021 &ndash; Summer 2022<br><div class="hanging">inference privacy<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Yifu Lu</b><br>Fall 2021 &ndash; Summer 2022<br><div class="hanging">inference privacy<br></div><div class="hanging">University of Michigan<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Jinghui Tian</b><br>Summer 2022<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Isabelle Fang</b><br>Fall 2020 &ndash; Fall 2021<br><div class="hanging">natural language processing<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Katherine Knipmeyer</b><br>Summer 2020 &ndash; Fall 2021<br><div class="hanging">evaluating privacy for machine learning<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Justin Chen</b><br>Summer 2021<br><div class="hanging">inference privacy<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Sean Miller</b><br>Summer 2021<br><div class="hanging">poisoning attacks<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>William Buerk</b><br>Visiting High School Student, Fall 2020 &ndash; Spring 2021<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.linkedin.com/in/nicholas-figgins/">Nick Figgins</a></b><br>Summer 2020 &ndash; Spring 2021<br><div class="hanging">adversarial machine learning for malware classification<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Anika Karpurapu</b><br>Visiting High School Student, Fall 2020 &ndash; Spring 2021<br><div class="hanging">evaluating privacy for machine learning<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.linkedin.com/in/jack-prescott-4319a913a">Jack Prescott</a></b><br>Fall 2019 &ndash; Spring 2021<br>BACS 2021 (Highest Distinction)<br><div class="hanging"><a href="https://csdmp.github.io/docs/prescott2021.pdf"><em>Improved Estimation of Concentration under Lp-norm Distance Metrics using Half Spaces</em></a><br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Pragun Ananda</b><br>Summer 2020 &ndash; Fall 2020<br><div class="hanging">natural language processing<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Emily Buerk</b><br>Summer 2020 &ndash; Fall 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Brian Tran</b><br>Summer 2020 &ndash; Fall 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Alex Becker</b><br>Co-advised with Denis Nekipelov<br>Summer 2020<br><div class="hanging">revealing privacy preferences<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Jessie Li</b><br>Summer 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Konrad Siebor</b><br>Summer 2020<br><div class="hanging">black-box attacks machine learning systems<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.linkedin.com/in/katherine-weinschenk-4968a0150/">Katherine Weinschenk</a></b><br>Summer 2020<br><div class="hanging">societal risks of AI<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.linkedin.com/in/erwinxwijaya/">Erwin Wijaya</a></b><br>Co-advised with Denis Nekipelov<br>Summer 2020<br><div class="hanging">revealing privacy preferences<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://twitter.com/eryous_ye">Youssef Errami</a></b><br>Summer 2019 &ndash; Spring 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/jm214p64h"><em>A Deeper Look into the Fairness of Differential Privacy</em></a><br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Cameron Lloyd</b><br>Spring 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/jd472x184"><em>Quantifying the Current Transportation Landscapes in Charlottesville to Evaluate the Effects of Shared Dockless E-Scooters on Mobility</em></a><br></div><div class="hanging">Microsoft<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.linkedin.com/in/kushpatel12/">Kush Patel</a></b><br>Fall 2019 &ndash; Spring 2020<br>BSCS 2020<br><div class="hanging"><em>The Effects of Clipping on Differentially Private Machine Learning</em><br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="http://jhoughton.me/">James Houghton</a></b><br>Co-advised with Yixin Sun<br>2019 &ndash; 2020<br>BSCS 2020<br><div class="hanging"><a href="https://libraetd.lib.virginia.edu/public_view/gf06g3296"><em>An Analysis of The Fingerprintability of Web Traffic Through obfs4</em></a><br></div><div class="hanging">Google<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://twitter.com/sammedlin">Samuel Medlin</a></b><br>Summer 2019 &ndash; Fall 2019<br>BSCS Fall 2019<br><div class="hanging"><em>Inferring and Analyzing User Privacy Preferences</em><br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.jeffersonscholars.org/people/jonah-weissman">Jonah Weissman</a></b><br>Summer 2019<br><div class="hanging">evaluating privacy for machine learning<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Nathaiel Grevatt</b><br>2018 &ndash; 2019<br><div class="hanging">secure computation and the GDPR<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Aditi Narvekar</b><br>2017 &ndash; 2019<br><div class="hanging">adversarial machine learning<br></div><div class="hanging">Apple; Georgia Tech OMCS<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="http://helen-simecek.github.io/">Helen Simecek</a></b><br>2017 &mdash; 2019<br>BACS 2019<br><div class="hanging"><a href="https://github.com/helen-simecek/PEvadeML"><em>Evading Windows Malware Classifiers</em></a><br></div><div class="hanging">Microsoft<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://github.com/lemons2lemonade">Matthew Wallace</a></b><br>2018 &ndash; 2019<br><div class="hanging">University of Wisconsin MS 2021<br></div>Amazon (<a href="https://aws.amazon.com/bedrock/guardrails/">Guardrails</a>)<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Parvesh Samayamanthula</b><br>Visiting High School Student, Summer 2018<br><div class="hanging">adversarial NLP for privacy policies<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.linkedin.com/in/anant-kharkar-502433b9">Anant Kharkar</a></b><br>2015 &ndash; 2018<br>BSCS 2018<br><div class="hanging">evading classifiers<br></div><div class="hanging">Amazon; Microsoft<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://github.com/jnayak1">Jesse Nayak</a></b><br>Summer 2017 &ndash; 2018<br>BSCS 2018<br><div class="hanging"><a href="https://github.com/jnayak1/kmp-mpc">oblivious substring search</a><br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Felix Park</b><br>2017 &ndash; 2018<br><div class="hanging">adversarial machine learning<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Amar Singh</b><br>2017 &ndash; 2018<br><div class="hanging">proof-of-stake vulnerabilities<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Kelvin Sparks</b><br>Fall 2017 &ndash; 2018<br>BSCS 2018<br><div class="hanging">cryptocurrency governance<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="http://www.noahdkim.com/">Noah Kim</a></b><br>Summer 2017<br><div class="hanging"><a href="https://evademl.org/squeezing">feature squeezing</a><br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://havron.info/">Samuel Havron</a></b><br>2015 &ndash; 2017<br><div class="hanging">Cornell University<br></div>Meta<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.linkedin.com/in/ziqiliu">Ziqi Liu</a></b><br>Fall 2015 &ndash; Spring 2016<br>BACS 2016<br><div class="hanging">web security<br></div><div class="hanging">Microsoft<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://cn.linkedin.com/in/hao-bai-7b91447a">Hao Bai</a></b><br>2014 &ndash; 2016<br>BSCS 2016<br><div class="hanging">Harvard University MS<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.linkedin.com/in/karen-pan-34b26770">Karen Pan</a></b><br>2015 &ndash; 2016<br><div class="hanging">web security<br></div><div class="hanging">UVA Statistics<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Ori Shimony</b><br>Summer 2015 &ndash; 2016<br><div class="hanging">incentives and Tor<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Hunter Leath</b><br>Summer 2014 &ndash; Fall 2015<br>BACS Fall 2015<br><div class="hanging"><a href="http://airdispat.ch">airdispat.ch</a> and <a href="http://getmelange.com">Melange</a><br></div><div class="hanging">Amazon (Cambridge, MA)<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Shay Batheja</b><br>Summer 2015<br><div class="hanging">learning materials for <a href="https://picoctf.com/">PicoCTF</a> and beyond<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Samantha Lagestee</b><br>Summer 2015<br><div class="hanging">learning materials for <a href="https://picoctf.com/">PicoCTF</a> and beyond<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Andrew Lee</b><br>Summer 2015<br><div class="hanging">learning materials for <a href="https://picoctf.com/">PicoCTF</a> and beyond<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Mike Verdicchio</b><br>Summer 2015<br><div class="hanging">learning materials for <a href="https://picoctf.com/">PicoCTF</a> and beyond<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Brian Walter</b><br>Summer 2015<br><div class="hanging">learning materials for <a href="https://picoctf.com/">PicoCTF</a> and beyond<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Corey Ames</b><br>2014 &ndash; 2015<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.linkedin.com/in/natnatee-dokmai-14005b167/">Natnatee Dokmai</a></b><br>2013 &ndash; 2015<br>BACS 2015<br><div class="hanging">Indiana University MS<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Mark Hannan</b><br>Summer 2014<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Michael Mahoney</b><br>Summer 2014<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Kyle McGuire</b><br>Summer 2014<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Rob Michaels</b><br>Summer 2014<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="http://orfe.princeton.edu/people/graduate">Theo Gutman-Solo</a></b><br>2013 &ndash; 2014<br>BACS 2014<br><div class="hanging">Princeton University PhD program in Operations Research<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Travis Dean</b><br>Summer 2013<br><div class="hanging">implementing secure computation protocols<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Robert Jacobs</b><br>Summer 2013<br><div class="hanging">prime numbers<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Guanmei Liang</b><br>Summer 2013<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://github.com/jburket">Jonathan Burket</a></b><br>2010 &ndash; 2013<br>BACS 2013<br>CRA Outstanding Undergraduate Honorable Mentionee 2013<br> CMU MS 2015<br> Apogee Research<br> DuoLingo<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="http://www.cs.cmu.edu/afs/cs/user/pmchapma/www/">Peter Chapman</a></b><br>2009 &ndash; 2012<br>BACS 2012<br>CRA Outstanding Undergraduate Award Runner-Up in 2012<br> CMU MS 2015<br> DuoLingo<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Jenny Cha</b><br>Summer 2011<br><div class="hanging">secure web applications<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Jiamin Chen</b><br>Summer 2011<br>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Austin DeVinney</b><br>Visiting Undergraduate Researcher, Summer 2011<br><div class="hanging">secure web application framework<br></div>visiting from Radford University<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Brittany Harris</b><br>Summer 2011<br><div class="hanging">secure multi-party computation<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>SangHyung Koo</b><br>Summer 2011<br><div class="hanging">secure mobile applications<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Casey Mihaloew</b><br>Summer 2011<br><div class="hanging">secure web aplication framework<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Michael Weaver</b><br>Summer 2010 &ndash; Spring 2011<br>BSCS 2011<br><div class="hanging">a secure web application framework<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.linkedin.com/in/shengxuanye">Shengxuan (Jerry) Ye</a></b><br>Spring 2011<br><div class="hanging">CalTech (Masters in Computation and Neural Systems)<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="https://www.mzaveri.com/">Muzzammil Zaveri</a></b><br>Summer 2010 &ndash; Spring 2011<br>BSCS 2011<br><div class="hanging">a secure web application framework<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Paul DiOrio</b><br>Summer 2008<br><div class="hanging">linguistics and security<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Richard Hsu</b><br>Summer 2008<br><div class="hanging">scene-based CAPTCHAs<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Rachel Lathbury</b><br>Summer 2008<br>BACS 2010<br><div class="hanging">University of Pennsylvania (Linguistics)<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Meghan Knoll</b><br>Summer 2007<br><div class="hanging">spyware<br></div>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Carly Simpson</b><br>Summer 2007<br><div class="hanging">security applications of GPUs<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b><a href="http://sammyg.org/">Salvatore Guarnieri</a></b><br>2003 &ndash; 2006<br>University of Washington (Masters  2010)<br> now at Google (New York)<br> CRA Outstanding Undergraduate Award Finalist in 2006<br>   </div>
-</div>
-</center>
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Michael Peck</b><br>2003 &ndash; 2004<br><div class="hanging">Johns Hopkins University MS<br></div>   </div>
-   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>David Friedman</b><br>2002<br><div class="hanging">Johns Hopkins University<br></div>   </div>
 </div>
 </center>
    <center>
    <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
+   <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>David Friedman</b><br>2002<br><div class="hanging">Johns Hopkins University<br></div>   </div>
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Adam Trost</b><br>2001 &ndash; 2002<br><div class="hanging">UVA Law School<br></div>   </div>
+</div>
+</center>
+   <center>
+   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
    <div class="column small-12 medium-6" style="text-align: center; padding: 0.5rem;"><b>Ryan Persaud</b><br>2001<br><div class="hanging">UC San Diego<br></div>   </div>
 </div>
 </center>
